@@ -21,9 +21,15 @@
 ||happyhomepets.com^
 ||clck.run^
 ||neemex.com^
+||aresbet754.com^
+||aresbetadres.com^
 
+#- Social Media Pages
+||pinterest.com/aresbetlogin/^$doc
+||t.me/+prpHn9Z2GxU3ODJk^$doc
 
 #- Redirect Links
+||tinyurl.com/lordcasino^$doc
 ||cutt.ly/OrqEXLqL^$doc
 ||cutt.ly/portokazandirir^$doc
 ||cutt.ly/we8Kwgbj^$doc
