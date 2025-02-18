@@ -1,15 +1,24 @@
 #- Gambling Related Domains
-||restbetgiris.co^
-||betpasgiris.vip^
 ||16aff.com^
-||nakjdjsd.com^
-||casinomhub124.com^
-||hayatguzel.com^
 ||910betebet.com^
+||adaptivelab.com^
+||betpasgiris.vip^
+||casinomhub124.com^
+||coursecrafters.com^
+||greenfaucet.com^
+||hayatguzel.com^
+||nakjdjsd.com^
+||orbizenergyfze.com^
+||otterbein360.com^
+||pixelspot.net^
+||restauranttome.com^
+||restbetgiris.co^
+||submate.com^
+||sweetnaturesbeauty.com^
 
 #- Redirect Links
-||t.ly/levanttv^$document
 ||cutt.ly/portokazandirir^$document
+||t.ly/levanttv^$document
 ||t2m.io/132422^$document
 ||t2m.io/hXtUgzR^$document
 ||tinyurl.com/btbaff^$document
