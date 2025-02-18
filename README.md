@@ -1,6 +1,6 @@
 # Türkçe Reklam, Kumar ve İzleyici Engelleyici Filtre Listesi
 
-Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin; AdGuard Browser) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
+Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin; **AdGuard**) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
 
 ## 🚀 Özellikler
 
@@ -23,7 +23,7 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 
 4. Ayarları kaydedin ve filtre listesinin güncellemelerini takip edin.
 
-### AdGuard Kullanıcıları
+### [AdGuard](https://adguard.com/tr/adguard-browser-extension/overview.html) Kullanıcıları
 
 1. AdGuard’ın ayarlar menüsüne gidin.
 2. "Filtre Listeleri" bölümünde, özel filtre ekleme seçeneğini bulun.
