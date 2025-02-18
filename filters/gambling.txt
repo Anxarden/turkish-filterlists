@@ -1,5 +1,5 @@
 #- Gambling Related Regex
-*$all,to=/(\d+)?betturkey\.com/,/(\d+)?betebet\.com/,/casinomhub(\d+)?\.com/,/arasbet(\d+)?\.com/,/sonbahis(\d+)?\.com/
+*$all,to=/(\d+)?betturkey\.com$/,/(\d+)?betebet\.com$/,/casinomhub(\d+)?\.com$/,/arasbet(\d+)?\.com$/,/sonbahis(\d+)?\.com$/
 
 #- Gambling Related Domains
 ||16aff.com^
