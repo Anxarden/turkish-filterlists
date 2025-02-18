@@ -1,1 +1,4 @@
 
+!- Gambling ADs
+diziwatch2.net##.body-clickable
+diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
