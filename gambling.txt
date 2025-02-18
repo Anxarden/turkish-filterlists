@@ -1,2 +1,7 @@
+#- Gamling Related Domains
 ||restbetgiris.co^
 ||betpasgiris.vip^
+||16aff.com^
+
+#- Redirect Links
+||t.ly/levanttv^$document
