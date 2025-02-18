@@ -1,4 +1,4 @@
-name: Sync Nextcloud Files
+name: Auto-fetch from Nextcloud
 
 on:
   schedule:
