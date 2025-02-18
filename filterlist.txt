@@ -1,9 +1,9 @@
-#- Title: 🇹🇷 [Türkçe] Filtre Listesi - Anxarden
-#- Homepage: https://github.com/Anxarden/turkish-filterlist/
-#- Author: Anxarden
-#- Description: Blocking Ads, Trackers and Annoying Frames to Explore World-Wide-Web as Clean as Possible.
-#- Last modified: 2025.02.07
-#- Expires: 12 hours
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Anxarden
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
+# Description: Blocking Ads, Trackers and Annoying Frames to Explore World-Wide-Web as Clean as Possible.
+# Last modified: 2025.02.07
+# Expires: 6 hours
 
 #- GAMBLING FILTERS
 !#include filters/gambling.txt
