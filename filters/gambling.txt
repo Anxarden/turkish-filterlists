@@ -1,3 +1,4 @@
+
 #- Gambling Related Regex
 *$all,to=/^(.*\.)?(\d+)?betturkey\.com$/
 *$all,to=/^(.*\.)?(\d+)?betebet\.com$/
