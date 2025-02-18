@@ -1,20 +1,50 @@
-# Türkçe Reklam, Kumar ve İzleyici Engelleyici - uBlock Origin Filtre Listesi
+# Türkçe Reklam, Kumar ve İzleyici Engelleyici Filtre Listesi
 
-Türkçe reklamları, kumar sitelerini ve izleyicileri (trackers) engelleyen özel bir **uBlock Origin** filtre listesidir.
+Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin AdGuard Browser) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
 
 ## 🚀 Özellikler
-- **Reklam Engelleme**: Türkçe web sitelerinde görünen rahatsız edici reklamları kaldırır.
-- **Kumar Siteleri Engelleme**: Yasadışı ve zararlı olabilecek kumar sitelerine erişimi engeller.
-- **İzleyici Engelleme**: Web sitelerinde kullanıcıları izleyen takip sistemlerini engeller.
-- **Rahatsız Edici Ögeleri Kaldırma**: Pop-up'lar, otomatik oynatılan videolar ve diğer rahatsız edici unsurları engeller.
+
+- **Reklam Engelleme:** Türkçe web sitelerinde kullanıcı deneyimini olumsuz etkileyen rahatsız edici reklamları kaldırır.
+- **Kumar Siteleri Engelleme:** Yasadışı ve zararlı olma ihtimali bulunan kumar sitelerine erişimi engeller.
+- **İzleyici (Tracker) Engelleme:** Web sitelerindeki kullanıcı izleme sistemlerine karşı koruma sağlar.
+- **Rahatsız Edici Ögeleri Kaldırma:** Pop-up'lar, otomatik oynatılan videolar gibi dikkat dağıtıcı unsurları devre dışı bırakır.
+
+## 🛠 Entegrasyon ve Kullanım
+
+Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard Browser üzerinde filtre listesini entegre edebilirsiniz:
+
+### uBlock Origin Kullanıcıları
+
+1. uBlock Origin ayarlar menüsünü açın.
+2. "Filtre Listeleri" veya "Custom Filters" bölümüne gidin.
+3. Aşağıdaki URL’yi veya filtre listesinin içeriğini ekleyin:
+
+   - [Filtre Listesi URL’nizi buraya ekleyin]
+
+4. Ayarları kaydedin ve filtre listesinin güncellemelerini takip edin.
+
+### AdGuard Browser Kullanıcıları
+
+1. AdGuard Browser’ın ayarlar menüsüne gidin.
+2. "Filtre Listeleri" bölümünde, özel filtre ekleme seçeneğini bulun.
+3. Filtre listesi URL’sini ekleyin veya manuel olarak içeriği yapıştırın:
+
+   - [Filtre Listesi URL’nizi buraya ekleyin]
+
+4. Değişiklikleri kaydederek filtre listesinin aktif olduğunu kontrol edin.
 
 ## 🛠 Katkıda Bulunma
-Bu filtre listesi sürekli güncellenmektedir. Eğer engellenmesini gerektiğini düşündüğünüz bir reklam, kumar sitesi veya izleyici bulursanız, lütfen bir **Issue** açarak veya **Pull Request** göndererek katkıda bulunun.
+
+Bu filtre listesi sürekli güncellenmekte ve geliştirilmektedir. Eğer engellenmesini gerektiğini düşündüğünüz bir reklam, kumar sitesi veya izleyici bulursanız, lütfen GitHub üzerinden bir Issue açın veya Pull Request göndererek katkıda bulunun. Katkılarınız, listenin daha etkili ve güncel kalmasına yardımcı olacaktır.
 
 ## 📜 Lisans
-Bu proje **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisanslanmıştır. Filtreyi serbestçe kullanabilir, paylaşabilir ve değiştirebilirsiniz, ancak adımı kaynak olarak göstermelisiniz.
-[Lisans Detayları (Türkçe)](https://creativecommons.org/licenses/by/4.0/deed.tr)
+
+Bu proje, **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisanslanmıştır. Filtre listesini serbestçe kullanabilir, paylaşabilir ve değiştirebilirsiniz; ancak değişiklik yaptığınız veya paylaşımda bulunduğunuz halde orijinal kaynağı belirtmeniz gerekmektedir. Lisans ile ilgili detaylı bilgiler için [Lisans Detayları (Türkçe)](https://creativecommons.org/licenses/by/4.0/deed.tr) linkini inceleyebilirsiniz.
+
+## 📧 İletişim
+
+Geri bildirim ve önerileriniz için lütfen GitHub üzerinden bizimle iletişime geçin. Soru, rapor veya katkılarınızı [Issues](https://github.com/kullaniciAdi/projeAdi/issues) bölümünde paylaşabilirsiniz.
 
 ---
-📧 **İletişim**: Geri bildirim ve önerileriniz için GitHub üzerinden bizimle iletişime geçebilirsiniz.
 
+Bu proje, kullanıcıların daha güvenli, temiz ve keyifli bir internet deneyimi yaşamaları amacıyla geliştirilmiştir. Düzenli güncellemeler ve topluluk katkıları ile filtre listemizi sürekli iyileştirmeye devam ediyoruz.
