@@ -5,8 +5,16 @@
 # Last modified: 2025.02.07
 # Expires: 6 hours
 
+#- AD FILTERS
+!#include filters/ads.txt
+
+#- TRACKING FILTERS
+!#include filters/tracking.txt
+
+#- ANNOYANCE FILTERS
+!#include filters/annoyances.txt
+
 #- GAMBLING FILTERS
 !#include filters/gambling.txt
 
-#- ANNOYANCES FILTERS
-!#include filters/annoyances.txt
+
