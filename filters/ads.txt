@@ -6,21 +6,27 @@ net,com##[class$="-ad-container"i]
 net,com##[class*="-ads-adjustment"i]
 net,com##[class="ads_single_font"i]
 net,com##[class="player-side-ad"i]
+#- Specific Filters
+!- AD Banners & Popup AD Buttons
+/dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
+/dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
+!- AD & Telegram Banners
+/diziyou\d?\.(com?|live)/###wrap>[href*="//t2m.io/"]:has(img)
+/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
 !- Gambling ADs
 diziwatch2.net##.body-clickable
 diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 !- Sponsored Banner
 akakce.com##.topBanner[rel^=sponsored]
-!- IPTV ADs Widged
+!- IPTV ADs
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
 !- AD Banner
 nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
 !- AD Cards
 haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
-!- Toyota AD Banner
+!- AD Banner
 fatihaltayli.com.tr##[id^=tdi_][class^=tdc-row]:has([href^="https://www.toyota.com.tr/"]>img)
-!- Player Background Image with ADs
+!- Player ADs
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
-!- Media Title AD at Bottom of the Player
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
