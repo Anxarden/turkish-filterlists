@@ -4,3 +4,9 @@
 #- Description: Blocking Ads, Trackers and Annoying Frames to Explore World-Wide-Web as Clean as Possible.
 #- Last modified: 2025.02.07
 #- Expires: 12 hours
+
+#- GAMBLING FILTERS
+!#include filters/gambling.txt
+
+#- ANNOYANCES FILTERS
+!#include filters/annoyances.txt
