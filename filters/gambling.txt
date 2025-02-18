@@ -4,6 +4,7 @@
 *$all,to=/casinomhub(\d+)?\.com$/
 *$all,to=/arasbet(\d+)?\.com$/
 *$all,to=/sonbahis(\d+)?\.com$/
+*$all,to=/mobilbahis(\d+)?\.com$/
 
 #- Gambling Related Domains
 ||16aff.com^
