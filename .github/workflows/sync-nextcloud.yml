@@ -14,10 +14,11 @@ jobs:
 
       - name: Download Files from Nextcloud
         run: |
-          curl -o file1.txt "https://your-nextcloud.com/s/abc123/download"
-          curl -o file2.txt "https://your-nextcloud.com/s/def456/download"
-          curl -o file3.txt "https://your-nextcloud.com/s/ghi789/download"
-          curl -o file4.txt "https://your-nextcloud.com/s/jkl012/download"
+          curl -o filterlist.txt "https://kim.nl.tab.digital/s/BxfidAJbrX2MEWD/download/filterlist.txt"
+          curl -o filters/ads.txt "https://kim.nl.tab.digital/s/RAsbYmQBj43btRi/download/ads.txt"
+          curl -o filters/gambling.txt "https://kim.nl.tab.digital/s/4QZMc8K7aJwYSoB/download/gambling.txt"
+          curl -o filters/annoyances.txt "https://kim.nl.tab.digital/s/tiNB9TyksoatPWF/download/annoyances.txt"
+          curl -o filters/tracking.txt "https://kim.nl.tab.digital/s/ipsq8zySZGqBqbY/download/tracking.txt"
 
       - name: Commit and Push Changes
         run: |
