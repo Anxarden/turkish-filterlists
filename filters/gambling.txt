@@ -1,5 +1,6 @@
 #- Gambling Related Domains
 ||16aff.com^
+||384betturkey.com^
 ||910betebet.com^
 ||adaptivelab.com^
 ||betpasgiris.vip^
@@ -13,13 +14,16 @@
 ||pixelspot.net^
 ||restauranttome.com^
 ||restbetgiris.co^
+||srenarj05s3nxp26xtx54me10isach2m.xyz^
 ||submate.com^
 ||sweetnaturesbeauty.com^
 
 #- Redirect Links
-||cutt.ly/portokazandirir^$document
-||t.ly/levanttv^$document
-||t2m.io/132422^$document
-||t2m.io/hXtUgzR^$document
-||t2m.io/skmp^$document
-||tinyurl.com/btbaff^$document
+||cutt.ly/OrqEXLqL^$doc
+||cutt.ly/portokazandirir^$doc
+
+||t.ly/levanttv^$doc
+||t2m.io/132422^$doc
+||t2m.io/hXtUgzR^$doc
+||t2m.io/skmp^$doc
+||tinyurl.com/btbaff^$doc
