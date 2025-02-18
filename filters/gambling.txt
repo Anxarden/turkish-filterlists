@@ -1,10 +1,10 @@
 #- Gambling Related Regex
-*$all,to=/(\d+)?betturkey\.com$/
-*$all,to=/(\d+)?betebet\.com$/
-*$all,to=/casinomhub(\d+)?\.com$/
-*$all,to=/arasbet(\d+)?\.com$/
-*$all,to=/sonbahis(\d+)?\.com$/
-*$all,to=/mobilbahis(\d+)?\.com$/
+*$all,to=/(.*\.)?(\d+)?betturkey\.com$/
+*$all,to=/(.*\.)?(\d+)?betebet\.com$/
+*$all,to=/(.*\.)?casinomhub(\d+)?\.com$/
+*$all,to=/(.*\.)?arasbet(\d+)?\.com$/
+*$all,to=/(.*\.)?sonbahis(\d+)?\.com$/
+*$all,to=/(.*\.)?mobilbahis(\d+)?\.com$/
 
 #- Gambling Related Domains
 ||16aff.com^
