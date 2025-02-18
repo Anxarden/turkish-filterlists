@@ -1,4 +1,26 @@
 
+#- Generic Filters
+!- Picked for/from dizipal.com
+net,com##[class="ads-container"i]
+net,com##[class$="-ad-container"i]
+net,com##[class*="-ads-adjustment"i]
+net,com##[class="ads_single_font"i]
+net,com##[class="player-side-ad"i]
 !- Gambling ADs
 diziwatch2.net##.body-clickable
 diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+!- Sponsored Banner
+akakce.com##.topBanner[rel^=sponsored]
+!- IPTV ADs Widged
+turktorrent.us##[id=advertisements]:remove()
+turktorrent.us##^script:has-text(#advertisements)
+!- AD Banner
+nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+!- AD Cards
+haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
+!- Toyota AD Banner
+fatihaltayli.com.tr##[id^=tdi_][class^=tdc-row]:has([href^="https://www.toyota.com.tr/"]>img)
+!- Player Background Image with ADs
+dactylogagnant.click,hlktrpl.cfd##.jw-preview
+!- Media Title AD at Bottom of the Player
+dactylogagnant.click,hlktrpl.cfd##.jw-title 

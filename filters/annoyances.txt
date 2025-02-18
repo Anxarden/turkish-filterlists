@@ -1,1 +1,17 @@
 
+!- Prevent Fetching Images of Shopping Goods/Marketing (Both Scriptlets are Working.) And Block AD Banner 
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+zaytung.com##+js(abort-on-property-write, displayBanner)
+zaytung.com##[id^=sidebar]>#banner
+!- Anizm Minecraft Server Announcement 
+anizm.net##^.animeIzleInnerContainer>a[class][title][href]
+!- Unnecessary Anime/Manga News
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
+!- Unnecessary Fansub Notice Board
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
+!- Social Links
+turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
+!- TurkAnime Logo Wrapper
+turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
+!- Social Media Links at the side of Search Bar
+tureng.com##[class$="-socialmedia"]
