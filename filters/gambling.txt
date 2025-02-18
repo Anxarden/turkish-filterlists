@@ -1,3 +1,5 @@
+#- Gambling Related Regex
+/(.*\.)?\d+betturkey\.com/^
 #- Gambling Related Domains
 ||16aff.com^
 ||384betturkey.com^
@@ -26,6 +28,16 @@
 ||e9dmst6.com^
 ||x011bt.com^
 ||xf38lo22j1y0ihymst.com^
+||vlpartners.com^
+||iyibahissiteleri.co^
+||silentbet.com^
+||bahis.com^
+||sporsaha.com^
+||goalwebber.com^
+||mobilbahis1116.com^
+||mbahis1.io^
+||sonbahisbet.com^
+||sonbahis344.com^
 
 #- Social Media Pages
 ||pinterest.com/aresbetlogin/^$doc
@@ -33,6 +45,7 @@
 ||t.me/+prpHn9Z2GxU3ODJk^$doc
 
 #- Redirect Links
+||https://cutt.ly/t9nsqCp^$doc
 ||tinyurl.com/lordcasino^$doc
 ||cutt.ly/OrqEXLqL^$doc
 ||cutt.ly/portokazandirir^$doc
