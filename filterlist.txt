@@ -2,7 +2,6 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 # Description: Blocking Ads, Trackers and Annoying Frames to Explore World-Wide-Web as Clean as Possible.
-# Last modified: 2025.02.18
 # Expires: 6 hours
 
 #- AD FILTERS
