@@ -43,7 +43,7 @@ Bu proje, **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisansla
 
 ## 📧 İletişim
 
-Geri bildirim ve önerileriniz için lütfen GitHub üzerinden bizimle iletişime geçin. Soru, rapor veya katkılarınızı [Issues](https://github.com/kullaniciAdi/projeAdi/issues) bölümünde paylaşabilirsiniz.
+Geri bildirim ve önerileriniz için lütfen GitHub üzerinden bizimle iletişime geçin. Soru, rapor veya katkılarınızı [Issues](https://github.com/Anxarden/turkish-filterlists/issues) bölümünde paylaşabilirsiniz.
 
 ---
 
