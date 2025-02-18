@@ -1,6 +1,6 @@
 # Türkçe Reklam, Kumar ve İzleyici Engelleyici Filtre Listesi
 
-Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin AdGuard Browser) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
+Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin; AdGuard Browser) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
 
 ## 🚀 Özellikler
 
@@ -11,7 +11,7 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 
 ## 🛠 Entegrasyon ve Kullanım
 
-Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard Browser üzerinde filtre listesini entegre edebilirsiniz:
+Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard üzerinde filtre listesini entegre edebilirsiniz:
 
 ### uBlock Origin Kullanıcıları
 
@@ -23,9 +23,9 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 
 4. Ayarları kaydedin ve filtre listesinin güncellemelerini takip edin.
 
-### AdGuard Browser Kullanıcıları
+### AdGuard Kullanıcıları
 
-1. AdGuard Browser’ın ayarlar menüsüne gidin.
+1. AdGuard’ın ayarlar menüsüne gidin.
 2. "Filtre Listeleri" bölümünde, özel filtre ekleme seçeneğini bulun.
 3. Filtre listesi URL’sini ekleyin veya manuel olarak içeriği yapıştırın:
 
