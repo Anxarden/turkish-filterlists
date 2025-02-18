@@ -13,7 +13,7 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 
 Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard üzerinde filtre listesini entegre edebilirsiniz:
 
-### uBlock Origin Kullanıcıları
+### 🛡 uBlock Origin Kullanıcıları
 
 1. uBlock Origin ayarlar menüsünü açın.
 2. "Filtre Listeleri" veya "Custom Filters" bölümüne gidin.
@@ -23,7 +23,7 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 
 4. Ayarları kaydedin ve filtre listesinin güncellemelerini takip edin.
 
-### [AdGuard](https://adguard.com/tr/adguard-browser-extension/overview.html) Kullanıcıları
+### 🛡 [AdGuard](https://adguard.com/tr/adguard-browser-extension/overview.html) Kullanıcıları
 
 1. AdGuard’ın ayarlar menüsüne gidin.
 2. "Filtre Listeleri" bölümünde, özel filtre ekleme seçeneğini bulun.
