@@ -24,7 +24,7 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 2. "Filtre Listeleri" veya "Custom Filters" bölümüne gidin.
 3. Aşağıdaki URL’yi veya filtre listesinin içeriğini ekleyin:
 
-- ```filterlist https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt ```
+- ``` https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt ```
 
 4. Ayarları kaydedin ve filtre listesinin güncellemelerini takip edin.
 
@@ -34,7 +34,7 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 2. "Filtre Listeleri" bölümünde, özel filtre ekleme seçeneğini bulun.
 3. Filtre listesi URL’sini ekleyin veya manuel olarak içeriği yapıştırın:
 
-- [https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt]
+- ``` https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt ```
 
 4. Değişiklikleri kaydederek filtre listesinin aktif olduğunu kontrol edin.
 
