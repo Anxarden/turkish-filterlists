@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          ref: filters  # Checkout the correct branch
+
 
       - name: Download Files from Nextcloud
         run: |
@@ -20,10 +23,14 @@ jobs:
           curl -o filters/annoyances.txt "https://kim.nl.tab.digital/s/tiNB9TyksoatPWF/download/annoyances.txt"
           curl -o filters/tracking.txt "https://kim.nl.tab.digital/s/ipsq8zySZGqBqbY/download/tracking.txt"
 
+
       - name: Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}  # Use the secret token
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          git checkout filters  # Ensure we are on the correct branch
           git add .
-          git commit -m "Auto-fetch from Nextcloud" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-fetch from Nextcloud" || exit 0
+          git push https://x-access-token:${GH_TOKEN}@github.com/Anxarden/turkish-filterlists.git filters
