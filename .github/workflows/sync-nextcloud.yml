@@ -18,7 +18,7 @@ jobs:
 
       - name: Download Files from Nextcloud
         run: |
-          curl -o filterlist.txt ""${{ secrets.LINK-FILTERLIST }}""
+          curl -o filterlist.txt "${{ secrets.LINK-FILTERLIST }}"
           curl -o filters/ads.txt "https://kim.nl.tab.digital/s/RAsbYmQBj43btRi/download/ads.txt"
           curl -o filters/gambling.txt "https://kim.nl.tab.digital/s/4QZMc8K7aJwYSoB/download/gambling.txt"
           curl -o filters/annoyances.txt "https://kim.nl.tab.digital/s/tiNB9TyksoatPWF/download/annoyances.txt"
