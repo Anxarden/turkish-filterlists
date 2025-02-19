@@ -1,4 +1,5 @@
 
+
 #- Gambling Related Regex
 *$all,to=/^(.*\.)?(\d+)?betebet\.com$/
 *$all,to=/^(.*\.)?(\d+)?betturkey\.com$/
@@ -8,6 +9,7 @@
 *$all,to=/^(.*\.)?mobilbahis(\d+)?\.com$/
 *$all,to=/^(.*\.)?bahisfair(\d+)?\.com$/
 *$all,to=/^(.*\.)?sonbahis(\d+)?\.com$/
+
 
 #- Gambling Related Domains
 ||16aff.com^
@@ -57,15 +59,23 @@
 ||cdnuz.com^
 ||bahisbey2025.com^
 ||bahiscomx.com^
+||eniyilerlist.com^
+||trjetbahis.com^
+||casinomaxi886.com^
+||casinometropol852.com^
+||vevobahis.com^
+||vevobahis1286.com^
+
 
 #- Social Media Pages
 ||pinterest.com/aresbetlogin/^$doc
 ||pinterest.com/lordcasinoom/^$doc
 ||t.me/+prpHn9Z2GxU3ODJk^$doc
 
+
 #- Redirect Links
-||bit.ly/granddizipal^$doc
 ||bit.ly/3CJ37J0^$doc
+||bit.ly/granddizipal^$doc
 ||cutt.ly/OrqEXLqL^$doc
 ||cutt.ly/Re1Quqiv^$doc
 ||cutt.ly/Ze54Dyzh^$doc
@@ -74,7 +84,26 @@
 ||cutt.ly/t9nsqCp^$doc
 ||cutt.ly/ue54GvSz^$doc
 ||cutt.ly/we8Kwgbj^$doc
+||t.ly/1xbet-giris^$doc
+||t.ly/1xbet-link^$doc
+||t.ly/7slots-giris^$doc
+||t.ly/7slots-link^$doc
+||t.ly/bahis-giris^$doc
+||t.ly/betsat-link^$doc
+||t.ly/leonbet-link^$doc
 ||t.ly/levanttv^$doc
+||t.ly/mobilbahis-giris^$doc
+||t.ly/mobilbahis-link^$doc
+||t.ly/mroyun-link^$doc
+||t.ly/otobet-giris^$doc
+||t.ly/roketbet-giris^$doc
+||t.ly/romabet-giris^$doc
+||t.ly/skyloft-giris^$doc
+||t.ly/superbetin-link^$doc
+||t.ly/tempobet-link^$doc
+||t.ly/xslot-giris^$doc
+||t.ly/youwin-giris^$doc
+||t.ly/youwin-link^$doc
 ||t2m.io/132422^$doc
 ||t2m.io/Hitbet-Dizipal^$doc
 ||t2m.io/SpYrdgQ^$doc
@@ -82,12 +111,4 @@
 ||t2m.io/skmp^$doc
 ||tinyurl.com/btbaff^$doc
 ||tinyurl.com/lordcasino^$doc
-||t.ly/1xbet-giris^$doc
-||t.ly/skyloft-giris^$doc
-||t.ly/youwin-giris^$doc
-||t.ly/romabet-giris^$doc
-||t.ly/roketbet-giris^$doc
-||t.ly/7slots-giris^$doc
-||t.ly/mobilbahis-giris^$doc
-||t.ly/otobet-giris^$doc
-||t.ly/xslot-giris^$doc
+||cutt.ly/guncelvevo^$doc
