@@ -2,7 +2,7 @@ name: Auto-fetch from Nextcloud
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+  - cron: '0 */4 * * *'  # Runs every 4 hours
   workflow_dispatch:  # Allows manual execution
 
 jobs:
