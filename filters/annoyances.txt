@@ -1,10 +1,8 @@
 
 !- Anizm Minecraft Server Announcement 
 anizm.net##^.animeIzleInnerContainer>a[class][title][href]
-
 !- Social Media Links at the side of Search Bar
 tureng.com##[class$="-socialmedia"]
-
 !- Unnecessary Anime/Manga News & Fansub Notice Board
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
@@ -12,7 +10,6 @@ turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duy
 turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
 !- TurkAnime Logo Wrapper
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-
 !- Prevent Fetching Images of Shopping Goods/Marketing (Both Scriptlets are Working.) And Block AD Banner 
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##+js(abort-on-property-write, displayBanner)
