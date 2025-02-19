@@ -23,6 +23,7 @@ jobs:
           curl -o filters/gambling.txt "https://kim.nl.tab.digital/s/4QZMc8K7aJwYSoB/download/gambling.txt"
           curl -o filters/annoyances.txt "https://kim.nl.tab.digital/s/tiNB9TyksoatPWF/download/annoyances.txt"
           curl -o filters/tracking.txt "https://kim.nl.tab.digital/s/ipsq8zySZGqBqbY/download/tracking.txt"
+          curl -o filters/tracking.txt "https://kim.nl.tab.digital/s/7Ji6aQP4pPPMzT5download/badware.txt"
 
 
       - name: Commit and Push Changes
