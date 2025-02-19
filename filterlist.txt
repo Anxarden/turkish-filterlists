@@ -16,4 +16,7 @@
 #- GAMBLING FILTERS
 !#include filters/gambling.txt
 
+#- BADWARE FILTERS
+!#include filters/badware.txt
 
+#- OTHER FILTERS
