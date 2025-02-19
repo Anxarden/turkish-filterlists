@@ -1,4 +1,4 @@
-# Title: 🇹🇷 [Türkçe] Filtre Listesi - Anxarden
+# Title: 🇹🇷 [Türkçe] Filtre Listesi
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 # Description: Blocking Ads, Trackers and Annoying Frames to Explore World-Wide-Web as Clean as Possible.

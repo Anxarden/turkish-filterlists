@@ -9,6 +9,7 @@
 *$all,to=/^(.*\.)?mobilbahis(\d+)?\.com$/
 *$all,to=/^(.*\.)?bahisfair(\d+)?\.com$/
 *$all,to=/^(.*\.)?sonbahis(\d+)?\.com$/
+*$all,to=/^(.*\.)?betwoon(\d+)?\.com$/
 
 
 #- Gambling Related Domains
@@ -19,24 +20,44 @@
 ||aresbet754.com^
 ||aresbetadres.com^
 ||bahis.com^
+||bahisbey2025.com^
+||bahiscomx.com^
+||bahisfair153.com^
+||bahisfairbet.com^
+||bahistv.com^
 ||betpasgiris.vip^
+||betwoon744.com^
+||casinomaxi886.com^
+||casinometropol852.com^
 ||casinomhub124.com^
+||cdnuz.com^
 ||clck.run^
 ||coursecrafters.com^
 ||e9dmst6.com^
+||eniyilerlist.com^
 ||flowerwyz.com^
 ||goalwebber.com^
 ||greenfaucet.com^
+||guncelbetwoongiris.com^
 ||happyhomepets.com^
 ||hayatguzel.com^
 ||iyibahissiteleri.co^
+||livebahis351.com^
+||livebahispartners.com^
+||livebahissikayet.com^
+||marsbahis.com^
 ||mbahis1.io^
+||millibahis.net^
+||millibahis132.com^
 ||mis.best^
 ||misbahis.com^
 ||misbahis303.com^
 ||mobilbahis1116.com^
 ||nakjdjsd.com^
 ||neemex.com^
+||ngnpanel.net^
+||ngsbahis.org^
+||ngsbahis801.com^
 ||orbizenergyfze.com^
 ||otterbein360.com^
 ||pixelspot.net^
@@ -48,27 +69,18 @@
 ||sporsaha.com^
 ||srenarj05s3nxp26xtx54me10isach2m.xyz^
 ||submate.com^
+||supertotobet1904.com^
 ||sweetnaturesbeauty.com^
-||vlpartners.com^
-||x011bt.com^
-||xf38lo22j1y0ihymst.com^
-||bahisfairbet.com^
-||bahisfair153.com^
-||bahistv.com^
-||marsbahis.com^
-||cdnuz.com^
-||bahisbey2025.com^
-||bahiscomx.com^
-||eniyilerlist.com^
 ||trjetbahis.com^
-||casinomaxi886.com^
-||casinometropol852.com^
 ||vevobahis.com^
 ||vevobahis1286.com^
-||millibahis.net^
-||millibahis132.com^
+||vlpartners.com^
+||wbahis274.com^
+||wbahisli.com^
+||x011bt.com^
+||xf38lo22j1y0ihymst.com^
+||zbahisz.com^
 ||zebahis.com^
-||supertotobet1904.com^
 
 
 #- Social Media Pages
@@ -116,3 +128,6 @@
 ||tinyurl.com/btbaff^$doc
 ||tinyurl.com/lordcasino^$doc
 ||cutt.ly/guncelvevo^$doc
+||t2m.io/100freespingel^$doc
+||t2m.io/wbahisgels^$doc
+||t2m.io/yuzliragel^$doc
