@@ -14,19 +14,24 @@
 
 #- Gambling Related Domains
 ||16aff.com^
+||22bet.com^
 ||384betturkey.com^
+||711.nl^
 ||910betebet.com^
 ||adaptivelab.com^
 ||aresbet754.com^
 ||aresbetadres.com^
+||ayderotel.com^ 
 ||bahis.com^
 ||bahisbey2025.com^
 ||bahiscomx.com^
 ||bahisfair153.com^
 ||bahisfairbet.com^
 ||bahistv.com^
+||bet365.nl^
 ||betpasgiris.vip^
 ||betwoon744.com^
+||casinoguru-en.com^
 ||casinomaxi886.com^
 ||casinometropol852.com^
 ||casinomhub124.com^
@@ -58,6 +63,7 @@
 ||ngnpanel.net^
 ||ngsbahis.org^
 ||ngsbahis801.com^
+||onecasino.com^
 ||orbizenergyfze.com^
 ||otterbein360.com^
 ||pixelspot.net^
@@ -71,6 +77,7 @@
 ||submate.com^
 ||supertotobet1904.com^
 ||sweetnaturesbeauty.com^
+||trickyrock.com^
 ||trjetbahis.com^
 ||vevobahis.com^
 ||vevobahis1286.com^

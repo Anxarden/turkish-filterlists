@@ -10,9 +10,8 @@ net,com##[class="player-side-ad"i]
 !- AD Banners & Popup AD Buttons
 /dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-!- AD & Telegram Banners
+!- AD Banner
 /diziyou\d?\.(com?|live)/###wrap>[href*="//t2m.io/"]:has(img)
-/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
 !- Gambling ADs
 diziwatch2.net##.body-clickable
 diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
@@ -26,7 +25,9 @@ nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
 !- AD Cards
 haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
 !- AD Banner
-fatihaltayli.com.tr##[id^=tdi_][class^=tdc-row]:has([href^="https://www.toyota.com.tr/"]>img)
+fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
 !- Player ADs
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
+!- AD Section at Header
+yemek.com##.masthead-container
