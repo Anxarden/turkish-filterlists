@@ -14,6 +14,7 @@
 ||16aff.com^
 ||19forum-bahis.com^
 ||22bet.com^
+||232kolaybet.com^
 ||384betturkey.com^
 ||652bahisnow.com^
 ||711.nl^
@@ -29,10 +30,13 @@
 ||ayderotel.com^ 
 ||azrmbcdn221.com^
 ||bahis.com^
+||bahisall.net^
 ||bahisbey.biz^
 ||bahisbey2025.com^
 ||bahiscasino540.com^
 ||bahiscasinodavet.xyz^
+||bahiscasinogiris.vip^
+||bahiscasinogirisyap.com^
 ||bahiscasinotr.com^
 ||bahiscomx.com^
 ||bahisfair153.com^
@@ -40,13 +44,22 @@
 ||bahisforum.site^
 ||bahisnowgir.com^
 ||bahistv.com^
+||bahsegel.com^
+||bahsegel1189.com^
+||bet-siteler.com^
 ||bet365.com^
 ||bet365.nl^
+||betcio528.com^
 ||betfair.com^
+||betgaranti.com^
+||betgaranti927.com^
+||betpark1005.com^
 ||betpasgiris.vip^
 ||betpublic126.com^
 ||betwoon744.com^
+||bgrntaff.com^
 ||bitcoinbahisoyna.com^
+||bprkaff.com^
 ||bullbahisguncel.shop^
 ||bullseo.xyz^
 ||cangsaigon.com^
@@ -55,6 +68,7 @@
 ||casinomaxi886.com^
 ||casinometropol852.com^
 ||casinomhub124.com^
+||casinoplus277.com^
 ||cdnuz.com^
 ||clbanners6.com^
 ||clbanners8.com^
@@ -68,16 +82,21 @@
 ||enokayit.info^
 ||evbahis.org^
 ||flowerwyz.com^
+||girisbtcbahis.com^
 ||goalwebber.com^
 ||greenfaucet.com^
 ||guncelbetwoongiris.com^
 ||happyhomepets.com^
 ||hayatguzel.com^
+||holiganbet1081.com^
 ||interbahis.biz^
 ||iyibahissiteleri.co^
 ||jetbahissiteleri.com^
 ||jojobet1009.com^
 ||jojobetgiris7.com^
+||kalitebet569.com^
+||kalitebets.com^
+||klyafzone.com^
 ||linebahis.net^
 ||livebahis351.com^
 ||livebahispartners.com^
@@ -96,7 +115,13 @@
 ||matadorbetuyelik.com^
 ||matbetapp.com^
 ||mbahis1.io^
+||megabahis.org^
 ||meritking1616.com^
+||mersoaff.com^
+||mersobahis.net^
+||mersobahis.org^
+||mersobahis108.com^
+||mersobahis109.com^
 ||millibahis.net^
 ||millibahis.org^
 ||millibahis132.com^
@@ -111,17 +136,21 @@
 ||mobilbahisgirisyap2.com^
 ||nakjdjsd.com^
 ||neemex.com^
+||newbahis.org^
+||newbahis280.com^
 ||ngnpanel.net^
 ||ngsbahis.org^
 ||ngsbahis801.com^
 ||norabahis.net^
 ||norabahisx.com^
+||olabahis.net^
 ||onecasino.com^
 ||onwin.com^
 ||onwin.fm^
 ||onwin.fun^
 ||onwin1763.com^
 ||orbizenergyfze.com^
+||ortakkazanim.com^
 ||otterbein360.com^
 ||owcontent.com^
 ||padisahbet.com^
@@ -142,6 +171,7 @@
 ||pulibet721.com^
 ||restauranttome.com^
 ||restbetgiris.co^
+||rmewe.com^
 ||silentbet.com^
 ||sonbahis344.com^
 ||sonbahisbet.com^
@@ -153,6 +183,7 @@
 ||submate.com^
 ||supertotobet1904.com^
 ||sweetnaturesbeauty.com^
+||trholiganbet.com^
 ||trickyrock.com^
 ||trjetbahis.com^
 ||vb21.info^
@@ -163,18 +194,13 @@
 ||wbahisli.com^
 ||x011bt.com^
 ||xf38lo22j1y0ihymst.com^
+||yenigibiler.top^
 ||zbahis301.com^
 ||zbahis304.com^
 ||zbahisbetgiris.com^
 ||zbahisz.com^
 ||zebahis.com^
-||mersobahis.org^
-||mersobahis.net^
-||mersoaff.com^
-||mersobahis108.com^
-||mersobahis109.com^
-||megabahis.org^
-||yenigibiler.top^
+
 
 
 #- Datacenter Links
@@ -182,29 +208,35 @@
 
 
 #- Social Media Pages
+||api.whatsapp.com/send?phone=+46735780992^$doc
+||instagram.com/bahiscasinososyal^$doc
+||instagram.com/btcsosyal^$doc
+||instagram.com/mersoresmi^$doc
 ||instagram.com/onwin.com.tr^$doc
 ||instagram.com/primebahisdijital^$doc
 ||pinterest.com/aresbetlogin^$doc
 ||pinterest.com/lordcasinoom^$doc
 ||t.me/+QEHh1bXD__U2N2Nk^$doc
+||t.me/+ieqgkkeg-UkyNjI0^$doc
 ||t.me/+prpHn9Z2GxU3ODJk^$doc
 ||t.me/Onwintelegram^$doc
+||t.me/bahiscasinoresmi^$doc
+||t.me/btcsosyal^$doc
 ||t.me/denemebonusuolansiteler2023^$doc
+||x.com/bahiscasinobc^$doc
+||x.com/btcsosyal^$doc
+||x.com/mersobahisresmi^$doc
 ||x.com/onwin_official_^$doc
 ||x.com/primesosyal^$doc
-||api.whatsapp.com/send?phone=+46735780992^$doc
-||t.me/+ieqgkkeg-UkyNjI0^$doc
-||x.com/mersobahisresmi^$doc
-||instagram.com/mersoresmi^$doc
-
 
 
 #- Redirect Links
-||t2m.io/mersoicseo^$doc
 ||a.info/spinlinbanner^$doc
 ||bit.ly/3CJ37J0^$doc
+||bit.ly/3w5Ap1V^$doc
 ||bit.ly/BullBahisP^$doc
 ||bit.ly/MacvardiP^$doc
+||bit.ly/Newbahisblog^$doc
 ||bit.ly/granddizipal^$doc
 ||cutt.ly/OrqEXLqL^$doc
 ||cutt.ly/Re1Quqiv^$doc
@@ -215,6 +247,7 @@
 ||cutt.ly/t9nsqCp^$doc
 ||cutt.ly/ue54GvSz^$doc
 ||cutt.ly/we8Kwgbj^$doc
+||dub.pro/holiguncel^$doc
 ||dub.pro/jojoyagit^$doc
 ||redly.vip/f7jmQOD^$doc
 ||t.ly/1xbet-*^$doc
@@ -237,16 +270,23 @@
 ||t.ly/youwin-*^$doc
 ||t2m.io/100freespingel^$doc
 ||t2m.io/132422^$doc
+||t2m.io/456456^$doc
 ||t2m.io/SpYrdgQ^$doc
+||t2m.io/cpdede^$doc
 ||t2m.io/hXtUgzR^$doc
 ||t2m.io/hitbet-*^$doc
 ||t2m.io/matadorbetgel^$doc
+||t2m.io/mersoicseo^$doc
 ||t2m.io/skmp^$doc
 ||t2m.io/wbahisgels^$doc
 ||t2m.io/yuzliragel^$doc
 ||tinyurl.com/btbaff^$doc
 ||tinyurl.com/lordcasino^$doc
 ||webtr.link/DhdQW^$doc
+||ws.tc/btcgiris^$doc
+||ws.tc/btcinstagram^$doc
+||ws.tc/btctelegram^$doc
+||ws.tc/btctwitter^$doc
 ||yayin.la/Lm60Y^$doc
 ||yayin.la/fe23Y^$doc
 ||yayin.la/gjrAp^$doc
