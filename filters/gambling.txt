@@ -1,16 +1,14 @@
-
-
-#- Gambling Related Regex
-*$all,to=/^(.*\.)?(\d+)?betebet\.com$/
-*$all,to=/^(.*\.)?(\d+)?betturkey\.com$/
-*$all,to=/^(.*\.)?arasbet(\d+)?\.com$/
-*$all,to=/^(.*\.)?casinomhub(\d+)?\.com$/
-*$all,to=/^(.*\.)?misbahis(\d+)?\.com$/
-*$all,to=/^(.*\.)?mobilbahis(\d+)?\.com$/
-*$all,to=/^(.*\.)?bahisfair(\d+)?\.com$/
-*$all,to=/^(.*\.)?sonbahis(\d+)?\.com$/
-*$all,to=/^(.*\.)?betwoon(\d+)?\.com$/
-
+#- Gambling Related Regex/Wildcards
+*$all,to=/^(?:.*\.)?(?:[^.]*)betebet\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?(?:[^.]*)betturkey\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?arasbet(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?casinomhub(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?misbahis(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?mobilbahis(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?bahisfair(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?sonbahis(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?betwoon(?:[^.]*)\.(?:[^.]*)$/
+*$all,to=/^(?:.*\.)?matadorbet(?:[^.]*)\.(?:[^.]*)$/
 
 #- Gambling Related Domains
 ||16aff.com^
@@ -45,6 +43,9 @@
 ||betpasgiris.vip^
 ||betpublic126.com^
 ||betwoon744.com^
+||bitcoinbahisoyna.com^
+||cangsaigon.com^
+||casibom891.com.tr^
 ||casinoguru-en.com^
 ||casinomaxi886.com^
 ||casinometropol852.com^
@@ -74,6 +75,17 @@
 ||livebahispartners.com^
 ||livebahissikayet.com^
 ||marsbahis.com^
+||matadorbet.cc^
+||matadorbet.day^
+||matadorbet.ink^
+||matadorbet.net^
+||matadorbet750.com^
+||matadorbetgir.net^
+||matadorbetgirs.com^
+||matadorbetgo.net^
+||matadorbetl.com^
+||matadorbetuk.com^
+||matadorbetuyelik.com^
 ||mbahis1.io^
 ||millibahis.net^
 ||millibahis132.com^
@@ -95,6 +107,8 @@
 ||norabahisx.com^
 ||onecasino.com^
 ||onwin.com^
+||onwin.fm^
+||onwin.fun^
 ||onwin1763.com^
 ||orbizenergyfze.com^
 ||otterbein360.com^
@@ -105,6 +119,7 @@
 ||perabet.biz^
 ||perabet.me^
 ||pixelspot.net^
+||psnwcontent.com^
 ||pulibet721.com^
 ||restauranttome.com^
 ||restbetgiris.co^
@@ -121,6 +136,7 @@
 ||sweetnaturesbeauty.com^
 ||trickyrock.com^
 ||trjetbahis.com^
+||vb21.info^
 ||vevobahis.com^
 ||vevobahis1286.com^
 ||vlpartners.com^
@@ -143,6 +159,7 @@
 
 
 #- Redirect Links
+||t2m.io/matadorbetgel^$doc
 ||webtr.link/DhdQW^$doc
 ||yayin.la/q6rj4^$doc
 ||yayin.la/Lm60Y^$doc
@@ -159,28 +176,24 @@
 ||cutt.ly/t9nsqCp^$doc
 ||cutt.ly/ue54GvSz^$doc
 ||cutt.ly/we8Kwgbj^$doc
-||t.ly/1xbet-giris^$doc
-||t.ly/1xbet-link^$doc
-||t.ly/7slots-giris^$doc
-||t.ly/7slots-link^$doc
-||t.ly/bahis-giris^$doc
-||t.ly/betsat-link^$doc
-||t.ly/leonbet-link^$doc
+||t.ly/1xbet-*^$doc
+||t.ly/7slots-*^$doc
+||t.ly/bahis-*^$doc
+||t.ly/betsat-*^$doc
+||t.ly/leonbet-*^$doc
 ||t.ly/levanttv^$doc
-||t.ly/mobilbahis-giris^$doc
-||t.ly/mobilbahis-link^$doc
-||t.ly/mroyun-link^$doc
-||t.ly/otobet-giris^$doc
-||t.ly/roketbet-giris^$doc
-||t.ly/romabet-giris^$doc
-||t.ly/skyloft-giris^$doc
-||t.ly/superbetin-link^$doc
-||t.ly/tempobet-link^$doc
-||t.ly/xslot-giris^$doc
-||t.ly/youwin-giris^$doc
-||t.ly/youwin-link^$doc
+||t.ly/mobilbahis-*^$doc
+||t.ly/mroyun-*^$doc
+||t.ly/otobet-*^$doc
+||t.ly/roketbet-*^$doc
+||t.ly/romabet-*^$doc
+||t.ly/skyloft-*^$doc
+||t.ly/superbetin-*^$doc
+||t.ly/tempobet-*^$doc
+||t.ly/xslot-*^$doc
+||t.ly/youwin-*^$doc
 ||t2m.io/132422^$doc
-||t2m.io/Hitbet-Dizipal^$doc
+||t2m.io/hitbet-*^$doc
 ||t2m.io/SpYrdgQ^$doc
 ||t2m.io/hXtUgzR^$doc
 ||t2m.io/skmp^$doc
