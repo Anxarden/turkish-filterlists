@@ -1,33 +1,26 @@
 
 #- Generic Filters
-!- Picked for/from dizipal.com
 net,com##[class="ads-container"i]
 net,com##[class$="-ad-container"i]
 net,com##[class*="-ads-adjustment"i]
 net,com##[class="ads_single_font"i]
 net,com##[class="player-side-ad"i]
-#- Specific Filters
-!- AD Banners & Popup AD Buttons
+
+#- Regex Filters
 /dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-!- AD Banner
 /diziyou\d?\.(com?|live)/###wrap>[href*="//t2m.io/"]:has(img)
-!- Gambling ADs
-diziwatch2.net##.body-clickable
-diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
-!- Sponsored Banner
+
+#- Specific Filters
 akakce.com##.topBanner[rel^=sponsored]
-!- IPTV ADs
-turktorrent.us##[id=advertisements]:remove()
-turktorrent.us##^script:has-text(#advertisements)
-!- AD Banner
-nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
-!- AD Cards
-haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
-!- AD Banner
-fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
-!- Player ADs
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
-!- AD Section at Header
+diziwatch2.net##.body-clickable
+diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
+haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
+nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
+turktorrent.us##[id=advertisements]:remove()
+turktorrent.us##^script:has-text(#advertisements)
 yemek.com##.masthead-container

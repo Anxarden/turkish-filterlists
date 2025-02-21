@@ -1,3 +1,5 @@
+#- Badware Domains
+||softonic.com^
 
 #- Fake/Bait Websites
 ||kitabipdfindir.com^
