@@ -507,13 +507,42 @@
 ||318mariobet.com^
 ||kumaroyna.net^
 ||pinupcazino.com^
-
+||bonanza-turkiye.com^
+||supertotobet1903.com^
+||radissonbet254.com^
+||betistnew.com^
+||livebet.com^
+||supertotobet1539.com^
+||tr-mostbet.com^
+||betturkeygirisi.com^
+||meritslot361.com^
+||pasacasino463.com^
+||pasavipcasino2.com^
+||smartagrifoodsummit.com^
+||basari.bet^
+||winbet.bg^
+||1dumanbet.com^
+||dumanbet757.com^
+||sugarrushoyna1.com^
+||fivavolleyball.com^
+||okeysende.com^
+||bedavaslotoyunlarioyna1.com^
+||gameofbetcasino.com^
+||aviatoroyna-tr.com^
+||opapaffiliates.gr^
+||bet.gr^
+||240mariobet.com^
+||alhanaenterprises.in^
+||ligobet850.com^
+||canlislotoyna2.com^
+||canlislotoyna.com^
+||nazobet.bet^
 
 
 
 #- Datacenter Links
-||prtgaming.s3.eu-central-1.amazonaws.com^
-||yeni-adres.s3.eu-central-1.amazonaws.com^
+||prtgaming.s3.eu-central-1.amazonaws.com^$all
+||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 
 
 #- Social Media Pages
@@ -533,6 +562,7 @@
 ||t.me/btcsosyal^$doc
 ||t.me/denemebonusuolansiteler2023^$doc
 ||t.me/marsbahistg^$doc
+||t.me/alevcasino^$doc
 ||t.me/olaresmi^$doc
 ||t.me/onwintelegram^$doc
 ||x.com/bahiscasinobc^$doc
@@ -546,6 +576,7 @@
 
 
 #- Redirect Links
+||t2m.io/milli456456^$doc
 ||t2m.io/shrtngncl^$doc
 ||t.ly/levantadres^$doc
 ||a.info/spinlinbanner^$doc
