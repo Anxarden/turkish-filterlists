@@ -380,6 +380,52 @@
 ||zebahis.com^
 ||zeusslotoyna.net^
 ||zmedya.link^
+||bets10bahis.com^
+||jetsporbahisleri.net^
+||clbanners13.com^
+||norabahis.com^
+||yedibahis.com^
+||bahishane11.com^
+||elitbahis.org^
+||elitbahis761.com^
+||zbahis.com^
+||cuttlylinktr.com^
+||altiliganyan.com^
+||bitalih.com^
+||metrobahis.com^
+||betparibu.org^
+||eniyibahisforumu.com^
+||betnis.com^
+||betnis552.com^
+||mostbet.io^
+||parobet.com^
+||bahislion.pro^
+||forumbahix.com^
+||yakabet.com^
+||marsbahisegit.com^
+||445marsbahis.com^
+||goldenbahis.com^
+||jupiterbahiss.com^
+||baysanslisitesi.com^
+||baysansli.com^
+||zbahisinfo.com^
+||puntobahisgir.com^
+||puntobahis307.com^
+||gopy777.com
+||10forum-bahis.com^
+||hovarda.casino^
+||bahiskilavuz8.com^
+||marioobet.com^
+||ikimisliguncel.com^
+||basketboltahmin.net^
+||bahisabi.online^
+||bahissenin.info^
+||bahissenin556.com^
+||olabahisgir.com^
+||betebetu.com^
+||visabahis.com^
+||malt-bahis.com^
+||bahissiteleri35.com^
 
 
 #- Datacenter Links
@@ -410,9 +456,14 @@
 ||x.com/olabahisonline^$doc
 ||x.com/onwin_official_^$doc
 ||x.com/primesosyal^$doc
-
+||x.com/tr__mobilbahis^$doc
 
 #- Redirect Links
+||t2m.io/ViSAbahiscom^$doc
+||bit.ly/olavar2^$doc
+||t2m.io/bahissenin^$doc
+||cutt.ly/9e4nLrhX^$doc
+||bit.ly/bysblogg^$doc
 ||a.info/spinlinbanner^$doc
 ||bit.ly/3CJ37J0^$doc
 ||bit.ly/3w5Ap1V^$doc
