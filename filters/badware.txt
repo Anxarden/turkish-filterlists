@@ -1,5 +1,6 @@
 #- Badware Domains
 ||softonic.com^
+||saglamoyun.net^
 
 #- Fake/Bait Websites
 ||kitabipdfindir.com^

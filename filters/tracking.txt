@@ -1,2 +1,6 @@
+#- Tracker Domains
+||ezoic.net^
+||tradedoubler.com^
+
 #- Tracking Scripts
 ||cdn.livechatinc.com/tracking.js^
