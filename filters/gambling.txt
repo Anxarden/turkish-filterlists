@@ -1,4 +1,4 @@
-#- Gambling Related Regex/Wildcards
+#- Gambling Related Regex/Wildcards (Temporary Disabled for Finding more Affiliate)
 !- *$all,to=/^(?:.*\.)?(?:[^.]*)betebet\.(?:[^.]*)$/
 !- *$all,to=/^(?:.*\.)?(?:[^.]*)betturkey\.(?:[^.]*)$/
 !- *$all,to=/^(?:.*\.)?arasbet(?:[^.]*)\.(?:[^.]*)$/ 
@@ -483,6 +483,32 @@
 ||zebahis.com^
 ||zeusslotoyna.net^
 ||zmedya.link^
+||oynabet.org^
+||basari100.bet^
+||betonline.ag^
+||7bet.lt^
+||betonred.com^
+||oynabetgiris.com^
+||m-244mariobet.com^
+||levantlacasino.com^
+||sheratonbet.com^
+||sheratonbet141.com^
+||kralbetyenigiris.com^
+||kralbet957.com^
+||limanbet.bet^
+||240mariobet.com^
+||ramen-bet.com^
+||dedeoyna.com^
+||mariobet.com^
+||etorobetcasino.com^
+||242mariobet.com^
+||oynabetgiris.com^
+||hititbetx.com^
+||318mariobet.com^
+||kumaroyna.net^
+||pinupcazino.com^
+
+
 
 
 #- Datacenter Links
@@ -520,8 +546,10 @@
 
 
 #- Redirect Links
+||t2m.io/shrtngncl^$doc
+||t.ly/levantadres^$doc
 ||a.info/spinlinbanner^$doc
-||bit.ly/1xbet-trgiris^$doc
+||bit.ly/1xbet-*^$doc
 ||bit.ly/3cj37j0^$doc
 ||bit.ly/3w5ap1v^$doc
 ||bit.ly/43sefe6^$doc
@@ -541,7 +569,6 @@
 ||bit.ly/hepsibahis-giris-yap^$doc
 ||bit.ly/hovardayeni^$doc
 ||bit.ly/intobetyeni^$doc
-||bit.ly/jetbahisyeni^$doc
 ||bit.ly/jetbahisyeni^$doc
 ||bit.ly/macvardip^$doc
 ||bit.ly/mobilbahisyeni^$doc
