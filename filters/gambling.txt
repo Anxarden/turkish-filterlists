@@ -14,11 +14,9 @@
 !- *$all,to=/^(?:.*\.)?betwoon(?:[^.]*)\.(?:[^.]*)$/
 !- *$all,to=/^(?:.*\.)?matadorbet(?:[^.]*)\.(?:[^.]*)$/
 
-
 #- Gambling TLD
 ||bet^
 ||casino^
-
 
 #- Gambling Related Domains
 ||10forum-bahis.com^
@@ -806,12 +804,12 @@
 ||zeppelinoyna.org^
 ||zeusslotoyna.net^
 ||zmedya.link^
-
+||naoxzsw.com^
+||rokubet268.com^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
-
 
 #- Social Media Pages
 ||github.com/v4yy61v4y/kl4sb4h1s^$doc
@@ -860,7 +858,6 @@
 ||klls-bs.tumblr.com^
 ||wild-klab.tumblr.com^
 ||year-klab.tumblr.com^
-
 
 #- Redirect Links
 ||cutt.ly/eleganshzl^
