@@ -6,9 +6,6 @@ turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Mang
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
 !- TurkAnime Logo Wrapper
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-!- Prevent Fetching Images of Shopping Goods/Marketing and Block the AD Banner
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
-zaytung.com##[id^=sidebar]>#banner
 
 #- Social Links
 /diziyou\d?\.(com?|live)/##.video>[href]>.telegram

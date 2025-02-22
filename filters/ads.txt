@@ -24,3 +24,6 @@ proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
 yemek.com##.masthead-container
+zaytung.com##[href^="https://radore.com/"]:upward(div>div)
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+zaytung.com##[id^=sidebar]>#banner
