@@ -1,3 +1,7 @@
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Yasadışı Kumar/Bahis
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
+
 #- Gambling Related Regex/Wildcards (Temporary Disabled for Finding more Affiliate)
 !- *$all,to=/^(?:.*\.)?(?:[^.]*)betebet\.(?:[^.]*)$/
 !- *$all,to=/^(?:.*\.)?(?:[^.]*)betturkey\.(?:[^.]*)$/

@@ -1,13 +1,15 @@
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Rahasız Edici Öge
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
-!- Anizm Minecraft Server Announcement
-anizm.net##^.animeIzleInnerContainer>a[class][title][href]
+#- Social Links
+anizm.net##.anizm_column>[id^="discordinvite"i]
+/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
+turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
+tureng.com##[class$="-socialmedia"]
+
 !- Unnecessary Anime/Manga News & Fansub Notice Board
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
 !- TurkAnime Logo Wrapper
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-
-#- Social Links
-/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
-turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
-tureng.com##[class$="-socialmedia"]

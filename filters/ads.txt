@@ -1,3 +1,6 @@
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklam
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
 #- Generic Filters
 net,com##[class="ads-container"i]

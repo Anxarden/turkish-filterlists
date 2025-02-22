@@ -1,3 +1,7 @@
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - İzleyici/Kimlik Hırsızlığı
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
+
 #- Tracker Domains
 ||ezoic.net^
 ||tradedoubler.com^
