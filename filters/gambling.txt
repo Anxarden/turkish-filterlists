@@ -18,6 +18,7 @@
 
 #- Gambling Related Domains
 ||10forum-bahis.com^
+||10odeonbahis.com^
 ||1310best10.com^
 ||1315bets10.com^
 ||16aff.com^
@@ -40,6 +41,7 @@
 ||445marsbahis.com^
 ||454marsbahis.com^
 ||48365-365.com^
+||542piabet.com^
 ||5dlu7bft9erj.com^
 ||650betticket.com^
 ||652bahisnow.com^
@@ -54,7 +56,11 @@
 ||adresler.softr.app^
 ||affbullpartners.com^
 ||affinora7.com^
+||affroket.com^
+||affsalvador.com^
 ||akcebet.pro^
+||alfabahis1114.com^
+||alfabahisaff2.com^
 ||alhanaenterprises.in^
 ||alhoot-palace.com^
 ||alibahis.org^
@@ -163,6 +169,8 @@
 ||bedavaslotoyunlarioyna1.com^
 ||belugabahis.bet^
 ||belugabahis.biz^
+||belugabahis824.com^
+||belugabahispartners.com^
 ||benimaffiliates.com^
 ||benimbahis332.com^
 ||benimbahisguncel.org^
@@ -205,6 +213,7 @@
 ||betpark1005.com^
 ||betpasgiris.vip^
 ||betpublic126.com^
+||betrupa.com^
 ||betrupi.casino^
 ||betrupi.com^
 ||bets10.games^
@@ -234,6 +243,7 @@
 ||bprkaff.com^
 ||bs85cdn.com^
 ||bslinks1.top^
+||btasus.click^
 ||bullbahisgiris.net^
 ||bullbahisguncel.shop^
 ||bullbahisguncelgiris.com^
@@ -297,10 +307,12 @@
 ||dumanbet.com^
 ||dumanbet757.com^
 ||e9dmst6.com^
+||econjustice.net^
 ||egtslot.net^
 ||egtslotlar.com^
 ||egtslotoyunlari.org^
 ||elexbet1190.com^
+||elexbetpro.com^
 ||elitbahis-giris.com^
 ||elitbahis.info^
 ||elitbahis.org^
@@ -315,6 +327,7 @@
 ||enokayit.info^
 ||epikbahis.com^
 ||essbahise.com^
+||eticaretbayimiz.com^
 ||etorobetcasino.com^
 ||evbahis.org^
 ||faristp.com^
@@ -340,6 +353,7 @@
 ||girisgrandpashabet.com^
 ||girisingo.com^
 ||girisjetbahis.com^
+||girissayfasi.org^
 ||glorycasinos-tr.com^
 ||goalwebber.com^
 ||goldenbahis.com^
@@ -365,9 +379,13 @@
 ||hayatguzel.com^
 ||hepsibahis.com.tr^
 ||hepsibahis.com^
+||heyyolink.com^
+||hiltonbet1238.com^
+||hiltonbetortak.com^
 ||hititbet524.com^
 ||hititbetx.com^
 ||hizlibahisguncel.com^
+||hizliortaklik.com^
 ||holidestek.com^
 ||holiganbet1081.com^
 ||holiganbet24.org^
@@ -412,7 +430,32 @@
 ||kingbetting.com^
 ||kingroyal.info^
 ||kisalt1.gg^
+||klasbahiis843.com^
+||klasbahis.biz^
+||klasbahis.com^
+||klasbahis.ink^
+||klasbahis1.com^
+||klasbahis804.com^
+||klasbahis812.com^
+||klasbahis870.com^
+||klasbahis908.com^
+||klasbahisadresi.com^
+||klasbahisci.com^
+||klasbahise.com^
+||klasbahisegirer.com^
 ||klasbahisgiris.com^
+||klasbahisgo.com^
+||klasbahisguncel.com^
+||klasbahisguncelgiris.com^
+||klasbahisgunceli.com^
+||klasbahiskayit.com^
+||klasbahisli.com^
+||klasbahiss.net^
+||klasbahisx.com^
+||klasbet.online^
+||klasbetgiris222.org^
+||klasgiris.com^
+||klasventures.com^
 ||klyafzone.com^
 ||kongaffiliates.com^
 ||kralbet.com^
@@ -428,6 +471,8 @@
 ||ligobet850.com^
 ||limanbet.bet^
 ||limanbet.org^
+||limanbet647.com^
+||limanbetpartners.com^
 ||linebahis.net^
 ||linklerim.online^
 ||linkmega.online^
@@ -443,6 +488,7 @@
 ||lunabetapp.com^
 ||m-244mariobet.com^
 ||m-681bahis.com^
+||m-klasbahis864.com^
 ||malt-bahis.com^
 ||mariobet.com^
 ||marioobet.com^
@@ -488,6 +534,7 @@
 ||mersobahis.org^
 ||mersobahis108.com^
 ||mersobahis109.com^
+||meshuradres.best^
 ||metrobahis.com^
 ||milano2018.com^
 ||millibahis.net^
@@ -533,6 +580,7 @@
 ||norabahisx.com^
 ||noslip.ca^
 ||nostrabet.com^
+||ntemt.info^
 ||odds.am^
 ||oddsdigger.com^
 ||okeysende.com^
@@ -552,6 +600,7 @@
 ||onwin1763.com^
 ||opapaffiliates.gr^
 ||ophillbet651.com^
+||orananaliziyap.com^
 ||orbizenergyfze.com^
 ||ortakkazanim.com^
 ||ortaklikbudur.com^
@@ -568,15 +617,18 @@
 ||pakkisalink.com^
 ||paktablo1500.com^
 ||parobet.com^
+||partnerbayi.com^
 ||pasacasino463.com^
 ||pasavipcasino2.com^
 ||penaltyshootbahisgiris.com^
 ||penaltyshootoutcasino.com^
 ||perabet.biz^
 ||perabet.me^
+||piatrack.com^
 ||pinbahisx.com^
 ||pinupcazino.com^
 ||pixelspot.net^
+||pokerklasco.com^
 ||pribet.com^
 ||primebahis.com^
 ||primebahis.wiki^
@@ -588,9 +640,11 @@
 ||primegorselsunucu.com^
 ||psnwcontent.com^
 ||pulibet721.com^
+||pulibetaff.com^
 ||puntobahis307.com^
 ||puntobahisgir.com^
 ||pusulapartners8.com^
+||radiaff.com^
 ||radissonbet254.com^
 ||ramen-bet.com^
 ||rb.gy^
@@ -606,19 +660,25 @@
 ||romaff.com^
 ||rotabet500.com^
 ||royalbetin85.com^
+||royalortaklik.com^
 ||ruletoyunlaribedava.com^
 ||rupibet2.app^
 ||sahabet.com^
 ||sahabet1244.com^
 ||sanal-bahis.com^
 ||sanal-bahis.net^
+||sanalticaretbayii.com^
+||satisbw.com^
 ||sbar.pw^
 ||sekabet1275.com^
 ||seobahis.com^
 ||sgheatingcooling.com^
 ||sheratonbet.com^
 ||sheratonbet141.com^
+||shortdigest.site^
 ||shortening.link^
+||shorters.online^
+||shortpals.online^
 ||silentbet.com^
 ||silvergames.com^
 ||skorgol.com^
@@ -645,6 +705,7 @@
 ||sonbahisbet.com^
 ||sonbahisle.com^
 ||sonbahissite.com^
+||songiris.net^
 ||spaceman-oyna.com^
 ||spinstar.bet^
 ||spinwon.link^
@@ -660,6 +721,7 @@
 ||sunbetwww.org^
 ||super-bahisadresi.com^
 ||superbahisyeniadres2.net^
+||superortaklik.com^
 ||supertotobahis.net^
 ||supertotobet1539.com^
 ||supertotobet1903.com^
@@ -668,6 +730,7 @@
 ||sweetbonanzas.org^
 ||sweetbonanzaslot.org^
 ||sweetnaturesbeauty.com^
+||talkielink1.com^
 ||talkielink46.com^
 ||tambet.org^
 ||tebanner.com^
@@ -676,16 +739,22 @@
 ||tipobet5476.com^
 ||tr-mostbet.com^
 ||trbet.com^
+||trendbayiic.com^
 ||trholiganbet.com^
 ||trickyrock.com^
 ||trjetbahis.com^
 ||trvbet1.org^
+||tulipbet722.com^
+||tulipbetortaklik.com^
 ||turk-bahis-siteleri.net^
 ||turkce-bahis-siteleri.org^
 ||turkishbetting.com^
 ||turkishnavy.com^
 ||ustapoker.com^
+||vaycasino281.com^
 ||vb21.info^
+||veraaff.com^
+||verabet704.com^
 ||vevobahis-amp22.com^
 ||vevobahis.com^
 ||vevobahis1286.com^
@@ -702,6 +771,7 @@
 ||wbgiris2.com^
 ||wbguncelgiris.com^
 ||wgirislink.com^
+||wildcatevents.com^
 ||wildwildrichesoyna.com^
 ||winbet.bg^
 ||winxbet785.com^
@@ -732,61 +802,6 @@
 ||zeppelinoyna.org^
 ||zeusslotoyna.net^
 ||zmedya.link^
-#-
-||klasbahisli.com^
-||orananaliziyap.com^
-||klasbahis870.com^
-||klasbahis.com^
-||klasbahisx.com^
-||klasbahisli.com^
-||klasbahisgo.com^
-||m-klasbahis864.com^
-||klasbahiskayit.com^
-||klasbahis.ink^
-||klasbahisegirer.com^
-||klasbetgiris222.org^
-||klasbahisguncelgiris.com^
-||klasbahis908.com^
-||klasbahis1.com^
-||klasbet.online^
-||talkielink1.com^
-||klasbahiss.net^
-||affroket.com^
-||klasbahis.biz^
-||klasventures.com^
-||vaycasino281.com^
-||pokerklasco.com^
-||pulibetaff.com^
-||belugabahispartners.com^
-||belugabahis824.com^
-||limanbetpartners.com^
-||limanbet647.com^
-||piatrack.com^
-||542piabet.com^
-||elexbet1190.com^
-||elexbetpro.com^
-||tulipbet722.com^
-||tulipbetortaklik.com^
-||shorters.online^
-||shortpals.online^
-||radiaff.com^
-||shortdigest.site^
-||trendbayiic.com^
-||superortaklik.com^
-||satisbw.com^
-||partnerbayi.com^
-||affsalvador.com^
-||hiltonbet1238.com^
-||hiltonbetortak.com^
-||alfabahis1114.com^
-||alfabahisaff2.com^
-||sanalticaretbayii.com^
-||eticaretbayimiz.com^
-||royalortaklik.com^
-||hizliortaklik.com^
-||veraaff.com^
-||verabet704.com^
-||pokerklasco.com^
 
 
 #- Datacenter Links
@@ -817,6 +832,7 @@
 ||t.me/alevcasino^$doc
 ||t.me/olaresmi^$doc
 ||t.me/onwintelegram^$doc
+!- x.com/twitter.com Pages
 ||x.com/bahiscasinobc^$doc
 ||x.com/bet365^$doc
 ||x.com/btcsosyal^$doc
@@ -825,6 +841,21 @@
 ||x.com/onwin_official_^$doc
 ||x.com/primesosyal^$doc
 ||x.com/tr__mobilbahis^$doc
+!- tumblr.com Pages
+||klab-smasher.tumblr.com^
+||klab-clup.tumblr.com^
+||break-klab.tumblr.com^
+||klasbahis-spr.tumblr.com^
+||mores-klab.tumblr.com^
+||klab-timed.tumblr.com^
+||winter-klab.tumblr.com^
+||kls-kasim.tumblr.com^
+||techno-klab.tumblr.com^
+||january-klab.tumblr.com^
+||klab-techno.tumblr.com^
+||klls-bs.tumblr.com^
+||wild-klab.tumblr.com^
+||year-klab.tumblr.com^
 
 
 #- Redirect Links
