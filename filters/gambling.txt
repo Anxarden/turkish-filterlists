@@ -806,6 +806,21 @@
 ||zmedya.link^
 ||naoxzsw.com^
 ||rokubet268.com^
+||alman-bahis.com^
+||epikbahise.com^
+||4nala.com^
+||bahis1000guncel.com^
+||sonbahiss.com^
+||mobilbahise.com^
+||nitrobahisgiris.com^
+||nitrogir.com^
+||nitrobahis247.com^
+||marsbahisi.com^
+||jetbahisbahisyap.com^
+||ngsbahistr.com^
+||sonbahis.biz^
+||bahis.cam^
+||712bahis.com^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
