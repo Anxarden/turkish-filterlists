@@ -12,8 +12,8 @@ net,com##[class="player-side-ad"i]
 #- Regex Filters
 /dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-/diziyou\d?\.(com?|live)/$###wrap>[href*="//t2m.io/"]:has(img)
-/diziyou\d?\.(com?|live)/$##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
+/diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
+/diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 
 #- Specific Filters
 akakce.com##.topBanner[rel^=sponsored]
