@@ -11,3 +11,6 @@
 ||pdfindir.net^
 ||kitap-indir.online^
 ||kitapindirr.org^
+
+#- Fake Buttons
+filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)

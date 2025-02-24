@@ -17,17 +17,30 @@ net,com##[class="player-side-ad"i]
 
 #- Specific Filters
 akakce.com##.topBanner[rel^=sponsored]
+autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
+cloudfam.io##.banner:has(>.banner-inner)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
+digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
 diziwatch2.net##.body-clickable
 diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
+filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
+icedrive.net##[id=ad-summer]
+indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
+internxt.com##.h-screen:has(>.fixed>button)
 nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
+teamos.xyz##center:has([href][title^="debrid"i])
+tempmail.run##.card:has([title^="pixello.ai"i])
+torrentgalaxy.to##.btc_style:has(>.btc_cursor)
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
 yemek.com##.masthead-container
-zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
+
+
