@@ -42,3 +42,4 @@ yemek.com##.masthead-container
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
+dosyaload.com##.embed-video-player>.jwplayer>.alert

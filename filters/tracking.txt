@@ -9,3 +9,8 @@
 #- Tracking Scripts
 ||cdn.livechatinc.com/tracking.js^
 ||flash.getpczone.com/sw.js^
+
+#- Other Scripts
+||cdn.jsdelivr.net/npm/sweetalert$script
+
+

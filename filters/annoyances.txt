@@ -20,3 +20,5 @@ turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/i
 ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
 !- Disable div-blocks that Preventing Webpage Control
 xiguasuwu.com##body>[style]:empty
+!- Anizm Minecraft Server
+anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
