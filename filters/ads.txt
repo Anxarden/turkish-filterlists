@@ -20,12 +20,12 @@ akakce.com##.topBanner[rel^=sponsored]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 cloudfam.io##.banner:has(>.banner-inner)
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
-colordesigner.io##main>[class$=-container]:has(.alternative-ad)
+colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
 digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
-diziwatch2.net##.body-clickable
-diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+diziwatch2.net,hdfilmcehennemi13.com##.body-clickable
+diziwatch2.net,hdfilmcehennemi13.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
@@ -72,6 +72,7 @@ zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
 mega.nz##.upgrade-to-pro-dialog
+chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 
 #- Annoyance Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
