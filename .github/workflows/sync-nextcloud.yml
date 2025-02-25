@@ -20,10 +20,8 @@ jobs:
         run: |
           curl -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
           curl -o filters/ads.txt "${{ secrets.LINK_ADS }}"
-          curl -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
-          curl -o filters/annoyances.txt "${{ secrets.LINK_ANNOYANCES }}"
-          curl -o filters/tracking.txt "${{ secrets.LINK_TRACKING }}"
           curl -o filters/badware.txt "${{ secrets.LINK_BADWARE }}"
+          curl -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
 
 
       - name: Commit and Push Changes
