@@ -924,6 +924,10 @@
 ||zikooo.com^
 ||zlotguncelgiris.com^
 ||zmedya.link^
+#-!-#
+||misbahis.org^
+||kazancortagi1.com^
+||padi.life^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
@@ -978,6 +982,7 @@
 ||year-klab.tumblr.com^
 
 #- Redirect Links
+||t2m.io/8s1pmeA^$doc
 ||t2m.io/hunterparavan^$doc
 ||cutt.ly/eleganshzl^$doc
 ||cutt.ly/mumtazks^$doc
