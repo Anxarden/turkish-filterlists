@@ -14,3 +14,15 @@
 
 #- Fake Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
+tuttop.com##noindex:has([href*=".bubblesmedia.net/"])
+
+#- Tracker Domains
+||ezoic.net^
+||tradedoubler.com^
+
+#- Tracking Scripts
+||cdn.livechatinc.com/tracking.js^
+||flash.getpczone.com/sw.js^
+
+#- Other Scripts
+||cdn.jsdelivr.net/npm/sweetalert$script

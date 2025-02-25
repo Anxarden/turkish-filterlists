@@ -1,45 +1,104 @@
-# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklam
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklamlar ve Rahatsız Edici Ögeler
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Generic Filters
+#- Generic AD Filters
 net,com##[class="ads-container"i]
 net,com##[class$="-ad-container"i]
 net,com##[class*="-ads-adjustment"i]
 net,com##[class="ads_single_font"i]
 net,com##[class="player-side-ad"i]
 
-#- Regex Filters
+#- Regex AD Filters
 /dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
 /diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 
-#- Specific Filters
+#- AD Filters for Specific Websites
 akakce.com##.topBanner[rel^=sponsored]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 cloudfam.io##.banner:has(>.banner-inner)
+colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
+colordesigner.io##main>[class$=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
 digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
 diziwatch2.net##.body-clickable
 diziwatch2.net##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+documentaryarea.com##.jw-preview {background: none !important;}
+documentaryarea.com##.share:has([class$=-buttons])
+documentaryarea.com##img.watermark
+dosyaload.com##.embed-video-player>.jwplayer>.alert
+dropbox.com##.trial-both-shown:has([class^=trial-cards])
 fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
+github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
+github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
 haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
 icedrive.net##[id=ad-summer]
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 internxt.com##.h-screen:has(>.fixed>button)
+mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
+mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
+mediafire.com##^.app-container>div>[style^=display]:has(iframe[src$="/premium_trial.php"])
+mediafire.com##iframe[src$="/sidebar_promo.php"]
 nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+ownedcore.com##[id^="ad_thread"][id$="post_content"]
+pcloud.com##.left-banner:has([class*=AdCloseButton])
+pcloud.com##.left-banner:has-text(/Discount/i)
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
+proinvitelinks.com##[id$=-ad-placeholder]
 teamos.xyz##center:has([href][title^="debrid"i])
 tempmail.run##.card:has([title^="pixello.ai"i])
 torrentgalaxy.to##.btc_style:has(>.btc_cursor)
+trakt.tv##.advanced-filters-upsell:has([href^="/vip/"])
+trakt.tv##.btn-vip[href="/vip" i]
+trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
+trakt.tv##.grid-item:has-text(/VIP/i)
+trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
+trakt.tv##.sidenav-inner>span:has(a[href])
+trakt.tv##[id$=-wrapper][class=hero-wrapper]
+trakt.tv##[id$=content-page]:has([id$="-wrapper"]:has-text(/Hide.Ads/i))
+trakt.tv##[id=overview]>[id$="-wrapper"]:has-text(/Hide.Ads/i)
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
+vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
+vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 yemek.com##.masthead-container
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
-dosyaload.com##.embed-video-player>.jwplayer>.alert
+mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
+mega.nz##.upgrade-to-pro-dialog
+
+#- Annoyance Filters for Specific Websites
+9gag.com##[class*="post"i][class*="tag"i]
+anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
+ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
+dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
+ownedcore.com##.announcements
+ownedcore.com##.shoutout
+proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
+trakt.tv##[class=spacer]:empty
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
+turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
+tuttop.com##.main-news-more:has-text(/Подробнее/i)
+tuttop.com##[class^=full-news-tags]:has([href])
+xiguasuwu.com##body>[style]:empty
+
+#- Social Links
+/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
+anizm.net##.anizm_column>[id^="discordinvite"i]
+catbox.moe##.notetiny:has([class^="patreon"i])
+chunkbase.com##[id=pageheader]>#socialnav
+ovagames.com##.sidebar-box:has-text(/facebook.page/i)
+tureng.com##[class$="-socialmedia"]
+turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
+trakt.tv###social-connections
+tuttop.com##[class]:has(>[href^="https://t.me/"])
+
+#- Hide Websites from Search Results
+duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"])

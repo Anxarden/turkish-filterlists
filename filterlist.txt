@@ -8,12 +8,6 @@
 #- AD FILTERS
 !#include filters/ads.txt
 
-#- TRACKING FILTERS
-!#include filters/tracking.txt
-
-#- ANNOYANCE FILTERS
-!#include filters/annoyances.txt
-
 #- GAMBLING FILTERS
 !#include filters/gambling.txt
 
