@@ -15,6 +15,7 @@
 #- Fake Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex:has([href*=".bubblesmedia.net/"])
+vsetop.org##[class^="dle"i]:matches-attr(/^data-dleb/i=yes):has([href*=".bubblesmedia.net/"])
 
 #- Tracker Domains
 ||ezoic.net^

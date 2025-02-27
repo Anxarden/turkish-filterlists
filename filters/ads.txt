@@ -14,6 +14,7 @@ net,com##[class="player-side-ad"i]
 /dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
 /diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
+/diziyou\d?\.(com?|live)$/##.dizialani>.video>a[target=_blank]
 
 #- AD Filters for Specific Websites
 akakce.com##.topBanner[rel^=sponsored]
@@ -73,6 +74,8 @@ zaytung.com##[id^=sidebar]>#banner
 mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
 mega.nz##.upgrade-to-pro-dialog
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
+repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
+repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
 
 #- Annoyance Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
@@ -89,6 +92,9 @@ turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/i
 tuttop.com##.main-news-more:has-text(/Подробнее/i)
 tuttop.com##[class^=full-news-tags]:has([href])
 xiguasuwu.com##body>[style]:empty
+vsetop.org##[id=content]>[class=naviga]
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
 
 #- Social Links
 /diziyou\d?\.(com?|live)/##.video>[href]>.telegram
@@ -100,6 +106,7 @@ tureng.com##[class$="-socialmedia"]
 turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
 trakt.tv###social-connections
 tuttop.com##[class]:has(>[href^="https://t.me/"])
+vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
 
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"])
