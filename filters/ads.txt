@@ -1,77 +1,112 @@
-<!DOCTYPE html>
-<html class="ng-csp" data-placeholder-focus="false" lang="en" data-locale="en" translate="no" >
-	<head
- data-requesttoken="xwtMxE4rY++++eObC7m57hw5Pb2EZLEuk57PeRTM+Y4=:oXJnkH8ADYvfqLvTP474vGsScvX9DNRq3KyaCWKoidg=">
-		<meta charset="utf-8">
-		<title>
-			Nextcloud		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-				<meta name="apple-itunes-app" content="app-id=1125420102">
-				<meta name="theme-color" content="#0082c9">
-		<link rel="icon" href="/apps/theming/favicon?v=ee755272">
-		<link rel="apple-touch-icon" href="/apps/theming/icon?v=ee755272">
-		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#0082c9">
-		<link rel="manifest" href="/apps/theming/manifest?v=ee755272" crossorigin="use-credentials">
-		<link rel="stylesheet" href="/core/css/guest.css?v=cfcd2084-3">
-<link rel="stylesheet" href="/apps/theming/css/default.css?v=69c1ab25-3">
-<link rel="stylesheet" href="/core/css/guest.css?v=cfcd2084-3">
-		<script nonce="eHd0TXhFNHJZKysrK2VPYkM3bTU3aHc1UGIyRVpMRXVrNTdQZVJUTStZND06b1hKbmtIOEFEWXZmcUx2VFA0NzR2R3NTY3ZYOUROUnEzS3lhQ1dLb2lkZz0=" defer src="/dist/core-maintenance.js?v=357b27c8-3"></script>
-<script nonce="eHd0TXhFNHJZKysrK2VPYkM3bTU3aHc1UGIyRVpMRXVrNTdQZVJUTStZND06b1hKbmtIOEFEWXZmcUx2VFA0NzR2R3NTY3ZYOUROUnEzS3lhQ1dLb2lkZz0=">
-var _oc_debug=false;
-var _oc_isadmin=false;
-var backendAllowsPasswordConfirmation=true;
-var oc_dataURL=false;
-var _oc_webroot="";
-var _oc_appswebroots={"activity":"/apps/activity","calendar":"/apps/calendar","cloud_federation_api":"/apps/cloud_federation_api","comments":"/apps/comments","contacts":"/apps/contacts","contactsinteraction":"/apps/contactsinteraction","dashboard":"/apps/dashboard","dav":"/apps/dav","deck":"/apps/deck","drop_account":"/apps/drop_account","end_to_end_encryption":"/apps/end_to_end_encryption","external":"/apps/external","federatedfilesharing":"/apps/federatedfilesharing","federation":"/apps/federation","files":"/apps/files","files_downloadlimit":"/apps/files_downloadlimit","files_pdfviewer":"/apps/files_pdfviewer","files_reminders":"/apps/files_reminders","files_sharing":"/apps/files_sharing","files_trashbin":"/apps/files_trashbin","files_versions":"/apps/files_versions","firstrunwizard":"/apps/firstrunwizard","logreader":"/apps/logreader","lookup_server_connector":"/apps/lookup_server_connector","mail":"/apps/mail","nextcloud_announcements":"/apps/nextcloud_announcements","notes":"/apps/notes","notifications":"/apps/notifications","oauth2":"/apps/oauth2","passman":"/apps/passman","password_policy":"/apps/password_policy","photos":"/apps/photos","preferred_providers":"/apps/preferred_providers","privacy":"/apps/privacy","provisioning_api":"/apps/provisioning_api","quota_warning":"/apps/quota_warning","recommendations":"/apps/recommendations","registration":"/apps/registration","related_resources":"/apps/related_resources","richdocuments":"/apps/richdocuments","serverinfo":"/apps/serverinfo","settings":"/apps/settings","sharebymail":"/apps/sharebymail","support":"/apps/support","survey_client":"/apps/survey_client","systemtags":"/apps/systemtags","tasks":"/apps/tasks","text":"/apps/text","theming":"/apps/theming","twofactor_backupcodes":"/apps/twofactor_backupcodes","twofactor_totp":"/apps/twofactor_totp","updatenotification":"/apps/updatenotification","user_status":"/apps/user_status","viewer":"/apps/viewer","weather_status":"/apps/weather_status","workflowengine":"/apps/workflowengine"};
-var datepickerFormatDate="M\/d\/yy";
-var nc_lastLogin=0;
-var nc_pageLoad=1740687564;
-var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-var dayNamesShort=["Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."];
-var dayNamesMin=["Su","Mo","Tu","We","Th","Fr","Sa"];
-var monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
-var monthNamesShort=["Jan.","Feb.","Mar.","Apr.","May.","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
-var firstDay=0;
-var _oc_config={"auto_logout":false,"blacklist_files_regex":"\\.(part|filepart)$","forbidden_filename_characters":["\\","\/"],"loglevel":0,"lost_password_link":null,"modRewriteWorking":true,"no_unsupported_browser_warning":false,"session_keepalive":true,"session_lifetime":1440,"sharing.maxAutocompleteResults":25,"sharing.minSearchStringLength":0,"version":"29.0.11.1","versionstring":"29.0.11","enable_non-accessible_features":true};
-var oc_appconfig={"core":{"defaultExpireDateEnabled":false,"defaultExpireDate":null,"defaultExpireDateEnforced":null,"enforcePasswordForPublicLink":false,"enableLinkPasswordByDefault":false,"sharingDisabledForUser":false,"resharingAllowed":true,"remoteShareAllowed":true,"federatedCloudShareDoc":"https:\/\/docs.nextcloud.com\/server\/29\/go.php?to=user-sharing-federated","allowGroupSharing":true,"defaultInternalExpireDateEnabled":false,"defaultInternalExpireDate":null,"defaultInternalExpireDateEnforced":null,"defaultRemoteExpireDateEnabled":false,"defaultRemoteExpireDate":null,"defaultRemoteExpireDateEnforced":null}};
-var _theme={"entity":"Nextcloud","name":"Nextcloud","productName":"Nextcloud","title":"Nextcloud","baseUrl":"https:\/\/cloud.tab.digital\/","syncClientUrl":"https:\/\/nextcloud.com\/install\/#install-clients","docBaseUrl":"https:\/\/docs.nextcloud.com","docPlaceholderUrl":"https:\/\/docs.nextcloud.com\/server\/29\/go.php?to=PLACEHOLDER","slogan":"a safe home for all your data","logoClaim":"","folder":""};
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklamlar ve Rahatsız Edici Ögeler
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
-</script>
-			</head>
-	<body id="body-login">
-		<noscript>
-	<div id="nojavascript">
-		<div>
-			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
-	</div>
-</noscript>
-					<input type="hidden" id="initial-state-core-projects_enabled" value="ZmFsc2U=">
-					<input type="hidden" id="initial-state-core-config" value="eyJhdXRvX2xvZ291dCI6ZmFsc2UsImJsYWNrbGlzdF9maWxlc19yZWdleCI6IlxcLihwYXJ0fGZpbGVwYXJ0KSQiLCJmb3JiaWRkZW5fZmlsZW5hbWVfY2hhcmFjdGVycyI6WyJcXCIsIlwvIl0sImxvZ2xldmVsIjowLCJsb3N0X3Bhc3N3b3JkX2xpbmsiOm51bGwsIm1vZFJld3JpdGVXb3JraW5nIjp0cnVlLCJub191bnN1cHBvcnRlZF9icm93c2VyX3dhcm5pbmciOmZhbHNlLCJzZXNzaW9uX2tlZXBhbGl2ZSI6dHJ1ZSwic2Vzc2lvbl9saWZldGltZSI6MTQ0MCwic2hhcmluZy5tYXhBdXRvY29tcGxldGVSZXN1bHRzIjoyNSwic2hhcmluZy5taW5TZWFyY2hTdHJpbmdMZW5ndGgiOjAsInZlcnNpb24iOiIyOS4wLjExLjEiLCJ2ZXJzaW9uc3RyaW5nIjoiMjkuMC4xMSIsImVuYWJsZV9ub24tYWNjZXNzaWJsZV9mZWF0dXJlcyI6dHJ1ZX0=">
-					<input type="hidden" id="initial-state-core-capabilities" value="eyJjb3JlIjp7InBvbGxpbnRlcnZhbCI6NjAsIndlYmRhdi1yb290IjoicmVtb3RlLnBocFwvd2ViZGF2IiwicmVmZXJlbmNlLWFwaSI6dHJ1ZSwicmVmZXJlbmNlLXJlZ2V4IjoiKFxcc3xcXG58XikoaHR0cHM/OlxcXC9cXFwvKShbLUEtWjAtOStfLl0rKD86OlswLTldKyk/KD86XFxcL1stQS1aMC05KyZAIyU/PX5ffCE6LC47KCldKikqKShcXHN8XFxufCQpIiwibW9kLXJld3JpdGUtd29ya2luZyI6dHJ1ZX0sImZpbGVzIjp7ImJpZ2ZpbGVjaHVua2luZyI6dHJ1ZSwiYmxhY2tsaXN0ZWRfZmlsZXMiOlsiLmh0YWNjZXNzIl0sImZvcmJpZGRlbl9maWxlbmFtZV9jaGFyYWN0ZXJzIjpbIlxcIiwiXC8iXSwiY29tbWVudHMiOnRydWUsInVuZGVsZXRlIjp0cnVlLCJ2ZXJzaW9uaW5nIjp0cnVlLCJ2ZXJzaW9uX2xhYmVsaW5nIjp0cnVlLCJ2ZXJzaW9uX2RlbGV0aW9uIjp0cnVlfSwiYWN0aXZpdHkiOnsiYXBpdjIiOlsiZmlsdGVycyIsImZpbHRlcnMtYXBpIiwicHJldmlld3MiLCJyaWNoLXN0cmluZ3MiXX0sIm9jbSI6eyJlbmFibGVkIjp0cnVlLCJhcGlWZXJzaW9uIjoiMS4wLXByb3Bvc2FsMSIsImVuZFBvaW50IjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbCIsInJlc291cmNlVHlwZXMiOlt7Im5hbWUiOiJmaWxlIiwic2hhcmVUeXBlcyI6WyJ1c2VyIiwiZ3JvdXAiXSwicHJvdG9jb2xzIjp7IndlYmRhdiI6IlwvcHVibGljLnBocFwvd2ViZGF2XC8ifX1dfSwiZGF2Ijp7ImNodW5raW5nIjoiMS4wIiwiYnVsa3VwbG9hZCI6IjEuMCIsImFic2VuY2Utc3VwcG9ydGVkIjp0cnVlfSwiZGVjayI6eyJ2ZXJzaW9uIjoiMS4xMy4zIiwiY2FuQ3JlYXRlQm9hcmRzIjpmYWxzZSwiYXBpVmVyc2lvbnMiOlsiMS4wIiwiMS4xIl19LCJkcm9wLWFjY291bnQiOnsiZW5hYmxlZCI6ZmFsc2UsImRlbGF5Ijp7ImVuYWJsZWQiOmZhbHNlLCJob3VycyI6MjR9LCJkZXRhaWxzIjoiVXNlciBzZXNzaW9uIG5vdCBmb3VuZCIsImFwaS12ZXJzaW9uIjoidjEifSwiZXh0ZXJuYWwiOnsidjEiOlsic2l0ZXMiLCJkZXZpY2UiLCJncm91cHMiLCJyZWRpcmVjdCJdfSwiZG93bmxvYWRsaW1pdCI6eyJlbmFibGVkIjp0cnVlfSwiZmlsZXNfc2hhcmluZyI6eyJhcGlfZW5hYmxlZCI6dHJ1ZSwicHVibGljIjp7ImVuYWJsZWQiOnRydWUsInBhc3N3b3JkIjp7ImVuZm9yY2VkIjpmYWxzZSwiYXNrRm9yT3B0aW9uYWxQYXNzd29yZCI6ZmFsc2V9LCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjpmYWxzZX0sIm11bHRpcGxlX2xpbmtzIjp0cnVlLCJleHBpcmVfZGF0ZV9pbnRlcm5hbCI6eyJlbmFibGVkIjpmYWxzZX0sImV4cGlyZV9kYXRlX3JlbW90ZSI6eyJlbmFibGVkIjpmYWxzZX0sInNlbmRfbWFpbCI6ZmFsc2UsInVwbG9hZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnRydWV9LCJyZXNoYXJpbmciOnRydWUsInVzZXIiOnsic2VuZF9tYWlsIjpmYWxzZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX19LCJncm91cF9zaGFyaW5nIjp0cnVlLCJncm91cCI6eyJlbmFibGVkIjp0cnVlLCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImRlZmF1bHRfcGVybWlzc2lvbnMiOjMxLCJmZWRlcmF0aW9uIjp7Im91dGdvaW5nIjp0cnVlLCJpbmNvbWluZyI6dHJ1ZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX0sImV4cGlyZV9kYXRlX3N1cHBvcnRlZCI6eyJlbmFibGVkIjp0cnVlfX0sInNoYXJlZSI6eyJxdWVyeV9sb29rdXBfZGVmYXVsdCI6ZmFsc2UsImFsd2F5c19zaG93X3VuaXF1ZSI6dHJ1ZX0sInNoYXJlYnltYWlsIjp7ImVuYWJsZWQiOnRydWUsInNlbmRfcGFzc3dvcmRfYnlfbWFpbCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnsiZW5hYmxlZCI6dHJ1ZX0sInBhc3N3b3JkIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX0sImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX19fSwibm90ZXMiOnsiYXBpX3ZlcnNpb24iOlsiMC4yIiwiMS4zIl0sInZlcnNpb24iOiI0LjExLjAifSwibm90aWZpY2F0aW9ucyI6eyJvY3MtZW5kcG9pbnRzIjpbImxpc3QiLCJnZXQiLCJkZWxldGUiLCJkZWxldGUtYWxsIiwiaWNvbnMiLCJyaWNoLXN0cmluZ3MiLCJhY3Rpb24td2ViIiwidXNlci1zdGF0dXMiLCJleGlzdHMiXSwicHVzaCI6WyJkZXZpY2VzIiwib2JqZWN0LWRhdGEiLCJkZWxldGUiXSwiYWRtaW4tbm90aWZpY2F0aW9ucyI6WyJvY3MiLCJjbGkiXX0sInBhc3N3b3JkX3BvbGljeSI6eyJtaW5MZW5ndGgiOjEwLCJlbmZvcmNlTm9uQ29tbW9uUGFzc3dvcmQiOnRydWUsImVuZm9yY2VOdW1lcmljQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VTcGVjaWFsQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VVcHBlckxvd2VyQ2FzZSI6ZmFsc2UsImFwaSI6eyJnZW5lcmF0ZSI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcL29jc1wvdjIucGhwIiwidmFsaWRhdGUiOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC9vY3NcL3YyLnBocCJ9fSwicHJvdmlzaW9uaW5nX2FwaSI6eyJ2ZXJzaW9uIjoiMS4xOS4wIiwiQWNjb3VudFByb3BlcnR5U2NvcGVzVmVyc2lvbiI6MiwiQWNjb3VudFByb3BlcnR5U2NvcGVzRmVkZXJhdGVkRW5hYmxlZCI6dHJ1ZSwiQWNjb3VudFByb3BlcnR5U2NvcGVzUHVibGlzaGVkRW5hYmxlZCI6dHJ1ZX0sInJlZ2lzdHJhdGlvbiI6eyJlbmFibGVkIjp0cnVlLCJhcGlSb290IjoiXC9vY3NcL3YyLnBocFwvYXBwc1wvcmVnaXN0cmF0aW9uXC9hcGlcL3YxXC8iLCJhcGlMZXZlbCI6InYxIn0sInJpY2hkb2N1bWVudHMiOnsidmVyc2lvbiI6IjguNC45IiwibWltZXR5cGVzIjpbImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnRleHQiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5zcHJlYWRzaGVldCIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LmdyYXBoaWNzIiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQucHJlc2VudGF0aW9uIiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQudGV4dC1mbGF0LXhtbCIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnNwcmVhZHNoZWV0LWZsYXQteG1sIiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQuZ3JhcGhpY3MtZmxhdC14bWwiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5wcmVzZW50YXRpb24tZmxhdC14bWwiLCJhcHBsaWNhdGlvblwvdm5kLmxvdHVzLXdvcmRwcm8iLCJhcHBsaWNhdGlvblwvdm5kLnZpc2lvIiwiYXBwbGljYXRpb25cL3ZuZC5tcy12aXNpby5kcmF3aW5nIiwiYXBwbGljYXRpb25cL3ZuZC53b3JkcGVyZmVjdCIsImFwcGxpY2F0aW9uXC9ydGYiLCJ0ZXh0XC9ydGYiLCJhcHBsaWNhdGlvblwvbXNvbmVub3RlIiwiYXBwbGljYXRpb25cL21zd29yZCIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQud29yZHByb2Nlc3NpbmdtbC5kb2N1bWVudCIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQud29yZHByb2Nlc3NpbmdtbC50ZW1wbGF0ZSIsImFwcGxpY2F0aW9uXC92bmQubXMtd29yZC5kb2N1bWVudC5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXdvcmQudGVtcGxhdGUubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy1leGNlbCIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQuc3ByZWFkc2hlZXRtbC5zaGVldCIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQuc3ByZWFkc2hlZXRtbC50ZW1wbGF0ZSIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwuc2hlZXQubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy1leGNlbC50ZW1wbGF0ZS5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLWV4Y2VsLmFkZGluLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwuc2hlZXQuYmluYXJ5Lm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludCIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQucHJlc2VudGF0aW9ubWwucHJlc2VudGF0aW9uIiwiYXBwbGljYXRpb25cL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC5wcmVzZW50YXRpb25tbC50ZW1wbGF0ZSIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQucHJlc2VudGF0aW9ubWwuc2xpZGVzaG93IiwiYXBwbGljYXRpb25cL3ZuZC5tcy1wb3dlcnBvaW50LmFkZGluLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC5wcmVzZW50YXRpb24ubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy1wb3dlcnBvaW50LnRlbXBsYXRlLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC5zbGlkZXNob3cubWFjcm9FbmFibGVkLjEyIiwidGV4dFwvY3N2Il0sIm1pbWV0eXBlc05vRGVmYXVsdE9wZW4iOlsiaW1hZ2VcL3N2Zyt4bWwiLCJhcHBsaWNhdGlvblwvcGRmIiwidGV4dFwvcGxhaW4iLCJ0ZXh0XC9zcHJlYWRzaGVldCJdLCJtaW1ldHlwZXNTZWN1cmVWaWV3IjpbXSwiY29sbGFib3JhIjp7ImNvbnZlcnQtdG8iOnsiYXZhaWxhYmxlIjp0cnVlLCJlbmRwb2ludCI6IlwvY29vbFwvY29udmVydC10byJ9LCJoYXNEb2N1bWVudFNpZ25pbmdTdXBwb3J0Ijp0cnVlLCJoYXNNb2JpbGVTdXBwb3J0Ijp0cnVlLCJoYXNQcm94eVByZWZpeCI6ZmFsc2UsImhhc1RlbXBsYXRlU2F2ZUFzIjpmYWxzZSwiaGFzVGVtcGxhdGVTb3VyY2UiOnRydWUsImhhc1dBU01TdXBwb3J0IjpmYWxzZSwiaGFzWm90ZXJvU3VwcG9ydCI6dHJ1ZSwicHJvZHVjdE5hbWUiOiJDb2xsYWJvcmEgT25saW5lIERldmVsb3BtZW50IEVkaXRpb24iLCJwcm9kdWN0VmVyc2lvbiI6IjI0LjA0LjEwLjEiLCJwcm9kdWN0VmVyc2lvbkhhc2giOiIzNzk5YzA5NGRhIiwic2VydmVySWQiOiJhMmUyODUxNiJ9LCJkaXJlY3RfZWRpdGluZyI6dHJ1ZSwidGVtcGxhdGVzIjp0cnVlLCJwcm9kdWN0TmFtZSI6Ik5leHRjbG91ZCBPZmZpY2UiLCJlZGl0b25saW5lX2VuZHBvaW50IjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbFwvIiwiY29uZmlnIjp7IndvcGlfdXJsIjoiaHR0cHM6XC9cL3RoZS1kb2NzLWhhdmVuLnRhYmRpZ2l0YWwuZXUiLCJwdWJsaWNfd29waV91cmwiOiJodHRwczpcL1wvdGhlLWRvY3MtaGF2ZW4udGFiZGlnaXRhbC5ldSIsIndvcGlfY2FsbGJhY2tfdXJsIjoiIiwiZGlzYWJsZV9jZXJ0aWZpY2F0ZV92ZXJpZmljYXRpb24iOiJ5ZXMiLCJlZGl0X2dyb3VwcyI6bnVsbCwidXNlX2dyb3VwcyI6bnVsbCwiZG9jX2Zvcm1hdCI6bnVsbCwidGltZW91dCI6MTV9fSwic3VwcG9ydCI6eyJoYXNWYWxpZFN1YnNjcmlwdGlvbiI6dHJ1ZSwiZGVza3RvcEVudGVycHJpc2VDaGFubmVsIjoic3RhYmxlIn0sInN5c3RlbXRhZ3MiOnsiZW5hYmxlZCI6dHJ1ZX0sInRoZW1pbmciOnsibmFtZSI6Ik5leHRjbG91ZCIsInVybCI6Imh0dHBzOlwvXC9jbG91ZC50YWIuZGlnaXRhbFwvIiwic2xvZ2FuIjoiYSBzYWZlIGhvbWUgZm9yIGFsbCB5b3VyIGRhdGEiLCJjb2xvciI6IiMwMDY3OWUiLCJjb2xvci10ZXh0IjoiI2ZmZmZmZiIsImNvbG9yLWVsZW1lbnQiOiIjMDA2NzllIiwiY29sb3ItZWxlbWVudC1icmlnaHQiOiIjMDA2NzllIiwiY29sb3ItZWxlbWVudC1kYXJrIjoiIzAwNjc5ZSIsImxvZ28iOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC8iLCJiYWNrZ3JvdW5kIjoiIzAwNjc5ZSIsImJhY2tncm91bmQtcGxhaW4iOnRydWUsImJhY2tncm91bmQtZGVmYXVsdCI6dHJ1ZSwibG9nb2hlYWRlciI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcLyIsImZhdmljb24iOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC8ifSwidXNlcl9zdGF0dXMiOnsiZW5hYmxlZCI6dHJ1ZSwicmVzdG9yZSI6dHJ1ZSwic3VwcG9ydHNfZW1vamkiOnRydWV9LCJ3ZWF0aGVyX3N0YXR1cyI6eyJlbmFibGVkIjp0cnVlfX0=">
-					<input type="hidden" id="initial-state-core-versionHash" value="IjM1N2IyN2M4Ig==">
-					<input type="hidden" id="initial-state-comments-maxAutoCompleteResults" value="MTA=">
-				<div class="wrapper">
-			<div class="v-align">
-									<header>
-						<div id="header">
-							<div class="logo"></div>
-						</div>
-					</header>
-								<main>
-					<h1 class="hidden-visually">
-						Nextcloud					</h1>
-					<div class="guest-box">
-	<div class="icon-big icon-error"></div>
-	<h2>Maintenance mode</h2>
-	<p>This Nextcloud instance is currently in maintenance mode, which may take a while. This page will refresh itself when the instance is available again.</p>
-	<p>Contact your system administrator if this message persists or appeared unexpectedly.</p>
-</div>
-				</main>
-			</div>
-		</div>
-				<footer class="guest-box ">
-			<p class="info">
-				<a href="https://cloud.tab.digital/" target="_blank" rel="noreferrer noopener" class="entity-name">Nextcloud</a> – a safe home for all your data			</p>
-		</footer>
-	</body>
-</html>
+#- Generic AD Filters
+net,com##[class="ads-container"i]
+net,com##[class$="-ad-container"i]
+net,com##[class*="-ads-adjustment"i]
+net,com##[class="ads_single_font"i]
+net,com##[class="player-side-ad"i]
+
+#- Regex AD Filters
+/dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
+/dizipal\d{3}\.com/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
+/diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
+/diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
+/diziyou\d?\.(com?|live)$/##.dizialani>.video>a[target=_blank]
+
+#- AD Filters for Specific Websites
+akakce.com##.topBanner[rel^=sponsored]
+autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
+cloudfam.io##.banner:has(>.banner-inner)
+colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
+colordesigner.io##main>[class*=-container]:has(.alternative-ad)
+dactylogagnant.click,hlktrpl.cfd##.jw-preview
+dactylogagnant.click,hlktrpl.cfd##.jw-title 
+digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
+diziwatch2.net,hdfilmcehennemi13.com##.body-clickable
+diziwatch2.net,hdfilmcehennemi13.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+documentaryarea.com##.jw-preview {background: none !important;}
+documentaryarea.com##.share:has([class$=-buttons])
+documentaryarea.com##img.watermark
+dosyaload.com##.embed-video-player>.jwplayer>.alert
+dropbox.com##.trial-both-shown:has([class^=trial-cards])
+fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
+filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
+github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
+github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
+haberler.com##^[class="reklam-card"i],[class$="-reklam-card"i]
+icedrive.net##[id=ad-summer]
+indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
+internxt.com##.h-screen:has(>.fixed>button)
+mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
+mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
+mediafire.com##^.app-container>div>[style^=display]:has(iframe[src$="/premium_trial.php"])
+mediafire.com##iframe[src$="/sidebar_promo.php"]
+nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+ownedcore.com##[id^="ad_thread"][id$="post_content"]
+pcloud.com##.left-banner:has([class*=AdCloseButton])
+pcloud.com##.left-banner:has-text(/Discount/i)
+pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
+proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
+proinvitelinks.com##[id$=-ad-placeholder]
+teamos.xyz##center:has([href][title^="debrid"i])
+tempmail.run##.card:has([title^="pixello.ai"i])
+torrentgalaxy.to##.btc_style:has(>.btc_cursor)
+trakt.tv##.advanced-filters-upsell:has([href^="/vip/"])
+trakt.tv##.btn-vip[href="/vip" i]
+trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
+trakt.tv##.grid-item:has-text(/VIP/i)
+trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
+trakt.tv##.sidenav-inner>span:has(a[href])
+trakt.tv##[id$=-wrapper][class=hero-wrapper]
+trakt.tv##[id$=content-page]:has([id$="-wrapper"]:has-text(/Hide.Ads/i))
+trakt.tv##[id=overview]>[id$="-wrapper"]:has-text(/Hide.Ads/i)
+turktorrent.us##[id=advertisements]:remove()
+turktorrent.us##^script:has-text(#advertisements)
+vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
+vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
+yemek.com##.masthead-container
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+zaytung.com##[href^="https://radore.com/"]:upward(div>div)
+zaytung.com##[id^=sidebar]>#banner
+mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
+mega.nz##.upgrade-to-pro-dialog
+chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
+repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
+repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
+
+#- Annoyance Filters for Specific Websites
+9gag.com##[class*="post"i][class*="tag"i]
+anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
+ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
+dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
+ownedcore.com##.announcements
+ownedcore.com##.shoutout
+proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
+trakt.tv##[class=spacer]:empty
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
+turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
+tuttop.com##.main-news-more:has-text(/Подробнее/i)
+tuttop.com##[class^=full-news-tags]:has([href])
+xiguasuwu.com##body>[style]:empty
+vsetop.org##[id=content]>[class=naviga]
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
+
+#- Social Links
+/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
+anizm.net##.anizm_column>[id^="discordinvite"i]
+catbox.moe##.notetiny:has([class^="patreon"i])
+chunkbase.com##[id=pageheader]>#socialnav
+ovagames.com##.sidebar-box:has-text(/facebook.page/i)
+tureng.com##[class$="-socialmedia"]
+turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
+trakt.tv###social-connections
+tuttop.com##[class]:has(>[href^="https://t.me/"])
+vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
+
+#- Hide Websites from Search Results
+duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"])
