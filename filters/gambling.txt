@@ -18,7 +18,7 @@
 ||bet^
 ||casino^
 
-#- Gambling Related Domains
+#- Gambling Related Domains - SEO, Affiliate, Redirect etc. Sites 
 ||10forum-bahis.com^
 ||10odeonbahis.com^
 ||127ramenbet.com^
@@ -1214,13 +1214,32 @@
 ||zirvebet176.com^
 ||zlotguncelgiris.com^
 ||zmedya.link^
+||extrabet980.com^
+||stevesgrill.com.au^
+||palmbeachbeaute.com^
+||snsinternet.com^
+||higheredprofessor.com^
+||todoritmos.com^
+||tesdamimaropa.com^
+||vitabens.com^
+||barranquitas.pr.gov^
+||tech-gyan.in^
+||seacomengineering.org^
+||ashasoft.rajasthan.gov.in^
+||tejasproduction.com^
+||pokerstars.com^
+||tulip3pmedia.in^
+||bosquelaprimavera.com^
+||surfaceint.com^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 
 #- Social Media Pages
-||github.com/v4yy61v4y/kl4sb4h1s^$doc
+||github.com/tsonosidaes/$doc
+||github.com/tddsttds/$doc
+||github.com/v4yy61v4y/$doc
 ||x.com/inatbahis^$doc
 ||t.me/inatbahis^$doc
 ||api.whatsapp.com/send?phone=+46735780992^$doc
