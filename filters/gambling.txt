@@ -1231,13 +1231,21 @@
 ||tulip3pmedia.in^
 ||bosquelaprimavera.com^
 ||surfaceint.com^
+||multiservicioservi.com^
+||tipobet-tr.link^
+||pasadenasign.com^
+||slyfoxperformance.com^
+||mostbet-bahis-giris.org^
+
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 
 #- Social Media Pages
+||github.com/amkbncli/$doc
 ||github.com/tsonosidaes/$doc
+||github.com/bts10s/^doc
 ||github.com/tddsttds/$doc
 ||github.com/v4yy61v4y/$doc
 ||x.com/inatbahis^$doc
