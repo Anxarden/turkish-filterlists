@@ -8,6 +8,7 @@ net,com##[class$="-ad-container"i]
 net,com##[class*="-ads-adjustment"i]
 net,com##[class="ads_single_font"i]
 net,com##[class="player-side-ad"i]
+/wp-content/*.gif$first-party,image,domain=/diziyou/
 
 #- Regex AD Filters
 /dizipal\d{3}\.com/##^div[class]:has(>a[href]>img[src^="/reklamlar/"i])
@@ -63,6 +64,7 @@ trakt.tv##.sidenav-inner>span:has(a[href])
 trakt.tv##[id$=-wrapper][class=hero-wrapper]
 trakt.tv##[id$=content-page]:has([id$="-wrapper"]:has-text(/Hide.Ads/i))
 trakt.tv##[id=overview]>[id$="-wrapper"]:has-text(/Hide.Ads/i)
+trakt.tv##^section[id=mir-wrapper]
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
