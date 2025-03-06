@@ -26,8 +26,8 @@ colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
 digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
-diziwatch2.net,hdfilmcehennemi13.com##.body-clickable
-diziwatch2.net,hdfilmcehennemi13.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##.body-clickable
+diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
@@ -78,6 +78,7 @@ mega.nz##.upgrade-to-pro-dialog
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
 repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
+gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
 
 #- Annoyance Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
