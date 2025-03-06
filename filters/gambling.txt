@@ -1242,7 +1242,8 @@
 ||vitabens.com^
 ||mostbet360.com^
 ||ghostautonomy.com^
-
+||betkanyon1358.com^
+||mnopa.click^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
