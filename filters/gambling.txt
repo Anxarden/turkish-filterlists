@@ -1215,12 +1215,31 @@
 ||zlotguncelgiris.com^
 ||zmedya.link^
 #---------------#
-||ashasoft.rajasthan.gov.in^
-||barranquitas.pr.gov^
+||2025marsbahis.org^
+||458marsbahis.com^
+||betkanyon1358.com^
 ||bosquelaprimavera.com^
 ||extrabet980.com^
+||ghostautonomy.com^
+||guncel-girisi.com^
 ||higheredprofessor.com^
+||m-marsbahis.com^
+||mars-bahis.org^
+||mars-giris.com^
+||marsbahis-452.com^
+||marsbahis.info^
+||marsbahis.sbs^
+||marsbahis.top^
+||marsbahis3.com^
+||marsbahise.com^
+||marsbahisgiris.net^
+||marsbahisgunceladresi.com^
+||marsbahiss.net^
+||marsbahissongiris.com^
+||marscasino.top^
+||mnopa.click^
 ||mostbet-bahis-giris.org^
+||mostbet360.com^
 ||multiservicioservi.com^
 ||nusapure.com^
 ||palmbeachbeaute.com^
@@ -1229,21 +1248,22 @@
 ||seacomengineering.org^
 ||slyfoxperformance.com^
 ||snsinternet.com^
+||sparrohs.com^
 ||stevesgrill.com.au^
 ||surfaceint.com^
 ||tech-gyan.in^
 ||tejasproduction.com^
 ||tesdamimaropa.com^
+||theimaginationpress.com^
 ||thepupil.in^
 ||tipobet-tr.link^
-||tn.gov.in^
 ||todoritmos.com^
 ||tulip3pmedia.in^
 ||vitabens.com^
-||mostbet360.com^
-||ghostautonomy.com^
-||betkanyon1358.com^
-||mnopa.click^
+||thatswhatieat.com^
+||intraspexion.com^
+||sonbahis351.com^
+||sweetnaturesbeauty.com^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
@@ -1304,6 +1324,8 @@
 ||vevobahis-tv.blogspot.com^
 
 #- Redirect Links
+||t2m.io/sonbahisgiris^$doc
+||t2m.io/marsbahis^$doc
 ||t2m.io/vevobahiss^$doc
 ||t2m.io/8s1pmeA^$doc
 ||t2m.io/hunterparavan^$doc
