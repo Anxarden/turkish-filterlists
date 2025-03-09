@@ -3,6 +3,7 @@
 # Author: Anxarden
 
 #- Domain List
+||kops1.site^
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||cdn56.x-images.xyz^$third-party,~xhr
 
