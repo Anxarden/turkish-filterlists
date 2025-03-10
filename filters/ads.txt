@@ -119,5 +119,8 @@ trakt.tv###social-connections
 tuttop.com##[class]:has(>[href^="https://t.me/"])
 vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
 
+#- Cookie Banners
+deepl.com##div:matches-attr(data-testid="dl-cookieBanner")
+
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"])
