@@ -1,30 +1,70 @@
-# Title: 🇹🇷 [Türkçe] Filtre Listesi - Zararlı Yazılım
+# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklam, İzleyici ve Zararlı Yazılım
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- AD Domain List
-||kops1.site^
+#- Domains w/ Exceptions
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||cdn56.x-images.xyz^$third-party,~xhr
 
-#- Badware Domains
+#- Domains
+||360yield-basic.com^
+||360yield.com^
+||adform.net^
+||adhouse.pro^
+||admatic.com.tr^
+||adnxs.com^
+||adsrvr.org^
+||gemius.pl^
+||creativecdn.com^
+||dogt.xyz^
+||doubleclick.net^
+||eskimi.com^
+||id5-sync.com^
+||ezoic.net^
+||criteo.com^
+||keltis.com^$third-party
+||kops1.site^
+||casalemedia.com^
+||indexww.com^
+||lijit.com^
+||newrelic.com^
+||pigeoon.com^
+||rubiconproject.com^
+||teads.tv^
+||monetixads.com^
+||onesignal.com^
+||openx.net^
+||pixad.com.tr^
+||pubmatic.com^
+||rubiconproject.com^
+||smartadserver.com^
+||tradedoubler.com^
+||yieldmo.com^
+#- Domains w/ Subs Addressing
+||analitik.bik.gov.tr^
+||static.cloudflareinsights.com^
+||tracking.ensonhaber.com^
+||static.criteo.net^
+||improving.duckduckgo.com^
+||bundles.efilli.com^
+||pubmatic.bbvms.com^
+||adx.opera.com^
+||medya.ilan.gov.tr^
+||ads.linkedin.com^
+||static.virgul.com^
+||bs.yandex.ru^
+||mc.yandex.ru^
+
+#- Badware & Fake/Bait Websites
 ||softonic.com^
 ||saglamoyun.net^
-
-#- Fake/Bait Websites
 ||kitabipdfindir.com^
 ||pdfindir.net^
 ||kitap-indir.online^
 ||kitapindirr.org^
 
-#- Tracker\Injector Domains
-||ezoic.net^
-||tradedoubler.com^
-||static.criteo.net^
-
-#- Specific Tracking Scripts
-||cdn.livechatinc.com/tracking.js^
-||flash.getpczone.com/sw.js^
-
-#- Other Scripts
+#- Specific Scripts/Queries/Fetchs
+||cdn.livechatinc.com/tracking.js^$script
+||flash.getpczone.com/sw.js^$script
 ||cdn.jsdelivr.net/npm/sweetalert$script
+||haberlercom.github.io/main/prebid$script

@@ -112,6 +112,9 @@ trakt.tv###social-connections
 tuttop.com##[class]:has(>[href^="https://t.me/"])
 vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
 
+#- AD Banners/Images
+haberler.com##div[class$=-reklam]
+
 #- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
 
