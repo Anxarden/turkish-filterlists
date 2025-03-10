@@ -112,11 +112,19 @@ trakt.tv###social-connections
 tuttop.com##[class]:has(>[href^="https://t.me/"])
 vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
 
-#- AD Banners/Images
+#- AD Content & Banners/Images
+ntv.com.tr##div[class*="fix-ads-item-"]
+milliyet.com.tr##div.article-ads-container
+hurriyet.com.tr##section.adv
 haberler.com##div[class$=-reklam]
+mynet.com##a.sponsored-image
+yeniakit.com.tr##div.masthead-top
 
 #- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
+
+!- Free Trial/PRO/VIP etc. Buttons
+deepl.com##header>div>span:has([href="/en/pro"])
 
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
