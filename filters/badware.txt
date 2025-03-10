@@ -2,6 +2,11 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
+#- AD Domain List
+||kops1.site^
+||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
+||cdn56.x-images.xyz^$third-party,~xhr
+
 #- Badware Domains
 ||softonic.com^
 ||saglamoyun.net^
@@ -12,16 +17,12 @@
 ||kitap-indir.online^
 ||kitapindirr.org^
 
-#- Fake Buttons
-filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
-tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
-vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
-
-#- Tracker Domains
+#- Tracker\Injector Domains
 ||ezoic.net^
 ||tradedoubler.com^
+||static.criteo.net^
 
-#- Tracking Scripts
+#- Specific Tracking Scripts
 ||cdn.livechatinc.com/tracking.js^
 ||flash.getpczone.com/sw.js^
 

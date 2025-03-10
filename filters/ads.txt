@@ -2,11 +2,6 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Domain List
-||kops1.site^
-||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
-||cdn56.x-images.xyz^$third-party,~xhr
-
 #- Generic AD Filters
 net,com##[class="ads-container"i]
 net,com##[class$="-ad-container"i]
@@ -23,7 +18,10 @@ net,com##[class="player-side-ad"i]
 /diziyou\d?\.(com?|live)$/##.dizialani>.video>a[target=_blank]
 
 #- AD Filters for Specific Websites
+9gag.com##[class*="post"i][class*="tag"i]
 akakce.com##.topBanner[rel^=sponsored]
+anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
+ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 cloudfam.io##.banner:has(>.banner-inner)
@@ -39,6 +37,7 @@ documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
+dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 fatihaltayli.com.tr##a[href]>img:upward([id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
@@ -55,14 +54,19 @@ mediafire.com##iframe[src$="/sidebar_promo.php"]
 mega.nz##.upgrade-to-pro-dialog
 mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
 nefisyemektarifleri.com##.container:has(>[id$=-ad-container])
+ownedcore.com##.announcements
+ownedcore.com##.shoutout
 ownedcore.com##[id^="ad_thread"][id$="post_content"]
 pcloud.com##.left-banner:has([class*=AdCloseButton])
 pcloud.com##.left-banner:has-text(/Discount/i)
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
 proinvitelinks.com##[id$=-ad-placeholder]
+proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
 repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
 repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
+repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
 teamos.xyz##center:has([href][title^="debrid"i])
 tempmail.run##.card:has([title^="pixello.ai"i])
 torrentgalaxy.to##.btc_style:has(>.btc_cursor)
@@ -72,40 +76,29 @@ trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
 trakt.tv##.grid-item:has-text(/VIP/i)
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##.sidenav-inner>span:has(a[href])
+trakt.tv##[class=spacer]:empty
 trakt.tv##[id$=-wrapper][class=hero-wrapper]
 trakt.tv##[id$=content-page]:has([id$="-wrapper"]:has-text(/Hide.Ads/i))
 trakt.tv##[id=overview]>[id$="-wrapper"]:has-text(/Hide.Ads/i)
 trakt.tv##^section[id=mir-wrapper]
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
+turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
+turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
 turktorrent.us##[id=advertisements]:remove()
 turktorrent.us##^script:has-text(#advertisements)
+tuttop.com##.main-news-more:has-text(/Подробнее/i)
+tuttop.com##[class^=full-news-tags]:has([href])
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
+vsetop.org##[id=content]>[class=naviga]
+xiguasuwu.com##body>[style]:empty
 yemek.com##.masthead-container
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
-
-#- Annoyance Filters for Specific Websites
-9gag.com##[class*="post"i][class*="tag"i]
-anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
-ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
-dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
-ownedcore.com##.announcements
-ownedcore.com##.shoutout
-proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
-repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
-repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
-trakt.tv##[class=spacer]:empty
-turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
-turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
-turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-tuttop.com##.main-news-more:has-text(/Подробнее/i)
-tuttop.com##[class^=full-news-tags]:has([href])
-vsetop.org##[id=content]>[class=naviga]
-xiguasuwu.com##body>[style]:empty
 
 #- Social Links
 /diziyou\d?\.(com?|live)/##.video>[href]>.telegram
@@ -120,7 +113,13 @@ tuttop.com##[class]:has(>[href^="https://t.me/"])
 vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
 
 #- Cookie Banners
-deepl.com##div:matches-attr(data-testid="dl-cookieBanner")
+deepl.com##div[data-testid="dl-cookieBanner"]
 
 #- Hide Websites from Search Results
-duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"])
+duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
+
+#- Fake Download Buttons
+filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
+tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
