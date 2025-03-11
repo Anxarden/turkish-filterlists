@@ -24,6 +24,7 @@
 ||bildirt.com^
 ||bilgin.pro^$third-party
 ||casalemedia.com^
+||cloudflareinsights.com^
 ||creativecdn.com^
 ||criteo.com^
 ||dogt.xyz^
@@ -32,7 +33,9 @@
 ||ezoic.net^
 ||gemius.pl^
 ||geoedge.be^
+||google-analytics.com^
 ||googletagmanager.com^
+||googletagservices.com^
 ||id5-sync.com^
 ||idealmedia.io^
 ||indexww.com^
@@ -49,38 +52,42 @@
 ||newrelic.com^
 ||onesignal.com^
 ||openx.net^
+||pghub.io^
 ||pigeoon.com^
 ||pixad.com.tr^
 ||pubmatic.com^
 ||rubiconproject.com^
 ||rubiconproject.com^
+||scorecardresearch.com^
 ||smartadserver.com^
 ||taboola.com^
 ||teads.tv^
 ||tradedoubler.com^
 ||yieldmo.com^
 #- Domains w/ Subs Addressing
+||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
 ||static.cloudflareinsights.com^
-||tracking.ensonhaber.com^
 ||static.criteo.net^
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
-||pubmatic.bbvms.com^
-||adx.opera.com^
+||tracking.ensonhaber.com^
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^
+||adx.opera.com^
+||ct.pinterest.com^
+||analytics.tiktok.com^
 ||static.virgul.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
 
 #- Badware & Fake/Bait Websites
-||softonic.com^
-||saglamoyun.net^
 ||kitabipdfindir.com^
-||pdfindir.net^
 ||kitap-indir.online^
 ||kitapindirr.org^
+||pdfindir.net^
+||saglamoyun.net^
+||softonic.com^
 
 #- Specific Scripts/Queries/Fetchs
 ||cdn.livechatinc.com/tracking.js^$script
