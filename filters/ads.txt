@@ -1,4 +1,4 @@
-# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklamlar ve Rahatsız Edici Ögeler
+# Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
@@ -70,11 +70,9 @@ repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/С
 teamos.xyz##center:has([href][title^="debrid"i])
 tempmail.run##.card:has([title^="pixello.ai"i])
 torrentgalaxy.to##.btc_style:has(>.btc_cursor)
-trakt.tv##.advanced-filters-upsell:has([href^="/vip/"])
-trakt.tv##.btn-vip[href="/vip" i]
+
 trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
 trakt.tv##.grid-item:has-text(/VIP/i)
-trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##.sidenav-inner>span:has(a[href])
 trakt.tv##[class=spacer]:empty
 trakt.tv##[id$=-wrapper][class=hero-wrapper]
@@ -125,6 +123,10 @@ deepl.com##div[data-testid="dl-cookieBanner"]
 
 !- Free Trial/PRO/VIP etc. Buttons
 deepl.com##header>div>span:has([href="/en/pro"])
+trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
+trakt.tv##.btn-vip[href="/vip"]
+trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
+trakt.tv##[id=filter-show-advanced-filters]
 
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)

@@ -1,4 +1,4 @@
-# Title: 🇹🇷 [Türkçe] Filtre Listesi - Reklam, İzleyici ve Zararlı Yazılım
+# Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
@@ -11,18 +11,19 @@
 ||360yield.com^
 ||adform.net^
 ||adhouse.pro^
+||adhouse.pro^
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||adnxs-simple.com^
 ||adnxs.com^
-||adhouse.pro^
 ||adsrvr.org^
 ||adtarget.org^
 ||adtelligent.com^
 ||amazon-adsystem.com^
 ||appnexus.com^
-||casalemedia.com^
+||bildirt.com^
 ||bilgin.pro^$third-party
+||casalemedia.com^
 ||creativecdn.com^
 ||criteo.com^
 ||dogt.xyz^
@@ -33,6 +34,7 @@
 ||geoedge.be^
 ||googletagmanager.com^
 ||id5-sync.com^
+||idealmedia.io^
 ||indexww.com^
 ||keltis.com^$third-party
 ||kops1.site^
@@ -43,6 +45,7 @@
 ||mynetreklam.com^
 ||netaddiction.it^$third-party
 ||netaddiction.tech^$third-party
+||netmera-web.com^
 ||newrelic.com^
 ||onesignal.com^
 ||openx.net^
@@ -50,10 +53,9 @@
 ||pixad.com.tr^
 ||pubmatic.com^
 ||rubiconproject.com^
-||taboola.com^
-||idealmedia.io^
 ||rubiconproject.com^
 ||smartadserver.com^
+||taboola.com^
 ||teads.tv^
 ||tradedoubler.com^
 ||yieldmo.com^
