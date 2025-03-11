@@ -11,7 +11,6 @@
 ||360yield.com^
 ||adform.net^
 ||adhouse.pro^
-||adhouse.pro^
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||adnxs-simple.com^
@@ -45,6 +44,7 @@
 ||medyanetads.com^
 ||membrana.media^
 ||monetixads.com^
+||mrf.io^
 ||mynetreklam.com^
 ||netaddiction.it^$third-party
 ||netaddiction.tech^$third-party
@@ -55,8 +55,8 @@
 ||pghub.io^
 ||pigeoon.com^
 ||pixad.com.tr^
+||posthog.com^$third-party
 ||pubmatic.com^
-||rubiconproject.com^
 ||rubiconproject.com^
 ||scorecardresearch.com^
 ||smartadserver.com^
@@ -82,6 +82,7 @@
 ||mc.yandex.ru^
 
 #- Badware & Fake/Bait Websites
+||e-kitapindir.com^
 ||kitabipdfindir.com^
 ||kitap-indir.online^
 ||kitapindirr.org^

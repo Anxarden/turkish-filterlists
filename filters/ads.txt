@@ -120,6 +120,11 @@ yenisafak.com##a.ramadan-sponsor
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
 
+#- Notification Popups
+
+#- Follow/Share Annoyances
+dogrulukpayi.com##div.follow-banner,div.follow-social-section
+
 !- Free Trial/PRO/VIP etc. Buttons
 deepl.com##header>div>span:has([href="/en/pro"])
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
