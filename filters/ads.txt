@@ -88,18 +88,6 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
-#- Social Links
-/diziyou\d?\.(com?|live)/##.video>[href]>.telegram
-anizm.net##.anizm_column>[id^="discordinvite"i]
-catbox.moe##.notetiny:has([class^="patreon"i])
-chunkbase.com##[id=pageheader]>#socialnav
-ovagames.com##.sidebar-box:has-text(/facebook.page/i)
-tureng.com##[class$="-socialmedia"]
-turkanime.co##[class^="col-"]:has(>.panel:has(.social_links))
-trakt.tv###social-connections
-tuttop.com##[class]:has(>[href^="https://t.me/"])
-vsetop.org##noindex:has(>[align=center]>[href^="https://t.me/"])
-
 #- AD Content & Banners/Images
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 haberler.com##div[class$="-reklam"i]
@@ -121,8 +109,9 @@ deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
 
 #- Notification Popups
+dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 
-#- Follow/Share Annoyances
+#- Social Networks & Following/Sharing Annoyances
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 
 !- Free Trial/PRO/VIP etc. Buttons
@@ -131,6 +120,7 @@ trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
 trakt.tv##[id=filter-show-advanced-filters]
+seedr.cc##nav>.nav-link[href$="/premium"]
 
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
