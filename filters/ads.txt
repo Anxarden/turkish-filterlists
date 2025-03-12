@@ -114,12 +114,12 @@ dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 #- Social Networks & Following/Sharing Annoyances
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 
-!- Free Trial/PRO/VIP etc. Buttons
+!- Free Trial/PRO/VIP etc. Buttons/Banners
 deepl.com##header>div>span:has([href="/en/pro"])
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
-trakt.tv##[id=filter-show-advanced-filters]
+trakt.tv##[id="filter-show-advanced-filters"]
 seedr.cc##nav>.nav-link[href$="/premium"]
 
 #- Hide Websites from Search Results
