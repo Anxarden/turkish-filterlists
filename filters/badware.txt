@@ -20,8 +20,11 @@
 ||adtelligent.com^
 ||amazon-adsystem.com^
 ||appnexus.com^
+||ay.delivery^
 ||bildirt.com^
 ||bilgin.pro^$third-party
+||brainsland.com^
+||btloader.com^
 ||casalemedia.com^
 ||cloudflareinsights.com^
 ||creativecdn.com^
@@ -46,11 +49,13 @@
 ||monetixads.com^
 ||mrf.io^
 ||mynetreklam.com^
+||myroledance.com^
 ||netaddiction.it^$third-party
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
 ||newrelic.com^
 ||onesignal.com^
+||onetrust.com^
 ||openx.net^
 ||pghub.io^
 ||pigeoon.com^
@@ -64,8 +69,11 @@
 ||teads.tv^
 ||tradedoubler.com^
 ||usersnap.com^
+||yadro.ru^
 ||yieldmo.com^
 #- Domains w/ Subs Addressing
+||mt.9gag.com^
+||t.9gag.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
 ||static.cloudflareinsights.com^
@@ -73,11 +81,14 @@
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
 ||tracking.ensonhaber.com^
+||contributor.google.com^
+||fundingchoicesmessages.google.com^
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^
 ||adx.opera.com^
 ||ct.pinterest.com^
 ||analytics.tiktok.com^
+||ad01.tmgrup.com.tr^
 ||widget.uservoice.com^
 ||static.virgul.com^
 ||bs.yandex.ru^
