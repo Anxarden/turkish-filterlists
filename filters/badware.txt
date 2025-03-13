@@ -1,5 +1,99 @@
-Internal Server Error
+# Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
-The server encountered an internal error and was unable to complete your request.
-Please contact the server administrator if this error reappears multiple times, please include the technical details below in your report.
-More details can be found in the server log.
+#- Domains w/ Exceptions
+||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
+||cdn56.x-images.xyz^$third-party,~xhr
+
+#- Domains
+||360yield-basic.com^
+||360yield.com^
+||adform.net^
+||adhouse.pro^
+||admatic.com.tr^
+||admatic.de^$third-party
+||adnxs-simple.com^
+||adnxs.com^
+||adsrvr.org^
+||adtarget.org^
+||adtelligent.com^
+||amazon-adsystem.com^
+||appnexus.com^
+||bildirt.com^
+||bilgin.pro^$third-party
+||casalemedia.com^
+||cloudflareinsights.com^
+||creativecdn.com^
+||criteo.com^
+||dogt.xyz^
+||doubleclick.net^
+||eskimi.com^
+||ezoic.net^
+||gemius.pl^
+||geoedge.be^
+||google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||id5-sync.com^
+||idealmedia.io^
+||indexww.com^
+||keltis.com^$third-party
+||kops1.site^
+||lijit.com^
+||medyanetads.com^
+||membrana.media^
+||monetixads.com^
+||mrf.io^
+||mynetreklam.com^
+||netaddiction.it^$third-party
+||netaddiction.tech^$third-party
+||netmera-web.com^
+||newrelic.com^
+||onesignal.com^
+||openx.net^
+||pghub.io^
+||pigeoon.com^
+||pixad.com.tr^
+||posthog.com^$third-party
+||pubmatic.com^
+||rubiconproject.com^
+||scorecardresearch.com^
+||smartadserver.com^
+||taboola.com^
+||teads.tv^
+||tradedoubler.com^
+||usersnap.com^
+||yieldmo.com^
+#- Domains w/ Subs Addressing
+||pubmatic.bbvms.com^
+||analitik.bik.gov.tr^
+||static.cloudflareinsights.com^
+||static.criteo.net^
+||improving.duckduckgo.com^
+||bundles.efilli.com^
+||tracking.ensonhaber.com^
+||medya.ilan.gov.tr^
+||ads.linkedin.com^
+||adx.opera.com^
+||ct.pinterest.com^
+||analytics.tiktok.com^
+||widget.uservoice.com^
+||static.virgul.com^
+||bs.yandex.ru^
+||mc.yandex.ru^
+
+#- Badware & Fake/Bait Websites
+||e-kitapindir.com^
+||kitabipdfindir.com^
+||kitap-indir.online^
+||kitapindirr.org^
+||pdfindir.net^
+||saglamoyun.net^
+||softonic.com^
+
+#- Specific Scripts/Queries/Fetchs
+||cdn.livechatinc.com/tracking.js^$script
+||flash.getpczone.com/sw.js^$script
+||cdn.jsdelivr.net/npm/sweetalert$script
+||haberlercom.github.io/main/prebid$script
