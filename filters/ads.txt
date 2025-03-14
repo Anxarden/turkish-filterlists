@@ -19,17 +19,9 @@ net,com##[class="player-side-ad"i]
 
 #- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
-akakce.com##.topBanner[rel^=sponsored]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
-ankergames.net##.custom-container>[class^=pb-]:has-text(/Live.Broadcast/i)
-autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
-chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
-cloudfam.io##.banner:has(>.banner-inner)
-colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
-colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview
 dactylogagnant.click,hlktrpl.cfd##.jw-title 
-digitalcore.club##.panel-green.panel:has(img[src*="sponsor/banner"])
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##.body-clickable
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
@@ -38,12 +30,10 @@ documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
-filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
 github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
 gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
 icedrive.net##[id=ad-summer]
-indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 internxt.com##.h-screen:has(>.fixed>button)
 mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
 mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
@@ -64,8 +54,6 @@ repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хости
 repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
 repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
 repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
-tempmail.run##.card:has([title^="pixello.ai"i])
-torrentgalaxy.to##.btc_style:has(>.btc_cursor)
 trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
 trakt.tv##.grid-item:has-text(/VIP/i)
 trakt.tv##.sidenav-inner>span:has(a[href])
@@ -78,8 +66,6 @@ turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duy
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
 tuttop.com##.main-news-more:has-text(/Подробнее/i)
 tuttop.com##[class^=full-news-tags]:has([href])
-vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
-vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
@@ -89,6 +75,11 @@ zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
 #- AD Content & Banners/Images
+akakce.com##.topBanner[rel^=sponsored]
+indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
+autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
+digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
+colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 haberler.com##div[class$="-reklam"i]
 haberler.com##div[class$="-reklam-card"i]
@@ -103,6 +94,10 @@ turktorrent.us##^script:has-text(#advertisements)
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
+myanimelist.net##.title>.detail>div.bookstore-information
+filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
+
+#- Annoyances
 
 #- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
@@ -114,7 +109,7 @@ dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 #- Social Networks & Following/Sharing Annoyances
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
-
+colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 
 !- Free Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
 deepl.com##header>div>span:has([href="/en/pro"])
@@ -124,6 +119,10 @@ trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
 trakt.tv##[id="filter-show-advanced-filters"]
 seedr.cc##nav>.nav-link[href$="/premium"]
+deviantart.com##span:has-text(/^upgrade/i):upward(span)
+vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
+vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
+chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 
 #- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)

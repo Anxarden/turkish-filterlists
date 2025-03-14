@@ -18,6 +18,7 @@
 ||adsrvr.org^
 ||adtarget.org^
 ||adtelligent.com^
+||ad-delivery.net^
 ||amazon-adsystem.com^
 ||appnexus.com^
 ||ay.delivery^
@@ -62,6 +63,7 @@
 ||pixad.com.tr^
 ||posthog.com^$third-party
 ||pubmatic.com^
+||rlcdn.com^
 ||rubiconproject.com^
 ||scorecardresearch.com^
 ||smartadserver.com^
@@ -74,6 +76,7 @@
 ||pushengage.com^
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
+||privacy-api.9gag.com^
 ||t.9gag.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
@@ -88,6 +91,7 @@
 ||ads.linkedin.com^
 ||adx.opera.com^
 ||ct.pinterest.com^
+||w3-reporting.reddit.com^
 ||analytics.tiktok.com^
 ||ad01.tmgrup.com.tr^
 ||widget.uservoice.com^
