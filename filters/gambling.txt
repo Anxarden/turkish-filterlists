@@ -18,13 +18,126 @@
 ||bet^
 ||casino^
 
-#- Gambling Related Domains - SEO, Affiliate, Redirect etc. Sites 
+#- Gambling Domains
+||912bahsine.com^
+||bahisen405.com^
+||betpublic136.com^
+||betsat1297.com^
+||bullbahis388.com^
+||bullbahis389.com^
+||esbet262.com^
+||esbet263.com^
+||leon135.com^
+||livespins.cloud^
+||mp54782.top^
+||showbahis411.com^
+||benimbahis337.com^
+||benimbahis338.com^
+||719bahis.com^
+||fixbet262.com^
+
+#- SEO Sites
+||azuricasinogiris.com^
+||bahis-bey1.com^
+||bahis-bey2.com^
+||bahisabigiris.com^
+||bahisanaliz30.site^
+||bahisen.org^
+||bahisfair.net^
+||bahisram.org^
+||bahsinesite.com^
+||betadonisadresi.com^
+||betpionergirisi.com^
+||bilyoncu.net^
+||bonusdreams.com^
+||bullbahiss.com^
+||casinovivakayit.com^
+||elitbahisgiris.org^
+||elitbahisguncel.com^
+||hizbahis.com^
+||holeybetgirisi.com^
+||interbahisgirisi.com^
+||millibahis.me^
+||monobahis.com^
+||radabetgirisi.com^
+||sahaweb.com^
+||showbahisgiris888.com^
+||sonbahisx.com^
+||turkbahis.net^
+||wbahisgiris.com^
+||askbahisx.com^
+||girisbahiscom.com^
+||benimbahis.org^
+||vaycasino.games^
+||grandpashabetgiri.com^
+||onbahissite.com^
+||maltbahisgiris.org^
+||paribahisturk.com^
+||bets10k.com^
+||bets10z.com^
+
+#- Affiliate CDN and Redirect Sites||bahisen.link^
+||bit24.live^
+||bullaff.com^
+||comm100.com^
+||comm100.io^||livechat15.com^||chatlive15.com^||chatsupport15.com^||livesupport100.com^||comm100vue.com^
+||erisgaming.com^
+||esbaff.com^
+||gcdn.co^
+||goredirect.net^
+||intersoftcdn.com^
+||ip2c.org^
+||kertn.net^
+||linkredirect-bf.com^
+||livelysupport.io^||livesupportserver.com^
+||lucker.icu^
+||siteyegit.co^
+||tawk.to^
+||traincdn.com^
+||wcont.io^
+||wlstorages.com^
+||linkim.cc^
+||cdnetworkcp.com^
+||redirecturll.com^
+||crop.lat^
+||maltpartners.com^
+
+#- Gibberish 3-Party Domains
+||2zta6ev6iq.com^
+||3vpcq6t.com^
+||9lkf4hn.com^
+||ft8ql3z.com^
+||g58q43jgsd.com^
+||hj4by9q.com^
+||qv3nb6x.com^
+||v2dj8wsg.com^
+||v5xwn7sg.com^
+||vmk9pr2v.com^
+||vrz7sw2d.com^
+||vtr5py8m.com^
+||eirwlppi31.com^
+||rlurk6los2.com^
+||od6funh.top^
+
+#- Others (Blocked by Other Sources)
+||onwngiris.com^
+||mobilbahisturk.com^
+||betwinner2.com^
+
+#- Datacenter Links
+||prtgaming.s3.eu-central-1.amazonaws.com^$all
+||yeni-adres.s3.eu-central-1.amazonaws.com^$all
+||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
+
+#- Dump List
 ||10forum-bahis.com^
 ||10odeonbahis.com^
 ||127ramenbet.com^
 ||1310best10.com^
 ||1315bets10.com^
 ||1316bets10.com^
+||1321bets10.com^
+||holiganbetapp.com^
 ||158bayspin.com^
 ||16aff.com^
 ||19forum-bahis.com^
@@ -64,6 +177,7 @@
 ||650betticket.com^
 ||652bahisnow.com^
 ||660bahis.com^
+||681bahis.com^
 ||690bahis.com^
 ||709timebet.com^
 ||711.nl^
@@ -201,6 +315,7 @@
 ||bahisfair.site^
 ||bahisfair153.com^
 ||bahisfair154.com^
+||bahisfair157.com^
 ||bahisfairbet.com^
 ||bahisforum.site^
 ||bahisforumcu.net^
@@ -493,6 +608,7 @@
 ||elitbahis.org^
 ||elitbahis759.com^
 ||elitbahis761.com^
+||elitbahis765.com^
 ||elitbahisgiris.com^
 ||elitbahisgiris.net^
 ||enbetgir.net^
@@ -562,7 +678,7 @@
 ||goltty.com^
 ||goodmanspeakermanagement.com^
 ||gopy777.com
-||goredirect.net^
+
 ||gorgeous30.xyz^
 ||grandpashaabet.com^
 ||gratisbet365.com^
@@ -1265,9 +1381,7 @@
 ||sonbahis351.com^
 ||sweetnaturesbeauty.com^
 
-#- Datacenter Links
-||prtgaming.s3.eu-central-1.amazonaws.com^$all
-||yeni-adres.s3.eu-central-1.amazonaws.com^$all
+
 
 #- Social Media Pages
 ||github.com/amkbncli/$doc
