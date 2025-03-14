@@ -118,6 +118,7 @@ tureng.com##div[class$="-socialmedia"]
 
 !- Free Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
 deepl.com##header>div>span:has([href="/en/pro"])
+letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.advanced-filters-upsell:has([href^="/vip"])

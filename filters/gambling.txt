@@ -35,8 +35,11 @@
 ||benimbahis338.com^
 ||719bahis.com^
 ||fixbet262.com^
+||tipobet5481.com^
+||matadorbet803.com^
+||matadorbet.com^
 
-#- SEO Sites
+#- SEO Referal Sites
 ||azuricasinogiris.com^
 ||bahis-bey1.com^
 ||bahis-bey2.com^
@@ -75,8 +78,27 @@
 ||paribahisturk.com^
 ||bets10k.com^
 ||bets10z.com^
+||slotsiteleripro.com^
+||oyna-kazan.com^
+||aviator-oyunu.net^
+||aviator-oyna.cc^
+||canli-casino-oyna.com^
+||oynabahis.com^
+||vipbahiss.com^
+||nasedvoriste.rs^
+||aviateplatform.com^
+||bedava-bahis-oyna.com^
+||bet-aviator.com^
+||pcbala.com^
+||thebrowhut.net^
+||supertotobet1906.com^
+||yasal-bahis-siteleri.net^
+||slotbargiris1.com^
+||sugarrushoyna.com^
+||tropicaltikioyna.com^
 
-#- Affiliate CDN and Redirect Sites||bahisen.link^
+#- Affiliate CDN and Redirect Sites
+||pragmaticplay.net^||bahisen.link^
 ||bit24.live^
 ||bullaff.com^
 ||comm100.com^
@@ -101,8 +123,13 @@
 ||redirecturll.com^
 ||crop.lat^
 ||maltpartners.com^
+||nakitpartners1.com^
+||giris95.xyz^
+||cdn-in-flare.com^
+||cdnxtpo365.com^
+||cgcb.info^
 
-#- Gibberish 3-Party Domains
+#- Gibberish 3th-Party Domains
 ||2zta6ev6iq.com^
 ||3vpcq6t.com^
 ||9lkf4hn.com^
@@ -118,6 +145,11 @@
 ||eirwlppi31.com^
 ||rlurk6los2.com^
 ||od6funh.top^
+||p7dg2ptmb.com^
+||x8hzzz0.com^
+||echafcmb.com^
+||e4026ext8b.com^
+||n3ukb21g7e.com^
 
 #- Others (Blocked by Other Sources)
 ||onwngiris.com^
@@ -137,7 +169,6 @@
 ||1315bets10.com^
 ||1316bets10.com^
 ||1321bets10.com^
-||holiganbetapp.com^
 ||158bayspin.com^
 ||16aff.com^
 ||19forum-bahis.com^
@@ -147,6 +178,7 @@
 ||1xbet.com^
 ||1xbetbah.com^
 ||1xcasino.com^
+||2025marsbahis.org^
 ||20bahisno1.com^
 ||214betorspin.com^
 ||228bahis1000.com^
@@ -169,11 +201,13 @@
 ||445marsbahis.com^
 ||454marsbahis.com^
 ||455marsbahis.com^
+||458marsbahis.com^
 ||48365-365.com^
 ||4nala.com^
 ||542piabet.com^
 ||5dlu7bft9erj.com^
 ||626xslot.com^
+||633xslot.com^
 ||650betticket.com^
 ||652bahisnow.com^
 ||660bahis.com^
@@ -428,9 +462,11 @@
 ||betilt652.com^
 ||betilt657.com^
 ||betist1385.com^
+||betist1396.com^
 ||betistnew.com^
 ||betkanyon1350.com^
 ||betkanyon1351.com^
+||betkanyon1358.com^
 ||betkom.net^
 ||betkom199.com^
 ||betlantis12.com^
@@ -499,6 +535,7 @@
 ||bonanza-turkiye.com^
 ||book-of-ra-oyna.com^
 ||bookofraoyna.org^
+||bosquelaprimavera.com^
 ||bovbet126.com^
 ||bprkaff.com^
 ||bs85cdn.com^
@@ -545,6 +582,7 @@
 ||cdnlydc20156.com^
 ||cdnuz.com^
 ||celtabet878.com^
+||celtabet883.com^
 ||cenabettv.com^
 ||cepbahis629.com^
 ||cepbahisyeni.com^
@@ -624,6 +662,7 @@
 ||etorobetcasino.com^
 ||eubahis251.com^
 ||evbahis.org^
+||extrabet980.com^
 ||faristp.com^
 ||fastnodemy120111.com^
 ||favibetresmi.com^
@@ -658,6 +697,7 @@
 ||geolink99.com^
 ||getfastredirect.com^
 ||getmycompany.com^
+||ghostautonomy.com^
 ||gidagundemi.com^
 ||girbetturkey.com^
 ||giris-superbahis.com^
@@ -678,13 +718,13 @@
 ||goltty.com^
 ||goodmanspeakermanagement.com^
 ||gopy777.com
-
 ||gorgeous30.xyz^
 ||grandpashaabet.com^
 ||gratisbet365.com^
 ||greaterchicagochurch.com^
 ||greenfaucet.com^
 ||guncel-giris25.org^
+||guncel-girisi.com^
 ||gunceladresi.org^
 ||guncelbetwoongiris.com^
 ||guncelsuperbetgiris.com^
@@ -707,6 +747,7 @@
 ||hepsibahis.com.tr^
 ||hepsibahis.com^
 ||heyyolink.com^
+||higheredprofessor.com^
 ||hiititbet.com^
 ||hilarionbet375.com^
 ||hilarionbetgiris4.com^
@@ -719,6 +760,7 @@
 ||holidestek.com^
 ||holiganbet1081.com^
 ||holiganbet24.org^
+||holiganbetapp.com^
 ||holiganbetpartners7.com^
 ||hovarda.cam^
 ||hovarda.casino^
@@ -732,10 +774,12 @@
 ||imgiga.com^
 ||inatbahisguncelgiris.com^
 ||inbahis492.com^
+||inbahis495.com^
 ||incelemebet.com^
 ||interbahis.biz^
 ||interbahis1625.com^
 ||interbahis1626.com^
+||intraspexion.com^
 ||istanbulbahise.com^
 ||istanbulbetbet.com^
 ||ivandanilovic.top^
@@ -849,6 +893,7 @@
 ||m-681bahis.com^
 ||m-bahislion589.com^
 ||m-klasbahis864.com^
+||m-marsbahis.com^
 ||m712bahis.com^
 ||macsonuclari1.net^
 ||madridbetgiris.org^
@@ -862,13 +907,26 @@
 ||marketingkisalink.com^
 ||marketingtablo1000.com^
 ||maroonaffs.com^
+||mars-bahis.org^
+||mars-giris.com^
+||marsbahis-452.com^
 ||marsbahis.com^
+||marsbahis.info^
+||marsbahis.sbs^
+||marsbahis.top^
 ||marsbahis.ws^
+||marsbahis3.com^
 ||marsbahis451.com^
+||marsbahise.com^
 ||marsbahisegit.com^
 ||marsbahisg.com^
+||marsbahisgiris.net^
+||marsbahisgunceladresi.com^
 ||marsbahisi.com^
 ||marsbahisoyna.com^
+||marsbahiss.net^
+||marsbahissongiris.com^
+||marscasino.top^
 ||maske.click^
 ||maskebet.com^
 ||maskebet25.com^
@@ -934,6 +992,7 @@
 ||misbahis303.com^
 ||misbahisgiris.com^
 ||mistikbahis.com^
+||mnopa.click^
 ||mobil-odeme-bahis.net^
 ||mobilbahis.club^
 ||mobilbahis.com^
@@ -945,13 +1004,16 @@
 ||mobilbahisgirisyap2.com^
 ||modaroyal.com^
 ||mosl.vn^
+||mostbet-bahis-giris.org^
 ||mostbet-sports.com^
 ||mostbet.io^
+||mostbet360.com^
 ||mrbahis.info^
 ||mrbahis570.com^
 ||mrkaj.com^
 ||msfthcdn400.com^
 ||msfthcdn420.com^
+||multiservicioservi.com^
 ||mxbrcdn530.com^
 ||myjackpot.com^
 ||n98w43fxejyrvpc9s82ynsgsijl975pz.xyz^
@@ -986,6 +1048,7 @@
 ||noslip.ca^
 ||nostrabet.com^
 ||ntemt.info^
+||nusapure.com^
 ||odds.am^
 ||oddsdigger.com^
 ||odeonbet.com^
@@ -1007,6 +1070,7 @@
 ||onwin.fm^
 ||onwin.fun^
 ||onwin1763.com^
+||onwin1768.com^
 ||opapaffiliates.gr^
 ||opapbet.com.cy^
 ||ophillbet651.com^
@@ -1031,12 +1095,14 @@
 ||padisahbets.com^
 ||pakkisalink.com^
 ||paktablo1500.com^
+||palmbeachbeaute.com^
 ||palmsbet.com^
 ||paribahis.com^
 ||paribahis991.com^
 ||parobet.com^
 ||partnerbayi.com^
 ||pasacasino463.com^
+||pasadenasign.com^
 ||pasavipcasino2.com^
 ||penaltyshootbahisgiris.com^
 ||penaltyshootoutcasino.com^
@@ -1047,6 +1113,7 @@
 ||pinupcazino.com^
 ||pixelspot.net^
 ||pokerklasco.com^
+||pokerstars.com^
 ||pragmaticslotlari.com^
 ||pribet.com^
 ||prime-bahis.com^
@@ -1106,6 +1173,7 @@
 ||rokubet268.com^
 ||rokubet288.com^
 ||romaff.com^
+||roncollinsaviation.com^
 ||rotabet500.com^
 ||royalbetin85.com^
 ||royalortaklik.com^
@@ -1116,6 +1184,7 @@
 ||sahabet.com^
 ||sahabet1244.com^
 ||sahabet1245.com^
+||sahabet1253.com^
 ||sanal-bahis.com^
 ||sanal-bahis.net^
 ||sanalticaretbayii.com^
@@ -1123,6 +1192,7 @@
 ||satispanel.com^
 ||sb85cdn.com^
 ||sbar.pw^
+||seacomengineering.org^
 ||sekabayi.com^
 ||sekabet1274.com^
 ||sekabet1275.com^
@@ -1160,15 +1230,18 @@
 ||slotstation.info^
 ||slotstemple.com^
 ||slotturkiye.com^
+||slyfoxperformance.com^
 ||smartagrifoodsummit.com^
 ||smartbahis.net^
 ||smartortaklik6.com^
+||snsinternet.com^
 ||sobos.org^
 ||softsysteamcdn.com^
 ||sonbahis.biz^
 ||sonbahis344.com^
 ||sonbahis345.com^
 ||sonbahis346.com^
+||sonbahis351.com^
 ||sonbahisbet.com^
 ||sonbahisle.com^
 ||sonbahiss.com^
@@ -1177,6 +1250,7 @@
 ||sourcebinder.org^
 ||spa-kazuma.com^
 ||spaceman-oyna.com^
+||sparrohs.com^
 ||spinstar.bet^
 ||spinwon.link^
 ||sporsaha.com^
@@ -1191,6 +1265,7 @@
 ||stake1021.com^
 ||stanleybet.ro^
 ||stckptbecdn830.com^
+||stevesgrill.com.au^
 ||stonebahis.org^
 ||streamflowbr50179.com^
 ||submate.com^
@@ -1205,9 +1280,12 @@
 ||supertotobet1539.com^
 ||supertotobet1903.com^
 ||supertotobet1904.com^
+||supertotobet1906.com^
+||surfaceint.com^
 ||sweetbonanzaoyna1.com^
 ||sweetbonanzas.org^
 ||sweetbonanzaslot.org^
+||sweetnaturesbeauty.com^
 ||sweetnaturesbeauty.com^
 ||swetbonanza-oyna.com^
 ||sznrd.xyz^
@@ -1220,14 +1298,22 @@
 ||tebanner.com^
 ||tebanner5.com^
 ||tebanner6.com^
+||tech-gyan.in^
+||tejasproduction.com^
 ||tepebasibelediyesi.com^
+||tesdamimaropa.com^
+||thatswhatieat.com^
+||theimaginationpress.com^
 ||theln.xyz^
+||thepupil.in^
 ||tilkibet.com^
 ||timebet.com^
 ||tip724.com^
+||tipobet-tr.link^
 ||tipobet.com^
 ||tipobet5476.com^
 ||tmb.pw^
+||todoritmos.com^
 ||topraklarmetal43.biz^
 ||topraklarmetal96.top^
 ||tr-mostbet.com^
@@ -1237,6 +1323,7 @@
 ||trickyrock.com^
 ||trjetbahis.com^
 ||trvbet1.org^
+||tulip3pmedia.in^
 ||tulipbet722.com^
 ||tulipbetortaklik.com^
 ||turk-bahis-siteleri.net^
@@ -1275,6 +1362,7 @@
 ||vevowevo.com^
 ||vipbahissiteleri.org^
 ||visabahis.com^
+||vitabens.com^
 ||vitibet.com^
 ||vitisport.gr^
 ||vlpartners.com^
@@ -1319,6 +1407,8 @@
 ||zbahis302.com^
 ||zbahis303.com^
 ||zbahis304.com^
+||zbahis306.com^
+||zbahis307.com^
 ||zbahisbetgiris.com^
 ||zbahisinfo.com^
 ||zbahisz.com^
@@ -1330,65 +1420,15 @@
 ||zirvebet176.com^
 ||zlotguncelgiris.com^
 ||zmedya.link^
-#---------------#
-||2025marsbahis.org^
-||458marsbahis.com^
-||betkanyon1358.com^
-||bosquelaprimavera.com^
-||extrabet980.com^
-||ghostautonomy.com^
-||guncel-girisi.com^
-||higheredprofessor.com^
-||m-marsbahis.com^
-||mars-bahis.org^
-||mars-giris.com^
-||marsbahis-452.com^
-||marsbahis.info^
-||marsbahis.sbs^
-||marsbahis.top^
-||marsbahis3.com^
-||marsbahise.com^
-||marsbahisgiris.net^
-||marsbahisgunceladresi.com^
-||marsbahiss.net^
-||marsbahissongiris.com^
-||marscasino.top^
-||mnopa.click^
-||mostbet-bahis-giris.org^
-||mostbet360.com^
-||multiservicioservi.com^
-||nusapure.com^
-||palmbeachbeaute.com^
-||pasadenasign.com^
-||pokerstars.com^
-||seacomengineering.org^
-||slyfoxperformance.com^
-||snsinternet.com^
-||sparrohs.com^
-||stevesgrill.com.au^
-||surfaceint.com^
-||tech-gyan.in^
-||tejasproduction.com^
-||tesdamimaropa.com^
-||theimaginationpress.com^
-||thepupil.in^
-||tipobet-tr.link^
-||todoritmos.com^
-||tulip3pmedia.in^
-||vitabens.com^
-||thatswhatieat.com^
-||intraspexion.com^
-||sonbahis351.com^
-||sweetnaturesbeauty.com^
-
-
 
 #- Social Media Pages
+||github.com/8445646/$doc
 ||github.com/amkbncli/$doc
 ||github.com/tsonosidaes/$doc
-||github.com/bts10s/^doc
+||github.com/bts10s/$doc
 ||github.com/tddsttds/$doc
 ||github.com/v4yy61v4y/$doc
+||sites.google.com/view/bahis-oyna-simdi/$doc
 ||x.com/inatbahis^$doc
 ||t.me/inatbahis^$doc
 ||api.whatsapp.com/send?phone=+46735780992^$doc
