@@ -33,6 +33,10 @@
 ||cloudflareinsights.com^
 ||creativecdn.com^
 ||criteo.com^
+||customer.io^
+||clarity.ms^
+||dog-a.xyz^
+||go-mpulse.net^
 ||dogt.xyz^
 ||doubleclick.net^
 ||dnymedya.com^$third-party
@@ -84,6 +88,8 @@
 ||pushengage.com^
 ||vntsm.com^
 ||inmobi.com^
+||commissionlounge.com^
+
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
