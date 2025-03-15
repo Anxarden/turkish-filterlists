@@ -9,10 +9,12 @@
 #- Domains
 ||360yield-basic.com^
 ||360yield.com^
+||addtoany.com^
 ||adform.net^
 ||adhouse.pro^
 ||admatic.com.tr^
 ||admatic.de^$third-party
+||admost.com^
 ||adnxs-simple.com^
 ||adnxs.com^
 ||adsrvr.org^
@@ -22,6 +24,7 @@
 ||amazon-adsystem.com^
 ||appnexus.com^
 ||ay.delivery^
+||bbvms.com^$third-party
 ||bildirt.com^
 ||bilgin.pro^$third-party
 ||brainsland.com^
@@ -32,11 +35,13 @@
 ||criteo.com^
 ||dogt.xyz^
 ||doubleclick.net^
+||dnymedya.com^$third-party
 ||eskimi.com^
 ||ezoic.net^
 ||gemius.pl^
 ||geoedge.be^
 ||google-analytics.com^
+||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
 ||id5-sync.com^
@@ -58,6 +63,7 @@
 ||onesignal.com^
 ||onetrust.com^
 ||openx.net^
+||perfectmarket.com^
 ||pghub.io^
 ||pigeoon.com^
 ||pixad.com.tr^
@@ -66,14 +72,18 @@
 ||rlcdn.com^
 ||rubiconproject.com^
 ||scorecardresearch.com^
+||shareaholic.net^
 ||smartadserver.com^
 ||taboola.com^
 ||teads.tv^
+||theadx.com^
 ||tradedoubler.com^
 ||usersnap.com^
 ||yadro.ru^
 ||yieldmo.com^
 ||pushengage.com^
+||vntsm.com^
+||inmobi.com^
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
@@ -86,6 +96,7 @@
 ||bundles.efilli.com^
 ||tracking.ensonhaber.com^
 ||contributor.google.com^
+||imasdk.googleapis.com^
 ||fundingchoicesmessages.google.com^
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^

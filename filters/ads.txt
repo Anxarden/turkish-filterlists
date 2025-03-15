@@ -97,7 +97,9 @@ yenisafak.com##a.ramadan-sponsor
 myanimelist.net##.title>.detail>div.bookstore-information
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 
-#- Annoyances
+#- Annoyances & CSS Fixes
+trakt.tv##[class=spacer]:empty
+xiguasuwu.com##body>[style]:empty
 
 #- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
@@ -132,7 +134,3 @@ duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
-
-#- CSS Fixes & Empty Spaces
-trakt.tv##[class=spacer]:empty
-xiguasuwu.com##body>[style]:empty
