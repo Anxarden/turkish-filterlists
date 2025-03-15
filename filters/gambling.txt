@@ -40,62 +40,82 @@
 ||matadorbet.com^
 
 #- SEO Referal Sites
+||askbahisx.com^
+||aviateplatform.com^
+||aviator-oyna.cc^
+||aviator-oyunu.net^
 ||azuricasinogiris.com^
 ||bahis-bey1.com^
 ||bahis-bey2.com^
+||bahis-tr.com^
 ||bahisabigiris.com^
 ||bahisanaliz30.site^
+||bahisdene.com^
 ||bahisen.org^
 ||bahisfair.net^
+||bahisguven.com^
+||bahismerkez.com^
 ||bahisram.org^
+||bahissitelerianalizi.com^
+||bahissiteleritr.net^
+||bahistutkusu.net^
+||bahisvakti.com^
+||bahiswebsiteleri.com^
 ||bahsinesite.com^
+||bedava-bahis-oyna.com^
+||benimbahis.org^
+||bet-aviator.com^
 ||betadonisadresi.com^
 ||betpionergirisi.com^
+||bets10k.com^
+||bets10z.com^
 ||bilyoncu.net^
 ||bonusdreams.com^
+||budayapoker.us^
 ||bullbahiss.com^
+||canli-casino-oyna.com^
 ||casinovivakayit.com^
+||celtacdn.com^
+||dunyakupasi.org^
 ||elitbahisgiris.org^
 ||elitbahisguncel.com^
+||eniyibahissiteleri.wiki^
+||girisbahiscom.com^
+||gncbilgi.com^
+||grandpashabetgiri.com^
+||hells-bet.com^
 ||hizbahis.com^
 ||holeybetgirisi.com^
 ||interbahisgirisi.com^
+||maltbahisgiris.org^
 ||millibahis.me^
 ||monobahis.com^
+||nasedvoriste.rs^
+||onbahissite.com^
+||oyna-kazan.com^
+||oynabahis.com^
+||paribahisturk.com^
+||pcbala.com^
 ||radabetgirisi.com^
 ||sahaweb.com^
 ||showbahisgiris888.com^
-||sonbahisx.com^
-||turkbahis.net^
-||wbahisgiris.com^
-||askbahisx.com^
-||girisbahiscom.com^
-||benimbahis.org^
-||vaycasino.games^
-||grandpashabetgiri.com^
-||onbahissite.com^
-||maltbahisgiris.org^
-||paribahisturk.com^
-||bets10k.com^
-||bets10z.com^
-||slotsiteleripro.com^
-||oyna-kazan.com^
-||aviator-oyunu.net^
-||aviator-oyna.cc^
-||canli-casino-oyna.com^
-||oynabahis.com^
-||vipbahiss.com^
-||nasedvoriste.rs^
-||aviateplatform.com^
-||bedava-bahis-oyna.com^
-||bet-aviator.com^
-||pcbala.com^
-||thebrowhut.net^
-||supertotobet1906.com^
-||yasal-bahis-siteleri.net^
+||siteleri-bahis.org^
 ||slotbargiris1.com^
+||slotsiteleripro.com^
+||sonbahisx.com^
 ||sugarrushoyna.com^
+||supertotobet1906.com^
+||thebrowhut.net^
 ||tropicaltikioyna.com^
+||turkbahis.net^
+||vaycasino.games^
+||vipbahiss.com^
+||wbahisgiris.com^
+||wearebettors.com^
+||webbeluga.com^
+||yasal-bahis-siteleri.com^
+||yasal-bahis-siteleri.net^
+||betsiteler.com^
 
 #- Affiliate CDN and Redirect Sites
 ||pragmaticplay.net^||bahisen.link^
@@ -128,6 +148,11 @@
 ||cdn-in-flare.com^
 ||cdnxtpo365.com^
 ||cgcb.info^
+||kisa.pro^
+||squarespace-cdn.com^
+||centerofseo.com^
+||urlshortening.link^
+||tablogiris.xyz^
 
 #- Gibberish 3th-Party Domains
 ||2zta6ev6iq.com^
@@ -150,11 +175,15 @@
 ||echafcmb.com^
 ||e4026ext8b.com^
 ||n3ukb21g7e.com^
+||xf38lo22j1y0ihymst.com^
+
 
 #- Others (Blocked by Other Sources)
 ||onwngiris.com^
 ||mobilbahisturk.com^
 ||betwinner2.com^
+||betandyou.com^
+||clickpupbit.com^
 
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
@@ -162,6 +191,7 @@
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 
 #- Dump List
+||lavivabet638.com^
 ||10forum-bahis.com^
 ||10odeonbahis.com^
 ||127ramenbet.com^
@@ -1386,7 +1416,6 @@
 ||x011bt.com^
 ||xbahis56.com^
 ||xbahisgiris.net^
-||xf38lo22j1y0ihymst.com^
 ||xn--trkeslot-u0a1s.com^
 ||yakabet.com^
 ||yasadisibahis.net^
@@ -1478,23 +1507,12 @@
 ||vevobahis-tv.blogspot.com^
 
 #- Redirect Links
-||t2m.io/sonbahisgiris^$doc
-||t2m.io/marsbahis^$doc
-||t2m.io/vevobahiss^$doc
-||t2m.io/8s1pmeA^$doc
-||t2m.io/hunterparavan^$doc
-||cutt.ly/eleganshzl^$doc
-||cutt.ly/mumtazks^$doc
-||cutt.ly/mumtazk^$doc
-||cutt.ly/elegansbet^$doc
-||cutt.ly/elegansbw^$doc
-||t2m.io/betmf100^$doc
-||t2m.io/klasbahisban^$doc
 ||a.info/spinlinbanner^$doc
 ||bit.ly/1xbet-*^$doc
 ||bit.ly/3cj37j0^$doc
 ||bit.ly/3w5ap1v^$doc
 ||bit.ly/43sefe6^$doc
+||bit.ly/3QoLiC8^$doc
 ||bit.ly/benimbahisp^$doc
 ||bit.ly/betelliyeni^$doc
 ||bit.ly/betroadyeni^$doc
@@ -1520,7 +1538,12 @@
 ||bit.ly/rotabetadres^$doc
 ||cutt.ly/9e4nlrhx^$doc
 ||cutt.ly/cemcp0fq^$doc
+||cutt.ly/elegansbet^$doc
+||cutt.ly/elegansbw^$doc
+||cutt.ly/eleganshzl^$doc
 ||cutt.ly/guncelvevo^$doc
+||cutt.ly/mumtazk^$doc
+||cutt.ly/mumtazks^$doc
 ||cutt.ly/orqexlql^$doc
 ||cutt.ly/portokazandirir^$doc
 ||cutt.ly/re1quqiv^$doc
@@ -1537,10 +1560,12 @@
 ||t.ly/bahislionmobil^$doc
 ||t.ly/betsat-*^$doc
 ||t.ly/enobahiss^$doc
+||t.ly/fansport-*^$doc
 ||t.ly/leonbet-*^$doc
 ||t.ly/levantadres^$doc
 ||t.ly/levanttv^$doc
 ||t.ly/marsadres^$doc
+||t.ly/milyar-*^$doc
 ||t.ly/mobilbahis-*^$doc
 ||t.ly/mroyun-*^$doc
 ||t.ly/otobet-*^$doc
@@ -1555,11 +1580,15 @@
 ||t2m.io/100freespingel^$doc
 ||t2m.io/132422^$doc
 ||t2m.io/1windis^$doc
+||t2m.io/300fs^$doc
+||t2m.io/300tl^$doc
 ||t2m.io/456456^$doc
+||t2m.io/8s1pmeA^$doc
 ||t2m.io/anadoludis^$doc
 ||t2m.io/bahissenin^$doc
 ||t2m.io/bahisvecasino^$doc
 ||t2m.io/betgitt^$doc
+||t2m.io/betmf100^$doc
 ||t2m.io/betorders
 ||t2m.io/betparma^$doc
 ||t2m.io/betroadgel^$doc
@@ -1577,9 +1606,13 @@
 ||t2m.io/grandpashabetgel^$doc
 ||t2m.io/hitbet-*^$doc
 ||t2m.io/hovardagel^$doc
+||t2m.io/hunterparavan^$doc
 ||t2m.io/hxtugzr^$doc
+||t2m.io/klasbahisban^$doc
 ||t2m.io/klasbahisgels^$doc
+||t2m.io/klasbahiswin^$doc
 ||t2m.io/ligobetgel^$doc
+||t2m.io/marsbahis^$doc
 ||t2m.io/matadorbet^$doc
 ||t2m.io/matadorbetgel^$doc
 ||t2m.io/melbetgrs^$doc
@@ -1601,13 +1634,16 @@
 ||t2m.io/shrtngncl^$doc
 ||t2m.io/siyahbetgel^$doc
 ||t2m.io/skmp^$doc
+||t2m.io/sonbahisgiris^$doc
 ||t2m.io/spyrdgq^$doc
 ||t2m.io/supertotobett^$doc
 ||t2m.io/tlcasino^$doc
 ||t2m.io/trwindis^$doc
+||t2m.io/vevobahiss^$doc
 ||t2m.io/vevoguncell^$doc
 ||t2m.io/visabahiscom^$doc
 ||t2m.io/wbahisgels^$doc
+||t2m.io/xslot^$doc
 ||t2m.io/yuzliragel^$doc
 ||tinyurl.com/bahisnowguncel^$doc
 ||tinyurl.com/btbaff^$doc
@@ -1625,8 +1661,3 @@
 ||yayin.la/gjrap^$doc
 ||yayin.la/lm60y^$doc
 ||yayin.la/q6rj4^$doc
-||t2m.io/betgitt^$doc
-||t2m.io/xslot^$doc
-||t2m.io/300tl^$doc
-||t2m.io/klasbahiswin^$doc
-||t2m.io/300fs^$doc
