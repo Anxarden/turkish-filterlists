@@ -1,28 +1,26 @@
-#- Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
-#- Homepage: https://github.com/Anxarden/turkish-filterlist/
-#- Author: Anxarden
+! Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
+! Homepage: https://github.com/Anxarden/turkish-filterlist/
+! Author: Anxarden
 
-#- Generic AD Filters
+!- Generic AD Filters
 ##[class="ads-container"i]
 ##[class$="-ad-container"i]
 ##[class*="-ads-adjustment"i]
 ##[class="ads_single_font"i]
 ##[class="player-side-ad"i]
+##body>div.body-clickable
 /wp-content/*.gif$first-party,image,domain=/diziyou/
 
-#- Regex AD Filters
+!- Regex AD Filters
 /dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
 /diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 /diziyou\d?\.(com?|live)$/##.dizialani>.video>a[target=_blank]
 
-#- AD Filters for Specific Websites
+!- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
-dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
-dactylogagnant.click,hlktrpl.cfd##[id="textreklamgoster"i],[class="playertextreklam"i]
-diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##.body-clickable
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
@@ -74,18 +72,23 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
-#- AD Content & Banners/Images
+!- AD Content & Banners/Images/Texts
 akakce.com##.topBanner[rel^=sponsored]
-indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
-digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
+dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
+digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
+filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##div[class$="-reklam"i]
 haberler.com##div[class$="-reklam-card"i]
 haberler.com##div[class="reklam-card"i]
+hlktrpl.cfd##[id="textreklamgoster"i]
+hlktrpl.cfd##div[class="playertextreklam"i]
 hurriyet.com.tr##section.adv
+indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 milliyet.com.tr##div.article-ads-container
+myanimelist.net##.title>.detail>div.bookstore-information
 mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
 teamos.xyz##center:has(>div>a[title^="debrid"i])
@@ -94,21 +97,19 @@ turktorrent.us##^script:has-text(#advertisements)
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
-myanimelist.net##.title>.detail>div.bookstore-information
-filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 
-#- Annoyances & CSS Fixes
+!- Annoyances & CSS Fixes
 trakt.tv##[class=spacer]:empty
 xiguasuwu.com##body>[style]:empty
 
-#- Cookie Banners
+!- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
 
-#- Notification Popups
+!- Notification Popups
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 
-#- Social Networks & Following/Sharing Annoyances
+!- Social Networks & Following/Sharing Annoyances
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
@@ -126,11 +127,11 @@ vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 
-#- Hide Websites from Search Results
+!- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 
-#- Fake Download Buttons
+!- Fake Download Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
