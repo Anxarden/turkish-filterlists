@@ -27,6 +27,7 @@
 ||retrobet*.com^
 ||oslobet*.com^
 ||showbet*.com^
+||bankobet*.com^
 
 #- Gambling Domains
 ||912bahsine.com^
@@ -37,8 +38,15 @@
 ||mp54782.top^
 ||trbpwa94.com^
 ||bircasino748.com^
+||birebin.com^
 
 #- SEO Referal Sites
+||bonusver.site^
+||bonusdenemesi.com^
+||satispanel.com^
+||birxdenemebonusu.com^
+||mphomewares.com^
+||forbesposts.com^
 ||aviateplatform.com^
 ||aviator-oyna.cc^
 ||aviator-oyunu.net^
@@ -88,6 +96,11 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||4link.li^
+||titolink.com^
+||ebetlab.com^
+||affgambi.com^
+||nfsurl.com^
 ||lycheejet.com^
 ||jetcasino.life^
 ||affosl.co^
@@ -187,6 +200,7 @@
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 
 #- Dump List
+||248mariobet.com^
 ||419redwin.com^
 ||077.game^
 ||1010188s.info^
@@ -420,7 +434,6 @@
 ||banglabet88.com^
 ||bangobet.com^
 ||banko725.com^
-||bankobet66.com^
 ||bankonbet.com^
 ||banzaibet.vip^
 ||basaribet-casino-tr.top^
@@ -712,7 +725,6 @@
 ||bindasbet.com^
 ||bingoaovivo.net^
 ||bircasino.com^
-||birebin.com^
 ||birxbet.net^
 ||bit24.live^
 ||bitalih.com^
@@ -2019,7 +2031,6 @@
 ||sanchezzz.com^
 ||sanslisaray.com^
 ||satisbw.com^
-||satispanel.com^
 ||savoycasino.com^
 ||savoyslot.com^
 ||sb85cdn.com^

@@ -14,6 +14,7 @@
 ||adhouse.pro^
 ||admatic.com.tr^
 ||admatic.de^$third-party
+||admaxium.com^
 ||admost.com^
 ||adnxs-simple.com^
 ||adnxs.com^
@@ -25,6 +26,7 @@
 ||appnexus.com^
 ||ay.delivery^
 ||bbvms.com^$third-party
+||bidr.io^
 ||bildirt.com^
 ||bilgin.pro^$third-party
 ||brainsland.com^
@@ -91,6 +93,7 @@
 ||vntsm.com^
 ||inmobi.com^
 ||commissionlounge.com^
+||sanalticaretim.com^
 
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
@@ -98,6 +101,7 @@
 ||t.9gag.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
+||d1l6p2sc9645hc.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||static.criteo.net^
 ||improving.duckduckgo.com^
