@@ -82,6 +82,8 @@
 ||wearebettors.com^
 ||webbeluga.com^
 ||wepanknowledgecenter.org^
+||bonuslar.cc^
+||adresler.org
 
 #- Networks
 ||anjouangaming.org^$third-party
@@ -2713,3 +2715,6 @@
 ||yayin.la/gjrap^$doc
 ||yayin.la/lm60y^$doc
 ||yayin.la/q6rj4^$doc
+||vip.bio/bonuslar^$doc
+||vip.bio/deneme^$doc
+||vip.bio/list^$doc
