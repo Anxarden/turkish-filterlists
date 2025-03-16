@@ -31,6 +31,7 @@
 ||btloader.com^
 ||casalemedia.com^
 ||cloudflareinsights.com^
+||digitaloceanspaces.com^$third-party
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
@@ -85,6 +86,7 @@
 ||usersnap.com^
 ||yadro.ru^
 ||yieldmo.com^
+||pushpad.xyz^
 ||pushengage.com^
 ||vntsm.com^
 ||inmobi.com^
