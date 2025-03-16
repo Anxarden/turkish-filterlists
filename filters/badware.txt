@@ -94,6 +94,7 @@
 ||inmobi.com^
 ||commissionlounge.com^
 ||sanalticaretim.com^
+||subaxe.xyz^
 
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^

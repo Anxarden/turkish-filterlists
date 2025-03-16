@@ -1,13 +1,13 @@
-# Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+#- Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
+#- Homepage: https://github.com/Anxarden/turkish-filterlist/
+#- Author: Anxarden
 
 #- Generic AD Filters
-net,com##[class="ads-container"i]
-net,com##[class$="-ad-container"i]
-net,com##[class*="-ads-adjustment"i]
-net,com##[class="ads_single_font"i]
-net,com##[class="player-side-ad"i]
+##[class="ads-container"i]
+##[class$="-ad-container"i]
+##[class*="-ads-adjustment"i]
+##[class="ads_single_font"i]
+##[class="player-side-ad"i]
 /wp-content/*.gif$first-party,image,domain=/diziyou/
 
 #- Regex AD Filters
@@ -20,8 +20,8 @@ net,com##[class="player-side-ad"i]
 #- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
-dactylogagnant.click,hlktrpl.cfd##.jw-preview
-dactylogagnant.click,hlktrpl.cfd##.jw-title 
+dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
+dactylogagnant.click,hlktrpl.cfd##[id="textreklamgoster"i],[class="playertextreklam"i]
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##.body-clickable
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
