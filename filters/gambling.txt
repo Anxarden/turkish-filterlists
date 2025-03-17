@@ -1,14 +1,12 @@
-# Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Yasadışı Kumar/Bahis]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+! Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Yasadışı Kumar/Bahis]
+! Homepage: https://github.com/Anxarden/turkish-filterlist/
+! Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
 *$all,to=/^(?:.*\.)?(?:[^.]*)bahis(?:[^.]*)\.(?:[^.]+\.[^.]+|[^.]+)$/
-
 #- Gambling TLD
 ||bet^
 ||casino^
-
 #- Gambling Domains /w Wildcard
 ||acrobet*.com^
 ||darkbet*.com^
@@ -28,7 +26,6 @@
 ||oslobet*.com^
 ||showbet*.com^
 ||bankobet*.com^
-
 #- Gambling Domains
 ||onwin1769.com^
 ||912bahsine.com^
@@ -40,8 +37,18 @@
 ||trbpwa94.com^
 ||bircasino748.com^
 ||birebin.com^
-
-#- SEO Referal Sites
+#- SEO Referal sitesi
+||munirtatar.com^
+||denemebonusguncel.com^
+||bonusdede.com^
+||bilgiokullari.com^
+||sportsofertaes.com^
+||genfkd.org^
+||kothambawala.com^
+||kurasport.com^
+||bonusverenyenisite.com^
+||bonusverenler.com^
+||denemebonusforumu.com^
 ||casinositeleri-guvenilir.com^
 ||bahsettir.com^
 ||denemebonusu.ai^
@@ -54,7 +61,6 @@
 ||deneme-bonusu-veren.net^
 ||denemeslotbonus.com^
 ||denemebonusa.com^
-||denemebonusguncel.com^
 ||techxwebs.com^
 ||guncelcasinositeler.com^
 ||insightflick.com^
@@ -105,7 +111,6 @@
 ||wepanknowledgecenter.org^
 ||bonuslar.cc^
 ||adresler.org
-
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
@@ -172,7 +177,6 @@
 ||wcont.io^
 ||wlstorages.com^
 ||zkodsdnggw.net^
-
 #- Gibberish 3th-Party Domains
 ||u9vijx7mb.com^
 ||2zta6ev6iq.com^
@@ -198,21 +202,21 @@
 ||vtr5py8m.com^
 ||x8hzzz0.com^
 ||xf38lo22j1y0ihymst.com^
-
 #- Others (Blocked by Other Sources)
 ||onwngiris.com^
 ||betwinner2.com^
 ||betandyou.com^
 ||clickpupbit.com^
 ||aliniyo.com^
-
 #- Datacenter Links
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
-
 #- Dump List
+||denemebonusua.com^
+||denemebonusuverenler2025.com^
+||denemebonusuverenyeni.site^
 ||deneme-bonusu-casino.com^
 ||cdn-a914bb88.com^
 ||denemebonusuverensite2.net^
@@ -2534,7 +2538,6 @@
 ||zolobet.pro^
 ||zoombaplay.com^
 ||zotabet.com^
-
 #- Social Media Pages
 ||api.whatsapp.com/send?phone=+46735780992^$doc
 ||sites.google.com/view/bahis-oyna-simdi/$doc
@@ -2593,7 +2596,6 @@
 !- pages.dev|blogspot.com
 ||bahis-siteleri.pages.dev^
 ||dbcss.pages.dev^
-
 #- Redirect Links
 ||a.info/spinlinbanner^$doc
 ||bit.ly/1xbet-*^$doc
