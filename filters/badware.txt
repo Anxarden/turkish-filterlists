@@ -38,6 +38,7 @@
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
+||dengage.com^
 ||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
@@ -107,6 +108,7 @@
 ||d1l6p2sc9645hc.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||static.criteo.net^
+||adserve.donanimhaber.com^
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
 ||tracking.ensonhaber.com^
@@ -133,6 +135,9 @@
 ||pdfindir.net^
 ||saglamoyun.net^
 ||softonic.com^
+||iwashstation.com^
+||ucretsiz-ekitaplar-indir.info^
+||debridleech.com^
 
 #- Specific Scripts/Queries/Fetchs
 ||cdn.livechatinc.com/tracking.js^$script
