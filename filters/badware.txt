@@ -1,6 +1,6 @@
-# Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+! Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
+! Homepage: https://github.com/Anxarden/turkish-filterlist/
+! Author: Anxarden
 
 #- Domains w/ Exceptions
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
@@ -77,7 +77,7 @@
 ||pghub.io^
 ||pigeoon.com^
 ||pixad.com.tr^
-||posthog.com^$third-party
+||posthog.com^
 ||pubmatic.com^
 ||pushengage.com^
 ||pushpad.xyz^
@@ -98,6 +98,7 @@
 ||waust.at^
 ||yadro.ru^
 ||yieldmo.com^
+||inmobi.com^
 
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
@@ -123,6 +124,7 @@
 ||analytics.tiktok.com^
 ||ad01.tmgrup.com.tr^
 ||widget.uservoice.com^
+||csp.withgoogle.com^
 ||static.virgul.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
