@@ -9,7 +9,7 @@
 ||bet^
 ||casino^
 
-#- Gambling Domains / Wildcard
+#- Gambling Domains /w Wildcard
 ||acrobet*.com^
 ||darkbet*.com^
 ||matadorbet*.com^
@@ -30,6 +30,7 @@
 ||bankobet*.com^
 
 #- Gambling Domains
+||onwin1769.com^
 ||912bahsine.com^
 ||betpublic136.com^
 ||betsat1297.com^
@@ -41,7 +42,22 @@
 ||birebin.com^
 
 #- SEO Referal Sites
-||bonusver.site^
+||casinositeleri-guvenilir.com^
+||bahsettir.com^
+||denemebonusu.ai^
+||bonusarayanlar.com^
+||bonuscuabla.com^
+||denemebonusu.com^
+||hmcasinotr.com^
+||sitedenemebonusu.com^
+||eniyidenemebonusu.info^
+||deneme-bonusu-veren.net^
+||denemeslotbonus.com^
+||denemebonusa.com^
+||denemebonusguncel.com^
+||techxwebs.com^
+||guncelcasinositeler.com^
+||insightflick.com^
 ||bonusdenemesi.com^
 ||satispanel.com^
 ||birxdenemebonusu.com^
@@ -73,16 +89,13 @@
 ||haberpop.com^
 ||hells-bet.com^
 ||holeybetgirisi.com^
-||kumar-sitesi1.com^
 ||nasedvoriste.rs^
 ||oyna-kazan.com^
 ||pcbala.com^
 ||radabetgirisi.com^
 ||sahaweb.com^
-||slotbargiris1.com^
 ||slotsiteleripro.com^
 ||sugarrushoyna.com^
-||supertotobet1906.com^
 ||thebrowhut.net^
 ||tribersport.com^
 ||tropicaltikioyna.com^
@@ -96,7 +109,9 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
-||4link.li^
+||zzjayb.top^
+||bonusver.site^
+||genesysaffiliates.com^
 ||titolink.com^
 ||ebetlab.com^
 ||affgambi.com^
@@ -138,7 +153,6 @@
 ||lucker.icu^
 ||maltpartners.com^
 ||nagcdn.com^
-||nakitpartners1.com^
 ||namplgfs.com^^
 ||newartgaming.com^
 ||pragmaticplay.net^||bahisen.link^
@@ -187,7 +201,6 @@
 
 #- Others (Blocked by Other Sources)
 ||onwngiris.com^
-
 ||betwinner2.com^
 ||betandyou.com^
 ||clickpupbit.com^
@@ -200,6 +213,16 @@
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 
 #- Dump List
+||deneme-bonusu-casino.com^
+||cdn-a914bb88.com^
+||denemebonusuverensite2.net^
+||supertotobet1906.com^
+||slotbargiris1.com^
+||nakitpartners1.com^
+||4link.li^^
+||kumar-sitesi1.com^
+||nfsbonus4.com^
+||denebubonuslari.com^
 ||248mariobet.com^
 ||419redwin.com^
 ||077.game^

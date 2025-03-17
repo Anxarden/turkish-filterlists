@@ -23,6 +23,7 @@
 ||adtarget.org^
 ||adtelligent.com^
 ||amazon-adsystem.com^
+||appboycdn.com^
 ||appnexus.com^
 ||ay.delivery^
 ||bbvms.com^$third-party
@@ -38,6 +39,7 @@
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
+||cookielaw.org^
 ||dengage.com^
 ||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
@@ -61,6 +63,7 @@
 ||kops1.site^
 ||lijit.com^
 ||medyanetads.com^
+||girisimbirligi.com^
 ||membrana.media^
 ||monetixads.com^
 ||mrf.io^
@@ -85,6 +88,8 @@
 ||rubiconproject.com^
 ||sanalticaretim.com^
 ||scorecardresearch.com^
+||segment.com^
+||sentry-cdn.com^
 ||shareaholic.net^
 ||smartadserver.com^
 ||subaxe.xyz^
@@ -93,7 +98,9 @@
 ||theadx.com^
 ||tradedoubler.com^
 ||trafficbass.com^
+||useinsider.com^
 ||usersnap.com^
+||usercentrics.eu^
 ||vntsm.com^
 ||waust.at^
 ||yadro.ru^
