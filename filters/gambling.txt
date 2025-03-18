@@ -38,6 +38,8 @@
 ||bircasino748.com^
 ||birebin.com^
 #- SEO Referal sitesi
+||yenibonusverensiteler.info^
+||hobitoto.org^
 ||munirtatar.com^
 ||denemebonusguncel.com^
 ||bonusdede.com^
@@ -114,6 +116,7 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||nfsbonus.info^
 ||zzjayb.top^
 ||bonusver.site^
 ||genesysaffiliates.com^
@@ -214,6 +217,9 @@
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 #- Dump List
+||nfsbonus5.com^
+||deneme-bonusu-2024.info^
+||xdenemebonusuverensiteler.com^
 ||denemebonusua.com^
 ||denemebonusuverenler2025.com^
 ||denemebonusuverenyeni.site^
@@ -2569,6 +2575,7 @@
 ||t.me/onwintelegram^$doc
 ||t.me/acrobetresmi^$doc
 ||t.me/vdoffical2^$doc
+||t.me/nfsbonus^$doc
 !- x.com/twitter.com
 ||x.com/bahiscasinobc^$doc
 ||x.com/bet365^$doc
