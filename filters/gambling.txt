@@ -110,7 +110,7 @@
 ||webbeluga.com^
 ||wepanknowledgecenter.org^
 ||bonuslar.cc^
-||adresler.org
+||adresler.org^
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites

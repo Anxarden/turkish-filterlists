@@ -111,6 +111,7 @@
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
+||monitor.azure.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
 ||d1l6p2sc9645hc.cloudfront.net^
