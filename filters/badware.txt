@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-#- Domains w/ Exceptions
+#- Domains /w Exceptions
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||cdn56.x-images.xyz^$third-party,~xhr
 
