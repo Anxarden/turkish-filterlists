@@ -73,6 +73,8 @@ zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
 !- AD Content & Banners/Images/Texts
+vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
+tuttop.com##div:matches-attr(/^data-dleb/):has(a>img)
 akakce.com##.topBanner[rel^=sponsored]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
@@ -134,4 +136,3 @@ duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 !- Fake Download Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
-vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)

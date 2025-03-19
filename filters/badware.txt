@@ -32,6 +32,7 @@
 ||bilgin.pro^$third-party
 ||blogherads.com^
 ||brainsland.com^
+||browser-intake-datadoghq.com^
 ||btloader.com^
 ||casalemedia.com^
 ||chargecracker.com^
