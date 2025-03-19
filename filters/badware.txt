@@ -37,6 +37,7 @@
 ||casalemedia.com^
 ||chargecracker.com^
 ||chartbeat.com^
+||chartbeat.com^
 ||clarity.ms^
 ||cloudflareinsights.com^
 ||commissionlounge.com^
@@ -53,6 +54,7 @@
 ||eskimi.com^
 ||ezoic.net^
 ||featuregates.org^
+||gameads.io^
 ||gemius.pl^
 ||geoedge.be^
 ||girisimbirligi.com^
@@ -85,6 +87,7 @@
 ||onesignal.com^
 ||onetrust.com^
 ||openx.net^
+||optimizely.com^
 ||perfectmarket.com^
 ||pghub.io^
 ||pigeoon.com^
@@ -96,6 +99,7 @@
 ||quantserve.com^
 ||rlcdn.com^
 ||rubiconproject.com^
+||s-onetag.com^
 ||sanalticaretim.com^
 ||scorecardresearch.com^
 ||segment.com^

@@ -27,6 +27,7 @@
 ||showbet*.com^
 ||bankobet*.com^
 ||getirbet*.com^
+||sahabet*.com^
 #- Gambling Domains
 ||onwin1769.com^
 ||912bahsine.com^
@@ -39,6 +40,12 @@
 ||bircasino748.com^
 ||birebin.com^
 #- SEO Referal sitesi
+||denemefreespin.info^
+||beyazcasino.net^
+||bonusenjoy.com^
+||universitypreferences.com^
+||denemebonusverenforum.info^
+||denemebonussitesi.com^
 ||getirbet.ink^
 ||getirbet.co^
 ||getirbet.info^
@@ -226,6 +233,8 @@
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 #- Dump List
+||guncel3.com^
+||pernet3.com^
 ||getirbett.net^
 ||nfsbonus5.com^
 ||deneme-bonusu-2024.info^
@@ -2062,10 +2071,6 @@
 ||rx.games^
 ||safirbet.com^
 ||safirbet1047.com^
-||sahabet.com^
-||sahabet1244.com^
-||sahabet1245.com^
-||sahabet1253.com^
 ||sakuraslots.com^
 ||sambaslots.com^
 ||samratbet.com^

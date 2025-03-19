@@ -30,7 +30,6 @@ dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
 github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
-gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
 icedrive.net##[id=ad-summer]
 internxt.com##.h-screen:has(>.fixed>button)
 mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
@@ -68,7 +67,6 @@ vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
 vsetop.org##[id=content]>[class=naviga]
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
@@ -129,10 +127,22 @@ vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 
-!- Hide Websites from Search Results
+#- Hide Websites from Search Results
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 
-!- Fake Download Buttons
+#- Fake Download Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+
+#- SCRIPLETS
+! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
+! +js(aeld, eventType), +js(aeld, eventType, searchString)
+faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
+! [aliases: prevent-fetch, no-fetch-if]
+! +js(no-fetch-if, URL/URL-Regex), +js(no-fetch-if, URL/URL-Regex, checkWiki)
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+! [aliases: aopr, abort-on-property-read]
+! +js(abort-on-property-read, window.property)
+gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
+
