@@ -36,10 +36,10 @@
 ||clarity.ms^
 ||cloudflareinsights.com^
 ||commissionlounge.com^
+||cookielaw.org^
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
-||cookielaw.org^
 ||dengage.com^
 ||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
@@ -48,8 +48,16 @@
 ||doubleclick.net^
 ||eskimi.com^
 ||ezoic.net^
+||featuregates.org^
+||statsigapi.net^
+||quantserve.com^
+||hotjar.com^
+||chartbeat.com^
 ||gemius.pl^
+||blogherads.com^
+||chargecracker.com^
 ||geoedge.be^
+||girisimbirligi.com^
 ||go-mpulse.net^
 ||google-analytics.com^
 ||googlesyndication.com^
@@ -59,11 +67,12 @@
 ||idealmedia.io^
 ||indexww.com^
 ||inmobi.com^
+||inmobi.com^
 ||keltis.com^$third-party
 ||kops1.site^
 ||lijit.com^
+||magsrv.com^
 ||medyanetads.com^
-||girisimbirligi.com^
 ||membrana.media^
 ||monetixads.com^
 ||mrf.io^
@@ -91,6 +100,7 @@
 ||segment.com^
 ||sentry-cdn.com^
 ||shareaholic.net^
+||simpleanalyticscdn.com^
 ||smartadserver.com^
 ||subaxe.xyz^
 ||taboola.com^
@@ -99,13 +109,12 @@
 ||tradedoubler.com^
 ||trafficbass.com^
 ||useinsider.com^
-||usersnap.com^
 ||usercentrics.eu^
+||usersnap.com^
 ||vntsm.com^
 ||waust.at^
 ||yadro.ru^
 ||yieldmo.com^
-||inmobi.com^
 
 #- Domains w/ Subs Addressing
 ||mt.9gag.com^
@@ -114,6 +123,8 @@
 ||monitor.azure.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
+||data.bilibili.com^
+||bat.bing.com^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||static.criteo.net^

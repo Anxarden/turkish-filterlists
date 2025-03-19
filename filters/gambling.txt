@@ -26,6 +26,7 @@
 ||oslobet*.com^
 ||showbet*.com^
 ||bankobet*.com^
+||getirbet*.com^
 #- Gambling Domains
 ||onwin1769.com^
 ||912bahsine.com^
@@ -38,6 +39,10 @@
 ||bircasino748.com^
 ||birebin.com^
 #- SEO Referal sitesi
+||getirbet.ink^
+||getirbet.co^
+||getirbet.info^
+||getir-bet.com^
 ||yenibonusverensiteler.info^
 ||hobitoto.org^
 ||munirtatar.com^
@@ -116,6 +121,9 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||ogp.me^
+||kirazbetsportsbook.com^
+||static-slotcity.com^
 ||nfsbonus.info^
 ||zzjayb.top^
 ||bonusver.site^
@@ -181,6 +189,7 @@
 ||wlstorages.com^
 ||zkodsdnggw.net^
 #- Gibberish 3th-Party Domains
+||jxcsysekgu.net^
 ||u9vijx7mb.com^
 ||2zta6ev6iq.com^
 ||3vpcq6t.com^
@@ -217,6 +226,7 @@
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 #- Dump List
+||getirbett.net^
 ||nfsbonus5.com^
 ||deneme-bonusu-2024.info^
 ||xdenemebonusuverensiteler.com^
@@ -1240,7 +1250,6 @@
 ||geolink99.com^
 ||get2bet.com^
 ||getfastredirect.com^
-||getirbet.com^
 ||getmycompany.com^
 ||getx.games^
 ||ggsix.com^
@@ -2721,6 +2730,7 @@
 ||t2m.io/olaycasino^$doc
 ||t2m.io/onwingel^$doc
 ||t2m.io/onwingo^$doc
+||t2m.io/getirdavet^$doc
 ||t2m.io/onwinn^$doc
 ||t2m.io/orisbetgel^$doc
 ||t2m.io/palacebetgel^$doc
