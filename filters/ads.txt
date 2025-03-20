@@ -71,20 +71,18 @@ zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
 !- AD Content & Banners/Images/Texts
-vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
-tuttop.com##div:matches-attr(/^data-dleb/):has(a>img)
-akakce.com##.topBanner[rel^=sponsored]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
-haberler.com##div[class$="-reklam"i]
-haberler.com##div[class$="-reklam-card"i]
-haberler.com##div[class="reklam-card"i]
-hlktrpl.cfd##[id="textreklamgoster"i]
-hlktrpl.cfd##div[class="playertextreklam"i]
+haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
+haberler.com##^div[class$="-reklam"i]
+haberler.com##^div[class$="-reklam-card"i]
+haberler.com##^div[class="reklam-card"i]
+hlktrpl.cfd##^[id="textreklamgoster"i]
+hlktrpl.cfd##^div[class="playertextreklam"i]
 hurriyet.com.tr##section.adv
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 milliyet.com.tr##div.article-ads-container
@@ -94,11 +92,17 @@ ntv.com.tr##div[class*="fix-ads-item-"]
 teamos.xyz##center:has(>div>a[title^="debrid"i])
 turktorrent.us##[id=advertisements]
 turktorrent.us##^script:has-text(#advertisements)
+tuttop.com##div:matches-attr(/^data-dleb/):has(a>img)
+vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 
 !- Annoyances & CSS Fixes
+simkl.com##^div.simklviptestemonials
+simkl.com##^div[class="simkltvfootersharing"i]
+simkl.com##^simkl-footer>:not(div.simkltvfooterend)
+simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 trakt.tv##[class=spacer]:empty
 xiguasuwu.com##body>[style]:empty
 
@@ -114,28 +118,29 @@ dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 
-!- Free Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
+#- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks -#
+chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
-letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
-trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
-trakt.tv##.btn-vip[href="/vip"]
-trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
-trakt.tv##[id="filter-show-advanced-filters"]
-seedr.cc##nav>.nav-link[href$="/premium"]
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
+letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
+seedr.cc##nav>.nav-link[href$="/premium"]
+simkl.com##^[id="simklheadermenuvip"i]
+trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
+trakt.tv##.btn-vip[href="/vip"]
+trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
+trakt.tv##[id="filter-show-advanced-filters"]
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
-chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 
-#- Hide Websites from Search Results
+#- Hide Websites from Search Engines -#
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 
-#- Fake Download Buttons
+#- Fake Download Buttons -#
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 
-#- SCRIPLETS
+#- SCRIPLETS -#
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType), +js(aeld, eventType, searchString)
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
@@ -145,4 +150,3 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
 ! +js(abort-on-property-read, window.property)
 gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
-
