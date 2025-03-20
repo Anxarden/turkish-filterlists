@@ -100,7 +100,6 @@ yenisafak.com##a.ramadan-sponsor
 
 !- Annoyances & CSS Fixes
 simkl.com##^div.simklviptestemonials
-simkl.com##^div[class="simkltvfootersharing"i]
 simkl.com##^simkl-footer>:not(div.simkltvfooterend)
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 trakt.tv##[class=spacer]:empty
@@ -113,10 +112,11 @@ techdergi.net##[id=cookie-box]
 !- Notification Popups
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 
-!- Social Networks & Following/Sharing Annoyances
+#- Social Networks & Following/Sharing Annoyances -#
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
+simkl.com##^div[class="simkltvfootersharing"i]
 
 #- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks -#
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)

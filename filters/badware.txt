@@ -2,11 +2,11 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-#- Domains /w Exceptions
+#- Domains /w Exceptions -#
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||cdn56.x-images.xyz^$third-party,~xhr
 
-#- Domains
+#- Domains -#
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -52,6 +52,7 @@
 ||doubleclick.net^
 ||eskimi.com^
 ||ezoic.net^
+||flarby.com^
 ||featuregates.org^
 ||gameads.io^
 ||gemius.pl^
@@ -122,7 +123,7 @@
 ||yadro.ru^
 ||yieldmo.com^
 
-#- Domains w/ Subs Addressing
+#- Domains w/ Subs Addressing -#
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
@@ -154,7 +155,7 @@
 ||bs.yandex.ru^
 ||mc.yandex.ru^
 
-#- Badware & Fake/Bait Websites
+#- Badware & Fake/Bait Websites -#
 ||e-kitapindir.com^
 ||kitabipdfindir.com^
 ||kitap-indir.online^
@@ -166,7 +167,7 @@
 ||ucretsiz-ekitaplar-indir.info^
 ||debridleech.com^
 
-#- Specific Scripts/Queries/Fetchs
+#- Specific Scripts/Queries/Fetchs -#
 ||cdn.livechatinc.com/tracking.js^$script
 ||flash.getpczone.com/sw.js^$script
 ||cdn.jsdelivr.net/npm/sweetalert$script
