@@ -104,6 +104,10 @@ simkl.com##^simkl-footer>:not(div.simkltvfooterend)
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 trakt.tv##[class=spacer]:empty
 xiguasuwu.com##body>[style]:empty
+lrepacks.net##div.columns:has(>ul)
+lrepacks.net##.relative>h2.section-title
+lrepacks.net##[id="sidebar"]>:is(div:has(>[id^="google"]),[id^="categories-"])
+
 
 !- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]

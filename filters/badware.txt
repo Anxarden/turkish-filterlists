@@ -18,6 +18,7 @@
 ||admaxium.com^
 ||admost.com^
 ||adnxs-simple.com^
+||rastikapritif.com^
 ||adnxs.com^
 ||adsrvr.org^
 ||adtarget.org^
@@ -34,6 +35,7 @@
 ||brainsland.com^
 ||browser-intake-datadoghq.com^
 ||btloader.com^
+||buysellads.net^
 ||casalemedia.com^
 ||chargecracker.com^
 ||chartbeat.com^
@@ -50,10 +52,11 @@
 ||dog-a.xyz^
 ||dogt.xyz^
 ||doubleclick.net^
+||effectiveratecpm.com^
 ||eskimi.com^
 ||ezoic.net^
-||flarby.com^
 ||featuregates.org^
+||flarby.com^
 ||gameads.io^
 ||gemius.pl^
 ||geoedge.be^
@@ -83,6 +86,7 @@
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
 ||newrelic.com^
+||nulled.to^
 ||onesignal.com^
 ||onetrust.com^
 ||openx.net^
