@@ -16,6 +16,7 @@
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||admaxium.com^
+||innocraft.cloud^
 ||admost.com^
 ||adnxs-simple.com^
 ||rastikapritif.com^
@@ -164,7 +165,6 @@
 ||mc.yandex.ru^
 
 #- Badware & Fake/Bait Websites
-
 ||activator-kmspico.net^
 ||activators.pro^
 ||activators4windows.com^
@@ -216,28 +216,6 @@
 ||expressvpn.com^
 ||ezcrack.info^
 ||filecr.com^
-||fitgirl-repack.com^
-||fitgirl-repack.net^
-||fitgirl-repack.org^
-||fitgirl-repack.site^
-||fitgirl-repacks.cc^
-||fitgirl-repacks.in^
-||fitgirl-repacks.to^
-||fitgirl-repacks.unb^
-||fitgirl-repacks.us^
-||fitgirl-repacks.vip^
-||fitgirl-repacks.website^
-||fitgirl-repacks.xyz^
-||fitgirl.cc^
-||fitgirlpack.site^
-||fitgirlrepack.games^
-||fitgirlrepacks.co^
-||fitgirlrepacks.in^
-||fitgirlrepacks.org^
-||fitgirlrepacks.pro^
-||fitgirlrepacksite.com^
-||fitgirlrepackz.com^
-||fitgirltorrent.com^
 ||freesoft.space^
 ||frostwire.com^
 ||ftuapps.dev^
@@ -387,39 +365,26 @@
 ||windowsbit.net^
 ||wizcase.com^
 ||yasdl.com^
-||z-lib.is^$domain=~z-library.sk|~z-lib.fm~|z-lib.gs|~1lib.sk
-||z-lib.ai^
-||z-lib.club^
-||z-lib.dev^
-||z-lib.ee^
-||z-lib.id^
-||z-lib.ink^
-||z-lib.io^
-||z-lib.li^
-||z-lib.lol^
-||z-lib.nl^
-||z-lib.tf^
-||z-lib.wf^
-||z-lib.wiki^
-||z-lib.ws^
-||z-lib.yt^
-||z-lib.to^
-||z-library-proxy.com^
-||z-library.blog^
-||z-library.cc^
-||z-library.help^
-||z-library.live^
-||z-library.wiki^
 ||zenmate.com^
+!- z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
+||z-lib.$all,to=~z-lib.fm|~z-lib.gs
+||z-library.^$all,to=~z-library.sk
+||zlibrary.^$all,to=~z-library.sk
+||go-to-zlibrary.com^
+||z-library-proxy.com^
 ||zlib-official.com^
 ||zlib.is^
 ||zlib.to^
 ||zlibis.com^
 ||zlibrary-global.com^
-||zlibrary.is^
-||zlibrary.lol^
-||zlibrary.st^
-||zlibrary.to^
+!- fitgirl-repacks [~fitgirl-repacks.site]
+||fitgirl-repacks.$all,to=~fitgirl-repacks.site
+||fitgirl-repack.$all
+||fitgirlrepacks.$all
+||fitgirlrepack.$all
+||fitgirl.cc^
+||fitgirlpack.site^
+||fitgirltorrent.com^
 
 #- Specific Scripts/Queries/Fetchs -#
 ||cdn.livechatinc.com/tracking.js^$script
