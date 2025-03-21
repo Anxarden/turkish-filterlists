@@ -106,8 +106,8 @@ trakt.tv##[class=spacer]:empty
 xiguasuwu.com##body>[style]:empty
 lrepacks.net##div.columns:has(>ul)
 lrepacks.net##.relative>h2.section-title
-lrepacks.net##[id="sidebar"]>:is(div:has(>[id^="google"]),[id^="categories-"])
-
+lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
+lrepacks.net##[id="sidebar"]>[id^="categories-"]
 
 !- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
@@ -116,13 +116,13 @@ techdergi.net##[id=cookie-box]
 !- Notification Popups
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 
-#- Social Networks & Following/Sharing Annoyances -#
+#- Social Networks & Following/Sharing Annoyances
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 simkl.com##^div[class="simkltvfootersharing"i]
 
-#- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks -#
+#- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
 chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
@@ -135,16 +135,17 @@ trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##[id="filter-show-advanced-filters"]
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
+lrepacks.net##article:has(.entry-media>a[href*="/informaciya/"]>img)
 
-#- Hide Websites from Search Engines -#
+#- Hide Websites from Search Engines
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 
-#- Fake Download Buttons -#
+#- Fake Download Buttons
 filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 
-#- SCRIPLETS -#
+#- SCRIPLETS
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType), +js(aeld, eventType, searchString)
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
