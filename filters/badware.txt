@@ -2,10 +2,6 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-#- Domains /w Exceptions -#
-||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
-||cdn56.x-images.xyz^$third-party,~xhr
-
 #- Domains -#
 ||360yield-basic.com^
 ||360yield.com^
@@ -385,6 +381,11 @@
 ||fitgirl.cc^
 ||fitgirlpack.site^
 ||fitgirltorrent.com^
+
+#- Domains /w Exceptions and Paths
+||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
+||cdn56.x-images.xyz^$third-party,~xhr
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
 
 #- Specific Scripts/Queries/Fetchs -#
 ||cdn.livechatinc.com/tracking.js^$script
