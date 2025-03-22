@@ -4,9 +4,11 @@
 
 #- Gambling Related Regex/Wildcards
 *$all,to=/^(?:.*\.)?(?:[^.]*)bahis(?:[^.]*)\.(?:[^.]+\.[^.]+|[^.]+)$/
+
 #- Gambling TLD
 ||bet^
 ||casino^
+
 #- Gambling Domains /w Wildcard
 ||acrobet*.com^
 ||darkbet*.com^

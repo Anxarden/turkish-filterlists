@@ -11,6 +11,7 @@
 ||360yield.com^
 ||ad-delivery.net^
 ||addtoany.com^
+||pub.network^
 ||adform.net^
 ||adhouse.pro^
 ||admatic.com.tr^

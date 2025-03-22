@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-!- Generic AD Filters
+#- Generic AD Filters
 ##[class="ads-container"i]
 ##[class$="-ad-container"i]
 ##[class*="-ads-adjustment"i]
@@ -11,7 +11,7 @@
 ##body>div.body-clickable
 /wp-content/*.gif$first-party,image,domain=/diziyou/
 
-!- Regex AD Filters
+#- Regex AD Filters
 /dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
