@@ -2,6 +2,10 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
+#- Domains /w Whitelists
+||typekit.net^
+@@||use.typekit.net^$script,font
+
 #- Domains
 ||360yield-basic.com^
 ||360yield.com^
@@ -131,7 +135,7 @@
 ||yadro.ru^
 ||yieldmo.com^
 
-#- Domains w/ Subs Addressing
+#- Domains /w Subs Addressing
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
