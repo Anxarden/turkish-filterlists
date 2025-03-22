@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-#- Domains -#
+#- Domains
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -12,15 +12,10 @@
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||admaxium.com^
-||innocraft.cloud^
 ||admost.com^
 ||adnxs-simple.com^
-||rastikapritif.com^
-||decnetshantih.com^
 ||adnxs.com^
 ||adsrvr.org^
-||whunpainty.com^
-||superiorityregard.com^
 ||adtarget.org^
 ||adtelligent.com^
 ||amazon-adsystem.com^
@@ -32,11 +27,13 @@
 ||bildirt.com^
 ||bilgin.pro^$third-party
 ||blogherads.com^
+||bodis.com^
 ||brainsland.com^
 ||browser-intake-datadoghq.com^
 ||btloader.com^
 ||buysellads.net^
 ||casalemedia.com^
+||centumshough.com^
 ||chargecracker.com^
 ||chartbeat.com^
 ||clarity.ms^
@@ -46,6 +43,7 @@
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
+||decnetshantih.com^
 ||dengage.com^
 ||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
@@ -66,11 +64,13 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||histats.com^
 ||hotjar.com^
 ||id5-sync.com^
 ||idealmedia.io^
 ||indexww.com^
 ||inmobi.com^
+||innocraft.cloud^
 ||keltis.com^$third-party
 ||kops1.site^
 ||lijit.com^
@@ -100,6 +100,8 @@
 ||pushengage.com^
 ||pushpad.xyz^
 ||quantserve.com^
+||raglanyakking.com^
+||rastikapritif.com^
 ||rlcdn.com^
 ||rubiconproject.com^
 ||s-onetag.com^
@@ -113,6 +115,7 @@
 ||smartadserver.com^
 ||statsigapi.net^
 ||subaxe.xyz^
+||superiorityregard.com^
 ||taboola.com^
 ||teads.tv^
 ||theadx.com^
@@ -124,11 +127,11 @@
 ||vntsm.com^
 ||vuzismoothie.net^
 ||waust.at^
+||whunpainty.com^
 ||yadro.ru^
 ||yieldmo.com^
-||bodis.com^
 
-#- Domains w/ Subs Addressing -#
+#- Domains w/ Subs Addressing
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
@@ -387,7 +390,7 @@
 ||cdn56.x-images.xyz^$third-party,~xhr
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
 
-#- Specific Scripts/Queries/Fetchs -#
+#- Specific Scripts/Queries/Fetchs
 ||cdn.livechatinc.com/tracking.js^$script
 ||flash.getpczone.com/sw.js^$script
 ||cdn.jsdelivr.net/npm/sweetalert$script
