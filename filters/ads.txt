@@ -9,6 +9,7 @@
 ##[class="ads_single_font"i]
 ##[class="player-side-ad"i]
 ##body>div.body-clickable
+#- Regex Network Filters
 /wp-content/*.gif$first-party,image,domain=/diziyou/
 
 #- Regex AD Filters
@@ -108,6 +109,7 @@ lrepacks.net##div.columns:has(>ul)
 lrepacks.net##.relative>h2.section-title
 lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
 lrepacks.net##[id="sidebar"]>[id^="categories-"]
+flickmetrix.com##^[id^="moviecontainer"i]>.ng-scope>div.ng-scope[ng-if]
 
 !- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]

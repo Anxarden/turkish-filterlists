@@ -62,6 +62,8 @@
 ||flarby.com^
 ||gameads.io^
 ||gemius.pl^
+||vlitag.com^
+||nkdyzf.com^
 ||geoedge.be^
 ||girisimbirligi.com^
 ||go-mpulse.net^
@@ -390,7 +392,7 @@
 ||fitgirlpack.site^
 ||fitgirltorrent.com^
 
-#- Domains /w Exceptions and Paths
+#- Domains /w Exceptions, Paths, Regex
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||cdn56.x-images.xyz^$third-party,~xhr
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
