@@ -147,6 +147,7 @@
 ||analitik.bik.gov.tr^
 ||data.bilibili.com^
 ||bat.bing.com^
+||telemetry.canva.com^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||static.criteo.net^

@@ -11,6 +11,7 @@
 ##body>div.body-clickable
 #- Regex Network Filters
 /wp-content/*.gif$first-party,image,domain=/diziyou/
+/player/js/nuevo.min.js$script
 
 #- Regex AD Filters
 /dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
@@ -151,7 +152,7 @@ tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType), +js(aeld, eventType, searchString)
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-! [aliases: prevent-fetch, no-fetch-if]
+! [aliases: prevent-fetch, no-fetch-if] 
 ! +js(no-fetch-if, URL/URL-Regex), +js(no-fetch-if, URL/URL-Regex, checkWiki)
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
