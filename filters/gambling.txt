@@ -30,6 +30,7 @@
 ||bankobet*.com^
 ||getirbet*.com^
 ||sahabet*.com^
+||hititbet*.com^
 #- Gambling Domains
 ||onwin1769.com^
 ||912bahsine.com^
@@ -130,6 +131,9 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||prerelease-env.biz^
+||pagcor-regulatory.ph^
+||ncybs.com^
 ||ogp.me^
 ||kirazbetsportsbook.com^
 ||static-slotcity.com^
@@ -234,6 +238,7 @@
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
+||agc-casino.s3.eu-central-1.amazonaws.com^$all
 #- Dump List
 ||guncel3.com^
 ||pernet3.com^
@@ -1357,8 +1362,6 @@
 ||hiltonbetortak.com^
 ||himmelcasino.com^
 ||hiperwin.com^
-||hititbet524.com^
-||hititbetx.com^
 ||hizliortaklik.com^
 ||hlclub88.com^
 ||hlvip789.com^
