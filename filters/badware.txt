@@ -121,6 +121,7 @@
 ||sentry-cdn.com^
 ||setupcmp.com^
 ||shareaholic.net^
+||sift.com^
 ||simpleanalyticscdn.com^
 ||smartadserver.com^
 ||statsigapi.net^
