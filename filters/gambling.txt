@@ -42,7 +42,13 @@
 ||trbpwa94.com^
 ||bircasino748.com^
 ||birebin.com^
-#- SEO Referal sitesi
+#- SEO Websites
+||loyalgiris.com^
+||noraguncelgiris.com^
+||megabvip.com^
+||enbetguncel.com^
+||elitbet.com^
+||enbetsite.com^
 ||denemefreespin.info^
 ||beyazcasino.net^
 ||bonusenjoy.com^
@@ -131,6 +137,8 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||linkredirect-en.com^
+||dgncdn.com^
 ||prerelease-env.biz^
 ||pagcor-regulatory.ph^
 ||ncybs.com^
@@ -240,6 +248,7 @@
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 ||agc-casino.s3.eu-central-1.amazonaws.com^$all
 #- Dump List
+||avrupabet153.com^
 ||guncel3.com^
 ||pernet3.com^
 ||getirbett.net^
@@ -1085,7 +1094,6 @@
 ||destinyx.com^
 ||detorosenlibertad.com^
 ||deuces.com^
-||dgncdn.com^
 ||dhoniwin.net^
 ||dimebit.com^
 ||dinocasino.com^

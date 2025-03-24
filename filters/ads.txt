@@ -23,6 +23,7 @@
 !- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
+blackview.hk##div.blog-ad-banner
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
 documentaryarea.com##.jw-preview {background: none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
