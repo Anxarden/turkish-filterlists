@@ -127,7 +127,7 @@ colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 simkl.com##^div[class="simkltvfootersharing"i]
 
 #- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
-chatgpt.com##nav>div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
+chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
 letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
