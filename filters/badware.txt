@@ -171,6 +171,7 @@
 ||fundingchoicesmessages.google.com^
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^
+||ichnaea-web.netflix.com^
 ||adx.opera.com^
 ||ct.pinterest.com^
 ||w3-reporting.reddit.com^
