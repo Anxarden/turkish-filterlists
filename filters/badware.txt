@@ -23,6 +23,7 @@
 ||adtarget.com.tr^
 ||adtarget.org^
 ||adtelligent.com^
+||ahrefs.com^
 ||amazon-adsystem.com^
 ||appboycdn.com^
 ||appnexus.com^
@@ -141,6 +142,7 @@
 ||vuzismoothie.net^
 ||waust.at^
 ||whunpainty.com^
+||wpadmngr.com^
 ||yadro.ru^
 ||yieldmo.com^
 
@@ -148,6 +150,7 @@
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
+||fls-na.amazon.com^
 ||monitor.azure.com^
 ||pubmatic.bbvms.com^
 ||analitik.bik.gov.tr^
