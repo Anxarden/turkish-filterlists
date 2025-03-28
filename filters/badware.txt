@@ -7,7 +7,6 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
-||myaffiliates.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -60,6 +59,7 @@
 ||doubleclick.net^
 ||effectiveratecpm.com^
 ||eskimi.com^
+||espleestrick.com^
 ||extole.io^
 ||ezoic.net^
 ||featuregates.org^
@@ -80,6 +80,7 @@
 ||indexww.com^
 ||inmobi.com^
 ||innocraft.cloud^
+||instana.io^
 ||keltis.com^$third-party
 ||kops1.site^
 ||lijit.com^
@@ -89,6 +90,7 @@
 ||membrana.media^
 ||monetixads.com^
 ||mrf.io^
+||myaffiliates.com^
 ||mynetreklam.com^
 ||myroledance.com^
 ||naupsithizeekee.com
@@ -96,24 +98,26 @@
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
 ||newrelic.com^
+||ninetailed.co^
 ||nkdyzf.com^
 ||nulled.to^
 ||onesignal.com^
-||speedcurve.com^
-||instana.io^
+||hsforms.net^
 ||onetrust.com^
 ||openx.net^
 ||optimizely.com^
+||osano.com^$third-party
 ||perfectmarket.com^
 ||pghub.io^
-||qualtrics.com^$third-party
 ||pigeoon.com^
 ||pixad.com.tr^
+||plausible.io^
 ||posthog.com^
 ||pub.network^
 ||pubmatic.com^
 ||pushengage.com^
 ||pushpad.xyz^
+||qualtrics.com^$third-party
 ||quantserve.com^
 ||raglanyakking.com^
 ||rastikapritif.com^
@@ -123,12 +127,14 @@
 ||sanalticaretim.com^
 ||scorecardresearch.com^
 ||segment.com^
+||sentry.io^
 ||sentry-cdn.com^
 ||setupcmp.com^
 ||shareaholic.net^
 ||sift.com^
 ||simpleanalyticscdn.com^
 ||smartadserver.com^
+||speedcurve.com^
 ||statsigapi.net^
 ||subaxe.xyz^
 ||superiorityregard.com^
@@ -149,7 +155,6 @@
 ||wpadmngr.com^
 ||yadro.ru^
 ||yieldmo.com^
-
 #- Domains /w Subs Addressing
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
@@ -188,6 +193,18 @@
 ||static.virgul.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
+
+#- Domains /w Exceptions, Paths, Regex
+||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
+||cdn56.x-images.xyz^$third-party,~xhr
+
+#- Specific Scripts/Queries/Fetchs/Blocks
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
+||cdn.jsdelivr.net/npm/sweetalert$script
+||cdn.livechatinc.com/tracking.js^$script
+||flash.getpczone.com/sw.js^$script
+||haberlercom.github.io/main/prebid$script
+||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
 
 #- Badware & Fake/Bait Websites
 ||activator-kmspico.net^
@@ -410,14 +427,3 @@
 ||fitgirl.cc^
 ||fitgirlpack.site^
 ||fitgirltorrent.com^
-
-#- Domains /w Exceptions, Paths, Regex
-||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
-||cdn56.x-images.xyz^$third-party,~xhr
-||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
-
-#- Specific Scripts/Queries/Fetchs
-||cdn.livechatinc.com/tracking.js^$script
-||flash.getpczone.com/sw.js^$script
-||cdn.jsdelivr.net/npm/sweetalert$script
-||haberlercom.github.io/main/prebid$script
