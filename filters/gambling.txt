@@ -42,6 +42,7 @@
 ||trbpwa94.com^
 ||bircasino748.com^
 ||birebin.com^
+||lotobet366.com^
 #- SEO Websites
 ||loyalgiris.com^
 ||noraguncelgiris.com^
@@ -137,6 +138,7 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||lotobetyon.xyz^
 ||linkredirect-en.com^
 ||dgncdn.com^
 ||prerelease-env.biz^
