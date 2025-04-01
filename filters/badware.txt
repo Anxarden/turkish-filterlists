@@ -206,6 +206,10 @@
 ||haberlercom.github.io/main/prebid$script
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
 
+#- Regex Network Filters
+/wp-content/*.gif$first-party,image,domain=/diziyou/
+/player/js/nuevo.min.js$script
+
 #- Badware & Fake/Bait Websites
 ||activator-kmspico.net^
 ||activators.pro^
