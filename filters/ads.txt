@@ -9,9 +9,6 @@
 ##[class="ads_single_font"i]
 ##[class="player-side-ad"i]
 ##body>div.body-clickable
-#- Regex Network Filters
-/wp-content/*.gif$first-party,image,domain=/diziyou/
-/player/js/nuevo.min.js$script
 
 #- Regex AD Filters
 /dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
