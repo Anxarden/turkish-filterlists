@@ -83,6 +83,7 @@
 ||inmobi.com^
 ||innocraft.cloud^
 ||instana.io^
+||judge.me^
 ||keltis.com^$third-party
 ||kops1.site^
 ||lijit.com^
@@ -103,6 +104,7 @@
 ||ninetailed.co^
 ||nkdyzf.com^
 ||nulled.to^
+||omnisnippet1.com^
 ||onesignal.com^
 ||onetrust.com^
 ||openx.net^
@@ -113,6 +115,7 @@
 ||pigeoon.com^
 ||pixad.com.tr^
 ||plausible.io^
+||pop-convert.com^
 ||posthog.com^
 ||pub.network^
 ||pubmatic.com^
@@ -132,6 +135,7 @@
 ||sentry.io^
 ||setupcmp.com^
 ||shareaholic.net^
+||shgcdn3.com^
 ||sift.com^
 ||simpleanalyticscdn.com^
 ||smartadserver.com^
