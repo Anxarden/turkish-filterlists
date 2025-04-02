@@ -27,6 +27,7 @@
 ||amazon-adsystem.com^
 ||appboycdn.com^
 ||appnexus.com^
+||apptospace.com^
 ||assemblyexchange.com^
 ||ay.delivery^
 ||bbvms.com^$third-party
@@ -75,6 +76,7 @@
 ||googletagservices.com^
 ||histats.com^
 ||hotjar.com^
+||hsforms.net^
 ||id5-sync.com^
 ||idealmedia.io^
 ||indexww.com^
@@ -102,7 +104,6 @@
 ||nkdyzf.com^
 ||nulled.to^
 ||onesignal.com^
-||hsforms.net^
 ||onetrust.com^
 ||openx.net^
 ||optimizely.com^
@@ -127,8 +128,8 @@
 ||sanalticaretim.com^
 ||scorecardresearch.com^
 ||segment.com^
-||sentry.io^
 ||sentry-cdn.com^
+||sentry.io^
 ||setupcmp.com^
 ||shareaholic.net^
 ||sift.com^
@@ -143,6 +144,7 @@
 ||theadx.com^
 ||tradedoubler.com^
 ||trafficbass.com^
+||tueyw.com^
 ||useinsider.com^
 ||usercentrics.eu^
 ||userreport.com^

@@ -32,20 +32,11 @@
 ||trbet*.com^
 ||vdcasino*.com^
 #- Gambling Domains
-||912bahsine.com^
-||betpublic136.com^
-||betsat1297.com^
-||bircasino748.com^
 ||birebin.com^
 ||elitcasino.com^
 ||futbolistikanaliz.com^
-||leon135.com^
 ||livespins.cloud^
-||lotobet366.com^
-||mp54782.top^
-||onwin1769.com^
 ||tipico.com^
-||trbpwa94.com^
 ||betmines.com^
 #- SEO Websites
 ||hitbetadres.club^
@@ -270,33 +261,6 @@
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 ||agc-casino.s3.eu-central-1.amazonaws.com^$all
 #- Dump List
-||masterortak2.vip^
-||enbet241.com^
-||datapathdv90148.com^
-||one1xbets.com^
-||megabahiis.com^
-||avrupabet153.com^
-||guncel3.com^
-||pernet3.com^
-||getirbett.net^
-||nfsbonus5.com^
-||deneme-bonusu-2024.info^
-||xdenemebonusuverensiteler.com^
-||denemebonusua.com^
-||denemebonusuverenler2025.com^
-||denemebonusuverenyeni.site^
-||deneme-bonusu-casino.com^
-||cdn-a914bb88.com^
-||denemebonusuverensite2.net^
-||supertotobet1906.com^
-||slotbargiris1.com^
-||nakitpartners1.com^
-||4link.li^^
-||kumar-sitesi1.com^
-||nfsbonus4.com^
-||denebubonuslari.com^
-||248mariobet.com^
-||419redwin.com^
 ||077.game^
 ||1010188s.info^
 ||101bes20.com^
@@ -341,6 +305,7 @@
 ||240mariobet.com^
 ||242mariobet.com^
 ||24680.com^
+||248mariobet.com^
 ||24vivo.com^
 ||281betine.com^
 ||29black.com^
@@ -361,7 +326,9 @@
 ||389betturkey.com^
 ||3l.game^
 ||414redwin.com^
+||419redwin.com^
 ||48365-365.com^
+||4link.li^^
 ||4nala.com^
 ||4rabet.com^
 ||4starscasino.net^
@@ -403,6 +370,7 @@
 ||9-club.com^
 ||9.game^
 ||910betebet.com^
+||912bahsine.com^
 ||96.com^
 ||96in.com^
 ||97.games^
@@ -502,6 +470,7 @@
 ||aviatoroyunuoyna.com.tr^
 ||aviatoroyunuoyna.com^
 ||avocasino.com^
+||avrupabet153.com^
 ||avrupakisalink.com^
 ||avrupatablo1000.com^
 ||awsjbcdn130.com^
@@ -726,6 +695,7 @@
 ||betplays.com^
 ||betpublic.org^
 ||betpublic126.com^
+||betpublic136.com^
 ||betpul117.com^
 ||betraise.com^
 ||betranos35.com^
@@ -750,6 +720,7 @@
 ||bets10pro5.com^
 ||bets10z.com^
 ||bets777.com^
+||betsat1297.com^
 ||betsation.com^
 ||betsatrs.com^
 ||betscene.com^
@@ -820,6 +791,7 @@
 ||bindasbet.com^
 ||bingoaovivo.net^
 ||bircasino.com^
+||bircasino748.com^
 ||birxbet.net^
 ||bit24.live^
 ||bitalih.com^
@@ -943,6 +915,7 @@
 ||casinomhub.com^
 ||casinomhub121.com^
 ||casinomhub124.com^
+||casinomhub129.com^
 ||casinomhub138.com^
 ||casinomustang.com^
 ||casinonight.com^
@@ -979,6 +952,7 @@
 ||cazzero.com^
 ||cbesportes.com^
 ||cbet.gg^
+||cdn-a914bb88.com^
 ||cdn4efec711ca.com^
 ||cdn4life.com^
 ||cdnlydc20156.com^
@@ -1099,6 +1073,7 @@
 ||daorealm.games^
 ||daorealm.io^
 ||daorealm.vip^
+||datapathdv90148.com^
 ||datapathdv90226.net^
 ||davbet.com^
 ||dazardbet.com^
@@ -1115,7 +1090,14 @@
 ||degenspin.com^
 ||delorocasino.com^
 ||demoslotoyna.com^
+||denebubonuslari.com^
+||deneme-bonusu-2024.info^
+||deneme-bonusu-casino.com^
+||denemebonusua.com^
 ||denemebonusum2.com^
+||denemebonusuverenler2025.com^
+||denemebonusuverensite2.net^
+||denemebonusuverenyeni.site^
 ||deobet.com^
 ||desidice.com^
 ||destinyx.com^
@@ -1186,6 +1168,7 @@
 ||empire7777.com^
 ||empire777vn.com^
 ||emucasino.com^
+||enbet241.com^
 ||enbetgir.net^
 ||eniyilerlist.com^
 ||enokayit.info^
@@ -1301,6 +1284,7 @@
 ||geolink99.com^
 ||get2bet.com^
 ||getfastredirect.com^
+||getirbett.net^
 ||getmycompany.com^
 ||getx.games^
 ||ggsix.com^
@@ -1358,6 +1342,7 @@
 ||greenmoon.top^
 ||guncel-giris25.org^
 ||guncel-girisi.com^
+||guncel3.com^
 ||gunceladresi.org^
 ||guncelbetwoongiris.com^
 ||guncelsuperbetgiris.com^
@@ -1543,6 +1528,7 @@
 ||kripty.com^
 ||krundi.com^
 ||kulisbet.com^
+||kumar-sitesi1.com^
 ||kumaroyna.net^
 ||kumaroyna.org^
 ||kurll.site^
@@ -1568,6 +1554,7 @@
 ||legiano.com^
 ||leobetbra.com^
 ||leon.net^
+||leon135.com^
 ||leonbets.com^
 ||leonbets.net^
 ||lesapremium.com^
@@ -1603,6 +1590,7 @@
 ||loonabet.com^
 ||lordspin.com^
 ||lot365.com^
+||lotobet366.com^
 ||lotoclub.cc^
 ||lotoclub.com^
 ||lotoclub.io^
@@ -1683,6 +1671,7 @@
 ||maske.click^
 ||maskebet.com^
 ||maskebet25.com^
+||masterortak2.vip^
 ||masterplay.io^
 ||matadorbet.cc^
 ||matadorbet.day^
@@ -1699,6 +1688,7 @@
 ||mblbhs.com^
 ||medinabet.com^
 ||medobet.com^
+||megabahiis.com^
 ||megabetplus.com.cy^
 ||megabook.org^
 ||megacasinos.org^
@@ -1770,6 +1760,7 @@
 ||mostbet88.com^
 ||mother.land^
 ||movetru16.com^
+||mp54782.top^
 ||mrcat.com^
 ||mrgamb.com^
 ||mrkaj.com^
@@ -1792,6 +1783,7 @@
 ||n98w43fxejyrvpc9s82ynsgsijl975pz.xyz^
 ||naffles.com^
 ||naffles.io^
+||nakitpartners1.com^
 ||nakjdjsd.com^
 ||naobet.com^
 ||naoxzsw.com^
@@ -1809,6 +1801,8 @@
 ||netxcasino9999.com^
 ||nextgenbets.com^
 ||neyine9999.com^
+||nfsbonus4.com^
+||nfsbonus5.com^
 ||ngnpanel.net^
 ||ninlay.com^
 ||niocasino.com^
@@ -1850,6 +1844,7 @@
 ||olimp.com^
 ||olivercasino.com^
 ||omillionaire.com^
+||one1xbets.com^
 ||onecasino.com^
 ||onedun.com^
 ||oneslot.com^
@@ -1861,6 +1856,7 @@
 ||onwin.fun^
 ||onwin1763.com^
 ||onwin1768.com^
+||onwin1769.com^
 ||onyxbet.com^
 ||opabet.com^
 ||opabet.io^
@@ -1935,6 +1931,7 @@
 ||penaltyshootoutcasino.com^
 ||perabet.biz^
 ||perabet.me^
+||pernet3.com^
 ||phenompoker.com^
 ||pi.game^
 ||piatrack.com^
@@ -2169,6 +2166,7 @@
 ||slotamia-tr.com^
 ||slotaxy.com^
 ||slotbarflex.com^
+||slotbargiris1.com^
 ||slotbetoyna.com^
 ||slotbudur.com^
 ||slotcasinositeleri2024.com^
@@ -2306,6 +2304,7 @@
 ||supertotobet1539.com^
 ||supertotobet1903.com^
 ||supertotobet1904.com^
+||supertotobet1906.com^
 ||surfaceint.com^
 ||sushicasino.com^
 ||sweep.gg^
@@ -2388,6 +2387,7 @@
 ||topraklarmetal96.top^
 ||toucan888.com^
 ||tr-mostbet.com^
+||trbpwa94.com^
 ||trendbayiic.com^
 ||trholiganbet.com^
 ||trickyrock.com^
@@ -2550,7 +2550,9 @@
 ||x011bt.com^
 ||x2-bet.com^
 ||x2casinos.com^
+||xdenemebonusuverensiteler.com^
 ||xgame.hk^
+||xn--essbahs-lza.com^
 ||xn--trkeslot-u0a1s.com^
 ||xtp.com^
 ||xx77.games^
@@ -2598,7 +2600,6 @@
 ||zolobet.pro^
 ||zoombaplay.com^
 ||zotabet.com^
-||xn--essbahs-lza.com^
 #- Social Media Pages
 ||api.whatsapp.com/send?phone=+46735780992^$doc
 ||sites.google.com/view/bahis-oyna-simdi/$doc
