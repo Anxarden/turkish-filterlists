@@ -21,8 +21,10 @@
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
 blackview.hk##div.blog-ad-banner
+dizipal951.com##.player-wrapper>div.pre-player
+dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
-documentaryarea.com##.jw-preview {background: none !important;}
+documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
@@ -128,23 +130,24 @@ chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
 letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
+lrepacks.net##article:has(.entry-media>a[href*="/informaciya/"]>img)
 seedr.cc##nav>.nav-link[href$="/premium"]
 simkl.com##^[id="simklheadermenuvip"i]
 trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
 trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##[id="filter-show-advanced-filters"]
+tuttop.com##noindex>p>[href^='/donat.html']
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
-lrepacks.net##article:has(.entry-media>a[href*="/informaciya/"]>img)
 
 #- Hide Websites from Search Engines
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 
 #- Fake Download Buttons
-filespayouts.com##[id=normal-box]:has(>.box-content>.download-button)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+frdl.is##button:has-text(/Premium/i):upward(center)
 
 #- SCRIPLETS
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
@@ -156,3 +159,4 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
 ! +js(abort-on-property-read, window.property)
 gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
+dizipal951.com##+js(abort-on-property-read, manageAds)
