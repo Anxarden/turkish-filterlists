@@ -7,6 +7,8 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||rutrk.org^
+||betsonsport.ru^
 ||permutive.com^
 ||primis.tech^
 ||adsby.io^
