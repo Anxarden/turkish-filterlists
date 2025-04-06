@@ -7,6 +7,7 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||instrumenttactics.com^
 ||fuseplatform.net^
 ||antiadblocksystems.com^
 ||rutrk.org^
