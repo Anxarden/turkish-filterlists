@@ -211,7 +211,7 @@
 
 #- Domains /w Exceptions, Paths, Regex
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
-||cdn56.x-images.xyz^$third-party,~xhr
+||jpicture.xyz^$third-party,~xhr
 
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
