@@ -7,39 +7,34 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
-||freevisitorcounters.com^
-||instrumenttactics.com^
-||fuseplatform.net^
-||antiadblocksystems.com^
-||rutrk.org^
-||betsonsport.ru^
-||permutive.com^
-||primis.tech^
-||adsby.io^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
 ||addtoany.com^
 ||adform.net^
 ||adhouse.pro^
+||adlightning.com^
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||admaxium.com^
 ||admost.com^
 ||adnxs-simple.com^
 ||adnxs.com^
+||adsby.io^
 ||adsrvr.org^
 ||adtarget.com.tr^
 ||adtarget.org^
 ||adtelligent.com^
 ||ahrefs.com^
 ||amazon-adsystem.com^
+||antiadblocksystems.com^
 ||appboycdn.com^
 ||appnexus.com^
 ||apptospace.com^
 ||assemblyexchange.com^
 ||ay.delivery^
 ||bbvms.com^$third-party
+||betsonsport.ru^
 ||bidr.io^
 ||bildirt.com^
 ||bilgin.pro^
@@ -59,9 +54,11 @@
 ||cookielaw.org^
 ||creativecdn.com^
 ||criteo.com^
+||criteo.net^
 ||customer.io^
 ||decnetshantih.com^
 ||dengage.com^
+||dianomi.com^
 ||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
@@ -74,6 +71,8 @@
 ||ezoic.net^
 ||featuregates.org^
 ||flarby.com^
+||freevisitorcounters.com^
+||fuseplatform.net^
 ||gameads.io^
 ||gemius.pl^
 ||geoedge.be^
@@ -92,6 +91,7 @@
 ||inmobi.com^
 ||innocraft.cloud^
 ||instana.io^
+||instrumenttactics.com^
 ||judge.me^
 ||keltis.com^$third-party
 ||kops1.site^
@@ -120,12 +120,14 @@
 ||optimizely.com^
 ||osano.com^$third-party
 ||perfectmarket.com^
+||permutive.com^
 ||pghub.io^
 ||pigeoon.com^
 ||pixad.com.tr^
 ||plausible.io^
 ||pop-convert.com^
 ||posthog.com^
+||primis.tech^
 ||pub.network^
 ||pubmatic.com^
 ||pushengage.com^
@@ -137,6 +139,7 @@
 ||redlobby.xyz^
 ||rlcdn.com^
 ||rubiconproject.com^
+||rutrk.org^
 ||s-onetag.com^
 ||sanalticaretim.com^
 ||scorecardresearch.com^
@@ -158,11 +161,13 @@
 ||theadx.com^
 ||tradedoubler.com^
 ||trafficbass.com^
+||tru.am^
 ||tueyw.com^
 ||useinsider.com^
 ||usercentrics.eu^
 ||userreport.com^
 ||usersnap.com^
+||virgul.com^
 ||vlitag.com^
 ||vntsm.com^
 ||vuzismoothie.net^
@@ -206,7 +211,6 @@
 ||ad01.tmgrup.com.tr^
 ||widget.uservoice.com^
 ||csp.withgoogle.com^
-||static.virgul.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
 
