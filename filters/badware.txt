@@ -10,6 +10,7 @@
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
+||adbetnetwork.com^
 ||addtoany.com^
 ||adform.net^
 ||adhouse.pro^
