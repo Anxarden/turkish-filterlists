@@ -7,6 +7,8 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||mxpnl.com^
+||tiqcdn.com^
 ||umami.is^
 ||tsyndicate.com^
 ||360yield-basic.com^
