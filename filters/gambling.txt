@@ -12,6 +12,7 @@
 #- Gambling Domains /w Wildcard
 ||acrobet*.com^
 ||bankobet*.com^
+||betgaranti*.com^
 ||darkbet*.com^
 ||esbet*.com^
 ||fixbet*.com^
@@ -31,14 +32,31 @@
 ||tipobet*.com^
 ||trbet*.com^
 ||vdcasino*.com^
+||supertotobet*.com^
 #- Gambling Domains
+||ballybet.com^
 ||birebin.com^
 ||elitcasino.com^
 ||futbolistikanaliz.com^
 ||livespins.cloud^
 ||tipico.com^
 ||betmines.com^
-#- SEO Websites
+||betkom.com^
+||tuttur.com^
+#- SEO Domains
+||betcup.com^
+||zirvebetgirisi.com^
+||vbetgiris.net^
+||editorbetguncelgiris.com^
+||grandpasagiris.com^
+||kralbetuk.com^
+||m-atlasbet.com^
+||masalcasino-giris.com^
+||betano.com^
+||betgarantigirisadresi.com^
+||hovardabet.com^
+||hovardatr.com^
+||mostbetofficial.net^
 ||hitbetadres.club^
 ||rekabetgirisi.com^
 ||tipbet.info^
@@ -142,6 +160,14 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||springbme.com^
+||betconstruct.com^
+||accounts-bc.com^
+||cmsbetconstruct.com^
+||betcup.pw^
+||ballys.tech^
+||whitehatgaming.com^
+||exelgame.com^
 ||hitbetpartner.com^
 ||tpbetgrs.com^
 ||enegir.xyz^
@@ -223,8 +249,6 @@
 ||zkodsdnggw.net^
 ||zzjayb.top^
 #- Gibberish 3th-Party Domains
-||jxcsysekgu.net^
-||u9vijx7mb.com^
 ||2zta6ev6iq.com^
 ||3vpcq6t.com^
 ||5wrajzmsbt.com^
@@ -232,15 +256,18 @@
 ||e4026ext8b.com^
 ||echafcmb.com^
 ||eirwlppi31.com^
+||fjykjczttspydxcx.com^
 ||ft8ql3z.com^
 ||g58q43jgsd.com^
 ||hj4by9q.com^
+||jxcsysekgu.net^
 ||lxzsdfgw.xyz^
 ||n3ukb21g7e.com^
 ||od6funh.top^
 ||p7dg2ptmb.com^
 ||qv3nb6x.com^
 ||rlurk6los2.com^
+||u9vijx7mb.com^
 ||v2dj8wsg.com^
 ||v5xwn7sg.com^
 ||vmk9pr2v.com^
@@ -608,10 +635,6 @@
 ||betfair.com^
 ||betfla.com^
 ||betforce.com^
-||betgaranti.com^
-||betgaranti927.com^
-||betgaranti928.com^
-||betgaranti949.com^
 ||betgecko.io^
 ||betgeliyo.com^
 ||betgezgini.com^
@@ -1524,6 +1547,7 @@
 ||korasaha.com^
 ||kralbet.com^
 ||kralbet957.com^
+||kralbet972.com^
 ||kralbetyenigiris.com^
 ||kripty.com^
 ||krundi.com^
@@ -2065,6 +2089,7 @@
 ||rexbet.org^
 ||richroger.com^
 ||richycashbet136.com^
+||richycashbet342.com^
 ||richycashortaklik.com^
 ||rikso.com^
 ||ririoek.com^
@@ -2301,10 +2326,6 @@
 ||supabet.com^
 ||superortaklik.com^
 ||superpetbazaar.com^
-||supertotobet1539.com^
-||supertotobet1903.com^
-||supertotobet1904.com^
-||supertotobet1906.com^
 ||surfaceint.com^
 ||sushicasino.com^
 ||sweep.gg^

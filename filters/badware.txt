@@ -7,6 +7,8 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||umami.is^
+||tsyndicate.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -60,7 +62,6 @@
 ||decnetshantih.com^
 ||dengage.com^
 ||dianomi.com^
-||digitaloceanspaces.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
 ||dogt.xyz^
@@ -216,6 +217,7 @@
 ||mc.yandex.ru^
 
 #- Domains /w Exceptions, Paths, Regex
+||digitaloceanspaces.com^$third-party,from=~lofizen.co
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||jpicture.xyz^$third-party,~xhr
 
