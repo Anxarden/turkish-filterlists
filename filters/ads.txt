@@ -149,15 +149,18 @@ frdl.is##button:has-text(/Premium/i):upward(center)
 
 #- SCRIPLETS
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
-! +js(aeld, eventType), +js(aeld, eventType, searchString)
+! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-! [aliases: prevent-fetch, no-fetch-if] 
-! +js(no-fetch-if, URL/URL-Regex), +js(no-fetch-if, URL/URL-Regex, checkWiki)
+! [aliases: prevent-fetch, no-fetch-if]
+! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
-! +js(abort-on-property-read, window.property)
+! +js(abort-on-property-read, object.property)
 gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
 dizipal951.com##+js(abort-on-property-read, manageAds)
+! [aliases: set, set-constant]
+! +js(set, object.property, value, [checkWiki])
+redecanais.gs##+js(set-constant, blockPage, noopFunc)
 
 !- Hide the AD Frame and Display the Video Player
 dizipal951.com##.player-wrapper>div.pre-player
