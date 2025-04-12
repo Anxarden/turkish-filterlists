@@ -113,17 +113,23 @@ flickmetrix.com##[id^="moviecontainer"i]>.ng-scope>div.ng-scope[ng-if]
 !- Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
-
-!- Notification Popups
+#---------------------------------------------------------------------------------#
+#- NOTIFICATION POPUPS
+#---------------------------------------------------------------------------------#
+!- Subscription Request Popup
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
-
-#- Social Networks & Following/Sharing Annoyances
+!- New Domain Reminder Popup
+onehack.us##[id="custom-modal"]
+#---------------------------------------------------------------------------------#
+#- SOCIAL NETWORKS & FOLLOWING/SHARING ANNOYANCES
+#---------------------------------------------------------------------------------#
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 simkl.com##^div[class="simkltvfootersharing"i]
-
+#---------------------------------------------------------------------------------#
 #- Annoying Trial/PRO/VIP etc. Buttons/Banners/Sections/Blocks
+#---------------------------------------------------------------------------------#
 chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
@@ -147,7 +153,9 @@ duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 frdl.is##button:has-text(/Premium/i):upward(center)
 
+#---------------------------------------------------------------------------------#
 #- SCRIPLETS
+#---------------------------------------------------------------------------------#
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
@@ -161,6 +169,7 @@ dizipal951.com##+js(abort-on-property-read, manageAds)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+#---------------------------------------------------------------------------------#
 
 !- Hide the AD Frame and Display the Video Player
 dizipal951.com##.player-wrapper>div.pre-player
