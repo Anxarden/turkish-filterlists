@@ -3,7 +3,7 @@
 ! Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-*$all,to=/^(?:.*\.)?(?:[^.]*)bahis(?:[^.]*)\.(?:[^.]+\.[^.]+|[^.]+)$/
+*$all,domain=/^(?:.*\.)?(?:[^.]*)bahis(?:[^.]*)\.(?:[^.]+\.[^.]+|[^.]+)$/
 #- Gambling TLD
 ||bet^
 ||casino^

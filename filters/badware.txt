@@ -46,6 +46,7 @@
 ||bilgin.pro^
 ||blogherads.com^
 ||bodis.com^
+||thebondservices.com^
 ||brainsland.com^
 ||browser-intake-datadoghq.com^
 ||btloader.com^
@@ -65,6 +66,7 @@
 ||decnetshantih.com^
 ||dengage.com^
 ||dianomi.com^
+||dmca.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
 ||dogt.xyz^
@@ -139,6 +141,7 @@
 ||pushpad.xyz^
 ||qualtrics.com^$third-party
 ||quantserve.com^
+||quantcast.com^
 ||raglanyakking.com^
 ||rastikapritif.com^
 ||redlobby.xyz^
@@ -207,6 +210,7 @@
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^
 ||ichnaea-web.netflix.com^
+||analytics.onedio.com^
 ||adx.opera.com^
 ||ct.pinterest.com^
 ||w3-reporting.reddit.com^
