@@ -148,6 +148,7 @@ vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 #- Hide Websites from Search Engines
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 
 #- Fake Download Buttons
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
