@@ -7,6 +7,15 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||siftscience.com^
+||qortex.ai^
+||servenobid.com^
+||yellowblue.io^
+||brainlyads.com^
+||dm-event.net^
+||unrulymedia.com^
+||cootlogix.com^
+||seedtag.com^
 ||amung.us^
 ||mxpnl.com^
 ||tiqcdn.com^
@@ -199,6 +208,7 @@
 ||d3c8j8snkzfr1n.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||static.criteo.net^
+||dmxleo.dailymotion.com^
 ||adserve.donanimhaber.com^
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
@@ -216,6 +226,7 @@
 ||w3-reporting.reddit.com^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
+||thtk.temu.com^
 ||analytics.tiktok.com^
 ||ad01.tmgrup.com.tr^
 ||widget.uservoice.com^

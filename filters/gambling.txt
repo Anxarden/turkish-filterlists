@@ -42,6 +42,7 @@
 ||tipico.com^
 ||tuttur.com^
 #- SEO Domains
+||betcio-giris.org^
 ||meritbonus.org^
 ||meritbet.net^
 ||meritbetgiris.net^
@@ -169,6 +170,7 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||linkredirect-ci.com^
 ||universityofcardiff.com^
 ||spanpromo.live^
 ||paravar.pro^
@@ -305,6 +307,7 @@
 ||agc-casino.s3.eu-central-1.amazonaws.com^$all
 ||d56vh6ph4jjmq.cloudfront.net^$all
 #- Dump List
+||betcio539.com^
 ||meritbetx.com^
 ||meritbetxtr.com^
 ||moronicasinopromo.com^
