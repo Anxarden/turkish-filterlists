@@ -7,6 +7,10 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||rollbar.com^
+||sedoparking.com^
+||dj2550.com^
+||heimalesssinpad.com^
 ||siftscience.com^
 ||qortex.ai^
 ||servenobid.com^
