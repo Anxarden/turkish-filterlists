@@ -49,8 +49,6 @@ proinvitelinks.com##[id$=-ad-placeholder]
 proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
 repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
 repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
-repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Благотворительная.регистрация/i)
-repack.me##[class$=panel-primary]:has(>.panel-heading>.short-title):has-text(/Спасибо/i)
 trakt.tv##.buttons:has(:upward(.user-wrapper>.container))
 trakt.tv##.grid-item:has-text(/VIP/i)
 trakt.tv##.sidenav-inner>span:has(a[href])
@@ -114,13 +112,6 @@ flickmetrix.com##[id^="moviecontainer"i]>.ng-scope>div.ng-scope[ng-if]
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
 #---------------------------------------------------------------------------------#
-#- NOTIFICATION POPUPS
-#---------------------------------------------------------------------------------#
-!- Subscription Request Popup
-dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
-!- New Domain Reminder Popup
-onehack.us##[id="custom-modal"]
-#---------------------------------------------------------------------------------#
 #- SOCIAL NETWORKS & FOLLOWING/SHARING ANNOYANCES
 #---------------------------------------------------------------------------------#
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
@@ -154,9 +145,9 @@ duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 frdl.is##button:has-text(/Premium/i):upward(center)
 
-#---------------------------------------------------------------------------------#
-#- SCRIPLETS
-#---------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------------#
+#- Scriptlets
+#----------------------------------------------------------------------------------------------------#
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
@@ -170,12 +161,39 @@ dizipal951.com##+js(abort-on-property-read, manageAds)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
-#---------------------------------------------------------------------------------#
 
+#----------------------------------------------------------------------------------------------------#
+!
+!
+!
+#----------------------------------------------------------------------------------------------------#
+#- ADS, Advert Related Content and Malware Security
+#----------------------------------------------------------------------------------------------------#
 !- Hide the AD Frame and Display the Video Player
 dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
+! Advert Banners
+rockmods.net##div[class^="main-ads-"]
+rockmods.net##div[id$="-ad-placeholder"]
+! Info AD Posts and Panels
+repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+
+#----------------------------------------------------------------------------------------------------#
+!
+!
+!
+#----------------------------------------------------------------------------------------------------#
+#- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
+#----------------------------------------------------------------------------------------------------#
+! Subscription Request Popup
+dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
+! New Domain Reminder Popup
+onehack.us##[id="custom-modal"]
 ! Preload/Loading Effect Annoyance
 thehouseofportable.com##[id="preload"]
 ! Application Promotion Popup (Side-Corner)
 voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
+! Clear Sidebar and Hide Social Widgets
+rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
+
+#----------------------------------------------------------------------------------------------------#
