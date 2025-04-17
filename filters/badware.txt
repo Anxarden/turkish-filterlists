@@ -7,6 +7,8 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||push-sdk.com^
+||ashoupsu.com^
 ||mediapalmtree.com^
 ||360yield-basic.com^
 ||360yield.com^

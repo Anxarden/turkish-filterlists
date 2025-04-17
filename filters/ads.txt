@@ -172,6 +172,8 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 !- Hide the AD Frame and Display the Video Player
 dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
+! Fake Button with "onmousedown" Script Redirect
+filecrypt.cc##span>button[onmousedown]
 ! Advert Banners
 rockmods.net##div[class^="main-ads-"]
 rockmods.net##div[id$="-ad-placeholder"]
