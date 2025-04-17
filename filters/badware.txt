@@ -7,6 +7,11 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||gekeebsirs.com^
+||ad-plus.com.tr^
+||gelirartisi.com^
+||adrecover.com^
+||nativespot.com^
 ||dygdigital.com^
 ||relateddigital.com^
 ||cdn-cookieyes.com^
