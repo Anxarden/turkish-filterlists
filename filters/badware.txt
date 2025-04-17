@@ -7,6 +7,11 @@
 @@||use.typekit.net^$script,font
 
 #- Domains
+||dygdigital.com^
+||relateddigital.com^
+||cdn-cookieyes.com^
+||demand.supply^
+||vidoomy.com^
 ||push-sdk.com^
 ||ashoupsu.com^
 ||mediapalmtree.com^
@@ -31,7 +36,7 @@
 ||adtarget.org^
 ||adtelligent.com^
 ||ahrefs.com^
-||amazon-adsystem.com^
+||amazon-adsystem.com^$third-party
 ||amung.us^
 ||antiadblocksystems.com^
 ||appboycdn.com^
