@@ -250,6 +250,7 @@
 ||analytics.onedio.com^
 ||adx.opera.com^
 ||ct.pinterest.com^
+||weblog.rclone.org^
 ||w3-reporting.reddit.com^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^

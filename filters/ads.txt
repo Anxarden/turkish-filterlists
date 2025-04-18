@@ -137,6 +137,7 @@ vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 
 #- Hide Websites from Search Engines
+! Fandom Wikis that are Inactive, Outdated or Deprecated and have Alternatives
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
