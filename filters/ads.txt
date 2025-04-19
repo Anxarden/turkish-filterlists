@@ -8,9 +8,8 @@
 ##[class="player-side-ad"i]
 
 #- Regex AD Filters
-/dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
+/dizipal\d{3}\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-
 
 !- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
@@ -218,8 +217,8 @@ vsetop.org##[id=content]>[class=naviga]
 ! rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##[class="ads-container"i]
-##[class$="-ad-container"i]
+##div[class="ads-container"i]
+##div[class$="-ad-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 

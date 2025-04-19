@@ -4,7 +4,7 @@
 
 #- Whitelist
 @@||use.typekit.net^$script,font
-@@||m.redlobby.xyz/episodes/$xhr,domain=/diziyou/
+@@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 
 #- Blacklist
 ||typekit.net^
@@ -286,7 +286,8 @@
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
 
 #- Regex Network Filters
-/wp-content/*.gif$first-party,image,domain=/diziyou/
+/wp-content/*.gif$first-party,image,domain=/diziyou\d+\.com$/
+
 /player/js/nuevo.min.js$script
 
 #- Badware & Fake/Bait Websites
