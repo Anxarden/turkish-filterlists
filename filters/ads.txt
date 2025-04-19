@@ -3,19 +3,14 @@
 ! Author: Anxarden
 
 #- Generic AD Filters
-##[class="ads-container"i]
-##[class$="-ad-container"i]
 ##[class*="-ads-adjustment"i]
 ##[class="ads_single_font"i]
 ##[class="player-side-ad"i]
-##body>div.body-clickable
 
 #- Regex AD Filters
 /dizipal\d{3}\.com$/##^div[class]:has(>a>img[src^="/reklamlar/"i])
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-/diziyou\d?\.(com?|live)$/###wrap>[href*="//t2m.io/"]:has(img)
-/diziyou\d?\.(com?|live)$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-/diziyou\d?\.(com?|live)$/##.dizialani>.video>a[target=_blank]
+
 
 !- AD Filters for Specific Websites
 9gag.com##[class*="post"i][class*="tag"i]
@@ -45,7 +40,6 @@ pcloud.com##.left-banner:has([class*=AdCloseButton])
 pcloud.com##.left-banner:has-text(/Discount/i)
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 proinvitelinks.com##.mega-wrap:has(>.container>[id^=main-ads],[class^=main-ads])
-proinvitelinks.com##[id$=-ad-placeholder]
 proinvitelinks.com##[id=popup]:has([id="popupcontent"i]:has-text(/canva.+members/i))
 repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
 repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
@@ -59,12 +53,9 @@ trakt.tv##^section[id=mir-wrapper]
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-tuttop.com##.main-news-more:has-text(/Подробнее/i)
-tuttop.com##[class^=full-news-tags]:has([href])
 vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
-vsetop.org##[id=content]>[class=naviga]
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
 
@@ -90,8 +81,6 @@ ntv.com.tr##div[class*="fix-ads-item-"]
 teamos.xyz##center:has(>div>a[title^="debrid"i])
 turktorrent.us##[id=advertisements]
 turktorrent.us##^script:has-text(#advertisements)
-tuttop.com##div:matches-attr(/^data-dleb/):has(a>img)
-vsetop.org##div:matches-attr(/^data-dleb/):has(a>img)
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
@@ -132,7 +121,6 @@ trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
 trakt.tv##.btn-vip[href="/vip"]
 trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##[id="filter-show-advanced-filters"]
-tuttop.com##noindex>p>[href^='/donat.html']
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 
@@ -143,7 +131,6 @@ duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 
 #- Fake Download Buttons
-tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
 frdl.is##button:has-text(/Premium/i):upward(center)
 
 #----------------------------------------------------------------------------------------------------#
@@ -171,16 +158,27 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 #----------------------------------------------------------------------------------------------------#
 #- ADS, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
-!- Hide the AD Frame and Display the Video Player
+! AD Banners/Images at the Footer/Bottom (position: flex)
+/diziyou\d?\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
+! AD Banners/Images at the Header/Top
+/diziyou\d?\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
+! AD Banners/Images at the Top and Bottom of the Video Player
+/diziyou\d?\.com$/##.dizialani>.video>a[target]
+! Hide the AD Frame and Display the Video Player
 dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 ! Fake Button with "onmousedown" Script Redirect
 filecrypt.cc##span>button[onmousedown]
-! Advert Banners
+! AD Banners and Placeholders
 rockmods.net##div[class^="main-ads-"]
-rockmods.net##div[id$="-ad-placeholder"]
-! Info AD Posts and Panels
+! AD Info Posts and Panels
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+! AD Banners/Images at the Header/Top
+tuttop.com##^div:matches-attr(/^data-dleb/):has(a>img)
+! Fake Download Button on the Game Pages
+tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+! AD Banners/Images at the Header/Top and Fake Download button on the Game Pages
+vsetop.org##^div:matches-attr(/^data-dleb/):has(a>img)
 
 #----------------------------------------------------------------------------------------------------#
 !
@@ -189,9 +187,9 @@ repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):up
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
-! Subscription Request Popup
+! Subscription requesting/promoting popup
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
-! New Domain Reminder Popup
+! Popup reminder for the new domain of onehack.us
 onehack.us##[id="custom-modal"]
 ! Preload/Loading Effect Annoyance
 thehouseofportable.com##[id="preload"]
@@ -199,5 +197,30 @@ thehouseofportable.com##[id="preload"]
 voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
 ! Clear Sidebar and Hide Social Widgets
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
+! Russian Game Tags on the Posts
+tuttop.com##[class^=full-news-tags]:has(a)
+! Unnecessary 'show more' Button
+tuttop.com##.main-news>div.main-news-more
+! VIP Subscription Button on the Posts
+tuttop.com##noindex>p>[href^='/donat.html']
+! VIP Subscription Button on the Posts
+vsetop.org##.body>p[style]:has(>[class=lightbox][href^="/donat.html"])
+! Russian Navigaton Bar at the Header
+vsetop.org##[id=content]>[class=naviga]
+
+#----------------------------------------------------------------------------------------------------#
+!
+!
+!
+#----------------------------------------------------------------------------------------------------#
+#- Generic AD Filters
+#----------------------------------------------------------------------------------------------------#
+! rockmods.net, proinvitelinks.com
+##div[id$="-ad-placeholder"i]
+! dizipal\d{4}.com, netflixcenter.com, voditza.com 
+##[class="ads-container"i]
+##[class$="-ad-container"i]
+! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
+##body>div.body-clickable
 
 #----------------------------------------------------------------------------------------------------#

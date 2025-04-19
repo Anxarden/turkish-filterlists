@@ -2,11 +2,19 @@
 ! Homepage: https://github.com/Anxarden/turkish-filterlist/
 ! Author: Anxarden
 
-#- Domains /w Whitelists
-||typekit.net^
+#- Whitelist
 @@||use.typekit.net^$script,font
+@@||m.redlobby.xyz/episodes/$xhr,domain=/diziyou/
 
-#- Domains
+#- Blacklist
+||typekit.net^
+||redlobby.xyz^
+||ravenjs.com^
+||yieldlove.com^
+||tw.cx^
+||getjan.io^
+||ads-twitter.com^
+||sc-static.net^
 ||insurads.com^
 ||gekeebsirs.com^
 ||ad-plus.com.tr^
@@ -169,7 +177,6 @@
 ||raglanyakking.com^
 ||rastikapritif.com^
 ||receptivity.io^
-||redlobby.xyz^
 ||rlcdn.com^
 ||rollbar.com^
 ||rubiconproject.com^
@@ -240,6 +247,7 @@
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
 ||tracking.ensonhaber.com^
+||collector.github.com^
 ||contributor.google.com^
 ||firebase.googleapis.com^
 ||imasdk.googleapis.com^
@@ -257,8 +265,10 @@
 ||thtk.temu.com^
 ||analytics.tiktok.com^
 ||ad01.tmgrup.com.tr^
+||srv.tunefindforfans.com^
 ||widget.uservoice.com^
 ||csp.withgoogle.com^
+||stats.wp.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
 
