@@ -170,6 +170,7 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||rstuv.click^
 ||linkredirect-ci.com^
 ||universityofcardiff.com^
 ||spanpromo.live^

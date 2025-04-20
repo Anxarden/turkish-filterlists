@@ -15,7 +15,7 @@
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
 blackview.hk##div.blog-ad-banner
-diziwatch2.net,hdfilmcehennemi13.com,hdfilmcehennemi01.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>[target=_blank])
+/diziwatch\d+\.net$/,/hdfilmcehennemi/d+/.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
 documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
@@ -172,6 +172,12 @@ filecrypt.cc##span>button[onmousedown]
 rockmods.net##div[class^="main-ads-"]
 ! AD Info Posts and Panels
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+! Premium Promotion Sale Popups
+terabox.com##.main-page>div.operate-popup-box
+! Premium Promotions at the Sidebar
+terabox.com##.side-bottom>div.notification-wrap
+! Premim Promotion Button at the Header User Menu
+terabox.com##.header-right-menus>a.membership-entry-new
 ! AD Banners/Images at the Header/Top
 tuttop.com##^div:matches-attr(/^data-dleb/):has(a>img)
 ! Fake Download Button on the Game Pages
@@ -188,6 +194,12 @@ vsetop.org##^div:matches-attr(/^data-dleb/):has(a>img)
 #----------------------------------------------------------------------------------------------------#
 ! Subscription requesting/promoting popup
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
+! Empty Whitespace Footer
+filelu.com##footer
+! Floating Support Chat Button
+filelu.com##div[id^="chat-"]
+! Premium Text on File Download Page
+filelu.com##[href$="/premium/"]:upward(div:has(>table))
 ! Popup reminder for the new domain of onehack.us
 onehack.us##[id="custom-modal"]
 ! Preload/Loading Effect Annoyance

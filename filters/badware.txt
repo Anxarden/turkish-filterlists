@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 
 #- Blacklist
+||tns-counter.ru^
 ||typekit.net^
 ||redlobby.xyz^
 ||ravenjs.com^
@@ -254,6 +255,7 @@
 ||fundingchoicesmessages.google.com^
 ||medya.ilan.gov.tr^
 ||ads.linkedin.com^
+||ad.mail.ru^
 ||ichnaea-web.netflix.com^
 ||analytics.onedio.com^
 ||adx.opera.com^
@@ -287,7 +289,6 @@
 
 #- Regex Network Filters
 /wp-content/*.gif$first-party,image,domain=/diziyou\d+\.com$/
-
 /player/js/nuevo.min.js$script
 
 #- Badware & Fake/Bait Websites
