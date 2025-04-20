@@ -292,8 +292,9 @@
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
 
 #- Regex Network Filters
-/wp-content/*.gif$first-party,image,domain=/diziyou\d+\.com$/
+/wp-content/*.gif$first-party,image,domain=/diziyou\d*\.com$/
 /player/js/nuevo.min.js$script
+/assets/js/sw.js$first-party,script,domain=/dizibox\d*\com$/
 
 #- Badware & Fake/Bait Websites
 ||activator-kmspico.net^
