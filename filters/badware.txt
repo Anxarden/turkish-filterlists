@@ -7,6 +7,8 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 
 #- Blacklist
+||piwik.pro^
+||geniuslinkcdn.com^
 ||tns-counter.ru^
 ||typekit.net^
 ||redlobby.xyz^
@@ -235,6 +237,7 @@
 ||fls-na.amazon.com^
 ||monitor.azure.com^
 ||pubmatic.bbvms.com^
+||sofire.bdstatic.com^
 ||analitik.bik.gov.tr^
 ||data.bilibili.com^
 ||bat.bing.com^
@@ -265,6 +268,7 @@
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
 ||thtk.temu.com^
+||sofire.terabox.com^
 ||analytics.tiktok.com^
 ||ad01.tmgrup.com.tr^
 ||srv.tunefindforfans.com^
