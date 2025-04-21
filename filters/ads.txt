@@ -157,6 +157,8 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 #----------------------------------------------------------------------------------------------------#
 #- ADS, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
+! Inline Text ADs in Player
+ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 ! AD Banners/Images at the Footer/Bottom (position: flex)
 /diziyou\d?\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 ! AD Banners/Images at the Header/Top

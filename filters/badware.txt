@@ -290,11 +290,13 @@
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
-
+||eksenload.site/detect.js^$script
 #- Regex Network Filters
 /wp-content/*.gif$first-party,image,domain=/diziyou\d*\.com$/
 /player/js/nuevo.min.js$script
-/assets/js/sw.js$first-party,script,domain=/dizibox\d*\com$/
+/themes/bepeak/assets/js/sw.js$script
+/themes/bepeak/player/js/devtools-detector.js$script
+/themes/bepeak/player/js/os.js$script
 
 #- Badware & Fake/Bait Websites
 ||activator-kmspico.net^
