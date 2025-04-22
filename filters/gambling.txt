@@ -3,17 +3,13 @@
 ! Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-!*$all,domain=/^(?:.*\.)?(?:[^.]*)bahis(?:[^.]*)\.(?:[^.]+\.[^.]+|[^.]+)$/
-#- Gambling TLD & Wild Blocking
-*-bet.com^
-*-bet.net^
-*bahis.$all
-*casino.$all
-||bahis*.$all
+*$all,to=/(?:^|\.)bet-[^.]*\.[^.]+$/
+*$all,to=/-bet\.[^.]+$/
+*$all,to=/bahis[^.]*\.[^.]+$/
+*$all,to=/casino[^.]*\.[^.]+$/
+#- Gambling TLD
 ||bet^
-||casino*.$all
 ||casino^
-||bet-*.$all
 #- Gambling Domains /w Wildcard
 *betturkey.com^
 *mariobet.com^
@@ -347,57 +343,6 @@
 ||clickpupbit.com^
 ||aliniyo.com^
 #- Dump List
-||bizbet0093288.top^
-||refpa0821991.top^
-||trgoals1293.xyz^
-||984bahisnow.com^
-||betloto104.com^
-||betwild231.com^
-||bn27redirectfast.com^
-||grandpashabet2239.com^
-||hipercasino177.com^
-||huhuads1.com^
-||plantlilium003.com^
-||huhubet754.com^
-||paribahis999.com^
-||hitbet1060.com^
-||betewin47.com^
-||bethand130.com^
-||betkom229.com^
-||betmatik0668.com^
-||betpas1112.com^
-||betsalvador571.com^
-||betwoon739.com^
-||bm24.site^
-||btmgris1.com^
-||bycasino221.com^
-||cratosroyalbet782.com^
-||dedebet76.com^
-||ligobet864.com^
-||maxwin448.com^
-||onwin2400.com^
-||restbet1207.com^
-||starzbet171.com^
-||superbet841.com^
-||tarafbet620.com^
-||coolads1.com^
-||bettilt650.com^
-||betsin132.com^
-||casinoper646.com^
-||coconut2two.com^
-||bahsegel1200.com^
-||youcas1.com^
-||pinbahis833.com^
-||betpublic141.com^
-||otobet201.com^
-||642xslot.com^
-||youcas92.com^
-||betcool577.com^
-||betcio539.com^
-||moronicasinopromo.com^
-||gizabet1058.com^
-||cellordion3.net^
-||hayalokey.net^
 ||077.game^
 ||1010188s.info^
 ||101bes20.com^
@@ -466,6 +411,7 @@
 ||5pin.com^
 ||626xslot.com^
 ||633xslot.com^
+||642xslot.com^
 ||650betticket.com^
 ||650truvabet.com^
 ||668dg.com^
@@ -499,6 +445,7 @@
 ||96.com^
 ||96in.com^
 ||97.games^
+||984bahisnow.com^
 ||98k.game^
 ||9f.com^
 ||9kwai.com^
@@ -595,6 +542,7 @@
 ||bahsegel-top.life^
 ||bahsegel.com^
 ||bahsegel1189.com^
+||bahsegel1200.com^
 ||bahsine.live^
 ||baji.com^
 ||ballersbet.com^
@@ -685,8 +633,10 @@
 ||betchaplin.com^
 ||betcinim.com^
 ||betcio528.com^
+||betcio539.com^
 ||betcity.net^
 ||betcityru.com^
+||betcool577.com^
 ||betcred.com^
 ||betcrib.com^
 ||betcup21.com^
@@ -702,6 +652,7 @@
 ||betespecial.com^
 ||betesporte.com^
 ||beteum.com^
+||betewin47.com^
 ||betewin52.com^
 ||betexper9999.com^
 ||betfair.com^
@@ -717,6 +668,7 @@
 ||betgit672.com^
 ||betgitguncelgirisadresi.com^
 ||bethall.com^
+||bethand130.com^
 ||bethaven.com^
 ||bethehouse.com^
 ||bethog.com^
@@ -738,18 +690,20 @@
 ||betistnew.com^
 ||betium.com^
 ||betjam.com^
-
 ||betkom.net^
 ||betkom199.com^
+||betkom229.com^
 ||betlantis12.com^
 ||betlera.com^
 ||betlesene.com^
 ||betlily.com^
 ||betlinko2.com^
 ||betlora.com^
+||betloto104.com^
 ||betloto96.com^
 ||betmatik0600.com^
 ||betmatik0661.com^
+||betmatik0668.com^
 ||betmexico.mx^
 ||betmode.io^
 ||betmoney2.com^
@@ -778,6 +732,7 @@
 ||betpark1005.com^
 ||betparkk.net^
 ||betparkmobil.com^
+||betpas1112.com^
 ||betpasgiris.vip^
 ||betpay24.com^
 ||betpir.com^
@@ -789,6 +744,7 @@
 ||betpublic.org^
 ||betpublic126.com^
 ||betpublic136.com^
+||betpublic141.com^
 ||betpul117.com^
 ||betraise.com^
 ||betranos35.com^
@@ -813,12 +769,14 @@
 ||bets10pro5.com^
 ||bets10z.com^
 ||bets777.com^
+||betsalvador571.com^
 ||betsat1297.com^
 ||betsation.com^
 ||betsatrs.com^
 ||betscene.com^
 ||betset.io^
 ||betseven.com^
+||betsin132.com^
 ||betsio.com^
 ||betsiteleri.net^
 ||betsitesii.com^
@@ -835,6 +793,7 @@
 ||bettel.com^
 ||betterwin.com^
 ||bettilt638.com^
+||bettilt650.com^
 ||betting.club^
 ||betting2023.com^
 ||bettingsite.biz^
@@ -849,9 +808,11 @@
 ||betvitosha.com^
 ||betvivo.co.mz^
 ||betvivo.co^
+||betwild231.com^
 ||betwinner.llc^
 ||betwinner2.com^
 ||betwinnergiris.tr^
+||betwoon739.com^
 ||betwoon744.com^
 ||betxstar.com^
 ||bety.com^
@@ -893,6 +854,7 @@
 ||bitwin.club^
 ||bitwins.io^
 ||bitz.io^
+||bizbet0093288.top^
 ||bizbet5670023.top^
 ||bj88.com^
 ||bj88ca.com^
@@ -906,7 +868,9 @@
 ||blockbet.gg^
 ||bloins1010.vip^
 ||bloxgame.com^
+||bm24.site^
 ||bmarzb.com^
+||bn27redirectfast.com^
 ||boaboa.com^
 ||bodog.com^
 ||bodog.io^
@@ -937,12 +901,14 @@
 ||btasus.click^
 ||btc365.com^
 ||btcbets.com^
+||btmgris1.com^
 ||bulgarianbet.com^
 ||bullseo.xyz^
 ||bumbet.com^
 ||buumi.com^
 ||buzzluck.com^
 ||bwinturk3.com^
+||bycasino221.com^
 ||bylogolab.com^
 ||cachelineib60111.com^
 ||cadoola.com^
@@ -972,6 +938,7 @@
 ||casinado.com^
 ||casincity.io^
 ||casinia.com^
+||casinoper646.com^
 ||casinra.com^
 ||casinuu.com^
 ||casipol.com^
@@ -990,6 +957,7 @@
 ||cdnxtpo365.com^
 ||cedabet.com^
 ||celebrino.com^
+||cellordion3.net^
 ||celtabet878.com^
 ||celtabet883.com^
 ||cenabettv.com^
@@ -1036,6 +1004,7 @@
 ||cochin247.com^
 ||coco.game^
 ||cocobeast.com^
+||coconut2two.com^
 ||codplay.net^
 ||coinflippers.io^
 ||coinkings.io^
@@ -1046,6 +1015,7 @@
 ||comm100.com^
 ||comm100.io^
 ||comm100vue.com^
+||coolads1.com^
 ||coolzino.com^
 ||coqbet.com^
 ||corgibet.com^
@@ -1056,6 +1026,7 @@
 ||crash.win^
 ||crashbet.live^
 ||crashino.com^
+||cratosroyalbet782.com^
 ||crazybet.co^
 ||crazybet.com^
 ||crazybet.fun^
@@ -1100,6 +1071,7 @@
 ||dccycletrack.com^
 ||decentral.games^
 ||dedebet365.com^
+||dedebet76.com^
 ||dedeoyna.com^
 ||dedeoyunu.net^
 ||dedeslot.com^
@@ -1292,6 +1264,7 @@
 ||girisingo.com^
 ||girissayfasi.org^
 ||girobet.com^
+||gizabet1058.com^
 ||globalodds.com^
 ||glorycasinos-tr.com^
 ||goalwebber.com^
@@ -1323,6 +1296,7 @@
 ||grandclub.com^
 ||grandoperabet.com^
 ||grandpashaabet.com^
+||grandpashabet2239.com^
 ||grandpashabet365.com^
 ||grandwin1.co^
 ||granspincity.com^
@@ -1352,6 +1326,7 @@
 ||hash.game^
 ||hashlucky.io^
 ||hayalaffiliate.com^
+||hayalokey.net^
 ||hayatguzel.com^
 ||hazbet.com^
 ||hellobet.co^
@@ -1369,7 +1344,9 @@
 ||hillo.com^
 ||hiltonbet1238.com^
 ||hiltonbetortak.com^
+||hipercasino177.com^
 ||hiperwin.com^
+||hitbet1060.com^
 ||hizliortaklik.com^
 ||hlclub88.com^
 ||hlvip789.com^
@@ -1382,6 +1359,8 @@
 ||hovardax.com^
 ||hugewin.com^
 ||huhsports.com^
+||huhuads1.com^
+||huhubet754.com^
 ||hv199.com^
 ||iamhabpy99.com^
 ||ibetin.com^
@@ -1497,7 +1476,6 @@
 ||kongaffiliates.com^
 ||konibet.com^
 ||korasaha.com^
-
 ||kripty.com^
 ||krundi.com^
 ||kulisbet.com^
@@ -1539,6 +1517,7 @@
 ||lig725.com^
 ||ligal1.com^
 ||ligobet850.com^
+||ligobet864.com^
 ||limanbet.org^
 ||limanbet647.com^
 ||limanbetpartners.com^
@@ -1636,6 +1615,7 @@
 ||maxbetonwin.com^
 ||maxispin.com^
 ||maxwin.io^
+||maxwin448.com^
 ||mblbhs.com^
 ||medinabet.com^
 ||medobet.com^
@@ -1700,6 +1680,7 @@
 ||moonroll.io^
 ||moonwin.com^
 ||moovbet.com^
+||moronicasinopromo.com^
 ||mosl.vn^
 ||mostbet-sports.com^
 ||mostbet.io^
@@ -1799,6 +1780,7 @@
 ||onwin1763.com^
 ||onwin1768.com^
 ||onwin1769.com^
+||onwin2400.com^
 ||onyxbet.com^
 ||opabet.com^
 ||opabet.io^
@@ -1819,6 +1801,7 @@
 ||osbet.com^
 ||osombet.com^
 ||osomeg.com^
+||otobet201.com^
 ||otobet40.com^
 ||otterbein360.com^
 ||overunder.xyz^
@@ -1855,6 +1838,7 @@
 ||para-bets.com^
 ||para-z.com^
 ||paraslot300.com^
+||paribahis999.com^
 ||paripesa.africa^
 ||paripesa.io^
 ||paripulse.com^
@@ -1875,6 +1859,7 @@
 ||pigmo.com^
 ||pikebit.com^
 ||pin-up.city^
+||pinbahis833.com^
 ||pingolbet.com^
 ||pinkor88.com^
 ||pinnacle.com^
@@ -1889,6 +1874,7 @@
 ||pixelspot.net^
 ||pixmile.com^
 ||pixmove.com^
+||plantlilium003.com^
 ||play-pokerbet.com^
 ||play2x.com^
 ||playdash.io^
@@ -1966,11 +1952,13 @@
 ||redirecturlsmed.com^
 ||reelcrypto.com^
 ||refpa0708131.top^
+||refpa0821991.top^
 ||refpa681977.top^
 ||reidasapostas.com^
 ||relayhubho40281.net^
 ||reloadbet.com^
 ||restauranttome.com^
+||restbet1207.com^
 ||restbetgiris.co^
 ||rex-bet.net^
 ||rex-bet1.site^
@@ -2192,6 +2180,7 @@
 ||star588.cc^
 ||star88.com^
 ||starsbet365.com^
+||starzbet171.com^
 ||stckptbecdn830.com^
 ||sterlingbet.com^
 ||stevesgrill.com.au^
@@ -2206,6 +2195,7 @@
 ||sunbetwww.org^
 ||sunduck.net^
 ||supabet.com^
+||superbet841.com^
 ||superpetbazaar.com^
 ||surfaceint.com^
 ||sweep.gg^
@@ -2225,6 +2215,7 @@
 ||talkielink46.com^
 ||tambet.org^
 ||tarafbet601.com^
+||tarafbet620.com^
 ||tdshorizon.com^
 ||tebanner.com^
 ||tebanner5.com^
@@ -2278,6 +2269,7 @@
 ||toucan888.com^
 ||tr-mostbet.com^
 ||trbpwa94.com^
+||trgoals1293.xyz^
 ||trholiganbet.com^
 ||trickyrock.com^
 ||trickz.com^
@@ -2445,6 +2437,8 @@
 ||yodds.com^
 ||yokikana.com^
 ||yoncabet.com^
+||youcas1.com^
+||youcas92.com^
 ||yourloot.io^
 ||yoyospins.co^
 ||yummygame.io^
