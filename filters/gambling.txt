@@ -38,7 +38,6 @@
 ||supertotobet*.com^
 ||tipobet*.com^
 ||trbet*.com^
-||vdcasino*.com^
 ||holiganbet*.com^
 #- Gambling Domains
 ||ballybet.com^
@@ -50,6 +49,7 @@
 ||tipico.com^
 ||tuttur.com^
 #- SEO Domains
+||grandpashabet.net^
 ||foodscovery.com^
 ||betcio-giris.org^
 ||mostlyfoodandcrafts.com^
@@ -63,7 +63,6 @@
 ||aviateplatform.com^
 ||aviator-oyna.cc^
 ||aviator-oyunu.net^
-||azuricasinogiris.com^
 ||bahsettir.com^
 ||bahsinesite.com^
 ||betadonisadresi.com^
@@ -88,9 +87,6 @@
 ||bonusverenler.com^
 ||bonusverenyenisite.com^
 ||budayapoker.us^
-||canli-casino-oyna.com^
-||casinositeleri-guvenilir.com^
-||casinovivakayit.com^
 ||celtacdn.com^
 ||cybermondo.com^
 ||deneme-bonusu-veren.net^
@@ -118,12 +114,9 @@
 ||gncbilgi.com^
 ||grandpasagiris.com^
 ||grandpashabetgiri.com^
-||guncelcasinositeler.com^
-||guncelcasinositeleri.com^
 ||haberpop.com^
 ||havadisbet.com^
 ||hitbetadres.club^
-||hmcasinotr.com^
 ||hobitoto.org^
 ||holeybetgirisi.com^
 ||hovardabet.com^
@@ -133,7 +126,6 @@
 ||kurasport.com^
 ||loyalgiris.com^
 ||m-atlasbet.com^
-||masalcasino-giris.com^
 ||megabvip.com^
 ||mostbetofficial.net^
 ||mphomewares.com^
@@ -165,6 +157,8 @@
 #- Networks
 ||anjouangaming.org^$third-party
 #- CDN, Affiliate and Redirect Sites
+||qruvw.click^
+||ngnpanel.com^
 ||betiumaffiliate.com^
 ||zlara.me^
 ||zulagiris.click^
@@ -200,7 +194,6 @@
 ||betcoswarm.com^
 ||betcup.pw^
 ||bethandaffiliates.com^
-||bircasinomedia.com^
 ||bonusver.site^
 ||bsinplus.com^
 ||bullaff.com^
@@ -342,7 +335,9 @@
 ||betandyou.com^
 ||clickpupbit.com^
 ||aliniyo.com^
+||betsson.com^
 #- Dump List
+||winxbet792.com^
 ||077.game^
 ||1010188s.info^
 ||101bes20.com^
@@ -555,7 +550,6 @@
 ||banko725.com^
 ||bankonbet.com^
 ||banzaibet.vip^
-||basaribet-casino-tr.top^
 ||basaribettr.com^
 ||basketboltahmin.net^
 ||bassbet.com^
@@ -581,7 +575,6 @@
 ||beinbet300.com^
 ||beinwon.com^
 ||belabet.com^
-||bellagiocasino1.com^
 ||bengalbd88.com^
 ||benimaffiliates.com^
 ||berrybet.com^
@@ -843,7 +836,6 @@
 ||billybets.com^
 ||bindasbet.com^
 ||bingoaovivo.net^
-||bircasino748.com^
 ||birxbet.net^
 ||bit24.live^
 ||bitalih.com^
@@ -908,7 +900,6 @@
 ||buumi.com^
 ||buzzluck.com^
 ||bwinturk3.com^
-||bycasino221.com^
 ||bylogolab.com^
 ||cachelineib60111.com^
 ||cadoola.com^
@@ -918,13 +909,11 @@
 ||call2me.xyz^
 ||callbet369.com^
 ||callmebet.com^
-||candycasino66.com^
 ||cangsaigon.com^
 ||canlislotoyna.com^
 ||canlislotoyna2.com^
 ||capitolbet437.com^
 ||casaff.top^
-||cashcasinohub.com^
 ||cashed.com^
 ||cashsplash.io^
 ||cashwin.com^
@@ -938,7 +927,6 @@
 ||casinado.com^
 ||casincity.io^
 ||casinia.com^
-||casinoper646.com^
 ||casinra.com^
 ||casinuu.com^
 ||casipol.com^
@@ -1000,7 +988,6 @@
 ||cldfrmycdn1230.com^
 ||clubrbet.com^
 ||clubs7.com^
-||clubworldcasinos.com^
 ||cochin247.com^
 ||coco.game^
 ||cocobeast.com^
@@ -1098,7 +1085,6 @@
 ||directx.top^
 ||direktgiris1.com^
 ||dirtysolestrailraces.com^
-||discountcasinotr.com^
 ||ditobet.com^
 ||diyarbet.com^
 ||diyarbet561.com^
@@ -1266,7 +1252,6 @@
 ||girobet.com^
 ||gizabet1058.com^
 ||globalodds.com^
-||glorycasinos-tr.com^
 ||goalwebber.com^
 ||goated.com^
 ||gobeti.com^
@@ -1344,7 +1329,6 @@
 ||hillo.com^
 ||hiltonbet1238.com^
 ||hiltonbetortak.com^
-||hipercasino177.com^
 ||hiperwin.com^
 ||hitbet1060.com^
 ||hizliortaklik.com^
@@ -1412,7 +1396,6 @@
 ||jetpari.com^
 ||jetton.games^
 ||jetton.uno^
-||jetxcasinooyna.com^
 ||jinwinn.com^
 ||jinwinn.io^
 ||jita88.com^
@@ -1571,7 +1554,6 @@
 ||luckywells.net^
 ||luckywells.vip^
 ||luckywhale.com^
-||luckywhalecasino1.com^
 ||luckywolf.com^
 ||luckywolf.io^
 ||lunabet.com^
@@ -1622,7 +1604,6 @@
 ||megabahiis.com^
 ||megabetplus.com.cy^
 ||megabook.org^
-||megacasinos.org^
 ||megacricketworld.com^
 ||megadice.com^
 ||megalogin.top^
@@ -1680,7 +1661,6 @@
 ||moonroll.io^
 ||moonwin.com^
 ||moovbet.com^
-||moronicasinopromo.com^
 ||mosl.vn^
 ||mostbet-sports.com^
 ||mostbet.io^
@@ -1726,7 +1706,6 @@
 ||neonclub.pro^
 ||nerublix.com^
 ||netcachesb140258.net^
-||netxcasino9999.com^
 ||nextgenbets.com^
 ||neyine9999.com^
 ||nfsbonus4.com^
@@ -1764,7 +1743,6 @@
 ||ohplay.club^
 ||okeysende.com^
 ||olabet.com^
-||olaycasinotr.com^
 ||olimp-games.com^
 ||olimp.com^
 ||omillionaire.com^
@@ -1807,7 +1785,6 @@
 ||overunder.xyz^
 ||oynabet.org^
 ||oynabetgiris.com^
-||oynacasinocanli.com^
 ||oyun35.com^
 ||ozanbet.com^
 ||ozbet.net^
@@ -1843,9 +1820,7 @@
 ||paripesa.io^
 ||paripulse.com^
 ||parobet.com^
-||pasacasino463.com^
 ||pasadenasign.com^
-||pasavipcasino2.com^
 ||pazuru.com^
 ||pekinbet.com^
 ||perabet.biz^
@@ -2067,7 +2042,6 @@
 ||slotbargiris1.com^
 ||slotbetoyna.com^
 ||slotbudur.com^
-||slotcasinositeleri2024.com^
 ||slotclub.pro^
 ||sloterra.com^
 ||slotexo.com^
@@ -2298,7 +2272,6 @@
 ||va-game.com^
 ||vatan.game^
 ||vatanplatform.com^
-||vaycasino281.com^
 ||vb21.info^
 ||vbet1149.com^
 ||vbet1154.com^
@@ -2417,7 +2390,6 @@
 ||wwwmavibet793.com^
 ||x.game^
 ||x011bt.com^
-||x2casinos.com^
 ||xdenemebonusuverensiteler.com^
 ||xgame.hk^
 ||xn--essbahs-lza.com^
@@ -2456,7 +2428,6 @@
 ||zigbi.com^
 ||zikooo.com^
 ||zilionz.com^
-||zinocasinoarab.com^
 ||zirvebet.com^
 ||zirvebet176.com^
 ||zlotguncelgiris.com^
