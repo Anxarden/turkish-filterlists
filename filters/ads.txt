@@ -66,9 +66,7 @@ digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
-haberler.com##^div[class$="-reklam"i]
-haberler.com##^div[class$="-reklam-card"i]
-haberler.com##^div[class="reklam-card"i]
+haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
 hlktrpl.cfd##^[id="textreklamgoster"i]
 hlktrpl.cfd##^div[class="playertextreklam"i]
 hurriyet.com.tr##section.adv
@@ -77,7 +75,6 @@ milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
 mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
-teamos.xyz##center:has(>div>a[title^="debrid"i])
 turktorrent.us##[id=advertisements]
 turktorrent.us##^script:has-text(#advertisements)
 yemek.com##div.masthead-container
@@ -174,6 +171,8 @@ filecrypt.cc##span>button[onmousedown]
 rockmods.net##div[class^="main-ads-"]
 ! AD Info Posts and Panels
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+! AD Banners/Images at the Header/Top
+teamos.xyz##center:has(>div>a[title^="debrid"i])
 ! Premium Promotion Sale Popups
 terabox.com##.main-page>div.operate-popup-box
 ! Premium Promotions at the Sidebar
