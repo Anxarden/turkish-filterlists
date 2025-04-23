@@ -128,25 +128,7 @@ duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 #- Fake Download Buttons
 frdl.is##button:has-text(/Premium/i):upward(center)
 
-#----------------------------------------------------------------------------------------------------#
-#- Scriptlets
-#----------------------------------------------------------------------------------------------------#
-! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
-! +js(aeld, eventType, [searchString])
-faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-! [aliases: prevent-fetch, no-fetch-if]
-! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
-! [aliases: aopr, abort-on-property-read]
-! +js(abort-on-property-read, object.property)
-birgun.net##+js(abort-on-property-read, detectAdBlock)
-dizipal951.com##+js(abort-on-property-read, manageAds)
-gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
-! [aliases: set, set-constant]
-! +js(set, object.property, value, [checkWiki])
-redecanais.gs##+js(set-constant, blockPage, noopFunc)
 
-#----------------------------------------------------------------------------------------------------#
 !
 !
 !
@@ -168,7 +150,9 @@ dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 filecrypt.cc##span>button[onmousedown]
 ! ADs appear inside the Player when the Start/Stop Button is Pressed
 hlktrpl.cfd##^body>div[id="adstop"i]
-! AD Banners and Placeholders
+! AD Banners/Images and Placeholders
+rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
+! AD Banners/Images and Placeholders
 rockmods.net##div[class^="main-ads-"]
 ! AD Info Posts and Panels
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
@@ -194,6 +178,8 @@ vsetop.org##^div:matches-attr(/^data-dleb/):has(a>img)
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
+! Discord Invite Boxes on Anime Episode Page
+anizm.net##div[id^="discordinvitebox"i]
 ! Subscription requesting/promoting popup
 dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
 ! Empty Whitespace Footer
@@ -236,5 +222,27 @@ vsetop.org##[id=content]>[class=naviga]
 ##div[class*="-ads-adjustment"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
+
+#----------------------------------------------------------------------------------------------------#
+!
+!
+!
+#----------------------------------------------------------------------------------------------------#
+#- Scriptlets
+#----------------------------------------------------------------------------------------------------#
+! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
+! +js(aeld, eventType, [searchString])
+faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
+! [aliases: prevent-fetch, no-fetch-if]
+! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+! [aliases: aopr, abort-on-property-read]
+! +js(abort-on-property-read, object.property)
+birgun.net##+js(abort-on-property-read, detectAdBlock)
+dizipal951.com##+js(abort-on-property-read, manageAds)
+gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
+! [aliases: set, set-constant]
+! +js(set, object.property, value, [checkWiki])
+redecanais.gs##+js(set-constant, blockPage, noopFunc)
 
 #----------------------------------------------------------------------------------------------------#

@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||landsideresendtrousers.com^
 ||buysellads.com^
 ||bizible.com^
 ||crazyegg.com^
@@ -255,6 +256,7 @@
 ||adserve.donanimhaber.com^
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
+||analitik.enerji.gov.tr^
 ||tracking.ensonhaber.com^
 ||tracking.g2crowd.com^
 ||collector.github.com^
@@ -263,11 +265,13 @@
 ||imasdk.googleapis.com^
 ||fundingchoicesmessages.google.com^
 ||medya.ilan.gov.tr^
+||analitik.kgm.gov.tr^
 ||ads.linkedin.com^
 ||ad.mail.ru^
 ||ichnaea-web.netflix.com^
 ||analytics.onedio.com^
 ||adx.opera.com^
+||stats.pardus.org.tr^
 ||ct.pinterest.com^
 ||weblog.rclone.org^
 ||w3-reporting.reddit.com^
