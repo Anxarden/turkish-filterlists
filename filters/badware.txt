@@ -5,8 +5,8 @@
 #- Whitelist
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
-
 #- Blacklist
+||livechatinc.com^$third-party
 ||chatbro.com^
 ||pushengage.com^
 ||piwik.pro^
@@ -173,7 +173,6 @@
 ||privacy-center.org^
 ||pub.network^
 ||pubmatic.com^
-||pushengage.com^
 ||pushpad.xyz^
 ||qortex.ai^
 ||qualtrics.com^$third-party
@@ -279,12 +278,10 @@
 ||stats.wp.com^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
-
 #- Domains /w Exceptions, Paths, Regex
 ||digitaloceanspaces.com^$third-party,from=~lofizen.co
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||jpicture.xyz^$third-party,~xhr
-
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
 ||cdn.jsdelivr.net/npm/sweetalert$script
@@ -299,7 +296,6 @@
 /themes/bepeak/assets/js/sw.js$script
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
-
 #- Badware & Fake/Bait Websites
 ||activator-kmspico.net^
 ||activators.pro^
