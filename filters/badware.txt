@@ -6,6 +6,9 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||bizible.com^
+||crazyegg.com^
+||driftt.com^
 ||livechatinc.com^$third-party
 ||chatbro.com^
 ||pushengage.com^
@@ -252,6 +255,7 @@
 ||improving.duckduckgo.com^
 ||bundles.efilli.com^
 ||tracking.ensonhaber.com^
+||tracking.g2crowd.com^
 ||collector.github.com^
 ||contributor.google.com^
 ||firebase.googleapis.com^
