@@ -256,14 +256,15 @@
 ||zullagit.xyz^
 ! Other Redirect Links
 ||bprkaff.com^
-||ririoek.com^
-||radiaff.com^
-||romaff1.com^
-||roketaf.com^
+||btmgris1.com^
 ||dedeaff.com^
-||pernet3.com^
-||satisbw.com^
 ||movetru16.com^
+||pernet3.com^
+||radiaff.com^
+||ririoek.com^
+||roketaf.com^
+||romaff1.com^
+||satisbw.com^
 #- Gibberish 3th-Party Domains
 ||ncybs.com^
 ||ft8ql3z.com^
@@ -322,6 +323,8 @@
 ||otobet201.com^
 ||102bet.net^
 ||10b18.com^
+||ligobet865.com^
+||betpublic143.com^
 ||10bet-1010.com^
 ||10bet.com^
 ||celtabet887.com^
