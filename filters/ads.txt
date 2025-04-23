@@ -3,7 +3,6 @@
 ! Author: Anxarden
 
 #- Generic AD Filters
-##[class*="-ads-adjustment"i]
 ##[class="ads_single_font"i]
 ##[class="player-side-ad"i]
 
@@ -167,6 +166,8 @@ dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 ! Fake Button with "onmousedown" Script Redirect
 filecrypt.cc##span>button[onmousedown]
+! ADs appear inside the Player when the Start/Stop Button is Pressed
+hlktrpl.cfd##^body>div[id="adstop"i]
 ! AD Banners and Placeholders
 rockmods.net##div[class^="main-ads-"]
 ! AD Info Posts and Panels
@@ -232,6 +233,7 @@ vsetop.org##[id=content]>[class=naviga]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
 ##div[class="ads-container"i]
 ##div[class$="-ad-container"i]
+##div[class*="-ads-adjustment"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 
