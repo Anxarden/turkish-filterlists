@@ -6,7 +6,7 @@
 bet-$all,to=/(?:^|\.)bet-[^.]*\.[^.]+$/
 -bet$all,to=/-bet\.[^.]+$/
 bahis$all,to=/bahis[^.]*\.[^.]+$/
-casino$all,to=/casino[^.]*\.[^.]+$/
+/casino/$all,to=/casino[^.]*\.[^.]+$/
 #- Gambling TLD
 ||bet^
 ||casino^
