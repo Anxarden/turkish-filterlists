@@ -507,22 +507,9 @@
 ||wizcase.com^
 ||yasdl.com^
 ||zenmate.com^
-!- z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
-||z-lib.$all,to=~z-lib.fm|~z-lib.gs
-||z-library.^$all,to=~z-library.sk
-||zlibrary.^$all,to=~z-library.sk
+! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
+||z*lib*.$all,to=~z-library.sk|~z-lib.fm|~z-lib.gs|/(?:^|\.)z-?lib[^.]*\.[^.]+$/
+||singlelogin.cc^
 ||go-to-zlibrary.com^
-||z-library-proxy.com^
-||zlib-official.com^
-||zlib.is^
-||zlib.to^
-||zlibis.com^
-||zlibrary-global.com^
-!- fitgirl-repacks [~fitgirl-repacks.site]
-||fitgirl-repacks.$all,to=~fitgirl-repacks.site
-||fitgirl-repack.$all
-||fitgirlrepacks.$all
-||fitgirlrepack.$all
-||fitgirl.cc^
-||fitgirlpack.site^
-||fitgirltorrent.com^
+! fitgirl-repacks [~fitgirl-repacks.site]
+||fitgirl*.$all,to=~fitgirl-repacks.site|/(?:^|\.)fitgirl[^.]*(?:(?:packs?|torrent\.[^.]+|\.cc)$/

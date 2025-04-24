@@ -3,10 +3,10 @@
 ! Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-*$all,to=/(?:^|\.)bet-[^.]*\.[^.]+$/
-*$all,to=/-bet\.[^.]+$/
-*$all,to=/bahis[^.]*\.[^.]+$/
-*$all,to=/casino[^.]*\.[^.]+$/
+bet-$all,to=/(?:^|\.)bet-[^.]*\.[^.]+$/
+-bet$all,to=/-bet\.[^.]+$/
+bahis$all,to=/bahis[^.]*\.[^.]+$/
+casino$all,to=/casino[^.]*\.[^.]+$/
 #- Gambling TLD
 ||bet^
 ||casino^
