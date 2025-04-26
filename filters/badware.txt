@@ -508,8 +508,8 @@
 ||yasdl.com^
 ||zenmate.com^
 ! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
-||z*lib*.$all,to=~z-library.sk|~z-lib.fm|~z-lib.gs|/(?:^|\.)z-?lib[^.]*\.[^.]+$/
+/z-?lib/$all,to=~z-library.sk|~z-lib.fm|~z-lib.gs|/^z-?lib[^.]*\.(?:[^.]+|[^.]{2,4}\.[^.]{2})$/
 ||singlelogin.cc^
 ||go-to-zlibrary.com^
 ! fitgirl-repacks [~fitgirl-repacks.site]
-||fitgirl*.$all,to=~fitgirl-repacks.site|/(?:^|\.)fitgirl[^.]*(?:(?:packs?|torrent\.[^.]+|\.cc)$/
+||firgirl$all,to=~fitgirl-repacks.site|/^fitgirl(?:[^.]*(?:pack|torrent)[^.]*\.(?:[^.]+|[^.]+\.[^.]+)|\.cc)$/

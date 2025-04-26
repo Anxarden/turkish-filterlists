@@ -118,13 +118,11 @@ trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
 trakt.tv##[id="filter-show-advanced-filters"]
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
-
 #- Hide Websites from Search Engines
 ! Fandom Wikis that are Inactive, Outdated or Deprecated and have Alternatives
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
-
 #- Fake Download Buttons
 frdl.is##button:has-text(/Premium/i):upward(center)
 
@@ -135,7 +133,7 @@ frdl.is##button:has-text(/Premium/i):upward(center)
 #----------------------------------------------------------------------------------------------------#
 #- ADS, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
-! Inline Text ADs in Player
+! Inline Text ADs on Player
 ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 ! AD Banners/Images at the Footer/Bottom (position: flex)
 /diziyou\d?\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)

@@ -3,10 +3,8 @@
 ! Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-bet-$all,to=/(?:^|\.)bet-[^.]*\.[^.]+$/
--bet$all,to=/-bet\.[^.]+$/
-bahis$all,to=/bahis[^.]*\.[^.]+$/
-/casino/$all,to=/casino[^.]*\.[^.]+$/
+/bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
+/bahis|casino/$all,to=/(?:bahis|casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
 #- Gambling TLD
 ||bet^
 ||casino^
@@ -424,7 +422,6 @@ bahis$all,to=/bahis[^.]*\.[^.]+$/
 ||96.com^
 ||96in.com^
 ||97.games^
-||984bahisnow.com^
 ||98k.game^
 ||9f.com^
 ||9kwai.com^
@@ -1835,7 +1832,6 @@ bahis$all,to=/bahis[^.]*\.[^.]+$/
 ||para-z.com^
 ||paraslot300.com^
 ||paravar.pro^
-||paribahis999.com^
 ||casibom869.com^
 ||paripesa.africa^
 ||paripesa.io^
@@ -1855,7 +1851,6 @@ bahis$all,to=/bahis[^.]*\.[^.]+$/
 ||pigmo.com^
 ||pikebit.com^
 ||pin-up.city^
-||pinbahis833.com^
 ||pingolbet.com^
 ||pinkor88.com^
 ||pinnacle.com^
