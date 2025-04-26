@@ -48,6 +48,7 @@
 ||tipico.com^
 ||tuttur.com^
 #- SEO Domains
+||argoesport.com^
 ||radissonbet.me^
 ||radissonbetgiris.gen.tr^
 ||kralbetgiris.vip^
@@ -2523,6 +2524,7 @@
 *casino*.pages.dev^
 ||redirect-*.pages.dev^
 #- Datacenter Links
+||canli-bahis.s3.eu-central-1.amazonaws.com^$all
 ||prtgaming.s3.eu-central-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
