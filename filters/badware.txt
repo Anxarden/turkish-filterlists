@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||profitableratecpm.com^
 ||landsideresendtrousers.com^
 ||buysellads.com^
 ||bizible.com^
