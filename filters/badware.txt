@@ -11,6 +11,7 @@
 ||bizible.com^
 ||crazyegg.com^
 ||driftt.com^
+||sharethis.com^
 ||livechatinc.com^$third-party
 ||chatbro.com^
 ||pushengage.com^
@@ -275,6 +276,7 @@
 ||ct.pinterest.com^
 ||weblog.rclone.org^
 ||w3-reporting.reddit.com^
+||platform-api.sharethis.com^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
 ||thtk.temu.com^
