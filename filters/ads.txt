@@ -14,7 +14,7 @@
 9gag.com##[class*="post"i][class*="tag"i]
 anizm.net##.anizm_column>a[href^="https://bit.ly/anizm-mc-"]
 blackview.hk##div.blog-ad-banner
-/diziwatch\d+\.net$/,/hdfilmcehennemi/d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
+/diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
 documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
@@ -126,10 +126,6 @@ duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 #- Fake Download Buttons
 frdl.is##button:has-text(/Premium/i):upward(center)
 
-
-!
-!
-!
 #----------------------------------------------------------------------------------------------------#
 #- ADS, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
