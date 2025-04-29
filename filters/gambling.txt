@@ -13,6 +13,7 @@
 *dumanbet.com^
 *mariobet.com^
 *xslot.com^
+||tarafbet*.com^
 ||onwin*.com^
 ||acrobet*.com^
 ||aresbet*.com^
@@ -57,6 +58,10 @@
 ||tipico.com^
 ||tuttur.com^
 #- SEO Domains
+||twittergiris.org^
+||guncelgirisadresi.net^
+||yenibetadresleri.com^
+||yenigirissorunsuz.com^
 ||argoesport.com^
 ||radissonbet.me^
 ||radissonbetgiris.gen.tr^
@@ -132,8 +137,6 @@
 ||eniyidenemebonusu.info^
 ||forbesposts.com^
 ||gelsincicek.com^
-||genfkd.org^
-||gncbilgi.com^
 ||grandpasagiris.com^
 ||grandpashabetgiri.com^
 ||haberpop.com^
@@ -176,11 +179,12 @@
 ||wepanknowledgecenter.org^
 ||yenibonusverensiteler.info^
 ||zirvebetgirisi.com^
-#- Networks
-||anjouangaming.org^$third-party
-#- CDN and Alt-Domains
+||genfkd.org^
+||gncbilgi.com^
+#- Networks, CDNs and Alt-Domains
 ||lernick.xyz^
 ||traincdn.com^
+||anjouangaming.org^$third-party
 ||sekabet-iframe.site^
 ||apidigi.com^
 ||bcapps.org^
@@ -265,7 +269,9 @@
 ||zullagit.xyz^
 ! Other Redirect Links
 ||hub88.io^
+||fstgo.to^
 ||bm365.site^
+||btgo.online^
 ||bprkaff.com^
 ||btmgris1.com^
 ||dedeaff.com^
@@ -317,7 +323,9 @@
 ||hogoxiyfctcdpjbu.com^
 ||xf38lo22j1y0ihymst.com^
 ||n98w43fxejyrvpc9s82ynsgsijl975pz.xyz^
-||760fket4m13v3v2i3zwtx13bgrr6n30s.xyz
+||760fket4m13v3v2i3zwtx13bgrr6n30s.xyz^
+||srenarj05s3nxp26xtx54me10isach2m.xyz^
+||lsuduawf3v6rthaw29npiunbbncuxc3n.xyz^
 ||r5d63ktxatvkpcr1ambke39t57edd52e.xyz^
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||ac873817b738b056b2878225375542cb.com^
@@ -328,6 +336,7 @@
 ||aliniyo.com^
 ||betsson.com^
 #- Dump List
+||gamdom12487.com^
 ||betewin48.com^
 ||betkom230.com^
 ||077.game^
@@ -1549,7 +1558,6 @@
 ||lottolo.com^
 ||lotusbet.live^
 ||lsbet.com^
-||lsuduawf3v6rthaw29npiunbbncuxc3n.xyz^
 ||lt.com^
 ||lucker.icu^
 ||lucky-stripe.com^
@@ -1802,6 +1810,7 @@
 ||overunder.xyz^
 ||owcontent.com^
 ||oynabet.org^
+||perabet1081.com^
 ||oynabetgiris.com^
 ||oyun35.com^
 ||ozanbet.com^
@@ -2170,7 +2179,6 @@
 ||spybet.com^
 ||sqlgoals.com^
 ||squarespace-cdn.com^
-||srenarj05s3nxp26xtx54me10isach2m.xyz^
 ||st-luks-01.online^
 ||st8.io^
 ||stake.com^
@@ -2217,9 +2225,6 @@
 ||talkielink1.com^
 ||talkielink46.com^
 ||tambet.org^
-||tarafbet601.com^
-||tarafbet620.com^
-||tarafbet622.com^
 ||tawk.to^
 ||tdshorizon.com^
 ||tebanner.com^
@@ -2449,8 +2454,6 @@
 ||yayin.la^
 ||ybets.net^
 ||yeet.com^
-||yenibetadresleri.com^
-||yenigirissorunsuz.com^
 ||ynlndr.com^
 ||yodds.com^
 ||yokikana.com^

@@ -18,6 +18,7 @@
 ||admatic.com.tr^
 ||admatic.de^$third-party
 ||admaxium.com^
+||getdeviceinf.com^
 ||admost.com^
 ||adnxs-simple.com^
 ||adnxs.com^
@@ -172,7 +173,7 @@
 ||pub.network^
 ||pubmatic.com^
 ||push-sdk.com^
-||pushengage.com^
+||pushengage.com^$all
 ||pushpad.xyz^
 ||qortex.ai^
 ||qualtrics.com^$third-party
