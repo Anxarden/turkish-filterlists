@@ -181,7 +181,7 @@ filelu.com##footer
 ! Floating Support Chat Button
 filelu.com##div[id^="chat-"]
 ! Premium Text on File Download Page
-filelu.com##table>tbody>tr>td>[href$="/premium/"]:upward(div)
+filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
 ! Popup reminder for the new domain of onehack.us
 onehack.us##[id="custom-modal"]
 ! Preload/Loading Effect Annoyance
