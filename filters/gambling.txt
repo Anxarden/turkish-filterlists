@@ -8,25 +8,29 @@
 #- Gambling TLD
 ||bet^
 ||casino^
-#- Gambling Domains /w Wildcard
-*atlasbet.com^$all,to=/atlasbet/
+#- Gambling Domains /w Wildcard Numbers
 *bahsine.com^$all,to=/\d*bahsine\.com$/
+*truvabet.com^$all,to=/\d*truvabet\.com$/
+*xslot.com^$all,to=/\d*xslot\.com$/
+||betewin*.com^$all,to=/betewin\d*\.com$/
+||betkom*.com^$all,to=/betkom\d*\.com$/
+||gamdom*.com^$all,to=/gamdom\d*\.com$/
+||restbet*.com^$all,to=/restbet\d*\.com$/
+||yakabet*.com^$all,to=/yakabet\d*\.com$/
+#- Gambling Domains /w Wildcard 
+*atlasbet.$all,to=/atlasbet/
 *betturkey.com^
 *dumanbet.com^
 *mariobet.com^
-*truvabet.com^$all,to=/\d*truvabet\.com$/
-*xslot.com^$all,to=/\d*xslot\.com$/
 ||acrobet*.com^
 ||afun.$all,to=/afun\.[^.]+$/
 ||aresbet*.com^
 ||atlasbet*.$all,to=/atlasbet/
 ||bankobet*.com^
 ||bet365.$all
-||betewin*.com^$all,to=/betewin\d*\.com$/
 ||betgaranti*.com^
 ||betilt*.com^
 ||betkanyon*.$all
-||betkom*.com^$all,to=/betkom\d*\.com$/
 ||betpublic*.com^
 ||betturkey*.com^
 ||betzula*.com
@@ -34,7 +38,6 @@
 ||dumanbet*.com^
 ||esbet*.com^
 ||fixbet*.com^
-||gamdom*.com^$all,to=/gamdom\d*\.com$/
 ||getirbet*.$all
 ||hititbet*.com^
 ||holiganbet*.com^
@@ -56,7 +59,6 @@
 ||tarafbet*.com^
 ||tipobet*.com^
 ||trbet*.com^
-||yakabet*.com^$all,to=/yakabet\d*\.com$/
 #- Gambling Networks, CDNs, SEOs and Redirect Links
 ||1win-turkey.org^
 ||1win.run^
@@ -262,7 +264,6 @@
 ||loomclick.com^
 ||loyalgiris.com^
 ||luckymatic.com^
-||m-atlasbet.com^
 ||maltpartners.com^
 ||marathonbet.com^
 ||marino.bet^
@@ -508,12 +509,10 @@
 ||225blackxbet.com^
 ||553piabet.com^
 ||affinora7.com^
-||atlasbet714.com^
 ||bahix1.net^
 ||betasus1003.com^
 ||betkare245.com^
 ||betlist518.com^
-||atlasbet.me^
 ||betmarino823.com^
 ||betmatik0668.com^
 ||betpark1014.com^
@@ -523,21 +522,15 @@
 ||elipsbet198.com^
 ||gameofbet686.com^
 ||gettobet207.com^
-||x-atlasbet.com^
-||atlasbetadres.com^
 ||masterortak2.vip^
 ||olipspartners3.com^
 ||orisaffiliate8.com^
 ||piatrack1.com^
-||k-atlasbet.com^
 ||pulibet731.com^
 ||pulibetaff1.com^
-||atlasbetx.com^
-||atlasbet714.com^
 ||pusulabet902.com^
 ||pusulapartners8.com^
 ||sportsbet486.io^
-||atlasbet-mobil.com^
 ||tophillbet659.com^
 ||wbgiris3.com^
 ||wgirislink.com^
@@ -2109,7 +2102,6 @@
 ||relayhubho40281.net^
 ||reloadbet.com^
 ||restauranttome.com^
-||restbet1207.com^
 ||restbetgiris.co^
 ||rex-bet.net^
 ||rex-bet1.site^
