@@ -150,6 +150,10 @@ rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 rockmods.net##div[class^="main-ads-"]
 ! AD Info Posts and Panels
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+! Google ADs Box [Right-Side]
+sozce.com##^div[class^="reklam"i][class$="250x250"]
+! Website Designer's Self AD Box [Right-Side]
+tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
 ! AD Banners/Images at the Header/Top
 teamos.xyz##center:has(>div>a[title^="debrid"i])
 ! Premium Promotion Sale Popups
