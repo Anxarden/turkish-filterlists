@@ -9,11 +9,15 @@
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
+||nitroscripts.com^
+||getnitropack.com^$third-party
 ||ad-plus.com.tr^
 ||adbetnetwork.com^
 ||addtoany.com^
 ||adform.net^
 ||adhouse.pro^
+||addthis.com^
+||optimonk.com^
 ||adlightning.com^
 ||admatic.com.tr^
 ||admatic.de^$third-party

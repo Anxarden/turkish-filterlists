@@ -8,6 +8,15 @@
 #- Gambling TLD
 ||bet^
 ||casino^
+||bet.$all,to=/bet\.[^.]+$/
+#- Gambling Domains /w Wildcard TLDs
+||afun.$all,to=/afun\.[^.]+(?:\.[^.]+)?$/
+||bet365.$all,to=/bet365\.[^.]+(?:\.[^.]+)?$/
+#- Gambling Domains /w Wildcard All
+*atlasbet.$all,to=/atlasbet/
+||atlasbet*.$all,to=/atlasbet/
+||tipobet*.$all,to=/tipobet/
+||artemisbet*.$all,to=/artemisbet/
 #- Gambling Domains /w Wildcard Numbers
 *bahsine.com^$all,to=/\d*bahsine\.com$/
 *truvabet.com^$all,to=/\d*truvabet\.com$/
@@ -18,16 +27,12 @@
 ||restbet*.com^$all,to=/restbet\d*\.com$/
 ||yakabet*.com^$all,to=/yakabet\d*\.com$/
 #- Gambling Domains /w Wildcard 
-*atlasbet.$all,to=/atlasbet/
 *betturkey.com^
 *dumanbet.com^
 *mariobet.com^
 ||acrobet*.com^
-||afun.$all,to=/afun\.[^.]+$/
 ||aresbet*.com^
-||atlasbet*.$all,to=/atlasbet/
 ||bankobet*.com^
-||bet365.$all
 ||betgaranti*.com^
 ||betilt*.com^
 ||betkanyon*.$all
@@ -57,13 +62,14 @@
 ||showbet*.com^
 ||supertotobet*.com^
 ||tarafbet*.com^
-||tipobet*.com^
 ||trbet*.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
 ||1win-turkey.org^
 ||1win.run^
 ||1win.web.tr^
 ||1xbet.com^
+||abc-link.top^
+||betine.net^
 ||accounts-bc.com^
 ||acelerabet.com^
 ||adaptivelab.com^
@@ -71,7 +77,10 @@
 ||affbetyoner.com^
 ||affbullpartners.com^
 ||affiliates.my^
+||affiliateskareas.com^
 ||affiliatesmarkaj.com^
+||allamericansportscafe.com^
+||reslotguncelgiris.com^
 ||affsalvador.com^
 ||ajaxbetaffiliate.com^
 ||alwaysdomain.xyz^
@@ -81,14 +90,7 @@
 ||aresbetadres.com^
 ||argoesport.com^
 ||artemis-vip.com^
-||artemisbet.com^
-||artemisbet.info^
-||artemisbet.net^
-||artemisbet.us^
-||artemisbetadresi.com^
-||artemisbetdestek.com^
-||artemisbetgiris.co^
-||artemisbetsitesi.com^
+||bilgilerle.net^
 ||aspurlredirect.com^
 ||aviateplatform.com^
 ||aviator-oyna.cc^
@@ -101,6 +103,7 @@
 ||ballybet.com^
 ||bambaslot.com^
 ||benimaffiliates.com^
+||bestbetguide.com^
 ||bet.com^
 ||bet365partners.com^
 ||betadonisadresi.com^
@@ -121,11 +124,14 @@
 ||betkare.link^
 ||betking.com^
 ||betkom.net^
+||betmaks.co^
 ||betmatik.cam^
 ||betmines.com^
 ||betper.com^
 ||betpionergirisi.com^
 ||betrehberi.com^
+||betrupici.com^
+||betrupin.com^
 ||betsatadres.com^
 ||betsilva.vip^
 ||betsiteler.com^
@@ -134,10 +140,12 @@
 ||betticketbet.com^
 ||bettilt.com^
 ||bettingsite.biz^
+||bettingue.com^
 ||betturkey-giris.org^
 ||betturkey.xyz^
 ||betturkeygiris.org^
 ||betvaktim.com^
+||betzone.co.uk^
 ||betzula.org^
 ||bilgiokullari.com^
 ||bilyoncu.net^
@@ -145,6 +153,7 @@
 ||birebin.com^
 ||birxdenemebonusu.com^
 ||blistaffiliates.com^
+||bluefoxaffiliates.com^
 ||bonusarayanlar.com^
 ||bonuscuabla.com^
 ||bonusdede.com^
@@ -156,8 +165,10 @@
 ||bonusverenler.com^
 ||bonusverenyenisite.com^
 ||budayapoker.us^
+||gotur.xyz^
 ||cdn-in-flare.com^
 ||celtacdn.com^
+||caddebet.org^
 ||celticbet.org^
 ||cinkolink.com^
 ||cmsbetconstruct.com^
@@ -167,6 +178,7 @@
 ||cybermondo.com^
 ||damabet.com^
 ||dedeaff.com^
+||pulibetaff.com^
 ||dedebet.vip^
 ||dedebetgir.com^
 ||dedebetgiris.com^
@@ -199,13 +211,17 @@
 ||enbetguncel.com^
 ||enbetsite.com^
 ||eniyidenemebonusu.info^
+||etabetgiris.com^
 ||everymatrix.com^
+||excelaffiliates.com^
 ||exelgame.com^
 ||eyeleo.com^
 ||foodscovery.com^
 ||footystats.org^
 ||forbesposts.com^
+||funkyjackpot.com^
 ||futbolistikanaliz.com^
+||galaxyaffiliates.com^
 ||galaxyodds.com^
 ||garaffiliate.com^
 ||gelsincicek.com^
@@ -214,6 +230,7 @@
 ||ghostautonomy.com^
 ||girisimbirligi.com^
 ||glastcoper.com^
+||golvar.org^
 ||gotoduman.xyz^
 ||grandpasagiris.com^
 ||grandpashabet.net^
@@ -240,14 +257,18 @@
 ||imagoliz.com^
 ||income.partners^
 ||insightflick.com^
+||jeffbet.com^
+||kareasbetsikayet.com^
 ||kazancortagim.com^
 ||kazancplatformu.com^
 ||kingbetting.com^
+||kiralikslotoyunlari.com^
 ||kisa.link^
 ||kisa.pro^
 ||kisalt.gg^
 ||kisalt.vip^
 ||kktcbet.com^
+||kolaybetgirisadresi.com^
 ||kongaffiliates.com^
 ||kothambawala.com^
 ||kralbetgiris.vip^
@@ -272,7 +293,14 @@
 ||maxortaklik.com^
 ||megabvip.com^
 ||meritbonus.org^
+||casibomgiris.click^
+||norwichuniversty.com^
 ||meritslotkayit.com^
+||pinco-online.com.tr^
+||mermibet.com^
+||mersoaff.com^
+||mersolink.com^
+||meshuradres.best^
 ||milyoncas.click^
 ||misli.com^
 ||morningdough.com^
@@ -288,9 +316,9 @@
 ||nicobet.com^
 ||nicocep.com^
 ||nicosiabetting.com^
+||nisanaff.xyz^
 ||nitropartner.com^
 ||noraguncelgiris.com^
-||norwichuniversty.com^
 ||odds.am^
 ||oddsmatrix.com^
 ||oley.com^
@@ -305,6 +333,7 @@
 ||pakkisalink.com^
 ||partnerbayi.com^
 ||partnerskareasbet.com^
+||pekinbetaffiliate.com^
 ||pinnacle.com^
 ||prerelease-env.biz^
 ||puli.life^
@@ -319,6 +348,8 @@
 ||richycashortaklik.com^
 ||royalortaklik.com^
 ||rulobet.life^
+||rupilinks.com^
+||ruplink.com^
 ||ruyabet.run^
 ||sahaweb.com^
 ||sanalticaretbayii.com^
@@ -330,6 +361,7 @@
 ||shortdigest.site^
 ||shortening.link^
 ||shorters.online^
+||bonusverensitelertr.com^
 ||shortfive.online^
 ||shortlink.ist^
 ||shortpals.online^
@@ -338,14 +370,18 @@
 ||sitedenemebonusu.com^
 ||siyahbetaff.xyz^
 ||skybet.com^
+||slotoyunlarisiteleri.com^
 ||slotsiteleripro.com^
 ||songiris.net^
 ||sorunsuzgiris.org^
+||sporduragi.com^
 ||sportempiregirisi.com^
 ||sportsofertaes.com^
 ||sportybet.com^
+||spreadex.com^
 ||spribe.io^
 ||spribegaming.com^
+||spxstatic.com^
 ||stake.com^
 ||stardustevent.link^
 ||stoneguncel.link^
@@ -355,6 +391,7 @@
 ||tablogiris.xyz^
 ||taraftaryum.live^
 ||techxwebs.com^
+||telegramiddaa.com^
 ||thebrowhut.net^
 ||thedamcafe.net^
 ||timebet.com^
@@ -362,6 +399,7 @@
 ||tipico.com^
 ||titolink.com^
 ||tr-mostbet.com^
+||tr-siteler.com^
 ||traincdn.com^
 ||tribersport.com^
 ||tropicaltikioyna.com^
@@ -372,12 +410,14 @@
 ||turkeybet.org^
 ||turkishbetting.com^
 ||turkishnavy.com^
+||tuttur.com ^
 ||tuttur.com^
 ||tvbet.tv^
 ||twittergiris.org^
 ||universitypreferences.com^
 ||urlshortening.link^
 ||vbetgiris.net^
+||ventureaffiliates.com^
 ||venusaff.com^
 ||veraaff.com^
 ||vevoguncel.org^
@@ -415,11 +455,16 @@
 ||hub88.io^
 ||fstgo.to^
 ||phudub.is^
+||cxaff.com^
+||trk4ot.com^
 ||bcapps.org^
 ||b-cdn.net^$to=cdn-plat.b-cdn.net
 ||pcbala.com^
 ||bm365.site^
+||gnbapi.com^
 ||genfkd.org^
+||htrk656.com^
+||gitbtn4.com^
 ||fsttredr.co^
 ||automyl.ink^
 ||bprkaff.com^
@@ -438,9 +483,14 @@
 ||365lpodds.com^
 ||citron000.com^
 ||movetru16.com^
+||mxbrcdn510.com^
 ||affshowbet.com^
 ||atbpartner.com^
 ||ocbpartners.com^
+||awsbtcdn100.com^
+||fstdvcdn900.com^
+||cldfrbcdn302.com^
+||akamsbcdn1400.com^
 ||gbaffpartners.com^
 ||limraffiliate.com^
 ||plantlilium003.com^
@@ -513,6 +563,7 @@
 ||betasus1003.com^
 ||betkare245.com^
 ||betlist518.com^
+||bahigo1923.com^
 ||betmarino823.com^
 ||betmatik0668.com^
 ||betpark1014.com^
@@ -551,6 +602,9 @@
 ||1321bets10.com^
 ||1329bets10.com^
 ||158bayspin.com^
+||60wegas34.com^
+||maticintegration2.com^
+||betjanti1022.com^
 ||159.games^
 ||16aff.com^
 ||17.game^
@@ -558,6 +612,7 @@
 ||188bet.net^
 ||1bet100.com^
 ||1bet101.com^
+||santosbetting458.com^
 ||1block.games^
 ||1casi.com^
 ||1dumanbet.com^
@@ -683,7 +738,6 @@
 ||aquilab2b.com^
 ||ardenteclub.com^
 ||arena444.com^
-||artemisbet1020.com^
 ||atacamabet.com^
 ||atlsbt.site^
 ||avatechsdn.com^
@@ -1304,6 +1358,7 @@
 ||elfygaming.com^
 ||elonbet.com^
 ||empire.io^
+||lizagames1.com^
 ||empire777.com^
 ||empire7777.com^
 ||empire777vn.com^
@@ -1343,6 +1398,7 @@
 ||fcmoon.com^
 ||fctables.com^
 ||fezbet.com^
+||betsoftx.com^
 ||fgfox.com^
 ||finpri.com^
 ||firespin.com^
@@ -1792,10 +1848,6 @@
 ||meritqueen.com^
 ||meritroyalbets.net^
 ||meritslot361.com^
-||mermibet.com^
-||mersoaff.com^
-||mersolink.com^
-||meshuradres.best^
 ||metatokens.games^
 ||metatokens.gg^
 ||metawin.com^
@@ -2064,7 +2116,6 @@
 ||psnwcontent.com^
 ||psychobets.com^
 ||pulibet721.com^
-||pulibetaff.com^
 ||punterz.com^
 ||puppybet.com^
 ||pussybet1.com^
@@ -2136,6 +2187,7 @@
 ||roncollinsaviation.com^
 ||ronospin.com^
 ||roostake.com^
+||291betine.com^
 ||rotabet500.com^
 ||rottbet.com^
 ||royalbetin85.com^
@@ -2156,6 +2208,7 @@
 ||sakuraslots.com^
 ||sambaslots.com^
 ||samratbet.com^
+||5betforumu.com^
 ||sanchezzz.com^
 ||sanslisaray.com^
 ||savoyslot.com^
@@ -2301,9 +2354,12 @@
 ||sportuna.com^
 ||springbme.com^
 ||springbuilder.site^
+||1357betx34.com^
 ||spybet.com^
+||hukabet332.com^
 ||sqlgoals.com^
 ||squarespace-cdn.com^
+||nisanbet548.com^
 ||st-luks-01.online^
 ||st8.io^
 ||stake.games^
@@ -2348,7 +2404,6 @@
 ||talkielink1.com^
 ||talkielink46.com^
 ||tambet.org^
-||artemisbet1041.com^
 ||tawk.to^
 ||tdshorizon.com^
 ||tebanner.com^
@@ -2388,7 +2443,6 @@
 ||tipicodev.com^
 ||titobet.com^
 ||tkbet365.com^
-||artemisbet777.com^
 ||tmb.pw^
 ||todoritmos.com^
 ||tokengaming.xyz^
@@ -2530,9 +2584,12 @@
 ||winningz.com^
 ||winoui.com^
 ||wins88.com^
+||ganobet430.com^
 ||winsane.com^
 ||wintopia.com^
 ||winx.io^
+||restbet1208.com^
+||grbetsgir.com^
 ||winxbet785.com^
 ||winxbet792.com^
 ||winzter.com^
@@ -2624,12 +2681,14 @@
 !- pages.dev|blogspot.com
 ||redirect-*.pages.dev^
 #- Datacenter Links
-||canli-bahis.s3.eu-central-1.amazonaws.com^$all
-||prtgaming.s3.eu-central-1.amazonaws.com^$all
-||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
-||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
-||agc-casino.s3.eu-central-1.amazonaws.com^$all
 ||agc-casino.s3.amazonaws.com^$all
-||d56vh6ph4jjmq.cloudfront.net^$all
+||agc-casino.s3.eu-central-1.amazonaws.com^$all
 ||bettilt-sportsbook-prod.gtdevteam.work^$all
+||canli-bahis.s3.eu-central-1.amazonaws.com^$all
+||d56vh6ph4jjmq.cloudfront.net^$all
+||golvar-org.cdn.ampproject.org^all
+||prtgaming.s3.eu-central-1.amazonaws.com^$all
+||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
+||yeni-adres.s3.eu-central-1.amazonaws.com^$all
+||cdn-ilcfbjl.nitrocdn.com^$all
