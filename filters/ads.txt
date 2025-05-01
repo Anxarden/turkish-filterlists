@@ -128,10 +128,10 @@ vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i)
 ! rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##div[class="ads-container"i]
+##a[class="ads_single_font"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-adjustment"i]
-##div[class="ads_single_font"i]
+##div[class="ads-container"i]
 ##div[class="player-side-ad"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
