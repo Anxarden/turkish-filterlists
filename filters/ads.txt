@@ -169,7 +169,7 @@ dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 ! preload/loading effect annoyance
 thehouseofportable.com##[id="preload"]
 
-#- Visual Debloat
+#- Wipe ADs and Visual Debloat
 ! clear vip promotions, testemonials, sharing etc... all over the website
 simkl.com##^[id="simklheadermenuvip"i]
 simkl.com##^div.simklviptestemonials
@@ -181,16 +181,10 @@ turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Mang
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
 ! clear vip and vip related stuff and debloat the view all over the website
-trakt.tv##.advanced-filters-upsell:has([href^="/vip"])
-trakt.tv##.grid-item:has-text(/VIP/i)
-trakt.tv##.page-navigator:has([class=load-more],[class=load-less])
-trakt.tv##.sidenav-inner>span:has(a[href])
-trakt.tv##[id$=-wrapper][class=hero-wrapper]
-trakt.tv##[id$=content-page]:has([id$="-wrapper"]:has-text(/Hide.Ads/i))
-trakt.tv##[id="filter-show-advanced-filters"]
-trakt.tv##[id=overview]>[id$="-wrapper"]:has-text(/Hide.Ads/i)
-
-trakt.tv##^[id=mir-wrapper]
-trakt.tv##^[class=spacer]:empty
-trakt.tv##.btn-vip[href="/vip"]
-trakt.tv##.user-wrapper>.container>div>.buttons
+trakt.tv##^div.spacer:empty
+trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
+trakt.tv##^div#cc-main
+trakt.tv##^div.page-navigator:has([class="load-more"],[class="load-less"])
+trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
+trakt.tv##^div.advanced-filters-upsell
+trakt.tv##^span#filter-show-advanced-filters

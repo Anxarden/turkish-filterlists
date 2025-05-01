@@ -5,7 +5,7 @@
 #- Gambling Related Regex/Wildcards
 /bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
 /bahis|casino/$all,to=/(?:bahis|casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
-#- Gambling TLD
+#- Gambling TLDs
 ||bet^
 ||casino^
 ||bet.$all,to=/bet\.[^.]+$/
@@ -13,10 +13,12 @@
 ||afun.$all,to=/afun\.[^.]+(?:\.[^.]+)?$/
 ||bet365.$all,to=/bet365\.[^.]+(?:\.[^.]+)?$/
 #- Gambling Domains /w Wildcard All
+*artemisbet.$all,to=/artemisbet/
 *atlasbet.$all,to=/atlasbet/
+*tipobet.$all,to=/tipobet/
+||artemisbet*.$all,to=/artemisbet/
 ||atlasbet*.$all,to=/atlasbet/
 ||tipobet*.$all,to=/tipobet/
-||artemisbet*.$all,to=/artemisbet/
 #- Gambling Domains /w Wildcard Numbers
 *bahsine.com^$all,to=/\d*bahsine\.com$/
 *truvabet.com^$all,to=/\d*truvabet\.com$/
@@ -410,7 +412,6 @@
 ||turkeybet.org^
 ||turkishbetting.com^
 ||turkishnavy.com^
-||tuttur.com ^
 ||tuttur.com^
 ||tvbet.tv^
 ||twittergiris.org^
