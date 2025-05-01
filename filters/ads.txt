@@ -171,9 +171,10 @@ thehouseofportable.com##[id="preload"]
 
 #- Wipe ADs and Visual Debloat
 ! clear vip promotions, testemonials, sharing etc... all over the website
-simkl.com##^[id="simklheadermenuvip"i]
+simkl.com##^div.simklbecomeprowrap
 simkl.com##^div.simklviptestemonials
 simkl.com##^div[class="simkltvfootersharing"i]
+simkl.com##^div[id="simklheadermenuvip"i]
 simkl.com##^simkl-footer>:not(div.simkltvfooterend)
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 ! clear news, announcements and the logo on the main page
@@ -181,10 +182,10 @@ turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Mang
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
 turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
 ! clear vip and vip related stuff and debloat the view all over the website
-trakt.tv##^div.spacer:empty
-trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
 trakt.tv##^div#cc-main
-trakt.tv##^div.page-navigator:has([class="load-more"],[class="load-less"])
-trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
 trakt.tv##^div.advanced-filters-upsell
+trakt.tv##^div.page-navigator:has([class="load-more"],[class="load-less"])
+trakt.tv##^div.spacer:empty
+trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
+trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
 trakt.tv##^span#filter-show-advanced-filters

@@ -16,9 +16,11 @@
 *artemisbet.$all,to=/artemisbet/
 *atlasbet.$all,to=/atlasbet/
 *tipobet.$all,to=/tipobet/
+*winxbet.$all,to=/winxbet/
 ||artemisbet*.$all,to=/artemisbet/
 ||atlasbet*.$all,to=/atlasbet/
 ||tipobet*.$all,to=/tipobet/
+||winxbet*.$all,to=/winxbet/
 #- Gambling Domains /w Wildcard Numbers
 *bahsine.com^$all,to=/\d*bahsine\.com$/
 *truvabet.com^$all,to=/\d*truvabet\.com$/
@@ -28,6 +30,7 @@
 ||gamdom*.com^$all,to=/gamdom\d*\.com$/
 ||restbet*.com^$all,to=/restbet\d*\.com$/
 ||yakabet*.com^$all,to=/yakabet\d*\.com$/
+||m-winxbet*.com^$all,to=/m-winxbet\d*\.com$/
 #- Gambling Domains /w Wildcard 
 *betturkey.com^
 *dumanbet.com^
@@ -89,7 +92,6 @@
 ||amonbetpartner.media^
 ||anjouangaming.org^$third-party
 ||apidigi.com^
-||aresbetadres.com^
 ||argoesport.com^
 ||artemis-vip.com^
 ||bilgilerle.net^
@@ -525,6 +527,7 @@
 ||5wrajzmsbt.com^
 ||77szo9ahpw.com^
 ||6xp1mvxcoa.com^
+||wvwjxmcfth.com^
 ||cpkanaaifp.com^
 ||e4026ext8b.com^
 ||eirwlppi31.com^
@@ -535,6 +538,7 @@
 ||rlurk6los2.com^
 ||so7fx183fc.com^
 ||melredhwiku.top^
+||vmemkhhgjigrjefb.com^
 ||fjykjczttspydxcx.com^
 ||hogoxiyfctcdpjbu.com^
 ||xf38lo22j1y0ihymst.com^
@@ -1998,6 +2002,7 @@
 ||ortakbet.com^
 ||osbet.com^
 ||osombet.com^
+||234betorder.com^
 ||osomeg.com^
 ||otterbein360.com^
 ||overunder.xyz^
@@ -2096,6 +2101,7 @@
 ||pokiesville.com^
 ||polker.com^
 ||popgame.net^
+||m-winxbet785.com^
 ||popstake.com^
 ||posido.com^
 ||potpicks.io^
@@ -2457,6 +2463,7 @@
 ||topraklarmetal43.biz^
 ||topraklarmetal96.top^
 ||toucan888.com^
+||celtabet888.com^
 ||tpbetgrs.com^
 ||trbdata.com^
 ||trbpwa94.com^
@@ -2571,6 +2578,7 @@
 ||winbet90.com^
 ||winbig.today^
 ||windice.io^
+||parmabet448.com^
 ||windice.link^
 ||windice.org^
 ||windice1.io^
@@ -2589,10 +2597,7 @@
 ||winsane.com^
 ||wintopia.com^
 ||winx.io^
-||restbet1208.com^
 ||grbetsgir.com^
-||winxbet785.com^
-||winxbet792.com^
 ||winzter.com^
 ||wisho.com^
 ||wizebets.com^
@@ -2619,6 +2624,7 @@
 ||xx77.games^
 ||yallabet30.com^
 ||ybets.net^
+||verabet713.com^
 ||yeet.com^
 ||ynlndr.com^
 ||yodds.com^
@@ -2693,3 +2699,4 @@
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
 ||yeni-adres.s3.eu-central-1.amazonaws.com^$all
 ||cdn-ilcfbjl.nitrocdn.com^$all
+||winxbets-net.cdn.ampproject.org^$all
