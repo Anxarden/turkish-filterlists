@@ -141,6 +141,8 @@
 ||membrana.media^
 ||monetixads.com^
 ||mrf.io^
+||ainouzaudre.net^
+||fpjs.io^
 ||mrmnd.com^
 ||mxpnl.com^
 ||myaffiliates.com^
@@ -353,6 +355,7 @@
 ||crackshash.org^
 ||cyberghostvpn.com^
 ||dazactivator.com^
+||privacy-mgmt.com^
 ||debridleech.com^
 ||dekisoft.com^
 ||download.com^
