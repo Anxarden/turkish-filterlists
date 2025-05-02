@@ -188,4 +188,5 @@ trakt.tv##^div.page-navigator:has([class="load-more"],[class="load-less"])
 trakt.tv##^div.spacer:empty
 trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
 trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
+trakt.tv##^section#mir-wrapper
 trakt.tv##^span#filter-show-advanced-filters
