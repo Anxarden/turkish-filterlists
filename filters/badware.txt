@@ -11,6 +11,7 @@
 ||ad-delivery.net^
 ||ad-plus.com.tr^
 ||adbetnetwork.com^
+||adapex.io^
 ||addthis.com^
 ||coolserving.com^
 ||addtoany.com^
@@ -71,6 +72,7 @@
 ||cootlogix.com^
 ||crazyegg.com^
 ||creativecdn.com^
+||ppcnt.pro^
 ||criteo.com^
 ||criteo.net^
 ||customer.io^

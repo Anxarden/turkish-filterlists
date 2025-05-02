@@ -150,6 +150,7 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
 dizipal951.com##+js(abort-on-property-read, manageAds)
 gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
+gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
@@ -190,3 +191,4 @@ trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
 trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
 trakt.tv##^section#mir-wrapper
 trakt.tv##^span#filter-show-advanced-filters
+trakt.tv##^section.user-wrapper div.buttons
