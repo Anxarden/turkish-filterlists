@@ -149,8 +149,6 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
 dizipal951.com##+js(abort-on-property-read, manageAds)
-gledaitv.fan##+js(abort-on-property-read, checkAdsBlocked)
-gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
@@ -169,14 +167,17 @@ dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 ! preload/loading effect annoyance
 thehouseofportable.com##[id="preload"]
+! disable adblock detection and hide loading status for player
+gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
+gledaitv.fan##div#loading-spinner
 
 #- Wipe ADs and Visual Debloat
 ! clear vip promotions, testemonials, sharing etc... all over the website
 simkl.com##^div.simklbecomeprowrap
 simkl.com##^div.simklviptestemonials
 simkl.com##^div[class="simkltvfootersharing"i]
-simkl.com##^div[id="simklheadermenuvip"i]
 simkl.com##^simkl-footer>:not(div.simkltvfooterend)
+simkl.com##div:is([id="simklheadermenuvip"i])
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 ! clear news, announcements and the logo on the main page
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
