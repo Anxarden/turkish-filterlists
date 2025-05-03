@@ -165,11 +165,11 @@ duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 ! hide the ad frames and display the video player
 dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
-! preload/loading effect annoyance
-thehouseofportable.com##[id="preload"]
 ! disable adblock detection and hide loading status for player
 gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
+! preload/loading effect annoyance
+thehouseofportable.com##[id="preload"]
 
 #- Wipe ADs and Visual Debloat
 ! clear vip promotions, testemonials, sharing etc... all over the website
