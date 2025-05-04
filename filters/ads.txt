@@ -56,7 +56,6 @@ tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
 teamos.xyz##center:has(>div>a[title^="debrid"i])
 turktorrent.us##[id=advertisements]
 turktorrent.us##^script:has-text(#advertisements)
-tuttop.com,vsetop.org##^div:matches-attr(/^data-dleb/):has(a>img)
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
@@ -65,7 +64,7 @@ zaytung.com##[id^=sidebar]>#banner
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io##button:has-text(/Premium/i):upward(center)
-tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+
 
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
@@ -96,10 +95,8 @@ seedr.cc##nav>.nav-link[href$="/premium"]
 terabox.com##.header-right-menus>a.membership-entry-new
 terabox.com##.main-page>div.operate-popup-box
 terabox.com##.side-bottom>div.notification-wrap
-tuttop.com##noindex>p>[href^='/donat.html']
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
-vsetop.org##.body>p[style]:has(>[class=lightbox][href^="/donat.html"])
 ! Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
@@ -115,9 +112,6 @@ lrepacks.net##.relative>h2.section-title
 lrepacks.net##[id="sidebar"]>[id^="categories-"]
 lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
 lrepacks.net##div.columns:has(>ul)
-tuttop.com##.main-news>div.main-news-more
-tuttop.com##[class^=full-news-tags]:has(a)
-vsetop.org##[id=content]>[class=naviga]
 xiguasuwu.com##body>[style]:empty
 9gag.com##[class*="post"i][class*="tag"i]
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
@@ -194,3 +188,13 @@ trakt.tv##div.spacer:empty
 trakt.tv##div.user-wrapper>a:has-text(/vip/i)
 trakt.tv##section.user-wrapper div.buttons
 trakt.tv##span#filter-show-advanced-filters
+! clear ads, fake buttons, and
+tuttop.com##div.main-news-more
+tuttop.com##[class^=full-news-tags]:has(a)
+tuttop.com##noindex>div:has(>[href*=".bubblesmedia.net/"])
+tuttop.com##noindex>p>[href^='/donat.html']
+tuttop.com,vsetop.org##^div:has(>a>img.bannerpic)
+vsetop.org##.body>p[style]:has(>[class=lightbox][href^="/donat.html"])
+vsetop.org##[id=content]>[class=naviga]
+
+
