@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||inmobi.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -32,16 +33,22 @@
 ||adtarget.com.tr^
 ||adtarget.org^
 ||adtelligent.com^
+||madurird.com^
 ||ahrefs.com^
 ||ainouzaudre.net^
 ||amazon-adsystem.com^$third-party
 ||amung.us^
 ||antiadblocksystems.com^
 ||appboycdn.com^
+||usheebainaut.com^
+||exodusjailhousetarantula.com^
 ||appnexus.com^
 ||apptospace.com^
+||ebxcdn.com^
+||adsninja.ca^
 ||apptracer.ru^
 ||ashoupsu.com^
+||sentinelpro.com^
 ||assemblyexchange.com^
 ||ay.delivery^
 ||bbvms.com^$third-party

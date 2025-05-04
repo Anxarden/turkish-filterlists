@@ -186,10 +186,11 @@ turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/i
 ! clear vip and vip related stuff and debloat the view all over the website
 trakt.tv##^div#cc-main
 trakt.tv##^div.advanced-filters-upsell
-trakt.tv##^div.page-navigator:has([class="load-more"],[class="load-less"])
-trakt.tv##^div.spacer:empty
 trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
-trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
 trakt.tv##^section#mir-wrapper
-trakt.tv##^span#filter-show-advanced-filters
-trakt.tv##^section.user-wrapper div.buttons
+trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
+trakt.tv##div.page-navigator:has([class="load-more"],[class="load-less"])
+trakt.tv##div.spacer:empty
+trakt.tv##div.user-wrapper>a:has-text(/vip/i)
+trakt.tv##section.user-wrapper div.buttons
+trakt.tv##span#filter-show-advanced-filters
