@@ -329,7 +329,6 @@
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s728/$third-party,image
-||cdn.jsdelivr.net/npm/sweetalert$script
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
