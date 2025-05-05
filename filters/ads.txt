@@ -189,11 +189,11 @@ trakt.tv##div.user-wrapper>a:has-text(/vip/i)
 trakt.tv##section.user-wrapper div.buttons
 trakt.tv##span#filter-show-advanced-filters
 ! clear ads and compact the view of the website by hiding vip and fake buttons.
-tuttop.com##noindex>div.telegram
 tuttop.com##^noindex>div[align="center"]:has(>a>img[src$="/mediaget.png"])
-tuttop.com##noindex>p:has(>a[href^="/donat.html"])
-tuttop.com##div.tags-block
 tuttop.com##div.main-news-more>a
+tuttop.com##div.tags-block
+tuttop.com##noindex>div.telegram
+tuttop.com##noindex>p:has(>a[href^="/donat.html"])
 tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
 vsetop.org##div#content>ul.naviga
 vsetop.org##div#footer

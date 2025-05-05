@@ -490,6 +490,7 @@
 ||bcapps.org^
 ||b-cdn.net^$to=cdn-plat.b-cdn.net
 ||pcbala.com^
+||bm1t5.site^
 ||bm365.site^
 ||gnbapi.com^
 ||genfkd.org^
@@ -2255,6 +2256,7 @@
 ||scratch.fun^
 ||seacomengineering.org^
 ||selectbet.co^
+||casilot199.com^
 ||selector406.gg^
 ||sentry.report^
 ||sgheatingcooling.com^
