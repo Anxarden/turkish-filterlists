@@ -41,6 +41,7 @@
 *betturkey.com^
 *dumanbet.com^
 *mariobet.com^
+*betx34.com^
 *truvabet.com^
 *xslot.com^
 ||acrobet*.com^
@@ -613,7 +614,6 @@
 ||12bet.com^
 ||12betsport.com^
 ||1310best10.com^
-||1357betx34.com^
 ||158bayspin.com^
 ||159.games^
 ||16aff.com^
