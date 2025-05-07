@@ -85,7 +85,6 @@
 ||1xbet.com^
 ||abc-link.top^
 ||accounts-bc.com^
-||evdeyapalim.com.tr^
 ||acelerabet.com^
 ||adaptivelab.com^
 ||adresler.org^
@@ -97,6 +96,7 @@
 ||affsalvador.com^
 ||agstatic.com^
 ||ajaxbetaffiliate.com^
+||aliniyo.com^
 ||allamericansportscafe.com^
 ||alwaysdomain.xyz^
 ||amonbetpartner.media^
@@ -124,6 +124,7 @@
 ||bet.com^
 ||bet365partners.com^
 ||betadonisadresi.com^
+||betandyou.com^
 ||betano.com^
 ||betcartgiris.com^
 ||betcio-giris.org^
@@ -159,6 +160,7 @@
 ||betsiteler.com^
 ||betsolutions.com^
 ||betsrolex.pro^
+||betsson.com^
 ||betticketbet.com^
 ||bettilt.com^
 ||bettingsite.biz^
@@ -189,6 +191,7 @@
 ||bonusverenler.com^
 ||bonusverensitelertr.com^
 ||bonusverenyenisite.com^
+||bsinplus.com^
 ||budayapoker.us^
 ||caddebet.org^
 ||casibom.gen.tr^
@@ -197,6 +200,7 @@
 ||celtacdn.com^
 ||celticbet.org^
 ||cinkolink.com^
+||clickpupbit.com^
 ||cmsbetconstruct.com^
 ||coconut2two.com^
 ||connect0r.online^
@@ -222,11 +226,6 @@
 ||dinamo-bet-oyna.com^
 ||dioraff.site^
 ||dub.is^
-||tahmingazetesi.net^
-||tepebasibelediyesi.com^
-||ustapoker.com^
-||vatan.game^
-||vatanplatform.com^
 ||dumanbet.gen.tr^
 ||dumanbet.website^
 ||dunyakupasi.org^
@@ -241,6 +240,7 @@
 ||enbetsite.com^
 ||eniyidenemebonusu.info^
 ||etabetgiris.com^
+||evdeyapalim.com.tr^
 ||everymatrix.com^
 ||excelaffiliates.com^
 ||exelgame.com^
@@ -266,10 +266,17 @@
 ||grandpasagiris.com^
 ||grandpashabet.net^
 ||grandpashabetgiri.com^
+||guncel-girisi.com^
+||gunceladresi.org^
+||guncelbetwoongiris.com^
 ||guncelgirisadresi.net^
+||guncelsuperbetgiris.com^
+||guveniliradresin.com^
+||guvenilirbet.com^
 ||haberpop.com^
 ||havadisbet.com^
 ||hayalaffiliate.com^
+||hepyek.com^
 ||hepyekaffiliates.com^
 ||hitbetadres.club^
 ||hitbetpartner.com^
@@ -312,6 +319,7 @@
 ||linkredirect-bz.org^
 ||linkredirect-ci.com^
 ||linkredirect-en.com^
+||linkredirect-btp.com^
 ||linktolink.site^
 ||livespins.cloud^
 ||loomclick.com^
@@ -431,9 +439,11 @@
 ||superortaklik.com^
 ||superpetbazaar.net^
 ||tablogiris.xyz^
+||tahmingazetesi.net^
 ||taraftaryum.live^
 ||techxwebs.com^
 ||telegramiddaa.com^
+||tepebasibelediyesi.com^
 ||thebrowhut.net^
 ||thedamcafe.net^
 ||timebet.com^
@@ -458,6 +468,9 @@
 ||ucarecdn.com^
 ||universitypreferences.com^
 ||urlshortening.link^
+||ustapoker.com^
+||vatan.game^
+||vatanplatform.com^
 ||vbetgiris.net^
 ||ventureaffiliates.com^
 ||venusaff.com^
@@ -505,6 +518,7 @@
 ||pcbala.com^
 ||bm1t5.site^
 ||bm365.site^
+||bm1l5.site^
 ||gnbapi.com^
 ||genfkd.org^
 ||tamgits.xyz^
@@ -526,6 +540,7 @@
 ||atlaffi.shop^
 ||asusprv.click^
 ||casinraff.com^
+||onwngiris.com^
 ||365lpodds.com^
 ||citron000.com^
 ||movetru16.com^
@@ -593,12 +608,6 @@
 ||r5d63ktxatvkpcr1ambke39t57edd52e.xyz^
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||ac873817b738b056b2878225375542cb.com^
-#- Others (Blocked by Other Sources)
-||onwngiris.com^
-||betandyou.com^
-||clickpupbit.com^
-||aliniyo.com^
-||betsson.com^
 #- Dump List
 ||077.game^
 ||1010188s.info^
@@ -1127,7 +1136,6 @@
 ||brazino777.io^
 ||brisabet.com^
 ||bs85cdn.com^
-||bsinplus.com^
 ||bslinks1.top^
 ||bspin.io^
 ||bswtech-platform.com^
@@ -1555,15 +1563,9 @@
 ||greenfaucet.com^
 ||greenluck.com^
 ||greenmoon.top^
-||guncel-giris25.org^
-||guncel-girisi.com^
 ||guncel3.com^
-||gunceladresi.org^
-||guncelbetwoongiris.com^
-||guncelsuperbetgiris.com^
+||guncel-giris25.org^
 ||gunnacorp.com^
-||guveniliradresin.com^
-||guvenilirbet.com^
 ||hangimaca.com^
 ||happyhomepets.com^
 ||happysenspa.com^
@@ -1579,7 +1581,6 @@
 ||hellobet.co^
 ||hellobet.com^
 ||hellobet66.com^
-||hepyek.com^
 ||herake.com^
 ||herospin.com^
 ||heyyolink.com^
@@ -1770,7 +1771,6 @@
 ||linklerim.online^
 ||linkmega.online^
 ||linkpointbc110183.com^
-||linkredirect-btp.com^
 ||lionaff6.com^
 ||livebet.com^
 ||livechat15.com^
@@ -2713,15 +2713,15 @@
 !- pages.dev|blogspot.com
 ||redirect-*.pages.dev^
 #- Datacenter Links
-||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^$all
-||agc-casino.s3.amazonaws.com^$all
-||agc-casino.s3.eu-central-1.amazonaws.com^$all
-||bettilt-sportsbook-prod.gtdevteam.work^$all
-||canli-bahis.s3.eu-central-1.amazonaws.com^$all
-||d56vh6ph4jjmq.cloudfront.net^$all
-||golvar-org.cdn.ampproject.org^all
-||prtgaming.s3.eu-central-1.amazonaws.com^$all
-||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^$all
-||yeni-adres.s3.eu-central-1.amazonaws.com^$all
-||cdn-ilcfbjl.nitrocdn.com^$all
-||winxbets-net.cdn.ampproject.org^$all
+||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
+||agc-casino.s3.amazonaws.com^
+||agc-casino.s3.eu-central-1.amazonaws.com^
+||bettilt-sportsbook-prod.gtdevteam.work^
+||canli-bahis.s3.eu-central-1.amazonaws.com^
+||d56vh6ph4jjmq.cloudfront.net^
+||golvar-org.cdn.ampproject.org
+||prtgaming.s3.eu-central-1.amazonaws.com^
+||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^
+||yeni-adres.s3.eu-central-1.amazonaws.com^
+||cdn-ilcfbjl.nitrocdn.com^
+||winxbets-net.cdn.ampproject.org^
