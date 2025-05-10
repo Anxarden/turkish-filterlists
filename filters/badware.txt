@@ -205,6 +205,7 @@
 ||relateddigital.com^
 ||reown.com^$third-party
 ||rlcdn.com^
+||drupart.com.tr^$third-party
 ||rollbar.com^
 ||rubiconproject.com^
 ||rutrk.org^
@@ -285,6 +286,7 @@
 ||dmxleo.dailymotion.com^
 ||adserve.donanimhaber.com^
 ||improving.duckduckgo.com^
+||matomo.drupart.com.tr^
 ||clck.dzen.ru^
 ||ms.dzen.ru^
 ||bundles.efilli.com^
