@@ -6,6 +6,16 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||magsrv.com^
+||hubvisor.io^
+||radikal.ru^
+||permutive.app^
+||hs-analytics.net^
+||hs-banner.com^
+||hsleadflows.net^
+||hubspotfeedback.com^
+||usemessages.com^
+||hs-scripts.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -41,6 +51,7 @@
 ||appnexus.com^
 ||apptospace.com^
 ||apptracer.ru^
+||doppiocdn.com^
 ||ashoupsu.com^
 ||assemblyexchange.com^
 ||ay.delivery^
@@ -129,7 +140,6 @@
 ||idealmedia.io^
 ||indexww.com^
 ||inmobi.com^
-||inmobi.com^
 ||innocraft.cloud^
 ||instana.io^
 ||instrumenttactics.com^
@@ -141,7 +151,6 @@
 ||lijit.com^
 ||livechatinc.com^$third-party
 ||madurird.com^
-||magsrv.com^
 ||mayoblast.com^
 ||mediapalmtree.com^
 ||medyanetads.com^
