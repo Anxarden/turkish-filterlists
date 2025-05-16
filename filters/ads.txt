@@ -46,6 +46,7 @@ hurriyet.com.tr##section.adv
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
+myanimelist.net##.title>.detail>div.manga-store-information
 mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
