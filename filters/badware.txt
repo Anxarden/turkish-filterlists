@@ -309,6 +309,7 @@
 ||firebase.googleapis.com^
 ||imasdk.googleapis.com^
 ||fundingchoicesmessages.google.com^
+||g.jwpsrv.com^
 ||medya.ilan.gov.tr^
 ||analitik.kgm.gov.tr^
 ||ads.linkedin.com^
