@@ -79,6 +79,7 @@
 ||yakabet*.com^
 ||zirvebet*.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
+||gates-of-olympus-sites.pro^
 ||1win-turkey.org^
 ||1win.run^
 ||1win.web.tr^
@@ -570,6 +571,7 @@
 ||bn27redirectfast.com^
 #- Gibberish 3th-Party Domains
 ||ncybs.com^
+||d724rd.xyz^
 ||sswwkk.com^
 ||ft8ql3z.com^
 ||9lkf4hn.com^
@@ -1084,6 +1086,9 @@
 ||betzou.com^
 ||betzter.com^
 ||bewins.com^
+||tradizionirestaurant.com^
+||glennbelendds.com^
+||kazbarscottsdale.com^
 ||bgrntaff.com^
 ||bhsbin.link^
 ||bibi24.com^
