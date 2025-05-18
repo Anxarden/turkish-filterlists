@@ -2,7 +2,7 @@
 
 Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin; **AdGuard**) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
 
-**Daha geniş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız durumları bildirebilirsiniz.**
+**Daha geniş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız ögeleri bildirebilirsiniz.**
 
 
 
