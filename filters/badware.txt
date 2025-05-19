@@ -1,29 +1,18 @@
-! Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
-! Homepage: https://github.com/Anxarden/turkish-filterlist/
-! Author: Anxarden
+# Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
 #- Whitelist
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
-||adbox.lv^
-||cfodnpyxlal.com^
-||magsrv.com^
-||hubvisor.io^
-||radikal.ru^
-||permutive.app^
-||hs-analytics.net^
-||hs-banner.com^
-||hsleadflows.net^
-||hubspotfeedback.com^
-||usemessages.com^
-||hs-scripts.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
 ||ad-plus.com.tr^
 ||adapex.io^
 ||adbetnetwork.com^
+||adbox.lv^
 ||addthis.com^
 ||addtoany.com^
 ||adform.net^
@@ -53,7 +42,6 @@
 ||appnexus.com^
 ||apptospace.com^
 ||apptracer.ru^
-||doppiocdn.com^
 ||ashoupsu.com^
 ||assemblyexchange.com^
 ||ay.delivery^
@@ -74,6 +62,7 @@
 ||casalemedia.com^
 ||cdn-cookieyes.com^
 ||centumshough.com^
+||cfodnpyxlal.com^
 ||chargecracker.com^
 ||chartbeat.com^
 ||chatbro.com^
@@ -101,9 +90,11 @@
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
 ||dogt.xyz^
+||doppiocdn.com^
 ||dotofverse.com^
 ||doubleclick.net^
 ||driftt.com^
+||drupart.com.tr^$third-party
 ||dygdigital.com^
 ||ebxcdn.com^
 ||effectiveratecpm.com^
@@ -136,8 +127,15 @@
 ||heap-api.com^
 ||heimalesssinpad.com^
 ||histats.com^
+||hostixz.com^$third-party
 ||hotjar.com^
+||hs-analytics.net^
+||hs-banner.com^
+||hs-scripts.com^
 ||hsforms.net^
+||hsleadflows.net^
+||hubspotfeedback.com^
+||hubvisor.io^
 ||id5-sync.com^
 ||idealmedia.io^
 ||indexww.com^
@@ -153,6 +151,7 @@
 ||lijit.com^
 ||livechatinc.com^$third-party
 ||madurird.com^
+||magsrv.com^
 ||mayoblast.com^
 ||mediapalmtree.com^
 ||medyanetads.com^
@@ -184,6 +183,7 @@
 ||optimove.net^
 ||osano.com^$third-party
 ||perfectmarket.com^
+||permutive.app^
 ||permutive.com^
 ||pghub.io^
 ||pigeoon.com^
@@ -208,6 +208,7 @@
 ||qualtrics.com^$third-party
 ||quantcast.com^
 ||quantserve.com^
+||radikal.ru^
 ||raglanyakking.com^
 ||rastikapritif.com^
 ||ravenjs.com^
@@ -216,7 +217,6 @@
 ||relateddigital.com^
 ||reown.com^$third-party
 ||rlcdn.com^
-||drupart.com.tr^$third-party
 ||rollbar.com^
 ||rubiconproject.com^
 ||rutrk.org^
@@ -259,6 +259,7 @@
 ||umami.is^
 ||unrulymedia.com^
 ||useinsider.com^
+||usemessages.com^
 ||usercentrics.eu^
 ||userreport.com^
 ||usersnap.com^

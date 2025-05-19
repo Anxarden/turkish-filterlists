@@ -1,6 +1,6 @@
-! Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Yasadışı Kumar/Bahis]
-! Homepage: https://github.com/Anxarden/turkish-filterlist/
-! Author: Anxarden
+# Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Yasadışı Kumar/Bahis]
+# Homepage: https://github.com/Anxarden/turkish-filterlist/
+# Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
 /bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
