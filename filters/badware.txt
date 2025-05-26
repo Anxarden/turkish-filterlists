@@ -6,6 +6,9 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||inmobi.com^
+||smartadserver.com^
+||firstpromoter.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
@@ -139,7 +142,6 @@
 ||id5-sync.com^
 ||idealmedia.io^
 ||indexww.com^
-||inmobi.com^
 ||innocraft.cloud^
 ||instana.io^
 ||instrumenttactics.com^
@@ -238,7 +240,6 @@
 ||sift.com^
 ||siftscience.com^
 ||simpleanalyticscdn.com^
-||smartadserver.com^
 ||speedcurve.com^
 ||statsigapi.net^
 ||subaxe.xyz^
