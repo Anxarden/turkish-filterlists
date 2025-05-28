@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||pubtrky.com^
 ||inmobi.com^
 ||smartadserver.com^
 ||firstpromoter.com^
@@ -325,6 +326,8 @@
 ||weblog.rclone.org^
 ||w3-reporting.reddit.com^
 ||platform-api.sharethis.com^
+||advast.sibnet.ru^
+||vst.sibnet.ru^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
 ||thtk.temu.com^
