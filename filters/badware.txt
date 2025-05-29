@@ -6,6 +6,9 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||beseechprose.com^
+||cactusheadroomscaling.com^
+||finisheddaysflamboyant.com^
 ||pubtrky.com^
 ||inmobi.com^
 ||smartadserver.com^
@@ -330,6 +333,7 @@
 ||vst.sibnet.ru^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
+||ping.staticmoly.me^
 ||thtk.temu.com^
 ||sofire.terabox.com^
 ||analytics.tiktok.com^
@@ -346,8 +350,8 @@
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
 ||jpicture.xyz^$third-party,~xhr
 #- Specific Scripts/Queries/Fetchs/Blocks
-||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s16000/$third-party,image
-||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE*/s728/$third-party,image
+||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s16000/$third-party,image
+||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s728/$third-party,image
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
