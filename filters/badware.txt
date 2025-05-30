@@ -330,6 +330,8 @@
 ||w3-reporting.reddit.com^
 ||platform-api.sharethis.com^
 ||advast.sibnet.ru^
+||c.sibnet.ru^
+||cvt1.sibnet.ru^
 ||vst.sibnet.ru^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
