@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- Blacklist
+||wdfl.co^
 ||360yield-basic.com^
 ||360yield.com^
 ||ad-delivery.net^
