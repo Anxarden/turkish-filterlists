@@ -79,6 +79,7 @@
 ||yakabet*.com^
 ||zirvebet*.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
+||affiliateikimisli.com^
 ||gates-of-olympus-sites.pro^
 ||1win-turkey.org^
 ||1win.run^
