@@ -5,7 +5,10 @@
 #- Whitelist
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
-#- Blacklist
+
+#- AD & Tracker Blacklist
+||bvtpk.com^
+#- Other Blacklisted Domains
 ||wdfl.co^
 ||360yield-basic.com^
 ||360yield.com^
@@ -388,7 +391,7 @@
 ||yieldlove.com^
 ||yieldmo.com^
 ||zenmate.com^
-#- Domains /w Subs Addressing
+#- Blacked AD & Tracker Subdomains
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
 ||t.9gag.com^
