@@ -62,10 +62,11 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
+useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
+useragents.me##li.nav-item:has(a[target])
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk##button:has-text(/Premium/i):upward(center)
-
 
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks

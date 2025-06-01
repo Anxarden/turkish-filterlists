@@ -6,6 +6,8 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
+||ipqualityscore.com^
+||statcounter.com^
 ||histats.com^
 ||ezojs.com^
 ||360yield-basic.com^
@@ -459,6 +461,7 @@
 ||usemessages.com^
 ||usercentrics.eu^
 ||userreport.com^
+||acscdn.com^
 ||usersnap.com^
 ||usheebainaut.com^
 ||utorrent.com^
