@@ -764,6 +764,7 @@
 ||countly.turktelekom.com.tr^
 ||pnsdkapi.turktelekom.com.tr^
 ||reklam.turkmmo.com^
+||yr.unasonoric.com^
 ||aminks.underarmour.com.tr^
 ||widget.uservoice.com^
 ||countly.vakifbank.com.tr^

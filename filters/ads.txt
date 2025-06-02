@@ -8,33 +8,20 @@
 ! Advert Related Content (Banners, Frames, Texts etc...)
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /dizipal\d{3}\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
+/diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
 /diziyou\d?\.com$/##.dizialani>.video>a[target]
 /diziyou\d?\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
 /diziyou\d?\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-/diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
 ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
-repack.me##.panel-primary:has(>.panel-heading>.short-title):has-text(/хостинг/i)
-repack.me##[class$=alert-giveaway]:has-text(/adguard/i)
-vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
-vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
 dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
+digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
-icedrive.net##[id=ad-summer]
-internxt.com##.h-screen:has(>.fixed>button)
-mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
-ownedcore.com##.announcements
-ownedcore.com##.shoutout
-ownedcore.com##[id^="ad_thread"][id$="post_content"]
-pcloud.com##.left-banner:has([class*=AdCloseButton])
-pcloud.com##.left-banner:has-text(/Discount/i)
-pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
-digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
@@ -43,27 +30,37 @@ hlktrpl.cfd##^[id="textreklamgoster"i]
 hlktrpl.cfd##^body>div[id="adstop"i]
 hlktrpl.cfd##^div[class="playertextreklam"i]
 hurriyet.com.tr##section.adv
+icedrive.net##[id=ad-summer]
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
+internxt.com##.h-screen:has(>.fixed>button)
+mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
 myanimelist.net##.title>.detail>div.manga-store-information
 mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
+ownedcore.com##.announcements
+ownedcore.com##.shoutout
+ownedcore.com##[id^="ad_thread"][id$="post_content"]
+pcloud.com##.left-banner:has([class*=AdCloseButton])
+pcloud.com##.left-banner:has-text(/Discount/i)
+pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
-repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
 tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
 teamos.xyz##center:has(>div>a[title^="debrid"i])
 turktorrent.us##[id=advertisements]
 turktorrent.us##^script:has-text(#advertisements)
+useragents.me##li.nav-item:has(a[target])
+useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
+vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
+vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
-useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
-useragents.me##li.nav-item:has(a[target])
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk##button:has-text(/Premium/i):upward(center)
@@ -168,6 +165,9 @@ gledaitv.fan##div#loading-spinner
 thehouseofportable.com##[id="preload"]
 
 #- Wipe ADs and Visual Debloat
+! ad-images and information/announcements related posts 
+repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+repack.me##.my>.my>:is(div.short-title,br)
 ! clear vip promotions, testemonials, sharing etc... all over the website
 simkl.com##^div.simklbecomeprowrap
 simkl.com##^div.simklviptestemonials
