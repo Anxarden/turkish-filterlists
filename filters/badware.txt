@@ -591,6 +591,7 @@
 ||countly.fibabanka.com.tr^
 ||hiuplq.flashscore.com.tr^
 ||gtm.flo.com.tr^
+||events.framer.com^
 ||sw88.fxturkiye.com.tr^
 ||tracking.g2crowd.com^
 ||webstat.garanti.com.tr^
