@@ -557,6 +557,7 @@
 ||365lpodds.com^
 ||citron000.com^
 ||movetru16.com^
+||3kanumaigc.com^
 ||mxbrcdn510.com^
 ||affshowbet.com^
 ||atbpartner.com^
@@ -627,6 +628,7 @@
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||ac873817b738b056b2878225375542cb.com^
 #- Dump List
+||ligobet873.com^
 ||077.game^
 ||1010188s.info^
 ||101bes20.com^
@@ -2739,12 +2741,14 @@
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
 ||agc-casino.s3.amazonaws.com^
 ||agc-casino.s3.eu-central-1.amazonaws.com^
+||api-starzbet-tr--prd--pl-sb.api89rng.com^
+||api-ligobet-tr--prd--pl-sb.api89rng.com^
 ||bettilt-sportsbook-prod.gtdevteam.work^
 ||canli-bahis.s3.eu-central-1.amazonaws.com^
+||cdn-ilcfbjl.nitrocdn.com^
 ||d56vh6ph4jjmq.cloudfront.net^
 ||golvar-org.cdn.ampproject.org
 ||prtgaming.s3.eu-central-1.amazonaws.com^
+||winxbets-net.cdn.ampproject.org^
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^
 ||yeni-adres.s3.eu-central-1.amazonaws.com^
-||cdn-ilcfbjl.nitrocdn.com^
-||winxbets-net.cdn.ampproject.org^

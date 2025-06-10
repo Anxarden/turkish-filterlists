@@ -6,6 +6,7 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
+||rickywhence.com^$third-party,all
 ||ipqualityscore.com^
 ||statcounter.com^
 ||histats.com^
@@ -24,7 +25,7 @@
 ||adhouse.pro^
 ||adlightning.com^
 ||admatic.com.tr^
-||admatic.de^$third-party
+||admatic.de^
 ||admaxium.com^
 ||admost.com^
 ||adnxs-simple.com^
@@ -67,7 +68,7 @@
 ||avis-odeme.com.tr^
 ||axisbank.co^
 ||ay.delivery^
-||bbvms.com^$third-party
+||bbvms.com^$third-party,all
 ||belediyeturk.com^
 ||beseechprose.com^
 ||beseechprose.com^
@@ -145,7 +146,7 @@
 ||doubleclick.net^
 ||download.com^
 ||driftt.com^
-||drupart.com.tr^$third-party
+||drupart.com.tr^$third-party,all
 ||dygdigital.com^
 ||e-kitapindir.com^
 ||ebxcdn.com^
@@ -263,7 +264,7 @@
 ||landsideresendtrousers.com^
 ||lijit.com^
 ||limewire.com^
-||livechatinc.com^$third-party
+||livechatinc.com^$third-party,all
 ||log.com.tr^
 ||madurird.com^
 ||magsrv.com^
@@ -341,11 +342,11 @@
 ||pubmatic.com^
 ||pubtrky.com^
 ||push-sdk.com^
-||pushengage.com^$all
+||pushengage.com^$third-party
 ||pushpad.xyz^
 ||pxf.io^
 ||qortex.ai^
-||qualtrics.com^$third-party
+||qualtrics.com^
 ||quantcast.com^
 ||quantserve.com^
 ||quickorange.net^
@@ -700,6 +701,7 @@
 ||weblog.rclone.org^
 ||w3-reporting.reddit.com^
 ||zj.refractsculks.com^
+||gw.rickywhence.com^
 ||tdms.saglik.gov.tr^
 ||ws.sahibinden.com^
 ||trk.sana.com.tr^
