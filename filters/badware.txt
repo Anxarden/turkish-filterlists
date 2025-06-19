@@ -6,15 +6,14 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
-||wpadmngr.com^
-||iconcardinal.com^
-||rickywhence.com^$third-party,all
-||ipqualityscore.com^
-||statcounter.com^
-||histats.com^
-||ezojs.com^
+||wmcdct.com^
+||toplist.cz^
+||adtng.com^
+||webvisor.org^
+||xlivrdr.com^
 ||360yield-basic.com^
 ||360yield.com^
+||acscdn.com^
 ||ad-delivery.net^
 ||ad-plus.com.tr^
 ||adanavisa.tr^
@@ -57,13 +56,20 @@
 ||amazon-adsystem.com^$third-party
 ||amung.us^
 ||antiadblocksystems.com^
+||app-valley.vip^
 ||appboycdn.com^
+||appdoze.com^
 ||applecase.com.tr^
+||appnee.com^
 ||appnexus.com^
 ||apptospace.com^
 ||apptracer.ru^
+||appvalley-apk.com^
 ||ashoupsu.com^
 ||assemblyexchange.com^
+||avast.com^
+||avg.com^
+||avira.com^
 ||avis-odeme.com.tr^
 ||axisbank.co^
 ||ay.delivery^
@@ -76,11 +82,14 @@
 ||bilgin.pro^
 ||bitcomet.com^
 ||bitlord.com^
+||bitlorddl.com^
 ||bittorrent.com^
 ||bizdenalver.net.tr^
 ||bizible.com^
 ||bizimyatirimmenkul.com.tr^
 ||blogherads.com^
+||bluekik.pro^
+||bluesmods.com^
 ||bodis.com^
 ||brainlyads.com^
 ||brainsland.com^
@@ -95,6 +104,9 @@
 ||cankiridenhaberler.com^
 ||casalemedia.com^
 ||caykeyfimayis.com.tr^
+||ccleaner.com^
+||ccleanercloud.com^
+||ccm.net^
 ||cdn-cookieyes.com^
 ||centumshough.com^
 ||ceptekaraca.com.tr^
@@ -114,6 +126,9 @@
 ||cookielaw.org^
 ||coolserving.com^
 ||cootlogix.com^
+||crackingcity.com^
+||crackingpatching.com^
+||crackingpatching.org^
 ||crackshash.org^
 ||crazyegg.com^
 ||creativecdn.com^
@@ -139,6 +154,8 @@
 ||dotofverse.com^
 ||doubleclick.net^
 ||download.com^
+||downloadly.ir^
+||downloadly.net^
 ||driftt.com^
 ||drupart.com.tr^$third-party,all
 ||dygdigital.com^
@@ -155,6 +172,7 @@
 ||extole.io^
 ||ezcrack.info^
 ||ezoic.net^
+||ezojs.com^
 ||familiacepte.com.tr^
 ||farma-haber.com^
 ||featuregates.org^
@@ -164,6 +182,7 @@
 ||flarby.com^
 ||focushaber.com^
 ||fpjs.io^
+||freesoft.space^
 ||freevisitorcounters.com^
 ||frostwire.com^
 ||fuseplatform.net^
@@ -171,6 +190,7 @@
 ||gekeebsirs.com^
 ||gelirartisi.com^
 ||gemius.pl^
+||gendigital.com^
 ||geniuslinkcdn.com^
 ||geoedge.be^
 ||getdeviceinf.com^
@@ -178,6 +198,7 @@
 ||getnitropack.com^$third-party
 ||girisimbirligi.com^
 ||go-mpulse.net^
+||go-to-zlibrary.com^
 ||google-analytics.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -210,6 +231,7 @@
 ||heryerbitki.com.tr^
 ||heryerbitki.net.tr^
 ||heryerbitki.org.tr^
+||histats.com^
 ||hostixz.com^$third-party
 ||hotjar.com^
 ||hs-analytics.net^
@@ -219,8 +241,11 @@
 ||hsleadflows.net^
 ||hubspotfeedback.com^
 ||hubvisor.io^
+||i-loadzone.com^
+||iconcardinal.com^
 ||id5-sync.com^
 ||idealmedia.io^
+||igg-games.cc^
 ||igg-games.com^
 ||indexww.com^
 ||inegolreklam.net^
@@ -230,6 +255,7 @@
 ||instrumenttactics.com^
 ||insurads.com^
 ||iobit.com^
+||ipqualityscore.com^
 ||iptv-tv.com.tr^
 ||ivr.com.tr^
 ||judge.me^
@@ -238,6 +264,7 @@
 ||kampanyalarucuz.com.tr^
 ||kampanyalarucuz.org.tr^
 ||kampanyamayiscaydanlik.com.tr^
+||kape.com^
 ||karabaglarsamsung.org.tr^
 ||karacamayisaktuel.com.tr^
 ||karacastore.net.tr^
@@ -246,9 +273,15 @@
 ||kardelentekstil.com.tr^
 ||kayipormandagevleri.com.tr^
 ||keltis.com^$third-party
+||kickasstorrents.to^
+||kik.com^
 ||kitabipdfindir.com^
 ||kitap-indir.online^
 ||kitapindirr.org^
+||km-spico.ru^
+||kmsautoplus.su^
+||kmsautos.ru^
+||kmsmatrix.com^
 ||kops1.site^
 ||kriptocoinhaber.com^
 ||kriptoparahaber.care^
@@ -260,6 +293,7 @@
 ||log.com.tr^
 ||madurird.com^
 ||magsrv.com^
+||mainrepo.org^
 ||marketfamilia.info.tr^
 ||marketfamilia.net.tr^
 ||marketsiparis.net.tr^
@@ -271,10 +305,12 @@
 ||medikalbitkisel.org^
 ||medyanetads.com^
 ||membrana.media^
+||micaesoft.com^
 ||midirosecaydanlikkampanya.com.tr^
 ||minireklam.com^
 ||monetixads.com^
 ||mouseflow.com^
+||mrepo.org^
 ||mrf.io^
 ||mrmnd.com^
 ||mxpnl.com^
@@ -294,8 +330,10 @@
 ||nkdyzf.com^
 ||nordvpnhosting.com^
 ||norton.com^
+||norton.com^
 ||nortonlifelock.com^
 ||nulled.to^
+||nyaa.eu^
 ||omnisnippet1.com^
 ||onesignal.com^
 ||onetrust.com^
@@ -310,6 +348,7 @@
 ||optimove.net^
 ||osano.com^$third-party
 ||pari-kampanya.com.tr^
+||pcprotect.com^
 ||pdfindir.net^
 ||perfectmarket.com^
 ||permutive.app^
@@ -327,7 +366,9 @@
 ||primis.tech^
 ||privacy-center.org^
 ||privacy-mgmt.com^
+||privateinternetaccess.com^
 ||profitableratecpm.com^
+||protonge.com^
 ||pub.network^
 ||pubguru.net^
 ||pubmatic.com^
@@ -356,6 +397,7 @@
 ||reklamstore.com^
 ||relateddigital.com^
 ||reown.com^$third-party
+||rickywhence.com^$third-party,all
 ||rlcdn.com^
 ||rollbar.com^
 ||roltek.com.tr^
@@ -392,6 +434,7 @@
 ||sift.com^
 ||siftscience.com^
 ||simpleanalyticscdn.com^
+||singlelogin.cc^
 ||sipariscepte.net.tr^
 ||sipariscepte.org.tr^
 ||smartadserver.com^
@@ -403,11 +446,14 @@
 ||soksokdaucuz.net.tr^
 ||soktandahaucuzuyok.info.tr^
 ||speedcurve.com^
+||statcounter.com^
 ||statsigapi.net^
 ||steamunlocked.net^
 ||subaxe.xyz^
+||sumorb.com^
 ||superiorityregard.com^
 ||taboola.com^
+||taiwebs.com^
 ||tazecicek.net.tr^
 ||teads.tv^
 ||tedizmir.k12.tr^
@@ -417,10 +463,12 @@
 ||theadx.com^
 ||theamazoncoffee.com.tr^
 ||thebondservices.com^
+||thehiddenbay.com^
 ||tiqcdn.com^
 ||tlauncher.org^
 ||tns-counter.ru^
 ||totalav.com^
+||tpb.party^
 ||track.com.tr^
 ||tradedoubler.com^
 ||trafficbass.com^
@@ -439,6 +487,7 @@
 ||turkiyeonlinemagaza.com^
 ||turkiyetasittakas.com^
 ||turkiyeyeni.org^
+||tutubox.io^
 ||tw.cx^
 ||typekit.net^
 ||ucretsiz-ekitaplar-indir.info^
@@ -452,7 +501,6 @@
 ||usemessages.com^
 ||usercentrics.eu^
 ||userreport.com^
-||acscdn.com^
 ||usersnap.com^
 ||usheebainaut.com^
 ||utorrent.com^
@@ -474,17 +522,14 @@
 ||whunpainty.com^
 ||windows64.net^
 ||windowsbit.net^
+||wizcase.com^
+||wpadmngr.com^
 ||yadro.ru^
+||yasdl.com^
 ||yellowblue.io^
 ||yieldlove.com^
 ||yieldmo.com^
 ||zenmate.com^
-||singlelogin.cc^
-||go-to-zlibrary.com^
-||km-spico.ru^
-||kmsautos.ru^
-||kmsautoplus.su^
-||kmsmatrix.com^
 #- General Blacklisted Subdomains
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
@@ -542,7 +587,9 @@
 ||adsp.ciner.com.tr^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d3c8j8snkzfr1n.cloudfront.net^
+||d2oh4tlt9mrke9.cloudfront.net^
 ||static.cloudflareinsights.com^
+||download.cnet.com^
 ||hxiabp.colins.com.tr^
 ||zjhswy.comeup.com.tr^
 ||static.criteo.net^
@@ -553,6 +600,7 @@
 ||ctllup.deery.com.tr^
 ||woowjy.desa.com.tr^
 ||bvz5.destinia.com.tr^
+||downloads.digitaltrends.com^
 ||sw88.disney.com.tr^
 ||sw88.disneymagicmoments.gen.tr^
 ||sw88.disneyturkiye.com.tr^
@@ -788,6 +836,7 @@
 ||tnt.yemeksepeti.com^
 ||ads.yenimedya.com.tr^
 ||reklam.yonlendir.com^
+||downloads.zdnet.de^
 ||zbmatomoapp.ziraatbank.com.tr^
 #- Domains /w Exceptions, Paths, Regex
 ||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
@@ -806,114 +855,9 @@
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
-! fake/badware domains list [.*]
-||allpcworld.co^
-||allpcworld.com^
-||allpcworlds.com^
-||app-valley.vip^
-||appdoze.com^
-||appnee.com^
-||appvalley-apk.com^
-||avast.com^
-||avg.com^
-||avira.com^
-||bitlorddl.com^
-||blackboxrepacke.com^
-||bluekik.pro^
-||bluesmods.com^
-||ccleaner.com^
-||ccleanercloud.com^
-||ccm.net^
-||cracked-games.org^
-||crackingcity.com^
-||crackingpatching.com^
-||crackingpatching.org^
-||downloadly.ir^
-||downloadly.net^
-||downloadlyir.com^
-||downloadlynet.ir^
-||freesoft.space^
-||ftuapps.dev^
-||ftuapps.io^
-||ftuapps.me^
-||game-repack.site^
-||gamefabrique.com^
-||gamefabrique.ru^
-||gendigital.com^
-||getinmac.com^
-||getintomac.net^
-||getintopc.cc^
-||getintopc.com^
-||getitintopc.com^
-||i-loadzone.com^
-||igetintopc.com^
-||igg-games.cc^
-||intercambiosvirtuales.org^
-||kape.com^
-||kickass-official.blue^
-||kickasstorrents.to^
-||kik.com^
-||mainrepo.org^
-||mcafeemobilesecurity.com^
-||mcafeewebadvisor.com^
-||micaesoft.com^
-||mrepo.org^
-||norton.com^
-||nyaa.eu^
-||oceanofapks.com^
-||oceanofgame.cc^
-||oceanofgames.com^
-||oceanofgamesu.com^
-||oceansofgamess.com^
-||oceantogames.com^
-||official-activator.net^
-||pcprogs.net^
-||pcprogs.ru^
-||pcprotect.com^
-||privateinternetaccess.com^
-||protonge.com^
-||s0ft4pc.com^
-||sumorb.com^
-||taiwebs.com^
-||thehiddenbay.com^
-||thekickasstorrents.com^
-||tpb.party^
-||tutubox.io^
-||wifi4games.com^
-||wifi4games.net^
-||wizcase.com^
-||yasdl.com^
-! badware subdomain list
-||download.cnet.com^
-||downloads.digitaltrends.com^
-||downloads.zdnet.de^
-! kmspico & other activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
-*kmspico.$document,to=/kmspico/
-||kmspico*.$document,to=/kmspico/
-||kms-*.$document,to=/kms-/
-||kmsauto.$document,to=/kmsauto/
-||activators.pro^
-||activators4windows.com^
-||aktivator-windows.net^
-||dazactivator.com^
-||massgrav.shop^
-||massgraves.online^
-||win7loader.com^
-||windows-7.net^
-||windows-activators.com^
-||microsoftactivationscripts.com^
+# Official Pirating Website Notes
+! windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 ! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
-/z-?lib/$document,to=~z-library.sk|~z-lib.fm|~z-lib.gs|/^z-?lib[^.]*\.(?:[^.]+|[^.]{2,4}\.[^.]{2})$/
 ! fitgirl-repacks [~fitgirl-repacks.site]
-||fitgirl$document,to=~fitgirl-repacks.site|/^fitgirl(?:[^.]*(?:pack|torrent)[^.]*\.(?:[^.]+|[^.]+\.[^.]+)|\.cc)$/
-! bluemedia files [~?]
-||bluemediafile*.$document,to=/bluemediafile/
-||bluemediastorage.online^
-||bluemediaurls.lol^
 ! thepiratebay [~thepiratebay.org]
-||thepiratebay*.$document,to=~thepiratebay.org
-||piratebay*.$document,to=~thepiratebay.org
-||pirate-bays.net^
-||pirateproxy-bay.com^
-||pirateproxy.live^
-||pirateproxylive.org^
+
