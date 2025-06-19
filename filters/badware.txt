@@ -6,6 +6,8 @@
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
+||wpadmngr.com^
+||iconcardinal.com^
 ||rickywhence.com^$third-party,all
 ||ipqualityscore.com^
 ||statcounter.com^
@@ -62,15 +64,11 @@
 ||apptracer.ru^
 ||ashoupsu.com^
 ||assemblyexchange.com^
-||avast.com^
-||avg.com^
-||avira.com^
 ||avis-odeme.com.tr^
 ||axisbank.co^
 ||ay.delivery^
 ||bbvms.com^$third-party,all
 ||belediyeturk.com^
-||beseechprose.com^
 ||beseechprose.com^
 ||betsonsport.ru^
 ||bidr.io^
@@ -93,13 +91,10 @@
 ||buysellads.net^
 ||bvtpk.com^
 ||cactusheadroomscaling.com^
-||cactusheadroomscaling.com^
 ||camhub.site^
 ||cankiridenhaberler.com^
 ||casalemedia.com^
 ||caykeyfimayis.com.tr^
-||ccleaner.com^
-||ccleanercloud.com^
 ||cdn-cookieyes.com^
 ||centumshough.com^
 ||ceptekaraca.com.tr^
@@ -135,7 +130,6 @@
 ||dengage.com^
 ||dianomi.com^
 ||dj2550.com^
-||dm-event.net^
 ||dm-event.net^
 ||dmca.com^$third-party
 ||dnymedya.com^$third-party
@@ -216,7 +210,6 @@
 ||heryerbitki.com.tr^
 ||heryerbitki.net.tr^
 ||heryerbitki.org.tr^
-||histats.com^
 ||hostixz.com^$third-party
 ||hotjar.com^
 ||hs-analytics.net^
@@ -237,7 +230,6 @@
 ||instrumenttactics.com^
 ||insurads.com^
 ||iobit.com^
-||ipqualityscore.com^
 ||iptv-tv.com.tr^
 ||ivr.com.tr^
 ||judge.me^
@@ -282,7 +274,6 @@
 ||midirosecaydanlikkampanya.com.tr^
 ||minireklam.com^
 ||monetixads.com^
-||mouseflow.com^
 ||mouseflow.com^
 ||mrf.io^
 ||mrmnd.com^
@@ -412,7 +403,6 @@
 ||soksokdaucuz.net.tr^
 ||soktandahaucuzuyok.info.tr^
 ||speedcurve.com^
-||statcounter.com^
 ||statsigapi.net^
 ||steamunlocked.net^
 ||subaxe.xyz^
@@ -484,7 +474,6 @@
 ||whunpainty.com^
 ||windows64.net^
 ||windowsbit.net^
-||wpadmngr.com^
 ||yadro.ru^
 ||yellowblue.io^
 ||yieldlove.com^
@@ -817,12 +806,114 @@
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
-! kmspico [~massgrave.dev|~activated.win]
+! fake/badware domains list [.*]
+||allpcworld.co^
+||allpcworld.com^
+||allpcworlds.com^
+||app-valley.vip^
+||appdoze.com^
+||appnee.com^
+||appvalley-apk.com^
+||avast.com^
+||avg.com^
+||avira.com^
+||bitlorddl.com^
+||blackboxrepacke.com^
+||bluekik.pro^
+||bluesmods.com^
+||ccleaner.com^
+||ccleanercloud.com^
+||ccm.net^
+||cracked-games.org^
+||crackingcity.com^
+||crackingpatching.com^
+||crackingpatching.org^
+||downloadly.ir^
+||downloadly.net^
+||downloadlyir.com^
+||downloadlynet.ir^
+||freesoft.space^
+||ftuapps.dev^
+||ftuapps.io^
+||ftuapps.me^
+||game-repack.site^
+||gamefabrique.com^
+||gamefabrique.ru^
+||gendigital.com^
+||getinmac.com^
+||getintomac.net^
+||getintopc.cc^
+||getintopc.com^
+||getitintopc.com^
+||i-loadzone.com^
+||igetintopc.com^
+||igg-games.cc^
+||intercambiosvirtuales.org^
+||kape.com^
+||kickass-official.blue^
+||kickasstorrents.to^
+||kik.com^
+||mainrepo.org^
+||mcafeemobilesecurity.com^
+||mcafeewebadvisor.com^
+||micaesoft.com^
+||mrepo.org^
+||norton.com^
+||nyaa.eu^
+||oceanofapks.com^
+||oceanofgame.cc^
+||oceanofgames.com^
+||oceanofgamesu.com^
+||oceansofgamess.com^
+||oceantogames.com^
+||official-activator.net^
+||pcprogs.net^
+||pcprogs.ru^
+||pcprotect.com^
+||privateinternetaccess.com^
+||protonge.com^
+||s0ft4pc.com^
+||sumorb.com^
+||taiwebs.com^
+||thehiddenbay.com^
+||thekickasstorrents.com^
+||tpb.party^
+||tutubox.io^
+||wifi4games.com^
+||wifi4games.net^
+||wizcase.com^
+||yasdl.com^
+! badware subdomain list
+||download.cnet.com^
+||downloads.digitaltrends.com^
+||downloads.zdnet.de^
+! kmspico & other activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 *kmspico.$document,to=/kmspico/
 ||kmspico*.$document,to=/kmspico/
 ||kms-*.$document,to=/kms-/
 ||kmsauto.$document,to=/kmsauto/
+||activators.pro^
+||activators4windows.com^
+||aktivator-windows.net^
+||dazactivator.com^
+||massgrav.shop^
+||massgraves.online^
+||win7loader.com^
+||windows-7.net^
+||windows-activators.com^
+||microsoftactivationscripts.com^
 ! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
 /z-?lib/$document,to=~z-library.sk|~z-lib.fm|~z-lib.gs|/^z-?lib[^.]*\.(?:[^.]+|[^.]{2,4}\.[^.]{2})$/
 ! fitgirl-repacks [~fitgirl-repacks.site]
 ||fitgirl$document,to=~fitgirl-repacks.site|/^fitgirl(?:[^.]*(?:pack|torrent)[^.]*\.(?:[^.]+|[^.]+\.[^.]+)|\.cc)$/
+! bluemedia files [~?]
+||bluemediafile*.$document,to=/bluemediafile/
+||bluemediastorage.online^
+||bluemediaurls.lol^
+! thepiratebay [~thepiratebay.org]
+||thepiratebay*.$document,to=~thepiratebay.org
+||piratebay*.$document,to=~thepiratebay.org
+||pirate-bays.net^
+||pirateproxy-bay.com^
+||pirateproxy.live^
+||pirateproxylive.org^
