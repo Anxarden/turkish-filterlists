@@ -2,7 +2,7 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Dumplist
+#- Dumplist - Trackers, ADs and Security
 ||ad-delivery.net^
 ||ad-plus.com.tr^
 ||360yield-basic.com^
