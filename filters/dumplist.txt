@@ -1,4 +1,4 @@
-# Title: 🇹🇷 [Türkçe] Dumplist
+# Title: 🗑️ Dumplist
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
