@@ -753,6 +753,7 @@
 ||metrics.similac.com.tr^
 ||ghrzlu.skechers.com.tr^
 ||wct.softonic.com.tr^
+||analytics.sonjj.com^
 ||smetrics.sony.com.tr^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
