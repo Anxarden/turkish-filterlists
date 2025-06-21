@@ -11,6 +11,8 @@
 ||adition.com^
 ||amazon-adsystem.com^
 ||usersnap.com^
+||artfiles.online^
+||hif.to^
 ||ashoupsu.com^
 ||ay.delivery^
 ||bildir.mobi^
@@ -438,12 +440,13 @@
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s16000/$third-party,image
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s728/$third-party,image
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||eksenload.site/detect.js^$script
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||hsforms.com/*/counters.gif$image
-||paypalobjects.com/*/pixel.gif^$image
 ||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
+||paypalobjects.com/*/pixel.gif^$image
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters
 /wp-content/*.gif$first-party,image,domain=/diziyou\d*\.com$/
