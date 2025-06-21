@@ -7,6 +7,8 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||receptupperch.com^
+||ratitesbogging.com^
 ||nkdyzf.com^
 ||acscdn.com^
 ||amazon-adsystem.com^
@@ -314,6 +316,7 @@
 ||djnqoe.rani.com.tr^
 ||sstag1.rani.com.tr^
 ||weblog.rclone.org^
+||pl.receptupperch.com^
 ||w3-reporting.reddit.com^
 ||zj.refractsculks.com^
 ||gw.rickywhence.com^
