@@ -7,16 +7,15 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
-||receptupperch.com^
-||ratitesbogging.com^
-||nkdyzf.com^
 ||acscdn.com^
+||adition.com^
 ||amazon-adsystem.com^
-||powerad.ai^
+||usersnap.com^
 ||ashoupsu.com^
 ||ay.delivery^
 ||bildir.mobi^
 ||bocheskelly.com^
+||brwsrfrm.com^
 ||btloader.com^
 ||chartbeat.com^
 ||cloudflareinsights.com^
@@ -24,9 +23,13 @@
 ||cookielaw.org^
 ||criteo.net^
 ||datadoghq-browser-agent.com^
+||dengage.com^
+||dogt.xyz^
 ||doubleclick.net^
+||espleestrick.com^
 ||ethnicspue.com^
 ||gemius.pl^
+||go-mpulse.net^
 ||google-analytics.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -37,7 +40,6 @@
 ||hs-banner.com^
 ||hsadspixel.net^
 ||hsleadflows.net^
-||hsleadflows.net^
 ||hubspot.com^
 ||hubspotfeedback.com^
 ||inmobi.com^
@@ -45,17 +47,23 @@
 ||intergient.com^
 ||licdn.com^
 ||msoft.sbs^
+||myroledance.com^
 ||newrelic.com^
+||nkdyzf.com^
 ||onesignal.com^
 ||onezapp.com^
 ||permutive.app^
+||powerad.ai^
 ||privacy-center.org^
 ||privacy-mgmt.com^
 ||pub.network^
 ||push-sdk.com^
+||ratitesbogging.com^
+||receptupperch.com^
 ||refinery89.com^
 ||rfihub.net^
 ||scorecardresearch.com^
+||secured-ad.com^
 ||seedtag.com^
 ||sentry.io^
 ||setupcmp.com^
@@ -64,6 +72,7 @@
 ||stpd.cloud^
 ||taboola.com^
 ||tidyfeyest.com^
+||unasonoric.com^
 ||unifyintent.com^
 ||usemessages.com^
 ||virgul.com^
