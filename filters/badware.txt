@@ -8,6 +8,8 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||adobedtm.com^
+||adtng.com^
+||ejaculationnation.com^
 ||furyprosecutionkitchen.com^
 ||greatdexchange.com^
 ||superonclick.com^

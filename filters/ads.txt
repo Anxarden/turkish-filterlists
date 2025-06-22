@@ -100,8 +100,9 @@ vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
 ! Pop-ups of All Kinds
-onehack.us##[id="custom-modal"]
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
+hacksnation.com##div#adblock-overlay
+onehack.us##[id="custom-modal"]
 voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
 ! CSS Fixes and Visual Touches
 filelu.com##div[id^="chat-"]
