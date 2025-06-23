@@ -9,6 +9,8 @@
 ! Trackers and Other 3rd-Party Domains
 ||adobedtm.com^
 ||adtng.com^
+||sprig.com^
+||sentry-cdn.com^
 ||ejaculationnation.com^
 ||furyprosecutionkitchen.com^
 ||greatdexchange.com^
@@ -30,10 +32,14 @@
 ||brwsrfrm.com^
 ||btloader.com^
 ||chartbeat.com^
+||onetrust.com^
+||prodregistryv2.org^
 ||cloudflareinsights.com^
 ||cookie-script.com^
 ||cookielaw.org^
 ||criteo.net^
+||featureassets.org^
+||browser-intake-datadoghq.com^
 ||datadoghq-browser-agent.com^
 ||dengage.com^
 ||dogt.xyz^
@@ -295,6 +301,7 @@
 ||vcegpu.libas.com.tr^
 ||snap.licdn.com^
 ||ads.linkedin.com^
+||ingress.linktr.ee^
 ||track.livasoft.com.tr^
 ||cdn.livechatinc.com^
 ||ad.mail.ru^
@@ -425,6 +432,8 @@
 ||smetric.vw.com.tr^
 ||countly.wellbees.com.tr^
 ||intake-analytics.wikimedia.org^
+||distillery.wistia.com^
+||pipedream.wistia.com^
 ||csp.withgoogle.com^
 ||pixel.wp.com^
 ||stats.wp.com^
