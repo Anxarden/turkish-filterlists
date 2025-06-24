@@ -7,6 +7,14 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||acquiredeceasedundress.com^
+||pixiv.org^
+||etahub.com^
+||adtng.com^
+||cupbearergrowllurch.com^
+||magsrv.com^
+||marshalcurve.com^
+||tapioni.com^
 ||trafficbass.com^
 ||grow.me^
 ||usrpubtrk.com^
@@ -19,7 +27,6 @@
 ||acscdn.com^
 ||adition.com^
 ||adobedtm.com^
-||adtng.com^
 ||amazon-adsystem.com^
 ||artfiles.online^
 ||ashoupsu.com^
@@ -157,10 +164,10 @@
 ||fls-na.amazon.com^
 ||unagi.amazon.com.tr^
 ||unagi.amazon.com^
+||analytics.apps.com.tr^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
 ||qwtcdp.antalyahomes.com.tr^
-||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
 ||reklam.arabul.com^
 ||swwcyk.aspor.com.tr^
