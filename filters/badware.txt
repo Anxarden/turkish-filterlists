@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||amplitude.com^
 ||adplay.ru^
 ||jivosite.com^
 ||usercentrics.eu^
@@ -173,10 +174,11 @@
 ||fls-na.amazon.com^
 ||unagi.amazon.com.tr^
 ||unagi.amazon.com^
-||analytics.apps.com.tr^
+||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
 ||qwtcdp.antalyahomes.com.tr^
+||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
 ||reklam.arabul.com^
 ||swwcyk.aspor.com.tr^
@@ -228,6 +230,7 @@
 ||reklamstore.cubecdn.net^
 ||dmxleo.dailymotion.com^
 ||wbswtr.decathlon.com.tr^
+||s.deepl.com^
 ||ctllup.deery.com.tr^
 ||woowjy.desa.com.tr^
 ||bvz5.destinia.com.tr^
