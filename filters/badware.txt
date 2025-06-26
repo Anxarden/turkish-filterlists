@@ -7,6 +7,10 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||posthog.com^
+||mokihirhoda.com^
+||getclicky.com^
+||crazyegg.com^
 ||amplitude.com^
 ||adplay.ru^
 ||jivosite.com^
@@ -228,6 +232,7 @@
 ||static.criteo.net^
 ||vedznh.cumhuriyet.com.tr^
 ||reklamstore.cubecdn.net^
+||campaigns.cyberinsider.com^
 ||dmxleo.dailymotion.com^
 ||wbswtr.decathlon.com.tr^
 ||s.deepl.com^
@@ -256,6 +261,7 @@
 ||analitik.enerji.gov.tr^
 ||api-stg.ensonhaber.com^
 ||tracking.ensonhaber.com^
+||ph.ente.io^
 ||securetags.esri.com.tr^
 ||securetags.esriturkey.com.tr^
 ||tracking.faulhaber.com^
@@ -273,12 +279,39 @@
 ||nqtinp.germirli.com.tr^
 ||collector.github.com^
 ||s.gofile.io^
+||admob.google.com^
+||ads.google.com^
+||adsense.google.com^
 ||adservice.google.com.tr^
-||id.google.com.tr^
+||adservice.google.com^
+||adsmarketingfrontend-pa.clients6.google.com^
+||adwords.corp.google.com^
+||adwords.google.com^
+||ampcid.google.com^
+||analytics-alv.google.com^
+||analytics.google.com^
+||analyticssuitefrontend-pa.clients6.google.com^
+||appsgrowthpromo-pa.clients6.google.com^
+||cert-test.sandbox.google.com^
 ||contributor.google.com^
+||crash.corp.google.com^
+||fcmatch.google.com^
+||fundingchoicesmessages.google.com^
+||gg.google.com^
+||id.google.com.tr^
+||id.google.com^
+||id.l.google.com^
+||jmt17.google.com^
+||mail-ads.google.com^
+||ogads-pa.clients6.google.com^
+||optimize.google.com^
+||plus.url.google.com^
+||plusone.google.com^
+||searchads.google.com^
+||toolbar.google.com^
+||video-stats.video.google.com^
 ||firebase.googleapis.com^
 ||imasdk.googleapis.com^
-||fundingchoicesmessages.google.com^
 ||faves.grow.me^
 ||sentry.gsb.gov.tr^
 ||makroo.haber7.net^
@@ -362,6 +395,7 @@
 ||tm.ogu.edu.tr^
 ||analytics.onedio.com^
 ||adx.opera.com^
+||api.optincdn.com^
 ||cmp.osano.com^
 ||zcnknu.oxxo.com.tr^
 ||stats.pardus.org.tr^
