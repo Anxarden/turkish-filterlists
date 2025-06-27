@@ -7,8 +7,6 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
-||turknova.net^
-||samforum.org^
 ||wurfl.io^
 ||pushengage.com^
 ||bugsnag.com^
@@ -133,6 +131,9 @@
 ||yehdka.pro^
 ||zintrack.com^
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
+! Expired Old Domains
+||turknova.net^
+||samforum.org^
 ! Potantialy Dangerious Redirecting Links
 ||mnopa.click^
 ! Adware and not Privacy-Friendly Softwares/Services
