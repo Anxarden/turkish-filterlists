@@ -7,6 +7,10 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||turknova.net^
+||samforum.org^
+||wurfl.io^
+||pushengage.com^
 ||bugsnag.com^
 ||posthog.com^
 ||mokihirhoda.com^
@@ -312,6 +316,7 @@
 ||toolbar.google.com^
 ||video-stats.video.google.com^
 ||firebase.googleapis.com^
+||firebaseinstallations.googleapis.com^
 ||imasdk.googleapis.com^
 ||faves.grow.me^
 ||sentry.gsb.gov.tr^
