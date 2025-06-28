@@ -513,6 +513,7 @@
 ||csp.withgoogle.com^
 ||pixel.wp.com^
 ||stats.wp.com^
+||blackbox.xhamster.com^
 ||kuusay.yalispor.com.tr^
 ||analytics.yandex.com.tr^
 ||clck.yandex.com.tr^
