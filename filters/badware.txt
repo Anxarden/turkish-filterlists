@@ -7,6 +7,9 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||geolocation-db.com^
+||mparticle.com^
+||ahrefs.com^
 ||wurfl.io^
 ||infolinks.com^
 ||pushengage.com^
