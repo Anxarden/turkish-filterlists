@@ -292,7 +292,6 @@
 ||plausible.io^
 ||pop-convert.com^
 ||portable4pc.com^
-||posthog.com^
 ||ppcnt.pro^
 ||primis.tech^
 ||profitableratecpm.com^
