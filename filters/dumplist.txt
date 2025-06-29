@@ -1,13 +1,9 @@
 # Title: 🗑️ [Türkçe] Dumplist
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
-
 #- Dumplist - Trackers, ADs and Security
 ||ad-delivery.net^
 ||ad-plus.com.tr^
 ||360yield-basic.com^
 ||360yield.com^
-||acscdn.com^
 ||adanavisa.tr^
 ||adapex.io^
 ||adbetnetwork.com^
@@ -29,13 +25,11 @@
 ||ads.web.tr^
 ||adsby.io^
 ||adserver.com.tr^
-||adskeeper.com^
 ||adsninja.ca^
 ||adsrvr.org^
 ||adtarget.com.tr^
 ||adtarget.org^
 ||adtelligent.com^
-||adtng.com^
 ||advert.com.tr^
 ||afyonturkreklam.com^
 ||ahrefs.com^
@@ -57,7 +51,6 @@
 ||apptospace.com^
 ||apptracer.ru^
 ||appvalley-apk.com^
-||ashoupsu.com^
 ||assemblyexchange.com^
 ||avis-odeme.com.tr^
 ||axisbank.co^
@@ -78,7 +71,6 @@
 ||bodis.com^
 ||brainlyads.com^
 ||brainsland.com^
-||browser-intake-datadoghq.com^
 ||bsgroup-data-analytics.com.tr^
 ||buysellads.com^
 ||buysellads.net^
@@ -100,18 +92,15 @@
 ||chargecracker.com^
 ||chatbro.com^
 ||cinerreklam.com.tr^
-||clarity.ms^
 ||cnet.com^
 ||commissionlounge.com^
 ||conductrics.com^
-||cookielaw.org^
 ||coolserving.com^
 ||cootlogix.com^
 ||crackingcity.com^
 ||crackingpatching.com^
 ||crackingpatching.org^
 ||crackshash.org^
-||crazyegg.com^
 ||creativecdn.com^
 ||criteo.com^
 ||customer.io^
@@ -119,16 +108,13 @@
 ||debridleech.com^
 ||decnetshantih.com^
 ||dekisoft.com^
-||demand.supply^
 ||demdex.net^
-||dengage.com^
 ||dianomi.com^
 ||dj2550.com^
 ||dm-event.net^
 ||dmca.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
-||dogt.xyz^
 ||doppiocdn.com^
 ||dotofverse.com^
 ||download.com^
@@ -144,7 +130,6 @@
 ||elmasistatistik.com.tr^
 ||enuygunburda.com.tr^
 ||eskimi.com^
-||espleestrick.com^
 ||exodusjailhousetarantula.com^
 ||extole.io^
 ||ezcrack.info^
@@ -170,8 +155,6 @@
 ||getdeviceinf.com^
 ||getjan.io^
 ||getnitropack.com^$third-party
-||girisimbirligi.com^
-||go-mpulse.net^
 ||go-to-zlibrary.com^
 ||greatplacetowork.tr^
 ||groleegni.net^
@@ -203,13 +186,6 @@
 ||heryerbitki.org.tr^
 ||histats.com^
 ||hostixz.com^$third-party
-||hotjar.com^
-||hs-analytics.net^
-||hs-banner.com^
-||hs-scripts.com^
-||hsforms.net^
-||hsleadflows.net^
-||hubspotfeedback.com^
 ||hubvisor.io^
 ||i-loadzone.com^
 ||iconcardinal.com^
@@ -221,7 +197,6 @@
 ||inegolreklam.net^
 ||innocraft.cloud^
 ||instana.io^
-||instrumenttactics.com^
 ||insurads.com^
 ||ipqualityscore.com^
 ||iptv-tv.com.tr^
@@ -260,7 +235,6 @@
 ||livechatinc.com^$third-party,all
 ||log.com.tr^
 ||madurird.com^
-||magsrv.com^
 ||mainrepo.org^
 ||marketfamilia.info.tr^
 ||marketfamilia.net.tr^
@@ -283,24 +257,19 @@
 ||mxpnl.com^
 ||myaffiliates.com^
 ||mynetreklam.com^
-||myroledance.com^
 ||nasrallah.com.tr^
 ||nativespot.com^
 ||naupsithizeekee.com^
 ||netaddiction.it^$third-party
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
-||netpub.media^
 ||ninetailed.co^
 ||nitroscripts.com^
-||nkdyzf.com^
 ||nordvpnhosting.com^
 ||nortonlifelock.com^
 ||nulled.to^
 ||nyaa.eu^
 ||omnisnippet1.com^
-||onesignal.com^
-||onetrust.com^
 ||onlinemagaza.info.tr^
 ||onlinemagaza.org.tr^
 ||onlineplatform.com.tr^
@@ -326,10 +295,8 @@
 ||posthog.com^
 ||ppcnt.pro^
 ||primis.tech^
-||privateinternetaccess.com^
 ||profitableratecpm.com^
 ||protonge.com^
-||pub.network^
 ||pubguru.net^
 ||pubmatic.com^
 ||pubtrky.com^
@@ -374,11 +341,9 @@
 ||sayac.net.tr^
 ||sc-static.net^
 ||sedoparking.com^
-||seedtag.com^
 ||segment.com^
 ||seldos.com.tr^
 ||sentinelpro.com^
-||sentry-cdn.com^
 ||sepetlerimiz.com.tr^
 ||sepetteguvence.com.tr^
 ||servenobid.com^
@@ -426,7 +391,6 @@
 ||tpb.party^
 ||track.com.tr^
 ||tradedoubler.com^
-||trafficbass.com^
 ||trendyol.space^
 ||tru.am^
 ||tsyndicate.com^
@@ -444,7 +408,6 @@
 ||turkiyeyeni.org^
 ||tutubox.io^
 ||tw.cx^
-||typekit.net^
 ||ucretsiz-ekitaplar-indir.info^
 ||ucuzaalsoktaburdan.net.tr^
 ||ucuzaalsoktaburdan.org.tr^
@@ -453,10 +416,7 @@
 ||umami.is^
 ||unrulymedia.com^
 ||useinsider.com^
-||usemessages.com^
-||usercentrics.eu^
 ||userreport.com^
-||usersnap.com^
 ||usheebainaut.com^
 ||vidoomy.com^
 ||visualwebsiteoptimizer.com^
@@ -479,12 +439,10 @@
 ||wmcdct.com^
 ||wpadmngr.com^
 ||xlivrdr.com^
-||yadro.ru^
 ||yasdl.com^
 ||yellowblue.io^
 ||yieldlove.com^
 ||yieldmo.com^
-
 #- Dump List - Gambling & Related Domains
 ||ligobet873.com^
 ||077.game^
@@ -633,7 +591,6 @@
 ||aouna688bet.com^
 ||ap-9912.com^
 ||apexplay.com^
-||api7rng.com^
 ||apolloslots.com^
 ||apostapix365.com^
 ||apostart.com^
@@ -789,7 +746,6 @@
 ||betgezgini.com^
 ||betgiris.org^
 ||betgirisyap.com^
-||betgit.vip^
 ||betgit636.com^
 ||betgit672.com^
 ||betgitguncelgirisadresi.com^
@@ -844,7 +800,6 @@
 ||betnova.io^
 ||betnow.eu^
 ||beto.com^
-||betobet.com^
 ||betonline.ag^
 ||betonred.com^
 ||betoslotlar.com^
@@ -1734,7 +1689,6 @@
 ||masterortak2.vip^
 ||masterplay.io^
 ||matadorxbet.com^
-||matbet.com^
 ||matbetapp.com^
 ||matematikcifatih.com^
 ||maticintegration2.com^
@@ -1791,7 +1745,6 @@
 ||mmabet.com^
 ||mmvip.com^
 ||mnlbet88.ph^
-||mnopa.click^
 ||modabet9999.com^
 ||modaroyal.com^
 ||moldbet.com^
@@ -1883,7 +1836,6 @@
 ||oddsbet.io^
 ||oddsdigger.com^
 ||oddsgate.com^
-||odeonbet.com^
 ||odybets.com^
 ||ofansifbet420.com^
 ||ofansifbetz.com^
@@ -1923,7 +1875,6 @@
 ||overunder.xyz^
 ||owcontent.com^
 ||oynabet.org^
-||oynabetgiris.com^
 ||oyun35.com^
 ||ozanbet.com^
 ||ozbet.net^
@@ -1979,7 +1930,6 @@
 ||pingolbet.com^
 ||pinkor88.com^
 ||pinnaclesports.com^
-||pinupcazino.com^
 ||piperspin.com^
 ||pistolo.com^
 ||pittagames.com^
@@ -2283,7 +2233,6 @@
 ||springbuilder.site^
 ||spybet.com^
 ||sqlgoals.com^
-||squarespace-cdn.com^
 ||st-luks-01.online^
 ||st8.io^
 ||stake.games^
