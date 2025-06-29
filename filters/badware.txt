@@ -8,9 +8,10 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||wurfl.io^
+||infolinks.com^
 ||pushengage.com^
 ||bugsnag.com^
-||posthog.com^
+||posthog.com^third-party
 ||mokihirhoda.com^
 ||getclicky.com^
 ||crazyegg.com^
@@ -414,6 +415,7 @@
 ||stats.pixeldrain.com^
 ||fp-it-acc.portal101.cn^
 ||b-cdn.posta.com.tr^
+||i.posthog.com^
 ||pg.prima.com.tr^
 ||smetrics.pwc.com.tr^
 ||target.pwc.com.tr^
