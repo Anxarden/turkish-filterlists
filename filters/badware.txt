@@ -7,6 +7,11 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||optimizely.com^
+||ads-twitter.com^
+||trackjs.com^
+||pendo.io^
+||profitwell.com^
 ||dmca.com^$third-party
 ||geolocation-db.com^
 ||mparticle.com^
@@ -411,6 +416,8 @@
 ||cmp.osano.com^
 ||zcnknu.oxxo.com.tr^
 ||stats.pardus.org.tr^
+||cdn.pdst.fm^
+||cdn.pendo.io^
 ||owvqbd.perfumepoint.com.tr^
 ||analitik.pendik.bel.tr^
 ||rqhtgf.pierrecardin.com.tr^
