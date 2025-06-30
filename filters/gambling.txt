@@ -20,6 +20,7 @@
 ||bets10*.$all
 ||dedebet*.$all
 ||getirbet*.$all
+||grandpasha*.$all
 ||holiganbet*.$all
 ||jojobet*.$all
 ||kralbet*.$all
@@ -37,7 +38,7 @@
 *bets10.$all,to=/bets10/
 *tipobet.$all,to=/tipobet/
 *winxbet.$all,to=/winxbet/
-#- Gambling Domains /w Wildcard - TLDs Specific 
+#- Gambling Domains /w Wildcard - TLDs Specific
 ||acrobet*.com^
 ||aresbet*.com^
 ||bankobet*.com^
@@ -80,12 +81,18 @@
 *mariobet.com^
 *truvabet.com^
 *xslot.com^
+#- Newly Found Networks & Regex Candidates
+||betpipo514.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
+||sinaff.com^
+||eticaretbayimiz.com^
+||fasttrack-solutions.com^
+||reown.com^
+||walletconnect.org^
+||walletconnect.com^
 ||trendsbreakingnews.xyz^
 ||bettilti.com^
-||grandpashabett.org^
 ||pinupcazino.com^
-||api7rng.com^
 ||zlot.com^
 ||demospin.net^
 ||pusulabet.com^
@@ -287,8 +294,6 @@
 ||gotoduman.xyz^
 ||gotur.xyz^
 ||grandpasagiris.com^
-||grandpashabet.net^
-||grandpashabetgiri.com^
 ||guncel-girisi.com^
 ||gunceladresi.org^
 ||guncelbetwoongiris.com^
@@ -555,6 +560,7 @@
 ||ft8ql3z.com^
 ||9lkf4hn.com^
 ||3vpcq6t.com^
+||romaff2.com^
 ||hj4by9q.com^
 ||od6funh.top^
 ||qv3nb6x.com^
@@ -566,6 +572,8 @@
 ||fsttredr.co^
 ||automyl.ink^
 ||bprkaff.com^
+||prsuv.click^
+||api7rng.com^
 ||btgo.online^
 ||pernet3.com^
 ||ririoek.com^
@@ -573,6 +581,7 @@
 ||romaff1.com^
 ||satisbw.com^
 ||affsbet.com^
+||qruvw.click^
 ||echafcmb.com^
 ||vtr5py8m.com^
 ||kbgepymb.com^
@@ -600,9 +609,6 @@
 ||mxbrcdn510.com^
 ||affshowbet.com^
 ||atbpartner.com^
-||ocbpartners.com^
-||awsbtcdn100.com^
-||fstdvcdn900.com^
 ||mzyfmuskwr.net^
 ||cx3gl4chlh.com^
 ||2zta6ev6iq.com^
@@ -614,6 +620,7 @@
 ||e4026ext8b.com^
 ||hrqhregkxq.net^
 ||eirwlppi31.com^
+||324q9a8z34.com^
 ||lfscrjsn78.com^
 ||g58q43jgsd.com^
 ||jxcsysekgu.net^
@@ -621,17 +628,22 @@
 ||rlurk6los2.com^
 ||so7fx183fc.com^
 ||tm53cd3by2.com^
+||ocbpartners.com^
+||awsbtcdn100.com^
+||fstdvcdn900.com^
 ||melredhwiku.top^
 ||cldfrbcdn302.com^
 ||akamsbcdn1400.com^
 ||gbaffpartners.com^
 ||limraffiliate.com^
+||affiliatepipo4.com^
 ||plantlilium003.com^
 ||jptrbhspartners.com^
 ||vmemkhhgjigrjefb.com^
 ||fjykjczttspydxcx.com^
 ||hogoxiyfctcdpjbu.com^
 ||an-sentry-vfdsks.com^
+||kutbdjfhftgdsksl.com^
 ||bn27redirectfast.com^
 ||xf38lo22j1y0ihymst.com^
 ||n98w43fxejyrvpc9s82ynsgsijl975pz.xyz^
