@@ -8,8 +8,13 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||optimizely.com^
+||mutinycdn.com^
+||jyzkut.com^
 ||magsrv.com^
+||chartbeat.com^
+||vntsm.com^
 ||ads-twitter.com^
+||futurecdn.net^
 ||trackjs.com^
 ||pendo.io^
 ||profitwell.com^
@@ -288,6 +293,8 @@
 ||analytics.files.fm^
 ||gtm.flo.com.tr^
 ||events.framer.com^
+||bordeaux.futurecdn.net^
+||freyr.futurecdn.net^
 ||sw88.fxturkiye.com.tr^
 ||tracking.g2crowd.com^
 ||webstat.garanti.com.tr^
