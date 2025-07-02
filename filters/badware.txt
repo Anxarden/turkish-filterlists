@@ -8,6 +8,7 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||optimizely.com^
+||tns-counter.ru^
 ||mutinycdn.com^
 ||jyzkut.com^
 ||magsrv.com^
@@ -519,6 +520,8 @@
 ||countly.vakifbank.com.tr^
 ||gmxcdm.vestel.com.tr^
 ||smetrics.vitasure.com.tr^
+||ads.vk.com^
+||ms.vk.com^
 ||ssc.voaturkce.com^
 ||tags.voaturkce.com^
 ||sentry.vodafone.com.tr^
