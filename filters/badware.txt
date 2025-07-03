@@ -561,6 +561,7 @@
 ||jpicture.xyz^$third-party,~xhr
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s16000/$third-party,image
+||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s468/$third-party,image
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s728/$third-party,image
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||eksenload.site/detect.js^$script

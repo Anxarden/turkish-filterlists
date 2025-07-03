@@ -61,10 +61,24 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##[id^=sidebar]>#banner
+faketempmail.com##a.banner-custom
+reddit.com##advertise-button
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
-
+#----------------------------------------------------------------------------------------------------#
+#- Generic AD Filters
+#----------------------------------------------------------------------------------------------------#
+! rockmods.net, proinvitelinks.com
+##div[id$="-ad-placeholder"i]
+! dizipal\d{4}.com, netflixcenter.com, voditza.com 
+##a[class="ads_single_font"i]
+##div[class$="-ad-container"i]
+##div[class*="-ads-adjustment"i]
+##div[class="ads-container"i]
+##div[class="player-side-ad"i]
+! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
+##body>div.body-clickable
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
@@ -84,7 +98,6 @@ filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
 letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
 github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
 github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
-lrepacks.net##article:has(.entry-media>a[href*="/informaciya/"]>img)
 mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
 mediafire.com##^.app-container>div>[style^=display]:has(iframe[src$="/premium_trial.php"])
 mediafire.com##iframe[src$="/sidebar_promo.php"]
@@ -108,45 +121,12 @@ voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-i
 filelu.com##div[id^="chat-"]
 filelu.com##footer
 flickmetrix.com##[id^="moviecontainer"i]>.ng-scope>div.ng-scope[ng-if]
-lrepacks.net##.relative>h2.section-title
-lrepacks.net##[id="sidebar"]>[id^="categories-"]
-lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
-lrepacks.net##div.columns:has(>ul)
 xiguasuwu.com##body>[style]:empty
 9gag.com##[class*="post"i][class*="tag"i]
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 
 #----------------------------------------------------------------------------------------------------#
-#- Generic AD Filters
-#----------------------------------------------------------------------------------------------------#
-! rockmods.net, proinvitelinks.com
-##div[id$="-ad-placeholder"i]
-! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##a[class="ads_single_font"i]
-##div[class$="-ad-container"i]
-##div[class*="-ads-adjustment"i]
-##div[class="ads-container"i]
-##div[class="player-side-ad"i]
-! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
-##body>div.body-clickable
-
-#----------------------------------------------------------------------------------------------------#
-#- Scriptlets
-#----------------------------------------------------------------------------------------------------#
-! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
-! +js(aeld, eventType, [searchString])
-faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-! [aliases: prevent-fetch, no-fetch-if]
-! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
-! [aliases: aopr, abort-on-property-read]
-! +js(abort-on-property-read, object.property)
-birgun.net##+js(abort-on-property-read, detectAdBlock)
-dizipal951.com##+js(abort-on-property-read, manageAds)
-! [aliases: set, set-constant]
-! +js(set, object.property, value, [checkWiki])
-redecanais.gs##+js(set-constant, blockPage, noopFunc)
-
+#- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#
 
 #- Hide Websites from Search Engines
@@ -166,6 +146,12 @@ gledaitv.fan##div#loading-spinner
 thehouseofportable.com##[id="preload"]
 
 #- Wipe ADs and Visual Debloat
+! ad/information post, css fixes
+lrepacks.net##[id="sidebar"]>[id^="categories-"]
+lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
+lrepacks.net##article:has(div.entry-media>a[href*="/informaciya/"]>img)
+lrepacks.net##div.columns:has(>ul)
+lrepacks.net##div.relative>h2.section-title
 ! ad-images and information/announcements related posts 
 repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
 repack.me##.my>.my>:is(div.short-title,br)
@@ -200,6 +186,23 @@ tuttop.com##noindex>p:has(>a[href^="/donat.html"])
 tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
 vsetop.org##div#content>ul.naviga
 vsetop.org##div#footer
+
+#----------------------------------------------------------------------------------------------------#
+#- Scriptlets
+#----------------------------------------------------------------------------------------------------#
+! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
+! +js(aeld, eventType, [searchString])
+faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
+! [aliases: prevent-fetch, no-fetch-if]
+! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
+zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+! [aliases: aopr, abort-on-property-read]
+! +js(abort-on-property-read, object.property)
+birgun.net##+js(abort-on-property-read, detectAdBlock)
+dizipal951.com##+js(abort-on-property-read, manageAds)
+! [aliases: set, set-constant]
+! +js(set, object.property, value, [checkWiki])
+redecanais.gs##+js(set-constant, blockPage, noopFunc)
 
 
 
