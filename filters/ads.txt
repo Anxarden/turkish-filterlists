@@ -66,6 +66,7 @@ reddit.com##advertise-button
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
+
 #----------------------------------------------------------------------------------------------------#
 #- Generic AD Filters
 #----------------------------------------------------------------------------------------------------#
@@ -79,6 +80,7 @@ frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
 ##div[class="player-side-ad"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
+
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
@@ -129,7 +131,6 @@ vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i)
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#
-
 #- Hide Websites from Search Engines
 ! fandom wikis that are inactive, outdated or deprecated and have alternatives
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)

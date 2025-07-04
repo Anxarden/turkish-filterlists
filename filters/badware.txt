@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||xlivrdr.com^
 ||optimizely.com^
 ||tns-counter.ru^
 ||mutinycdn.com^
@@ -51,7 +52,6 @@
 ||browser-intake-datadoghq.com^
 ||brwsrfrm.com^
 ||btloader.com^
-||chartbeat.com^
 ||clarity.ms^
 ||cloudflareinsights.com^
 ||cookie-script.com^
@@ -95,7 +95,6 @@
 ||intergient.com^
 ||ipvertnet.com^
 ||licdn.com^
-||magsrv.com^
 ||marshalcurve.com^
 ||mnaspm.com^
 ||msoft.sbs^
@@ -564,6 +563,7 @@
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s468/$third-party,image
 ||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s728/$third-party,image
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
+||cdn.jsdelivr.net/npm/@snowplow/$script
 ||eksenload.site/detect.js^$script
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
