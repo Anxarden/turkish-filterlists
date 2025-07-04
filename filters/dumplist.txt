@@ -20,7 +20,6 @@
 ||adnxs-simple.com^
 ||adnxs.com^
 ||adrecover.com^
-||ads-twitter.com^
 ||ads.org.tr^
 ||ads.web.tr^
 ||adsby.io^
@@ -32,7 +31,6 @@
 ||adtelligent.com^
 ||advert.com.tr^
 ||afyonturkreklam.com^
-||ahrefs.com^
 ||ainouzaudre.net^
 ||akbankmobil.com.de^
 ||aktuelsiparis.biz.tr^
@@ -112,7 +110,6 @@
 ||dianomi.com^
 ||dj2550.com^
 ||dm-event.net^
-||dmca.com^$third-party
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
 ||doppiocdn.com^
@@ -275,7 +272,6 @@
 ||onlineplatform.com.tr^
 ||ontek.com.tr^
 ||openx.net^
-||optimizely.com^
 ||optimonk.com^
 ||optimove.net^
 ||osano.com^$third-party
@@ -384,7 +380,6 @@
 ||thehiddenbay.com^
 ||tiqcdn.com^
 ||tlauncher.org^
-||tns-counter.ru^
 ||toplist.cz^
 ||totalav.com^
 ||tpb.party^
@@ -420,10 +415,8 @@
 ||vidoomy.com^
 ||visualwebsiteoptimizer.com^
 ||vlitag.com^
-||vntsm.com^
 ||vstorrent.org^
 ||vuzismoothie.net^
-||walletconnect.com^
 ||waust.at^
 ||wdfl.co^
 ||webservis.gen.tr^
@@ -1249,7 +1242,6 @@
 ||esportivavip.com^
 ||estrelabet.com^
 ||etherempire.com^
-||eticaretbayimiz.com^
 ||evabet.com^
 ||everestpix.com^
 ||evo.win^
@@ -1984,7 +1976,6 @@
 ||prodirector.top^
 ||profit777.com^
 ||prontobet.com^
-||prsuv.click^
 ||psnwcontent.com^
 ||psychobets.com^
 ||pulibet721.com^
@@ -1998,7 +1989,6 @@
 ||q9.game^
 ||qbet.com^
 ||qqbet.net^
-||qruvw.click^
 ||questpari.com^
 ||quickslot.com^
 ||quickwin.com^
@@ -2068,7 +2058,6 @@
 ||royalbetin85.com^
 ||royalgame.com^
 ||royalmega.com^
-||rstuv.click^
 ||rtbet.com^
 ||rubyslots.com^
 ||ruletoyunlaribedava.com^
@@ -2107,7 +2096,6 @@
 ||silvergames.com^
 ||silverplay.co^
 ||silversandspoker.com^
-||sinaff.com^
 ||sirwin.com^
 ||siteyegit.co^
 ||sitonix.net^
