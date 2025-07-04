@@ -568,7 +568,8 @@
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||hsforms.com/*/counters.gif$image
-||naupsithizeekee.com/tag.min.js$redirect-rule=noopjs,domain=redecanais.ps
+||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
+||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,domain=redecanais.ps
 ||paypalobjects.com/*/pixel.gif^$image
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters

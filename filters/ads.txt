@@ -88,6 +88,7 @@ rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
 dogrulukpayi.com##div.follow-banner,div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
+ovagames.com##div.sidebar-box:has-text(/^facebook/i)
 ! Trial/Subscription/PRO/VIP etc. Buttons/Banners/Sections/Blocks/Texts
 chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 deepl.com##header>div>span:has([href="/en/pro"])
