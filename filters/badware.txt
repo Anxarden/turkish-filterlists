@@ -7,8 +7,18 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||admatic.com.tr^
+||adsmediabox.com^
+||assemblyexchange.com^
+||braze.com^
+||sascdn.com^
+||fuseplatform.net^
+||zolaizeblowier.com^
+||toplist.cz^
 ||beyondwickedmapping.org^
+||perfops.net^$third-party
 ||stripe.com^$third-party
+||hugedomains.com^
 ||xlivrdr.com^
 ||polyfill.io^
 ||htlbid.com^
