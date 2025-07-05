@@ -7,9 +7,12 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||beyondwickedmapping.org^
 ||stripe.com^$third-party
 ||xlivrdr.com^
 ||polyfill.io^
+||htlbid.com^
+||moengage.com^
 ||optimizely.com^
 ||tns-counter.ru^
 ||mutinycdn.com^
