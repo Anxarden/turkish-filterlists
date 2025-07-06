@@ -7,7 +7,17 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||bodis.com^
+||iubenda.com^
+||adrecover.com^
+||instabotpro.net^
+||doubleclick.net^
 ||admatic.com.tr^
+||nativespot.com^
+||gelirartisi.com^
+||useinsider.com^
+||sedoparking.com^
+||torrent-indir.net^
 ||adsmediabox.com^
 ||assemblyexchange.com^
 ||braze.com^
@@ -78,7 +88,6 @@
 ||dengage.com^
 ||discovernative.com^
 ||dogt.xyz^
-||doubleclick.net^
 ||ejaculationnation.com^
 ||entwithoughtsu.com^
 ||espleestrick.com^
@@ -162,9 +171,16 @@
 ||yehdka.pro^
 ||zintrack.com^
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
-! Expired Old Domains
+! Expired or Closed Domains/Websites
+||planetdp.org^
 ||turknova.net^
 ||samforum.org^
+||torrent-indir.net^
+||torrenthane.net^
+||turknova.org^
+||torrentgalaxy.to^
+||extratorrents.it^
+||bitsexy.org^
 ! Potantialy Dangerious Redirecting Links
 ||mnopa.click^
 ! Adware and not Privacy-Friendly Softwares/Services
