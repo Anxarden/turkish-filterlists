@@ -9,6 +9,10 @@
 ! Trackers and Other 3rd-Party Domains
 ||buysellads.net^
 ||widgetlogic.org^
+||askdriver.com^
+||consensu.org^
+||siftscience.com^
+||trustarc.com^
 ||sharethis.com^
 ||bodis.com^
 ||wpadmngr.com^
@@ -551,6 +555,7 @@
 ||reklam.turkmmo.com^
 ||yr.unasonoric.com^
 ||aminks.underarmour.com.tr^
+||collector.unsplash.com^
 ||widget.uservoice.com^
 ||countly.vakifbank.com.tr^
 ||gmxcdm.vestel.com.tr^
