@@ -50,13 +50,13 @@
 ||cdnstr.com^
 ||chartbeat.com^
 ||clarity.ms^
-||cloudflareinsights.com^
+||cloudflareinsights.com^$all
 ||consensu.org^
 ||cookie-script.com^
 ||cookielaw.org^
 ||crazyegg.com^
 ||creativecdn.com^
-||criteo.net^
+||criteo.net^$all
 ||cupbearergrowllurch.com^
 ||datadoghq-browser-agent.com^
 ||demand.supply^
@@ -75,7 +75,7 @@
 ||featureassets.org^
 ||furyprosecutionkitchen.com^
 ||fuseplatform.net^
-||futurecdn.net^
+||futurecdn.net^$all
 ||gelirartisi.com^
 ||gemius.pl^
 ||geolocation-db.com^
@@ -86,7 +86,7 @@
 ||googletagmanager.com^
 ||googletagservices.com^
 ||greatdexchange.com^
-||grow.me^
+||grow.me^$all
 ||hif.to^
 ||histats.com^$important
 ||hotjar.com^
@@ -103,7 +103,7 @@
 ||idealmedia.io^
 ||indexww.com^
 ||infolinks.com^
-||inmobi.com^
+||inmobi.com^$all
 ||instabotpro.net^
 ||instrumenttactics.com^
 ||insurads.com^
@@ -114,7 +114,7 @@
 ||izooto.com^
 ||jivosite.com^
 ||jyzkut.com^
-||licdn.com^
+||licdn.com^$all
 ||magsrv.com^
 ||marshalcurve.com^
 ||medyanetads.com^
@@ -136,14 +136,14 @@
 ||onetrust.com^
 ||onezapp.com^
 ||optimizely.com^
-||pendo.io^
+||pendo.io^$all
 ||perfops.net^$third-party
 ||permutive.app^
 ||pigeoon.com^
 ||pixad.com.tr^
 ||pixiv.org^
 ||polyfill.io^
-||posthog.com^third-party
+||posthog.com^$third-party,all
 ||powerad.ai^
 ||privacy-center.org^
 ||privacy-mgmt.com^
@@ -153,7 +153,7 @@
 ||push-sdk.com^
 ||pushengage.com^
 ||ratitesbogging.com^
-||receptupperch.com^
+||receptupperch.com^$all
 ||refinery89.com^
 ||relateddigital.com^
 ||rfihub.net^
@@ -163,9 +163,9 @@
 ||sedoparking.com^
 ||seedtag.com^
 ||sentry-cdn.com^
-||sentry.io^
+||sentry.io^$all
 ||setupcmp.com^
-||sharethis.com^
+||sharethis.com^$all
 ||siftscience.com^
 ||simpleanalyticscdn.com^
 ||smartadserver.com^
@@ -177,19 +177,18 @@
 ||subservis.com^
 ||superonclick.com^
 ||taboola.com^
-||tammarsayyid.com^
+||tammarsayyid.com^$all
 ||tapioni.com^
 ||tidyfeyest.com^
 ||tns-counter.ru^
 ||toplist.cz^
-||torrent-indir.net^
 ||trackjs.com^
 ||trafficbass.com^
 ||trustarc.com^
 ||typekit.net^
 ||ukankingwithea.com^
 ||ultingecauyukse.com^
-||unasonoric.com^
+||unasonoric.com^$all
 ||unifyintent.com^
 ||useinsider.com^
 ||usemessages.com^
@@ -218,6 +217,7 @@
 ||torrenthane.net^
 ||turknova.net^
 ||turknova.org^
+||torrent-indir.net^
 ! Potantialy Dangerious Redirecting Links
 ||mnopa.click^
 ! Adware and not Privacy-Friendly Softwares/Services
