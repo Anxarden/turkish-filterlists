@@ -16,6 +16,8 @@ ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 anizm.net##a.center-block[target=_blank]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
+chess.com##div#main-banner
+chess.com##a.diamond-top
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
@@ -137,6 +139,8 @@ vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i)
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
+startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
+startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
 
 #- Website Fixes
 ! hide the ad frames and display the video player

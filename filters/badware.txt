@@ -7,6 +7,8 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||izooto.com^
+||adhouse.pro^
 ||buysellads.net^
 ||widgetlogic.org^
 ||askdriver.com^
