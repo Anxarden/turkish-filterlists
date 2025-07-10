@@ -83,6 +83,7 @@
 *xslot.com^
 #- Newly Found Networks & Regex Candidates
 ||betpipo514.com^
+||306betine.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
 ||sinaff.com^
 ||eticaretbayimiz.com^
