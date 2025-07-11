@@ -16,8 +16,8 @@ ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 anizm.net##a.center-block[target=_blank]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
-chess.com##div#main-banner
 chess.com##a.diamond-top
+chess.com##div#main-banner
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
@@ -25,6 +25,7 @@ documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
+faketempmail.com##a.banner-custom
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
@@ -42,13 +43,15 @@ myanimelist.net##.title>.detail>div.bookstore-information
 myanimelist.net##.title>.detail>div.manga-store-information
 mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
-ownedcore.com##.announcements
-ownedcore.com##.shoutout
-ownedcore.com##[id^="ad_thread"][id$="post_content"]
+ownedcore.com##div.body_wrap>div.shoutout
+ownedcore.com##div.body_wrap>div.so-wrapper
+ownedcore.com##ul#sidebar>li:has(div.block-plain)
+ownedcore.com##ul#sidebar>li:has-text(/sponsored/i)
 pcloud.com##.left-banner:has([class*=AdCloseButton])
 pcloud.com##.left-banner:has-text(/Discount/i)
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
+reddit.com##advertise-button
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
 tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
@@ -62,10 +65,8 @@ vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
-zaytung.com##[href^="https://radore.com/"]:upward(div>div)
-zaytung.com##[id^=sidebar]>#banner
-faketempmail.com##a.banner-custom
-reddit.com##advertise-button
+zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
+zaytung.com##div[id^=sidebar]>div#banner
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
