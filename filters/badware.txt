@@ -8,6 +8,7 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||threadloom.com^$all
+||mxapis.com^
 ||bvtpk.com^
 ||usefathom.com^
 ||pubguru.net^
