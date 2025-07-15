@@ -574,6 +574,8 @@
 ||answers.teradata.com.tr^
 ||cdn.threadloom.com^
 ||analytics.tiktok.com^
+||mon.tiktokv.com^
+||mcs-va.tiktokv.com^
 ||ad01.tmgrup.com.tr^
 ||banner.tmgrup.com.tr^
 ||sayac.tmgrup.com.tr^
