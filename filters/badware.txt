@@ -7,9 +7,13 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||statcounter.com^
+||adnxs.com^
 ||threadloom.com^$all
 ||mxapis.com^
 ||bvtpk.com^
+||crwdcntrl.net^
+||plausible.io^
 ||usefathom.com^
 ||pubguru.net^
 ||evasivejar.com^
