@@ -9,6 +9,8 @@
 ! Trackers and Other 3rd-Party Domains
 ||statcounter.com^
 ||adnxs.com^
+||abtasty.com^
+||appsflyer.com^
 ||threadloom.com^$all
 ||mxapis.com^
 ||bvtpk.com^
