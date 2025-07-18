@@ -8,6 +8,7 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||statcounter.com^
+||seon.io^
 ||adnxs.com^
 ||abtasty.com^
 ||appsflyer.com^
