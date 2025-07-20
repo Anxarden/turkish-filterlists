@@ -1,216 +1,80 @@
-# Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="en" data-locale="en" translate="no" >
+	<head
+ data-requesttoken="g4p9mOF/x+iAXmZaWW9WSuiilcuWgi0Zvyj0pOkjnco=:scQV4YASrN3sFyQxYQQCc9/22Jr8u1l8217FwaRM7YU=">
+		<meta charset="utf-8">
+		<title>
+			Nextcloud		</title>
+		<meta name="csp-nonce" nonce="scQV4YASrN3sFyQxYQQCc9/22Jr8u1l8217FwaRM7YU=">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+				<meta name="apple-itunes-app" content="app-id=1125420102">
+				<meta name="theme-color" content="#00679e">
+		<link rel="icon" href="/core/img/favicon.ico">
+		<link rel="apple-touch-icon" href="/core/img/favicon-touch.png">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#00679e">
+		<link rel="manifest" href="/core/img/manifest.json" crossorigin="use-credentials">
+		<link rel="stylesheet" href="/core/css/guest.css?v=0bcdf9c4-3">
+<link rel="stylesheet" href="/apps/theming/css/default.css?v=9ba0ea54-3">
+<link rel="stylesheet" href="/core/css/guest.css?v=0bcdf9c4-3">
+		<script nonce="scQV4YASrN3sFyQxYQQCc9/22Jr8u1l8217FwaRM7YU=" defer src="/dist/core-maintenance.js?v=0bcdf9c4-3"></script>
+<script nonce="scQV4YASrN3sFyQxYQQCc9/22Jr8u1l8217FwaRM7YU=">
+var _oc_debug=false;
+var _oc_isadmin=false;
+var backendAllowsPasswordConfirmation=true;
+var oc_dataURL=false;
+var _oc_webroot="";
+var _oc_appswebroots={"activity":"/apps/activity","app_api":"/apps/app_api","bruteforcesettings":"/apps/bruteforcesettings","calendar":"/apps/calendar","cloud_federation_api":"/apps/cloud_federation_api","comments":"/apps/comments","contacts":"/apps/contacts","contactsinteraction":"/apps/contactsinteraction","dashboard":"/apps/dashboard","dav":"/apps/dav","deck":"/apps/deck","drop_account":"/apps/drop_account","external":"/apps/external","federatedfilesharing":"/apps/federatedfilesharing","federation":"/apps/federation","files":"/apps/files","files_downloadlimit":"/apps/files_downloadlimit","files_pdfviewer":"/apps/files_pdfviewer","files_reminders":"/apps/files_reminders","files_sharing":"/apps/files_sharing","files_trashbin":"/apps/files_trashbin","files_versions":"/apps/files_versions","firstrunwizard":"/apps/firstrunwizard","jsloader":"/apps/jsloader","logreader":"/apps/logreader","lookup_server_connector":"/apps/lookup_server_connector","mail":"/apps/mail","nextcloud_announcements":"/apps/nextcloud_announcements","notes":"/apps/notes","notifications":"/apps/notifications","oauth2":"/apps/oauth2","passman":"/apps/passman","password_policy":"/apps/password_policy","photos":"/apps/photos","preferred_providers":"/apps/preferred_providers","privacy":"/apps/privacy","provisioning_api":"/apps/provisioning_api","quota_warning":"/apps/quota_warning","recommendations":"/apps/recommendations","related_resources":"/apps/related_resources","richdocuments":"/apps/richdocuments","serverinfo":"/apps/serverinfo","settings":"/apps/settings","sharebymail":"/apps/sharebymail","support":"/apps/support","survey_client":"/apps/survey_client","tasks":"/apps/tasks","text":"/apps/text","theming":"/apps/theming","twofactor_backupcodes":"/apps/twofactor_backupcodes","twofactor_totp":"/apps/twofactor_totp","updatenotification":"/apps/updatenotification","user_migration":"/apps/user_migration","user_status":"/apps/user_status","viewer":"/apps/viewer","weather_status":"/apps/weather_status","webhook_listeners":"/apps/webhook_listeners","workflowengine":"/apps/workflowengine"};
+var datepickerFormatDate="M\/d\/yy";
+var nc_lastLogin=0;
+var nc_pageLoad=1752976665;
+var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var dayNamesShort=["Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."];
+var dayNamesMin=["Su","Mo","Tu","We","Th","Fr","Sa"];
+var monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var monthNamesShort=["Jan.","Feb.","Mar.","Apr.","May.","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
+var firstDay=0;
+var _oc_config={"blacklist_files_regex":"\\.(part|filepart)$","forbidden_filename_characters":["\\","\/"],"auto_logout":false,"loglevel":0,"lost_password_link":null,"modRewriteWorking":true,"no_unsupported_browser_warning":false,"session_keepalive":true,"session_lifetime":1440,"sharing.maxAutocompleteResults":25,"sharing.minSearchStringLength":0,"version":"30.0.12.2","versionstring":"30.0.12","enable_non-accessible_features":true};
+var oc_appconfig={"core":{"defaultExpireDateEnabled":false,"defaultExpireDate":null,"defaultExpireDateEnforced":null,"enforcePasswordForPublicLink":false,"enableLinkPasswordByDefault":false,"sharingDisabledForUser":false,"resharingAllowed":true,"remoteShareAllowed":true,"federatedCloudShareDoc":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=user-sharing-federated","allowGroupSharing":true,"defaultInternalExpireDateEnabled":false,"defaultInternalExpireDate":null,"defaultInternalExpireDateEnforced":null,"defaultRemoteExpireDateEnabled":false,"defaultRemoteExpireDate":null,"defaultRemoteExpireDateEnforced":null}};
+var _theme={"entity":"Nextcloud","name":"Nextcloud","productName":"Nextcloud","title":"Nextcloud","baseUrl":"https:\/\/cloud.tab.digital\/","syncClientUrl":"https:\/\/nextcloud.com\/install\/#install-clients","docBaseUrl":"https:\/\/docs.nextcloud.com","docPlaceholderUrl":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=PLACEHOLDER","slogan":"a safe home for all your data","logoClaim":"","folder":""};
 
-#----------------------------------------------------------------------------------------------------#
-#- ADs, Advert Related Content and Malware Security
-#----------------------------------------------------------------------------------------------------#
-! Advert Related Content (Banners, Frames, Texts etc...)
-/dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-/dizipal\d{3}\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
-/diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
-/diziyou\d?\.com$/##.dizialani>.video>a[target]
-/diziyou\d?\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
-/diziyou\d?\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
-anizm.net##a.center-block[target=_blank]
-autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
-blackview.hk##div.blog-ad-banner
-chess.com##a.diamond-top
-chess.com##div#main-banner
-colordesigner.io##main>[class*=-container]:has(.alternative-ad)
-dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
-digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
-documentaryarea.com##.jw-preview {background:none !important;}
-documentaryarea.com##.share:has([class$=-buttons])
-documentaryarea.com##img.watermark
-dosyaload.com##.embed-video-player>.jwplayer>.alert
-faketempmail.com##a.banner-custom
-fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
-filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
-haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
-haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
-hlktrpl.cfd##^[id="textreklamgoster"i]
-hlktrpl.cfd##^body>div[id="adstop"i]
-hlktrpl.cfd##^div[class="playertextreklam"i]
-hurriyet.com.tr##section.adv
-icedrive.net##[id=ad-summer]
-indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
-internxt.com##.h-screen:has(>.fixed>button)
-mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
-milliyet.com.tr##div.article-ads-container
-myanimelist.net##.title>.detail>div.bookstore-information
-myanimelist.net##.title>.detail>div.manga-store-information
-mynet.com##a.sponsored-image
-ntv.com.tr##div[class*="fix-ads-item-"]
-ownedcore.com##div.body_wrap>div.shoutout
-ownedcore.com##div.body_wrap>div.so-wrapper
-ownedcore.com##ul#sidebar>li:has(div.block-plain)
-ownedcore.com##ul#sidebar>li:has-text(/sponsored/i)
-pcloud.com##.left-banner:has([class*=AdCloseButton])
-pcloud.com##.left-banner:has-text(/Discount/i)
-pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
-rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
-reddit.com##advertise-button
-rockmods.net##div[class^="main-ads-"]
-sozce.com##^div[class^="reklam"i][class$="250x250"]
-tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
-teamos.xyz##center:has(>div>a[title^="debrid"i])
-turktorrent.us##[id=advertisements]
-turktorrent.us##^script:has-text(#advertisements)
-useragents.me##li.nav-item:has(a[target])
-useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
-vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
-vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
-yemek.com##div.masthead-container
-yeniakit.com.tr##div.masthead-top
-yenisafak.com##a.ramadan-sponsor
-zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
-zaytung.com##div[id^=sidebar]>div#banner
-! Fake Buttons
-filecrypt.cc##span>button[onmousedown]
-frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
-
-#----------------------------------------------------------------------------------------------------#
-#- Generic AD Filters
-#----------------------------------------------------------------------------------------------------#
-! rockmods.net, proinvitelinks.com
-##div[id$="-ad-placeholder"i]
-! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##a[class="ads_single_font"i]
-##div[class$="-ad-container"i]
-##div[class*="-ads-adjustment"i]
-##div[class="ads-container"i]
-##div[class="player-side-ad"i]
-! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
-##body>div.body-clickable
-
-#----------------------------------------------------------------------------------------------------#
-#- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
-#----------------------------------------------------------------------------------------------------#
-! Social Networks and Follow/Share Widgets
-anizm.net##div[id^="discordinvitebox"i]
-rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
-dogrulukpayi.com##div.follow-banner,div.follow-social-section
-tureng.com##div[class$="-socialmedia"]
-colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
-ovagames.com##div.sidebar-box:has-text(/^facebook/i)
-! Trial/Subscription/PRO/VIP etc. Buttons/Banners/Sections/Blocks/Texts
-chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
-chess.com##div#trial-modal
-deepl.com##header>div>span:has([href="/en/pro"])
-deviantart.com##span:has-text(/^upgrade/i):upward(span)
-dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
-dropbox.com##.trial-both-shown:has([class^=trial-cards])
-dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
-filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
-github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
-github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
-hacksnation.com##div#adblock-overlay
-letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
-mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
-mediafire.com##^.app-container>div>[style^=display]:has(iframe[src$="/premium_trial.php"])
-mediafire.com##iframe[src$="/sidebar_promo.php"]
-mega.nz##.upgrade-to-pro-dialog
-mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
-onehack.us##[id="custom-modal"]
-seedr.cc##nav>.nav-link[href$="/premium"]
-terabox.com##.header-right-menus>a.membership-entry-new
-terabox.com##.main-page>div.operate-popup-box
-terabox.com##.side-bottom>div.notification-wrap
-vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
-vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
-voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
-! Cookie Banners
-deepl.com##div[data-testid="dl-cookieBanner"]
-techdergi.net##[id=cookie-box]
-! CSS Fixes and Visual Touches
-filelu.com##div[id^="chat-"]
-filelu.com##footer
-flickmetrix.com##[id^="moviecontainer"i]>.ng-scope>div.ng-scope[ng-if]
-xiguasuwu.com##body>[style]:empty
-9gag.com##[class*="post"i][class*="tag"i]
-vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
-
-#----------------------------------------------------------------------------------------------------#
-#- Website by Website ADs and Annoyances Section for Easy Maintainance
-#----------------------------------------------------------------------------------------------------#
-#- Hide Websites from Search Engines
-! fandom wikis that are inactive, outdated or deprecated and have alternatives
-duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
-duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
-duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
-startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
-startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
-
-#- Website Fixes
-! hide the ad frames and display the video player
-dizipal951.com##.player-wrapper>div.pre-player
-dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
-! disable adblock detection and hide loading status for player
-gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
-gledaitv.fan##div#loading-spinner
-! preload/loading effect annoyance
-thehouseofportable.com##[id="preload"]
-
-#- Wipe ADs and Visual Debloat
-! ad/information post, css fixes
-lrepacks.net##[id="sidebar"]>[id^="categories-"]
-lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
-lrepacks.net##article:has(div.entry-media>a[href*="/informaciya/"]>img)
-lrepacks.net##div.columns:has(>ul)
-lrepacks.net##div.relative>h2.section-title
-! ad-images and information/announcements related posts 
-repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
-repack.me##.my>.my>:is(div.short-title,br)
-! clear vip promotions, testemonials, sharing etc... all over the website
-simkl.com##^div.simklbecomeprowrap
-simkl.com##^div.simklviptestemonials
-simkl.com##^div[class="simkltvfootersharing"i]
-simkl.com##^simkl-footer>:not(div.simkltvfooterend)
-simkl.com##div:is([id="simklheadermenuvip"i])
-simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
-! clear news, announcements and the logo on the main page
-turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
-turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))
-turkanime.co##[id=arkaplan]>.row[style^=margin-top]:has(img[src$="turkanime.co/imajlar/logo.png"])
-! clear vip and vip related stuff and debloat the view all over the website
-trakt.tv##^div#cc-main
-trakt.tv##^div.advanced-filters-upsell
-trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
-trakt.tv##^section#mir-wrapper
-trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
-trakt.tv##div.page-navigator:has([class="load-more"],[class="load-less"])
-trakt.tv##div.spacer:empty
-trakt.tv##div.user-wrapper>a:has-text(/vip/i)
-trakt.tv##section.user-wrapper div.buttons
-trakt.tv##span#filter-show-advanced-filters
-! clear ads and compact the view of the website by hiding vip and fake buttons.
-tuttop.com##^noindex>div[align="center"]:has(>a>img[src$="/mediaget.png"])
-tuttop.com##div.main-news-more>a
-tuttop.com##div.tags-block
-tuttop.com##noindex>div.telegram
-tuttop.com##noindex>p:has(>a[href^="/donat.html"])
-tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
-vsetop.org##div#content>ul.naviga
-vsetop.org##div#footer
-
-#----------------------------------------------------------------------------------------------------#
-#- Scriptlets
-#----------------------------------------------------------------------------------------------------#
-! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
-! +js(aeld, eventType, [searchString])
-faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-! [aliases: prevent-fetch, no-fetch-if]
-! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
-! [aliases: aopr, abort-on-property-read]
-! +js(abort-on-property-read, object.property)
-birgun.net##+js(abort-on-property-read, detectAdBlock)
-dizipal951.com##+js(abort-on-property-read, manageAds)
-! [aliases: set, set-constant]
-! +js(set, object.property, value, [checkWiki])
-redecanais.gs##+js(set-constant, blockPage, noopFunc)
-
-
-
+</script>
+			</head>
+	<body id="body-login"  data-themes="">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		<div id="initial-state-container" style="display: none;">
+			<input type="hidden" id="initial-state-core-projects_enabled" value="ZmFsc2U=">
+			<input type="hidden" id="initial-state-core-config" value="eyJibGFja2xpc3RfZmlsZXNfcmVnZXgiOiJcXC4ocGFydHxmaWxlcGFydCkkIiwiZm9yYmlkZGVuX2ZpbGVuYW1lX2NoYXJhY3RlcnMiOlsiXFwiLCJcLyJdLCJhdXRvX2xvZ291dCI6ZmFsc2UsImxvZ2xldmVsIjowLCJsb3N0X3Bhc3N3b3JkX2xpbmsiOm51bGwsIm1vZFJld3JpdGVXb3JraW5nIjp0cnVlLCJub191bnN1cHBvcnRlZF9icm93c2VyX3dhcm5pbmciOmZhbHNlLCJzZXNzaW9uX2tlZXBhbGl2ZSI6dHJ1ZSwic2Vzc2lvbl9saWZldGltZSI6MTQ0MCwic2hhcmluZy5tYXhBdXRvY29tcGxldGVSZXN1bHRzIjoyNSwic2hhcmluZy5taW5TZWFyY2hTdHJpbmdMZW5ndGgiOjAsInZlcnNpb24iOiIzMC4wLjEyLjIiLCJ2ZXJzaW9uc3RyaW5nIjoiMzAuMC4xMiIsImVuYWJsZV9ub24tYWNjZXNzaWJsZV9mZWF0dXJlcyI6dHJ1ZX0=">
+			<input type="hidden" id="initial-state-core-capabilities" value="eyJjb3JlIjp7InBvbGxpbnRlcnZhbCI6NjAsIndlYmRhdi1yb290IjoicmVtb3RlLnBocFwvd2ViZGF2IiwicmVmZXJlbmNlLWFwaSI6dHJ1ZSwicmVmZXJlbmNlLXJlZ2V4IjoiKFxcc3xcXG58XikoaHR0cHM/OlxcXC9cXFwvKShbLUEtWjAtOStfLl0rKD86OlswLTldKyk/KD86XFxcL1stQS1aMC05KyZAIyU/PX5ffCE6LC47KCldKikqKShcXHN8XFxufCQpIiwibW9kLXJld3JpdGUtd29ya2luZyI6dHJ1ZX0sImZpbGVzIjp7IiRjb21tZW50IjoiXCJibGFja2xpc3RlZF9maWxlc1wiIGlzIGRlcHJlY2F0ZWQgYXMgb2YgTmV4dGNsb3VkIDMwLCB1c2UgXCJmb3JiaWRkZW5fZmlsZW5hbWVzXCIgaW5zdGVhZCIsImJsYWNrbGlzdGVkX2ZpbGVzIjpbIi5odGFjY2VzcyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVzIjpbIi5odGFjY2VzcyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVfYmFzZW5hbWVzIjpbXSwiZm9yYmlkZGVuX2ZpbGVuYW1lX2NoYXJhY3RlcnMiOlsiXFwiLCJcLyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVfZXh0ZW5zaW9ucyI6WyIuZmlsZXBhcnQiLCIucGFydCJdLCJiaWdmaWxlY2h1bmtpbmciOnRydWUsImNvbW1lbnRzIjp0cnVlLCJ1bmRlbGV0ZSI6dHJ1ZSwidmVyc2lvbmluZyI6dHJ1ZSwidmVyc2lvbl9sYWJlbGluZyI6dHJ1ZSwidmVyc2lvbl9kZWxldGlvbiI6dHJ1ZX0sImFjdGl2aXR5Ijp7ImFwaXYyIjpbImZpbHRlcnMiLCJmaWx0ZXJzLWFwaSIsInByZXZpZXdzIiwicmljaC1zdHJpbmdzIl19LCJhcHBfYXBpIjp7ImxvZ2xldmVsIjowLCJ2ZXJzaW9uIjoiNC4wLjYiLCJ0ZXh0X3Byb2Nlc3NpbmciOnsidGFza190eXBlcyI6WyJmcmVlX3Byb21wdCIsImhlYWRsaW5lIiwic3VtbWFyeSIsInRvcGljcyJdfX0sIm9jbSI6eyJlbmFibGVkIjp0cnVlLCJhcGlWZXJzaW9uIjoiMS4wLXByb3Bvc2FsMSIsImVuZFBvaW50IjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbCIsInJlc291cmNlVHlwZXMiOlt7Im5hbWUiOiJmaWxlIiwic2hhcmVUeXBlcyI6WyJ1c2VyIiwiZ3JvdXAiXSwicHJvdG9jb2xzIjp7IndlYmRhdiI6IlwvcHVibGljLnBocFwvd2ViZGF2XC8ifX1dfSwiZGF2Ijp7ImNodW5raW5nIjoiMS4wIiwiYnVsa3VwbG9hZCI6IjEuMCIsImFic2VuY2Utc3VwcG9ydGVkIjp0cnVlLCJhYnNlbmNlLXJlcGxhY2VtZW50Ijp0cnVlfSwiZGVjayI6eyJ2ZXJzaW9uIjoiMS4xNC41IiwiY2FuQ3JlYXRlQm9hcmRzIjpmYWxzZSwiYXBpVmVyc2lvbnMiOlsiMS4wIiwiMS4xIl19LCJkcm9wLWFjY291bnQiOnsiZW5hYmxlZCI6ZmFsc2UsImRlbGF5Ijp7ImVuYWJsZWQiOmZhbHNlLCJob3VycyI6MjR9LCJkZXRhaWxzIjoiVXNlciBzZXNzaW9uIG5vdCBmb3VuZCIsImFwaS12ZXJzaW9uIjoidjEifSwiZXh0ZXJuYWwiOnsidjEiOlsic2l0ZXMiLCJkZXZpY2UiLCJncm91cHMiLCJyZWRpcmVjdCJdfSwiZG93bmxvYWRsaW1pdCI6eyJlbmFibGVkIjp0cnVlfSwiZmlsZXNfc2hhcmluZyI6eyJhcGlfZW5hYmxlZCI6dHJ1ZSwicHVibGljIjp7ImVuYWJsZWQiOnRydWUsInBhc3N3b3JkIjp7ImVuZm9yY2VkIjpmYWxzZSwiYXNrRm9yT3B0aW9uYWxQYXNzd29yZCI6ZmFsc2V9LCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjpmYWxzZX0sIm11bHRpcGxlX2xpbmtzIjp0cnVlLCJleHBpcmVfZGF0ZV9pbnRlcm5hbCI6eyJlbmFibGVkIjpmYWxzZX0sImV4cGlyZV9kYXRlX3JlbW90ZSI6eyJlbmFibGVkIjpmYWxzZX0sInNlbmRfbWFpbCI6ZmFsc2UsInVwbG9hZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnRydWV9LCJyZXNoYXJpbmciOnRydWUsInVzZXIiOnsic2VuZF9tYWlsIjpmYWxzZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX19LCJncm91cF9zaGFyaW5nIjp0cnVlLCJncm91cCI6eyJlbmFibGVkIjp0cnVlLCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImRlZmF1bHRfcGVybWlzc2lvbnMiOjMxLCJmZWRlcmF0aW9uIjp7Im91dGdvaW5nIjp0cnVlLCJpbmNvbWluZyI6dHJ1ZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX0sImV4cGlyZV9kYXRlX3N1cHBvcnRlZCI6eyJlbmFibGVkIjp0cnVlfX0sInNoYXJlZSI6eyJxdWVyeV9sb29rdXBfZGVmYXVsdCI6ZmFsc2UsImFsd2F5c19zaG93X3VuaXF1ZSI6dHJ1ZX0sInNoYXJlYnltYWlsIjp7ImVuYWJsZWQiOnRydWUsInNlbmRfcGFzc3dvcmRfYnlfbWFpbCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnsiZW5hYmxlZCI6dHJ1ZX0sInBhc3N3b3JkIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX0sImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX19fSwibm90ZXMiOnsiYXBpX3ZlcnNpb24iOlsiMC4yIiwiMS4zIl0sInZlcnNpb24iOiI0LjEyLjEiLCJub3Rlc19wYXRoIjpudWxsfSwibm90aWZpY2F0aW9ucyI6eyJvY3MtZW5kcG9pbnRzIjpbImxpc3QiLCJnZXQiLCJkZWxldGUiLCJkZWxldGUtYWxsIiwiaWNvbnMiLCJyaWNoLXN0cmluZ3MiLCJhY3Rpb24td2ViIiwidXNlci1zdGF0dXMiLCJleGlzdHMiXSwicHVzaCI6WyJkZXZpY2VzIiwib2JqZWN0LWRhdGEiLCJkZWxldGUiXSwiYWRtaW4tbm90aWZpY2F0aW9ucyI6WyJvY3MiLCJjbGkiXX0sInBhc3N3b3JkX3BvbGljeSI6eyJtaW5MZW5ndGgiOjEwLCJlbmZvcmNlTm9uQ29tbW9uUGFzc3dvcmQiOnRydWUsImVuZm9yY2VOdW1lcmljQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VTcGVjaWFsQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VVcHBlckxvd2VyQ2FzZSI6ZmFsc2UsImFwaSI6eyJnZW5lcmF0ZSI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcL29jc1wvdjIucGhwIiwidmFsaWRhdGUiOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC9vY3NcL3YyLnBocCJ9fSwicHJvdmlzaW9uaW5nX2FwaSI6eyJ2ZXJzaW9uIjoiMS4yMC4wIiwiQWNjb3VudFByb3BlcnR5U2NvcGVzVmVyc2lvbiI6MiwiQWNjb3VudFByb3BlcnR5U2NvcGVzRmVkZXJhdGVkRW5hYmxlZCI6dHJ1ZSwiQWNjb3VudFByb3BlcnR5U2NvcGVzUHVibGlzaGVkRW5hYmxlZCI6ZmFsc2V9LCJyaWNoZG9jdW1lbnRzIjp7InZlcnNpb24iOiI4LjUuOCIsIm1pbWV0eXBlcyI6WyJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC50ZXh0IiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQuc3ByZWFkc2hlZXQiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5ncmFwaGljcyIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnByZXNlbnRhdGlvbiIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnRleHQtZmxhdC14bWwiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5zcHJlYWRzaGVldC1mbGF0LXhtbCIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LmdyYXBoaWNzLWZsYXQteG1sIiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQucHJlc2VudGF0aW9uLWZsYXQteG1sIiwiYXBwbGljYXRpb25cL3ZuZC5sb3R1cy13b3JkcHJvIiwiYXBwbGljYXRpb25cL3ZuZC52aXNpbyIsImFwcGxpY2F0aW9uXC92bmQubXMtdmlzaW8uZHJhd2luZyIsImFwcGxpY2F0aW9uXC92bmQud29yZHBlcmZlY3QiLCJhcHBsaWNhdGlvblwvcnRmIiwidGV4dFwvcnRmIiwiYXBwbGljYXRpb25cL21zb25lbm90ZSIsImFwcGxpY2F0aW9uXC9tc3dvcmQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwuZG9jdW1lbnQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXdvcmQuZG9jdW1lbnQubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy13b3JkLnRlbXBsYXRlLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwuc2hlZXQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm1zLWV4Y2VsLnNoZWV0Lm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwudGVtcGxhdGUubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy1leGNlbC5hZGRpbi5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLWV4Y2VsLnNoZWV0LmJpbmFyeS5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnByZXNlbnRhdGlvbm1sLnByZXNlbnRhdGlvbiIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQucHJlc2VudGF0aW9ubWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnByZXNlbnRhdGlvbm1sLnNsaWRlc2hvdyIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC5hZGRpbi5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQucHJlc2VudGF0aW9uLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC50ZW1wbGF0ZS5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQuc2xpZGVzaG93Lm1hY3JvRW5hYmxlZC4xMiIsInRleHRcL2NzdiJdLCJtaW1ldHlwZXNOb0RlZmF1bHRPcGVuIjpbImltYWdlXC9zdmcreG1sIiwiYXBwbGljYXRpb25cL3BkZiIsInRleHRcL3BsYWluIiwidGV4dFwvc3ByZWFkc2hlZXQiXSwibWltZXR5cGVzU2VjdXJlVmlldyI6W10sImNvbGxhYm9yYSI6eyJjb252ZXJ0LXRvIjp7ImF2YWlsYWJsZSI6dHJ1ZSwiZW5kcG9pbnQiOiJcL2Nvb2xcL2NvbnZlcnQtdG8ifSwiaGFzRG9jdW1lbnRTaWduaW5nU3VwcG9ydCI6dHJ1ZSwiaGFzTW9iaWxlU3VwcG9ydCI6dHJ1ZSwiaGFzUHJveHlQcmVmaXgiOmZhbHNlLCJoYXNTZXR0aW5nSWZyYW1lU3VwcG9ydCI6dHJ1ZSwiaGFzVGVtcGxhdGVTYXZlQXMiOmZhbHNlLCJoYXNUZW1wbGF0ZVNvdXJjZSI6dHJ1ZSwiaGFzV0FTTVN1cHBvcnQiOmZhbHNlLCJoYXNXb3BpQWNjZXNzQ2hlY2siOnRydWUsImhhc1pvdGVyb1N1cHBvcnQiOnRydWUsInByb2R1Y3ROYW1lIjoiQ29sbGFib3JhIE9ubGluZSBEZXZlbG9wbWVudCBFZGl0aW9uIiwicHJvZHVjdFZlcnNpb24iOiIyNC4wNC4xMy4yIiwicHJvZHVjdFZlcnNpb25IYXNoIjoiZGVkNTZkOGZmNyIsInNlcnZlcklkIjoiN2EyNWJiYWQifSwiZGlyZWN0X2VkaXRpbmciOnRydWUsInRlbXBsYXRlcyI6dHJ1ZSwicHJvZHVjdE5hbWUiOiJOZXh0Y2xvdWQgT2ZmaWNlIiwiZWRpdG9ubGluZV9lbmRwb2ludCI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcLyIsImNvbmZpZyI6eyJ3b3BpX3VybCI6Imh0dHBzOlwvXC90aGUtZG9jcy1oYXZlbi50YWJkaWdpdGFsLmV1IiwicHVibGljX3dvcGlfdXJsIjoiaHR0cHM6XC9cL3RoZS1kb2NzLWhhdmVuLnRhYmRpZ2l0YWwuZXUiLCJ3b3BpX2NhbGxiYWNrX3VybCI6IiIsImRpc2FibGVfY2VydGlmaWNhdGVfdmVyaWZpY2F0aW9uIjoieWVzIiwiZWRpdF9ncm91cHMiOm51bGwsInVzZV9ncm91cHMiOm51bGwsImRvY19mb3JtYXQiOm51bGwsInRpbWVvdXQiOjE1fX0sInN1cHBvcnQiOnsiaGFzVmFsaWRTdWJzY3JpcHRpb24iOnRydWUsImRlc2t0b3BFbnRlcnByaXNlQ2hhbm5lbCI6InN0YWJsZSJ9LCJ0aGVtaW5nIjp7Im5hbWUiOiJOZXh0Y2xvdWQiLCJ1cmwiOiJodHRwczpcL1wvY2xvdWQudGFiLmRpZ2l0YWxcLyIsInNsb2dhbiI6ImEgc2FmZSBob21lIGZvciBhbGwgeW91ciBkYXRhIiwiY29sb3IiOiIjMDA2NzllIiwiY29sb3ItdGV4dCI6IiNmZmZmZmYiLCJjb2xvci1lbGVtZW50IjoiIzAwNjc5ZSIsImNvbG9yLWVsZW1lbnQtYnJpZ2h0IjoiIzAwNjc5ZSIsImNvbG9yLWVsZW1lbnQtZGFyayI6IiMwMDY3OWUiLCJsb2dvIjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbFwvIiwiYmFja2dyb3VuZCI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcL2FwcHNcL3RoZW1pbmdcL2ltZ1wvYmFja2dyb3VuZFwvamVubmEta2ltLXRoZS1nbG9iZS53ZWJwIiwiYmFja2dyb3VuZC10ZXh0IjoiI2ZmZmZmZiIsImJhY2tncm91bmQtcGxhaW4iOmZhbHNlLCJiYWNrZ3JvdW5kLWRlZmF1bHQiOnRydWUsImxvZ29oZWFkZXIiOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC8iLCJmYXZpY29uIjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbFwvIn0sInVzZXJfc3RhdHVzIjp7ImVuYWJsZWQiOnRydWUsInJlc3RvcmUiOnRydWUsInN1cHBvcnRzX2Vtb2ppIjp0cnVlfSwid2VhdGhlcl9zdGF0dXMiOnsiZW5hYmxlZCI6dHJ1ZX19">
+			<input type="hidden" id="initial-state-core-versionHash" value="IjBiY2RmOWM0Ig==">
+			<input type="hidden" id="initial-state-comments-maxAutoCompleteResults" value="MTA=">
+	</div>
+		<div class="wrapper">
+			<div class="v-align">
+									<header>
+						<div id="header">
+							<div class="logo"></div>
+						</div>
+					</header>
+								<main>
+					<h1 class="hidden-visually">
+						Nextcloud					</h1>
+					<div class="guest-box">
+	<div class="icon-big icon-error"></div>
+	<h2>Maintenance mode</h2>
+	<p>This Nextcloud instance is currently in maintenance mode, which may take a while. This page will refresh itself when the instance is available again.</p>
+	<p>Contact your system administrator if this message persists or appeared unexpectedly.</p>
+</div>
+				</main>
+			</div>
+		</div>
+				<footer class="guest-box ">
+			<p class="info">
+				<a href="https://cloud.tab.digital/" target="_blank" rel="noreferrer noopener" class="entity-name">Nextcloud</a> – a safe home for all your data			</p>
+		</footer>
+	</body>
+</html>

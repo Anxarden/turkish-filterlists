@@ -1,684 +1,80 @@
-# Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="en" data-locale="en" translate="no" >
+	<head
+ data-requesttoken="Q68TVopuIeG/Ec4OrTS09/yHnQFuzc8TMgClXJla5B0=:B5YkOMBfFtXGYJ9dwkPYrZrjrnIJjP9XZmvrEPUotG4=">
+		<meta charset="utf-8">
+		<title>
+			Nextcloud		</title>
+		<meta name="csp-nonce" nonce="B5YkOMBfFtXGYJ9dwkPYrZrjrnIJjP9XZmvrEPUotG4=">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+				<meta name="apple-itunes-app" content="app-id=1125420102">
+				<meta name="theme-color" content="#00679e">
+		<link rel="icon" href="/core/img/favicon.ico">
+		<link rel="apple-touch-icon" href="/core/img/favicon-touch.png">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#00679e">
+		<link rel="manifest" href="/core/img/manifest.json" crossorigin="use-credentials">
+		<link rel="stylesheet" href="/core/css/guest.css?v=0bcdf9c4-3">
+<link rel="stylesheet" href="/apps/theming/css/default.css?v=9ba0ea54-3">
+<link rel="stylesheet" href="/core/css/guest.css?v=0bcdf9c4-3">
+		<script nonce="B5YkOMBfFtXGYJ9dwkPYrZrjrnIJjP9XZmvrEPUotG4=" defer src="/dist/core-maintenance.js?v=0bcdf9c4-3"></script>
+<script nonce="B5YkOMBfFtXGYJ9dwkPYrZrjrnIJjP9XZmvrEPUotG4=">
+var _oc_debug=false;
+var _oc_isadmin=false;
+var backendAllowsPasswordConfirmation=true;
+var oc_dataURL=false;
+var _oc_webroot="";
+var _oc_appswebroots={"activity":"/apps/activity","app_api":"/apps/app_api","bruteforcesettings":"/apps/bruteforcesettings","calendar":"/apps/calendar","cloud_federation_api":"/apps/cloud_federation_api","comments":"/apps/comments","contacts":"/apps/contacts","contactsinteraction":"/apps/contactsinteraction","dashboard":"/apps/dashboard","dav":"/apps/dav","deck":"/apps/deck","drop_account":"/apps/drop_account","external":"/apps/external","federatedfilesharing":"/apps/federatedfilesharing","federation":"/apps/federation","files":"/apps/files","files_downloadlimit":"/apps/files_downloadlimit","files_pdfviewer":"/apps/files_pdfviewer","files_reminders":"/apps/files_reminders","files_sharing":"/apps/files_sharing","files_trashbin":"/apps/files_trashbin","files_versions":"/apps/files_versions","firstrunwizard":"/apps/firstrunwizard","jsloader":"/apps/jsloader","logreader":"/apps/logreader","lookup_server_connector":"/apps/lookup_server_connector","mail":"/apps/mail","nextcloud_announcements":"/apps/nextcloud_announcements","notes":"/apps/notes","notifications":"/apps/notifications","oauth2":"/apps/oauth2","passman":"/apps/passman","password_policy":"/apps/password_policy","photos":"/apps/photos","preferred_providers":"/apps/preferred_providers","privacy":"/apps/privacy","provisioning_api":"/apps/provisioning_api","quota_warning":"/apps/quota_warning","recommendations":"/apps/recommendations","related_resources":"/apps/related_resources","richdocuments":"/apps/richdocuments","serverinfo":"/apps/serverinfo","settings":"/apps/settings","sharebymail":"/apps/sharebymail","support":"/apps/support","survey_client":"/apps/survey_client","tasks":"/apps/tasks","text":"/apps/text","theming":"/apps/theming","twofactor_backupcodes":"/apps/twofactor_backupcodes","twofactor_totp":"/apps/twofactor_totp","updatenotification":"/apps/updatenotification","user_migration":"/apps/user_migration","user_status":"/apps/user_status","viewer":"/apps/viewer","weather_status":"/apps/weather_status","webhook_listeners":"/apps/webhook_listeners","workflowengine":"/apps/workflowengine"};
+var datepickerFormatDate="M\/d\/yy";
+var nc_lastLogin=0;
+var nc_pageLoad=1752976666;
+var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var dayNamesShort=["Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."];
+var dayNamesMin=["Su","Mo","Tu","We","Th","Fr","Sa"];
+var monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var monthNamesShort=["Jan.","Feb.","Mar.","Apr.","May.","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
+var firstDay=0;
+var _oc_config={"blacklist_files_regex":"\\.(part|filepart)$","forbidden_filename_characters":["\\","\/"],"auto_logout":false,"loglevel":0,"lost_password_link":null,"modRewriteWorking":true,"no_unsupported_browser_warning":false,"session_keepalive":true,"session_lifetime":1440,"sharing.maxAutocompleteResults":25,"sharing.minSearchStringLength":0,"version":"30.0.12.2","versionstring":"30.0.12","enable_non-accessible_features":true};
+var oc_appconfig={"core":{"defaultExpireDateEnabled":false,"defaultExpireDate":null,"defaultExpireDateEnforced":null,"enforcePasswordForPublicLink":false,"enableLinkPasswordByDefault":false,"sharingDisabledForUser":false,"resharingAllowed":true,"remoteShareAllowed":true,"federatedCloudShareDoc":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=user-sharing-federated","allowGroupSharing":true,"defaultInternalExpireDateEnabled":false,"defaultInternalExpireDate":null,"defaultInternalExpireDateEnforced":null,"defaultRemoteExpireDateEnabled":false,"defaultRemoteExpireDate":null,"defaultRemoteExpireDateEnforced":null}};
+var _theme={"entity":"Nextcloud","name":"Nextcloud","productName":"Nextcloud","title":"Nextcloud","baseUrl":"https:\/\/cloud.tab.digital\/","syncClientUrl":"https:\/\/nextcloud.com\/install\/#install-clients","docBaseUrl":"https:\/\/docs.nextcloud.com","docPlaceholderUrl":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=PLACEHOLDER","slogan":"a safe home for all your data","logoClaim":"","folder":""};
 
-#- Whitelist
-@@||use.typekit.net^$script,font
-@@/episodes/*.jpeg^$xhr,domain=/diziyou\d+\.com$/
-#- General Blacklist for Privacy and Safety
-! Trackers and Other 3rd-Party Domains
-||statcounter.com^
-||seon.io^
-||adnxs.com^
-||abtasty.com^
-||appsflyer.com^
-||threadloom.com^$all
-||mxapis.com^
-||bvtpk.com^
-||crwdcntrl.net^
-||plausible.io^
-||usefathom.com^
-||pubguru.net^
-||evasivejar.com^
-||doubleverify.com^
-||visualwebsiteoptimizer.com^
-||htplayground.com^
-||primis.tech^
-||speedcurve.com^
-||survicate.com^
-||apptracer.ru^
-||adhood.com^
-||acquiredeceasedundress.com^
-||acscdn.com^
-||adform.net^
-||adhouse.pro^
-||adition.com^
-||admatic.com.tr^
-||admost.com^
-||adobedtm.com^
-||adplay.ru^
-||adrecover.com^
-||ads-twitter.com^
-||adsby.io^
-||adskeeper.com^
-||adsmediabox.com^
-||adtng.com^
-||agkn.com^
-||ahrefs.com^
-||amazon-adsystem.com^
-||amplitude.com^
-||artfiles.online^
-||ashoupsu.com^
-||askdriver.com^
-||assemblyexchange.com^
-||ay.delivery^
-||beyondwickedmapping.org^
-||bildir.mobi^
-||bildirt.com^
-||bilgin.pro^
-||bocheskelly.com^
-||bodilysubtractoversight.com^
-||bodis.com^
-||brainsland.com^
-||brandturbo.vip^
-||braze.com^
-||browser-intake-datadoghq.com^
-||brwsrfrm.com^
-||btloader.com^
-||bugsnag.com^
-||buysellads.net^
-||casalemedia.com^
-||cdnstr.com^
-||chartbeat.com^
-||clarity.ms^
-||cloudflareinsights.com^$all
-||consensu.org^
-||cookie-script.com^
-||cookielaw.org^
-||crazyegg.com^
-||creativecdn.com^
-||criteo.net^$all
-||cupbearergrowllurch.com^
-||datadoghq-browser-agent.com^
-||demand.supply^
-||dengage.com^
-||dimml.io^
-||discovernative.com^
-||dmca.com^$third-party
-||dogt.xyz^
-||doubleclick.net^
-||dygdigital.com^
-||ejaculationnation.com^
-||entwithoughtsu.com^
-||espleestrick.com^
-||etahub.com^
-||ethnicspue.com^
-||featureassets.org^
-||furyprosecutionkitchen.com^
-||fuseplatform.net^
-||futurecdn.net^$all
-||gelirartisi.com^
-||gemius.pl^
-||geolocation-db.com^
-||getclicky.com^
-||go-mpulse.net^
-||google-analytics.com^
-||googlesyndication.com^
-||googletagmanager.com^
-||googletagservices.com^
-||greatdexchange.com^
-||grow.me^$all
-||hif.to^
-||histats.com^$important
-||hotjar.com^
-||hs-analytics.net^
-||hs-banner.com^
-||hs-scripts.com^
-||hsadspixel.net^
-||hsforms.net^
-||hsleadflows.net^
-||htlbid.com^
-||hubspot.com^
-||hubspotfeedback.com^
-||hugedomains.com^
-||idealmedia.io^
-||indexww.com^
-||infolinks.com^
-||inmobi.com^$all,important
-||instabotpro.net^
-||instrumenttactics.com^
-||insurads.com^
-||intergient.com^
-||ipify.org^$third-party
-||ipvertnet.com^
-||iubenda.com^
-||izooto.com^
-||jivosite.com^
-||jyzkut.com^
-||licdn.com^$all
-||magsrv.com^
-||marshalcurve.com^
-||medyanetads.com^
-||membrana.media^
-||mnaspm.com^
-||moengage.com^
-||mokihirhoda.com^
-||mparticle.com^
-||mrf.io^
-||msoft.sbs^
-||mutinycdn.com^
-||myroledance.com^
-||nativespot.com^
-||netmera-web.com^
-||netpub.media^
-||newrelic.com^
-||nkdyzf.com^
-||onesignal.com^
-||onetrust.com^
-||onezapp.com^
-||optimizely.com^
-||pendo.io^$all
-||perfops.net^$third-party
-||permutive.app^
-||pigeoon.com^
-||pixad.com.tr^
-||pixiv.org^
-||polyfill.io^
-||posthog.com^$third-party,all
-||powerad.ai^
-||privacy-center.org^
-||privacy-mgmt.com^
-||prodregistryv2.org^
-||profitwell.com^
-||pub.network^
-||push-sdk.com^
-||pushengage.com^
-||ratitesbogging.com^
-||receptupperch.com^$all
-||refinery89.com^
-||relateddigital.com^
-||rfihub.net^
-||sascdn.com^
-||scorecardresearch.com^
-||secured-ad.com^
-||sedoparking.com^
-||seedtag.com^
-||sentry-cdn.com^
-||sentry.io^$all
-||setupcmp.com^
-||sharethis.com^$all
-||siftscience.com^
-||simpleanalyticscdn.com^
-||smartadserver.com^
-||sprig.com^
-||squarespace-cdn.com^
-||ssm.codes^
-||stpd.cloud^
-||stripe.com^$third-party
-||subservis.com^
-||superonclick.com^
-||taboola.com^
-||tammarsayyid.com^$all
-||tapioni.com^
-||tidyfeyest.com^
-||tns-counter.ru^
-||toplist.cz^
-||trackjs.com^
-||trafficbass.com^
-||trustarc.com^
-||typekit.net^
-||ukankingwithea.com^
-||ultingecauyukse.com^
-||unasonoric.com^$all
-||unifyintent.com^
-||useinsider.com^
-||usemessages.com^
-||usercentrics.eu^
-||usersnap.com^
-||usrpubtrk.com^
-||virgul.com^
-||vntsm.com^
-||webvisor.org^
-||widgetlogic.org^
-||wpadmngr.com^
-||wurfl.io^
-||xlivrdr.com^
-||yadro.ru^
-||yehdka.pro^
-||ywxi.net^
-||zintrack.com^
-||zolaizeblowier.com^
-#- Badware, Potantialy Unwanted & Fake/Bait Websites
-! Expired or Closed Domains/Websites
-||bitsexy.org^
-||extratorrents.it^
-||planetdp.org^
-||samforum.org^
-||torrentgalaxy.to^
-||torrenthane.net^
-||turknova.net^
-||turknova.org^
-||torrent-indir.net^
-! Potantialy Dangerious Redirecting Links
-||mnopa.click^
-! Adware and not Privacy-Friendly Softwares/Services
-||avast.com^
-||avg.com^
-||avira.com^
-||bitcomet.com^
-||bitlord.com^
-||bittorrent.com^
-||ccleaner.com^
-||cyberghostvpn.com^
-||expressvpn.com^
-||frostwire.com^
-||iobit.com^
-||mcafee.com^
-||mediaget.com^
-||norton.com^
-||opera.com^
-||privateinternetaccess.com^
-||utorrent.com^
-||zenmate.com^
-! 3rd-Party Shady Download/SEO Websites
-||filecr.com^
-||filehorse.com^
-||indir.org^
-||softonic.com.tr^
-||softonic.com^
-||uptodown.com^
-||vpnmentor.com^
-#- Official Pirating Website Notes
-! windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
-! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
-! fitgirl-repacks [~fitgirl-repacks.site]
-! thepiratebay [~thepiratebay.org]
-#- General Blacklisted Subdomains
-||mt.9gag.com^
-||privacy-api.9gag.com^
-||t.9gag.com^
-||signals.a101.com.tr^
-||uazmti.a101.com.tr^
-||adserver.a24.com.tr^
-||sa.adidas.com.tr^
-||swwcyk.ahaber.com.tr^
-||metric.allianz.com.tr^
-||advertising.amazon.com.tr^
-||advertising.amazon.com^
-||fls-eu.amazon.com.tr^
-||fls-na.amazon.com^
-||unagi.amazon.com.tr^
-||unagi.amazon.com^
-||ping.anizm.net^
-||ask.antalis.com.tr^
-||t.antalis.com.tr^
-||qwtcdp.antalyahomes.com.tr^
-||analytics.apps.com.tr^
-||fb-analytics.apps.com.tr^
-||reklam.arabul.com^
-||swwcyk.aspor.com.tr^
-||rowsrm.atasunoptik.com.tr^
-||tag.atasunoptik.com.tr^
-||swwcyk.atv.com.tr^
-||adobe.autoscout24.com.tr^
-||sgtm.avis.com.tr^
-||uvqvvh.avva.com.tr^
-||zhcmli.ayakkabidunyasi.com.tr^
-||kbpljd.aydin.edu.tr^
-||monitor.azure.com^
-||adserver.bafrahaber.com^
-||ulinyo.bandito.com.tr^
-||trk.baskent.edu.tr^
-||smetrics.bayer.com.tr^
-||pubmatic.bbvms.com^
-||sofire.bdstatic.com^
-||sgtm.beko.com.tr^
-||text.benefitsatwork.com.tr^
-||uamult.biboya.com.tr^
-||analitik.bik.gov.tr^
-||data.bilibili.com^
-||bat.bing.com^
-||widget.bitay.com.tr^
-||analytics.bkmobil.com.tr^
-||ufsmcn.blackspade.com.tr^
-||matomo.prc.boun.edu.tr^
-||tracking.brady.com.tr^
-||telemetry.canva.com^
-||sanalytics.cartoonito.com.tr^
-||sanalytics.cartoonnetwork.com.tr^
-||countly.cepteteb.com.tr^
-||yikrmn.ciceksepeti.com^
-||adsp.ciner.com.tr^
-||d1l6p2sc9645hc.cloudfront.net^
-||d1ybdlg8aoufn.cloudfront.net^
-||d2d6cf2do9znht.cloudfront.net^
-||d2ob6t3bgjo11t.cloudfront.net^
-||d2oh4tlt9mrke9.cloudfront.net^
-||d31qbv1cthcecs.cloudfront.net^
-||d3c8j8snkzfr1n.cloudfront.net^
-||dcbbwymp1bhlf.cloudfront.net^
-||static.cloudflareinsights.com^
-||download.cnet.com^
-||hxiabp.colins.com.tr^
-||zjhswy.comeup.com.tr^
-||static.criteo.net^
-||vedznh.cumhuriyet.com.tr^
-||reklamstore.cubecdn.net^
-||campaigns.cyberinsider.com^
-||dmxleo.dailymotion.com^
-||wbswtr.decathlon.com.tr^
-||s.deepl.com^
-||ctllup.deery.com.tr^
-||woowjy.desa.com.tr^
-||bvz5.destinia.com.tr^
-||downloads.digitaltrends.com^
-||sw88.disney.com.tr^
-||sw88.disneymagicmoments.gen.tr^
-||sw88.disneyturkiye.com.tr^
-||ldckmk.divarese.com.tr^
-||ad.dline.com.tr^
-||metrics.dominos.com.tr^
-||ad.donanimhaber.com^
-||adserve.donanimhaber.com^
-||improving.duckduckgo.com^
-||matomo.drupart.com.tr^
-||clck.dzen.ru^
-||ms.dzen.ru^
-||eue.d-teknoloji.com.tr^
-||cwgwgo.ecanta.com.tr^
-||bundles.efilli.com^
-||metrics.egencia.com.tr^
-||reklam.emlakkulisi.com^
-||zvlxlu.emsan.com.tr^
-||analitik.enerji.gov.tr^
-||api-stg.ensonhaber.com^
-||tracking.ensonhaber.com^
-||ph.ente.io^
-||securetags.esri.com.tr^
-||securetags.esriturkey.com.tr^
-||tracking.faulhaber.com^
-||adfp.fcloud.com.tr^
-||countly.fibabanka.com.tr^
-||hiuplq.flashscore.com.tr^
-||analytics.files.fm^
-||gtm.flo.com.tr^
-||events.framer.com^
-||bordeaux.futurecdn.net^
-||freyr.futurecdn.net^
-||sw88.fxturkiye.com.tr^
-||tracking.g2crowd.com^
-||webstat.garanti.com.tr^
-||webstats.garanti.com.tr^
-||webstats.garantibbva.com.tr^
-||nqtinp.germirli.com.tr^
-||collector.github.com^
-||new-sentry.gitlab.net^
-||s.gofile.io^
-||admob.google.com^
-||ads.google.com^
-||adsense.google.com^
-||adservice.google.com.tr^
-||adservice.google.com^
-||adsmarketingfrontend-pa.clients6.google.com^
-||adwords.corp.google.com^
-||adwords.google.com^
-||ampcid.google.com^
-||analytics-alv.google.com^
-||analytics.google.com^
-||analyticssuitefrontend-pa.clients6.google.com^
-||appsgrowthpromo-pa.clients6.google.com^
-||cert-test.sandbox.google.com^
-||contributor.google.com^
-||crash.corp.google.com^
-||fcmatch.google.com^
-||fundingchoicesmessages.google.com^
-||gg.google.com^
-||id.google.com.tr^
-||id.google.com^
-||id.l.google.com^
-||jmt17.google.com^
-||mail-ads.google.com^
-||ogads-pa.clients6.google.com^
-||optimize.google.com^
-||plus.url.google.com^
-||plusone.google.com^
-||searchads.google.com^
-||toolbar.google.com^
-||video-stats.video.google.com^
-||firebase.googleapis.com^
-||firebaseinstallations.googleapis.com^
-||imasdk.googleapis.com^
-||faves.grow.me^
-||sentry.gsb.gov.tr^
-||makroo.haber7.net^
-||d.haberciniz.biz^
-||ads.haberler.com^
-||d.haberler.com^
-||adsp.haberturk.com^
-||fimyxg.haberturk.com^
-||log.haberturk.com^
-||tjbhng.hemington.com.tr^
-||adservice.hepsiburada.com^
-||clicks.h.hepsiburada.com^
-||hepsiads-gw.hepsiburada.com^
-||hepsiads-ui.hepsiburada.com^
-||hstats.hepsiburada.com^
-||hstatstest.hepsiburada.com^
-||bumerang.hurriyet.com.tr^
-||bumerangshowsites.hurriyet.com.tr^
-||geoloc.hurriyet.com.tr^
-||nxggwx.ideasoft.com.tr^
-||halo.idocdn.com^
-||ocdhbt.ihvan.com.tr^
-||medya.ilan.gov.tr^
-||sentry.ing.com.tr^
-||pixels.ingbank.com.tr^
-||cmp.inmobi.com^
-||ainu.intel.com.tr^
-||elqtrk.intel.com.tr^
-||starget.intel.com.tr^
-||www91.intel.com.tr^
-||v.internethaber.com^
-||xtxwva.intersport.com.tr^
-||gtmdev.jabra.com.tr^
-||tracking.janssen.com.tr^
-||kgguwk.jeep.com.tr^
-||cookies.jll.com.tr^
-||email-am.jll.com.tr^
-||email-em.jll.com.tr^
-||ofvosb.jumbo.com.tr^
-||g.jwpsrv.com^
-||tr1.kaspersky.com.tr^
-||kwdukp.kelebek.com.tr^
-||analitik.kgm.gov.tr^
-||sentry.kitapyurdu.com^
-||analytics.kkb.com.tr^
-||dgynnj.koctas.com.tr^
-||smetrics.kone.com.tr^
-||xyripw.korendy.com.tr^
-||eum.kuveytturk.com.tr^
-||uunczm.lescon.com.tr^
-||lkvkgk.levis.com.tr^
-||vcegpu.libas.com.tr^
-||snap.licdn.com^
-||ads.linkedin.com^
-||ingress.linktr.ee^
-||track.livasoft.com.tr^
-||cdn.livechatinc.com^
-||ad.mail.ru^
-||leytsb.marcomen.com.tr^
-||dialogue.mazda.com.tr^
-||sffsgi.miele.com.tr^
-||affiliate.migros.com.tr^
-||pinptg.milleni.com.tr^
-||b-cdn.milliyet.com.tr^
-||reklam.milliyet.com.tr^
-||reklam.misli.com^
-||qgymtv.motomax.com.tr^
-||elq.mouser.com.tr^
-||jlnyti.mugo.com.tr^
-||gvsivx.multinet.com.tr^
-||hit.mynet.com^
-||reklam.mynet.com^
-||ipr.n11.com^
-||tx.n11.com^
-||ichnaea-web.netflix.com^
-||sorrhs.nescafe.com.tr^
-||jptobh.network.com.tr^
-||xsgxag.nkolaykredi.com.tr^
-||qksbin.nocturne.com.tr^
-||avvfqs.nubia.com.tr^
-||tm.ogu.edu.tr^
-||analytics.onedio.com^
-||adx.opera.com^
-||api.optincdn.com^
-||cmp.osano.com^
-||zcnknu.oxxo.com.tr^
-||stats.pardus.org.tr^
-||cdn.pdst.fm^
-||cdn.pendo.io^
-||owvqbd.perfumepoint.com.tr^
-||analitik.pendik.bel.tr^
-||rqhtgf.pierrecardin.com.tr^
-||ct.pinterest.com^
-||analytics.pipelife.com.tr^
-||stats.pixeldrain.com^
-||fp-it-acc.portal101.cn^
-||b-cdn.posta.com.tr^
-||i.posthog.com^
-||pg.prima.com.tr^
-||smetrics.pwc.com.tr^
-||target.pwc.com.tr^
-||djnqoe.rani.com.tr^
-||sstag1.rani.com.tr^
-||weblog.rclone.org^
-||pl.receptupperch.com^
-||w3-reporting.reddit.com^
-||zj.refractsculks.com^
-||gw.rickywhence.com^
-||tdms.saglik.gov.tr^
-||ws.sahibinden.com^
-||trk.sana.com.tr^
-||pqnzgu.sarfmarket.com.tr^
-||smetrics.schindler.com.tr^
-||ingest.sentry.io^
-||platform-api.sharethis.com^
-||advast.sibnet.ru^
-||c.sibnet.ru^
-||cvt1.sibnet.ru^
-||vst.sibnet.ru^
-||srovwj.simfer.com.tr^
-||metrics.similac.com.tr^
-||ghrzlu.skechers.com.tr^
-||wct.softonic.com.tr^
-||analytics.sonjj.com^
-||smetrics.sony.com.tr^
-||invite.soundcloud.com^
-||dwt.soundcloud.com^
-||aip-cdn.sozcu.com.tr^
-||aip2.sozcu.com.tr^
-||av2.sozcu.com.tr^
-||xenaly.sozcu.com.tr^
-||tracking.ssab.com.tr^
-||ping.staticmoly.me^
-||ads.superonline.com^
-||omni.superonline.net^
-||somni.superonline.net^
-||psebyr.susle.com.tr^
-||swwcyk.takvim.com.tr^
-||wr.tammarsayyid.com^
-||tagm.tchibo.com.tr^
-||tracking.tchibo.com.tr^
-||cookiewarden-content.teb.com.tr^
-||countly.teb.com.tr^
-||matomo.teknosa.com^
-||signals.teknosa.com^
-||pxjuix.tekzen.com.tr^
-||gtm.temu.com^
-||pftk.temu.com^
-||thtk.temu.com^
-||sofire.terabox.com^
-||answers.teradata.com.tr^
-||cdn.threadloom.com^
-||analytics.tiktok.com^
-||mon.tiktokv.com^
-||mcs-va.tiktokv.com^
-||ad01.tmgrup.com.tr^
-||banner.tmgrup.com.tr^
-||sayac.tmgrup.com.tr^
-||rechenschieber.transfermarkt.com.tr^
-||cgqkhc.trendyol.com^
-||collect.trendyol.com^
-||demeter-int-ecom-collect.trendyol.com^
-||en-collect.trendyol.com^
-||metrics.trendyol.com^
-||sentry.trendyol.com^
-||smetrics.trendyol.com^
-||tracking.trendyol.com^
-||atwcby.trikomisirli.com.tr^
-||istatistik.trthaber.com^
-||srv.tunefindforfans.com^
-||analytics.turk.pro^
-||ruvdkw.turk.net^
-||omni.turkcell.com.tr^
-||signals.turkcell.com.tr^
-||somni.turkcell.com.tr^
-||cdn-netmeraprod.turktelekom.com.tr^
-||countly.turktelekom.com.tr^
-||pnsdkapi.turktelekom.com.tr^
-||reklam.turkmmo.com^
-||yr.unasonoric.com^
-||aminks.underarmour.com.tr^
-||collector.unsplash.com^
-||sv.urinarycreese.com^
-||widget.uservoice.com^
-||countly.vakifbank.com.tr^
-||gmxcdm.vestel.com.tr^
-||stats.videasy.net^
-||smetrics.vitasure.com.tr^
-||ads.vk.com^
-||ms.vk.com^
-||stats.vk-portal.net^
-||ssc.voaturkce.com^
-||tags.voaturkce.com^
-||sentry.vodafone.com.tr^
-||smetrics.vodafone.com.tr^
-||trk.vodafone.com.tr^
-||lf3-data.volccdn.com^
-||igfjkh.vw.com.tr^
-||smetric.vw.com.tr^
-||countly.wellbees.com.tr^
-||intake-analytics.wikimedia.org^
-||distillery.wistia.com^
-||pipedream.wistia.com^
-||csp.withgoogle.com^
-||pixel.wp.com^
-||stats.wp.com^
-||blackbox.xhamster.com^
-||3p-geo.yahoo.com^
-||3p-udc.yahoo.com^
-||analytics.yahoo.com^
-||geo.yahoo.com^
-||udc.yahoo.com^
-||kuusay.yalispor.com.tr^
-||analytics.yandex.com.tr^
-||clck.yandex.com.tr^
-||mc.yandex.com.tr^
-||metric.yandex.com.tr^
-||metrica.yandex.com.tr^
-||metrika.yandex.com.tr^
-||csp.yandex.net^
-||bs.yandex.ru^
-||mc.yandex.ru^
-||ad.yemeksepeti.com^
-||img.yemeksepeti.com^
-||simg.yemeksepeti.com^
-||tnt.yemeksepeti.com^
-||ads.yenimedya.com.tr^
-||reklam.yonlendir.com^
-||downloads.zdnet.de^
-||zbmatomoapp.ziraatbank.com.tr^
-#- Domains /w Exceptions, Paths, Regex
-||sjjdsjsdjsdsjdjsjdsjd.xyz^$third-party,~xhr
-||jpicture.xyz^$third-party,~xhr
-#- Specific Scripts/Queries/Fetchs/Blocks
-||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s16000/$third-party,image
-||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s468/$third-party,image
-||blogger.googleusercontent.com/img/b/r29vz2xl/avvxse*/s728/$third-party,image
-||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
-||cdn.jsdelivr.net/npm/@snowplow/$script
-||eksenload.site/detect.js^$script
-||flash.getpczone.com/sw.js^$script
-||haberlercom.github.io/main/prebid$script
-||images.chesscomfiles.com/uploads/ad_image/$image
-||hsforms.com/*/counters.gif$image
-||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
-||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,domain=redecanais.ps
-||paypalobjects.com/*/pixel.gif^$image
-||zi-scripts.com/zi-tag.js^$script
-#- Wildcard Paths Filters
-/wp-content/*.gif$first-party,image,domain=/diziyou\d*\.com$/
-/player/js/nuevo.min.js$script
-/themes/bepeak/assets/js/sw.js$script
-/themes/bepeak/player/js/devtools-detector.js$script
-/themes/bepeak/player/js/os.js$script
+</script>
+			</head>
+	<body id="body-login"  data-themes="">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		<div id="initial-state-container" style="display: none;">
+			<input type="hidden" id="initial-state-core-projects_enabled" value="ZmFsc2U=">
+			<input type="hidden" id="initial-state-core-config" value="eyJibGFja2xpc3RfZmlsZXNfcmVnZXgiOiJcXC4ocGFydHxmaWxlcGFydCkkIiwiZm9yYmlkZGVuX2ZpbGVuYW1lX2NoYXJhY3RlcnMiOlsiXFwiLCJcLyJdLCJhdXRvX2xvZ291dCI6ZmFsc2UsImxvZ2xldmVsIjowLCJsb3N0X3Bhc3N3b3JkX2xpbmsiOm51bGwsIm1vZFJld3JpdGVXb3JraW5nIjp0cnVlLCJub191bnN1cHBvcnRlZF9icm93c2VyX3dhcm5pbmciOmZhbHNlLCJzZXNzaW9uX2tlZXBhbGl2ZSI6dHJ1ZSwic2Vzc2lvbl9saWZldGltZSI6MTQ0MCwic2hhcmluZy5tYXhBdXRvY29tcGxldGVSZXN1bHRzIjoyNSwic2hhcmluZy5taW5TZWFyY2hTdHJpbmdMZW5ndGgiOjAsInZlcnNpb24iOiIzMC4wLjEyLjIiLCJ2ZXJzaW9uc3RyaW5nIjoiMzAuMC4xMiIsImVuYWJsZV9ub24tYWNjZXNzaWJsZV9mZWF0dXJlcyI6dHJ1ZX0=">
+			<input type="hidden" id="initial-state-core-capabilities" value="eyJjb3JlIjp7InBvbGxpbnRlcnZhbCI6NjAsIndlYmRhdi1yb290IjoicmVtb3RlLnBocFwvd2ViZGF2IiwicmVmZXJlbmNlLWFwaSI6dHJ1ZSwicmVmZXJlbmNlLXJlZ2V4IjoiKFxcc3xcXG58XikoaHR0cHM/OlxcXC9cXFwvKShbLUEtWjAtOStfLl0rKD86OlswLTldKyk/KD86XFxcL1stQS1aMC05KyZAIyU/PX5ffCE6LC47KCldKikqKShcXHN8XFxufCQpIiwibW9kLXJld3JpdGUtd29ya2luZyI6dHJ1ZX0sImZpbGVzIjp7IiRjb21tZW50IjoiXCJibGFja2xpc3RlZF9maWxlc1wiIGlzIGRlcHJlY2F0ZWQgYXMgb2YgTmV4dGNsb3VkIDMwLCB1c2UgXCJmb3JiaWRkZW5fZmlsZW5hbWVzXCIgaW5zdGVhZCIsImJsYWNrbGlzdGVkX2ZpbGVzIjpbIi5odGFjY2VzcyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVzIjpbIi5odGFjY2VzcyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVfYmFzZW5hbWVzIjpbXSwiZm9yYmlkZGVuX2ZpbGVuYW1lX2NoYXJhY3RlcnMiOlsiXFwiLCJcLyJdLCJmb3JiaWRkZW5fZmlsZW5hbWVfZXh0ZW5zaW9ucyI6WyIuZmlsZXBhcnQiLCIucGFydCJdLCJiaWdmaWxlY2h1bmtpbmciOnRydWUsImNvbW1lbnRzIjp0cnVlLCJ1bmRlbGV0ZSI6dHJ1ZSwidmVyc2lvbmluZyI6dHJ1ZSwidmVyc2lvbl9sYWJlbGluZyI6dHJ1ZSwidmVyc2lvbl9kZWxldGlvbiI6dHJ1ZX0sImFjdGl2aXR5Ijp7ImFwaXYyIjpbImZpbHRlcnMiLCJmaWx0ZXJzLWFwaSIsInByZXZpZXdzIiwicmljaC1zdHJpbmdzIl19LCJhcHBfYXBpIjp7ImxvZ2xldmVsIjowLCJ2ZXJzaW9uIjoiNC4wLjYiLCJ0ZXh0X3Byb2Nlc3NpbmciOnsidGFza190eXBlcyI6WyJmcmVlX3Byb21wdCIsImhlYWRsaW5lIiwic3VtbWFyeSIsInRvcGljcyJdfX0sIm9jbSI6eyJlbmFibGVkIjp0cnVlLCJhcGlWZXJzaW9uIjoiMS4wLXByb3Bvc2FsMSIsImVuZFBvaW50IjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbCIsInJlc291cmNlVHlwZXMiOlt7Im5hbWUiOiJmaWxlIiwic2hhcmVUeXBlcyI6WyJ1c2VyIiwiZ3JvdXAiXSwicHJvdG9jb2xzIjp7IndlYmRhdiI6IlwvcHVibGljLnBocFwvd2ViZGF2XC8ifX1dfSwiZGF2Ijp7ImNodW5raW5nIjoiMS4wIiwiYnVsa3VwbG9hZCI6IjEuMCIsImFic2VuY2Utc3VwcG9ydGVkIjp0cnVlLCJhYnNlbmNlLXJlcGxhY2VtZW50Ijp0cnVlfSwiZGVjayI6eyJ2ZXJzaW9uIjoiMS4xNC41IiwiY2FuQ3JlYXRlQm9hcmRzIjpmYWxzZSwiYXBpVmVyc2lvbnMiOlsiMS4wIiwiMS4xIl19LCJkcm9wLWFjY291bnQiOnsiZW5hYmxlZCI6ZmFsc2UsImRlbGF5Ijp7ImVuYWJsZWQiOmZhbHNlLCJob3VycyI6MjR9LCJkZXRhaWxzIjoiVXNlciBzZXNzaW9uIG5vdCBmb3VuZCIsImFwaS12ZXJzaW9uIjoidjEifSwiZXh0ZXJuYWwiOnsidjEiOlsic2l0ZXMiLCJkZXZpY2UiLCJncm91cHMiLCJyZWRpcmVjdCJdfSwiZG93bmxvYWRsaW1pdCI6eyJlbmFibGVkIjp0cnVlfSwiZmlsZXNfc2hhcmluZyI6eyJhcGlfZW5hYmxlZCI6dHJ1ZSwicHVibGljIjp7ImVuYWJsZWQiOnRydWUsInBhc3N3b3JkIjp7ImVuZm9yY2VkIjpmYWxzZSwiYXNrRm9yT3B0aW9uYWxQYXNzd29yZCI6ZmFsc2V9LCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjpmYWxzZX0sIm11bHRpcGxlX2xpbmtzIjp0cnVlLCJleHBpcmVfZGF0ZV9pbnRlcm5hbCI6eyJlbmFibGVkIjpmYWxzZX0sImV4cGlyZV9kYXRlX3JlbW90ZSI6eyJlbmFibGVkIjpmYWxzZX0sInNlbmRfbWFpbCI6ZmFsc2UsInVwbG9hZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnRydWV9LCJyZXNoYXJpbmciOnRydWUsInVzZXIiOnsic2VuZF9tYWlsIjpmYWxzZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX19LCJncm91cF9zaGFyaW5nIjp0cnVlLCJncm91cCI6eyJlbmFibGVkIjp0cnVlLCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImRlZmF1bHRfcGVybWlzc2lvbnMiOjMxLCJmZWRlcmF0aW9uIjp7Im91dGdvaW5nIjp0cnVlLCJpbmNvbWluZyI6dHJ1ZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX0sImV4cGlyZV9kYXRlX3N1cHBvcnRlZCI6eyJlbmFibGVkIjp0cnVlfX0sInNoYXJlZSI6eyJxdWVyeV9sb29rdXBfZGVmYXVsdCI6ZmFsc2UsImFsd2F5c19zaG93X3VuaXF1ZSI6dHJ1ZX0sInNoYXJlYnltYWlsIjp7ImVuYWJsZWQiOnRydWUsInNlbmRfcGFzc3dvcmRfYnlfbWFpbCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnsiZW5hYmxlZCI6dHJ1ZX0sInBhc3N3b3JkIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX0sImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX19fSwibm90ZXMiOnsiYXBpX3ZlcnNpb24iOlsiMC4yIiwiMS4zIl0sInZlcnNpb24iOiI0LjEyLjEiLCJub3Rlc19wYXRoIjpudWxsfSwibm90aWZpY2F0aW9ucyI6eyJvY3MtZW5kcG9pbnRzIjpbImxpc3QiLCJnZXQiLCJkZWxldGUiLCJkZWxldGUtYWxsIiwiaWNvbnMiLCJyaWNoLXN0cmluZ3MiLCJhY3Rpb24td2ViIiwidXNlci1zdGF0dXMiLCJleGlzdHMiXSwicHVzaCI6WyJkZXZpY2VzIiwib2JqZWN0LWRhdGEiLCJkZWxldGUiXSwiYWRtaW4tbm90aWZpY2F0aW9ucyI6WyJvY3MiLCJjbGkiXX0sInBhc3N3b3JkX3BvbGljeSI6eyJtaW5MZW5ndGgiOjEwLCJlbmZvcmNlTm9uQ29tbW9uUGFzc3dvcmQiOnRydWUsImVuZm9yY2VOdW1lcmljQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VTcGVjaWFsQ2hhcmFjdGVycyI6ZmFsc2UsImVuZm9yY2VVcHBlckxvd2VyQ2FzZSI6ZmFsc2UsImFwaSI6eyJnZW5lcmF0ZSI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcL29jc1wvdjIucGhwIiwidmFsaWRhdGUiOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC9vY3NcL3YyLnBocCJ9fSwicHJvdmlzaW9uaW5nX2FwaSI6eyJ2ZXJzaW9uIjoiMS4yMC4wIiwiQWNjb3VudFByb3BlcnR5U2NvcGVzVmVyc2lvbiI6MiwiQWNjb3VudFByb3BlcnR5U2NvcGVzRmVkZXJhdGVkRW5hYmxlZCI6dHJ1ZSwiQWNjb3VudFByb3BlcnR5U2NvcGVzUHVibGlzaGVkRW5hYmxlZCI6ZmFsc2V9LCJyaWNoZG9jdW1lbnRzIjp7InZlcnNpb24iOiI4LjUuOCIsIm1pbWV0eXBlcyI6WyJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC50ZXh0IiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQuc3ByZWFkc2hlZXQiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5ncmFwaGljcyIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnByZXNlbnRhdGlvbiIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LnRleHQtZmxhdC14bWwiLCJhcHBsaWNhdGlvblwvdm5kLm9hc2lzLm9wZW5kb2N1bWVudC5zcHJlYWRzaGVldC1mbGF0LXhtbCIsImFwcGxpY2F0aW9uXC92bmQub2FzaXMub3BlbmRvY3VtZW50LmdyYXBoaWNzLWZsYXQteG1sIiwiYXBwbGljYXRpb25cL3ZuZC5vYXNpcy5vcGVuZG9jdW1lbnQucHJlc2VudGF0aW9uLWZsYXQteG1sIiwiYXBwbGljYXRpb25cL3ZuZC5sb3R1cy13b3JkcHJvIiwiYXBwbGljYXRpb25cL3ZuZC52aXNpbyIsImFwcGxpY2F0aW9uXC92bmQubXMtdmlzaW8uZHJhd2luZyIsImFwcGxpY2F0aW9uXC92bmQud29yZHBlcmZlY3QiLCJhcHBsaWNhdGlvblwvcnRmIiwidGV4dFwvcnRmIiwiYXBwbGljYXRpb25cL21zb25lbm90ZSIsImFwcGxpY2F0aW9uXC9tc3dvcmQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwuZG9jdW1lbnQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXdvcmQuZG9jdW1lbnQubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy13b3JkLnRlbXBsYXRlLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwuc2hlZXQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm1zLWV4Y2VsLnNoZWV0Lm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtZXhjZWwudGVtcGxhdGUubWFjcm9FbmFibGVkLjEyIiwiYXBwbGljYXRpb25cL3ZuZC5tcy1leGNlbC5hZGRpbi5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLWV4Y2VsLnNoZWV0LmJpbmFyeS5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnByZXNlbnRhdGlvbm1sLnByZXNlbnRhdGlvbiIsImFwcGxpY2F0aW9uXC92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQucHJlc2VudGF0aW9ubWwudGVtcGxhdGUiLCJhcHBsaWNhdGlvblwvdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnByZXNlbnRhdGlvbm1sLnNsaWRlc2hvdyIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC5hZGRpbi5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQucHJlc2VudGF0aW9uLm1hY3JvRW5hYmxlZC4xMiIsImFwcGxpY2F0aW9uXC92bmQubXMtcG93ZXJwb2ludC50ZW1wbGF0ZS5tYWNyb0VuYWJsZWQuMTIiLCJhcHBsaWNhdGlvblwvdm5kLm1zLXBvd2VycG9pbnQuc2xpZGVzaG93Lm1hY3JvRW5hYmxlZC4xMiIsInRleHRcL2NzdiJdLCJtaW1ldHlwZXNOb0RlZmF1bHRPcGVuIjpbImltYWdlXC9zdmcreG1sIiwiYXBwbGljYXRpb25cL3BkZiIsInRleHRcL3BsYWluIiwidGV4dFwvc3ByZWFkc2hlZXQiXSwibWltZXR5cGVzU2VjdXJlVmlldyI6W10sImNvbGxhYm9yYSI6eyJjb252ZXJ0LXRvIjp7ImF2YWlsYWJsZSI6dHJ1ZSwiZW5kcG9pbnQiOiJcL2Nvb2xcL2NvbnZlcnQtdG8ifSwiaGFzRG9jdW1lbnRTaWduaW5nU3VwcG9ydCI6dHJ1ZSwiaGFzTW9iaWxlU3VwcG9ydCI6dHJ1ZSwiaGFzUHJveHlQcmVmaXgiOmZhbHNlLCJoYXNTZXR0aW5nSWZyYW1lU3VwcG9ydCI6dHJ1ZSwiaGFzVGVtcGxhdGVTYXZlQXMiOmZhbHNlLCJoYXNUZW1wbGF0ZVNvdXJjZSI6dHJ1ZSwiaGFzV0FTTVN1cHBvcnQiOmZhbHNlLCJoYXNXb3BpQWNjZXNzQ2hlY2siOnRydWUsImhhc1pvdGVyb1N1cHBvcnQiOnRydWUsInByb2R1Y3ROYW1lIjoiQ29sbGFib3JhIE9ubGluZSBEZXZlbG9wbWVudCBFZGl0aW9uIiwicHJvZHVjdFZlcnNpb24iOiIyNC4wNC4xMy4yIiwicHJvZHVjdFZlcnNpb25IYXNoIjoiZGVkNTZkOGZmNyIsInNlcnZlcklkIjoiN2EyNWJiYWQifSwiZGlyZWN0X2VkaXRpbmciOnRydWUsInRlbXBsYXRlcyI6dHJ1ZSwicHJvZHVjdE5hbWUiOiJOZXh0Y2xvdWQgT2ZmaWNlIiwiZWRpdG9ubGluZV9lbmRwb2ludCI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcLyIsImNvbmZpZyI6eyJ3b3BpX3VybCI6Imh0dHBzOlwvXC90aGUtZG9jcy1oYXZlbi50YWJkaWdpdGFsLmV1IiwicHVibGljX3dvcGlfdXJsIjoiaHR0cHM6XC9cL3RoZS1kb2NzLWhhdmVuLnRhYmRpZ2l0YWwuZXUiLCJ3b3BpX2NhbGxiYWNrX3VybCI6IiIsImRpc2FibGVfY2VydGlmaWNhdGVfdmVyaWZpY2F0aW9uIjoieWVzIiwiZWRpdF9ncm91cHMiOm51bGwsInVzZV9ncm91cHMiOm51bGwsImRvY19mb3JtYXQiOm51bGwsInRpbWVvdXQiOjE1fX0sInN1cHBvcnQiOnsiaGFzVmFsaWRTdWJzY3JpcHRpb24iOnRydWUsImRlc2t0b3BFbnRlcnByaXNlQ2hhbm5lbCI6InN0YWJsZSJ9LCJ0aGVtaW5nIjp7Im5hbWUiOiJOZXh0Y2xvdWQiLCJ1cmwiOiJodHRwczpcL1wvY2xvdWQudGFiLmRpZ2l0YWxcLyIsInNsb2dhbiI6ImEgc2FmZSBob21lIGZvciBhbGwgeW91ciBkYXRhIiwiY29sb3IiOiIjMDA2NzllIiwiY29sb3ItdGV4dCI6IiNmZmZmZmYiLCJjb2xvci1lbGVtZW50IjoiIzAwNjc5ZSIsImNvbG9yLWVsZW1lbnQtYnJpZ2h0IjoiIzAwNjc5ZSIsImNvbG9yLWVsZW1lbnQtZGFyayI6IiMwMDY3OWUiLCJsb2dvIjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbFwvIiwiYmFja2dyb3VuZCI6Imh0dHBzOlwvXC9raW0ubmwudGFiLmRpZ2l0YWxcL2FwcHNcL3RoZW1pbmdcL2ltZ1wvYmFja2dyb3VuZFwvamVubmEta2ltLXRoZS1nbG9iZS53ZWJwIiwiYmFja2dyb3VuZC10ZXh0IjoiI2ZmZmZmZiIsImJhY2tncm91bmQtcGxhaW4iOmZhbHNlLCJiYWNrZ3JvdW5kLWRlZmF1bHQiOnRydWUsImxvZ29oZWFkZXIiOiJodHRwczpcL1wva2ltLm5sLnRhYi5kaWdpdGFsXC8iLCJmYXZpY29uIjoiaHR0cHM6XC9cL2tpbS5ubC50YWIuZGlnaXRhbFwvIn0sInVzZXJfc3RhdHVzIjp7ImVuYWJsZWQiOnRydWUsInJlc3RvcmUiOnRydWUsInN1cHBvcnRzX2Vtb2ppIjp0cnVlfSwid2VhdGhlcl9zdGF0dXMiOnsiZW5hYmxlZCI6dHJ1ZX19">
+			<input type="hidden" id="initial-state-core-versionHash" value="IjBiY2RmOWM0Ig==">
+			<input type="hidden" id="initial-state-comments-maxAutoCompleteResults" value="MTA=">
+	</div>
+		<div class="wrapper">
+			<div class="v-align">
+									<header>
+						<div id="header">
+							<div class="logo"></div>
+						</div>
+					</header>
+								<main>
+					<h1 class="hidden-visually">
+						Nextcloud					</h1>
+					<div class="guest-box">
+	<div class="icon-big icon-error"></div>
+	<h2>Maintenance mode</h2>
+	<p>This Nextcloud instance is currently in maintenance mode, which may take a while. This page will refresh itself when the instance is available again.</p>
+	<p>Contact your system administrator if this message persists or appeared unexpectedly.</p>
+</div>
+				</main>
+			</div>
+		</div>
+				<footer class="guest-box ">
+			<p class="info">
+				<a href="https://cloud.tab.digital/" target="_blank" rel="noreferrer noopener" class="entity-name">Nextcloud</a> – a safe home for all your data			</p>
+		</footer>
+	</body>
+</html>
