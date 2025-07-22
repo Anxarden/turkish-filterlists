@@ -12,6 +12,7 @@
 ||tolt.io^$third-party,all
 ||firstpromoter.com^
 ||seon.io^
+||cdn-cookieyes.com^
 ||adnxs.com^
 ||abtasty.com^
 ||appsflyer.com^
