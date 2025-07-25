@@ -272,6 +272,9 @@
 ||softonic.com^
 ||uptodown.com^
 ||vpnmentor.com^
+! Scam Websites
+||crypto-license.org^
+||coinovamarket.com^
 #- Official Pirating Website Notes
 ! windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 ! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
