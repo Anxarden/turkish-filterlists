@@ -11,6 +11,7 @@
 ||seline.com^$third-party,all
 ||tolt.io^$third-party,all
 ||hdbkell.com^
+||appboycdn.com^
 ||84eb50d125.com^
 ||firstpromoter.com^
 ||seon.io^

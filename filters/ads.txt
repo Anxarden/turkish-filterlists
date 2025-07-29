@@ -67,6 +67,8 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
+receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
+receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
@@ -121,6 +123,8 @@ terabox.com##.side-bottom>div.notification-wrap
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
+inbox.lt##div[id^=mailplus-promo_]
+inbox.lt##div.modal-backdrop
 ! Cookie Banners
 deepl.com##div[data-testid="dl-cookieBanner"]
 techdergi.net##[id=cookie-box]
