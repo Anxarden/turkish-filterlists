@@ -10,6 +10,7 @@
 ||statcounter.com^
 ||seline.com^$third-party,all
 ||tolt.io^$third-party,all
+||cronitor.io^$third-party,all
 ||hdbkell.com^
 ||appboycdn.com^
 ||84eb50d125.com^
@@ -352,6 +353,7 @@
 ||hxiabp.colins.com.tr^
 ||zjhswy.comeup.com.tr^
 ||static.criteo.net^
+||rum.cronitor.io^
 ||vedznh.cumhuriyet.com.tr^
 ||reklamstore.cubecdn.net^
 ||campaigns.cyberinsider.com^
