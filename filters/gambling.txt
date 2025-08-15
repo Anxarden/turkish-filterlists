@@ -85,7 +85,11 @@
 ||betpipo514.com^
 ||306betine.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
+||heylink.me
+||omaneltellink.link^
+||shorterflix.com^
 ||tolisto.com^
+||sanalticaretim.com^
 ||sinaff.com^
 ||eticaretbayimiz.com^
 ||fasttrack-solutions.com^
@@ -532,6 +536,7 @@
 ||zaferbet.com^
 ||zerozero.com.tr^
 ||zolobet.com^
+||cutt.ly^
 ||zolobet.pro^
 ||zoombaplay.com^
 ||zotabet.com^
@@ -539,6 +544,8 @@
 ||zulasite.xyz^
 ||zullagit.xyz^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
+||t2m.io^
+||r2m.io^
 ||a.info^
 ||csnr.me^
 ||hub88.io^
@@ -549,6 +556,7 @@
 ||trk4ot.com^
 ||o724rd.xyz^
 ||snbgir.xyz^
+||xyzrdr.xyz^
 ||bcapps.org^
 ||bhszab.com^
 ||d724rd.xyz^
@@ -659,7 +667,7 @@
 ||r5d63ktxatvkpcr1ambke39t57edd52e.xyz^
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||srenarj05s3nxp26xtx54me10isach2m.xyz^
-#- Social Media Pages
+#- Social Media Pages & Link Shorteners
 ||instagram.com/*bahis$doc
 ||instagram.com/*casino$doc
 ||instagram.com/btcsosyal^$doc
@@ -692,6 +700,7 @@
 ||klab-*.tumblr.com^
 !- pages.dev|blogspot.com
 ||redirect-*.pages.dev^
+
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
 ||agc-casino.s3.amazonaws.com^
