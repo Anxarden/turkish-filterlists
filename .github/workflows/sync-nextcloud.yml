@@ -1,9 +1,7 @@
-name: Auto-fetch from Nextcloud
+name: Auto-fetch from Nextcloud (Test)
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'  # Runs every 4 hours
-  workflow_dispatch:  # Allows manual execution
+  workflow_dispatch:  # Manual trigger for testing
 
 jobs:
   fetch-files:
@@ -12,12 +10,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: filters  # Checkout the correct branch
+          ref: filters
           token: ${{ secrets.GH_PAT }}
 
       - name: Download Filter Files from Nextcloud
         run: |
-          # Only fetch the three filter files, NOT filterlist.txt
+          # Fetch all four files
+          curl -fSL -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
           curl -fSL -o filters/ads.txt "${{ secrets.LINK_ADS }}"
           curl -fSL -o filters/badware.txt "${{ secrets.LINK_BADWARE }}"
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
@@ -33,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "Anxarden"
           git config --global user.email "Anxarden@users.noreply.github.com"
-          git add filters/*.txt filterlist.txt
-          git commit -m "Auto-fetch from Nextcloud" || exit 0
-          git push https://x-access-token:${GH_TOKEN}@github.com/Anxarden/turkish-filterlists.git filters
+          git add filterlist.txt filters/*.txt
+          git commit -m "Auto-fetch from Nextcloud (Test)" || exit 0
+          git push origin filters
