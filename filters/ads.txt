@@ -6,6 +6,7 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 ! Advert Related Content (Banners, Frames, Texts etc...)
+tab.digital##footer>a:has(>img[src$="/banner.png"])
 /dizipal\d{3}\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /dizipal\d{3}\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
 /diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/,hambiltonian.com##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
@@ -37,6 +38,7 @@ hurriyet.com.tr##section.adv
 icedrive.net##[id=ad-summer]
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 internxt.com##.h-screen:has(>.fixed>button)
+katfile.com##div#container:has(div.recommended)
 mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
@@ -51,6 +53,8 @@ pcloud.com##.left-banner:has([class*=AdCloseButton])
 pcloud.com##.left-banner:has-text(/Discount/i)
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
+receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
+receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
 reddit.com##advertise-button
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
@@ -67,8 +71,6 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
-receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
-receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
