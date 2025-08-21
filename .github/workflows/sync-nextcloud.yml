@@ -12,12 +12,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: filters
+          ref: filters  # Checkout the correct branch
           token: ${{ secrets.GH_PAT }}
 
-      - name: Download Filter Files from Nextcloud
+      - name: Download Files from Nextcloud
         run: |
-          # Fetch all four files
           curl -fSL -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
           curl -fSL -o filters/ads.txt "${{ secrets.LINK_ADS }}"
           curl -fSL -o filters/badware.txt "${{ secrets.LINK_BADWARE }}"
@@ -34,6 +33,6 @@ jobs:
         run: |
           git config --global user.name "Anxarden"
           git config --global user.email "Anxarden@users.noreply.github.com"
-          git add filterlist.txt filters/*.txt
+          git add .
           git commit -m "Auto-fetch from Nextcloud" || exit 0
           git push https://x-access-token:${GH_TOKEN}@github.com/Anxarden/turkish-filterlists.git filters
