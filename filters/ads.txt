@@ -55,6 +55,7 @@ rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
 reddit.com##advertise-button
+rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
 tab.digital##^footer>a:has(>img[src$="/banner.png"])
@@ -76,16 +77,16 @@ filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
 
 #----------------------------------------------------------------------------------------------------#
-#- Generic AD Filters
+#- Generic Cosmetic AD Filters
 #----------------------------------------------------------------------------------------------------#
 ! rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##a[class="ads_single_font"i]
+##a[class^="ads_"i]
+##div[class$="-ad"i]
+##div[class="ads-container"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-adjustment"i]
-##div[class="ads-container"i]
-##div[class="player-side-ad"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 
