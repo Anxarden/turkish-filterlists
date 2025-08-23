@@ -3,7 +3,7 @@
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen unsurları engeller/gizler.
 ! Last modified: 2025.08.23
-! Expires: 24 Hours
+! Expires: 24 hours
 
 !--------------------------------------------------!
 #- AD FILTERS
