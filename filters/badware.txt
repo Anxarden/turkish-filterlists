@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
+||getjan.io^
 ||jimages.xyz^
 ||heylink.com^
 ||optad360.io^
