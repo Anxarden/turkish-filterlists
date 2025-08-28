@@ -84,6 +84,7 @@
 #- Newly Found Networks & Regex Candidates
 ||betpipo514.com^
 ||306betine.com^
+||casinopop334.com^
 #- Gambling Networks, CDNs, SEOs and Redirect Links
 ||alezkaturizm.com^
 ||mmyposta.com^

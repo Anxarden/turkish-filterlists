@@ -8,6 +8,9 @@
 #- General Blacklist for Privacy and Safety
 ! Trackers and Other 3rd-Party Domains
 ||getjan.io^
+||piwik.pro^
+||geniuslinkcdn.com^
+||servedby-buysellads.com^
 ||jimages.xyz^
 ||heylink.com^
 ||optad360.io^
@@ -453,6 +456,7 @@
 ||adsp.haberturk.com^
 ||fimyxg.haberturk.com^
 ||log.haberturk.com^
+||beacon-*.helpscout.net^
 ||tjbhng.hemington.com.tr^
 ||adservice.hepsiburada.com^
 ||clicks.h.hepsiburada.com^
