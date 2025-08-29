@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||bootcdn.net^
 ||dotmetrics.net^
 ||optimizely.com^
 ||tinypass.com^
