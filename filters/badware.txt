@@ -213,7 +213,6 @@
 ||ssm.codes^
 ||statcounter.com^
 ||stpd.cloud^
-||stripe.com^$third-party
 ||subservis.com^
 ||superonclick.com^
 ||survicate.com^
@@ -592,6 +591,7 @@
 ||xenaly.sozcu.com.tr^
 ||tracking.ssab.com.tr^
 ||ping.staticmoly.me^
+||r.stripe.com^$ping,script,xhr
 ||ads.superonline.com^
 ||omni.superonline.net^
 ||somni.superonline.net^
