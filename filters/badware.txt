@@ -169,6 +169,7 @@
 ||parsely.com^
 ||pendo.io^$all
 ||perfops.net^$third-party
+||intercom.io^$third-party
 ||permutive.app^
 ||pigeoon.com^
 ||piwik.pro^
