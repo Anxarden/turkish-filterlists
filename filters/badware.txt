@@ -8,7 +8,10 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||bootcdn.net^
+||hardexpendstrategy.com^
 ||cookiebot.com^
+||waust.at^
+||kops1.site^
 ||dotmetrics.net^
 ||optimizely.com^
 ||tinypass.com^
