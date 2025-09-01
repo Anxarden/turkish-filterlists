@@ -9,6 +9,7 @@
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||bootcdn.net^
 ||databuddy.cc^
+||jwpltx.com^
 ||hardexpendstrategy.com^
 ||cookiebot.com^
 ||waust.at^

@@ -25,6 +25,7 @@ documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
 documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
+ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
 faketempmail.com##a.banner-custom
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
@@ -43,6 +44,7 @@ milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
 myanimelist.net##.title>.detail>div.manga-store-information
 mynet.com##a.sponsored-image
+
 ntv.com.tr##div[class*="fix-ads-item-"]
 ownedcore.com##div.body_wrap>div.shoutout
 ownedcore.com##div.body_wrap>div.so-wrapper
@@ -55,7 +57,7 @@ rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
 reddit.com##advertise-button
-rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
+
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
 tab.digital##^footer>a:has(>img[src$="/banner.png"])
@@ -72,10 +74,12 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
-ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
 frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
+! Filter Advert/Promo/Banner Images via Network Filtering
+natgeotv.com##^a#home-promo-banner
+rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic AD Filters
@@ -153,7 +157,7 @@ startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
 startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
 
 #- Website Fixes
-! hide the ad frames and display the video player
+! hide the ad frames to display the video player
 dizipal951.com##.player-wrapper>div.pre-player
 dizipal951.com##.player-wrapper>div.video-banner{display:block !important;}
 ! disable adblock detection and hide loading status for player
