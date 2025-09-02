@@ -8,6 +8,9 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||bootcdn.net^
+||getter.fun^
+||franeski.net^
+||franecki.net^
 ||databuddy.cc^
 ||jwpltx.com^
 ||ausoafab.net^
