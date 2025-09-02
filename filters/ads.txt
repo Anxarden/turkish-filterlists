@@ -166,7 +166,7 @@ gledaitv.fan##div#loading-spinner
 ! preload/loading effect annoyance
 thehouseofportable.com##[id="preload"]
 
-#- Wipe ADs and Visual Debloat
+#- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 ! ad/information post, css fixes
 lrepacks.net##[id="sidebar"]>[id^="categories-"]
 lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
@@ -207,6 +207,7 @@ tuttop.com##noindex>p:has(>a[href^="/donat.html"])
 tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
 vsetop.org##div#content>ul.naviga
 vsetop.org##div#footer
+vsetop.org##div.body>p:has(>a[href^="/donat.html"])
 
 #----------------------------------------------------------------------------------------------------#
 #- Scriptlets
