@@ -10,6 +10,7 @@
 ||bootcdn.net^
 ||getter.fun^
 ||franeski.net^
+||marketo.com^
 ||franecki.net^
 ||databuddy.cc^
 ||jwpltx.com^
