@@ -84,6 +84,7 @@ rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 #----------------------------------------------------------------------------------------------------#
 ! common advert path filters
 /reklamlar/*$image
+/rklm/resim/*$image
 ! rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 

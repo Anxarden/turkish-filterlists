@@ -7,6 +7,8 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||agl005.tech^
+||hemenindir.to^
 ||bootcdn.net^
 ||getter.fun^
 ||franeski.net^
@@ -570,6 +572,7 @@
 ||pg.prima.com.tr^
 ||smetrics.pwc.com.tr^
 ||target.pwc.com.tr^
+||dx.pyramidshowery.com^
 ||djnqoe.rani.com.tr^
 ||sstag1.rani.com.tr^
 ||weblog.rclone.org^
