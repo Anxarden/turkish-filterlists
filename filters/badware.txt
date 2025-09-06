@@ -633,6 +633,7 @@
 ||banner.tmgrup.com.tr^
 ||sayac.tmgrup.com.tr^
 ||cdn.tolt.io^
+||lil-sebastian.trakt.tv^
 ||rechenschieber.transfermarkt.com.tr^
 ||cgqkhc.trendyol.com^
 ||collect.trendyol.com^
