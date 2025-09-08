@@ -7,6 +7,9 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||fodsoack.com^
+||dm-event.net^
+||gekeebsirs.com^
 ||youthyeather.com^
 ||grookilteepsou.net^
 ||agl005.tech^
@@ -276,6 +279,7 @@
 ||turknova.net^
 ||turknova.org^
 ||torrent-indir.net^
+||hambiltonian.com^
 ! Potantialy Dangerious Redirecting Links
 ||mnopa.click^
 ! Adware and not Privacy-Friendly Softwares/Services
@@ -305,6 +309,8 @@
 ||softonic.com^
 ||uptodown.com^
 ||vpnmentor.com^
+||download.it^
+||aptoide.com^
 ! Scam Websites
 ||crypto-license.org^
 ||coinovamarket.com^
@@ -495,7 +501,6 @@
 ||nxggwx.ideasoft.com.tr^
 ||halo.idocdn.com^
 ||ocdhbt.ihvan.com.tr^
-||medya.ilan.gov.tr^
 ||sentry.ing.com.tr^
 ||pixels.ingbank.com.tr^
 ||cmp.inmobi.com^
