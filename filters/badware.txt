@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||youthyeather.com^
 ||agl005.tech^
 ||hemenindir.to^
 ||bootcdn.net^
@@ -75,7 +76,6 @@
 ||casalemedia.com^
 ||cdn-cookieyes.com^
 ||cdnstr.com^
-||chartbeat.com^
 ||clarity.ms^
 ||cloudflareinsights.com^$all
 ||consensu.org^
@@ -177,7 +177,6 @@
 ||onetrust.com^
 ||onezapp.com^
 ||optad360.io^
-||optimizely.com^
 ||parsely.com^
 ||pendo.io^$all
 ||perfops.net^$third-party
