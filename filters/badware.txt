@@ -8,6 +8,7 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||youthyeather.com^
+||grookilteepsou.net^
 ||agl005.tech^
 ||hemenindir.to^
 ||bootcdn.net^
@@ -376,7 +377,9 @@
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d3c8j8snkzfr1n.cloudfront.net^
+||d3jzhqnvnvdy34.cloudfront.net^
 ||dcbbwymp1bhlf.cloudfront.net^
+||dgaf2ncy4dtan.cloudfront.net^
 ||static.cloudflareinsights.com^
 ||download.cnet.com^
 ||hxiabp.colins.com.tr^
