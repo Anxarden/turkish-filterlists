@@ -7,6 +7,10 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||pyramidshowery.com^
+||dataroid.com^
+||dianomi.com^
+||id5-sync.com^
 ||fodsoack.com^
 ||dm-event.net^
 ||gekeebsirs.com^
@@ -88,6 +92,7 @@
 ||crazyegg.com^
 ||creativecdn.com^
 ||criteo.net^$all
+||glomil.com^$third-party,all
 ||cronitor.io^$third-party,all
 ||crwdcntrl.net^
 ||cupbearergrowllurch.com^
@@ -384,6 +389,7 @@
 ||d31qbv1cthcecs.cloudfront.net^
 ||d3c8j8snkzfr1n.cloudfront.net^
 ||d3jzhqnvnvdy34.cloudfront.net^
+||dbfukofby5ycr.cloudfront.net^
 ||dcbbwymp1bhlf.cloudfront.net^
 ||dgaf2ncy4dtan.cloudfront.net^
 ||static.cloudflareinsights.com^
@@ -443,6 +449,7 @@
 ||nqtinp.germirli.com.tr^
 ||collector.github.com^
 ||new-sentry.gitlab.net^
+||temp-akiva.glomil.com^
 ||s.gofile.io^
 ||admob.google.com^
 ||ads.google.com^
