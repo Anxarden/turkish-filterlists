@@ -160,8 +160,8 @@ startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
 startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
 #- Website Fixes
 ! hide the ad frames to display the video player
-dizipal*.com##.player-wrapper>div.pre-player
-dizipal*.com##.player-wrapper>div.video-banner{display:block !important;}
+/dizipal\d*\.com/##.player-wrapper>div.pre-player
+/dizipal\d*\.com/##.player-wrapper>div.video-banner{display:block !important;}
 ! disable adblock detection and hide loading status for player
 gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
@@ -223,7 +223,7 @@ zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
 ! +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
-dizipal*.com##+js(abort-on-property-read, manageAds)
+/dizipal\d*\.com/##+js(abort-on-property-read, manageAds)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)

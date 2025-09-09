@@ -10,6 +10,10 @@
 ||casino.$all
 ||bet^
 ||casino^
+||poker^
+||lotto^
+||bingo^
+||slots^
 #- Gambling Domains /w Wildcard TLDs
 ||afun.$all,to=/afun\.[^.]+(?:\.[^.]+)?$/
 ||bet365.$all,to=/bet365\.[^.]+(?:\.[^.]+)?$/
