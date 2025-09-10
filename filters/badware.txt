@@ -647,6 +647,7 @@
 ||mcs-va.tiktokv.com^
 ||ad01.tmgrup.com.tr^
 ||banner.tmgrup.com.tr^
+||ipcheck.tmgrup.com.tr^
 ||sayac.tmgrup.com.tr^
 ||cdn.tolt.io^
 ||lil-sebastian.trakt.tv^
