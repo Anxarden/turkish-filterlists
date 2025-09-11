@@ -103,7 +103,8 @@ rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
-dogrulukpayi.com##div.follow-banner,div.follow-social-section
+dogrulukpayi.com##div.follow-banner
+dogrulukpayi.com##div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 ovagames.com##div.sidebar-box:has-text(/^facebook/i)
@@ -113,7 +114,7 @@ torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 chess.com##div#trial-modal
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
-dogrulukpayi.com##[aria-label="subscription-request"]:upward(reach-portal)
+dogrulukpayi.com##reach-portal{display:none !important;}
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
