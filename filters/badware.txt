@@ -8,6 +8,7 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||rectangularfoundation.com^
+||chartbeat.com^
 ||sift.com^
 ||pyramidshowery.com^
 ||dataroid.com^
@@ -33,9 +34,8 @@
 ||waust.at^
 ||kops1.site^
 ||dotmetrics.net^
-||optimizely.com^
+||optimizely.com^$all
 ||tinypass.com^
-||chartbeat.com^
 ||84eb50d125.com^
 ||abtasty.com^
 ||acquiredeceasedundress.com^
