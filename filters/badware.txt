@@ -7,6 +7,7 @@
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||zdbb.net^
 ||rectangularfoundation.com^
 ||chartbeat.com^
 ||sift.com^
@@ -309,6 +310,8 @@
 ||utorrent.com^
 ||zenmate.com^
 ! 3rd-Party Shady Download/SEO Websites
+||cnet.com^
+||download.com^
 ||filecr.com^
 ||filehorse.com^
 ||indir.org^
