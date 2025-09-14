@@ -1,8 +1,9 @@
+! [uBlock Origin]
 ! Title: 🇹🇷 [Türkçe] Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen unsurları engeller/gizler.
-! Last modified: 2025.09.13
+! Last modified: 2025.09.14
 ! Expires: 24 hours
 
 !--------------------------------------------------!

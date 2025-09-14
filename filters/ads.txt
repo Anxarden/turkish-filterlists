@@ -6,6 +6,7 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 ! Advert Related Content (Banners, Frames, Texts etc...)
+sozcu.com.tr##div[id="membranadesktop"i],div[id="membranamobile"i]
 /dizipal\d+\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /dizipal\d+\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
 /diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
@@ -78,24 +79,6 @@ frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
 ! Filter Advert/Promo/Banner Images via Network Filtering
 natgeotv.com##^a#home-promo-banner
 rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
-
-#----------------------------------------------------------------------------------------------------#
-#- Generic Cosmetic and Network Path AD Filters 
-#----------------------------------------------------------------------------------------------------#
-! common advert path filters
-/reklamlar/*$image
-/rklm/resim/*$image
-! rockmods.net, proinvitelinks.com
-##div[id$="-ad-placeholder"i]
-! dizipal\d{4}.com, netflixcenter.com, voditza.com 
-##a[class^="ads_"i]
-##div[class$=" containerads"i]
-##div[class$="-ad"i]
-##div[class$="-ad-container"i]
-##div[class*="-ads-adjustment"i]
-##div[class="ads-container"i]
-! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
-##body>div.body-clickable
 
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
@@ -228,3 +211,28 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+
+#----------------------------------------------------------------------------------------------------#
+#- Generic Cosmetic and Network Path AD Filters 
+#----------------------------------------------------------------------------------------------------#
+! rockmods.net, proinvitelinks.com
+##div[id$="-ad-placeholder"i]
+! dizipal\d{4}.com, netflixcenter.com, voditza.com 
+##a[class^="ads_"i]
+##div[class$=" containerads"i]
+##div[class$="-ad"i]
+##div[class$="-ad-container"i]
+##div[class*="-ads-adjustment"i]
+##div[class="ads-container"i]
+! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
+##body>div.body-clickable
+! common advert path filters
+/reklamlar/*$image
+/rklm/resim/*$image
+/wp-content/*.gif$first-party,image,domain=/diziyou\d*\.com$/
+! specific advert path filters
+||googleusercontent.com/img/b/r29vz2xl/avvxse*/s$third-party,image
+||hsforms.com/*/counters.gif$image
+||chesscomfiles.com/uploads/ad_image/$image
+||paypalobjects.com/*/pixel.gif^$image
+||playwire.com/*/powered-by-playwire-badges/$third-party,image
