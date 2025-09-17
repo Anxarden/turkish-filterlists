@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||21wiz.com^
 ||rokt.com^
 ||conicsbowle.com^
 ||zdbb.net^
@@ -351,6 +352,7 @@
 ||fls-na.amazon.com^
 ||unagi.amazon.com.tr^
 ||unagi.amazon.com^
+||events.animecix.co^
 ||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^

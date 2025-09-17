@@ -219,6 +219,7 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
