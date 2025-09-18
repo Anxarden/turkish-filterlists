@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen unsurları engeller/gizler.
-! Last modified: 2025.09.17
+! Last modified: 2025.09.18
 ! Expires: 24 hours
 
 !--------------------------------------------------!
@@ -27,4 +27,27 @@
 !--------------------------------------------------!
 #- OTHER FILTERS
 !--------------------------------------------------!
-
+! elektronik-sigara - yasadışı / olası dolandırıcılık
+||vozol*.$document,to=~vozol.com
+||podsigara*.com^
+||sonbuhar*.com^
+||canatura.com^
+||drelektroniksigara.com^
+||esigaraal.com.tr^
+||esigarashops.com^
+||esmokertr.net^
+||iqos.gen.tr^
+||iqoskapinda.com^
+||pufftrend.net^
+||rainvape.com^
+||smokelektroniksigara.com^
+||smoketechs.com^
+||smoketr.com^
+||vangutech.com^
+||vapepro.eu^
+||vozolbars.com^
+||vozoldukkani.com^
+||puffyparrot.com^
+||smokeshop.world^
+||buharama.org^
+||blogvaper.com^
