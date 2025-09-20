@@ -27,7 +27,7 @@
 !--------------------------------------------------!
 #- OTHER FILTERS
 !--------------------------------------------------!
-! elektronik-sigara - yasadışı / olası dolandırıcılık
+! elektronik sigara - yasadışı / olası dolandırıcılık
 ||vozol*.$document,to=~vozol.com
 ||buharkeyf*.org^
 ||dumandegilbuhar*.com^
