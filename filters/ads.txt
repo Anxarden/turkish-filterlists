@@ -85,8 +85,10 @@ rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 #----------------------------------------------------------------------------------------------------#
 ! Website Announcements/Notifications																 ~
 dogrulukpayi.com##div.seventh-year-section
+! Subscription/Discount/Trials Aggressive Marketing													 ~
+pixlr.com##div[id$=-discount-banner]
 ! Cookie Banners																					 ~
-deepl.com##div[data-testid="dl-cookieBanner"]
+deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
@@ -96,7 +98,7 @@ dogrulukpayi.com##div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 ovagames.com##div.sidebar-box:has-text(/^facebook/i)
-! Trial/Subscription/PRO/VIP etc. Buttons/Banners/Sections/Blocks/Texts
+! Trial/Subscription/PRO/VIP/Discount etc. Buttons/Banners/Sections/Blocks/Texts
 chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 chess.com##div#trial-modal
