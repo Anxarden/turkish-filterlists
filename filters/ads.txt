@@ -85,7 +85,7 @@ rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 #----------------------------------------------------------------------------------------------------#
 ! Website Announcements/Notifications																 ~
 dogrulukpayi.com##div.seventh-year-section
-! Subscription/Discount/Trials Aggressive Marketing													 ~
+! Subscription/Discount/Trials Etc. Marketing														 ~
 pixlr.com##div[id$=-discount-banner]
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
@@ -230,11 +230,10 @@ asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
 ##div[id$="-ad-placeholder"i]
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
 ##a[class^="ads_"i]
-##div[class$=" containerads"i]
 ##div[class$="-ad"i]
 ##div[class$="-ad-container"i]
-##div[class*="-ads-adjustment"i]
-##div[class="ads-container"i]
+##div[class*="-ads-"i]
+##div[class^="ads-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 ! common advert path filters

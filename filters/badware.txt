@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||adthrive.com^
 ||21wiz.com^
 ||84eb50d125.com^
 ||abtasty.com^
@@ -558,6 +559,7 @@
 ||cdn.livechatinc.com^
 ||ad.mail.ru^
 ||leytsb.marcomen.com.tr^
+||device.maxmind.com^
 ||dialogue.mazda.com.tr^
 ||sffsgi.miele.com.tr^
 ||affiliate.migros.com.tr^
