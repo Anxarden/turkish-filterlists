@@ -90,6 +90,9 @@ pixlr.com##div[id$=-discount-banner]
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
+! CSS Fixes and Customisations																		 ~
+ezgif.com###main{margin-left:unset !important}
+filmmakinesi.tv##body{padding-top:unset !important}
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
@@ -104,7 +107,7 @@ torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 chess.com##div#trial-modal
 deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
-dogrulukpayi.com##reach-portal{display:none !important;}
+dogrulukpayi.com##reach-portal{display:none !important}
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
