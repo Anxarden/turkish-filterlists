@@ -289,7 +289,7 @@
 ||zintrack.com^
 ||zolaizeblowier.com^
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
-! Shady Softwares/Services and Related Websites		~
+!~ Shady Softwares/Services and Related Websites
 ||astrill.com^
 ||atlasvpn.com^
 ||avast.com^
@@ -368,13 +368,13 @@
 ||zenmate.com^
 ||kaspersky.com^
 ||kaspersky-labs.com^
-! Shady SEO/Affiliate Websites
+!~ Shady SEO/Affiliate Websites							
 ||top10vpn.com^
 ||vpngids.nl^
 ||vpndetectives.com^
-! Potantialy Dangerious Redirecting Links
+!~ Potantialy Dangerious Redirecting Links
 ||mnopa.click^
-! Expired/Closed Domains of Old Websites
+!~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
 ||hambiltonian.com^
@@ -385,7 +385,7 @@
 ||torrenthane.net^
 ||turknova.net^
 ||turknova.org^
-! Badware/Anti-Privacy Download Sites
+!~ Badware/Anti-Privacy Download Sites
 ||aptoide.com^
 ||bluesmods.com^
 ||cnet.com^
@@ -404,7 +404,7 @@
 ||zdnet.com^
 ||zdnet.de^
 ||softmany.com^
-! Scam Websites
+!~ Scam Websites
 ||crypto-license.org^
 ||coinovamarket.com^
 ||jink.host^
