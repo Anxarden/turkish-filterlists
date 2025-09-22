@@ -11,6 +11,8 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||adthrive.com^
+||kameleoon.io^
+||iconnode.com^
 ||iconcardinal.com^
 ||21wiz.com^
 ||84eb50d125.com^
@@ -297,6 +299,7 @@
 ||bitcomet.com^
 ||bitlord.com^
 ||bittorrent.com^
+||blackvpn.org^
 ||brightvpn.com^
 ||ccleaner.com^
 ||ccleanercloud.com^
@@ -326,14 +329,17 @@
 ||nordvpn.com^
 ||norton.com^
 ||nortonlifelock.com^
+||okvpn.net^
 ||opera.com^
 ||ovpn.com^
 ||pango.co^
 ||pcprotect.com^
 ||privacymate.com^
 ||privateinternetaccess.com^
+||proxpn.com^
 ||purevpn.com^
 ||safetydetectives.com^
+||seed4.me^
 ||skyvpn.net^
 ||strongvpn.com^
 ||surfshark.com^
@@ -342,6 +348,8 @@
 ||totalav.com^
 ||touchvpn.net^
 ||tunnelbear.com^
+||turbovpn.co^
+||turbovpn.com^
 ||ufovpn.io^
 ||ultravpn.com^
 ||utorrent.com^
@@ -349,15 +357,21 @@
 ||vpnhub.com^
 ||vpnmentor.com^
 ||vpnpro.com^
+||vpnproxymaster.com^
 ||vpnranks.com^
+||vpnsecure.me^
+||vpnsuper.com^
 ||webselenese.com^
 ||wizcase.com^
 ||wlvpn.com^
 ||xvpn.io^
 ||zenmate.com^
+||kaspersky.com^
+||kaspersky-labs.com^
 ! Shady SEO/Affiliate Websites
 ||top10vpn.com^
 ||vpngids.nl^
+||vpndetectives.com^
 ! Potantialy Dangerious Redirecting Links
 ||mnopa.click^
 ! Expired/Closed Domains of Old Websites
@@ -389,6 +403,7 @@
 ||uptodown.com^
 ||zdnet.com^
 ||zdnet.de^
+||softmany.com^
 ! Scam Websites
 ||crypto-license.org^
 ||coinovamarket.com^
@@ -439,7 +454,6 @@
 ||rsload.net^
 ||sadeemapk.com^
 ||sadeempc.com^
-||softmany.com^
 ||steamunlocked.net^
 ||taiwebs.com^
 ||tutubox.io^
@@ -827,6 +841,7 @@
 ||analytics.yahoo.com^
 ||geo.yahoo.com^
 ||udc.yahoo.com^
+||appmetrica.yandex.com^
 ||kuusay.yalispor.com.tr^
 ||analytics.yandex.com.tr^
 ||clck.yandex.com.tr^
