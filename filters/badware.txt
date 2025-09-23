@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||srv224.com^
 ||nbcuni.com^
 ||mparticle.com^$important
 ||tvpixel.com^
@@ -247,7 +248,7 @@
 ||sprig.com^
 ||squarespace-cdn.com^
 ||ssm.codes^
-||statcounter.com^
+||statcounter.com^$important
 ||stpd.cloud^
 ||subservis.com^
 ||superonclick.com^
@@ -819,6 +820,7 @@
 ||countly.vakifbank.com.tr^
 ||gmxcdm.vestel.com.tr^
 ||stats.videasy.net^
+||stats.videoseyred.in^
 ||smetrics.vitasure.com.tr^
 ||ads.vk.com^
 ||ms.vk.com^
@@ -872,6 +874,7 @@
 ||haberlercom.github.io/main/prebid$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,domain=redecanais.ps
+||setplay.cfd/player/assets/devtools-detector/$script
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters
 /player/js/nuevo.min.js$script
