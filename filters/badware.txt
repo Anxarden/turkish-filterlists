@@ -10,6 +10,10 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||nbcuni.com^
+||mparticle.com^$important
+||tvpixel.com^
+||parsely.com^$important
 ||jsonip.com^
 ||adthrive.com^
 ||kameleoon.io^
@@ -177,7 +181,6 @@
 ||mnaspm.com^
 ||moengage.com^
 ||mokihirhoda.com^
-||mparticle.com^
 ||mrf.io^
 ||msoft.sbs^
 ||mutinycdn.com^
@@ -194,7 +197,6 @@
 ||optad360.io^
 ||optimizely.com^$all
 ||paddle.com^$third-party
-||parsely.com^
 ||pendo.io^$all
 ||perfops.net^$third-party
 ||permutive.app^
