@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||vlitag.com^
 ||sheetedunrope.com^
 ||srv224.com^
 ||nbcuni.com^
@@ -672,6 +673,7 @@
 ||analitik.kgm.gov.tr^
 ||sentry.kitapyurdu.com^
 ||analytics.kkb.com.tr^
+||storage.ko-fi.com^$third-party,script
 ||dgynnj.koctas.com.tr^
 ||smetrics.kone.com.tr^
 ||xyripw.korendy.com.tr^
