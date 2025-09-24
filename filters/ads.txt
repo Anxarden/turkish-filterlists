@@ -92,7 +92,7 @@ chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
 deepl.com##header>div>span:has([href="/en/pro"])
-dogrulukpayi.com##reach-portal{display:none !important}
+dogrulukpayi.com##reach-portal{display:none !important;}
 hacksnation.com##div#adblock-overlay
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
@@ -108,8 +108,8 @@ torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
 ! CSS Fixes and Customisations																		 ~
-ezgif.com###main{margin-left:unset !important}
-filmmakinesi.tv##body{padding-top:unset !important}
+ezgif.com###main{margin-left:unset !important;}
+filmmakinesi.tv##body{padding-top:unset !important;}
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
@@ -146,6 +146,7 @@ xiguasuwu.com##body>[style]:empty
 9gag.com##[class*="post"i][class*="tag"i]
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 
+
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#
@@ -164,7 +165,9 @@ startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom
 gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
 ! preload/loading effect annoyance
-thehouseofportable.com##[id="preload"]
+thehouseofportable.com##div[id="preload"]
+! prevent scrollbar from locking
+dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
 
 #- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 ! ad/information post, css fixes

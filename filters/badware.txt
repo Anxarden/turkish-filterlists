@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||creedimages.cfd^
 ||maxmind.com^
 ||vlitag.com^
 ||sheetedunrope.com^
@@ -871,6 +872,7 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||cdn.jsdelivr.net/npm/@snowplow/$script
+||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||eksenload.site/detect.js^$script
@@ -879,7 +881,10 @@
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,domain=redecanais.ps
 ||setplay.cfd/player/assets/devtools-detector/$script
+||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
+||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||zi-scripts.com/zi-tag.js^$script
+
 #- Wildcard Paths Filters
 /player/js/nuevo.min.js$script
 /themes/bepeak/assets/js/sw.js$script
