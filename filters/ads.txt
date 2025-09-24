@@ -245,7 +245,7 @@ asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
 ! specific advert path filters
 ||diziyou*.com/wp-content/*.gif^$first-party,image
 ||chesscomfiles.com/uploads/ad_image/$image
-||googleusercontent.com/img/b/r29vz2xl/avvxse*/s$third-party,image
+||googleusercontent.com/img/b/r29vz2xl/avvxse*/s$third-party,image,from=~ovagames.com
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
 ||md.teyit.org/*-banner-purmerak-$first-party,image
 ||md.teyit.org/*/side-banner-$first-party,image
