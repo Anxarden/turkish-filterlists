@@ -10,6 +10,7 @@
 ||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||maxmind.com^
 ||vlitag.com^
 ||sheetedunrope.com^
 ||srv224.com^

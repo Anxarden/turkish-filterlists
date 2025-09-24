@@ -6,7 +6,6 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 ! Advert Related Content (Banners, Frames, Texts etc...)
-sozcu.com.tr##div[id="membranadesktop"i],div[id="membranamobile"i]
 /dizipal\d+\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /dizipal\d+\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
 /diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
@@ -52,6 +51,7 @@ ownedcore.com##ul#sidebar>li:has(div.block-plain)
 ownedcore.com##ul#sidebar>li:has-text(/sponsored/i)
 pcloud.com##.left-banner:has([class*=AdCloseButton])
 pcloud.com##.left-banner:has-text(/Discount/i)
+pexels.com##div[class^="breakpointgrid_item_"i]:has(a[class^="canvaad_"i])
 pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
@@ -59,6 +59,7 @@ receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
 reddit.com##advertise-button
 rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
+sozcu.com.tr##div[id="membranadesktop"i],div[id="membranamobile"i]
 tab.digital##^footer>a:has(>img[src$="/banner.png"])
 tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
 teamos.xyz##center:has(>div>a[title^="debrid"i])
@@ -86,7 +87,23 @@ rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
 ! Website Announcements/Notifications																 ~
 dogrulukpayi.com##div.seventh-year-section
 ! Subscription/Discount/Trials Etc. Marketing														 ~
+balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
+chatgpt.com##button[data-trailing-button]:upward(div.trailing)
+chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
+chess.com##div#trial-modal
+deepl.com##header>div>span:has([href="/en/pro"])
+dogrulukpayi.com##reach-portal{display:none !important}
+hacksnation.com##div#adblock-overlay
+inbox.lt##div.modal-backdrop
+inbox.lt##div[id^=mailplus-promo_]
+justwatch.com##div.account-modal-content div.pro-web-button
+mediafire.com##button[aria-label^="upgrade"i]:upward(div)
+mediafire.com##div:has-text(/^upgrade$/i)
+mediafire.com##div[aria-label="advertisement"i]
+mediafire.com##iframe[src$="/premium_trial.php"]
+mediafire.com##iframe[src$="/sidebar_promo.php"]
 pixlr.com##div[id$=-discount-banner]
+torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
@@ -102,22 +119,15 @@ tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 ovagames.com##div.sidebar-box:has-text(/^facebook/i)
 ! Trial/Subscription/PRO/VIP/Discount etc. Buttons/Banners/Sections/Blocks/Texts
-chatgpt.com##div>a>span:has-text(/upgrade.plan/i):upward(nav>div)
-torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
-chess.com##div#trial-modal
-deepl.com##header>div>span:has([href="/en/pro"])
 deviantart.com##span:has-text(/^upgrade/i):upward(span)
-dogrulukpayi.com##reach-portal{display:none !important}
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
 github.com##.react-code-size-details-in-header:has(button):has-text(/github.copilot/i)
 github.com##div>button>span>span:has-text(/github.copilot/i):upward(div)
-hacksnation.com##div#adblock-overlay
 letterboxd.com##.sidebar>div.banner:has([href^="/pro/"])
 mediafire.com##[role=menuitem]:has(button[title^="upgrade"i])
 mediafire.com##^.app-container>div>[style^=display]:has(iframe[src$="/premium_trial.php"])
-mediafire.com##iframe[src$="/sidebar_promo.php"]
 mega.nz##.upgrade-to-pro-dialog
 mega.nz##[class*=-promo-dialog]:has-text(/Rewind/i)
 onehack.us##[id="custom-modal"]
@@ -128,9 +138,6 @@ terabox.com##.side-bottom>div.notification-wrap
 vidsplay.com##.header>.header-banner:has-text(/Subscription/i)
 vidsplay.com##.section:has(div>[class$=-offer]):has-text(/Premium/i)
 voaturkce.com##.media-block>[title^="VOA Uygulaması"i]:upward(div[data-cookie-id])
-inbox.lt##div[id^=mailplus-promo_]
-inbox.lt##div.modal-backdrop
-balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 ! CSS Fixes and Visual Touches
 filelu.com##div[id^="chat-"]
 filelu.com##footer
