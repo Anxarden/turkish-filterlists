@@ -12,6 +12,8 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||tawk.to^
+||admaxium.com^
 ||creedimages.cfd^
 ||maxmind.com^
 ||vlitag.com^
@@ -156,6 +158,7 @@
 ||hsforms.net^
 ||hsleadflows.net^
 ||htlbid.com^
+||edgeflowjb10247.net^
 ||htplayground.com^
 ||hubspot.com^
 ||hubspotfeedback.com^
@@ -387,6 +390,8 @@
 ||mnopa.click^
 ||r2m.io^
 ||t2m.io^
+||myaffiliates.com^
+||urlsshort.link^
 !~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^

@@ -3,16 +3,17 @@
 # Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-/bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
 /bahis|casino/$all,to=/(?:bahis|casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
+/bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
+||anjouangaming.org^$third-party
 #- Gambling TLDs
 ||bet.$all
 ||casino.$all
 ||bet^
-||casino^
-||poker^
-||lotto^
 ||bingo^
+||casino^
+||lotto^
+||poker^
 ||slots^
 #- Gambling Domains /w Wildcard TLDs
 ||afun.$all,to=/afun\.[^.]+(?:\.[^.]+)?$/
@@ -86,15 +87,40 @@
 *mariobet.com^
 *truvabet.com^
 *xslot.com^
-#- Newly Found Networks & Regex Candidates
+#- Newly Found Networks ~ Regex Candidates
 ||306betine.com^
+||betpark1068.com^
 ||betpipo514.com^
+||casibom06267.com^
 ||casinopop334.com^
+||jojobel1076.com^
 ||madridreal000.com^
-||anjouangaming.org^$third-party
-#- Gambling Networks, CDNs, SEOs and Redirect Links
-||2025adresgiryeni.com^
+||ligobet919.com^
+#- SEO Websites ~ Gambling Advertisement
+||3dwisdom.in^
+||balonmanoalcobendas.org^
+||betturkey-tr.online^
+||dockofthebayva.com^
+||drunksport.com^
+||eastpioneers.com^
+||eatelcentro.com^
+||ismailblogger.com^
+||lowbrausacramento.com^
+||mcgrathvolvocarsoffortmyers.com^
 ||mehmetalisahinsucuklari.com^
+||nigerdeltaavengers.com^
+||sot.pl^
+||theislandonlaketravis.com^
+||zederna.fr^
+#- Gambling Networks, CDNs and Redirect Links
+||taraf-aff.com^
+||1xbet-sitesi.xyz^
+||royal-giris.com^
+||casibom-black.com^
+||bonusmeritking.com^
+||yeniadres2025yeni.com^
+||mkroyal.vip^
+||2025adresgiryeni.com^
 ||girisleryapburada.com^
 ||cctsummit.com^
 ||topaz.az^
@@ -564,6 +590,19 @@
 ||zulagiris.click^
 ||zulasite.xyz^
 ||zullagit.xyz^
+#- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
+||bossseoteoman.com^
+||dogru-gris2025.com^
+||enyeniguncelgiriskuty.com^
+||guncell-girisyeri.com^
+||meritbossseonur.com^
+||meriteglencebossseozkn.com^
+||meritkazanclarbosseoozkn.com^
+||meritkngerism.com^
+||meritkngsite.com^
+||mrtgirisozkn2025.com^
+||yeniadreskuty.com^
+||bis2020.com
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||a.info^
 ||csnr.me^
