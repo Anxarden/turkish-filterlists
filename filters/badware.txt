@@ -327,7 +327,6 @@
 ||ivacy.com^
 ||justvpn.net^
 ||kape.com^
-||kape.com^
 ||lastpass.com^
 ||limewire.com^
 ||mcafee.com^
@@ -380,8 +379,12 @@
 ||top10vpn.com^
 ||vpngids.nl^
 ||vpndetectives.com^
-!~ Potantialy Dangerious Redirecting Links
+!~ Potantialy Dangerious Redirecting Domains
+||cutt.ly^
+||exongir.com^
 ||mnopa.click^
+||r2m.io^
+||t2m.io^
 !~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
@@ -884,7 +887,6 @@
 ||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||zi-scripts.com/zi-tag.js^$script
-
 #- Wildcard Paths Filters
 /player/js/nuevo.min.js$script
 /themes/bepeak/assets/js/sw.js$script

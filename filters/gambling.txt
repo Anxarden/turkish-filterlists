@@ -86,9 +86,11 @@
 *truvabet.com^
 *xslot.com^
 #- Newly Found Networks & Regex Candidates
-||betpipo514.com^
 ||306betine.com^
+||betpipo514.com^
 ||casinopop334.com^
+||madridreal000.com^
+||anjouangaming.org^$third-party
 #- Gambling Networks, CDNs, SEOs and Redirect Links
 ||topaz.az^
 ||sevalcikolata.com^
@@ -120,7 +122,6 @@
 ||allamericansportscafe.com^
 ||alwaysdomain.xyz^
 ||amonbetpartner.media^
-||anjouangaming.org^$third-party
 ||apidigi.com^
 ||argoesport.com^
 ||artemis-vip.com^
@@ -231,7 +232,6 @@
 ||connect0r.online^
 ||cratosroyalbet.live^
 ||crystalbet.com^
-||cutt.ly^
 ||cybermondo.com^
 ||damabet.com^
 ||dedeaff.com^
@@ -560,8 +560,6 @@
 ||zulasite.xyz^
 ||zullagit.xyz^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
-||t2m.io^
-||r2m.io^
 ||a.info^
 ||csnr.me^
 ||hub88.io^
@@ -584,6 +582,7 @@
 ||bm1l5.site^
 ||gnbapi.com^
 ||genfkd.org^
+||jdfjkd.com^
 ||ft8ql3z.com^
 ||9lkf4hn.com^
 ||3vpcq6t.com^
@@ -610,6 +609,7 @@
 ||affsbet.com^
 ||qruvw.click^
 ||rstuv.click^
+||nakjdjsd.com^
 ||echafcmb.com^
 ||vtr5py8m.com^
 ||kbgepymb.com^
@@ -696,7 +696,7 @@
 ||t.me/*bahis$doc
 ||t.me/*casino$doc
 ||t.me/*meritbet$doc
-||t.me/acrobetresmi^$doc
+||t.me/acrobet$doc
 ||t.me/betzula$doc
 ||t.me/bonuskaplani^$doc
 ||t.me/btcsosyal^$doc
@@ -704,6 +704,7 @@
 ||t.me/nfsbonus^$doc
 ||t.me/olaresmi^$doc
 ||t.me/onwin$doc
+||tinyurl.com/casino$doc
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
 ||x.com/*meritbet$doc
@@ -716,7 +717,6 @@
 ||klab-*.tumblr.com^
 !- pages.dev|blogspot.com
 ||redirect-*.pages.dev^
-
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
 ||agc-casino.s3.amazonaws.com^
