@@ -2,12 +2,14 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Whitelist
+#- Privacy Enchantments
+||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
+||gravatar.com^$third-party,~image
+||jpicture.xyz^$~xhr
+#- General Whitelist
 @@||use.typekit.net^$script,font
 @@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
-#- Domains /w Exceptions, Paths, Regex
-||jpicture.xyz^$~xhr
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||creedimages.cfd^
