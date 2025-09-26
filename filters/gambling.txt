@@ -30,6 +30,7 @@
 ||kralbet*.$all
 ||matadorbet*.$all
 ||meritbet*.$all
+||meritking*.$all
 ||mostbet*.$all
 ||rokubet*.$all
 ||ramadabet*.$all
@@ -92,6 +93,10 @@
 ||madridreal000.com^
 ||anjouangaming.org^$third-party
 #- Gambling Networks, CDNs, SEOs and Redirect Links
+||2025adresgiryeni.com^
+||mehmetalisahinsucuklari.com^
+||girisleryapburada.com^
+||cctsummit.com^
 ||topaz.az^
 ||sevalcikolata.com^
 ||tucsoncactuscompany.com^
