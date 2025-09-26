@@ -69,6 +69,7 @@
 ||onwin*.com^
 ||oslobet*.com^
 ||otobet*.com^
+||betist*.com^
 ||radissonbet*.com^
 ||restbet*.com^
 ||retrobet*.com^
@@ -78,6 +79,7 @@
 ||supertotobet*.com^
 ||tarafbet*.com^
 ||trbet*.com^
+||dinamobet*.com^
 ||yakabet*.com^
 ||zirvebet*.com^
 *bahsine.com^
@@ -94,25 +96,44 @@
 ||casibom06267.com^
 ||casinopop334.com^
 ||jojobel1076.com^
-||madridreal000.com^
 ||ligobet919.com^
+||makrobet712.com^
+||winbet82929.pro^
 #- SEO Websites ~ Gambling Advertisement
 ||3dwisdom.in^
+||adresim-2025.com^
+||auth.gr^
 ||balonmanoalcobendas.org^
+||betkom.com.tr^
 ||betturkey-tr.online^
 ||dockofthebayva.com^
 ||drunksport.com^
 ||eastpioneers.com^
 ||eatelcentro.com^
+||elmwoodsports.com^
 ||ismailblogger.com^
 ||lowbrausacramento.com^
 ||mcgrathvolvocarsoffortmyers.com^
 ||mehmetalisahinsucuklari.com^
 ||nigerdeltaavengers.com^
 ||sot.pl^
+||sportshal.com^
 ||theislandonlaketravis.com^
+||unilag.edu.ng^
+||valdiviesowines.com^
+||westbrew.com^
 ||zederna.fr^
+#- CDN Websites ~ Gambling Network
+||dbtcdn.com^
+||megasoftware.io^
 #- Gambling Networks, CDNs and Redirect Links
+||cdn4life.com^
+||lunabet.com^
+||mavibet.com^
+||betistnew.com^
+||safirbet.com^
+||betsalvador.com.tr^
+||radissonbetgirisi.com.tr^
 ||taraf-aff.com^
 ||1xbet-sitesi.xyz^
 ||royal-giris.com^
@@ -582,6 +603,7 @@
 ||yonlenen.site^
 ||zaferbet.com^
 ||zerozero.com.tr^
+||ocbpartners.com^
 ||zlot.com^
 ||zolobet.com^
 ||zolobet.pro^
@@ -591,18 +613,24 @@
 ||zulasite.xyz^
 ||zullagit.xyz^
 #- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
+||bis2020.com
 ||bossseoteoman.com^
 ||dogru-gris2025.com^
+||edgeflowjb10247.net^
 ||enyeniguncelgiriskuty.com^
 ||guncell-girisyeri.com^
+||hikkoshi0515.com^
+||madridreal000.com^
 ||meritbossseonur.com^
 ||meriteglencebossseozkn.com^
 ||meritkazanclarbosseoozkn.com^
 ||meritkngerism.com^
 ||meritkngsite.com^
 ||mrtgirisozkn2025.com^
+||refpa21642.com^
+||refpa94475.com^
+||relayhubho40146.com^
 ||yeniadreskuty.com^
-||bis2020.com
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||a.info^
 ||csnr.me^
@@ -701,7 +729,6 @@
 ||rlurk6los2.com^
 ||so7fx183fc.com^
 ||tm53cd3by2.com^
-||ocbpartners.com^
 ||awsbtcdn100.com^
 ||fstdvcdn900.com^
 ||melredhwiku.top^

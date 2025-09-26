@@ -147,7 +147,6 @@ xiguasuwu.com##body>[style]:empty
 9gag.com##[class*="post"i][class*="tag"i]
 vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i))
 
-
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#

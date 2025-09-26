@@ -12,6 +12,8 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||pudaf.com^
+||fpnpmcdn.net^
 ||tawk.to^
 ||admaxium.com^
 ||creedimages.cfd^
@@ -158,7 +160,6 @@
 ||hsforms.net^
 ||hsleadflows.net^
 ||htlbid.com^
-||edgeflowjb10247.net^
 ||htplayground.com^
 ||hubspot.com^
 ||hubspotfeedback.com^
@@ -385,13 +386,15 @@
 ||vpngids.nl^
 ||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
+||clbanners*.com^$all,to=/clbanners\d+.com$/
 ||cutt.ly^
 ||exongir.com^
 ||mnopa.click^
+||myaffiliates.com^
 ||r2m.io^
 ||t2m.io^
-||myaffiliates.com^
 ||urlsshort.link^
+||zaplyurl.com^
 !~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
