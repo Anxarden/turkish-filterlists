@@ -2,7 +2,7 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Privacy Enchantments
+#- Privacy Enchantments and Limitations
 ||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
 ||gravatar.com^$third-party,~image
 ||jpicture.xyz^$~xhr
@@ -12,7 +12,15 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||customer.io^
+||dog-a.xyz^
+||whizdom.ai^
+||livechatinc.com^$all
+||anjouangaming.org^$third-party
+||diagnosisintriguingorganizer.com^
 ||px-cloud.net^
+||icg-in.info^
+||icg-in.com^
 ||usheebainaut.com^
 ||attirecideryeah.com^
 ||pudaf.com^
@@ -221,6 +229,7 @@
 ||pixiv.org^
 ||plausible.io^
 ||polyfill.io^
+||trendyol.global^
 ||posthog.com^$third-party,all
 ||powerad.ai^
 ||primis.tech^
@@ -390,15 +399,23 @@
 ||vpngids.nl^
 ||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
-||clbanners*.com^$all,to=/clbanners\d+.com$/
+||clbanners*.com^$all,to=/clbanners\d+\.com$/
+||refpa*.$all,to=/refpa\d+\.(com|pro)$/
 ||cutt.ly^
 ||exongir.com^
+||kisa.link^
+||kisa.pro^
+||kisalt.gg^
+||shortzak.online^
+||kisalt.vip^
 ||mnopa.click^
 ||myaffiliates.com^
+||directedurls.com^
 ||r2m.io^
 ||t2m.io^
 ||urlsshort.link^
 ||zaplyurl.com^
+||trredirect.pro^
 !~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
@@ -540,6 +557,7 @@
 ||telemetry.canva.com^
 ||sanalytics.cartoonito.com.tr^
 ||sanalytics.cartoonnetwork.com.tr^
+||a.cdnpure.com^
 ||countly.cepteteb.com.tr^
 ||yikrmn.ciceksepeti.com^
 ||adsp.ciner.com.tr^
