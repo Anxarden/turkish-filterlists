@@ -107,10 +107,13 @@ torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
+! Big Footers																						 ~
+deepl.com##nav[aria-label="footer"i]
 ! CSS Fixes and Customisations																		 ~
 ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
+dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
@@ -166,8 +169,6 @@ gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
 ! preload/loading effect annoyance
 thehouseofportable.com##div[id="preload"]
-! prevent scrollbar from locking
-dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
 
 #- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 ! ad/information post, css fixes
@@ -184,7 +185,7 @@ simkl.com##^div.simklbecomeprowrap
 simkl.com##^div.simklviptestemonials
 simkl.com##^div[class="simkltvfootersharing"i]
 simkl.com##^simkl-footer>:not(div.simkltvfooterend)
-simkl.com##div:is([id="simklheadermenuvip"i])
+simkl.com##div[id~="simklheadermenuvip"i]
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 ! clear news, announcements and the logo on the main page
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
