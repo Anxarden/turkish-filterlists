@@ -12,6 +12,9 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||px-cloud.net^
+||usheebainaut.com^
+||attirecideryeah.com^
 ||pudaf.com^
 ||fpnpmcdn.net^
 ||jscrambler.com^
