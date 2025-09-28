@@ -13,6 +13,7 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||customer.io^
+||cland.fyi^
 ||dog-a.xyz^
 ||whizdom.ai^
 ||livechatinc.com^$all
