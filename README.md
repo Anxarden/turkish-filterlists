@@ -5,7 +5,6 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 **Daha geniş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız ögeleri bildirebilirsiniz.**
 
 
-
 ## 🚀 Özellikler
 
 - **Reklam Engelleme:** Türkçe web sitelerinde kullanıcı deneyimini olumsuz etkileyen rahatsız edici reklamları kaldırır.
@@ -15,11 +14,11 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 - **Yasadışı Pornografi Engelleme:** Yasadışı içerik barındıran pornografik sitelere erişimi keserek kullanıcı güvenliğini artırır.
 
 
-
 ## 🛠 Entegrasyon ve Kullanım
 
 Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard üzerinde filtre listesini entegre edebilirsiniz:
-→ Filtreye abone olmak için [tıklayınız](https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt).
+
+**→ Filtreye abone olmak için** ***[tıklayınız](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist).***
 
 
 ### 🛡 [uBlock Origin](https://github.com/gorhill/uBlock) Kullanıcıları
@@ -43,17 +42,14 @@ Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda taray
 4. Değişiklikleri kaydederek filtre listesinin aktif olduğunu kontrol edin.
 
 
-
 ## 🛠 Katkıda Bulunma
 
 Bu filtre listesi sürekli güncellenmekte ve geliştirilmektedir. Eğer engellenmesini gerektiğini düşündüğünüz bir reklam, kumar sitesi veya izleyici bulursanız, lütfen GitHub üzerinden bir Issue açın veya Pull Request göndererek katkıda bulunun. Katkılarınız, listenin daha etkili ve güncel kalmasına yardımcı olacaktır.
 
 
-
 ## 📜 Lisans
 
 Bu proje, **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisanslanmıştır. Filtre listesini serbestçe kullanabilir, paylaşabilir ve değiştirebilirsiniz; ancak değişiklik yaptığınız veya paylaşımda bulunduğunuz halde orijinal kaynağı belirtmeniz gerekmektedir. Lisans ile ilgili detaylı bilgiler için [Lisans Detayları (Türkçe)](https://creativecommons.org/licenses/by/4.0/deed.tr) linkini inceleyebilirsiniz.
-
 
 
 ## 📧 İletişim
