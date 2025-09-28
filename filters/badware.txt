@@ -13,6 +13,11 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||riskified.com^
+||panelfront.net^
+||bidr.io^
+||rfihub.com^
+||dercirt.com^
+||wetransfer.world^
 ||getbutton.io^
 ||customer.io^
 ||cland.fyi^
@@ -404,15 +409,15 @@
 ||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
 ||clbanners*.com^$all,to=/clbanners\d+\.com$/
-||refpa*.$all,to=/refpa\d+\.(com|pro)$/
+||refpa*.$all,to=/refpa\d+\.(com|pro|top)$/
 ||cutt.ly^
-||exongir.com^
 ||kisa.link^
 ||kisa.pro^
 ||kisalt.gg^
+||shortlinks.biz^
 ||shortzak.online^
 ||kisalt.vip^
-||mnopa.click^
+||onelink.to^
 ||myaffiliates.com^
 ||directedurls.com^
 ||r2m.io^
