@@ -21,6 +21,10 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 Filtre listemizi kullanarak, reklam, kumar ve izleyici engelleme konusunda tarayıcı deneyiminizi iyileştirebilirsiniz. Aşağıdaki adımları takip ederek, uBlock Origin veya AdGuard üzerinde filtre listesini entegre edebilirsiniz:
 → Filtreye abone olmak için [tıklayınız](abp:subscribe?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt).
 
+<a href="abp:subscribe?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt">
+  Filtreye abone olmak için tıklayın
+</a>
+
 ### 🛡 [uBlock Origin](https://github.com/gorhill/uBlock) Kullanıcıları
 
 1. uBlock Origin ayarlar menüsünü açın.
