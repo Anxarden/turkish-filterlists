@@ -240,7 +240,6 @@
 ||pixad.com.tr^
 ||pixiv.org^
 ||plausible.io^
-||polyfill.io^
 ||trendyol.global^
 ||posthog.com^$third-party,all
 ||powerad.ai^
@@ -321,7 +320,6 @@
 ||wurfl.io^
 ||xlivrdr.com^
 ||yadro.ru^
-||yehdka.pro^
 ||youthyeather.com^
 ||ywxi.net^
 ||zdbb.net^
@@ -345,7 +343,6 @@
 ||cyberghostvpn.com^
 ||dotvpn.com^
 ||expressvpn.com^
-||figleaf.com^
 ||frostwire.com^
 ||gendigital.com^
 ||goosevpn.com^
@@ -513,7 +510,6 @@
 ||tutubox.io^
 ||vstorrent.org^
 ||wifi4games.com^
-||wifi4games.net^
 ||yasdl.com^
 #- General Blacklisted Subdomains
 ||mt.9gag.com^
@@ -535,10 +531,8 @@
 ||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
-||qwtcdp.antalyahomes.com.tr^
 ||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
-||reklam.arabul.com^
 ||swwcyk.aspor.com.tr^
 ||rowsrm.atasunoptik.com.tr^
 ||tag.atasunoptik.com.tr^
@@ -718,7 +712,6 @@
 ||ofvosb.jumbo.com.tr^
 ||g.jwpsrv.com^
 ||tr1.kaspersky.com.tr^
-||kwdukp.kelebek.com.tr^
 ||analitik.kgm.gov.tr^
 ||sentry.kitapyurdu.com^
 ||analytics.kkb.com.tr^
@@ -786,7 +779,6 @@
 ||weblog.rclone.org^
 ||pl.receptupperch.com^
 ||w3-reporting.reddit.com^
-||zj.refractsculks.com^
 ||gw.rickywhence.com^
 ||tdms.saglik.gov.tr^
 ||ws.sahibinden.com^
@@ -812,7 +804,6 @@
 ||aip2.sozcu.com.tr^
 ||av2.sozcu.com.tr^
 ||xenaly.sozcu.com.tr^
-||tracking.ssab.com.tr^
 ||ping.staticmoly.me^
 ||r.stripe.com^$ping,script,xhr
 ||ads.superonline.com^
@@ -832,7 +823,6 @@
 ||pftk.temu.com^
 ||thtk.temu.com^
 ||sofire.terabox.com^
-||answers.teradata.com.tr^
 ||cdn.threadloom.com^
 ||analytics.tiktok.com^
 ||mon.tiktokv.com^
@@ -867,13 +857,11 @@
 ||yr.unasonoric.com^
 ||aminks.underarmour.com.tr^
 ||collector.unsplash.com^
-||sv.urinarycreese.com^
 ||widget.uservoice.com^
 ||countly.vakifbank.com.tr^
 ||gmxcdm.vestel.com.tr^
 ||stats.videasy.net^
 ||stats.videoseyred.in^
-||smetrics.vitasure.com.tr^
 ||ads.vk.com^
 ||ms.vk.com^
 ||stats.vk-portal.net^

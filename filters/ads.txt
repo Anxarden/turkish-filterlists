@@ -19,7 +19,7 @@ blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
-dactylogagnant.click,hlktrpl.cfd##.jw-preview,.jw-title
+hlktrpl.cfd##.jw-preview,.jw-title
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
