@@ -94,8 +94,10 @@
 ||zirvebet*.com^
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
+||225ramenbet.com^
 ||226ramenbet.com^
 ||306betine.com^
+||5supertotobet.com^
 ||7slots679.com^
 ||7slots766.com^
 ||980pusulabet.com^
@@ -104,15 +106,21 @@
 ||betpark1068.com^
 ||betpipo514.com^
 ||bettilt22.io^
-||5supertotobet.com^
+||betpas1146.com^
+||biabet529.com^
+||biabetapp1.com^
+||biabetdestek36.com^
+||biabettv205.com^
 ||casibom06267.com^
-||madridbet987.com^
+||diyarbet796.com^
 ||fraga426.com^
 ||jojobel1076.com^
 ||ligobet919.com^
 ||m-nerobett544.site^
+||madridbet987.com^
 ||makrobet712.com^
 ||pusulabetvip11.com^
+||stake1069.com^
 ||winbet82929.pro^
 #- Turkish Official Gambling Websites
 ||ekuri.com^
@@ -130,41 +138,62 @@
 ||tuttur.com^
 ||oley.com^
 #- Gambling Link Hubs ~ Portal Websites
+||aviator-kazino.com^
 ||aviator-oyna.fit^
 ||bbtatlantaopen.com^
 ||continuummusic.org^
+||planet5d.com^
+||pickingmeup.com^
+||demoslotoyna.com^
 ||elmwoodsports.com^
+||betpas.com^
+||slot.day^
+||betokazan.com^
 ||goleika.com^
 ||headsetimmersive.com^
 ||hotelsantaisabel.com^
 ||intlconsortiumdevelopmentalscience.org^
 ||jewishdiasporatech.org^
 ||seofilesema.com^
-||aviator-kazino.com^
 ||sportshal.com^
 ||sweet-bonanza-giris-2025.ink^
 ||turania.net^
 ||velobless.dk^
 #- SEO Injected Websites ~ Highly Suspicious
 ||aukuma.com^
-||kibrisjinekoloji.com^
+||biev.com.tr^
 ||autostartwo.com^
+||yesilatlas.com^
 ||bottomsuponline.com^
 ||busloopburgers.com^
+||connectamericas.com^
 ||firefingrill.com^
 ||hoteldario.com^
-||connectamericas.com^
+||kibrisjinekoloji.com^
+||macaoevent.com^
 ||menorcahorses.com^
 ||palmeraieresorts.com^
 ||yogainmissoula.com^
 ||zoekarssen.com^
-||macaoevent.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||siteye-com-cdn-ampproject.org^
 ||tipico.de^
+||slotbetoyna.com^
 ||tipico.fr^
+||statsinfo.co^
+||wanderer-wing.com^
+||slotneo.app^
+||mariobet.net^
+||biadestek.site^
+||stake.games^
+||biaguncel.com^
+||biabetlink.com^
+||biabettvlink.com^
+||gamingcontrolcuracao.org^
+||biabetsport.com^
 ||clickstb.com^
 ||spribe.co^
+||wisegaming.com^
 ||topswins.com^
 ||call2me.xyz^
 ||nards.club^
@@ -565,7 +594,6 @@
 ||pathmingle.com^
 ||paybetget.cash^
 ||pekinbetaffiliate.com^
-||pickingmeup.com^
 ||pinco-girisi.cc^
 ||pinco-online.com.tr^
 ||pinco-resmi.vip^
@@ -682,6 +710,7 @@
 ||trendsbreakingnews.xyz^
 ||tribersport.com^
 ||tropicaltikioyna.com^
+||silvergames.com^
 ||trpartners.io^
 ||trwin.com^
 ||tsunamifortune.com^
@@ -699,6 +728,10 @@
 ||useredirectplayfast.com^
 ||ustapoker.com^
 ||valdiviesowines.com^
+||parabets.top^
+||zalnir.click^
+||paralucky.sbs^
+||pragmaticplay.net^
 ||vatan.game^
 ||vatanplatform.com^
 ||vavadadertv.com^
@@ -749,17 +782,19 @@
 ||zullagit.xyz^
 #- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
 ||1woahn.com^
+||anjcdn.org^
+||arcee003.com^
 ||aviatoroynaa.com^
 ||azrdcdn200.com^
 ||bandnetbe80322.com^
 ||betlnk.net^
 ||bis2020.com
-||bpkaff.com^
-||cxaff.com^
-||bprkaff.com^
-||casinraff.com^
 ||bossseoteoman.com^
+||bpkaff.com^
+||bprkaff.com^
 ||cachelineib60293.net^
+||casinraff.com^
+||cxaff.com^
 ||datapathdv90226.net^
 ||dogru-gris2025.com^
 ||edgeflowjb10247.net^
@@ -768,11 +803,11 @@
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
-||megabahs-giris.com^
 ||guncell-girisyeri.com^
 ||hikkoshi0515.com^
 ||linkpointbc110183.com^
 ||madridreal000.com^
+||megabahs-giris.com^
 ||meritbossseonur.com^
 ||meriteglencebossseozkn.com^
 ||meritkazanclarbosseoozkn.com^
@@ -780,6 +815,7 @@
 ||meritkngsite.com^
 ||mrtgirisozkn2025.com^
 ||netcachesb140258.net^
+||parbt.xyz^
 ||pes24.com^
 ||popnodegb70184.com^
 ||redirectss7affhub.com^
@@ -788,6 +824,7 @@
 ||slotapp7.com^
 ||yeniadreskuty.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
+||rb.gy^
 ||a.info^
 ||csnr.me^
 ||hub88.io^
@@ -818,6 +855,7 @@
 ||trk4ot.com^
 ||xyzrdr.xyz^
 ||nwacdn.com^
+||naoxzsw.com^
 ||3vpcq6t.com^
 ||9lkf4hn.com^
 ||affsbet.com^
@@ -860,6 +898,7 @@
 ||vmk9pr2v.com^
 ||vrz7sw2d.com^
 ||vtr5py8m.com^
+||nasjsrgib.com^
 ||1x9gzyjmb.com^
 ||365lpodds.com^
 ||ame1a56mb.com^
@@ -899,6 +938,7 @@
 ||awsbtcdn100.com^
 ||fstdvcdn900.com^
 ||melredhwiku.top^
+||trkgflowtrk.com^
 ||gpartners1.click^
 ||cldfrbcdn302.com^
 ||akamsbcdn1400.com^
@@ -967,8 +1007,10 @@
 ||d56vh6ph4jjmq.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
-||golvar-org.cdn.ampproject.org
+||golvar-org.cdn.ampproject.org^
 ||prtgaming.s3.eu-central-1.amazonaws.com^
 ||winxbets-net.cdn.ampproject.org^
 ||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^
 ||yeni-adres.s3.eu-central-1.amazonaws.com^
+||bookmkrs.s3.amazonaws.com^
+||s3.amazonaws.com/bookmkrs/*

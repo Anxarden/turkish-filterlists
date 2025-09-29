@@ -13,7 +13,10 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||riskified.com^
+||openpanel.dev^
 ||panelfront.net^
+||fin-sh.com^
+||prdredir.com^
 ||bidr.io^
 ||rfihub.com^
 ||dercirt.com^
