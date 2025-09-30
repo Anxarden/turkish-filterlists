@@ -12,6 +12,12 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||ipapi.co^
+||roistat.com^
+||lfeeder.com^
+||cleantalk.org^
+||quantserve.com^
+||fastly-insights.com^
 ||riskified.com^
 ||openpanel.dev^
 ||panelfront.net^

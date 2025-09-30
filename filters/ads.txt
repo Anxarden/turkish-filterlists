@@ -19,7 +19,6 @@ blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
-hlktrpl.cfd##.jw-preview,.jw-title
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
 documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
@@ -31,6 +30,7 @@ fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
 haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
+hlktrpl.cfd##.jw-preview,.jw-title
 hlktrpl.cfd##^[id="textreklamgoster"i]
 hlktrpl.cfd##^body>div[id="adstop"i]
 hlktrpl.cfd##^div[class="playertextreklam"i]
@@ -76,7 +76,7 @@ zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
 ! Fake Buttons
 filecrypt.cc##span>button[onmousedown]
-frdl.is,frdl.io,frdl.hk,frdl.my##button:has-text(/Premium/i):upward(center)
+frdl.*##button:has-text(/Premium/i):upward(center)
 ! Filter Advert/Promo/Banner Images via Network Filtering
 natgeotv.com##^a#home-promo-banner
 rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
@@ -183,10 +183,12 @@ repack.me##.my>.my>:is(div.short-title,br)
 ! clear vip promotions, testemonials, sharing etc... all over the website
 simkl.com##^div.simklbecomeprowrap
 simkl.com##^div.simklviptestemonials
+simkl.com##^div.simktvindex>div[class^=simktvindex]:first-child
 simkl.com##^div[class="simkltvfootersharing"i]
 simkl.com##^simkl-footer>:not(div.simkltvfooterend)
-simkl.com##div[id~="simklheadermenuvip"i]
+simkl.com##div.simktvindex{padding-bottom:0px !important;}
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
+simkl.com##div[id~="simklheadermenuvip"i]
 ! clear news, announcements and the logo on the main page
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Anime.*Manga.*Haber/i)))
 turkanime.co##[class^="col-"]:has(>.panel:has(.panel-title:has-text(/Fansub.*Duyuru.*Panosu/i)))

@@ -84,6 +84,7 @@
 ||otobet*.com^
 ||restbet*.com^
 ||retrobet*.com^
+||pinco*.win^$to=/pinco\d+\.win$/
 ||sahabet*.com^
 ||sekabet*.com^
 ||showbet*.com^
@@ -143,6 +144,11 @@
 ||bbtatlantaopen.com^
 ||continuummusic.org^
 ||planet5d.com^
+||pinco-kayit.space^
+||1xbet-sitesi.club^
+||advprocure.com^
+||jetxbet.games^
+||pinco-resmi.vip^
 ||pickingmeup.com^
 ||demoslotoyna.com^
 ||elmwoodsports.com^
@@ -179,12 +185,19 @@
 ||siteye-com-cdn-ampproject.org^
 ||tipico.de^
 ||slotbetoyna.com^
+||pinco-blaze.com^
 ||tipico.fr^
+||amusnet.com^
+||careers-amusnet.com^
+||amusnet.io^
 ||statsinfo.co^
 ||wanderer-wing.com^
 ||slotneo.app^
 ||mariobet.net^
 ||biadestek.site^
+||digitain.com^
+||fastgames-bog.com^
+||cdn-digi.com^
 ||stake.games^
 ||biaguncel.com^
 ||biabetlink.com^
@@ -596,7 +609,6 @@
 ||pekinbetaffiliate.com^
 ||pinco-girisi.cc^
 ||pinco-online.com.tr^
-||pinco-resmi.vip^
 ||pinco.net.tr^
 ||pincobet.com^
 ||pinnacle.com^
