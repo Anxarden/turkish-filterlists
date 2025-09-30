@@ -154,12 +154,15 @@ vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i)
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#
 #- Hide Websites from Search Engines
-! fandom wikis that are inactive, outdated or deprecated and have alternatives
-duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
-duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
+! fandom wikis that are inactive, outdated or deprecated and have better alternatives
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
-startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
+duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//oxygennotincluded-archive.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
+startpage.com##div.result:has(>a[href^="https://hollowknight.fandom.com/"])
 startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
+startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
+startpage.com##div.result:has(>a[href^="https://pathofexile.fandom.com/"])
 #- Website Fixes
 ! hide the ad frames to display the video player
 /dizipal\d*\.com/##.player-wrapper>div.pre-player
