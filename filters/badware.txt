@@ -417,20 +417,21 @@
 ||clbanners*.com^$all,to=/clbanners\d+\.com$/
 ||refpa*.$all,to=/refpa\d+\.(com|pro|top)$/
 ||cutt.ly^
+||directedurls.com^
 ||kisa.link^
 ||kisa.pro^
 ||kisalt.gg^
+||kisalt.vip^
+||loomclick.com^
+||myaffiliates.com^
+||onelink.to^
+||r2m.io^
 ||shortlinks.biz^
 ||shortzak.online^
-||kisalt.vip^
-||onelink.to^
-||myaffiliates.com^
-||directedurls.com^
-||r2m.io^
 ||t2m.io^
+||trredirect.pro^
 ||urlsshort.link^
 ||zaplyurl.com^
-||trredirect.pro^
 !~ Expired/Closed Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
