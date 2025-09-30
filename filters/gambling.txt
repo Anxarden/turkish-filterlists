@@ -93,6 +93,7 @@
 ||trbet*.com^
 ||yakabet*.com^
 ||zirvebet*.com^
+||biabet*.com^$to=~wildcard-alpha-digits
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
 ||225ramenbet.com^
@@ -105,13 +106,9 @@
 ||bahsegel1264.com^
 ||betcio641.org
 ||betpark1068.com^
+||betpas1146.com^
 ||betpipo514.com^
 ||bettilt22.io^
-||betpas1146.com^
-||biabet529.com^
-||biabetapp1.com^
-||biabetdestek36.com^
-||biabettv205.com^
 ||casibom06267.com^
 ||diyarbet796.com^
 ||fraga426.com^
@@ -121,6 +118,7 @@
 ||madridbet987.com^
 ||makrobet712.com^
 ||pusulabetvip11.com^
+||solobet44.com^
 ||stake1069.com^
 ||winbet82929.pro^
 #- Turkish Official Gambling Websites
@@ -182,38 +180,6 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
-||siteye-com-cdn-ampproject.org^
-||tipico.de^
-||slotbetoyna.com^
-||pinco-blaze.com^
-||tipico.fr^
-||amusnet.com^
-||careers-amusnet.com^
-||amusnet.io^
-||statsinfo.co^
-||wanderer-wing.com^
-||slotneo.app^
-||mariobet.net^
-||biadestek.site^
-||digitain.com^
-||fastgames-bog.com^
-||cdn-digi.com^
-||stake.games^
-||biaguncel.com^
-||biabetlink.com^
-||biabettvlink.com^
-||gamingcontrolcuracao.org^
-||biabetsport.com^
-||clickstb.com^
-||spribe.co^
-||wisegaming.com^
-||topswins.com^
-||call2me.xyz^
-||nards.club^
-||mnopa.click^
-||exongir.com^
-||betanders.com^
-||dedeoyna.com^
 ||1win-turkey.org^
 ||1win.run^
 ||1win.web.tr^
@@ -229,6 +195,7 @@
 ||accounts-bc.com^
 ||acelerabet.com^
 ||adaptivelab.com^
+||adenbt.com.tr^
 ||adresim-2025.com^
 ||adresler.org^
 ||affbetyoner.com^
@@ -249,6 +216,8 @@
 ||alwaysdomain.xyz^
 ||americanpress.com^
 ||amonbetpartner.media^
+||amusnet.com^
+||amusnet.io^
 ||apidigi.com^
 ||argoesport.com^
 ||artemis-vip.com^
@@ -279,6 +248,7 @@
 ||bet.com^
 ||bet365partners.com^
 ||betadonisadresi.com^
+||betanders.com^
 ||betandyou.com^
 ||betano.com^
 ||betcartgiris.com^
@@ -334,6 +304,8 @@
 ||betzula.org^
 ||beverlyhotsprings.com^
 ||bgelmedia.com^
+||biadestek.site^
+||biaguncel.com^
 ||bilgilerle.net^
 ||bilgiokullari.com^
 ||bilyoncu.net^
@@ -353,14 +325,16 @@
 ||bonusverensitelertr.com^
 ||bonusverenyenisite.com^
 ||bottoms-up.eu^
-||adenbt.com.tr^
 ||bsinplus.com^
 ||budayapoker.us^
 ||caddebet.org^
+||call2me.xyz^
+||careers-amusnet.com^
 ||casibom-black.com^
 ||casibom.gen.tr^
 ||casibomgiris.click^
 ||cctsummit.com^
+||cdn-digi.com^
 ||cdn-global-mb.com^
 ||cdn-global-mst.com^
 ||cdn-in-flare.com^
@@ -369,6 +343,7 @@
 ||celticbet.org^
 ||cinkolink.com^
 ||clickpupbit.com^
+||clickstb.com^
 ||clusterriocuarto.com^
 ||cmsbetconstruct.com^
 ||coconut2two.com^
@@ -378,6 +353,7 @@
 ||cybermondo.com^
 ||damabet.com^
 ||dedeaff.com^
+||dedeoyna.com^
 ||dellabetadresi.com^
 ||demoslotsoyna.com^
 ||demospin.net^
@@ -396,6 +372,7 @@
 ||denemeler.cc^
 ||denemeslotbonus.com^
 ||denmet.com.tr^
+||digitain.com^
 ||dinamo-bet-oyna.com^
 ||dioraff.site^
 ||dockofthebayva.com^
@@ -423,7 +400,9 @@
 ||everymatrix.com^
 ||excelaffiliates.com^
 ||exelgame.com^
+||exongir.com^
 ||eyeleo.com^
+||fastgames-bog.com^
 ||fasttrack-solutions.com^
 ||fokpodolsk.ru^
 ||foodscovery.com^
@@ -438,6 +417,7 @@
 ||galaxyodds.com^
 ||gameshere.xyz^
 ||gametwist.com^
+||gamingcontrolcuracao.org^
 ||gamyun.net^
 ||ganyanabla.com^
 ||ganyancanavari.com.tr^
@@ -474,6 +454,7 @@
 ||hepyekaffiliates.com^
 ||heylink.me^
 ||hitbetadres.club^
+||hitbetaff.com^
 ||hitbetpartner.com^
 ||hititbets.org^
 ||hizliortaklik.com^
@@ -537,6 +518,7 @@
 ||maltpartners.com^
 ||marathonbet.com^
 ||marino.bet^
+||mariobet.net^
 ||marketingkisalink.com^
 ||masdecultura.com^
 ||masinogames.com^
@@ -563,6 +545,7 @@
 ||milyonluk.gen.tr^
 ||mkroyal.vip^
 ||mmyposta.com^
+||mnopa.click^
 ||morningdough.com^
 ||mosbetuz.com^
 ||mostauthor.com^
@@ -571,6 +554,7 @@
 ||multi.bet.br^
 ||multibet.games^
 ||munirtatar.com^
+||nards.club^
 ||nasedvoriste.rs^
 ||nerobeturkeyclup.site^
 ||newbruce.org^
@@ -601,12 +585,15 @@
 ||padisah.ai^
 ||padisahbetortaklik.com^
 ||pakkisalink.com^
+||parabets.top^
+||paralucky.sbs^
 ||partnerbayi.com^
 ||partnerprofitsource.com^
 ||partnerskareasbet.com^
 ||pathmingle.com^
 ||paybetget.cash^
 ||pekinbetaffiliate.com^
+||pinco-blaze.com^
 ||pinco-girisi.cc^
 ||pinco-online.com.tr^
 ||pinco.net.tr^
@@ -615,6 +602,7 @@
 ||pinupcazino.com^
 ||postailetisim.com^
 ||pragmaticplay.com^
+||pragmaticplay.net^
 ||prerelease-env.biz^
 ||puli.life^
 ||pulibetaff.com^
@@ -667,12 +655,16 @@
 ||sidiief.org^
 ||silentbet.com^
 ||silvagiris.com^
+||silvergames.com^
 ||sinaff.com^
 ||sisalsans.com^
 ||sitedenemebonusu.com^
+||siteye-com-cdn-ampproject.org^
 ||siyahbetaff.xyz^
 ||skybet.com^
+||slotbetoyna.com^
 ||slotigrice.com^
+||slotneo.app^
 ||slotoyunlarisiteleri.com^
 ||slotsiteleripro.com^
 ||socialtournaments.com^
@@ -687,11 +679,14 @@
 ||sportsofertaes.com^
 ||sportybet.com^
 ||spreadex.com^
+||spribe.co^
 ||spribe.io^
 ||spribegaming.com^
 ||spxstatic.com^
 ||stake.com^
+||stake.games^
 ||stardustevent.link^
+||statsinfo.co^
 ||stoneguncel.link^
 ||sugarrushoyna.com^
 ||supernaturalprodutos.com.br^
@@ -713,8 +708,11 @@
 ||timebet.com^
 ||tipbet.info^
 ||tipico.com^
+||tipico.de^
+||tipico.fr^
 ||titolink.com^
 ||tolisto.com^
+||topswins.com^
 ||tr-mostbet.com^
 ||tr-siteler.com^
 ||traincdn.com^
@@ -722,7 +720,6 @@
 ||trendsbreakingnews.xyz^
 ||tribersport.com^
 ||tropicaltikioyna.com^
-||silvergames.com^
 ||trpartners.io^
 ||trwin.com^
 ||tsunamifortune.com^
@@ -740,10 +737,6 @@
 ||useredirectplayfast.com^
 ||ustapoker.com^
 ||valdiviesowines.com^
-||parabets.top^
-||zalnir.click^
-||paralucky.sbs^
-||pragmaticplay.net^
 ||vatan.game^
 ||vatanplatform.com^
 ||vavadadertv.com^
@@ -759,6 +752,7 @@
 ||vufequipamentos.com.br^
 ||walletconnect.com^
 ||walletconnect.org^
+||wanderer-wing.com^
 ||wearebettors.com^
 ||webbeluga.com^
 ||wepanknowledgecenter.org^
@@ -766,6 +760,7 @@
 ||whitehatgaming.com^
 ||wildcatevents.com^
 ||winwinbet.xyz^
+||wisegaming.com^
 ||wrestling-edge.com^
 ||xslotgiris.com.tr^
 ||yallabetpartners.com^
@@ -782,6 +777,7 @@
 ||yoncamarket.com^
 ||yonlenen.site^
 ||zaferbet.com^
+||zalnir.click^
 ||zederna.fr^
 ||zerozero.com.tr^
 ||zlot.com^
