@@ -414,8 +414,8 @@
 ||vpngids.nl^
 ||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
-||clbanners*.com^$all,to=/clbanners\d+\.com$/
-||refpa*.$all,to=/refpa\d+\.(com|pro|top)$/
+||clbanners*.com^$to=/clbanners\d+\.com$/
+||refpa*.$to=/refpa\d+\.(com|pro|top)$/
 ||cutt.ly^
 ||directedurls.com^
 ||kisa.link^
