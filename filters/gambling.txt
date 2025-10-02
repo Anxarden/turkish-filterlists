@@ -3,9 +3,11 @@
 # Author: Anxarden
 
 #- Gambling Related Regex/Wildcards
-/bahis/$all,to=/(?:bahis)[^.]*\.[^.]+(?:\.[^.]+)?$/
-/casino/$all,to=/(?:casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
-/bet-|-bet/$all,to=/(?:-bet|^bet-[^.]*)\.[^.]+(?:\.[^.]+)?$/
+!/bahis/$all,to=/(?:bahis)[^.]*\.[^.]+(?:\.[^.]+)?$/
+!/casino/$all,to=/(?:casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
+/bahis/$all,to=/bahis/
+/bet/$all,to=/bet[^.]*\d+\.|\d+[^.]*bet\d*\./
+/casino/$all,to=/casino/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -14,17 +16,19 @@
 ||poker^
 ||slots^
 #- Specific Gambling Domains or Subdomains - All TDLs
+||1win.$all
 ||afun.$all
-||bet365.$all
 ||bet.$all
-||casino.$all
+||bet365.$all
 #- Wildcard Gambling Domains or Subdomains - All TDLs
+*-bet.$all,to=/-bet/
 *artemisbet.$all,to=/artemisbet/
 *atlasbet.$all,to=/atlasbet/
 *bets10.$all,to=/bets10/
 *dumanbet.$all,to=/dumanbet/
 *tipobet.$all,to=/tipobet/
 *winxbet.$all,to=/winxbet/
+||bet-*.$all
 ||artemisbet*.$all
 ||atlasbet*.$all
 ||betkanyon*.$all
@@ -108,6 +112,9 @@
 ||betplay363.com^
 ||betcio641.org
 ||betpark1068.com^
+||ligobet920.com^
+||solobet46.com^
+||bethand172.com
 ||betpas1146.com^
 ||alobet510.com^
 ||betpipo514.com^
@@ -189,8 +196,10 @@
 ||1win.web.tr^
 ||playlinki.com^
 ||1wins.in^
+||markajortaklik.com^
 ||1xbet-sitesi.xyz^
 ||1xbet.com^
+||1win.direct^
 ||realmadridtwo.com^
 ||palazzopartner.com^
 ||aloyagit.com^
@@ -486,6 +495,8 @@
 ||istinyeganyan.com^
 ||jeffbet.com^
 ||jetiddaa.com^
+||partnerbayiniz.com^
+||predir.xyz^
 ||jivosite.com^
 ||kaprisbet.com^
 ||kareasbetsikayet.com^
@@ -650,7 +661,6 @@
 ||sevenslots.tr^
 ||sherwoodicearena.com^
 ||shoparborhills.com^
-||shortdigest.click^
 ||shortdigest.site^
 ||shortening.link^
 ||shorterflix.com^
@@ -804,6 +814,8 @@
 ||bandnetbe80322.com^
 ||betlnk.net^
 ||bis2020.com
+||btmgiris4.com^
+||satispanel1.com^
 ||bossseoteoman.com^
 ||bpkaff.com^
 ||bprkaff.com^
