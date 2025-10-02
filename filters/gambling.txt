@@ -5,9 +5,9 @@
 #- Gambling Related Regex/Wildcards
 !/bahis/$all,to=/(?:bahis)[^.]*\.[^.]+(?:\.[^.]+)?$/
 !/casino/$all,to=/(?:casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
-/bahis/$all,to=/bahis/
-/bet/$all,to=/bet[^.]*\d+\.|\d+[^.]*bet\d*\./
-/casino/$all,to=/casino/
+*$all,to=/bahis/
+*$all,to=/casino/
+/bet[^.]*\d+\.|\d+[^.]*bet\d*\./$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
