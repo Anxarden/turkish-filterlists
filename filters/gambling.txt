@@ -52,6 +52,7 @@
 ||verabet*.$all
 ||winxbet*.$all
 ||betturkey*.$all
+||betyap*.$all,to=~alpha-digits
 #- Gambling Domains /w Wildcard - TLDs Specific
 *bahsine.com^
 *betturkey.com^
@@ -97,7 +98,7 @@
 ||trbet*.com^
 ||yakabet*.com^
 ||zirvebet*.com^
-||biabet*.com^$to=~wildcard-alpha-digits
+||biabet*.com^$to=~alpha-digits
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
 ||225ramenbet.com^
@@ -156,9 +157,12 @@
 ||pinco-kayit.space^
 ||1xbet-sitesi.club^
 ||advprocure.com^
+||girisbetyap.com^
 ||jetxbet.games^
+||bonus-secim-hemen.link^
 ||pinco-resmi.vip^
 ||pickingmeup.com^
+||ltacademi.com^
 ||demoslotoyna.com^
 ||elmwoodsports.com^
 ||betpas.com^
@@ -793,6 +797,7 @@
 ||yenigirissorunsuz.com^
 ||yoncamarket.com^
 ||yonlenen.site^
+||girpop.com^
 ||zaferbet.com^
 ||zalnir.click^
 ||zederna.fr^
@@ -802,8 +807,10 @@
 ||zolobet.pro^
 ||zoombaplay.com^
 ||zotabet.com^
+||bplayadres.com^
 ||zulagiris.click^
 ||zulasite.xyz^
+||fairegir.com^
 ||zullagit.xyz^
 #- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
 ||1woahn.com^
@@ -812,6 +819,8 @@
 ||aviatoroynaa.com^
 ||azrdcdn200.com^
 ||bandnetbe80322.com^
+||cashbck.link^
+||giriscbon.com^
 ||betlnk.net^
 ||bis2020.com
 ||btmgiris4.com^
@@ -822,6 +831,7 @@
 ||cachelineib60293.net^
 ||casinraff.com^
 ||cxaff.com^
+||tabloproject2.com^
 ||datapathdv90226.net^
 ||dogru-gris2025.com^
 ||edgeflowjb10247.net^
