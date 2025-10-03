@@ -7,6 +7,7 @@
 !/casino/$all,to=/(?:casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
 *$all,to=/bahis/
 *$all,to=/casino/
+*$all,to=/kumar/
 /bet[^.]*\d+\.|\d+[^.]*bet\d*\./$all,to=/bet/
 #- Gambling TLDs
 ||bet^
@@ -123,7 +124,6 @@
 ||casibom06267.com^
 ||diyarbet796.com^
 ||fraga426.com^
-||betplay363.com^
 ||jojobel1076.com^
 ||ligobet919.com^
 ||m-nerobett544.site^
@@ -150,18 +150,33 @@
 ||oley.com^
 #- Gambling Link Hubs ~ Portal Websites
 ||aviator-kazino.com^
+||buyukavanos.com^
+||adnint.com^
+||superbetingiris.pro^
 ||aviator-oyna.fit^
 ||slotcatalog.com
 ||bbtatlantaopen.com^
 ||continuummusic.org^
+||salonmotomadrid.com^
+||abegiris.com.tr^
+||bwin.com^
+||transfermarkt.com^
+||gazetevan.com^
 ||planet5d.com^
+||affiliateroulette.com^
+||turkbilig.com^
+||musovasi.com^
 ||pinco-kayit.space^
 ||1xbet-sitesi.club^
 ||advprocure.com^
 ||girisbetyap.com^
 ||jetxbet.games^
 ||bonus-secim-hemen.link^
+||bitcoinist.com^
+||betewin.org^
+||betreward.com^
 ||pinco-resmi.vip^
+||singularityuchilesummit.com^
 ||pickingmeup.com^
 ||ltacademi.com^
 ||demoslotoyna.com^
@@ -169,6 +184,7 @@
 ||betpas.com^
 ||slot.day^
 ||betokazan.com^
+||rengimiz.com.tr^
 ||goleika.com^
 ||headsetimmersive.com^
 ||hotelsantaisabel.com^
@@ -181,7 +197,16 @@
 ||velobless.dk^
 #- SEO Injected Websites ~ Highly Suspicious
 ||aukuma.com^
+||atlantissu.com.tr^
+||popcornfilmovi.com^
+||birdizihaber.com^
+||northeastohiomuseums.org^
 ||biev.com.tr^
+||caredryers.com^
+||cleanearthsanitation.com^
+||soneroslatingrill.com^
+||palmettopodiatryassociates.com^
+||luxesalonaz.com^
 ||autostartwo.com^
 ||yesilatlas.com^
 ||bottomsuponline.com^
@@ -198,7 +223,12 @@
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||1win-turkey.org^
 ||1win.run^
+||spanpromo.live^
+||betspider.com^
+||sportsbet.io^
+||betzard.com^
 ||jvspin.com^
+||playblockbets.com^
 ||slottarget.com^
 ||jvspinpartners.net^
 ||partnerprofitboost.com^

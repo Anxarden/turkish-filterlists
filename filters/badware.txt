@@ -422,6 +422,7 @@
 ||kisa.pro^
 ||kisalt.gg^
 ||kisalt.vip^
+||manageurl.link^
 ||shortdigest.click^
 ||loomclick.com^
 ||myaffiliates.com^
