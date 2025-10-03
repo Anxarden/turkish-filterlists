@@ -151,6 +151,7 @@
 #- Gambling Link Hubs ~ Portal Websites
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
+||slotcatalog.com
 ||bbtatlantaopen.com^
 ||continuummusic.org^
 ||planet5d.com^
@@ -197,6 +198,11 @@
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||1win-turkey.org^
 ||1win.run^
+||jvspin.com^
+||slottarget.com^
+||jvspinpartners.net^
+||partnerprofitboost.com^
+||pincore-f.com^
 ||1win.web.tr^
 ||playlinki.com^
 ||1wins.in^
