@@ -8,7 +8,7 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/bet[^.]*\d+\.|\d+[^.]*bet\./$all,to=/bet/
+/bets?\d+\b|\d+[^.]*bet\b/$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
