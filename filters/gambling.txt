@@ -8,7 +8,7 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/bet[^.]*\d+\.|\d+[^.]*bet\d*\./$all,to=/bet/
+/bet[^.]*\d+\.|\d+[^.]*bet\./$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -20,12 +20,10 @@
 ||1win.$all
 ||afun.$all
 ||bet.$all
-||bet365.$all
 #- Wildcard Gambling Domains or Subdomains - All TDLs
 *-bet.$all,to=/-bet/
 *artemisbet.$all,to=/artemisbet/
 *atlasbet.$all,to=/atlasbet/
-*bets10.$all,to=/bets10/
 *dumanbet.$all,to=/dumanbet/
 *tipobet.$all,to=/tipobet/
 *winxbet.$all,to=/winxbet/
@@ -33,7 +31,6 @@
 ||artemisbet*.$all
 ||atlasbet*.$all
 ||betkanyon*.$all
-||bets10*.$all
 ||dedebet*.$all
 ||getirbet*.$all
 ||grandpasha*.$all
@@ -57,7 +54,6 @@
 #- Gambling Domains /w Wildcard - TLDs Specific
 *bahsine.com^
 *betturkey.com^
-*betx34.com^
 *dumanbet.com^
 *mariobet.com^
 *truvabet.com^
@@ -102,37 +98,14 @@
 ||biabet*.com^$to=~alpha-digits
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
-||225ramenbet.com^
-||226ramenbet.com^
 ||306betine.com^
-||5supertotobet.com^
 ||7slots679.com^
 ||7slots766.com^
-||galabet991.com^
-||980pusulabet.com^
 ||bahsegel1264.com^
-||betplay363.com^
-||betcio641.org
-||betpark1068.com^
-||ligobet920.com^
-||solobet46.com^
-||bethand172.com
-||betpas1146.com^
-||alobet510.com^
-||betpipo514.com^
-||bettilt22.io^
 ||casibom06267.com^
-||diyarbet796.com^
 ||fraga426.com^
 ||jojobel1076.com^
-||ligobet919.com^
-||m-nerobett544.site^
-||madridbet987.com^
-||makrobet712.com^
-||pusulabetvip11.com^
-||solobet44.com^
 ||stake1069.com^
-||winbet82929.pro^
 #- Turkish Official Gambling Websites
 ||ekuri.com^
 ||tjk.org^
@@ -226,6 +199,8 @@
 ||spanpromo.live^
 ||betspider.com^
 ||sportsbet.io^
+||luxegit.com^
+||tambeteyiz.com^
 ||betzard.com^
 ||jvspin.com^
 ||playblockbets.com^
@@ -238,7 +213,6 @@
 ||1wins.in^
 ||markajortaklik.com^
 ||1xbet-sitesi.xyz^
-||1xbet.com^
 ||1win.direct^
 ||realmadridtwo.com^
 ||palazzopartner.com^
@@ -849,25 +823,24 @@
 ||fairegir.com^
 ||zullagit.xyz^
 #- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
+||1wnhqm.life^
 ||1woahn.com^
+||1wxlfq.com^
 ||anjcdn.org^
 ||arcee003.com^
 ||aviatoroynaa.com^
 ||azrdcdn200.com^
 ||bandnetbe80322.com^
-||cashbck.link^
-||giriscbon.com^
 ||betlnk.net^
 ||bis2020.com
-||btmgiris4.com^
-||satispanel1.com^
 ||bossseoteoman.com^
 ||bpkaff.com^
 ||bprkaff.com^
+||btmgiris4.com^
 ||cachelineib60293.net^
+||cashbck.link^
 ||casinraff.com^
 ||cxaff.com^
-||tabloproject2.com^
 ||datapathdv90226.net^
 ||dogru-gris2025.com^
 ||edgeflowjb10247.net^
@@ -876,6 +849,7 @@
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
+||giriscbon.com^
 ||guncell-girisyeri.com^
 ||hikkoshi0515.com^
 ||linkpointbc110183.com^
@@ -894,7 +868,9 @@
 ||redirectss7affhub.com^
 ||relayhubho40146.com^
 ||relayhubho40281.net^
+||satispanel1.com^
 ||slotapp7.com^
+||tabloproject2.com^
 ||yeniadreskuty.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||rb.gy^

@@ -15,6 +15,7 @@
 ||ipapi.co^
 ||roistat.com^
 ||lfeeder.com^
+||withcabin.com^
 ||cleantalk.org^
 ||quantserve.com^
 ||fastly-insights.com^
@@ -414,8 +415,8 @@
 ||vpngids.nl^
 ||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
-||clbanners*.com^$to=/clbanners\d+\.com$/
-||refpa*.$to=/refpa\d+\.(com|pro|top)$/
+/\bclbanners\d*\.com(?:/.*)?$/$all,to=/clbanners/
+/\brefpa\d+\.(?:com|pro|top)(?:/.*)?$/$all,to=/refpa/
 ||cutt.ly^
 ||directedurls.com^
 ||kisa.link^
@@ -423,6 +424,7 @@
 ||kisalt.gg^
 ||kisalt.vip^
 ||manageurl.link^
+||goo.su^
 ||shortdigest.click^
 ||loomclick.com^
 ||myaffiliates.com^
