@@ -8,7 +8,8 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/\b\d*(?:[a-z]*bet\d*|bet[a-z]{3,}?\d\w*)\b/$all,to=/bet/
+/\b\d*[a-z]*bet\d*\b/$all,to=/bet/
+/\b\d*bet[a-z]{3,}?\d[^.]*)\b/$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -36,7 +37,7 @@
 ||mostbet*.$all
 ||radissonbet*.$all
 ||ramadabet*.$all
-||rokubet*.$all
+||rokubet*.$all,to=~alpha-digits
 ||starzbet*.$all
 ||tipobet*.$all
 ||venusbet*.$all
@@ -112,6 +113,7 @@
 ||aviator-kazino.com^
 ||buyukavanos.com^
 ||adnint.com^
+||betmarino-girisyap.com^
 ||superbetingiris.pro^
 ||aviator-oyna.fit^
 ||slotcatalog.com
@@ -158,6 +160,7 @@
 #- SEO Injected Websites ~ Highly Suspicious
 ||aukuma.com^
 ||atlantissu.com.tr^
+||cassadyvillage.com^
 ||popcornfilmovi.com^
 ||birdizihaber.com^
 ||northeastohiomuseums.org^
