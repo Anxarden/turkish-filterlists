@@ -25,6 +25,8 @@
 ||artemisbet*.$all
 ||atlasbet*.$all
 ||betkanyon*.$all
+||betturkey*.$all
+||betyap*.$all,to=~alpha-digits
 ||dedebet*.$all
 ||getirbet*.$all
 ||grandpasha*.$all
@@ -43,8 +45,6 @@
 ||venusbet*.$all
 ||verabet*.$all
 ||winxbet*.$all
-||betturkey*.$all
-||betyap*.$all,to=~alpha-digits
 #- Gambling Domains /w Wildcard - TLDs Specific
 ||acrobet*.com^
 ||aresbet*.com^
