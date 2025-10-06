@@ -23,10 +23,10 @@
 ||afun.$all
 ||pinco.$all
 #- Wildcard Gambling Domains or Subdomains - All TDLs
-||artemisbet*.$all
-||atlasbet*.$all
-||betkanyon*.$all
-||betturkey*.$all
+||artemisbet*.$all,to=~alpha-digits
+||atlasbet*.$all,to=~alpha-digits
+||betkanyon*.$all,to=~alpha-digits
+||betturkey*.$all,to=~alpha-digits
 ||betyap*.$all,to=~alpha-digits
 ||dedebet*.$all
 ||getirbet*.$all
@@ -38,7 +38,7 @@
 ||meritbet*.$all
 ||meritking*.$all
 ||mostbet*.$all
-||radissonbet*.$all
+||radissonbet*.$all,to=~alpha-digits
 ||ramadabet*.$all
 ||rokubet*.$all,to=~alpha-digits
 ||starzbet*.$all
@@ -116,6 +116,11 @@
 ||adnint.com^
 ||advprocure.com^
 ||affiliateroulette.com^
+||girbetturkey.com^
+||geturkiyeblog.com^
+||feedinco.com^
+||thestableplaceslc.com^
+||conkeycruisers.org^
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
 ||bbtatlantaopen.com^
@@ -194,6 +199,7 @@
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||1win-turkey.org^
 ||1win.run^
+||aff-handler.com^
 ||spanpromo.live^
 ||betspider.com^
 ||sportsbet.io^
@@ -231,6 +237,10 @@
 ||affbetyoner.com^
 ||affbullpartners.com^
 ||affgar.com^
+||affsbet.com^
+||affshowbet.com^
+||atbpartner.com^
+||affpa.top^
 ||affiliateikimisli.com^
 ||affiliates.my^
 ||affiliateskareas.com^
@@ -823,6 +833,8 @@
 ||1wnhqm.life^
 ||1woahn.com^
 ||1wxlfq.com^
+||aff888toertsa.com^
+||affiliatepipo4.com^
 ||anjcdn.org^
 ||arcee003.com^
 ||aviatoroynaa.com^
@@ -868,9 +880,11 @@
 ||satispanel1.com^
 ||slotapp7.com^
 ||tabloproject2.com^
+||top100bonus.com^
 ||yeniadreskuty.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||rb.gy^
+||l24.im^
 ||a.info^
 ||csnr.me^
 ||hub88.io^
@@ -880,6 +894,7 @@
 ||ncybs.com^
 ||phudub.is^
 ||ttagc.xyz^
+||prmbw.com^
 ||x011bt.com^
 ||dbtcdn.com^
 ||bcapps.org^
@@ -904,7 +919,6 @@
 ||naoxzsw.com^
 ||3vpcq6t.com^
 ||9lkf4hn.com^
-||affsbet.com^
 ||api7rng.com^
 ||automyl.ink^
 ||btgo.online^
@@ -963,8 +977,6 @@
 ||5wrajzmsbt.com^
 ||6xp1mvxcoa.com^
 ||77szo9ahpw.com^
-||affshowbet.com^
-||atbpartner.com^
 ||cpkanaaifp.com^
 ||cx3gl4chlh.com^
 ||e4026ext8b.com^
@@ -989,7 +1001,6 @@
 ||gpartners1.click^
 ||cldfrbcdn302.com^
 ||akamsbcdn1400.com^
-||affiliatepipo4.com^
 ||plantlilium003.com^
 ||kfrojagdgfrflg.com^
 ||jptrbhspartners.com^
