@@ -268,4 +268,5 @@ asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
 ||teyit.org/img/side-purmerak-$first-party,image
 ||teyit.org/img/*/purmerak-kulubu-$first-party,image
 ||watch.turkeyplayer.com/poster/$image
+||hlktrpl.cfd/player/assets/uploads/$image
 
