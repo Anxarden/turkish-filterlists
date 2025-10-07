@@ -267,4 +267,5 @@ asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
 ||md.teyit.org/*/side-banner-$first-party,image
 ||teyit.org/img/side-purmerak-$first-party,image
 ||teyit.org/img/*/purmerak-kulubu-$first-party,image
+||watch.turkeyplayer.com/poster/$image
 
