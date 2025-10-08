@@ -450,6 +450,7 @@
 ||torrenthane.net^
 ||turknova.net^
 ||turknova.org^
+||uq.ci^
 !~ Badware/Anti-Privacy Download Sites
 ||aptoide.com^
 ||bluesmods.com^

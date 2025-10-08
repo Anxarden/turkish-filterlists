@@ -157,12 +157,16 @@ vk.com##.feed_row:has([class^="videorestriction"i]:has-text(/creator.*blocked/i)
 ! fandom wikis that are inactive, outdated or deprecated and have better alternatives
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
-duckduckgo.com##article:has([href*="//oxygennotincluded-archive.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
-startpage.com##div.result:has(>a[href^="https://hollowknight.fandom.com/"])
-startpage.com##div.result:has(>a[href^="https://oxygennotincluded-archive.fandom.com/"])
-startpage.com##div.result:has(>a[href^="https://oxygennotincluded.fandom.com/"])
-startpage.com##div.result:has(>a[href^="https://pathofexile.fandom.com/"])
+www.google.*##span>a[href*="//hollowknight.fandom.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*="//oxygennotincluded.fandom.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*="//pathofexile.fandom.com/"]:upward(div#rso>div)
+www.qwant.com##div[domain*="//hollowknight.fandom.com/"]:upward(div)
+www.qwant.com##div[domain*="//oxygennotincluded.fandom.com/"]:upward(div)
+www.qwant.com##div[domain*="//pathofexile.fandom.com/"]:upward(div)
+www.startpage.com##div.result:has(>a[href*="//hollowknight.fandom.com/"])
+www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
+www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
 #- Website Fixes
 ! hide the ad frames to display the video player
 /dizipal\d*\.com/##.player-wrapper>div.pre-player
@@ -240,7 +244,7 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
-asyaanimeleri.top##+js(set-constant, popunderURL, undefined)
+asyaanimeleri.top##+js(set-constant, maxOpensPerDay, 0)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
