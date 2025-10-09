@@ -13,6 +13,7 @@
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||ydsvirify.com^
+||impactcdn.com^
 ||subaxe.xyz^
 ||21wiz.com^
 ||84eb50d125.com^

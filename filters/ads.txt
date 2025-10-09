@@ -104,6 +104,7 @@ mediafire.com##iframe[src$="/premium_trial.php"]
 mediafire.com##iframe[src$="/sidebar_promo.php"]
 pixlr.com##div[id$=-discount-banner]
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
+yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
