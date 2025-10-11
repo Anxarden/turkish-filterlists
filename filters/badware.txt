@@ -823,7 +823,7 @@
 ||av2.sozcu.com.tr^
 ||xenaly.sozcu.com.tr^
 ||ping.staticmoly.me^
-||r.stripe.com^$ping,script,xhr
+||r.stripe.com^
 ||ads.superonline.com^
 ||omni.superonline.net^
 ||somni.superonline.net^
