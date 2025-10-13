@@ -235,17 +235,18 @@ teyit.org##div.feed-wrapper>div:not(.feeds)
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
+asyaanimeleri.top##+js(addEventListener-defuser, click, openPopunder)
 ! [aliases: prevent-fetch, no-fetch-if]
 ! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
-zaytung.com##+js(no-fetch-if, ztrbanner/banner_data.csv)
+zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
 ! +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
 /dizipal\d*\.com$/##+js(abort-on-property-read, manageAds)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
+puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
-asyaanimeleri.top##+js(set-constant, maxOpensPerDay, 0)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
