@@ -92,7 +92,6 @@ chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
 deepl.com##header>div>span:has([href="/en/pro"])
-dogrulukpayi.com##reach-portal{display:none !important;}
 hacksnation.com##div#adblock-overlay
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
@@ -108,13 +107,13 @@ yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
-! Big Footers																						 ~
+! Annoying Footers																						 ~
 deepl.com##nav[aria-label="footer"i]
 ! CSS Fixes and Customisations																		 ~
 ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
-dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
+
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
@@ -223,11 +222,18 @@ vsetop.org##div#content>ul.naviga
 vsetop.org##div#footer
 vsetop.org##div.body>p:has(>a[href^="/donat.html"])
 ! clear related posts and patreon club banners
-teyit.org##div.purmerak-box
-teyit.org##img.side-banner-img
 teyit.org##a#side-banner
 teyit.org##a.inpost-related
 teyit.org##div.feed-wrapper>div:not(.feeds)
+teyit.org##div.purmerak-box
+teyit.org##img.side-banner-img
+||md.teyit.org/*-banner-purmerak-$first-party,image
+||md.teyit.org/*/side-banner-$first-party,image
+||teyit.org/img/*/purmerak-kulubu-$first-party,image
+||teyit.org/img/side-purmerak-$first-party,image
+! disable modal popup and fix scrolling
+dogrulukpayi.com##reach-portal{display:none !important;}
+dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
 
 #----------------------------------------------------------------------------------------------------#
 #- Scriptlets
@@ -261,18 +267,19 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 ##div[class^="ads-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
-! common advert path filters
+
+#----------------------------------------------------------------------------------------------------#
+#- Network AD Filters /w Paths
+#----------------------------------------------------------------------------------------------------#
+#- Common AD Paths
 /reklamlar/*$image
 /rklm/resim/*$image
-! specific advert path filters
-||diziyou*.com/wp-content/*.gif^$first-party,image
+#- Specific AD Links
 ||chesscomfiles.com/uploads/ad_image/$image
-||googleusercontent.com/img/b/r29vz2xl/avvxse*/s$third-party,image,from=~ovagames.com
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
-||md.teyit.org/*-banner-purmerak-$first-party,image
-||md.teyit.org/*/side-banner-$first-party,image
-||teyit.org/img/side-purmerak-$first-party,image
-||teyit.org/img/*/purmerak-kulubu-$first-party,image
 ||watch.turkeyplayer.com/poster/$image
 ||hlktrpl.cfd/player/assets/uploads/$image
-
+!- gambling image ads @ dizipal
+||blogger.googleusercontent.com/img/b/r29vz2xl/$third-party,image,from=~ovagames.com
+!- first-party gambling image ads @ diziyou
+||www.diziyou.to/wp-content/*.gif^$first-party,image

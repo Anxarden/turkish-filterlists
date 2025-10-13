@@ -12,6 +12,8 @@
 @@||medya.ilan.gov.tr/widgets/$third-party,frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
+||palaeicgriper.com^
+||lindiesoncoses.com^
 ||ydsvirify.com^
 ||clickadu.net^
 ||impactcdn.com^
