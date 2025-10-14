@@ -1,6 +1,4 @@
 # Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
 
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
@@ -107,13 +105,12 @@ yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 ! Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
-! Annoying Footers																						 ~
+! Annoying Footers																					 ~
 deepl.com##nav[aria-label="footer"i]
 ! CSS Fixes and Customisations																		 ~
 ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
-
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
 rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
@@ -227,13 +224,9 @@ teyit.org##a.inpost-related
 teyit.org##div.feed-wrapper>div:not(.feeds)
 teyit.org##div.purmerak-box
 teyit.org##img.side-banner-img
-||md.teyit.org/*-banner-purmerak-$first-party,image
-||md.teyit.org/*/side-banner-$first-party,image
-||teyit.org/img/*/purmerak-kulubu-$first-party,image
-||teyit.org/img/side-purmerak-$first-party,image
 ! disable modal popup and fix scrolling
 dogrulukpayi.com##reach-portal{display:none !important;}
-dogrulukpayi.com##body[data-scroll-locked]{overflow:auto !important;}
+dogrulukpayi.com##body{overflow:auto !important;}
 
 #----------------------------------------------------------------------------------------------------#
 #- Scriptlets
@@ -283,3 +276,7 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 ||blogger.googleusercontent.com/img/b/r29vz2xl/$third-party,image,from=~ovagames.com
 !- first-party gambling image ads @ diziyou
 ||www.diziyou.to/wp-content/*.gif^$first-party,image
+!- first party patreon club images
+||md.teyit.org/*/side-banner-$first-party,image
+||teyit.org/*-purmerak-$first-party,image
+||teyit.org/*/purmerak-$first-party,image

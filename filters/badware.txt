@@ -8,8 +8,7 @@
 ||jpicture.xyz^$~xhr
 #- General Whitelist
 @@||use.typekit.net^$script,font
-@@/episodes/*.jpeg^$xhr,domain=/diziyou\d*\.com$/
-@@||medya.ilan.gov.tr/widgets/$third-party,frame
+@@||medya.ilan.gov.tr/widgets/$frame
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||palaeicgriper.com^
@@ -19,6 +18,7 @@
 ||impactcdn.com^
 ||pxf.io^
 ||subscribers.com^
+||transcend-cdn.com^
 ||subaxe.xyz^
 ||21wiz.com^
 ||84eb50d125.com^

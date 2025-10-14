@@ -10,7 +10,7 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/\b\d*(?:[a-z]*bet\d*|bet(?!(?:a\d*|ter)[a-z]*\b)[^.]*)\b/$all,to=/bet/
+/\b\d*(?:[a-z]*bet\d*|bet(?!(?:a|ter|ween)\d*[a-z]*\b)[^.]*)\b/$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -292,6 +292,7 @@
 ||bet365partners.com^
 ||betadonisadresi.com^
 ||betanders.com^
+||betartemis.com^
 ||betandyou.com^
 ||betano.com^
 ||betcartgiris.com^
@@ -367,6 +368,7 @@
 ||bonusverenler.com^
 ||bonusverensitelertr.com^
 ||bonusverenyenisite.com^
+||zulaci.com^
 ||bottoms-up.eu^
 ||bsinplus.com^
 ||budayapoker.us^
@@ -843,6 +845,7 @@
 ||1wxlfq.com^
 ||aff888toertsa.com^
 ||affiliatepipo4.com^
+||mrtkng20xclusive.vip^
 ||anjcdn.org^
 ||arcee003.com^
 ||aviatoroynaa.com^
@@ -851,6 +854,7 @@
 ||betlnk.net^
 ||bis2020.com
 ||bossseoteoman.com^
+||suratgiris99.com^
 ||bpkaff.com^
 ||bprkaff.com^
 ||btmgiris4.com^
