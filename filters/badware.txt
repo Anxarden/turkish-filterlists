@@ -2,13 +2,51 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- Privacy Enchantments and Limitations
-||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
-||gravatar.com^$third-party,~image
-||jpicture.xyz^$~xhr
-#- General Whitelist
-@@||use.typekit.net^$script,font
-@@||medya.ilan.gov.tr/widgets/$frame
+#- 3rd-Party Domains Blacklist @ Turkish Websites ~ [Advert and Privacy]
+!- main domains
+||adhouse.pro^
+||adsby.io^
+||amazon-adsystem.com^
+||bildirt.com^
+||brainsland.com^
+||btloader.com^
+||cloudflareinsights.com^$all
+||creativecdn.com^
+||criteo.net^all
+||dimml.io^
+||doubleclick.net^
+||eskimi.com^
+||forinvestcdn.com^
+||gemius.pl^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||medyanetads.com^
+||membrana.media^
+||netmera-web.com^
+||pigeoon.com^
+||pixad.com.tr^
+||smartadserver.com^
+||trafficbass.com^
+||viads.com^
+||virgul.com^
+||yandex.ru^$third-party,from=~dzen.ru
+!- related subdomains
+||static.criteo.net^
+||static.cloudflareinsights.com^
+||analitik.bik.gov.tr^
+||fundingchoicesmessages.google.com^
+||makroo.haber7.net^
+||adsp.haberturk.com^
+||fimyxg.haberturk.com^
+||log.haberturk.com^
+||ad01.tmgrup.com.tr^
+||banner.tmgrup.com.tr^
+||ipcheck.tmgrup.com.tr^
+||sayac.tmgrup.com.tr^
+||nc.ciner.com.tr^
+||bs.yandex.ru^
+||mc.yandex.ru^
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||palaeicgriper.com^
@@ -27,7 +65,6 @@
 ||acscdn.com^
 ||adform.net^
 ||adhood.com^
-||adhouse.pro^
 ||adition.com^
 ||admatic.com.tr^
 ||admaxium.com^
@@ -37,7 +74,6 @@
 ||adplay.ru^
 ||adrecover.com^
 ||ads-twitter.com^
-||adsby.io^
 ||adskeeper.com^
 ||adsmediabox.com^
 ||adthrive.com^
@@ -61,19 +97,16 @@
 ||beyondwickedmapping.org^
 ||bidr.io^
 ||bildir.mobi^
-||bildirt.com^
 ||bilgin.pro^
 ||bocheskelly.com^
 ||bodilysubtractoversight.com^
 ||bodis.com^
 ||boobbounds.com^
 ||bootcdn.net^
-||brainsland.com^
 ||brandturbo.vip^
 ||braze.com^
 ||browser-intake-datadoghq.com^
 ||brwsrfrm.com^
-||btloader.com^
 ||bugsnag.com^
 ||buysellads.net^
 ||bvtpk.com^
@@ -84,16 +117,13 @@
 ||cland.fyi^
 ||clarity.ms^
 ||cleantalk.org^
-||cloudflareinsights.com^$all
 ||conicsbowle.com^
 ||consensu.org^
 ||cookie-script.com^
 ||cookiebot.com^
 ||cookielaw.org^
 ||crazyegg.com^
-||creativecdn.com^
 ||creedimages.cfd^
-||criteo.net^$all
 ||cronitor.io^$third-party,all
 ||crwdcntrl.net^
 ||cupbearergrowllurch.com^
@@ -113,12 +143,10 @@
 ||dog-a.xyz^
 ||dogt.xyz^
 ||dotmetrics.net^
-||doubleclick.net^
 ||doubleverify.com^
 ||dygdigital.com^
 ||ejaculationnation.com^
 ||entwithoughtsu.com^
-||eskimi.com^
 ||espleestrick.com^
 ||etahub.com^
 ||ethnicspue.com^
@@ -137,7 +165,6 @@
 ||futurecdn.net^$all
 ||gekeebsirs.com^
 ||gelirartisi.com^
-||gemius.pl^
 ||geniuslinkcdn.com^
 ||geolocation-db.com^
 ||getbutton.io^
@@ -147,9 +174,6 @@
 ||glomil.com^$third-party,all
 ||go-mpulse.net^
 ||google-analytics.com^
-||googlesyndication.com^
-||googletagmanager.com^
-||googletagservices.com^
 ||greatdexchange.com^
 ||grookilteepsou.net^
 ||grow.me^$all
@@ -206,8 +230,6 @@
 ||marketo.com^
 ||marshalcurve.com^
 ||maxmind.com^
-||medyanetads.com^
-||membrana.media^
 ||mnaspm.com^
 ||moengage.com^
 ||mokihirhoda.com^
@@ -219,7 +241,6 @@
 ||myroledance.com^
 ||nativespot.com^
 ||nbcuni.com^
-||netmera-web.com^
 ||netpub.media^
 ||newrelic.com^
 ||nkdyzf.com^
@@ -237,7 +258,6 @@
 ||permutive.app^
 ||pigeoon.com^
 ||piwik.pro^
-||pixad.com.tr^
 ||pixiv.org^
 ||plausible.io^
 ||posthog.com^$third-party,all
@@ -283,7 +303,6 @@
 ||sift.com^
 ||siftscience.com^
 ||simpleanalyticscdn.com^
-||smartadserver.com^
 ||sophisticated-check.com^
 ||speedcurve.com^
 ||sprig.com^
@@ -306,7 +325,6 @@
 ||tolt.io^$third-party,all
 ||toplist.cz^
 ||trackjs.com^
-||trafficbass.com^
 ||trendyol.global^
 ||trustarc.com^
 ||tvpixel.com^
@@ -322,7 +340,6 @@
 ||usersnap.com^
 ||usheebainaut.com^
 ||usrpubtrk.com^
-||virgul.com^
 ||visualwebsiteoptimizer.com^
 ||vlitag.com^
 ||vntsm.com^
@@ -574,7 +591,6 @@
 ||sgtm.beko.com.tr^
 ||text.benefitsatwork.com.tr^
 ||uamult.biboya.com.tr^
-||analitik.bik.gov.tr^
 ||data.bilibili.com^
 ||bat.bing.com^
 ||widget.bitay.com.tr^
@@ -600,11 +616,9 @@
 ||dbfukofby5ycr.cloudfront.net^
 ||dcbbwymp1bhlf.cloudfront.net^
 ||dgaf2ncy4dtan.cloudfront.net^
-||static.cloudflareinsights.com^
 ||download.cnet.com^
 ||hxiabp.colins.com.tr^
 ||zjhswy.comeup.com.tr^
-||static.criteo.net^
 ||rum.cronitor.io^
 ||vedznh.cumhuriyet.com.tr^
 ||reklamstore.cubecdn.net^
@@ -676,7 +690,6 @@
 ||contributor.google.com^
 ||crash.corp.google.com^
 ||fcmatch.google.com^
-||fundingchoicesmessages.google.com^
 ||gg.google.com^
 ||id.google.com.tr^
 ||id.google.com^
@@ -699,9 +712,6 @@
 ||d.haberciniz.biz^
 ||ads.haberler.com^
 ||d.haberler.com^
-||adsp.haberturk.com^
-||fimyxg.haberturk.com^
-||log.haberturk.com^
 ||beacon-*.helpscout.net^
 ||tjbhng.hemington.com.tr^
 ||adservice.hepsiburada.com^
@@ -849,10 +859,6 @@
 ||analytics.tiktok.com^
 ||mon.tiktokv.com^
 ||mcs-va.tiktokv.com^
-||ad01.tmgrup.com.tr^
-||banner.tmgrup.com.tr^
-||ipcheck.tmgrup.com.tr^
-||sayac.tmgrup.com.tr^
 ||cdn.tolt.io^
 ||lil-sebastian.trakt.tv^
 ||rechenschieber.transfermarkt.com.tr^
@@ -917,8 +923,6 @@
 ||metrica.yandex.com.tr^
 ||metrika.yandex.com.tr^
 ||csp.yandex.net^
-||bs.yandex.ru^
-||mc.yandex.ru^
 ||ad.yemeksepeti.com^
 ||img.yemeksepeti.com^
 ||simg.yemeksepeti.com^
@@ -937,13 +941,23 @@
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
-||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,domain=redecanais.ps
+||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,from=redecanais.ps
 ||setplay.cfd/player/assets/devtools-detector/$script
 ||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||zi-scripts.com/zi-tag.js^$script
+!- @ haber7.com
+||i11.haber7.net/makroo/hb-ads/$script
 #- Wildcard Paths Filters
+/common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js$script
 /themes/bepeak/assets/js/sw.js$script
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
+#- Privacy Enchantments and Limitations
+||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
+||gravatar.com^$third-party,~image
+||jpicture.xyz^$~xhr
+#- General Whitelist
+@@||use.typekit.net^$script,font
+@@||medya.ilan.gov.tr/widgets/$frame
