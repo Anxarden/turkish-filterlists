@@ -2,51 +2,80 @@
 # Homepage: https://github.com/Anxarden/turkish-filterlist/
 # Author: Anxarden
 
-#- 3rd-Party Domains Blacklist @ Turkish Websites ~ [Advert and Privacy]
+#- Firts-Party Domain Blacklist @ Turkish Websites ~ [Security]
+#- Third-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 !- main domains
+||adform.net^
 ||adhouse.pro^
 ||adsby.io^
 ||amazon-adsystem.com^
 ||bildirt.com^
+||indexww.com^
+||mrf.io^
+||bildirt.com^
+||bilgin.pro^
 ||brainsland.com^
+||ebu.io^$from=~with-subdomains
 ||btloader.com^
-||cloudflareinsights.com^$all
+||casalemedia.com^
+||cdnstr.com^
+||w3schools.com^$third-party
+||ciner.com.tr^$third-party,from=~with-subdomains
+||clarity.ms^
+||cloudflareinsights.com^$from=~with-subdomains
 ||creativecdn.com^
-||criteo.net^all
+||criteo.net^$from=~with-subdomains
 ||dimml.io^
 ||doubleclick.net^
+||go-mpulse.net^
+||pa-cd.com^
 ||eskimi.com^
 ||forinvestcdn.com^
 ||gemius.pl^
+||google-analytics.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||idealmedia.io^
+||ipify.org^
 ||medyanetads.com^
+||demirorenmedya.com^
 ||membrana.media^
+||mynetreklam.com^
+||admost.com^
 ||netmera-web.com^
 ||pigeoon.com^
 ||pixad.com.tr^
 ||smartadserver.com^
+||subservis.com^
+||taboola.com^
 ||trafficbass.com^
+||turk.pro^$third-party,from=~with-subdomains
 ||viads.com^
 ||virgul.com^
-||yandex.ru^$third-party,from=~dzen.ru
+||webvisor.org^
+||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 !- related subdomains
-||static.criteo.net^
-||static.cloudflareinsights.com^
 ||analitik.bik.gov.tr^
+||mo.ciner.com.tr^
+||nc.ciner.com.tr^
+||static.cloudflareinsights.com^
+||static.criteo.net^
+||pipe-collect.ebu.io^
 ||fundingchoicesmessages.google.com^
 ||makroo.haber7.net^
 ||adsp.haberturk.com^
 ||fimyxg.haberturk.com^
 ||log.haberturk.com^
+||geoloc.hurriyet.com.tr^
 ||ad01.tmgrup.com.tr^
 ||banner.tmgrup.com.tr^
 ||ipcheck.tmgrup.com.tr^
 ||sayac.tmgrup.com.tr^
-||nc.ciner.com.tr^
+||analytics.turk.pro^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
+#- Third-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||palaeicgriper.com^
@@ -63,12 +92,10 @@
 ||abtasty.com^
 ||acquiredeceasedundress.com^
 ||acscdn.com^
-||adform.net^
 ||adhood.com^
 ||adition.com^
 ||admatic.com.tr^
 ||admaxium.com^
-||admost.com^
 ||adnxs.com^
 ||adobedtm.com^
 ||adplay.ru^
@@ -81,7 +108,6 @@
 ||agkn.com^
 ||agl005.tech^
 ||ahrefs.com^
-||amazon-adsystem.com^
 ||amplitude.com^
 ||anjouangaming.org^$third-party
 ||appboycdn.com^
@@ -97,7 +123,6 @@
 ||beyondwickedmapping.org^
 ||bidr.io^
 ||bildir.mobi^
-||bilgin.pro^
 ||bocheskelly.com^
 ||bodilysubtractoversight.com^
 ||bodis.com^
@@ -110,12 +135,9 @@
 ||bugsnag.com^
 ||buysellads.net^
 ||bvtpk.com^
-||casalemedia.com^
 ||cdn-cookieyes.com^
-||cdnstr.com^
 ||chartbeat.com^
 ||cland.fyi^
-||clarity.ms^
 ||cleantalk.org^
 ||conicsbowle.com^
 ||consensu.org^
@@ -136,7 +158,6 @@
 ||dercirt.com^
 ||diagnosisintriguingorganizer.com^
 ||dianomi.com^
-||dimml.io^
 ||discovernative.com^
 ||dm-event.net^
 ||dmca.com^$third-party
@@ -156,7 +177,6 @@
 ||fin-sh.com^
 ||firstpromoter.com^
 ||fodsoack.com^
-||forinvestcdn.com^
 ||fpnpmcdn.net^
 ||franecki.net^
 ||franeski.net^
@@ -173,7 +193,6 @@
 ||getter.fun^
 ||glomil.com^$third-party,all
 ||go-mpulse.net^
-||google-analytics.com^
 ||greatdexchange.com^
 ||grookilteepsou.net^
 ||grow.me^$all
@@ -201,7 +220,6 @@
 ||iconcardinal.com^
 ||iconnode.com^
 ||id5-sync.com^
-||idealmedia.io^
 ||indexww.com^
 ||infolinks.com^
 ||inmobi.com^$all,important
@@ -211,7 +229,6 @@
 ||intercom.io^$third-party
 ||intergient.com^
 ||ipapi.co^
-||ipify.org^$third-party
 ||ipvertnet.com^
 ||iubenda.com^
 ||izooto.com^
@@ -256,7 +273,6 @@
 ||pendo.io^$all
 ||perfops.net^$third-party
 ||permutive.app^
-||pigeoon.com^
 ||piwik.pro^
 ||pixiv.org^
 ||plausible.io^
@@ -311,10 +327,8 @@
 ||ssm.codes^
 ||statcounter.com^$important
 ||stpd.cloud^
-||subservis.com^
 ||superonclick.com^
 ||survicate.com^
-||taboola.com^
 ||tammarsayyid.com^$all
 ||tapioni.com^
 ||tawk.to^
@@ -344,7 +358,6 @@
 ||vlitag.com^
 ||vntsm.com^
 ||waust.at^
-||webvisor.org^
 ||wetransfer.world^
 ||whizdom.ai^
 ||widgetlogic.org^
@@ -708,7 +721,6 @@
 ||imasdk.googleapis.com^
 ||faves.grow.me^
 ||sentry.gsb.gov.tr^
-||makroo.haber7.net^
 ||d.haberciniz.biz^
 ||ads.haberler.com^
 ||d.haberler.com^
@@ -722,7 +734,6 @@
 ||hstatstest.hepsiburada.com^
 ||bumerang.hurriyet.com.tr^
 ||bumerangshowsites.hurriyet.com.tr^
-||geoloc.hurriyet.com.tr^
 ||nxggwx.ideasoft.com.tr^
 ||halo.idocdn.com^
 ||ocdhbt.ihvan.com.tr^
@@ -873,7 +884,6 @@
 ||atwcby.trikomisirli.com.tr^
 ||istatistik.trthaber.com^
 ||srv.tunefindforfans.com^
-||analytics.turk.pro^
 ||ruvdkw.turk.net^
 ||omni.turkcell.com.tr^
 ||signals.turkcell.com.tr^
