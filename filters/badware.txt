@@ -2,36 +2,52 @@
 # Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki olumsuz öğeleri engeller. 
 
 #-/ Privacy Enchantments and Limitations
-!-/ duckduckgo
+!-/ [duckduckgo]
 ||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com|~with-subdomains
-!-/ linkedin
+!-/ [linkedin]
 ||linkedin.com^$third-party,from=~with-subdomains
 ||licdn.com^$third-party,from=~linkedin.com|~lnkd.in|~with-subdomains
 ||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
-!-/ gravatar
-||gravatar.com^$third-party,from=~with-subdomains
-||secure.gravatar.com^$~image,~stylesheet
 #-/ General Whitelist
 @@||use.typekit.net^$script,font
+@@||secure.gravatar.com^$image,stylesheet
 #-/ 1st-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
 #-/ 1st-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
+!-	Shady Video Players/Hosts
+||vidmoly.to^
+||hdvid.tv^
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
+||disqus.com^
+||disquscdn.com^
+||amung.us^
+||aso1.net^
+||usheebainaut.com^
 ||adform.net^
+||adhood.com^
 ||adhouse.pro^
+||birthaslaver.com^
 ||admatic.com.tr^
+||magsrv.com^
+||bvtpk.com^
 ||admost.com^
+||adrecover.com^
+||ads-twitter.com^
 ||adsby.io^
+||adsmediabox.com^
 ||amazon-adsystem.com^
 ||analixreklam.com^$third-party,from=~with-subdomains
+||apptracer.ru^
 ||bildirt.com^
 ||bilgin.pro^
 ||brainsland.com^
 ||btloader.com^
+||campfirecroutondecorator.com^
 ||casalemedia.com^
 ||cdnstr.com^
 ||chatango.com^$third-party
 ||ciner.com.tr^$third-party,from=~with-subdomains
 ||clarity.ms^
+||clickadu.net^
 ||cloudflareinsights.com^$from=~with-subdomains
 ||cookielaw.org^
 ||creativecdn.com^
@@ -50,21 +66,26 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||gravatar.com^$third-party,from=~with-subdomains
 ||highperformancedisplayformat.com^
 ||hotjar.com^
 ||idealmedia.io^
 ||indexww.com^
 ||instana.io^
 ||ipify.org^
+||jetlink.io^
 ||kreosus.com^$third-party
 ||medyanetads.com^
 ||membrana.media^
 ||mrf.io^
 ||mynetreklam.com^
 ||netmera-web.com^
+||nwacixzrav.com^
 ||onesignal.com^
 ||onetrust.com^
+||openfpcdn.io^
 ||pa-cd.com^
+||personaclick.com^$third-party
 ||pigeoon.com^
 ||pixad.com.tr^
 ||protect-ad.com^
@@ -73,6 +94,7 @@
 ||subservis.com^
 ||synaps.ly^
 ||taboola.com^
+||tns-counter.ru^
 ||trafficbass.com^
 ||turk.pro^$third-party,from=~with-subdomains
 ||viads.com^
@@ -235,6 +257,8 @@
 ||ads.linkedin.com^
 ||platform.linkedin.com^
 ||track.livasoft.com.tr^
+||ad.mail.ru^
+||top-fwz1.mail.ru^
 ||leytsb.marcomen.com.tr^
 ||dialogue.mazda.com.tr^
 ||sffsgi.miele.com.tr^
@@ -275,6 +299,10 @@
 ||trk.sana.com.tr^
 ||pqnzgu.sarfmarket.com.tr^
 ||smetrics.schindler.com.tr^
+||advast.sibnet.ru^
+||c.sibnet.ru^
+||cvt1.sibnet.ru^
+||vst.sibnet.ru^
 ||ehedwd.sikayetvar.com^
 ||srovwj.simfer.com.tr^
 ||metrics.similac.com.tr^
@@ -405,7 +433,6 @@
 ||storage.ko-fi.com^$third-party,script
 ||ingress.linktr.ee^
 ||cdn.livechatinc.com^
-||ad.mail.ru^
 ||device.maxmind.com^
 ||ichnaea-web.netflix.com^
 ||adx.opera.com^
@@ -425,10 +452,6 @@
 ||cdn.seline.com^
 ||ingest.sentry.io^
 ||platform-api.sharethis.com^
-||advast.sibnet.ru^
-||c.sibnet.ru^
-||cvt1.sibnet.ru^
-||vst.sibnet.ru^
 ||analytics.sonjj.com^
 ||invite.soundcloud.com^
 ||dwt.soundcloud.com^
@@ -942,6 +965,9 @@
 ||wifi4games.com^
 ||yasdl.com^
 #- Specific Scripts/Queries/Fetchs/Blocks
+||abysscdn.com/sw.js^$script
+||anizm.net/sw2.js^$script
+||anizmplayer.com/gmetrics/$script
 ||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script
@@ -950,11 +976,13 @@
 ||eksenload.site/detect.js^$script
 ||flash.getpczone.com/sw.js^$script
 ||haberlercom.github.io/main/prebid$script
+||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
+||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
+||iamcdn.net/player/sw.bundle.js^$script
+||iamcdn.net/player/jwpsrv.js^$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,from=redecanais.ps
 ||setplay.cfd/player/assets/devtools-detector/$script
-||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
-||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||zi-scripts.com/zi-tag.js^$script
 !- @ haber7.com
 ||i11.haber7.net/makroo/hb-ads/$script

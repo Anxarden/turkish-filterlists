@@ -1,4 +1,5 @@
 # Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
+# Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki reklamlar ve rahatsız edici öğeleri engeller. 
 
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
