@@ -29,6 +29,7 @@ fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
 haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
 haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
+haberler.com##^div[class^="ad-left-"],div[class^="ad-right-"]
 hlktrpl.cfd##.jw-preview,.jw-title
 hlktrpl.cfd##^[id="textreklamgoster"i]
 hlktrpl.cfd##^body>div[id="adstop"i]

@@ -8,18 +8,37 @@
 ||linkedin.com^$third-party,from=~with-subdomains
 ||licdn.com^$third-party,from=~linkedin.com|~lnkd.in|~with-subdomains
 ||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
+!-/ [apple]
+||apple.com^$third-party,from=~icloud.com|~with-subdomains
+||cdn-apple.com^$from=~apple.com|~icloud.com
 #-/ General Whitelist
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
 #-/ 1st-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
 #-/ 1st-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
-!-	Shady Video Players/Hosts
-||vidmoly.to^
-||hdvid.tv^
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||disqus.com^
-||disquscdn.com^
+||cstwpush.com^
+||paupsoborofoow.net^
+||networkad.net^
+||dtscout.com^
 ||amung.us^
+||useinsider.com^
+||igodigital.com^
+||go-mpulse.net^
+||sentry-cdn.com^
+||evgnet.com^
+||getjan.io^
+||bugsnag.com^
+||cookie-script.com^
+||dengage.com^
+||stomt.com^
+||empower.net^
+||gemius.pl^
+||gelirartisi.com^
+||nativespot.com^
+||googleadservices.com^
+||disquscdn.com^
 ||aso1.net^
 ||usheebainaut.com^
 ||adform.net^
@@ -38,6 +57,7 @@
 ||analixreklam.com^$third-party,from=~with-subdomains
 ||apptracer.ru^
 ||bildirt.com^
+||efilli.com^$from=~with-subdomains
 ||bilgin.pro^
 ||brainsland.com^
 ||btloader.com^
@@ -60,8 +80,6 @@
 ||ebu.io^$from=~with-subdomains
 ||eskimi.com^
 ||forinvestcdn.com^
-||gemius.pl^
-||go-mpulse.net^
 ||google-analytics.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -131,6 +149,7 @@
 ||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
+||securemetrics.apple.com^
 ||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
 ||swwcyk.aspor.com.tr^
@@ -361,6 +380,7 @@
 ||igfjkh.vw.com.tr^
 ||smetric.vw.com.tr^
 ||countly.wellbees.com.tr^
+||intake-analytics.wikimedia.org^
 ||kuusay.yalispor.com.tr^
 ||analytics.yandex.com.tr^
 ||clck.yandex.com.tr^
@@ -368,6 +388,7 @@
 ||metric.yandex.com.tr^
 ||metrica.yandex.com.tr^
 ||metrika.yandex.com.tr^
+||csp.yandex.net^
 ||bs.yandex.ru^
 ||mc.yandex.ru^
 ||ad.yemeksepeti.com^
@@ -477,7 +498,6 @@
 ||ms.vk.com^
 ||stats.vk-portal.net^
 ||lf3-data.volccdn.com^
-||intake-analytics.wikimedia.org^
 ||distillery.wistia.com^
 ||pipedream.wistia.com^
 ||csp.withgoogle.com^
@@ -490,14 +510,12 @@
 ||geo.yahoo.com^
 ||udc.yahoo.com^
 ||appmetrica.yandex.com^
-||csp.yandex.net^
 ||downloads.zdnet.de^
 #- General Blacklist for Privacy and Safety
 ! AD/Tracker Hosts and Other 3rd-Party Domains
 ||palaeicgriper.com^
 ||lindiesoncoses.com^
 ||ydsvirify.com^
-||clickadu.net^
 ||impactcdn.com^
 ||pxf.io^
 ||subscribers.com^
@@ -508,16 +526,12 @@
 ||abtasty.com^
 ||acquiredeceasedundress.com^
 ||acscdn.com^
-||adhood.com^
 ||adition.com^
 ||admaxium.com^
 ||adnxs.com^
 ||adobedtm.com^
 ||adplay.ru^
-||adrecover.com^
-||ads-twitter.com^
 ||adskeeper.com^
-||adsmediabox.com^
 ||adthrive.com^
 ||adtng.com^
 ||agkn.com^
@@ -527,7 +541,6 @@
 ||anjouangaming.org^$third-party
 ||appboycdn.com^
 ||appsflyer.com^
-||apptracer.ru^
 ||artfiles.online^
 ||ashoupsu.com^
 ||askdriver.com^
@@ -547,16 +560,13 @@
 ||braze.com^
 ||browser-intake-datadoghq.com^
 ||brwsrfrm.com^
-||bugsnag.com^
 ||buysellads.net^
-||bvtpk.com^
 ||cdn-cookieyes.com^
 ||chartbeat.com^
 ||cland.fyi^
 ||cleantalk.org^
 ||conicsbowle.com^
 ||consensu.org^
-||cookie-script.com^
 ||cookiebot.com^
 ||crazyegg.com^
 ||cronitor.io^$third-party,all
@@ -567,7 +577,6 @@
 ||datadoghq-browser-agent.com^
 ||dataroid.com^
 ||demand.supply^
-||dengage.com^
 ||dercirt.com^
 ||diagnosisintriguingorganizer.com^
 ||dianomi.com^
@@ -596,12 +605,10 @@
 ||fuseplatform.net^
 ||futurecdn.net^$all
 ||gekeebsirs.com^
-||gelirartisi.com^
 ||geniuslinkcdn.com^
 ||geolocation-db.com^
 ||getbutton.io^
 ||getclicky.com^
-||getjan.io^
 ||getter.fun^
 ||glomil.com^$third-party,all
 ||greatdexchange.com^
@@ -649,7 +656,6 @@
 ||kops1.site^
 ||lfeeder.com^
 ||livechatinc.com^$all
-||magsrv.com^
 ||marketo.com^
 ||marshalcurve.com^
 ||maxmind.com^
@@ -661,7 +667,6 @@
 ||mutinycdn.com^
 ||mxapis.com^
 ||myroledance.com^
-||nativespot.com^
 ||nbcuni.com^
 ||netpub.media^
 ||newrelic.com^
@@ -711,7 +716,6 @@
 ||sedoparking.com^
 ||seedtag.com^
 ||seline.com^$third-party,all
-||sentry-cdn.com^
 ||sentry.io^$all
 ||seon.io^
 ||servedby-buysellads.com^
@@ -737,7 +741,6 @@
 ||threadloom.com^$all
 ||tidyfeyest.com^
 ||tinypass.com^
-||tns-counter.ru^
 ||tolt.io^$third-party,all
 ||toplist.cz^
 ||trackjs.com^
@@ -750,11 +753,8 @@
 ||unasonoric.com^$all
 ||unifyintent.com^
 ||usefathom.com^
-||useinsider.com^
 ||usemessages.com^
-||usercentrics.eu^
 ||usersnap.com^
-||usheebainaut.com^
 ||usrpubtrk.com^
 ||vlitag.com^
 ||vntsm.com^
@@ -773,87 +773,6 @@
 ||zintrack.com^
 ||zolaizeblowier.com^
 #- Badware, Potantialy Unwanted & Fake/Bait Websites
-!~ Shady Softwares/Services and Related Websites
-||astrill.com^
-||atlasvpn.com^
-||avast.com^
-||avg.com^
-||avira.com^
-||betternet.co^
-||bitcomet.com^
-||bitlord.com^
-||bittorrent.com^
-||blackvpn.org^
-||brightvpn.com^
-||ccleaner.com^
-||ccleanercloud.com^
-||cyberghostvpn.com^
-||dotvpn.com^
-||expressvpn.com^
-||frostwire.com^
-||gendigital.com^
-||goosevpn.com^
-||gshade.org^
-||hidemyass.com^
-||hola.org^
-||hotspotshield.com^
-||iobit.com^
-||ipvanish.com^
-||ivacy.com^
-||justvpn.net^
-||kape.com^
-||lastpass.com^
-||limewire.com^
-||mcafee.com^
-||mediaget.com^
-||nordpass.com^
-||nordsecurity.com^
-||nordvpn.com^
-||norton.com^
-||nortonlifelock.com^
-||okvpn.net^
-||opera.com^
-||ovpn.com^
-||pango.co^
-||pcprotect.com^
-||privacymate.com^
-||privateinternetaccess.com^
-||proxpn.com^
-||purevpn.com^
-||safetydetectives.com^
-||seed4.me^
-||skyvpn.net^
-||strongvpn.com^
-||surfshark.com^
-||switchvpn.net^
-||tlauncher.org^
-||totalav.com^
-||touchvpn.net^
-||tunnelbear.com^
-||turbovpn.co^
-||turbovpn.com^
-||ufovpn.io^
-||ultravpn.com^
-||utorrent.com^
-||vpn360.com^
-||vpnhub.com^
-||vpnmentor.com^
-||vpnpro.com^
-||vpnproxymaster.com^
-||vpnranks.com^
-||vpnsecure.me^
-||vpnsuper.com^
-||webselenese.com^
-||wizcase.com^
-||wlvpn.com^
-||xvpn.io^
-||zenmate.com^
-||kaspersky.com^
-||kaspersky-labs.com^
-!~ Shady SEO/Affiliate Websites							
-||top10vpn.com^
-||vpngids.nl^
-||vpndetectives.com^
 !~ Potantialy Dangerious Redirecting Domains
 /\bclbanners\d*\.com(?:/.*)?$/$all,to=/clbanners/
 /\brefpa\d+\.(?:com|pro|top)(?:/.*)?$/$all,to=/refpa/
@@ -876,38 +795,6 @@
 ||trredirect.pro^
 ||urlsshort.link^
 ||zaplyurl.com^
-!~ Expired/Closed Domains of Old Websites
-||bitsexy.org^
-||extratorrents.it^
-||hambiltonian.com^
-||planetdp.org^
-||rarbg.to
-||samforum.org^
-||torrent-indir.net^
-||torrentgalaxy.to^
-||torrenthane.net^
-||turknova.net^
-||turknova.org^
-||uq.ci^
-!~ Badware/Anti-Privacy Download Sites
-||aptoide.com^
-||bluesmods.com^
-||cnet.com^
-||download.com^
-||download.it^
-||downloadly.ir^
-||downloadly.net^
-||downloadlyir.com^
-||downloadlynet.ir^
-||filecr.com^
-||filehorse.com^
-||indir.org^
-||softonic.com.tr^
-||softonic.com^
-||uptodown.com^
-||zdnet.com^
-||zdnet.de^
-||softmany.com^
 !~ Scam Websites
 ||crypto-license.org^
 ||coinovamarket.com^
@@ -968,14 +855,15 @@
 ||abysscdn.com/sw.js^$script
 ||anizm.net/sw2.js^$script
 ||anizmplayer.com/gmetrics/$script
+||cdnjs.cloudflare.com/polyfill/$script,third-party
+||eksenload.site/detect.js^$script
+||flash.getpczone.com/sw.js^$script
+||i11.haber7.net/makroo/hb-ads/$script
+||haberlercom.github.io/main/prebid$script
 ||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
-||cdnjs.cloudflare.com/polyfill/$script,third-party
-||eksenload.site/detect.js^$script
-||flash.getpczone.com/sw.js^$script
-||haberlercom.github.io/main/prebid$script
 ||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||iamcdn.net/player/sw.bundle.js^$script
@@ -984,8 +872,6 @@
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,from=redecanais.ps
 ||setplay.cfd/player/assets/devtools-detector/$script
 ||zi-scripts.com/zi-tag.js^$script
-!- @ haber7.com
-||i11.haber7.net/makroo/hb-ads/$script
 #- Wildcard Paths Filters
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js$script
