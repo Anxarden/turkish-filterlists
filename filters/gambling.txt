@@ -1,6 +1,5 @@
-# Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Yasadışı Kumar/Bahis]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+# Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Kumar ve Bahis]
+# Description: Türk kullanıcıları hedef alan kumar ve bahis içerikli internet sitelerini engeller.
 
 #- Gambling Related Regex/Wildcards
 !/\b\d*[a-z]*bet\d*\b/$all,to=/bet/

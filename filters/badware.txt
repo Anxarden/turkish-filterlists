@@ -1,16 +1,25 @@
 # Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
-# Homepage: https://github.com/Anxarden/turkish-filterlist/
-# Author: Anxarden
+# Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki olumsuz öğeleri engeller. 
 
-#- Firts-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
-#- First-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
-#- Third-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
+#-/ Privacy Enchantments and Limitations
+!-/ duckduckgo
+||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com|~with-subdomains
+!-/ linkedin
+||linkedin.com^$third-party,from=~with-subdomains
+||licdn.com^$third-party,from=~linkedin.com|~lnkd.in|~with-subdomains
+||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
+!-/ gravatar
+||gravatar.com^$third-party,from=~with-subdomains
+||secure.gravatar.com^$~image,~stylesheet
+#-/ General Whitelist
+@@||use.typekit.net^$script,font
+#-/ 1st-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
+#-/ 1st-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
+#-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||adform.net^
-||quietshalecompany.com^
 ||adhouse.pro^
 ||admatic.com.tr^
 ||admost.com^
-||protect-ad.com^
 ||adsby.io^
 ||amazon-adsystem.com^
 ||analixreklam.com^$third-party,from=~with-subdomains
@@ -20,14 +29,17 @@
 ||btloader.com^
 ||casalemedia.com^
 ||cdnstr.com^
+||chatango.com^$third-party
 ||ciner.com.tr^$third-party,from=~with-subdomains
 ||clarity.ms^
 ||cloudflareinsights.com^$from=~with-subdomains
 ||cookielaw.org^
 ||creativecdn.com^
+||creedimages.cfd^
 ||criteo.net^$from=~with-subdomains
 ||demirorenmedya.com^
 ||dimml.io^
+||dogt.xyz^
 ||doubleclick.net^
 ||ebu.io^$from=~with-subdomains
 ||eskimi.com^
@@ -38,11 +50,13 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||highperformancedisplayformat.com^
 ||hotjar.com^
 ||idealmedia.io^
 ||indexww.com^
 ||instana.io^
 ||ipify.org^
+||kreosus.com^$third-party
 ||medyanetads.com^
 ||membrana.media^
 ||mrf.io^
@@ -53,6 +67,8 @@
 ||pa-cd.com^
 ||pigeoon.com^
 ||pixad.com.tr^
+||protect-ad.com^
+||quietshalecompany.com^
 ||smartadserver.com^
 ||subservis.com^
 ||synaps.ly^
@@ -65,7 +81,18 @@
 ||wawlabs.com^$third-party
 ||webvisor.org^
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
-#- Third-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
+#- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
+||continual.ly^
+||omappapi.com^
+||al5sm.com^
+||hyros.com^
+||sleevesbarbing.com^
+||addthis.com^
+||doggrellowder.com^
+||usercentrics.eu^
+||histats.com^
+||hs-scripts.com^
+||visualwebsiteoptimizer.com^
 #- Subdomains Blacklist @ Turkish Websites ~ [General]
 ||signals.a101.com.tr^
 ||uazmti.a101.com.tr^
@@ -177,6 +204,7 @@
 ||bumerang.hurriyet.com.tr^
 ||bumerangshowsites.hurriyet.com.tr^
 ||geoloc.hurriyet.com.tr^
+||entitlements.jwplayer.com^
 ||nxggwx.ideasoft.com.tr^
 ||ocdhbt.ihvan.com.tr^
 ||sentry.ing.com.tr^
@@ -368,6 +396,7 @@
 ||temp-akiva.glomil.com^
 ||s.gofile.io^
 ||firebase.googleapis.com^
+||docs.gravatar.com^
 ||faves.grow.me^
 ||beacon-*.helpscout.net^
 ||halo.idocdn.com^
@@ -506,9 +535,7 @@
 ||consensu.org^
 ||cookie-script.com^
 ||cookiebot.com^
-||cookielaw.org^
 ||crazyegg.com^
-||creedimages.cfd^
 ||cronitor.io^$third-party,all
 ||crwdcntrl.net^
 ||cupbearergrowllurch.com^
@@ -525,7 +552,6 @@
 ||dm-event.net^
 ||dmca.com^$third-party
 ||dog-a.xyz^
-||dogt.xyz^
 ||dotmetrics.net^
 ||doubleverify.com^
 ||dygdigital.com^
@@ -563,12 +589,9 @@
 ||hemenindir.to^
 ||heylink.com^
 ||hif.to^
-||histats.com^$important
 ||hostixz.com^$third-party
-||hotjar.com^
 ||hs-analytics.net^
 ||hs-banner.com^
-||hs-scripts.com^
 ||hsadspixel.net^
 ||hsforms.net^
 ||hsleadflows.net^
@@ -641,7 +664,6 @@
 ||privacy-mgmt.com^
 ||prodregistryv2.org^
 ||profitwell.com^
-||protect-ad.com^
 ||pub.network^
 ||pubguru.net^
 ||pudaf.com^
@@ -711,7 +733,6 @@
 ||usersnap.com^
 ||usheebainaut.com^
 ||usrpubtrk.com^
-||visualwebsiteoptimizer.com^
 ||vlitag.com^
 ||vntsm.com^
 ||waust.at^
@@ -943,9 +964,3 @@
 /themes/bepeak/assets/js/sw.js$script
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
-#- Privacy Enchantments and Limitations
-||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
-||gravatar.com^$third-party,~image
-||jpicture.xyz^$~xhr
-#- General Whitelist
-@@||use.typekit.net^$script,font

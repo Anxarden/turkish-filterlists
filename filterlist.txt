@@ -2,20 +2,20 @@
 ! Title: 🇹🇷 [Türkçe] Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen unsurları engeller/gizler.
+! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen olumsuz unsurları engeller/gizler.
 ! Last modified: 2025.10.16
 ! Expires: 24 hours
 
 !--------------------------------------------------!
-#- AD FILTERS
-!--------------------------------------------------!
-!#include filters\ads.txt
-
-!
-!--------------------------------------------------!
 #- BADWARE FILTERS
 !--------------------------------------------------!
 !#include filters\badware.txt
+
+!
+!--------------------------------------------------!
+#- AD FILTERS
+!--------------------------------------------------!
+!#include filters\ads.txt
 
 !
 !--------------------------------------------------!
