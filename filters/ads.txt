@@ -12,6 +12,7 @@
 /diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
 /diziyou\d*\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
+animetr.co##^div.ads
 anizm.net##a.center-block[target=_blank]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
@@ -236,7 +237,7 @@ dogrulukpayi.com##body{overflow:auto !important;}
 ! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
-asyaanimeleri.top##+js(addEventListener-defuser, click, openPopunder)
+asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
 ! [aliases: prevent-fetch, no-fetch-if]
 ! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
@@ -248,6 +249,7 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 ! +js(set, object.property, value, [checkWiki])
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+ag2m2.cfd##+js(set-constant, shouldOpenPopup, falseFunc)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
@@ -282,3 +284,8 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 ||md.teyit.org/*/side-banner-$first-party,image
 ||teyit.org/*-purmerak-$first-party,image
 ||teyit.org/*/purmerak-$first-party,image
+!- gambling image ads @ diziparis
+||dizikral.club/cdn/*.gif^$image
+||dizikral.live/cdn/*.gif^$image
+||diziparis.plus/cdn/*.gif^$image
+||dizikralgiris.com/cdn/*.gif^$image

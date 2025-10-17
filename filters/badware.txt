@@ -15,30 +15,36 @@
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
 #-/ 1st-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
+!-	SEO Targeted Automatic Baitclick News
+||turkinform.com.tr^$document
 #-/ 1st-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
-||hdbkell.com^
-||atrodhki.com^
+||21wiz.com^
 ||2cnt.net^
 ||adform.net^
 ||adhood.com^
 ||adhouse.pro^
 ||admatic.com.tr^
 ||admost.com^
-||animecix.co^$from=~with-subdomains
 ||adrecover.com^
 ||ads-twitter.com^
 ||adsby.io^
 ||adsmediabox.com^
+||ahatm8od.top^
+||ahrefs.com^
+||aj2532.bid^
 ||amazon-adsystem.com^
 ||amung.us^
 ||analixreklam.com^$third-party,from=~with-subdomains
+||animecix.co^$from=~with-subdomains
+||antigutkha.com^
 ||apptracer.ru^
 ||aso1.net^
+||atrodhki.com^
+||bablosoft.com^$third-party
 ||bildirt.com^
 ||bilgin.pro^
 ||birthaslaver.com^
-||brainsland.com^
 ||brainsland.com^
 ||btloader.com^
 ||bugsnag.com^
@@ -47,6 +53,7 @@
 ||casalemedia.com^
 ||cdnstr.com^
 ||chatango.com^$third-party
+||chatbro.com^
 ||ciner.com.tr^$third-party,from=~with-subdomains
 ||clarity.ms^
 ||clickadu.net^
@@ -62,7 +69,9 @@
 ||dimml.io^
 ||disqus.com^
 ||disquscdn.com^
+||dj2550.com^
 ||dm-event.net^
+||dmca.com^$third-party
 ||dogt.xyz^
 ||doubleclick.net^
 ||dtscout.com^
@@ -71,10 +80,16 @@
 ||empower.net^
 ||eskimi.com^
 ||evgnet.com^
+||excavatenearbywand.com^
+||firmafaresi.com^
 ||forinvestcdn.com^
+||franecki.net^
+||franeski.net^
+||ftd.agency^
 ||gelirartisi.com^
 ||gemius.pl^
 ||getjan.io^
+||getter.fun^
 ||go-mpulse.net^
 ||google-analytics.com^
 ||googleadservices.com^
@@ -83,14 +98,19 @@
 ||googletagmanager.com^
 ||googletagservices.com^
 ||gravatar.com^$third-party,from=~with-subdomains
+||groleegni.net^
+||hdbkell.com^
+||heimalesssinpad.com^
 ||highperformancedisplayformat.com^
 ||hotjar.com^
 ||idealmedia.io^
 ||igodigital.com^
 ||indexww.com^
 ||instana.io^
+||instant.page^$third-party
 ||ipify.org^
 ||jetlink.io^
+||keskin.vip^
 ||kingads2.org^
 ||kingbaba.org^
 ||kreosus.com^$third-party
@@ -114,13 +134,18 @@
 ||pixad.com.tr^
 ||protect-ad.com^
 ||quietshalecompany.com^
+||revenuecpmgate.com^
 ||scorecardresearch.com^
 ||sentry-cdn.com^
+||servetraff.com^
 ||smartadserver.com^
+||srv224.com^
+||statbest.in^
 ||stomt.com^
 ||subservis.com^
 ||synaps.ly^
 ||taboola.com^
+||tdslinetraffic.com^
 ||tns-counter.ru^
 ||trafficbass.com^
 ||turk.pro^$third-party,from=~with-subdomains
@@ -129,7 +154,9 @@
 ||viads.com^
 ||virgul.com^
 ||w3schools.com^$third-party
+||waust.at^
 ||wawlabs.com^$third-party
+||webpushr.com^
 ||webvisor.org^
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
@@ -173,7 +200,7 @@
 ||uvqvvh.avva.com.tr^
 ||zhcmli.ayakkabidunyasi.com.tr^
 ||kbpljd.aydin.edu.tr^
-||analitik.bik.gov.tr^
+||customfingerprints.bablosoft.com^
 ||adserver.bafrahaber.com^
 ||ulinyo.bandito.com.tr^
 ||trk.baskent.edu.tr^
@@ -181,6 +208,7 @@
 ||sgtm.beko.com.tr^
 ||text.benefitsatwork.com.tr^
 ||uamult.biboya.com.tr^
+||analitik.bik.gov.tr^
 ||widget.bitay.com.tr^
 ||analytics.bkmobil.com.tr^
 ||ufsmcn.blackspade.com.tr^
@@ -237,8 +265,8 @@
 ||adservice.google.com.tr^
 ||id.google.com.tr^
 ||imasdk.googleapis.com^
+||firebase.googleapis.com^
 ||firebaseinstallations.googleapis.com^
-||imasdk.googleapis.com^
 ||sentry.gsb.gov.tr^
 ||makroo.haber7.net^
 ||d.haberciniz.biz^
@@ -458,7 +486,6 @@
 ||new-sentry.gitlab.net^
 ||temp-akiva.glomil.com^
 ||s.gofile.io^
-||firebase.googleapis.com^
 ||docs.gravatar.com^
 ||faves.grow.me^
 ||beacon-*.helpscout.net^
@@ -534,7 +561,6 @@
 ||subscribers.com^
 ||transcend-cdn.com^
 ||subaxe.xyz^
-||21wiz.com^
 ||84eb50d125.com^
 ||abtasty.com^
 ||acquiredeceasedundress.com^
@@ -549,7 +575,6 @@
 ||adtng.com^
 ||agkn.com^
 ||agl005.tech^
-||ahrefs.com^
 ||amplitude.com^
 ||anjouangaming.org^$third-party
 ||appboycdn.com^
@@ -594,8 +619,6 @@
 ||diagnosisintriguingorganizer.com^
 ||dianomi.com^
 ||discovernative.com^
-||dm-event.net^
-||dmca.com^$third-party
 ||dog-a.xyz^
 ||dotmetrics.net^
 ||doubleverify.com^
@@ -612,8 +635,6 @@
 ||firstpromoter.com^
 ||fodsoack.com^
 ||fpnpmcdn.net^
-||franecki.net^
-||franeski.net^
 ||furyprosecutionkitchen.com^
 ||fuseplatform.net^
 ||futurecdn.net^$all
@@ -622,13 +643,11 @@
 ||geolocation-db.com^
 ||getbutton.io^
 ||getclicky.com^
-||getter.fun^
 ||glomil.com^$third-party,all
 ||greatdexchange.com^
 ||grookilteepsou.net^
 ||grow.me^$all
 ||hardexpendstrategy.com^
-||hdbkell.com^
 ||hemenindir.to^
 ||heylink.com^
 ||hif.to^
@@ -741,7 +760,6 @@
 ||speedcurve.com^
 ||sprig.com^
 ||squarespace-cdn.com^
-||srv224.com^
 ||ssm.codes^
 ||statcounter.com^$important
 ||stpd.cloud^
@@ -770,7 +788,6 @@
 ||usrpubtrk.com^
 ||vlitag.com^
 ||vntsm.com^
-||waust.at^
 ||wetransfer.world^
 ||whizdom.ai^
 ||widgetlogic.org^
