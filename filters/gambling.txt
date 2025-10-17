@@ -1087,3 +1087,4 @@
 ||yeni-adres.s3.eu-central-1.amazonaws.com^
 ||bookmkrs.s3.amazonaws.com^
 ||s3.amazonaws.com/bookmkrs/*
+! --------------------------------------------------------------------------- !

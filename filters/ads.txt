@@ -238,6 +238,7 @@ dogrulukpayi.com##body{overflow:auto !important;}
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
 asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
+ag2m2.cfd##+js(addEventListener-defuser, click, shouldOpenPopup)
 ! [aliases: prevent-fetch, no-fetch-if]
 ! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
@@ -249,7 +250,6 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 ! +js(set, object.property, value, [checkWiki])
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
-ag2m2.cfd##+js(set-constant, shouldOpenPopup, falseFunc)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
@@ -278,14 +278,16 @@ ag2m2.cfd##+js(set-constant, shouldOpenPopup, falseFunc)
 ||hlktrpl.cfd/player/assets/uploads/$image
 !- gambling image ads @ dizipal
 ||blogger.googleusercontent.com/img/b/r29vz2xl/$third-party,image,from=~ovagames.com
-!- first-party gambling image ads @ diziyou
+!- first party gambling image ads @ diziyou
 ||www.diziyou.to/wp-content/*.gif^$first-party,image
+!- self-hosted gambling image ads @ other movie/series websites
+||royalfilmizle.com/wp-content/uploads/*gif^$image
+||dizikral.club/cdn/*.gif^$image,xhr
+||dizikral.live/cdn/*.gif^$image,xhr
+||dizikral.plus/cdn/*.gif^$image,xhr
+||diziparis.plus/cdn/*.gif^$image,xhr
+||dizikralgiris.com/cdn/*.gif^$image,xhr
 !- first party patreon club images
 ||md.teyit.org/*/side-banner-$first-party,image
 ||teyit.org/*-purmerak-$first-party,image
 ||teyit.org/*/purmerak-$first-party,image
-!- gambling image ads @ diziparis
-||dizikral.club/cdn/*.gif^$image
-||dizikral.live/cdn/*.gif^$image
-||diziparis.plus/cdn/*.gif^$image
-||dizikralgiris.com/cdn/*.gif^$image
