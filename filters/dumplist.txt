@@ -184,7 +184,6 @@
 ||seon.io^
 ||servedby-buysellads.com^
 ||setupcmp.com^
-||sharethis.com^$all
 ||sheetedunrope.com^
 ||sift.com^
 ||siftscience.com^
