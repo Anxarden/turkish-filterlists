@@ -1,5 +1,5 @@
 # Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
-# Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki olumsuz öğeleri engeller.
+# Description: Türkçe içerikli/arayüzlü ve Türk kullanıcıların ziyaret ettiği internet sitelerindeki olumsuz öğeleri engeller.
 
 #-/ Privacy Enchantments
 !-/ [duckduckgo]
@@ -11,13 +11,34 @@
 !-/ [apple]
 ||apple.com^$third-party,from=~icloud.com|~with-subdomains
 ||cdn-apple.com^$from=~apple.com|~icloud.com
-#-/ General Whitelist
+#-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
-#-/ Domain Blacklist @ Turkish Websites ~ [Safety and Security]
+#-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^$document
-#-/ Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
+!-	Dangerious Redirecting Links
+/\bclbanners\d*\.com(?:\/.*)?$/$all,to=/clbanners/
+/\brefpa\d+\.(?:com|pro|top)(?:\/.*)?$/$all,to=/refpa/
+||cutt.ly^
+||directedurls.com^
+||kisa.link^
+||kisa.pro^
+||kisalt.gg^
+||kisalt.vip^
+||manageurl.link^
+||goo.su^
+||shortdigest.click^
+||loomclick.com^
+||myaffiliates.com^
+||onelink.to^
+||r2m.io^
+||shortlinks.biz^
+||shortzak.online^
+||t2m.io^
+||trredirect.pro^
+||urlsshort.link^
+||zaplyurl.com^
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
@@ -175,8 +196,11 @@
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||addthis.com^
 ||adgrid.io^
+||adt598.com^
+||vntsm.com^
 ||adition.com^
 ||adsninja.ca^
+||cdn-cookieyes.com^
 ||al5sm.com^
 ||amplitude.com^
 ||appzi.io^
@@ -197,6 +221,8 @@
 ||doubleverify.com^
 ||getclicky.com^
 ||gladly.com^$third-party
+||geoapify.com^$third-party
+||crisp.chat^$third-party
 ||hs-scripts.com^
 ||hyros.com^
 ||inmobi.com^$from=~with-subdomains
@@ -547,6 +573,7 @@
 ||halo.idocdn.com^
 ||cmp.inmobi.com^
 ||g.jwpsrv.com^
+||stats.kde.org^
 ||storage.ko-fi.com^$third-party,script
 ||ingress.linktr.ee^
 ||cdn.livechatinc.com^
@@ -605,85 +632,6 @@
 ||udc.yahoo.com^
 ||appmetrica.yandex.com^
 ||downloads.zdnet.de^
-#- Badware, Potantialy Unwanted & Fake/Bait Websites
-!~ Potantialy Dangerious Redirecting Domains
-/\bclbanners\d*\.com(?:/.*)?$/$all,to=/clbanners/
-/\brefpa\d+\.(?:com|pro|top)(?:/.*)?$/$all,to=/refpa/
-||cutt.ly^
-||directedurls.com^
-||kisa.link^
-||kisa.pro^
-||kisalt.gg^
-||kisalt.vip^
-||manageurl.link^
-||goo.su^
-||shortdigest.click^
-||loomclick.com^
-||myaffiliates.com^
-||onelink.to^
-||r2m.io^
-||shortlinks.biz^
-||shortzak.online^
-||t2m.io^
-||trredirect.pro^
-||urlsshort.link^
-||zaplyurl.com^
-!~ Scam Websites
-||crypto-license.org^
-||coinovamarket.com^
-||jink.host^
-||protonge.com^
-#- Dangerious Pirate Websites or Clones
-! windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
-! z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
-! fitgirl-repacks [~fitgirl-repacks.site]
-! thepiratebay [~thepiratebay.org]
-||allpcworld.com^
-||app-valley.vip^
-||appdoze.com^
-||appnee.com^
-||appvalley-apk.com^
-||bluemediafiles.com^
-||ccm.net^
-||cracked-games.org^
-||crackingcity.com^
-||crackingpatching.com^
-||crackingpatching.org^
-||crackshash.org^
-||dekisoft.com^
-||ezcrack.info^
-||freesoft.space^
-||ftuapps.dev^
-||ftuapps.io^
-||ftuapps.me^
-||game-repack.site^
-||gamefabrique.com^
-||gamefabrique.ru^
-||haxnode.net^
-||i-loadzone.com^
-||igg-games.cc^
-||igg-games.com^
-||intercambiosvirtuales.org^
-||karanpc.com^
-||mainrepo.org^
-||mrepo.org^
-||nyaa.eu^
-||oceanofapks.com^
-||oceanofgame.cc^
-||oceanofgames.com^
-||oceantogames.com^
-||pcprogs.net^
-||pcprogs.ru^
-||portable4pc.com^
-||rsload.net^
-||sadeemapk.com^
-||sadeempc.com^
-||steamunlocked.net^
-||taiwebs.com^
-||tutubox.io^
-||vstorrent.org^
-||wifi4games.com^
-||yasdl.com^
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||abysscdn.com/sw.js^$script
 ||anizm.net/sw2.js^$script
@@ -711,3 +659,8 @@
 /themes/bepeak/assets/js/sw.js$script
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
+! -------------------------------------------------------------------------------- !
+# World-Wide Websites that Considered as Turkish [has Turkish interface and used by Turks]
+! • apple.com
+! • duckduckgo.com
+! • linkedin.com

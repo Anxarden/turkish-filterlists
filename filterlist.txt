@@ -2,7 +2,7 @@
 ! Title: 🇹🇷 [Türkçe] Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret edebileceği internet sayfalarındaki istenmeyen olumsuz unsurları engeller/gizler.
+! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan sakınmayı sağlar.
 ! Last modified: 2025.10.18
 ! Expires: 24 hours
 
@@ -185,3 +185,54 @@
 ||turknova.net^
 ||turknova.org^
 ||uq.ci^
+#- Dangerious Pirate Websites or Clones
+!-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
+!-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
+!-	fitgirl-repacks [~fitgirl-repacks.site]
+!-	thepiratebay [~thepiratebay.org]
+||allpcworld.com^
+||app-valley.vip^
+||appdoze.com^
+||appnee.com^
+||appvalley-apk.com^
+||bluemediafiles.com^
+||ccm.net^
+||cracked-games.org^
+||crackingcity.com^
+||crackingpatching.com^
+||crackingpatching.org^
+||crackshash.org^
+||dekisoft.com^
+||ezcrack.info^
+||freesoft.space^
+||ftuapps.dev^
+||ftuapps.io^
+||ftuapps.me^
+||game-repack.site^
+||gamefabrique.com^
+||gamefabrique.ru^
+||haxnode.net^
+||i-loadzone.com^
+||igg-games.cc^
+||igg-games.com^
+||intercambiosvirtuales.org^
+||karanpc.com^
+||mainrepo.org^
+||mrepo.org^
+||nyaa.eu^
+||oceanofapks.com^
+||oceanofgame.cc^
+||oceanofgames.com^
+||oceantogames.com^
+||pcprogs.net^
+||pcprogs.ru^
+||portable4pc.com^
+||rsload.net^
+||sadeemapk.com^
+||sadeempc.com^
+||steamunlocked.net^
+||taiwebs.com^
+||tutubox.io^
+||vstorrent.org^
+||wifi4games.com^
+||yasdl.com^
