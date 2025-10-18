@@ -39,10 +39,13 @@
 ||trredirect.pro^
 ||urlsshort.link^
 ||zaplyurl.com^
+!-	Fake Download Button Anchors
+||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
 ||adform.net^
+||lups1.site^
 ||adhood.com^
 ||nkdyzf.com^
 ||adhouse.pro^
@@ -199,6 +202,10 @@
 ||adgrid.io^
 ||widgetlogic.org^
 ||adition.com^
+||a-ads.com^
+||netpub.media^
+||wugroansaghadry.com^
+||adskeeper.com^
 ||adsninja.ca^
 ||adskeeper.co.uk^
 ||adt598.com^
@@ -668,6 +675,7 @@
 ||setplay.cfd/player/assets/devtools-detector/$script
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters
+.cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js$script
 /themes/bepeak/assets/js/sw.js$script

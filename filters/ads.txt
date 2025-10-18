@@ -17,9 +17,13 @@ haberler.com##^div[class^="ad-left-"],div[class^="ad-right-"]
 !-/ Hide Adverds via Cosmetic Filtering
 hlktrpl.cfd##div.jw-preview,div.jw-title,div.jw-logo
 hlktrpl.cfd##div[class~="ad-placement"i]
+rockmods.net##ins:matches-attr(/^data-sizes-/)
+rockmods.net##ins:upward(div.container)
+ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
+rockmods.net##div.container>center>a:only-child
 fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
 
 ! Advert Related Content (Banners, Frames, Texts etc...)
@@ -29,7 +33,6 @@ fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seper
 /diziyou\d*\.com$/##.dizialani>.video>a[target]
 /diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
 /diziyou\d*\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
 anizm.net##a.center-block[target=_blank]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
@@ -84,6 +87,7 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
+
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
@@ -239,7 +243,7 @@ dogrulukpayi.com##body{overflow:auto !important;}
 ! +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
 asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
-ag2m2.cfd##+js(addEventListener-defuser, click, shouldOpenPopup)
+ag2m2.cfd,ag2m4.cfd/##+js(addEventListener-defuser, click, shouldOpenPopup)
 ! [aliases: prevent-fetch, no-fetch-if]
 ! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
@@ -260,6 +264,7 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 ! dizipal\d{4}.com, netflixcenter.com, voditza.com 
 ##a[class^="ads_"i]
 ##div[class$="-ad"i]
+##img[class$="-ad"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
 ##div[class="ads-container"i]
