@@ -49,6 +49,8 @@
 ||adhood.com^
 ||nkdyzf.com^
 ||adhouse.pro^
+||armillaboxcars.com^
+||commissionlounge.com^
 ||admatic.com.tr^
 ||admost.com^
 ||adrecover.com^
@@ -668,6 +670,7 @@
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
+||ssl.p.jwpcdn.com/player/v/*/googima.js^$script
 ||iamcdn.net/player/sw.bundle.js^$script
 ||iamcdn.net/player/jwpsrv.js^$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
@@ -681,6 +684,7 @@
 /themes/bepeak/assets/js/sw.js$script
 /themes/bepeak/player/js/devtools-detector.js$script
 /themes/bepeak/player/js/os.js$script
+/themes/bepeak/js/notif.js^$script,from=dizipal967.com
 ! -------------------------------------------------------------------------------- !
 # World-Wide Websites that Considered as Turkish [has Turkish interface and used by Turks]
 ! • apple.com

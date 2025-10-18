@@ -27,8 +27,6 @@ rockmods.net##div.container>center>a:only-child
 fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
 
 ! Advert Related Content (Banners, Frames, Texts etc...)
-/dizipal\d+\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
-/dizipal\d+\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
 /diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
 /diziyou\d*\.com$/##.dizialani>.video>a[target]
 /diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
@@ -173,9 +171,6 @@ www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
 
 #- Website Fixes
-! hide the ad frames to display the video player
-/dizipal\d*\.com/##.player-wrapper>div.pre-player
-/dizipal\d*\.com/##.player-wrapper>div.video-banner{display:block !important;}
 ! disable adblock detection and hide loading status for player
 gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
@@ -250,11 +245,12 @@ zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
 ! [aliases: aopr, abort-on-property-read]
 ! +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
-/dizipal\d*\.com$/##+js(abort-on-property-read, manageAds)
 ! [aliases: set, set-constant]
 ! +js(set, object.property, value, [checkWiki])
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+!-/ Inline Script Preventing
+dizipal967.com##^script:has-text("'notif'")
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
