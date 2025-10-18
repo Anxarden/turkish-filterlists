@@ -193,7 +193,6 @@
 ||sophisticated-check.com^
 ||speedcurve.com^
 ||sprig.com^
-||squarespace-cdn.com^
 ||ssm.codes^
 ||stpd.cloud^
 ||superonclick.com^
