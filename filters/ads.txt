@@ -4,6 +4,24 @@
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
+!-/ Block Adverts via Network Filtering
+animetr.co##^div.ads
+hlktrpl.cfd##^div[id~="adstop"i]
+hlktrpl.cfd##^span[id="textreklamgoster"i]
+hlktrpl.cfd##^div[class="playertextreklam"i]
+natgeotv.com##^a#home-promo-banner
+haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
+haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
+haberler.com##^div[class^="ad-left-"],div[class^="ad-right-"]
+
+!-/ Hide Adverds via Cosmetic Filtering
+hlktrpl.cfd##div.jw-preview,div.jw-title,div.jw-logo
+hlktrpl.cfd##div[class~="ad-placement"i]
+
+!-/	Fake Download Buttons
+filecrypt.cc##span>button[onmousedown]
+fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
+
 ! Advert Related Content (Banners, Frames, Texts etc...)
 /dizipal\d+\.com$/##body>:matches-attr(class=/(?:-container)(?:-center)(?:-show)/):has([class*=-popup])
 /dizipal\d+\.com$/##div[class]:has(>a>img[src^="/reklamlar/"i])
@@ -12,7 +30,6 @@
 /diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
 /diziyou\d*\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
 ag2m2.cfd##[id="playerjs"]>[id]>:min-text-length(16):has(center>center)
-animetr.co##^div.ads
 anizm.net##a.center-block[target=_blank]
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
 blackview.hk##div.blog-ad-banner
@@ -28,13 +45,6 @@ ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
 faketempmail.com##a.banner-custom
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
-haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
-haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
-haberler.com##^div[class^="ad-left-"],div[class^="ad-right-"]
-hlktrpl.cfd##.jw-preview,.jw-title
-hlktrpl.cfd##^[id="textreklamgoster"i]
-hlktrpl.cfd##^body>div[id="adstop"i]
-hlktrpl.cfd##^div[class="playertextreklam"i]
 hurriyet.com.tr##section.adv
 icedrive.net##[id=ad-summer]
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
@@ -58,7 +68,6 @@ rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
 reddit.com##advertise-button
-rockmods.net##div[class^="main-ads-"]
 sozce.com##^div[class^="reklam"i][class$="250x250"]
 sozcu.com.tr##div[id="membranadesktop"i],div[id="membranamobile"i]
 tab.digital##^footer>a:has(>img[src$="/banner.png"])
@@ -75,19 +84,15 @@ yeniakit.com.tr##div.masthead-top
 yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
-! Fake Buttons
-filecrypt.cc##span>button[onmousedown]
-frdl.*##button:has-text(/Premium/i):upward(center)
-! Filter Advert/Promo/Banner Images via Network Filtering
-natgeotv.com##^a#home-promo-banner
-rockmods.net##^div.text-center:has(a>img[alt$="mobile ad"i])
-
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
-! Website Announcements/Notifications																 ~
+!-/	Cookie Banners																					 ~
+deepl.com##div[data-testid="dl-cookiebanner"i]
+techdergi.net##div#cookie-box
+!-/	Announcements and Notifications																	 ~
 dogrulukpayi.com##div.seventh-year-section
-! Subscription/Discount/Trials Etc. Marketing														 ~
+!-/ Subscription, Discount, Trials etc. Marketing													 ~
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
@@ -105,25 +110,20 @@ mediafire.com##iframe[src$="/sidebar_promo.php"]
 pixlr.com##div[id$=-discount-banner]
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
-! Cookie Banners																					 ~
-deepl.com##div[data-testid="dl-cookiebanner"i]
-techdergi.net##div#cookie-box
-! Annoying Footers																					 ~
+!-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
-! CSS Fixes and Customisations																		 ~
+!-/ CSS Fixes and Customisations																	 ~
 ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
 ! Social Networks and Follow/Share Widgets
 anizm.net##div[id^="discordinvitebox"i]
-rockmods.net##[id="sidebar"]>div:is([class$="html"i],[class$="linklist"i])
 dogrulukpayi.com##div.follow-banner
 dogrulukpayi.com##div.follow-social-section
 tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 ovagames.com##div.sidebar-box:has-text(/^facebook/i)
 ! Trial/Subscription/PRO/VIP/Discount etc. Buttons/Banners/Sections/Blocks/Texts
-deviantart.com##span:has-text(/^upgrade/i):upward(span)
 dropbox.com##.trial-both-shown:has([class^=trial-cards])
 dropbox.com##[class*="modalportal"i]:has([style^=z-index]:has(img[src*=near_quota]))
 filelu.com##[href$="/premium/"]>span:min-text-length(32):upward(div)
@@ -167,6 +167,7 @@ www.qwant.com##div[domain*="//pathofexile.fandom.com/"]:upward(div)
 www.startpage.com##div.result:has(>a[href*="//hollowknight.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
+
 #- Website Fixes
 ! hide the ad frames to display the video player
 /dizipal\d*\.com/##.player-wrapper>div.pre-player
@@ -261,23 +262,23 @@ redecanais.gs##+js(set-constant, blockPage, noopFunc)
 ##div[class$="-ad"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
-##div[class^="ads-container"i]
+##div[class="ads-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 
 #----------------------------------------------------------------------------------------------------#
 #- Network AD Filters /w Paths
 #----------------------------------------------------------------------------------------------------#
-#- Common AD Paths
+#- Common AD Paths ~ [Images]
 /reklamlar/*$image
 /rklm/resim/*$image
-#- Specific AD Links
+#- Specific AD Links ~ [Images]
 ||chesscomfiles.com/uploads/ad_image/$image
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
 ||watch.turkeyplayer.com/poster/$image
-||hlktrpl.cfd/player/assets/uploads/$image
 !- gambling image ads @ dizipal
 ||blogger.googleusercontent.com/img/b/r29vz2xl/$third-party,image,from=~ovagames.com
+||hlktrpl.cfd/player/assets/uploads/$image
 !- first party gambling image ads @ diziyou
 ||www.diziyou.to/wp-content/*.gif^$first-party,image
 !- self-hosted gambling image ads @ other movie/series websites
