@@ -1,7 +1,7 @@
 # Title: 🇹🇷 [Türkçe] Statik Filtre Listesi - [Reklam, İzleyici ve Zararlı Yazılım]
 # Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki olumsuz öğeleri engeller.
 
-#-/ Privacy Enchantments and Limitations
+#-/ Privacy Enchantments
 !-/ [duckduckgo]
 ||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com|~with-subdomains
 !-/ [linkedin]
@@ -14,10 +14,10 @@
 #-/ General Whitelist
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
-#-/ 1st-Party Domain Blacklist @ Turkish Websites ~ [Safety and Security]
+#-/ Domain Blacklist @ Turkish Websites ~ [Safety and Security]
 !-	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^$document
-#-/ 1st-Party Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
+#-/ Domain Blacklist @ World-Wide Websites ~ [Safety and Security]
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
@@ -106,7 +106,7 @@
 ||heimalesssinpad.com^
 ||highperformancedisplayformat.com^
 ||highperformanceformat.com^
-||histats.com^
+||histats.com^$important
 ||hotjar.com^
 ||idealmedia.io^
 ||igodigital.com^
@@ -174,12 +174,35 @@
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||addthis.com^
+||instrumenttactics.com^
 ||al5sm.com^
+||plausible.io^
 ||pub.network^
+||braze.com^
+||amplitude.com^
 ||adition.com^
+||concert.io^
+||adgrid.io^
+||chartbeat.com^
+||conde.digital^
+||dotmetrics.net^
+||condenastdigital.com^
+||captivatingcanyon.com^
+||bullwhip.cloud^
+||doubleverify.com^
+||gladly.com^$third-party
+||zephr.com^$third-party
+||parsely.com^
+||wknd.ai^
+||sentinelpro.com^
+||adsninja.ca^
+||getclicky.com^
+||sascdn.com^
+||tinypass.com^
 ||buysellads.net^
+||assemblyexchange.com^
 ||continual.ly^
-||optimizely.com^
+||optimizely.com^$important
 ||userreport.com^
 ||ay.delivery^
 ||appzi.io^
@@ -526,6 +549,7 @@
 ||storage.ko-fi.com^$third-party,script
 ||ingress.linktr.ee^
 ||cdn.livechatinc.com^
+||genesis.malwarebytes.com^
 ||device.maxmind.com^
 ||ichnaea-web.netflix.com^
 ||adx.opera.com^
