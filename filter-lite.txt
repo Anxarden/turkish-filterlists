@@ -1,9 +1,9 @@
 [uBlock Origin]
-! Title: 🇹🇷 [Türkçe] Filtre Listesi
+! Title: 🧮 Sadeleştirilmiş Liste
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan sakınmayı sağlar.
-! Last modified: 1900.01.01
+! Description: Temel filtreleme için sadeleştirilmiş liste
+! Last modified: 2025.10.19
 ! Expires: 24 hours
 
 !--------------------------------------------------!

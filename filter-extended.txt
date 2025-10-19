@@ -1,9 +1,9 @@
 [uBlock Origin]
-! Title: 🇹🇷 [Türkçe] Filtre Listesi
+! Title: 🛡️ Genişletilmiş Liste
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan sakınmayı sağlar.
-! Last modified: 1900.01.01
+! Description: Tüm filtreleri kapsayan tam koruma listesi
+! Last modified: 2025.10.19
 ! Expires: 24 hours
 
 !--------------------------------------------------!
@@ -21,13 +21,13 @@
 !--------------------------------------------------!
 #- GAMBLING FILTERS
 !--------------------------------------------------!
-#!#include filters\gambling.txt
+!#include filters\gambling.txt
 
 !
 !--------------------------------------------------!
 #- ADULT FILTERS
 !--------------------------------------------------!
-#!#include filters\adult.txt
+!#include filters\adult.txt
 
 !
 !--------------------------------------------------!

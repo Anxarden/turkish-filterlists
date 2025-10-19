@@ -1,9 +1,9 @@
 [uBlock Origin]
-! Title: 🇹🇷 [Türkçe] Filtre Listesi
+! Title: 🎰 Bahis ve Kumar
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan sakınmayı sağlar.
-! Last modified: 1900.01.01
+! Description: Bahis ve kumar içeriklerini engelleyen filtreler
+! Last modified: 2025.10.19
 ! Expires: 24 hours
 
 !--------------------------------------------------!
@@ -21,7 +21,7 @@
 !--------------------------------------------------!
 #- GAMBLING FILTERS
 !--------------------------------------------------!
-#!#include filters\gambling.txt
+!#include filters\gambling.txt
 
 !
 !--------------------------------------------------!
