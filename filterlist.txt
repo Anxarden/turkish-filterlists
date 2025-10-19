@@ -7,15 +7,15 @@
 ! Expires: 24 hours
 
 !--------------------------------------------------!
-#- BADWARE FILTERS
+#- NETWORK FILTERS
 !--------------------------------------------------!
-!#include filters\badware.txt
+!#include filters\static.txt
 
 !
 !--------------------------------------------------!
-#- AD FILTERS
+#- COSMETIC FILTERS
 !--------------------------------------------------!
-!#include filters\ads.txt
+!#include filters\cosmetic.txt
 
 !
 !--------------------------------------------------!
