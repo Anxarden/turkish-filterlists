@@ -8,10 +8,11 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 | <ins>Filtre Adı</ins> | <ins>Ağ Filtreleri</ins> | <ins>Kozmetik Filtreler</ins> | <ins>Kumar ve Bahis Filtresi </ins> | <ins>Yetişkin İçerik Filtresi</ins> |
 |-----------------------|--------------------------|---------------------|---------------------------|----------------------------|
 | 🇹🇷 [**Türkçe Filtre Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-default) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">❌</div>|
-| 🎰 [**Bahis ve Kumar**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-gambling.txt&title=turkish-filterlist-gambling) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|
-| 🔞 [**Yetişkin İçerik**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-adult.txt&title=turkish-filterlist-adult) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">✔️</div>|
 | 🛡️ [**Genişletilmiş Liste**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-extended.txt&title=turkish-filterlist-extended) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|
 | 🧮 [**Sadeleştirilmiş Liste**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-lite.txt&title=turkish-filterlist-lite) |<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">❌</div>|<div align="center">❌</div>|
+| 🎰 [**Bahis ve Kumar**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-gambling.txt&title=turkish-filterlist-gambling) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|
+| 🔞 [**Yetişkin İçerik**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-adult.txt&title=turkish-filterlist-adult) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">✔️</div>|
+
 
 ## 🚀 Özellikler
 
