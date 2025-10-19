@@ -24,6 +24,11 @@ jobs:
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
           # curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
 
+      - name: Update Last Modified Date in filterlist.txt
+        run: |
+          TODAY=$(date +'%Y.%m.%d')
+          sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist.txt
+          
       - name: Generate Specialized Filterlists
         run: |
           BASE="filterlist.txt"
