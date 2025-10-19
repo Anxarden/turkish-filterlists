@@ -18,8 +18,8 @@ jobs:
       - name: Download Files from Nextcloud
         run: |
           curl -fSL -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
-          curl -fSL -o filters/ads.txt "${{ secrets.LINK_ADS }}"
-          curl -fSL -o filters/badware.txt "${{ secrets.LINK_BADWARE }}"
+          curl -fSL -o filters/cosmetic.txt "${{ secrets.LINK_ADS }}"
+          curl -fSL -o filters/static.txt "${{ secrets.LINK_BADWARE }}"
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
 
       - name: Update Last Modified Date in filterlist.txt
