@@ -4,6 +4,14 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 
 **Daha geniş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız ögeleri bildirebilirsiniz.**
 
+<ins>*Aşağıdaki tablodan abone olmak istediğiniz filtrenin adına tıklayınız!*</ins>
+| <ins>Filtre Adı</ins> | <ins>Ağ Filtreleri</ins> | <ins>Kozmetik</ins> | <ins>Kumar ve Bahis</ins> | <ins>Yetişkin İçerik</ins> |
+|-----------------------|--------------------------|---------------------|---------------------------|----------------------------|
+| 🇹🇷 [**Türkçe Filtre Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">❌</div>|
+| 🎰 **Bahis ve Kumar** |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|
+| 🔞 **Yetişkin İçerik** |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">✔️</div>|
+| 🛡️ **Genişletilmiş Liste**|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|
+| 🧮 **Sadeleştirilmiş Liste** |<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">❌</div>|<div align="center">❌</div>|
 
 ## 🚀 Özellikler
 
