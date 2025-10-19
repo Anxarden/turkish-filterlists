@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🛡️ Genişletilmiş Liste
+! Title:  🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Tüm filtreleri kapsayan tam koruma listesi

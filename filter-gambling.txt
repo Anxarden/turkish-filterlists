@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🎰 Bahis ve Kumar
+! Title:  🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Bahis ve kumar içeriklerini engelleyen filtreler

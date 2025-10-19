@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🇹🇷 [Türkçe] Filtre Listesi
+! Title: 🇹🇷 [Türkçe] - 🐺 Temel Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan sakınmayı sağlar.

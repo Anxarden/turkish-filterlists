@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🔞 Yetişkin İçerik
+! Title:  🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Yetişkin içeriklerini engelleyen filtreler

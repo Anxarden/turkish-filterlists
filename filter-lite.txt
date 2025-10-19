@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🧮 Sadeleştirilmiş Liste
+! Title:  🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Temel filtreleme için sadeleştirilmiş liste
