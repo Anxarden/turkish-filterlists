@@ -1,4 +1,4 @@
-name: Auto-fetch and Generate Specialized Filterlists
+name: Auto-fetch and Generate Filterlists
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
           curl -fSL -o filters/cosmetic.txt "${{ secrets.LINK_ADS }}"
           curl -fSL -o filters/static.txt "${{ secrets.LINK_BADWARE }}"
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
-          curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
+          # curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
 
       - name: Generate Specialized Filterlists
         run: |
