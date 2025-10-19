@@ -37,7 +37,7 @@ jobs:
           # ---------------- Gambling ----------------
           cp "$BASE" "filter-gambling.txt"
           sed -i "s/^! Title:.*/! Title: 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi/" "filter-gambling.txt"
-          sed -i "s/^! Description:.*/! Description: Bahis ve kumar içeriklerini engelleyen filtreler/" "filter-gambling.txt"
+          sed -i "s/^! Description:.*/! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmeyı ve sanş oyunlarından kaçınmayı sağlar./" "filter-gambling.txt"
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" "filter-gambling.txt"
           # Enable gambling include, disable adult
           sed -i "s/^#!#include filters\\\\gambling.txt/!#include filters\\\\gambling.txt/" "filter-gambling.txt"
@@ -46,7 +46,7 @@ jobs:
           # ---------------- Adult ----------------
           cp "$BASE" "filter-adult.txt"
           sed -i "s/^! Title:.*/! Title: 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi/" "filter-adult.txt"
-          sed -i "s/^! Description:.*/! Description: Yetişkin içeriklerini engelleyen filtreler/" "filter-adult.txt"
+          sed -i "s/^! Description:.*/! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve yetişkin içerikleri engellemeyi sağlar./" "filter-adult.txt"
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" "filter-adult.txt"
           # Enable adult include, disable gambling
           sed -i "s/^#!#include filters\\\\adult.txt/!#include filters\\\\adult.txt/" "filter-adult.txt"
@@ -55,7 +55,7 @@ jobs:
           # ---------------- Lite ----------------
           cp "$BASE" "filter-lite.txt"
           sed -i "s/^! Title:.*/! Title: 🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi/" "filter-lite.txt"
-          sed -i "s/^! Description:.*/! Description: Temel filtreleme için sadeleştirilmiş liste/" "filter-lite.txt"
+          sed -i "s/^! Description:.*/! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan basit düzeyde sakınmayı sağlar./" "filter-lite.txt"
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" "filter-lite.txt"
           # Disable cosmetic, gambling, adult
           sed -i "s/^!#include filters\\\\cosmetic.txt/#!#include filters\\\\cosmetic.txt/" "filter-lite.txt"
@@ -65,7 +65,7 @@ jobs:
           # ---------------- Extended ----------------
           cp "$BASE" "filter-extended.txt"
           sed -i "s/^! Title:.*/! Title: 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi/" "filter-extended.txt"
-          sed -i "s/^! Description:.*/! Description: Tüm filtreleri kapsayan tam koruma listesi/" "filter-extended.txt"
+          sed -i "s/^! Description:.*/! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki tüm olumsuz unsurlardan geniş bir düzeyde tam korunma sağlar./" "filter-extended.txt"
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" "filter-extended.txt"
           # Enable gambling + adult includes
           sed -i "s/^#!#include filters\\\\gambling.txt/!#include filters\\\\gambling.txt/" "filter-extended.txt"
@@ -78,5 +78,5 @@ jobs:
           git config --global user.name "Anxarden"
           git config --global user.email "Anxarden@users.noreply.github.com"
           git add .
-          git commit -m "Auto-fetch and generate specialized filterlists" || exit 0
+          git commit -m "Auto-fetch and update filterlists." || exit 0
           git push https://x-access-token:${GH_TOKEN}@github.com/Anxarden/turkish-filterlists.git filters
