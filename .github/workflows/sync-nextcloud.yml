@@ -1,31 +1,67 @@
-name: Auto-fetch from Nextcloud
+name: Auto-fetch and Generate Specialized Filterlists
 
 on:
   schedule:
     - cron: '0 */4 * * *'  # Runs every 4 hours
-  workflow_dispatch:  # Allows manual execution
+  workflow_dispatch:
 
 jobs:
-  fetch-files:
+  fetch-and-generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: filters  # Checkout the correct branch
+          ref: filters
           token: ${{ secrets.GH_PAT }}
 
       - name: Download Files from Nextcloud
         run: |
+          mkdir -p filters
           curl -fSL -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
           curl -fSL -o filters/cosmetic.txt "${{ secrets.LINK_ADS }}"
           curl -fSL -o filters/static.txt "${{ secrets.LINK_BADWARE }}"
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
+          curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
 
-      - name: Update Last Modified Date in filterlist.txt
+      - name: Generate Specialized Filterlists
         run: |
+          BASE="filterlist.txt"
           TODAY=$(date +'%Y.%m.%d')
-          sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist.txt
+
+          generate_list() {
+            SRC="$1"
+            DEST="$2"
+            TITLE="$3"
+            DESC="$4"
+            KEEP="$5" # space-separated includes to activate (remove #!)
+
+            cp "$SRC" "$DEST"
+            sed -i "s/^! Title:.*/! Title: $TITLE/" "$DEST"
+            sed -i "s/^! Description:.*/! Description: $DESC/" "$DEST"
+            sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" "$DEST"
+
+            # Uncomment only the includes we want to keep active
+            for f in $KEEP; do
+              sed -i "s/^#!#include filters\\\\$f/!#include filters\\\\$f/" "$DEST"
+            done
+          }
+
+          # ---------------- Gambling ----------------
+          generate_list "$BASE" "filter-gambling.txt" "🎰 Bahis ve Kumar" \
+            "Bahis ve kumar içeriklerini engelleyen filtreler" "gambling.txt"
+
+          # ---------------- Adult ----------------
+          generate_list "$BASE" "filter-adult.txt" "🔞 Yetişkin İçerik" \
+            "Yetişkin içeriklerini engelleyen filtreler" "adult.txt"
+
+          # ---------------- Lite ----------------
+          generate_list "$BASE" "filter-lite.txt" "🧮 Sadeleştirilmiş Liste" \
+            "Temel filtreleme için sadeleştirilmiş liste" ""
+
+          # ---------------- Extended ----------------
+          generate_list "$BASE" "filter-extended.txt" "🛡️ Genişletilmiş Liste" \
+            "Tüm filtreleri kapsayan tam koruma listesi" "gambling.txt adult.txt"
 
       - name: Commit and Push Changes
         env:
@@ -34,5 +70,5 @@ jobs:
           git config --global user.name "Anxarden"
           git config --global user.email "Anxarden@users.noreply.github.com"
           git add .
-          git commit -m "Auto-fetch from Nextcloud" || exit 0
+          git commit -m "Auto-fetch and generate specialized filterlists" || exit 0
           git push https://x-access-token:${GH_TOKEN}@github.com/Anxarden/turkish-filterlists.git filters
