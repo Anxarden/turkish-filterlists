@@ -1,4 +1,4 @@
-name: Auto-fetch and Generate Filterlists
+name: Auto-Fetch and Update Filterlists
 
 on:
   schedule:
@@ -60,7 +60,7 @@ jobs:
             "Temel filtreleme için sadeleştirilmiş liste" ""
 
           # ---------------- Extended ----------------
-          generate_list "$BASE" "filter-extended.txt" " 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Liste" \
+          generate_list "$BASE" "filter-extended.txt" " 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi" \
             "Tüm filtreleri kapsayan tam koruma listesi" "gambling.txt adult.txt"
 
       - name: Commit and Push Changes
