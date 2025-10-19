@@ -1,4 +1,4 @@
-# Title: 🇹🇷 [Türkçe] HOST Filtre Listesi - [Kumar ve Bahis]
+# Title: 🎰 [Türkçe] Gambling
 # Description: Türk kullanıcıları hedef alan kumar ve bahis içerikli internet sitelerini engeller.
 
 #- Gambling Related Regex/Wildcards

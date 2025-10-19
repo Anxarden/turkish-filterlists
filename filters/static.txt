@@ -18,8 +18,8 @@
 !-	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^$document
 !-	Dangerious Redirecting Links
-/\bclbanners\d*\.com(?:\/.*)?$/$all,to=/clbanners/
-/\brefpa\d+\.(?:com|pro|top)(?:\/.*)?$/$all,to=/refpa/
+/\bclbanners\d*\.com\b/$all,to=/clbanners/
+/\brefpa\d+\.[a-z]{2,}\b/$all,to=/refpa/
 ||cutt.ly^
 ||directedurls.com^
 ||kisa.link^
