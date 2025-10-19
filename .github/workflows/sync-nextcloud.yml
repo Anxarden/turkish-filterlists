@@ -48,19 +48,19 @@ jobs:
           }
 
           # ---------------- Gambling ----------------
-          generate_list "$BASE" "filter-gambling.txt" "🎰 Bahis ve Kumar" \
+          generate_list "$BASE" "filter-gambling.txt" " 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi" \
             "Bahis ve kumar içeriklerini engelleyen filtreler" "gambling.txt"
 
           # ---------------- Adult ----------------
-          generate_list "$BASE" "filter-adult.txt" "🔞 Yetişkin İçerik" \
+          generate_list "$BASE" "filter-adult.txt" " 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi" \
             "Yetişkin içeriklerini engelleyen filtreler" "adult.txt"
 
           # ---------------- Lite ----------------
-          generate_list "$BASE" "filter-lite.txt" "🧮 Sadeleştirilmiş Liste" \
+          generate_list "$BASE" "filter-lite.txt" " 🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi" \
             "Temel filtreleme için sadeleştirilmiş liste" ""
 
           # ---------------- Extended ----------------
-          generate_list "$BASE" "filter-extended.txt" "🛡️ Genişletilmiş Liste" \
+          generate_list "$BASE" "filter-extended.txt" " 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Liste" \
             "Tüm filtreleri kapsayan tam koruma listesi" "gambling.txt adult.txt"
 
       - name: Commit and Push Changes
