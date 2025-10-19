@@ -681,7 +681,7 @@
 .cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
 /common/js/adframe.js^$script,from=haber7.com
 /themes/bepeak/assets/js/*$script
-/player/js/nuevo.min.js$script
+/player/js/nuevo.min.js^$script
 /themes/bepeak/js/notif.js^$script,from=dizipal967.com
 ! -------------------------------------------------------------------------------- !
 # World-Wide Websites that Considered as Turkish [has Turkish interface and used by Turks]

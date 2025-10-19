@@ -252,6 +252,7 @@ puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
 !-/ Inline Script Preventing
 dizipal967.com##^script:has-text("'notif'")
+dosyaload.com##^script:has-text("'%cBEpeak'")
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
