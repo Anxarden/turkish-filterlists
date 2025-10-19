@@ -5,7 +5,7 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 **Daha geniş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız ögeleri bildirebilirsiniz.**
 
 <ins>*Aşağıdaki tablodan abone olmak istediğiniz filtrenin adına tıklayınız!*</ins>
-| <ins>Filtre Adı</ins> | <ins>Ağ Filtreleri</ins> | <ins>Kozmetik</ins> | <ins>Kumar ve Bahis</ins> | <ins>Yetişkin İçerik</ins> |
+| <ins>Filtre Adı</ins> | <ins>Ağ Filtreleri</ins> | <ins>Kozmetik Filtreler</ins> | <ins>Kumar ve Bahis Filtresi </ins> | <ins>Yetişkin İçerik Filtresi</ins> |
 |-----------------------|--------------------------|---------------------|---------------------------|----------------------------|
 | 🇹🇷 [**Türkçe Filtre Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-default) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|<div align="center">❌</div>|
 | 🎰 [**Bahis ve Kumar**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filter-gambling.txt&title=turkish-filterlist-gambling) |<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">✔️</div>|<div align="center">❌</div>|
