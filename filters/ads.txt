@@ -282,6 +282,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 !- gambling image ads @ dizipal
 ||blogger.googleusercontent.com/img/b/r29vz2xl/$third-party,image,from=~ovagames.com
 ||hlktrpl.cfd/player/assets/uploads/$image
+||dizipal*.com/wp-content/uploads/*.gif$first-party,image
 !- first party gambling image ads @ diziyou
 ||www.diziyou.to/wp-content/*.gif^$first-party,image
 !- self-hosted gambling image ads @ other movie/series websites
