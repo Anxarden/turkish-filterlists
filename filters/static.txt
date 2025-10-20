@@ -366,6 +366,7 @@
 ||webstats.garantibbva.com.tr^
 ||nqtinp.germirli.com.tr^
 ||fundingchoicesmessages.google.com^
+||contributor.google.com^#third-party
 ||adservice.google.com.tr^
 ||id.google.com.tr^
 ||imasdk.googleapis.com^
@@ -689,6 +690,7 @@
 ||sozcu.com.tr/lib/js/sozcu_taboola.js^$script
 ||i.tmgrup.com.tr/tmd-consent/$script
 ||i.tmgrup.com.tr/tmd/$script
+||i.tmgrup.com.tr/tmdwebpush/$script
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters
 .cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
