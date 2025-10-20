@@ -92,6 +92,7 @@ zaytung.com##div[id^=sidebar]>div#banner
 !-/	Cookie Banners																					 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
+takvim.com.tr##div[class="verialtbar"i]
 !-/	Announcements and Notifications																	 ~
 dogrulukpayi.com##div.seventh-year-section
 !-/ Subscription, Discount, Trials etc. Marketing													 ~

@@ -14,6 +14,7 @@
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
+@@||ipcheck.tmgrup.com.tr/ipcheck/$xhr,domain=atv.com.tr
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^$document
@@ -47,6 +48,7 @@
 ||adform.net^
 ||lups1.site^
 ||dygdigital.com^
+||agkn.com^
 ||newrelic.com^
 ||cookiebot.com^
 ||adhood.com^
