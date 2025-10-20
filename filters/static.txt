@@ -47,13 +47,20 @@
 ||adform.net^
 ||lups1.site^
 ||dygdigital.com^
+||newrelic.com^
+||cookiebot.com^
 ||adhood.com^
+||zohopublic.com^
+||criteo.net^
+||clearbitjs.com^
+||pagesense.io^
 ||nkdyzf.com^
 ||relateddigital.com^
 ||adhouse.pro^
 ||armillaboxcars.com^
 ||commissionlounge.com^
 ||admatic.com.tr^
+||adjust.com^
 ||admost.com^
 ||adrecover.com^
 ||ads-twitter.com^
@@ -96,6 +103,8 @@
 ||demirorenmedya.com^
 ||dengage.com^
 ||dimml.io^
+||dimml.io^
+||geoedge.be^
 ||disqus.com^
 ||disquscdn.com^
 ||dj2550.com^
@@ -211,8 +220,11 @@
 ||netpub.media^
 ||wugroansaghadry.com^
 ||adskeeper.com^
+||adsafeprotected.com^
+||ipinfo.io^
 ||adsninja.ca^
 ||adskeeper.co.uk^
+||bkrtx.com^
 ||adt598.com^
 ||polyfill.io^
 ||notix.io^
@@ -324,6 +336,7 @@
 ||mo.ciner.com.tr^
 ||nc.ciner.com.tr^
 ||static.cloudflareinsights.com^
+||d31qbv1cthcecs.cloudfront.net^
 ||hxiabp.colins.com.tr^
 ||cdn.cookielaw.org^$important
 ||zjhswy.comeup.com.tr^
@@ -568,7 +581,6 @@
 ||d2d6cf2do9znht.cloudfront.net^
 ||d2ob6t3bgjo11t.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
-||d31qbv1cthcecs.cloudfront.net^
 ||d3c8j8snkzfr1n.cloudfront.net^
 ||d3jzhqnvnvdy34.cloudfront.net^
 ||dbfukofby5ycr.cloudfront.net^
@@ -696,6 +708,7 @@
 .cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js^$script
+/js/tmdconsent-*.js^$script
 /themes/bepeak/assets/js/*$script
 /themes/bepeak/js/notif.js^$script,from=dizipal967.com
 ! -------------------------------------------------------------------------------- !
