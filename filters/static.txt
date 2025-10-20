@@ -46,8 +46,10 @@
 ||2cnt.net^
 ||adform.net^
 ||lups1.site^
+||dygdigital.com^
 ||adhood.com^
 ||nkdyzf.com^
+||relateddigital.com^
 ||adhouse.pro^
 ||armillaboxcars.com^
 ||commissionlounge.com^
@@ -86,7 +88,7 @@
 ||clickadu.net^
 ||cloudflareinsights.com^$from=~with-subdomains
 ||cookie-script.com^
-||cookielaw.org^
+||cookielaw.org^$from=~with-subdomains
 ||creativecdn.com^
 ||creedimages.cfd^
 ||criteo.net^$from=~with-subdomains
@@ -160,6 +162,7 @@
 ||onesignal.com^
 ||onetrust.com^
 ||openfpcdn.io^
+||videocdnshop.com^
 ||pa-cd.com^
 ||paupsoborofoow.net^
 ||personaclick.com^$third-party
@@ -322,6 +325,7 @@
 ||nc.ciner.com.tr^
 ||static.cloudflareinsights.com^
 ||hxiabp.colins.com.tr^
+||cdn.cookielaw.org^$important
 ||zjhswy.comeup.com.tr^
 ||static.criteo.net^
 ||reklamstore.cubecdn.net^
@@ -644,6 +648,7 @@
 ||ms.vk.com^
 ||stats.vk-portal.net^
 ||lf3-data.volccdn.com^
+||matomo.whvn.cc^
 ||distillery.wistia.com^
 ||pipedream.wistia.com^
 ||csp.withgoogle.com^
@@ -661,9 +666,15 @@
 ||anizmplayer.com/gmetrics/$script
 ||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||eksenload.site/detect.js^$script
-||flash.getpczone.com/sw.js^$script
-||i11.haber7.net/makroo/hb-ads/$script
+||ensonhaber.com/assets/js/eshtag.modern.js^$script
+||getpczone.com/sw.js^$script
+||haber7.net/makroo/hb-ads/$script
+||haberler.com/firebase-messaging-sw.js^$script
+||haberler.com/mstatic/assets/js/bildirimpopup.js^$script
 ||haberlercom.github.io/main/prebid$script
+||haberturk.com/adscbg/cbglout.js$script
+||iamcdn.net/player/jwpsrv.js^$script
+||iamcdn.net/player/sw.bundle.js^$script
 ||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script
@@ -671,17 +682,19 @@
 ||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||ssl.p.jwpcdn.com/player/v/*/googima.js^$script
-||iamcdn.net/player/sw.bundle.js^$script
-||iamcdn.net/player/jwpsrv.js^$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,from=redecanais.ps
 ||setplay.cfd/player/assets/devtools-detector/$script
+||sozcu.com.tr/firebase-messaging-$script
+||sozcu.com.tr/lib/js/sozcu_taboola.js^$script
+||i.tmgrup.com.tr/tmd-consent/$script
+||i.tmgrup.com.tr/tmd/$script
 ||zi-scripts.com/zi-tag.js^$script
 #- Wildcard Paths Filters
 .cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
 /common/js/adframe.js^$script,from=haber7.com
-/themes/bepeak/assets/js/*$script
 /player/js/nuevo.min.js^$script
+/themes/bepeak/assets/js/*$script
 /themes/bepeak/js/notif.js^$script,from=dizipal967.com
 ! -------------------------------------------------------------------------------- !
 # World-Wide Websites that Considered as Turkish [has Turkish interface and used by Turks]
