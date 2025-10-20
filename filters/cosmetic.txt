@@ -177,6 +177,9 @@ gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
 ! preload/loading effect annoyance
 thehouseofportable.com##div[id="preload"]
+! remove empty space and fix top-padding @ takvim/yasam
+takvim.com.tr##section.billboard-top
+takvim.com.tr##section.billboard-top+main{padding-top:100px;}
 
 #- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 ! ad/information post, css fixes
