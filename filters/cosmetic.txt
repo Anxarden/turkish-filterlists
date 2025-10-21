@@ -4,21 +4,69 @@
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
-!-/ Generic Content Filtering List for Adverts	("example.tld##element+attribute")
-
-!-/ Block Adverts via Network Filtering
-animetr.co##^div.ads
-hlktrpl.cfd##^div[id~="adstop"i]
-hlktrpl.cfd##^span[id="textreklamgoster"i]
-hlktrpl.cfd##^div[class="playertextreklam"i]
-natgeotv.com##^a#home-promo-banner
-haberler.com##^[id^="taboola-"i]:upward(div):has(>article)
-haberler.com##^div[class$="-reklam"i],div[class*="-reklam-"i],div[class^="reklam-"i]
-haberler.com##^div[class^="ad-left-"],div[class^="ad-right-"]
-
-!-/ Hide Adverds via Cosmetic Filtering
-hlktrpl.cfd##div.jw-preview,div.jw-title,div.jw-logo
+!-/ Adverts Cosmetic Filterlist / BSC - ("example.tld##element+attribute>path")
+ahaber.com.tr##div.detail-google-news
+ahaber.com.tr##div.membrana-content
+ahaber.com.tr##div[class~="adcontrol"i]
+ahaber.com.tr##div[class~="ligatusadvert"i]
+ahaber.com.tr##figure.advert
+ahaber.com.tr,atv.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr##div[data-mbzone]
+ahaber.com.tr,atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="billboardframe"i]
+ahaber.com.tr,atv.com.tr,sabah.com.tr,yeniasir.com.tr##div.advert
+ahaber.com.tr,fotomac.com.tr##div.advers-box
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div.sub-board-frame
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class~="bandreklam"i]
+ahaber.com.tr,sabah.com.tr##span.detail-google-news
+ahaber.com.tr,sabah.com.tr,takvim.com.tr##div.ad-control-full
+ahaber.com.tr,sabah.com.tr,takvim.com.tr##div.malker
+ahaber.com.tr,takvim.com.tr##div.ad-control-left
+ahaber.com.tr,takvim.com.tr##div.announcement-widget
+animetr.co##div.ads
+atv.com.tr##div.tt-fiber-hiziyla
+atv.com.tr##div[class="adpop"i]
+atv.com.tr##div[class="maskpop"i]
+atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"i]
+blackview.hk##div.blog-ad-banner
+chess.com##a.diamond-top
+chess.com##div#main-banner
+documentaryarea.com##img.watermark
+faketempmail.com##a.banner-custom
+fotomac.com.tr##a[aria-label~="reklam"i]
+fotomac.com.tr##a[href^="http://pubads."]
+fotomac.com.tr##div.google-news-widget
+fotomac.com.tr,sabah.com.tr##div.currency-view
+fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="admodelsgravity"i]
+fotomac.com.tr,takvim.com.tr,yeniasir.com.tr##div[data-wbzone]
+haberler.com##div[class$="-reklam"i]
+haberler.com##div[class*="-reklam-"i]
+haberler.com##div[class^="ad-left-"]
+haberler.com##div[class^="ad-right-"]
+haberler.com##div[class^="reklam-"i]
+hlktrpl.cfd##div.jw-logo
+hlktrpl.cfd##div.jw-preview
+hlktrpl.cfd##div.jw-title
+hlktrpl.cfd##div[class="playertextreklam"i]
 hlktrpl.cfd##div[class~="ad-placement"i]
+hlktrpl.cfd##div[id~="adstop"i]
+hlktrpl.cfd##span[id="textreklamgoster"i]
+hurriyet.com.tr##section.adv
+milliyet.com.tr##div.article-ads-container
+mynet.com##a.sponsored-image
+natgeotv.com##a#home-promo-banner
+reddit.com##advertise-button
+sabah.com.tr##div[ad]
+sozcu.com.tr##div[id="membranadesktop"i]
+sozcu.com.tr##div[id="membranamobile"i]
+takvim.com.tr##div.bg-advert-mobile
+yeniakit.com.tr##div.masthead-top
+yeniasir.com.tr##div.detail-subscribe
+yenisafak.com##a.ramadan-sponsor
+yemek.com##div.masthead-container
+
+!-/ Advers Cosmetic Filterlist / ADV - ("example.tld##element+attribute>paths:pseudo")
+anizm.net##a.center-block[target=_blank]
+ownedcore.com##div.body_wrap>div.shoutout
+ownedcore.com##div.body_wrap>div.so-wrapper
 rockmods.net##ins:matches-attr(/^data-sizes-/)
 rockmods.net##ins:upward(div.container)
 ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
@@ -33,34 +81,23 @@ fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seper
 /diziyou\d*\.com$/##.dizialani>.video>a[target]
 /diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
 /diziyou\d*\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-anizm.net##a.center-block[target=_blank]
+
 autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
-blackview.hk##div.blog-ad-banner
-chess.com##a.diamond-top
-chess.com##div#main-banner
 colordesigner.io##main>[class*=-container]:has(.alternative-ad)
 digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
-documentaryarea.com##.jw-preview {background:none !important;}
 documentaryarea.com##.share:has([class$=-buttons])
-documentaryarea.com##img.watermark
 dosyaload.com##.embed-video-player>.jwplayer>.alert
 ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
-faketempmail.com##a.banner-custom
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
-hurriyet.com.tr##section.adv
 icedrive.net##[id=ad-summer]
 indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
 internxt.com##.h-screen:has(>.fixed>button)
 katfile.com##div#container:has(div.recommended)
 mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
-milliyet.com.tr##div.article-ads-container
 myanimelist.net##.title>.detail>div.bookstore-information
 myanimelist.net##.title>.detail>div.manga-store-information
-mynet.com##a.sponsored-image
 ntv.com.tr##div[class*="fix-ads-item-"]
-ownedcore.com##div.body_wrap>div.shoutout
-ownedcore.com##div.body_wrap>div.so-wrapper
 ownedcore.com##ul#sidebar>li:has(div.block-plain)
 ownedcore.com##ul#sidebar>li:has-text(/sponsored/i)
 pcloud.com##.left-banner:has([class*=AdCloseButton])
@@ -70,9 +107,7 @@ pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
 rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
 receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
 receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
-reddit.com##advertise-button
 sozce.com##^div[class^="reklam"i][class$="250x250"]
-sozcu.com.tr##div[id="membranadesktop"i],div[id="membranamobile"i]
 tab.digital##^footer>a:has(>img[src$="/banner.png"])
 tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
 teamos.xyz##center:has(>div>a[title^="debrid"i])
@@ -82,21 +117,52 @@ useragents.me##li.nav-item:has(a[target])
 useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
 vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
 vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
-yemek.com##div.masthead-container
-yeniakit.com.tr##div.masthead-top
-yenisafak.com##a.ramadan-sponsor
 zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
 zaytung.com##div[id^=sidebar]>div#banner
 
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
-!-/	Cookie Banners																					 ~
+!-/ CSS Fixes and Customisations																	 ~
+ezgif.com###main{margin-left:unset !important;}
+filmmakinesi.tv##body{padding-top:unset !important;}
+repack.me##main>div.container{margin-top:unset !important;}
+documentaryarea.com##.jw-preview{background:none !important;}
+
+!-/	Cookie and Privacy Banners	 																	 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
-takvim.com.tr##div[class="verialtbar"i]
-!-/	Announcements and Notifications																	 ~
+sabah.com.tr##div.kvkk-info-box
+takvim.com.tr##div[class~="verialtbar"i]
+
+!-/	Announcements, Notifications and Promotions														 ~
 dogrulukpayi.com##div.seventh-year-section
+sabah.com.tr##div[class="notbar"i]
+ahaber.com.tr,takvim.com.tr##div.application-widget
+atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div.social
+
+!-/ Social Networks and Content Share Widgets														 ~
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
+ahaber.com.tr,sabah.com.tr##div.share-div
+ahaber.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="mediashare"i]
+ahaber.com.tr##div[class~="sharebtn"i]
+ahaber.com.tr##div[class~="shareframecontainer"i]
+atv.com.tr##div.footer-social
+atv.com.tr##div.detail-gallery-social
+fotomac.com.tr##ol[class~="mediashare"i]
+fotomac.com.tr##div[class~="appsocialmedia"i]
+fotomac.com.tr##li.social
+fotomac.com.tr##li.share
+fotomac.com.tr##div.top-area-buttons-social
+sabah.com.tr##div.share
+sabah.com.tr,yeniasir.com.tr##li[class~="mediashare"i]
+takvim.com.tr##div.detail-info-social
+yeniasir.com.tr##div.detail-social
+anizm.net##div[id^="discordinvitebox"i]
+dogrulukpayi.com##div.follow-banner
+dogrulukpayi.com##div.follow-social-section
+tureng.com##div[class$="-socialmedia"]
+
 !-/ Subscription, Discount, Trials etc. Marketing													 ~
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
@@ -115,17 +181,13 @@ mediafire.com##iframe[src$="/sidebar_promo.php"]
 pixlr.com##div[id$=-discount-banner]
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
+
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
-!-/ CSS Fixes and Customisations																	 ~
-ezgif.com###main{margin-left:unset !important;}
-filmmakinesi.tv##body{padding-top:unset !important;}
-repack.me##main>div.container{margin-top:unset !important;}
+
+
+
 ! Social Networks and Follow/Share Widgets
-anizm.net##div[id^="discordinvitebox"i]
-dogrulukpayi.com##div.follow-banner
-dogrulukpayi.com##div.follow-social-section
-tureng.com##div[class$="-socialmedia"]
 colordesigner.io##main>.section:is([class$=-update-to-pro],[class$=-share])
 ovagames.com##div.sidebar-box:has-text(/^facebook/i)
 ! Trial/Subscription/PRO/VIP/Discount etc. Buttons/Banners/Sections/Blocks/Texts
