@@ -4,6 +4,8 @@
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
+!-/ Generic Content Filtering List for Adverts	("example.tld##element+attribute")
+
 !-/ Block Adverts via Network Filtering
 animetr.co##^div.ads
 hlktrpl.cfd##^div[id~="adstop"i]
