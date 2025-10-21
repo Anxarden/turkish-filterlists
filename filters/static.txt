@@ -15,6 +15,7 @@
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
 @@||ipcheck.tmgrup.com.tr/ipcheck/$xhr,domain=atv.com.tr
+@@||i.tmgrup.com.tr/tmd/mobile-detect/$script,domain=ahaber.com.tr
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^$document
