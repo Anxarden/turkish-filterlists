@@ -161,11 +161,11 @@ inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
 justwatch.com##div.account-modal-content div.pro-web-button
 mediafire.com##button[aria-label^="upgrade"i]:upward(div)
-mediafire.com##div:has-text(/^upgrade$/i)
+mediafire.com##div[dir]:has-text(/^upgrade$/i)
 mediafire.com##div[aria-label="advertisement"i]
-mediafire.com##iframe[src$="/premium_trial.php"]
 mediafire.com##iframe[src$="/sidebar_promo.php"]
 mediafire.com##iframe[src$="/upgrade_button.php"]
+mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
 pixlr.com##div[id$=-discount-banner]
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
