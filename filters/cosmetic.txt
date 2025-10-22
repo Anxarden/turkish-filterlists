@@ -4,7 +4,7 @@
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
-!-/ Adverts Cosmetic Filterlist / Basics - ("example.tld##element+attribute>path")
+!-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute>path")
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]
@@ -68,7 +68,7 @@ ntv.com.tr##div.taboola-container
 ntv.com.tr##div.dygtag-masthead
 documentaryarea.com##div.jw-preview
 
-!-/ Advers Cosmetic Filterlist / Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
+!-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
 ownedcore.com##div.body_wrap>div.shoutout
 ownedcore.com##div.body_wrap>div.so-wrapper
@@ -88,40 +88,6 @@ filecrypt.cc##span>button[onmousedown]
 rockmods.net##div.container>center>a:only-child
 fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
 
-! Advert Related Content (Banners, Frames, Texts etc...)
-/diziwatch\d+\.net$/,/hdfilmcehennemi\d+\.com$/##div:matches-attr(class=/^video(alt|ust)$/i):has(>a)
-/diziyou\d*\.com$/##.dizialani>.video>a[target]
-/diziyou\d*\.com$/##body>#wrap>a[href*="//t2m.io/"]:has(img)
-/diziyou\d*\.com$/##body>div>:matches-attr(/id|class/=/diziyoufooter/i)
-autotrader.co.uk##.infinite-scroll-component>ul>li:is(:has(>div>span),:has(>span))
-digitalcore.club##.panel-green:has(img[src*="sponsor/banner"])
-dosyaload.com##.embed-video-player>.jwplayer>.alert
-filterblade.xyz##[id^="leftsidecontainer"i]:has([class^="leftsideadlabel"i])
-icedrive.net##[id=ad-summer]
-indeed.com##[id$="-jobresults"i]>[id$="-jobcards"i]>ul>li:has(.sponsoredJob)
-internxt.com##.h-screen:has(>.fixed>button)
-mediafire.com##.app-container>div>[style^=display]:has([style]:matches-attr(/^data-text/=/^welcome/i))
-myanimelist.net##.title>.detail>div.bookstore-information
-myanimelist.net##.title>.detail>div.manga-store-information
-ownedcore.com##ul#sidebar>li:has(div.block-plain)
-ownedcore.com##ul#sidebar>li:has-text(/sponsored/i)
-pcloud.com##.left-banner:has([class*=AdCloseButton])
-pcloud.com##.left-banner:has-text(/Discount/i)
-pexels.com##div[class^="breakpointgrid_item_"i]:has(a[class^="canvaad_"i])
-pixabay.com##^[class^=container-]:has(>[class^=title]:has-text(/Sponsored/i))
-rankchart.org##a>img[src^="/images/ads/"]:upward(div.columns)
-receive-sms-online.info##a>img[src$="/banner.png"]:upward(div[align=center])
-receive-sms-online.info##div[align=center]:has(>a>img[src$="/banner.png"])
-tab.digital##^footer>a:has(>img[src$="/banner.png"])
-tamsozluk.com##^div.div-right:has(>[src="assets/onlinetasarim.webp"])
-teamos.xyz##center:has(>div>a[title^="debrid"i])
-turktorrent.us##[id=advertisements]
-turktorrent.us##^script:has-text(#advertisements)
-vk.com##.feed_row:has([class^="postheadersubtitle"i]:has-text(/community.ad/i))
-vk.com##.feed_row:has([id^="postadsite_"],[data-ad])
-zaytung.com##a[href^="https://radore.com/"]:upward(div>div)
-zaytung.com##div[id^=sidebar]>div#banner
-
 #----------------------------------------------------------------------------------------------------#
 #- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
 #----------------------------------------------------------------------------------------------------#
@@ -130,11 +96,12 @@ ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
 
-!-/	Cookie and Privacy Banners	 																	 ~
+!-/	Cookie Banners and Privacy Disclaimers	 														 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
 techdergi.net##div#cookie-box
 sabah.com.tr##div.kvkk-info-box
 takvim.com.tr##div[class~="verialtbar"i]
+marketfiyati.org.tr##app-disclaimer
 
 !-/	Announcements, Notifications, Recommendations and Popups										 ~
 dogrulukpayi.com##div.seventh-year-section
@@ -176,12 +143,17 @@ ahaber.com.tr,takvim.com.tr##div.application-widget
 atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div.social
 
 !-/ Premium Subscriptions, Discounts and Promotions													 ~
+!#if cap_html_filtering
+deepl.com##^div[data-testid="translator"]>div:not([data-layout-id])
+!#else
+deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
+!#endif
+
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
 colordesigner.io##main>section[class$=-update-to-pro]
-deepl.com##header>div>span:has([href="/en/pro"])
 hacksnation.com##div#adblock-overlay
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
@@ -191,6 +163,7 @@ mediafire.com##div:has-text(/^upgrade$/i)
 mediafire.com##div[aria-label="advertisement"i]
 mediafire.com##iframe[src$="/premium_trial.php"]
 mediafire.com##iframe[src$="/sidebar_promo.php"]
+mediafire.com##iframe[src$="/upgrade_button.php"]
 pixlr.com##div[id$=-discount-banner]
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
@@ -200,14 +173,14 @@ teyit.org##img.side-banner-img
 teyit.org##div.purmerak-box
 teyit.org##a.purmerak
 
-!-/ Annoying Footers																		 ~
+!-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
 
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
 #----------------------------------------------------------------------------------------------------#
 #- Hide Websites from Search Engines
-! fandom wikis that are inactive, outdated or deprecated and have better alternatives
+!- fandom wikis that are inactive, outdated or deprecated and have better alternatives
 duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
 duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
@@ -222,12 +195,12 @@ www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
 
 #- Website Fixes
-! disable adblock detection and hide loading status for player
+!- disable adblock detection and hide loading status for player
 gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
 gledaitv.fan##div#loading-spinner
-! preload/loading effect annoyance
+!- preload/loading effect annoyance
 thehouseofportable.com##div[id="preload"]
-! remove empty space and fix top-padding @ takvim/yasam
+!- remove empty space and fix top-padding @ takvim/yasam
 takvim.com.tr##section.billboard-top
 takvim.com.tr##section.billboard-top+main{padding-top:100px;}
 

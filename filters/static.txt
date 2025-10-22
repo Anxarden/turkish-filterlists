@@ -18,7 +18,9 @@
 @@||i.tmgrup.com.tr/tmd/mobile-detect/$script,domain=ahaber.com.tr
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-	SEO Spamdexing Baitclick News/Content
-||turkinform.com.tr^$document
+||turkinform.com.tr^
+!-  Domain Parking Monetization Platform
+||parklogic.com^
 !-	Dangerious Redirecting Links
 /\bclbanners\d*\.com\b/$all,to=/clbanners/
 /\brefpa\d+\.[a-z]{2,}\b/$all,to=/refpa/
@@ -218,6 +220,9 @@
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||addthis.com^
 ||adgrid.io^
+||sibautomation.com^
+||visariomedia.com^
+||maxmind.com^
 ||widgetlogic.org^
 ||adition.com^
 ||a-ads.com^
@@ -226,6 +231,7 @@
 ||adskeeper.com^
 ||adsafeprotected.com^
 ||ipinfo.io^
+||fastly-insights.com^
 ||adsninja.ca^
 ||adskeeper.co.uk^
 ||bkrtx.com^
@@ -581,6 +587,7 @@
 ||telemetry.canva.com^
 ||a.cdnpure.com^
 ||d1l6p2sc9645hc.cloudfront.net^
+||d13k7prax1yi04.cloudfront.net^
 ||d1ybdlg8aoufn.cloudfront.net^
 ||d2d6cf2do9znht.cloudfront.net^
 ||d2ob6t3bgjo11t.cloudfront.net^
