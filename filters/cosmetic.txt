@@ -67,6 +67,7 @@ ntv.com.tr##div[class*="-ads-item-"]
 ntv.com.tr##div.taboola-container
 ntv.com.tr##div.dygtag-masthead
 documentaryarea.com##div.jw-preview
+myanimelist.net##div.bookstore-information
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -148,7 +149,8 @@ deepl.com##^div[data-testid="translator"]>div:not([data-layout-id])
 !#else
 deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
 !#endif
-
+deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
+deepl.com##div.items-start:has(a[href="/pro"])
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
