@@ -68,6 +68,10 @@ ntv.com.tr##div.taboola-container
 ntv.com.tr##div.dygtag-masthead
 documentaryarea.com##div.jw-preview
 myanimelist.net##div.bookstore-information
+ekonomim.com##div[class^="ad-"i]
+ekonomim.com##div.ad-pageskin-container
+ekonomim.com##div.ad-tower-container
+ekonomim.com##div.desktop-ad
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -103,17 +107,21 @@ techdergi.net##div#cookie-box
 sabah.com.tr##div.kvkk-info-box
 takvim.com.tr##div[class~="verialtbar"i]
 marketfiyati.org.tr##app-disclaimer
+ekonomim.com##div.privacy-banner
 
 !-/	Announcements, Notifications, Recommendations and Popups										 ~
 dogrulukpayi.com##div.seventh-year-section
 sabah.com.tr##div[class="notbar"i]
 teyit.org##a.inpost-related
+ekonomim.com##div.newsletter-widget
 
 !-/ Social Networks and Content Share Widgets														 ~
 !#if cap_html_filtering
 teyit.org##^div.share-bar
+ekonomim.com##^div.social-shares
 !#else
 teyit.org##div.share-bar
+ekonomim.com##div.social-shares
 !#endif
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
 ahaber.com.tr,sabah.com.tr##div.share-div
@@ -142,6 +150,7 @@ ovagames.com##div.sidebar-box:has-text(/^facebook\b/i)
 colordesigner.io##main>section[class$=-share]
 ahaber.com.tr,takvim.com.tr##div.application-widget
 atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div.social
+ekonomim.com##div.social-share-wrapper
 
 !-/ Premium Subscriptions, Discounts and Promotions													 ~
 !#if cap_html_filtering
@@ -179,6 +188,7 @@ teyit.org##a.purmerak
 
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
+ekonomim.com##footer
 
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance

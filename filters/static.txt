@@ -51,9 +51,11 @@
 ||adform.net^
 ||lups1.site^
 ||spellknight.com^
+||sitelock.com^$third-party
 ||dygdigital.com^
 ||agkn.com^
 ||newrelic.com^
+||hostixz.com^$third-party
 ||cookiebot.com^
 ||adhood.com^
 ||zohopublic.com^
