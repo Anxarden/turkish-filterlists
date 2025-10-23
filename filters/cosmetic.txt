@@ -32,7 +32,12 @@ atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"
 blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
+documentaryarea.com##div.jw-preview
 documentaryarea.com##img.watermark
+ekonomim.com##div.ad-pageskin-container
+ekonomim.com##div.ad-tower-container
+ekonomim.com##div.desktop-ad
+ekonomim.com##div[class^="ad-"i]
 faketempmail.com##a.banner-custom
 fotomac.com.tr##a[aria-label~="reklam"i]
 fotomac.com.tr##a[href^="http://pubads."]
@@ -52,8 +57,12 @@ hlktrpl.cfd##div[id~="adstop"i]
 hlktrpl.cfd##span[id="textreklamgoster"i]
 hurriyet.com.tr##section.adv
 milliyet.com.tr##div.article-ads-container
+myanimelist.net##div.bookstore-information
 mynet.com##a.sponsored-image
 natgeotv.com##a#home-promo-banner
+ntv.com.tr##div.dygtag-masthead
+ntv.com.tr##div.taboola-container
+ntv.com.tr##div[class*="-ads-item-"]
 reddit.com##advertise-button
 sabah.com.tr##div[ad]
 sozcu.com.tr##div[id="membranadesktop"i]
@@ -63,15 +72,9 @@ yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
-ntv.com.tr##div[class*="-ads-item-"]
-ntv.com.tr##div.taboola-container
-ntv.com.tr##div.dygtag-masthead
-documentaryarea.com##div.jw-preview
-myanimelist.net##div.bookstore-information
-ekonomim.com##div[class^="ad-"i]
-ekonomim.com##div.ad-pageskin-container
-ekonomim.com##div.ad-tower-container
-ekonomim.com##div.desktop-ad
+sozcu.com.tr##div.ad
+sozcu.com.tr##div.reklam
+sozcu.com.tr##section.reklam
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -119,9 +122,13 @@ ekonomim.com##div.newsletter-widget
 !#if cap_html_filtering
 teyit.org##^div.share-bar
 ekonomim.com##^div.social-shares
+sozcu.com.tr##^div.social-pages
+sozcu.com.tr##^div.share-area
 !#else
 teyit.org##div.share-bar
 ekonomim.com##div.social-shares
+sozcu.com.tr##div.social-pages
+sozcu.com.tr##div.share-area
 !#endif
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
 ahaber.com.tr,sabah.com.tr##div.share-div
@@ -296,7 +303,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##img[class$="-ad"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
-##div[class="ads-container"i]
+##div[class~="ads-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 

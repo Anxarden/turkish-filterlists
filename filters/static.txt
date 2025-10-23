@@ -50,6 +50,7 @@
 ||2cnt.net^
 ||adform.net^
 ||lups1.site^
+||doganburda.com^
 ||spellknight.com^
 ||sitelock.com^$third-party
 ||dygdigital.com^
@@ -222,6 +223,7 @@
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||addthis.com^
 ||adgrid.io^
+||adthrive.com^
 ||sibautomation.com^
 ||visariomedia.com^
 ||maxmind.com^
@@ -725,7 +727,3 @@
 /themes/bepeak/assets/js/*$script
 /themes/bepeak/js/notif.js^$script,from=dizipal967.com
 ! -------------------------------------------------------------------------------- !
-# World-Wide Websites that Considered as Turkish [has Turkish interface and used by Turks]
-! • apple.com
-! • duckduckgo.com
-! • linkedin.com
