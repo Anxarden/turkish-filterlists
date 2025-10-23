@@ -166,7 +166,9 @@ mediafire.com##div[aria-label="advertisement"i]
 mediafire.com##iframe[src$="/sidebar_promo.php"]
 mediafire.com##iframe[src$="/upgrade_button.php"]
 mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
+mediafire.com##div[class="storageupsell-buttons"i]>:not(button)
 pixlr.com##div[id$=-discount-banner]
+mega.nz##div.upgrade-to-pro-dialog
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 colordesigner.io##div.aa-container:has(div.alternative-ad)
