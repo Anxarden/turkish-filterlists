@@ -6,11 +6,13 @@
 ||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com|~with-subdomains
 !-/ [linkedin]
 ||linkedin.com^$third-party,from=~with-subdomains
-||licdn.com^$third-party,from=~linkedin.com|~lnkd.in|~with-subdomains
-||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
+||licdn.com^$from=~linkedin.com|~lnkd.in|~with-subdomains
+||lnkd.in^$from=~linkedin.com|~licdn.com
 !-/ [apple]
 ||apple.com^$third-party,from=~icloud.com|~with-subdomains
 ||cdn-apple.com^$from=~apple.com|~icloud.com
+!-/ [reddit]
+||redditstatic.com^script,from=~reddit.com
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
@@ -222,12 +224,16 @@
 ||webvisor.org^
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
+||pendo.io^
+||pdst.fm^
 ||addthis.com^
 ||adgrid.io^
 ||adthrive.com^
 ||volccdn.com^
 ||volces.com^
 ||portal101.cn^
+||trackjs.com^
+||profitwell.com^
 ||morphify.net^$third-party
 ||attirecideryeah.com^
 ||intercom.io^$third-party
@@ -676,6 +682,7 @@
 ||srv.tunefindforfans.com^
 ||nct.ui-portal.de^
 ||wa.ui-portal.de^
+||a.quora.com^
 ||yr.unasonoric.com^
 ||collector.unsplash.com^
 ||widget.uservoice.com^
