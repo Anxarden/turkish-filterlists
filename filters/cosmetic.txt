@@ -32,7 +32,7 @@ atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"
 blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
-documentaryarea.com##div.jw-preview
+documentaryarea.com,hlktrpl.cfd##div.jw-preview
 documentaryarea.com##img.watermark
 ekonomim.com##div.ad-pageskin-container
 ekonomim.com##div.ad-tower-container
@@ -49,7 +49,6 @@ haberler.com##div[class^="ad-left-"]
 haberler.com##div[class^="ad-right-"]
 haberler.com##div[class^="reklam-"i]
 hlktrpl.cfd##div.jw-logo
-hlktrpl.cfd##div.jw-preview
 hlktrpl.cfd##div.jw-title
 hlktrpl.cfd##div[class="playertextreklam"i]
 hlktrpl.cfd##div[class~="ad-placement"i]
@@ -75,6 +74,8 @@ yenisafak.com##a.ramadan-sponsor
 sozcu.com.tr##div.ad
 sozcu.com.tr##div.reklam
 sozcu.com.tr##section.reklam
+birgun.net##div.adsmasthead
+birgun.net##div.sticky-ads
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -124,11 +125,13 @@ teyit.org##^div.share-bar
 ekonomim.com##^div.social-shares
 sozcu.com.tr##^div.social-pages
 sozcu.com.tr##^div.share-area
+birgun.net##^div.social-share
 !#else
 teyit.org##div.share-bar
 ekonomim.com##div.social-shares
 sozcu.com.tr##div.social-pages
 sozcu.com.tr##div.share-area
+birgun.net##div.social-share
 !#endif
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
 ahaber.com.tr,sabah.com.tr##div.share-div
@@ -196,6 +199,7 @@ teyit.org##a.purmerak
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
 ekonomim.com##footer
+vsetop.org##div#footer
 
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
@@ -263,7 +267,6 @@ tuttop.com##noindex>div.telegram
 tuttop.com##noindex>p:has(>a[href^="/donat.html"])
 tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
 vsetop.org##div#content>ul.naviga
-vsetop.org##div#footer
 vsetop.org##div.body>p:has(>a[href^="/donat.html"])
 !- disable modal popup and fix scrolling
 dogrulukpayi.com##reach-portal{display:none !important;}

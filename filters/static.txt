@@ -56,6 +56,7 @@
 ||dygdigital.com^
 ||agkn.com^
 ||newrelic.com^
+||insurads.com^
 ||hostixz.com^$third-party
 ||cookiebot.com^
 ||adhood.com^
@@ -224,6 +225,11 @@
 ||addthis.com^
 ||adgrid.io^
 ||adthrive.com^
+||volccdn.com^
+||volces.com^
+||portal101.cn^
+||attirecideryeah.com^
+||intercom.io^$third-party
 ||sibautomation.com^
 ||visariomedia.com^
 ||maxmind.com^
@@ -629,7 +635,7 @@
 ||cmp.inmobi.com^
 ||g.jwpsrv.com^
 ||stats.kde.org^
-||storage.ko-fi.com^$third-party,script
+||storage.ko-fi.com^$third-party
 ||ingress.linktr.ee^
 ||cdn.livechatinc.com^
 ||genesis.malwarebytes.com^
@@ -641,7 +647,6 @@
 ||cdn.pdst.fm^
 ||cdn.pendo.io^
 ||ct.pinterest.com^
-||fp-it-acc.portal101.cn^
 ||dx.pyramidshowery.com^
 ||weblog.rclone.org^
 ||pl.receptupperch.com^
@@ -675,7 +680,6 @@
 ||ads.vk.com^
 ||ms.vk.com^
 ||stats.vk-portal.net^
-||lf3-data.volccdn.com^
 ||matomo.whvn.cc^
 ||distillery.wistia.com^
 ||pipedream.wistia.com^
