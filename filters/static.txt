@@ -228,6 +228,7 @@
 ||volccdn.com^
 ||volces.com^
 ||portal101.cn^
+||morphify.net^$third-party
 ||attirecideryeah.com^
 ||intercom.io^$third-party
 ||sibautomation.com^
@@ -640,6 +641,8 @@
 ||cdn.livechatinc.com^
 ||genesis.malwarebytes.com^
 ||device.maxmind.com^
+||pixel.morphify.net^
+||wss.morphify.net^
 ||ichnaea-web.netflix.com^
 ||adx.opera.com^
 ||api.optincdn.com^
