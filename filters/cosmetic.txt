@@ -218,6 +218,12 @@ www.qwant.com##div[domain*="//pathofexile.fandom.com/"]:upward(div)
 www.startpage.com##div.result:has(>a[href*="//hollowknight.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
+!-/	spamdexing baitclick news/content
+duckduckgo.com##article:has([href*="//www.haberler.com/"]):upward(li)
+www.google.*##span>a[href*="//www.haberler.com/"]:upward(div#rso>div)
+www.qwant.com##div[domain*="//www.haberler.com/"]:upward(div)
+www.startpage.com##div.result:has(>a[href*="//www.haberler.com/"])
+
 
 #- Website Fixes
 !- disable adblock detection and hide loading status for player
@@ -275,19 +281,19 @@ dogrulukpayi.com##body{overflow:auto !important;}
 #----------------------------------------------------------------------------------------------------#
 #- Scriptlets
 #----------------------------------------------------------------------------------------------------#
-! [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
-! +js(aeld, eventType, [searchString])
+!- [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
+!- +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
 asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
 ag2m2.cfd,ag2m4.cfd/##+js(addEventListener-defuser, click, shouldOpenPopup)
-! [aliases: prevent-fetch, no-fetch-if]
-! +js(no-fetch-if, URL/URL-Regex, [checkWiki])
+!- [aliases: prevent-fetch, no-fetch-if]
+!- +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
-! [aliases: aopr, abort-on-property-read]
-! +js(abort-on-property-read, object.property)
+!-[aliases: aopr, abort-on-property-read]
+!- +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
-! [aliases: set, set-constant]
-! +js(set, object.property, value, [checkWiki])
+!- [aliases: set, set-constant]
+!- +js(set, object.property, value, [checkWiki])
 dizipal967.com##+js(set-constant, activeItem, 1)
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)

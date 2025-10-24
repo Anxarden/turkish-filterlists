@@ -19,11 +19,11 @@
 @@||ipcheck.tmgrup.com.tr/ipcheck/$xhr,domain=atv.com.tr
 @@||i.tmgrup.com.tr/tmd/mobile-detect/$script,domain=ahaber.com.tr
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
-!-	SEO Spamdexing Baitclick News/Content
+!-/	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^
-!-  Domain Parking Monetization Platform
+!-/	Domain Parking Monetization Platform
 ||parklogic.com^
-!-	Dangerious Redirecting Links
+!-/	Dangerious Redirecting Links
 /\bclbanners\d*\.com\b/$all,to=/clbanners/
 /\brefpa\d+\.[a-z]{2,}\b/$all,to=/refpa/
 ||cutt.ly^
@@ -203,7 +203,7 @@
 ||sonsurumapk.xyz^
 ||srv224.com^
 ||statbest.in^
-||statcounter.com^
+||statcounter.com^$important
 ||stomt.com^
 ||subservis.com^
 ||synaps.ly^
