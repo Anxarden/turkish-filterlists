@@ -50,6 +50,8 @@
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
+||vdo.ai^
+||refinery89.com^
 ||hardexpendstrategy.com^
 ||adform.net^
 ||lups1.site^
@@ -115,7 +117,6 @@
 ||cstwpush.com^
 ||demirorenmedya.com^
 ||dengage.com^
-||dimml.io^
 ||dimml.io^
 ||geoedge.be^
 ||disqus.com^
@@ -194,7 +195,6 @@
 ||ppcnt.pro^
 ||protect-ad.com^
 ||quietshalecompany.com^
-||refinery89.com^
 ||revenuecpmgate.com^
 ||scorecardresearch.com^
 ||sentry-cdn.com^
@@ -743,9 +743,9 @@
 ||x.ag2m4.cfd/js/$script
 ||x.ag2m2.cfd/js/$script
 #- Wildcard Paths Filters
+/advert/js/advert-public.js^$script,to=habervakti.com,first-party
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js^$script
-/js/tmdconsent-*.js^$script
 /themes/bepeak/assets/js/*$script
-/themes/bepeak/js/notif.js^$script,from=dizipal967.com
+/themes/bepeak/js/notif.js^$first-party,script,to=/\bdizipal\d{3}\.com$/
 ! -------------------------------------------------------------------------------- !
