@@ -231,6 +231,12 @@
 ||adgrid.io^
 ||adthrive.com^
 ||volccdn.com^
+||bootcdn.net^
+||x7i0.com^
+||unuodkswo.com^
+||unasonoric.com^
+||mafiadarnix.com^
+||acscdn.com^
 ||volces.com^
 ||portal101.cn^
 ||trackjs.com^

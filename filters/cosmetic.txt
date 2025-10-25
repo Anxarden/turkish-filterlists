@@ -5,6 +5,11 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 !-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute>path")
+!#if cap_html_filtering
+internethaber.com,ekonomim.com##^div.adpro
+!#else
+internethaber.com,ekonomim.com##div.adpro
+!#endif
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]
@@ -36,7 +41,7 @@ documentaryarea.com,hlktrpl.cfd##div.jw-preview
 documentaryarea.com##img.watermark
 ekonomim.com##div.ad-pageskin-container
 ekonomim.com##div.ad-tower-container
-ekonomim.com##div.desktop-ad
+ekonomim.com,internethaber.com##div.desktop-ad
 ekonomim.com##div[class^="ad-"i]
 faketempmail.com##a.banner-custom
 fotomac.com.tr##a[aria-label~="reklam"i]
@@ -77,7 +82,8 @@ sozcu.com.tr##section.reklam
 birgun.net##div.adsmasthead
 birgun.net##div.sticky-ads
 turktorrent.us##div#advertisements
-
+internethaber.com##div.ad-right
+internethaber.com##div.ad-left
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
 ownedcore.com##div.body_wrap>div.shoutout
@@ -163,6 +169,7 @@ colordesigner.io##main>section[class$=-share]
 ahaber.com.tr,takvim.com.tr##div.application-widget
 atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div.social
 ekonomim.com##div.social-share-wrapper
+gazeteoku.com##div.footer-content
 
 !-/ Premium Subscriptions, Discounts and Promotions													 ~
 !#if cap_html_filtering
@@ -170,33 +177,37 @@ deepl.com##^div[data-testid="translator"]>div:not([data-layout-id])
 !#else
 deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
 !#endif
-deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
-deepl.com##div.items-start:has(a[href="/pro"])
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
+colordesigner.io##div.aa-container:has(div.alternative-ad)
 colordesigner.io##main>section[class$=-update-to-pro]
+deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
+deepl.com##div.items-start:has(a[href="/pro"])
 hacksnation.com##div#adblock-overlay
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
 justwatch.com##div.account-modal-content div.pro-web-button
 mediafire.com##button[aria-label^="upgrade"i]:upward(div)
-mediafire.com##div[dir]:has-text(/^upgrade$/i)
 mediafire.com##div[aria-label="advertisement"i]
+mediafire.com##div[class="storageupsell-buttons"i]>:not(button)
+mediafire.com##div[dir]:has-text(/^upgrade$/i)
+mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
 mediafire.com##iframe[src$="/sidebar_promo.php"]
 mediafire.com##iframe[src$="/upgrade_button.php"]
-mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
-mediafire.com##div[class="storageupsell-buttons"i]>:not(button)
-pixlr.com##div[id$=-discount-banner]
 mega.nz##div.upgrade-to-pro-dialog
+pixlr.com##a.button[href^="/pricing/#"]:upward(div)
+pixlr.com##div#head-premium
+pixlr.com##div[id$=-discount-banner]
+pixlr.com##section.upsell
+teyit.org##a#side-banner
+teyit.org##a.purmerak
+teyit.org##div.purmerak-box
+teyit.org##img.side-banner-img
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
-colordesigner.io##div.aa-container:has(div.alternative-ad)
-teyit.org##a#side-banner
-teyit.org##img.side-banner-img
-teyit.org##div.purmerak-box
-teyit.org##a.purmerak
+pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
 
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
@@ -316,6 +327,8 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##div[class~="ads-container"i]
 ! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
+! internethaber.com
+##div.adpro[data-page]
 
 #----------------------------------------------------------------------------------------------------#
 #- Network AD Filters /w Paths
