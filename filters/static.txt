@@ -50,6 +50,7 @@
 #-/ 3rd-Party Domain Blacklist @ Turkish Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
+||hardexpendstrategy.com^
 ||adform.net^
 ||lups1.site^
 ||doganburda.com^
@@ -704,7 +705,6 @@
 ||downloads.zdnet.de^
 #- Specific Scripts/Queries/Fetchs/Blocks
 ||abysscdn.com/sw.js^$script
-||anizm.net/sw2.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||eksenload.site/detect.js^$script
@@ -733,8 +733,10 @@
 ||i.tmgrup.com.tr/tmd/$script
 ||i.tmgrup.com.tr/tmdwebpush/$script
 ||zi-scripts.com/zi-tag.js^$script
+||filmhane.online/activity/$xhr
+||x.ag2m4.cfd/js/$script
+||x.ag2m2.cfd/js/$script
 #- Wildcard Paths Filters
-.cfd/js/*.js^$script,to=ag2m2.cfd|ag2m4.cfd
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js^$script
 /js/tmdconsent-*.js^$script

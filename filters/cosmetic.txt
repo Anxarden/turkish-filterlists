@@ -76,6 +76,7 @@ sozcu.com.tr##div.reklam
 sozcu.com.tr##section.reklam
 birgun.net##div.adsmasthead
 birgun.net##div.sticky-ads
+turktorrent.us##div#advertisements
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -139,6 +140,7 @@ ahaber.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="mediashare"i]
 ahaber.com.tr##div[class~="sharebtn"i]
 ahaber.com.tr##div[class~="shareframecontainer"i]
 atv.com.tr##div.footer-social
+anizm.net##div[id="telegraminvitebox"i]
 atv.com.tr##div.detail-gallery-social
 fotomac.com.tr##ol[class~="mediashare"i]
 fotomac.com.tr##div[class~="appsocialmedia"i]
@@ -223,7 +225,6 @@ duckduckgo.com##article:has([href*="//www.haberler.com/"]):upward(li)
 www.google.*##span>a[href*="//www.haberler.com/"]:upward(div#rso>div)
 www.qwant.com##div[domain*="//www.haberler.com/"]:upward(div)
 www.startpage.com##div.result:has(>a[href*="//www.haberler.com/"])
-
 
 #- Website Fixes
 !- disable adblock detection and hide loading status for player
