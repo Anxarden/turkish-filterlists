@@ -201,6 +201,9 @@
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||1win-turkey.org^
 ||1win.run^
+||enerji.vip^
+||zova.live^
+||ortaklikkazanci.com^
 ||aff-handler.com^
 ||spanpromo.live^
 ||betspider.com^
@@ -807,6 +810,7 @@
 ||whitehatgaming.com^
 ||wildcatevents.com^
 ||winwinbet.xyz^
+||portoaff.com^
 ||wisegaming.com^
 ||wrestling-edge.com^
 ||xslotgiris.com.tr^
@@ -832,6 +836,7 @@
 ||zolobet.com^
 ||zolobet.pro^
 ||zoombaplay.com^
+||brgaffiliates.com^
 ||zotabet.com^
 ||bplayadres.com^
 ||zulagiris.click^
