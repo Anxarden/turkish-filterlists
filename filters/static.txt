@@ -227,6 +227,7 @@
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||pendo.io^
 ||pdst.fm^
+||ravenjs.com^
 ||addthis.com^
 ||adgrid.io^
 ||adthrive.com^
