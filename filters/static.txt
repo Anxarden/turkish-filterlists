@@ -229,6 +229,8 @@
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||nr-data.net^
+||rollbar.com^
+||lngtd.com^
 ||a-ads.com^
 ||acscdn.com^
 ||addthis.com^

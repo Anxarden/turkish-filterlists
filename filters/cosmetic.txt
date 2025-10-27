@@ -16,6 +16,9 @@ gazetekeyfi.com##^ins.adsbygoogle-lazyload
 gazeteoku.com##^div.ad-showcase
 gazeteoku.com,internethaber.com##^div.ad-left
 gazeteoku.com,internethaber.com##^div.ad-right
+birgun.net##^div[id^='divads-'i]
+birgun.net##^div.sticky-ads
+birgun.net##^div.adsmasthead
 !#else
 ekonomim.com##div.ad-pageskin-container
 dunya.com,ekonomim.com##div.ad-tower-container
@@ -27,6 +30,9 @@ gazetekeyfi.com##div.ad-side
 gazetekeyfi.com##ins.adm-ads-area
 gazetekeyfi.com##ins.adsbygoogle
 gazetekeyfi.com##ins.adsbygoogle-lazyload
+birgun.net##div[id^='divads-'i]
+birgun.net##div.sticky-ads
+birgun.net##div.adsmasthead
 !#endif
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
@@ -60,7 +66,7 @@ documentaryarea.com##img.watermark
 internethaber.com##div.desktop-ad
 faketempmail.com##a.banner-custom
 fotomac.com.tr##a[aria-label~="reklam"i]
-fotomac.com.tr##a[href^='http://pubads.']
+fotomac.com.tr##a[href^="http://pubads."]
 fotomac.com.tr##div.google-news-widget
 fotomac.com.tr,sabah.com.tr##div.currency-view
 haberler.com##div[class$="-reklam"i]
@@ -94,11 +100,9 @@ yenisafak.com##a.ramadan-sponsor
 sozcu.com.tr##div.ad
 sozcu.com.tr##div.reklam
 sozcu.com.tr##section.reklam
-birgun.net##div.adsmasthead
-birgun.net##div.sticky-ads
 turktorrent.us##div#advertisements
 dosyaload.com##div.alert
-smailpro.com##aside[class^='ads-']
+smailpro.com##aside[class^="ads-"]
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -141,6 +145,9 @@ dogrulukpayi.com##div.seventh-year-section
 sabah.com.tr##div[class="notbar"i]
 teyit.org##a.inpost-related
 ekonomim.com##div.newsletter-widget
+birgun.net##div#getpermission
+birgun.net##div#adblocker
+birgun.net##div[id~="appbanner"i]
 
 !-/ Social Networks and Content Share Widgets														 ~
 !#if cap_html_filtering
@@ -262,6 +269,9 @@ thehouseofportable.com##div[id="preload"]
 !- remove empty space and fix top-padding @ takvim/yasam
 takvim.com.tr##section.billboard-top
 takvim.com.tr##section.billboard-top+main{padding-top:100px;}
+!- paywall bypass
+cliffsnotes.com##div[class*="-backdrop-blur-"]
+cliffsnotes.com##div.page-component>style:first-child:remove()
 
 #- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 !- ad/information post, css fixes
