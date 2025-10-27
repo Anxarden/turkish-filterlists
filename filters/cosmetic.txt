@@ -60,7 +60,7 @@ documentaryarea.com##img.watermark
 internethaber.com##div.desktop-ad
 faketempmail.com##a.banner-custom
 fotomac.com.tr##a[aria-label~="reklam"i]
-fotomac.com.tr##a[href^="http://pubads."]
+fotomac.com.tr##a[href^='http://pubads.']
 fotomac.com.tr##div.google-news-widget
 fotomac.com.tr,sabah.com.tr##div.currency-view
 haberler.com##div[class$="-reklam"i]
@@ -98,6 +98,7 @@ birgun.net##div.adsmasthead
 birgun.net##div.sticky-ads
 turktorrent.us##div#advertisements
 dosyaload.com##div.alert
+smailpro.com##aside[class^='ads-']
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -372,7 +373,5 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ||md.teyit.org/*/side-banner-$first-party,image
 ||teyit.org/*-purmerak-$first-party,image
 ||teyit.org/*/purmerak-$first-party,image
+
 #----------------------------------------------------------------------------------------------------#
-#- Disable Generic Cosmetic Filtering
-#----------------------------------------------------------------------------------------------------#
-||ahaber.com^$generichide

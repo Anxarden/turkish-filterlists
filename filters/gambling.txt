@@ -83,6 +83,7 @@
 ||trbet*.com^
 ||yakabet*.com^
 ||zirvebet*.com^
+||zbahis*.com^$to=~alpha-digits
 ||biabet*.com^$to=~alpha-digits
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
@@ -116,11 +117,13 @@
 ||abegiris.com.tr^
 ||adnint.com^
 ||advprocure.com^
+||pinco-kayit-tr.ink^
 ||affiliateroulette.com^
 ||girbetturkey.com^
 ||geturkiyeblog.com^
 ||feedinco.com^
 ||thestableplaceslc.com^
+||ikimisliyeniadres.com^
 ||conkeycruisers.org^
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
@@ -174,7 +177,6 @@
 ||aukuma.com^
 ||autostartwo.com^
 ||biev.com.tr^
-||ticaretbayi.com^
 ||birdizihaber.com^
 ||bottomsuponline.com^
 ||busloopburgers.com^
@@ -203,6 +205,10 @@
 ||1win.run^
 ||enerji.vip^
 ||zova.live^
+||affdeo.com^
+||ticaretbayi.com^
+||daytrack.cc^
+||ikimisli.com
 ||ortaklikkazanci.com^
 ||aff-handler.com^
 ||spanpromo.live^
