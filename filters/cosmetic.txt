@@ -332,18 +332,18 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
 #----------------------------------------------------------------------------------------------------#
-! rockmods.net, proinvitelinks.com
+!- rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
-! dizipal\d{4}.com, netflixcenter.com, voditza.com 
+!- dizipal\d{4}.com, netflixcenter.com, voditza.com 
 ##a[class^="ads_"i]
 ##div[class$="-ad"i]
 ##img[class$="-ad"i]
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
 ##div[class~="ads-container"i]
-! diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
+!- diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
-! internethaber.com
+!- internethaber.com, dunya.com, gazetehaber.com
 ##div.adpro[data-page]
 
 #----------------------------------------------------------------------------------------------------#
