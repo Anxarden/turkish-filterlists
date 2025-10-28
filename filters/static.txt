@@ -705,6 +705,7 @@
 ||srv.tunefindforfans.com^
 ||nct.ui-portal.de^
 ||wa.ui-portal.de^
+||telemetry.protonvpn.com^
 ||a.quora.com^
 ||yr.unasonoric.com^
 ||collector.unsplash.com^
