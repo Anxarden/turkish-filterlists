@@ -19,6 +19,8 @@ gazeteoku.com,internethaber.com##^div.ad-right
 birgun.net##^div[id^='divads-'i]
 birgun.net##^div.sticky-ads
 birgun.net##^div.adsmasthead
+tele1.com.tr##^div.widget-advert
+tele1.com.tr##^div[data-advert]
 !#else
 ekonomim.com##div.ad-pageskin-container
 dunya.com,ekonomim.com##div.ad-tower-container
@@ -33,6 +35,8 @@ gazetekeyfi.com##ins.adsbygoogle-lazyload
 birgun.net##div[id^='divads-'i]
 birgun.net##div.sticky-ads
 birgun.net##div.adsmasthead
+tele1.com.tr##div.widget-advert
+tele1.com.tr##div[data-advert]
 !#endif
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
@@ -109,7 +113,7 @@ anizm.net##a.center-block[target=_blank]
 ownedcore.com##div.body_wrap>div.shoutout
 ownedcore.com##div.body_wrap>div.so-wrapper
 rockmods.net##ins:matches-attr(/^data-sizes-/)
-rockmods.net##ins:upward(div.container)
+rockmods.net##div.container:has(>ins)
 ahaber.com.tr##div.announcement-widget:upward(div.col)
 ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
@@ -118,6 +122,8 @@ katfile.com##div#container:has(div.recommended)
 sozce.com##div#icerik>div:matches-attr(class=/^reklam\d{1,4}x\d{1,4}$/i)
 useragents.me##li.nav-item:has(a[target])
 useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
+teamos.xyz##div.p-body-inner>center
+teamos.xyz##div.p-body-sidebar>a
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
@@ -154,13 +160,13 @@ birgun.net##div[id~="appbanner"i]
 teyit.org##^div.share-bar
 ekonomim.com##^div.social-shares
 sozcu.com.tr##^div.social-pages
-sozcu.com.tr##^div.share-area
+sozcu.com.tr,tele1.com.tr##^div.share-area
 birgun.net##^div.social-share
 !#else
 teyit.org##div.share-bar
 ekonomim.com##div.social-shares
 sozcu.com.tr##div.social-pages
-sozcu.com.tr##div.share-area
+sozcu.com.tr,tele1.com.tr##div.share-area
 birgun.net##div.social-share
 !#endif
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]

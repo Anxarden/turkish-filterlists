@@ -231,7 +231,14 @@
 ||nr-data.net^
 ||rollbar.com^
 ||lngtd.com^
+||demand.supply^
+||usemessages.com^
+||hubspot.com^
 ||a-ads.com^
+||hs-analytics.net^
+||hsadspixel.net^
+||hs-banner.com^
+||hsforms.com^
 ||acscdn.com^
 ||addthis.com^
 ||adgrid.io^
