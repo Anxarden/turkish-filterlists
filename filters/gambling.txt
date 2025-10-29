@@ -5,8 +5,8 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/bet/
-/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet/
+/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
+/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -204,6 +204,7 @@
 ||zova.live^
 ||affdeo.com^
 ||meybet.com^
+||ligobet.com^
 ||ticaretbayi.com^
 ||daytrack.cc^
 ||ikimisli.com
@@ -978,11 +979,13 @@
 ||nakjdjsd.com^
 ||slotvvip.xyz^
 ||v2dj8wsg.com^
+||namplgfs.com^
 ||v5xwn7sg.com^
 ||vmk9pr2v.com^
 ||vrz7sw2d.com^
 ||vtr5py8m.com^
 ||vbv43hfh.com^
+||trofykopt.xyz^
 ||nasjsrgib.com^
 ||1x9gzyjmb.com^
 ||365lpodds.com^
