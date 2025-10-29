@@ -36,6 +36,7 @@
 ||goo.su^
 ||heylink.me^
 ||trendyol.global^
+||linkredirect-my.com^
 ||shortlink.life^
 ||shortdigest.click^
 ||loomclick.com^

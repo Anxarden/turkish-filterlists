@@ -5,7 +5,8 @@
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/\b\d+[a-z]*bet\d*\b/,/\b\d*[a-z]*bet\d+\b/,/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet/
+/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/bet/
+/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -202,6 +203,7 @@
 ||enerji.vip^
 ||zova.live^
 ||affdeo.com^
+||meybet.com^
 ||ticaretbayi.com^
 ||daytrack.cc^
 ||ikimisli.com
