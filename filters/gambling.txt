@@ -2,14 +2,10 @@
 # Description: Türk kullanıcıları hedef alan kumar ve bahis içerikli internet sitelerini engeller.
 
 #- Gambling Related Regex/Wildcards
-!/\b\d*[a-z]*bet\d*\b/$all,to=/bet/
-!/\b\d*bet(?!a(?:\d|\b)|ter[a-z]*\.)[^.]*\b/$all,to=/bet/
-!/bahis/$all,to=/(?:bahis)[^.]*\.[^.]+(?:\.[^.]+)?$/
-!/casino/$all,to=/(?:casino)[^.]*\.[^.]+(?:\.[^.]+)?$/
 *$all,to=/bahis/
 *$all,to=/casino/
 *$all,to=/kumar/
-/\b\d*(?:[a-z]*bet\d*|bet(?!(?:a|ter|ween)\d*[a-z]*\b)[^.]*)\b/$all,to=/bet/
+/\b\d+[a-z]*bet\d*\b/,/\b\d*[a-z]*bet\d+\b/,/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet/
 #- Gambling TLDs
 ||bet^
 ||bingo^

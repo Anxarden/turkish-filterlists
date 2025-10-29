@@ -432,6 +432,7 @@
 ||contributor.google.com^#third-party
 ||adservice.google.com.tr^
 ||id.google.com.tr^
+||mail-ads.google.com^
 ||imasdk.googleapis.com^
 ||firebase.googleapis.com^
 ||firebaseinstallations.googleapis.com^
