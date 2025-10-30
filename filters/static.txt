@@ -21,6 +21,8 @@
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-/	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^
+!-/ Possible Cryptocoin Scam
+||tronadspay.com^
 !-/	Domain Parking Monetization Platform
 ||parklogic.com^
 !-/	Dangerious Redirecting Links
@@ -235,7 +237,11 @@
 ||lngtd.com^
 ||demand.supply^
 ||usemessages.com^
+||pushengage.com^
+||suphelper.xyz^
+||tawk.to^
 ||hubspot.com^
+||cedexis.com^
 ||onpwyyssbl.com^
 ||a-ads.com^
 ||hs-analytics.net^
