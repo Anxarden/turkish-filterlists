@@ -178,7 +178,7 @@
 ||zdnet.com^
 ||zdnet.de^
 ||softmany.com^
-!-	Expired/Closed Domains of Old Websites
+!-	Expired/Parked Domains of Old Websites
 ||bitsexy.org^
 ||extratorrents.it^
 ||hambiltonian.com^
@@ -191,6 +191,7 @@
 ||turknova.net^
 ||turknova.org^
 ||uq.ci^
+||officertool.org^
 #- Dangerious Pirate Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 !-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
