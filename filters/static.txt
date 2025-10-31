@@ -240,7 +240,9 @@
 ||usemessages.com^
 ||pushengage.com^
 ||suphelper.xyz^
+||adexchangeclear.com^
 ||tawk.to^
+||usrpubtrk.com^
 ||hubspot.com^
 ||cedexis.com^
 ||onpwyyssbl.com^
