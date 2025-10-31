@@ -212,6 +212,7 @@ chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
 colordesigner.io##div.aa-container:has(div.alternative-ad)
 colordesigner.io##main>section[class$=-update-to-pro]
+usersdrive.com##div.download~div.content:has(div.pro)
 deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
 deepl.com##div.items-start:has(a[href="/pro"])
 hacksnation.com##div#adblock-overlay

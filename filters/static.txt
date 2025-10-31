@@ -233,6 +233,7 @@
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #- 3rd-Party Domain Blacklist @ World-Wide Websites ~ [Advert and Privacy]
 ||nr-data.net^
+||debugbear.com^
 ||rollbar.com^
 ||lngtd.com^
 ||demand.supply^
