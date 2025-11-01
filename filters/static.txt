@@ -237,6 +237,7 @@
 ||rollbar.com^
 ||lngtd.com^
 ||demand.supply^
+||aboveaveragefinallycast.com^
 ||usemessages.com^
 ||pushengage.com^
 ||suphelper.xyz^
