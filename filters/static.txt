@@ -236,6 +236,7 @@
 ||debugbear.com^
 ||rollbar.com^
 ||lngtd.com^
+||zipthelake.com^
 ||demand.supply^
 ||aboveaveragefinallycast.com^
 ||usemessages.com^

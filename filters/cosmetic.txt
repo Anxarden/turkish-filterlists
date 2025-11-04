@@ -6,8 +6,11 @@
 #----------------------------------------------------------------------------------------------------#
 !-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute>path")
 !#if cap_html_filtering
-dunya.com,ekonomim.com##^div.ad-tower-container
-dunya.com,ekonomim.com,gazeteoku.com,internethaber.com##^div.adpro
+birgun.net##^div.adsmasthead
+birgun.net##^div.sticky-ads
+birgun.net##^div[id^='divads-'i]
+dunya.com,ekonomim.com,gazeteoksijen.com##^div.ad-tower-container
+dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##^div.adpro
 ekonomim.com##^div.ad-pageskin-container
 gazetekeyfi.com##^div.ad-side
 gazetekeyfi.com##^ins.adm-ads-area
@@ -16,25 +19,22 @@ gazetekeyfi.com##^ins.adsbygoogle-lazyload
 gazeteoku.com##^div.ad-showcase
 gazeteoku.com,internethaber.com##^div.ad-left
 gazeteoku.com,internethaber.com##^div.ad-right
-birgun.net##^div[id^='divads-'i]
-birgun.net##^div.sticky-ads
-birgun.net##^div.adsmasthead
 tele1.com.tr##^div.widget-advert
 tele1.com.tr##^div[data-advert]
 !#else
+birgun.net##div.adsmasthead
+birgun.net##div.sticky-ads
+birgun.net##div[id^='divads-'i]
+dunya.com,ekonomim.com,gazeteoksijen.com##div.ad-tower-container
+dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##div.adpro
 ekonomim.com##div.ad-pageskin-container
-dunya.com,ekonomim.com##div.ad-tower-container
-dunya.com,ekonomim.com,internethaber.com##div.adpro
-internethaber.com##div.ad-left
-internethaber.com##div.ad-right
-gazeteoku.com##div.ad-showcase
 gazetekeyfi.com##div.ad-side
 gazetekeyfi.com##ins.adm-ads-area
 gazetekeyfi.com##ins.adsbygoogle
 gazetekeyfi.com##ins.adsbygoogle-lazyload
-birgun.net##div[id^='divads-'i]
-birgun.net##div.sticky-ads
-birgun.net##div.adsmasthead
+gazeteoku.com##div.ad-showcase
+gazeteoku.com,internethaber.com##div.ad-left
+gazeteoku.com,internethaber.com##div.ad-right
 tele1.com.tr##div.widget-advert
 tele1.com.tr##div[data-advert]
 !#endif
@@ -153,7 +153,7 @@ teyit.org##a.inpost-related
 ekonomim.com##div.newsletter-widget
 birgun.net##div#getpermission
 birgun.net##div#adblocker
-birgun.net##div[id~="appbanner"i]
+birgun.net##div[id~="appbanner"i
 
 !-/ Social Networks and Content Share Widgets														 ~
 !#if cap_html_filtering
@@ -279,6 +279,8 @@ takvim.com.tr##section.billboard-top+main{padding-top:100px;}
 !- paywall bypass
 cliffsnotes.com##div[class*="-backdrop-blur-"]
 cliffsnotes.com##div.page-component>style:first-child:remove()
+!- paywall bypass
+degoo.com##app-dialog:has(app-premium-dialog)
 
 #- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
 !- ad/information post, css fixes
