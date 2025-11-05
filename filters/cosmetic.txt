@@ -153,7 +153,7 @@ teyit.org##a.inpost-related
 ekonomim.com##div.newsletter-widget
 birgun.net##div#getpermission
 birgun.net##div#adblocker
-birgun.net##div[id~="appbanner"i
+birgun.net##div[id~="appbanner"i]
 
 !-/ Social Networks and Content Share Widgets														 ~
 !#if cap_html_filtering
