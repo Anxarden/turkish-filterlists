@@ -15,7 +15,7 @@
 /\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 /\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Regexes for Specific Gambling Sites
-/\b\d*slotin.com\b/$all,to=/slotin\.com$/
+/\b\d*slotin\b/$all,to=/slotin(?:\.[a-z])+$/
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all
 ||afun.$all
@@ -73,7 +73,7 @@
 ||otobet*.com^
 ||restbet*.com^
 ||retrobet*.com^
-||pinco*.win^$to=/pinco\d*\.win$/
+||pinco*.win^$to=/\bpinco\d*\.win$/
 ||sahabet*.com^
 ||sekabet*.com^
 ||showbet*.com^
