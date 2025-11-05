@@ -1,12 +1,6 @@
 # Title: 🎰 [Türkçe] Gambling
 # Description: Türk kullanıcıları hedef alan kumar ve bahis içerikli internet sitelerini engeller.
 
-#- Gambling Related Regex/Wildcards
-*$all,to=/bahis/
-*$all,to=/casino/
-*$all,to=/kumar/
-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
-/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Gambling TLDs
 ||bet^
 ||bingo^
@@ -14,6 +8,14 @@
 ||lotto^
 ||poker^
 ||slots^
+#- Regexes for Gambling Related Words
+*$all,to=/bahis/
+*$all,to=/casino/
+*$all,to=/kumar/
+/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
+/\b\d*bet(?!(?:a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
+#- Regexes for Specific Gambling Sites
+/\b\d*slotin.com\b/$all,to=/slotin\.com$/
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all
 ||afun.$all
@@ -84,16 +86,14 @@
 ||biabet*.com^$to=~alpha-digits
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
+||1xlite-68471.bar^
 ||306betine.com^
 ||7slots679.com^
 ||7slots766.com^
-||52slotin.com^
 ||bahsegel1264.com^
 ||casibom06267.com^
 ||casilot866.com^
-||214slotin.com^
 ||fraga426.com^
-||1xlite-68471.bar^
 ||jojobel1076.com^
 ||kingroyal677.com^
 ||stake1069.com^
@@ -114,6 +114,7 @@
 ||oley.com^
 #- Gambling Link Hubs ~ Portal Websites
 ||1xbet-sitesi.club^
+||bonusmaniac.com^
 ||abegiris.com.tr^
 ||jojo-orj-adresimiz.com^
 ||adnint.com^
@@ -128,6 +129,7 @@
 ||feedinco.com^
 ||thestableplaceslc.com^
 ||ikimisliyeniadres.com^
+||slotin.info^
 ||conkeycruisers.org^
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
@@ -176,9 +178,12 @@
 ||turkbilig.com^
 ||valchidol.bg^
 ||velobless.dk^
+||zegnabetgiris.org^
 #- SEO Injected Websites ~ Highly Suspicious
 ||atlantissu.com.tr^
 ||aukuma.com^
+||mishelhana.com^
+||dogsanotomotiv.com^
 ||autostartwo.com^
 ||biev.com.tr^
 ||circle.so^
@@ -209,8 +214,14 @@
 ||1win-turkey.org^
 ||1win.run^
 ||bundlecdn.com^
+||slotinapp.app^
+||anjouangaming.com^
+||zegnabet.com^
+||ebetlab.com^
+||insiyatif.top^
 ||portoaffiliate.com^
 ||routerpp.life^
+||zegnapartners.com^
 ||top-parser.com^
 ||strongbetter.shop^
 ||enerji.vip^
@@ -1020,6 +1031,7 @@
 ||vtr5py8m.com^
 ||vbv43hfh.com^
 ||frmdmn13.cfd^
+||h78h78125.com^
 ||trofykopt.xyz^
 ||nasjsrgib.com^
 ||1x9gzyjmb.com^
@@ -1034,6 +1046,8 @@
 ||u9vijx7mb.com^
 ||omcdnfebe.com^
 ||h78h78125.com^
+||qty4nabh4d.com^
+||knn121gfcv.com^
 ||qwewintar1.com^
 ||2zta6ev6iq.com^
 ||324q9a8z34.com^
@@ -1083,6 +1097,7 @@
 ||r5d63ktxatvkpcr1ambke39t57edd52e.xyz^
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||srenarj05s3nxp26xtx54me10isach2m.xyz^
+||jukdkdjruf33434hhdshh334opodjd4ssd.com^
 #- Social Media Pages & Link Shorteners
 ||instagram.com/*bahis$doc
 ||instagram.com/*casino$doc
@@ -1118,4 +1133,5 @@
 ||yeni-adres.s3.eu-central-1.amazonaws.com^
 ||bookmkrs.s3.amazonaws.com^
 ||s3.amazonaws.com/bookmkrs/*
+||digitaloceanspaces.com/ebetlab/*
 ! --------------------------------------------------------------------------- !
