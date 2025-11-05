@@ -1,1 +1,35 @@
+# Title: 🎰 [Türkçe] Adult
+# Description: Türk kullanıcıları hedef alan pornografi içerikli internet sitelerini engeller.
 
+#-/ Adult Websites
+||7dak.com^
+||ayazs.com^
+||badtv.net^
+||doeda.com^
+||domlepen.com^
+||evooli.com^
+||hdabla.net^
+||kasut.org^
+||kopeda.com^
+||onlyfans.com^
+||opwin.click^
+||pornhub.com^
+||pornhub.org^
+||pornoanne.com^
+||srbam.com^
+||upslut.com^
+||ophot.click^
+||porncado.com^
+||xhamster.com^
+||xhamster2.com^
+||faphouse.com^
+||xnxx.com^
+||porngecko.com^
+||minuporno.com^
+||siktirgo5.com^
+||pornoxana.com^
+||xvideos.com^
+||theporndude.com^
+
+#-/ SEO Injected Websites
+||ensysenergy.com^
