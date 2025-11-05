@@ -9,25 +9,25 @@
 !--------------------------------------------------!
 #- NETWORK FILTERS
 !--------------------------------------------------!
-!#include filters\static.txt
+!#include filters/static.txt
 
 !
 !--------------------------------------------------!
 #- COSMETIC FILTERS
 !--------------------------------------------------!
-!#include filters\cosmetic.txt
+!#include filters/cosmetic.txt
 
 !
 !--------------------------------------------------!
 #- GAMBLING FILTERS
 !--------------------------------------------------!
-#!#include filters\gambling.txt
+#!#include filters/gambling.txt
 
 !
 !--------------------------------------------------!
 #- ADULT FILTERS
 !--------------------------------------------------!
-#!#include filters\adult.txt
+#!#include filters/adult.txt
 
 !
 !--------------------------------------------------!
