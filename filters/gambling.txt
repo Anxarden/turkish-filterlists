@@ -120,6 +120,7 @@
 ||advprocure.com^
 ||forumkripto.com^
 ||pinco-kayit-tr.ink^
+||portobet.com^
 ||jojo-resmi-girisiniz.com^
 ||affiliateroulette.com^
 ||girbetturkey.com^
@@ -208,6 +209,7 @@
 ||1win-turkey.org^
 ||1win.run^
 ||bundlecdn.com^
+||portoaffiliate.com^
 ||routerpp.life^
 ||top-parser.com^
 ||strongbetter.shop^
@@ -861,6 +863,7 @@
 ||zerozero.com.tr^
 ||zlot.com^
 ||zolobet.com^
+||roketaf.com^
 ||zolobet.pro^
 ||zoombaplay.com^
 ||brgaffiliates.com^
@@ -871,14 +874,12 @@
 ||fairegir.com^
 ||zullagit.xyz^
 #- Randomised Domain Names ~ Semi-Meaningful Regex Candidates
+||1wcxic.com^
 ||1wnhqm.life^
 ||1woahn.com^
 ||1wxlfq.com^
-||1wcxic.com^
 ||aff888toertsa.com^
 ||affiliatepipo4.com^
-||reffpa.com^
-||mrtkng20xclusive.vip^
 ||anjcdn.org^
 ||arcee003.com^
 ||aviatoroynaa.com^
@@ -887,7 +888,6 @@
 ||betlnk.net^
 ||bis2020.com
 ||bossseoteoman.com^
-||suratgiris99.com^
 ||bpkaff.com^
 ||bprkaff.com^
 ||btmgiris4.com^
@@ -907,6 +907,7 @@
 ||guncell-girisyeri.com^
 ||hikkoshi0515.com^
 ||linkpointbc110183.com^
+||lionaff6.com^
 ||madridreal000.com^
 ||megabahs-giris.com^
 ||meritbossseonur.com^
@@ -915,17 +916,23 @@
 ||meritkngerism.com^
 ||meritkngsite.com^
 ||mrtgirisozkn2025.com^
+||mrtkng20xclusive.vip^
 ||netcachesb140258.net^
-||parbt.xyz^
-||edtbt.ink^
-||lionaff6.com^
 ||pes24.com^
 ||popnodegb70184.com^
 ||redirectss7affhub.com^
+||reffpa.com^
 ||relayhubho40146.com^
 ||relayhubho40281.net^
+||romaff1.com^
+||romaff2.com^
+||romaff3.com^
+||romaff4.com^
+||romaff5.com^
+||romaff6.com^
 ||satispanel1.com^
 ||slotapp7.com^
+||suratgiris99.com^
 ||tabloproject2.com^
 ||top100bonus.com^
 ||yeniadreskuty.com^
@@ -943,6 +950,8 @@
 ||phudub.is^
 ||ttagc.xyz^
 ||prmbw.com^
+||parbt.xyz^
+||edtbt.ink^
 ||x011bt.com^
 ||dbtcdn.com^
 ||bcapps.org^
@@ -965,6 +974,8 @@
 ||trk4ot.com^
 ||xyzrdr.xyz^
 ||nwacdn.com^
+||rrrmrd.com^
+||mddgrs.com^
 ||fstrdddr.cc^
 ||naoxzsw.com^
 ||3vpcq6t.com^
@@ -984,9 +995,6 @@
 ||qruvw.click^
 ||qv3nb6x.com^
 ||ririoek.com^
-||roketaf.com^
-||romaff1.com^
-||romaff2.com^
 ||rstuv.click^
 ||satisbw.com^
 ||tamgits.xyz^
@@ -1078,32 +1086,14 @@
 #- Social Media Pages & Link Shorteners
 ||instagram.com/*bahis$doc
 ||instagram.com/*casino$doc
-||instagram.com/btcsosyal^$doc
-||instagram.com/mersoresmi^$doc
-||instagram.com/onwin.com.tr^$doc
 ||pinterest.com/*bahis$doc
 ||pinterest.com/*casino$doc
-||pinterest.com/aresbet$doc
-||sites.google.com/view/bahis-oyna-simdi/$doc
 ||t.me/*bahis$doc
 ||t.me/*casino$doc
-||t.me/*meritbet$doc
-||t.me/acrobet$doc
-||t.me/betzula$doc
-||t.me/bonuskaplani^$doc
-||t.me/btcsosyal^$doc
-||t.me/denemebonusu$doc
-||t.me/nfsbonus^$doc
-||t.me/olaresmi^$doc
-||t.me/onwin$doc
-||tinyurl.com/casino$doc
+||tinyurl.com/*bahis$doc
+||tinyurl.com/*casino$doc
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
-||x.com/*meritbet$doc
-||x.com/bet365^$doc
-||x.com/btcsosyal^$doc
-||x.com/onwin$doc
-||x.com/primesosyal^$doc
 !- tumblr.com
 *-klab.tumblr.com^
 ||klab-*.tumblr.com^
