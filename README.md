@@ -20,7 +20,7 @@ Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam e
 - **İzleyici (Tracker) Engelleme:** Web sitelerindeki kullanıcı izleme sistemlerine karşı koruma sağlar.
 - **Rahatsız Edici Ögeleri Kaldırma:** Pop-up'lar, otomatik oynatılan videolar gibi dikkat dağıtıcı unsurları devre dışı bırakır.
 - **Kumar Siteleri Engelleme:** Yasadışı ve zararlı olma ihtimali bulunan kumar sitelerine erişimi engeller.
-- **Yasadışı Pornografi Engelleme:** Yasadışı içerik barındıran pornografik sitelere erişimi keserek kullanıcı güvenliğini artırır. (*Bu filtre henüz yapım aşamasındadır.*)
+- **Yasadışı Pornografi Engelleme:** Yasadışı içerik barındıran pornografik sitelere erişimi keserek aile dostu bir internet deneyimi sağlar.
 
 
 ## 🛠 Entegrasyon ve Kullanım
