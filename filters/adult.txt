@@ -67,10 +67,13 @@
 ||maheir.com^
 ||tiava.com^
 ||direktfilmizle.com^
+||youporn.com^
 
 #-/ Adult Hostings and CDNs
 ||ahvideoscdn.net^
 ||cdn3x.com
+||phncdn.com^
+||ypncdn.com^
 ||wefbwufwef.shop^
 ||wefuwebfcc.shop^
 ||ecbnuwebvw.shop^
