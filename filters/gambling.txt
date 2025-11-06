@@ -87,6 +87,7 @@
 #- Newly Found Networks ~ Regex Candidates
 ||147zlot.com^
 ||1xlite-68471.bar^
+||163zlot.com^
 ||306betine.com^
 ||7slots679.com^
 ||7slots766.com^
@@ -115,6 +116,7 @@
 #- Gambling Link Hubs ~ Portal Websites
 ||1xbet-sitesi.club^
 ||bonusmaniac.com^
+||grandbettingz.com^
 ||abegiris.com.tr^
 ||jojo-orj-adresimiz.com^
 ||adnint.com^
@@ -216,11 +218,13 @@
 ||bundlecdn.com^
 ||slotinapp.app^
 ||anjouangaming.com^
+||grandbetting.net^
 ||zegnabet.com^
 ||ebetlab.com^
 ||insiyatif.top^
 ||portoaffiliate.com^
 ||routerpp.life^
+||burosvancdn.xyz^
 ||zegnapartners.com^
 ||top-parser.com^
 ||strongbetter.shop^
@@ -896,6 +900,7 @@
 ||aviatoroynaa.com^
 ||azrdcdn200.com^
 ||bandnetbe80322.com^
+||buyukortak1.com^
 ||betlnk.net^
 ||bis2020.com
 ||bossseoteoman.com^
@@ -987,6 +992,7 @@
 ||nwacdn.com^
 ||rrrmrd.com^
 ||mddgrs.com^
+||r7gjy0.com^
 ||fstrdddr.cc^
 ||naoxzsw.com^
 ||3vpcq6t.com^

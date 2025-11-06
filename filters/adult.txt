@@ -1,35 +1,110 @@
 # Title: 🎰 [Türkçe] Adult
 # Description: Türk kullanıcıları hedef alan pornografi içerikli internet sitelerini engeller.
+#-/ TDLs
+||xxx^
+#-/ Adult Filters [Wildcard]
+*$all,to=pornoizle.*
 
-#-/ Adult Websites
+#-/ Adult Website Domains
 ||7dak.com^
 ||ayazs.com^
 ||badtv.net^
+||cicisex.net^
+||hdpornoizle.xxx^
+||dinotube.com^
 ||doeda.com^
 ||domlepen.com^
+||domlepenin.best^
+||erotikreklamevi.xyz^
 ||evooli.com^
+||faphouse.com^
+||filmcehennemi.info^
+||filmizlehub.space^
+||fluffcore.com^
+||fullpornoizle.com^
+||fuq.com^
+||fuqpremium.com^
+||halleporno.com^
 ||hdabla.net^
+||hdalemi.com^
 ||kasut.org^
 ||kopeda.com^
+||minuporno.com^
+||newonlineporn.com^
 ||onlyfans.com^
+||ophot.click^
 ||opwin.click^
+||porn300.com^
+||porncado.com^
+||porndroids.com^
+||porngecko.com^
 ||pornhub.com^
 ||pornhub.org^
+||pornixy.com^
 ||pornoanne.com^
+||pornoemporium.com^
+||pornografya.com^
+||pornoizle.video^
+||pornoseyret.net^
+||pornosuyu.com^
+||pornoteti.net^
+||pornoxana.com^
+||porzo.com^
+||sex4.tv^
+||sexann.shop^
+||siktirgo5.com^
+||doeda.video^
 ||srbam.com^
+||theporndude.com^
+||turkcedublajporno.com^
 ||upslut.com^
-||ophot.click^
-||porncado.com^
 ||xhamster.com^
 ||xhamster2.com^
-||faphouse.com^
 ||xnxx.com^
-||porngecko.com^
-||minuporno.com^
-||siktirgo5.com^
-||pornoxana.com^
 ||xvideos.com^
-||theporndude.com^
+||xxxtracking.com^
+||zrporno.com^
+||maheir.com^
+||tiava.com^
+||direktfilmizle.com^
+
+#-/ Adult Hostings and CDNs
+||ahvideoscdn.net^
+||cdn3x.com
+||wefbwufwef.shop^
+||wefuwebfcc.shop^
+||ecbnuwebvw.shop^
+||conduk.online^
+||imagescdn.top^
+||kokilatte.xyz^
+||mjedge.net^
+||ogunkek.shop^
+||orhancep.shop^
+||orisgunes.shop^
+||pornofb.com^
+||pornovideoplay.xyz^
+||rz7.shop^
+||ttcache.com^
+||videoizle.link^
+||videoscdn.online^
+||vidvod.xyz^
+||vileoma.site^
+||xvideos-cdn.com^
+||xxxvideoserver.com^
+||yassak.net^
+||prxy.uno^
+||xhamster.cyou^
+||videojs.online^
+||goldenmeadowsq.cfd^
+||emeraldpeakq.cfd^
+||coralvortexq.cfd^
+||bitlyurl.xyz^
+
+#-/ Redirect Websites
+||konyashoes.com^
+
+#-/ Escort Websites
+||konyamiz.com^
 
 #-/ SEO Injected Websites
 ||ensysenergy.com^
