@@ -62,6 +62,7 @@
 ||a-ads.com^
 ||aboveaveragefinallycast.com^
 ||geniuslinkcdn.com^
+||ebxcdn.com^
 ||piwik.pro^
 ||intergient.com^
 ||acscdn.com^

@@ -107,6 +107,8 @@ sozcu.com.tr##section.reklam
 turktorrent.us##div#advertisements
 dosyaload.com##div.alert
 smailpro.com##aside[class^="ads-"]
+filterblade.xyz##div[id~='footeradcontainer'i]
+filterblade.xyz##div[id~='leftsidecontainer'i]
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
