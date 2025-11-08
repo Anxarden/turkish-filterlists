@@ -63,6 +63,7 @@
 ||aboveaveragefinallycast.com^
 ||geniuslinkcdn.com^
 ||piwik.pro^
+||intergient.com^
 ||acscdn.com^
 ||addthis.com^
 ||adexchangeclear.com^
@@ -106,6 +107,7 @@
 ||atrodhki.com^
 ||attirecideryeah.com^
 ||ay.delivery^
+||playwire.com^$third-party,from=~with-pathlinks
 ||bablosoft.com^$third-party,from=~with-subdomains
 ||bbvms.com^$third-party,from=~with-subdomains
 ||betteradsystem.com^
