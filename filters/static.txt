@@ -61,6 +61,8 @@
 ||2cnt.net^
 ||a-ads.com^
 ||aboveaveragefinallycast.com^
+||geniuslinkcdn.com^
+||piwik.pro^
 ||acscdn.com^
 ||addthis.com^
 ||adexchangeclear.com^
