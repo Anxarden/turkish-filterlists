@@ -875,6 +875,7 @@
 ||zaferbet.com^
 ||zalnir.click^
 ||zederna.fr^
+||exontrack.com^
 ||zerozero.com.tr^
 ||zlot.com^
 ||zolobet.com^
@@ -885,6 +886,7 @@
 ||zotabet.com^
 ||bplayadres.com^
 ||zulagiris.click^
+||ybgir.com^
 ||zulasite.xyz^
 ||fairegir.com^
 ||zullagit.xyz^
@@ -924,7 +926,9 @@
 ||hikkoshi0515.com^
 ||linkpointbc110183.com^
 ||lionaff6.com^
+||affiliatepipo5.com^
 ||madridreal000.com^
+||sdayy.xyz^
 ||megabahs-giris.com^
 ||meritbossseonur.com^
 ||meriteglencebossseozkn.com^
