@@ -240,6 +240,7 @@ teyit.org##img.side-banner-img
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
+imgchest.com##a[href="/support"]:upward(main>div)
 
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]

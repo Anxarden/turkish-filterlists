@@ -59,6 +59,8 @@
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
 ||21wiz.com^
 ||2cnt.net^
+||jwpltx.com^
+||adroll.com^
 ||a-ads.com^
 ||aboveaveragefinallycast.com^
 ||geniuslinkcdn.com^
