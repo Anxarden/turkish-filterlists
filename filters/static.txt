@@ -594,6 +594,7 @@
 ||avvfqs.nubia.com.tr^
 ||tm.ogu.edu.tr^
 ||analytics.onedio.com^
+||analyticssec.overwolf.com^
 ||zcnknu.oxxo.com.tr^
 ||stats.pardus.org.tr^
 ||owvqbd.perfumepoint.com.tr^
