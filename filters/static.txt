@@ -456,6 +456,7 @@
 ||d2d6cf2do9znht.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
 ||d2ob6t3bgjo11t.cloudfront.net^
+||dn0qt3r0xannq.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d3c8j8snkzfr1n.cloudfront.net^
