@@ -147,6 +147,7 @@ sabah.com.tr##div.kvkk-info-box
 takvim.com.tr##div[class~="verialtbar"i]
 marketfiyati.org.tr##app-disclaimer
 ekonomim.com,internethaber.com##div.privacy-banner
+pttavm.com##div[class^='cookiebox_'i]
 
 !-/	Announcements, Notifications, Recommendations and Popups										 ~
 dogrulukpayi.com##div.seventh-year-section
