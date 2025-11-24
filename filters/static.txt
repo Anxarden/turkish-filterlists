@@ -25,6 +25,8 @@
 ||turkinform.com.tr^
 !-/ Possible Cryptocoin Scam
 ||tronadspay.com^
+||atechp.space^
+||atechspace.live^
 !-/	Domain Parking Monetization Platform
 ||parklogic.com^
 !-/	Dangerious Redirecting Links
