@@ -63,6 +63,7 @@
 ||2cnt.net^
 ||jwpltx.com^
 ||adroll.com^
+||jnbhi.com^
 ||a-ads.com^
 ||aboveaveragefinallycast.com^
 ||geniuslinkcdn.com^
@@ -820,7 +821,9 @@
 ||filmhane.online/activity/$xhr
 ||x.ag2m4.cfd/js/$script
 ||x.ag2m2.cfd/js/$script
-#- Wildcard Paths Filters
+||anizm.net/js/custom.js^$script
+||anizm.net/js/axium-*.js^$script
+#- Generic Paths Filters
 /advert/js/advert-public.js^$script,to=habervakti.com,first-party
 /common/js/adframe.js^$script,from=haber7.com
 /player/js/nuevo.min.js^$script
