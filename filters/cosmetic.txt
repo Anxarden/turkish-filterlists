@@ -243,6 +243,9 @@ yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
 imgchest.com##a[href="/support"]:upward(main>div)
 
+!-/ Empty Spaces
+mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
+
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
 ekonomim.com##footer
