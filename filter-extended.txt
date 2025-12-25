@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki tüm olumsuz unsurlardan geniş bir düzeyde tam korunma sağlar.
-! Last modified: 2025.12.24
+! Last modified: 2025.12.25
 ! Expires: 24 hours
 
 !--------------------------------------------------!
