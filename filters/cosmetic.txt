@@ -391,7 +391,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ||hlktrpl.cfd/player/assets/uploads/$image
 ||dizipal*.com/wp-content/uploads/*.gif$first-party,image
 !- first party gambling image ads @ diziyou
-||www.diziyou.to/wp-content/*.gif^$first-party,image
+||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
 !- self-hosted gambling image ads @ other movie/series websites
 ||royalfilmizle.com/wp-content/uploads/*gif^$image
 ||dizikral.club/cdn/*.gif^$image,xhr
