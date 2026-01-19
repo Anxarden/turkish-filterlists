@@ -87,6 +87,7 @@ hlktrpl.cfd##span[id="textreklamgoster"i]
 hurriyet.com.tr##section.adv
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##div.bookstore-information
+myanimelist.net##div.manga-store-information
 mynet.com##a.sponsored-image
 natgeotv.com##a#home-promo-banner
 ntv.com.tr##div.dygtag-masthead
