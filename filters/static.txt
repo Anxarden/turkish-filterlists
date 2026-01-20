@@ -829,4 +829,5 @@
 /player/js/nuevo.min.js^$script
 /themes/bepeak/assets/js/*$script
 /themes/bepeak/js/notif.js^$first-party,script,to=/\bdizipal\d{3}\.com$/
+/js/pageskin.js$script,first-party,to=/\bdizipal\d{4}\.com$/
 ! -------------------------------------------------------------------------------- !

@@ -127,6 +127,7 @@ useragents.me##li.nav-item:has(a[target])
 useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
 teamos.xyz##div.p-body-inner>center
 teamos.xyz##div.p-body-sidebar>a
+myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
