@@ -373,6 +373,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
 ##div[class~="ads-container"i]
+##.container-ads-adjustment:upward(div[class^=header])
 !- diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 !- internethaber.com, dunya.com, gazetehaber.com
