@@ -19,8 +19,8 @@ jobs:
         run: |
           mkdir -p filters
           curl -fSL -o filterlist.txt "${{ secrets.LINK_FILTERLIST }}"
-          curl -fSL -o filters/cosmetic.txt "${{ secrets.LINK_ADS }}"
-          curl -fSL -o filters/static.txt "${{ secrets.LINK_BADWARE }}"
+          curl -fSL -o filters/cosmetic.txt "${{ secrets.LINK_COSMETIC }}"
+          curl -fSL -o filters/static.txt "${{ secrets.LINK_STATIC }}"
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
           curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
 
