@@ -452,6 +452,7 @@
 ||adsp.ciner.com.tr^
 ||mo.ciner.com.tr^$~image
 ||nc.ciner.com.tr^
+||geoip.ciner.com.tr^
 ||static.cloudflareinsights.com^
 ||d13k7prax1yi04.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
