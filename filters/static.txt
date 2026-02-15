@@ -271,6 +271,7 @@
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
 ||netpub.media^
+||tapioni.com^
 ||networkad.net^
 ||newrelic.com^
 ||nipechala.com^
