@@ -128,6 +128,8 @@ useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
 teamos.xyz##div.p-body-inner>center
 teamos.xyz##div.p-body-sidebar>a
 myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
+haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
+haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]

@@ -141,7 +141,6 @@
 ||chartbeat.com^
 ||chatango.com^$third-party
 ||chatbro.com^
-||ciner.com.tr^$third-party,from=~with-subdomains
 ||clarity.ms^
 ||clearbitjs.com^
 ||clickadu.net^
@@ -451,7 +450,7 @@
 ||countly.cepteteb.com.tr^
 ||yikrmn.ciceksepeti.com^
 ||adsp.ciner.com.tr^
-||mo.ciner.com.tr^
+||mo.ciner.com.tr^$~image
 ||nc.ciner.com.tr^
 ||static.cloudflareinsights.com^
 ||d13k7prax1yi04.cloudfront.net^
