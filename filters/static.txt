@@ -59,6 +59,9 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||marshalcurve.com^
+||exoclick.com^
+||magsrv.com^
 ||21wiz.com^
 ||2cnt.net^
 ||jwpltx.com^

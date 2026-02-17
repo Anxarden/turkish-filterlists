@@ -21,7 +21,9 @@ gazeteoku.com,internethaber.com##^div.ad-left
 gazeteoku.com,internethaber.com##^div.ad-right
 tele1.com.tr##^div.widget-advert
 tele1.com.tr##^div[data-advert]
+emailme.at##^div.ad
 !#else
+emailme.at##div.ad
 birgun.net##div.adsmasthead
 birgun.net##div.sticky-ads
 birgun.net##div[id^='divads-'i]
