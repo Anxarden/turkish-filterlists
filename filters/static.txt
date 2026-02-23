@@ -387,6 +387,10 @@
 ||wawlabs.com^$third-party
 ||webpushr.com^
 ||webvisor.org^
+||toplist.cz^
+||xlivrdr.com^
+||doppiocdn.com^
+||cdn-fc.com^
 ||widgetlogic.org^
 ||wknd.ai^
 ||wugroansaghadry.com^
