@@ -370,7 +370,9 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 #----------------------------------------------------------------------------------------------------#
 !- rockmods.net, proinvitelinks.com
 ##div[id$="-ad-placeholder"i]
-!- dizipal\d{4}.com, netflixcenter.com, voditza.com 
+!- dizipal\d{4}.com, netflixcenter.com, voditza.com
+##a[rel~='sponsored'i]
+##div.ad-container
 ##a[class^="ads_"i]
 ##div[class$="-ad"i]
 ##img[class$="-ad"i]
