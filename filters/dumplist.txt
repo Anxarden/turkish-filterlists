@@ -143,7 +143,6 @@
 ||ssm.codes^
 ||superonclick.com^
 ||survicate.com^
-||tapioni.com^
 ||tidyfeyest.com^
 ||toplist.cz^
 ||trustarc.com^
