@@ -141,7 +141,6 @@
 ||speedcurve.com^
 ||sprig.com^
 ||ssm.codes^
-||stpd.cloud^
 ||superonclick.com^
 ||survicate.com^
 ||tapioni.com^
