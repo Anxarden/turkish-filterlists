@@ -66,6 +66,7 @@
 ||2cnt.net^
 ||jwpltx.com^
 ||adroll.com^
+||setupcmp.com^
 ||jnbhi.com^
 ||a-ads.com^
 ||aboveaveragefinallycast.com^
@@ -216,7 +217,6 @@
 ||googleadservices.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
-||googletagmanager.com^
 ||googletagservices.com^
 ||gravatar.com^$third-party,from=~with-subdomains
 ||groleegni.net^
@@ -243,7 +243,6 @@
 ||inmobi.com^$from=~with-subdomains
 ||instana.io^
 ||instant.page^$third-party
-||instrumenttactics.com^
 ||insurads.com^
 ||intercom.io^$third-party
 ||ipapi.co^
@@ -749,7 +748,6 @@
 ||analytics.files.fm^
 ||events.framer.com^
 ||tracking.g2crowd.com^
-||collector.github.com^
 ||new-sentry.gitlab.net^
 ||temp-akiva.glomil.com^
 ||wa.gmx.com^
