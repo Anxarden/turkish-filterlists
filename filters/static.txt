@@ -437,6 +437,10 @@
 ||fin-sh.com^
 ||firstpromoter.com^
 ||fodsoack.com^
+#- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
+||talk.hyvor.com^$third-party
+||contributor.google.com^#third-party
+||storage.ko-fi.com^$third-party
 #- Subdomains Blacklist @ Websites ~ [General Blocking]
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
@@ -559,7 +563,6 @@
 ||webstats.garantibbva.com.tr^
 ||nqtinp.germirli.com.tr^
 ||fundingchoicesmessages.google.com^
-||contributor.google.com^#third-party
 ||adservice.google.com.tr^
 ||id.google.com.tr^
 ||mail-ads.google.com^
@@ -797,7 +800,6 @@
 ||cmp.inmobi.com^
 ||g.jwpsrv.com^
 ||stats.kde.org^
-||storage.ko-fi.com^$third-party
 ||ingress.linktr.ee^
 ||cdn.livechatinc.com^
 ||genesis.malwarebytes.com^
