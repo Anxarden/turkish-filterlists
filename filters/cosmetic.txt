@@ -112,6 +112,7 @@ dosyaload.com##div.alert
 smailpro.com##aside[class^="ads-"]
 filterblade.xyz##div[id~='footeradcontainer'i]
 filterblade.xyz##div[id~='leftsidecontainer'i]
+cracksurl.com##div.widget_media_image
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -251,6 +252,7 @@ imgchest.com##a[href="/support"]:upward(main>div)
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
+trt1.com.tr##div.hidden
 
 !-/ Annoying Footers																				 ~
 deepl.com##nav[aria-label="footer"i]
