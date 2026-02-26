@@ -61,7 +61,6 @@
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
 ||marshalcurve.com^
 ||exoclick.com^
-||magsrv.com^
 ||21wiz.com^
 ||2cnt.net^
 ||jwpltx.com^
@@ -259,7 +258,6 @@
 ||lngtd.com^
 ||lups1.site^
 ||mafiadarnix.com^
-||magsrv.com^
 ||maxmind.com^
 ||medyanetads.com^
 ||membrana.media^
@@ -272,12 +270,11 @@
 ||netaddiction.tech^$third-party
 ||netmera-web.com^
 ||netpub.media^
-||tapioni.com^
 ||networkad.net^
 ||newrelic.com^
 ||nipechala.com^
+||lampshadescreen.com^
 ||nitropay.com^
-||nkdyzf.com^
 ||notix.io^
 ||nr-data.net^
 ||numarapaneli.com^
@@ -399,6 +396,11 @@
 ||zephr.com^$third-party
 ||zipthelake.com^
 ||zohopublic.com^
+||trafficjunky.com^
+||chartbeat.com^
+||ipinfo.be^
+||typekit.net^
+||etahub.com^
 #- Subdomains Blacklist @ Websites ~ [General Blocking]
 ||mt.9gag.com^
 ||privacy-api.9gag.com^
@@ -705,8 +707,8 @@
 ||pipedream.wistia.com^
 ||csp.withgoogle.com^
 ||pixel.wp.com^
-||stats.wp.com^
 ||blackbox.xhamster.com^
+||buzzer.xhamster.com^
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
 ||analytics.yahoo.com^
@@ -774,7 +776,6 @@
 ||dx.pyramidshowery.com^
 ||weblog.rclone.org^
 ||pl.receptupperch.com^
-||w3-reporting.reddit.com^
 ||cdn.seline.com^
 ||platform-api.sharethis.com^
 ||analytics.sonjj.com^
