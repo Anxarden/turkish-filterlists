@@ -550,6 +550,7 @@
 ||ipr.n11.com^
 ||tx.n11.com^
 ||sorrhs.nescafe.com.tr^
+||ichnaea-web.netflix.com^
 ||jptobh.network.com.tr^
 ||xsgxag.nkolaykredi.com.tr^
 ||qksbin.nocturne.com.tr^
