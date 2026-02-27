@@ -350,6 +350,8 @@
 ||hacklinkboss.com^$third-party
 ||yektanet.com^
 ||najva.com^
+||crme7srv.com^
+||bemyhole.cam^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
