@@ -100,7 +100,6 @@
 ||appzi.io^
 ||apt-outcome.com^
 ||armillaboxcars.com^
-||aso1.net^
 ||assemblyexchange.com^
 ||atrodhki.com^
 ||attirecideryeah.com^
@@ -209,7 +208,6 @@
 ||googleadservices.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
-||googletagservices.com^
 ||gravatar.com^$third-party,from=~with-subdomains
 ||groleegni.net^
 ||grow.me^$third-party,from=~with-subdomains
@@ -356,6 +354,7 @@
 ||tns-counter.ru^
 ||tolstoycomments.com^$third-party
 ||tolt.io^$third-party,from=~with-subdomains
+||uservoice.com^$third-party,from=~with-subdomains
 ||toplist.cz^
 ||trackjs.com^
 ||trafficbass.com^
@@ -437,6 +436,8 @@
 ||fin-sh.com^
 ||firstpromoter.com^
 ||fodsoack.com^
+||kaprila.com^
+||hacklinkboss.com^$third-party
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
