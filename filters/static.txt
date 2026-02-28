@@ -352,6 +352,7 @@
 ||najva.com^
 ||crme7srv.com^
 ||bemyhole.cam^
+||feddanseldom.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party

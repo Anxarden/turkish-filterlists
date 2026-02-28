@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve yetişkin içerikleri engellemeyi sağlar.
-! Last modified: 2026.02.27
+! Last modified: 2026.02.28
 ! Expires: 24 hours
 
 !--------------------------------------------------!
@@ -159,7 +159,7 @@
 ||wlvpn.com^
 ||xvpn.io^
 ||zenmate.com^
-!~ Shady Software Download Websites (Badware and Anti-Privacy)
+!- Shady Software Download Websites (Badware and Anti-Privacy)
 ||aptoide.com^
 ||bluesmods.com^
 ||cnet.com^
@@ -192,7 +192,12 @@
 ||turknova.org^
 ||uq.ci^
 ||officertool.org^
-#- Dangerious Pirate Websites or Clones
+||bookracy.org^
+||nunflix.org^
+||popcornmovies.to^
+||tempmail.run
+||freek.to
+#- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 !-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
 !-	fitgirl-repacks [~fitgirl-repacks.site]
@@ -204,7 +209,6 @@
 ||appvalley-apk.com^
 ||bluemediafiles.com^
 ||ccm.net^
-||cracked-games.org^
 ||crackingcity.com^
 ||crackingpatching.com^
 ||crackingpatching.org^
@@ -218,6 +222,7 @@
 ||game-repack.site^
 ||gamefabrique.com^
 ||gamefabrique.ru^
+||gamepciso.com^
 ||haxnode.net^
 ||i-loadzone.com^
 ||igg-games.cc^
@@ -234,12 +239,32 @@
 ||pcprogs.net^
 ||pcprogs.ru^
 ||portable4pc.com^
+||revanced.dev^
+||revanced.net^
+||revanced.to^
+||revancedapk.net^
+||revancedapk.org^
+||revancedapp.download^
+||revancedapp.io^
+||revancedapps.com^
+||revancedextended.com^
+||revancedextended.io^
 ||rsload.net^
 ||sadeemapk.com^
 ||sadeempc.com^
 ||steamunlocked.net^
+||sumorb.com^
 ||taiwebs.com^
 ||tutubox.io^
+||vanced.io^
+||vanced.to^
 ||vstorrent.org^
 ||wifi4games.com^
+||win7loader.com^
+||windows-7.net^
+||windows-activators.com^
+||windows64.net^
+||windowsbit.net^
 ||yasdl.com^
+||rvx.to^
+||rvxapp.com^
