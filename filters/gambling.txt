@@ -94,7 +94,7 @@
 ||millipiyangoonline.com^
 ||hipodrom.com^
 ||bitalih.com^
-||mackolik.com^
+!-||mackolik.com^
 ||misli.com^
 ||birebin.com^
 ||tuttur.com^
