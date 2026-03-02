@@ -59,7 +59,6 @@
 ||prodregistryv2.org^
 ||pubguru.net^
 ||pudaf.com^
-||push-sdk.com^
 ||px-cloud.net^
 ||pyramidshowery.com^
 ||quantserve.com^
