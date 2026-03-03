@@ -65,7 +65,6 @@
 ||adhood.com^
 ||adhouse.pro^
 ||adition.com^
-||adjust.com^
 ||admatic.com.tr^
 ||admost.com^
 ||adrecover.com^
@@ -362,6 +361,7 @@
 ||enuygun.tech^$from=~with-subdomains
 ||segment.com^
 ||fullstory.com^
+||supert.ag^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
