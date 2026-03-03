@@ -358,6 +358,10 @@
 ||cloudfilt.com^
 ||quantserve.com^
 ||gnomesyeuked.com^
+||onedollarstats.com^
+||enuygun.tech^$from=~with-subdomains
+||segment.com^
+||fullstory.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -466,6 +470,7 @@
 ||analitik.enerji.gov.tr^
 ||api-stg.ensonhaber.com^
 ||tracking.ensonhaber.com^
+||sentry-prod.enuygun.tech^
 ||securetags.esri.com.tr^
 ||securetags.esriturkey.com.tr^
 ||tracking.faulhaber.com^
