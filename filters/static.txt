@@ -355,6 +355,9 @@
 ||feddanseldom.com^
 ||missena.io^
 ||k-words.io^
+||cloudfilt.com^
+||quantserve.com^
+||gnomesyeuked.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party

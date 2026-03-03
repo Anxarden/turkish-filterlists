@@ -133,6 +133,7 @@ teamos.xyz##div.p-body-sidebar>a
 myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
 haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
 haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
+/\bdizipal\d{4}\.com$/##a.embed-text-banner[href=href^="https://t2m.io/"]
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
