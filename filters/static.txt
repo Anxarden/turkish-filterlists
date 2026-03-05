@@ -268,7 +268,7 @@
 ||paddle.com^$third-party
 ||pagesense.io^
 ||palaeicgriper.com^
-||parsely.com^
+||parsely.com^$important
 ||pdst.fm^
 ||pendo.io^$from=~with-subdomains
 ||perfops.net^$third-party
@@ -372,6 +372,8 @@
 ||loox.io^
 ||socialshopwave.com^
 ||growave.io^
+||apk-2.online^
+||searchiq.co^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -422,6 +424,7 @@
 ||text.benefitsatwork.com.tr^
 ||uamult.biboya.com.tr^
 ||analitik.bik.gov.tr^
+||data.bilibili.com^
 ||bat.bing.com^
 ||widget.bitay.com.tr^
 ||analytics.bkmobil.com.tr^
@@ -708,16 +711,11 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Subdomain Blacklist @ World-Wide Websites ~ [General]
-||sofire.bdstatic.com^
-||data.bilibili.com^
-||telemetry.canva.com^
 ||a.cdnpure.com^
-||download.cnet.com^
-||rum.cronitor.io^
 ||campaigns.cyberinsider.com^
-||dmxleo.dailymotion.com^
 ||gtm.deepl.com^
 ||s.deepl.com^
+
 ||downloads.digitaltrends.com^
 ||improving.duckduckgo.com^
 ||ph.ente.io^
@@ -768,11 +766,17 @@
 ||stats.videasy.net^
 ||downloads.zdnet.de^
 #- Specific Scripts/Queries/Fetchs/Blocks
+||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
+||x.ag2m2.cfd/js/$script
+||x.ag2m4.cfd/js/$script
+||anizm.net/js/custom.js^$script
+||anizm.net/js/axium-*.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||eksenload.site/detect.js^$script
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
+||filmhane.online/activity/$xhr
 ||getpczone.com/sw.js^$script
 ||haber7.net/makroo/hb-ads/$script
 ||haberler.com/firebase-messaging-sw.js^$script
@@ -781,6 +785,8 @@
 ||haberturk.com/adscbg/cbglout.js$script
 ||iamcdn.net/player/jwpsrv.js^$script
 ||iamcdn.net/player/sw.bundle.js^$script
+||iamcdn.net/player-v2/sw.bundle.js^$script
+||iamcdn.net/player-v2/core.bundle.js^$script
 ||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script
@@ -793,15 +799,11 @@
 ||setplay.cfd/player/assets/devtools-detector/$script
 ||sozcu.com.tr/firebase-messaging-$script
 ||sozcu.com.tr/lib/js/sozcu_taboola.js^$script
+||statics.sssrr.org/player/jwpsrv.js^$script
 ||i.tmgrup.com.tr/tmd-consent/$script
 ||i.tmgrup.com.tr/tmd/$script
 ||i.tmgrup.com.tr/tmdwebpush/$script
 ||zi-scripts.com/zi-tag.js^$script
-||filmhane.online/activity/$xhr
-||x.ag2m4.cfd/js/$script
-||x.ag2m2.cfd/js/$script
-||anizm.net/js/custom.js^$script
-||anizm.net/js/axium-*.js^$script
 #- Generic Paths Filters
 /advert/js/advert-public.js^$script,to=habervakti.com,first-party
 /common/js/adframe.js^$script,from=haber7.com
