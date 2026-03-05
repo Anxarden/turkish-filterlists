@@ -59,6 +59,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||adj.st^
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
 ||addthis.com^
@@ -374,6 +375,10 @@
 ||growave.io^
 ||apk-2.online^
 ||searchiq.co^
+||wdfl.co^
+||wisepops.net^
+||jscloud.net^
+||daznservices.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -472,6 +477,7 @@
 ||ad.donanimhaber.com^
 ||adserve.donanimhaber.com^
 ||matomo.drupart.com.tr^
+||improving.duckduckgo.com^
 ||clck.dzen.ru^
 ||ms.dzen.ru^
 ||eue.d-teknoloji.com.tr^
@@ -715,9 +721,8 @@
 ||campaigns.cyberinsider.com^
 ||gtm.deepl.com^
 ||s.deepl.com^
-
 ||downloads.digitaltrends.com^
-||improving.duckduckgo.com^
+
 ||ph.ente.io^
 ||analytics.files.fm^
 ||events.framer.com^
