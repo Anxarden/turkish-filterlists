@@ -367,6 +367,11 @@
 ||zohopublic.com^
 ||ziffstatic.com^
 ||clickiocmp.com^
+||ketchcdn.com^
+||sitewit.com^
+||loox.io^
+||socialshopwave.com^
+||growave.io^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
