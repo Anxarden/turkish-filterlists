@@ -1,0 +1,270 @@
+[uBlock Origin]
+! Title: 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi
+! Homepage: https://github.com/anxarden/turkish-filterlists/
+! Author: Anxarden
+! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve şans oyunlarından kaçınmayı sağlar.
+! Last modified: 2026.03.08
+! Expires: 24 hours
+
+!--------------------------------------------------!
+#- NETWORK FILTERS
+!--------------------------------------------------!
+!#include filters/static.txt
+
+!
+!--------------------------------------------------!
+#- COSMETIC FILTERS
+!--------------------------------------------------!
+!#include filters/cosmetic.txt
+
+!
+!--------------------------------------------------!
+#- GAMBLING FILTERS
+!--------------------------------------------------!
+!#include filters/gambling.txt
+
+!
+!--------------------------------------------------!
+#- ADULT FILTERS
+!--------------------------------------------------!
+#!#include filters/adult.txt
+
+!
+!--------------------------------------------------!
+#- OTHER FILTERS
+!--------------------------------------------------!
+!-	Elektronik Sigara (Yasadışı ve Dolandırıcılık İhtimali)
+||vozol*.$document,to=~vozol.com
+||buharkeyf*.org^
+||dumandegilbuhar*.com^
+||elektroniksigara*.com.tr^
+||elektroniksigara*.com^
+||esigara*.com.tr^
+||esigara*.com^
+||podmodturkey*.com^
+||podsigara*.com^
+||pufkolik*.com^
+||sonbuhar*.com^
+||blogvaper.com^
+||buharama.org^
+||canatura.com^
+||drelektroniksigara.com^
+||esfvape.us^
+||esigara.shop^
+||esigaraal.com.tr^
+||esigarakulubu.com^
+||esigarashops.com^
+||esigaratamam.com^
+||esmokertr.net^
+||inspire-vapestore.com^
+||iqos.gen.tr^
+||iqoskapinda.com^
+||pufftrend.net^
+||puffyparrot.com^
+||rainvape.com^
+||smokelektroniksigara.com^
+||smokeshop.world^
+||smoketechs.com^
+||smoketr.com^
+||smokpuf.com^
+||swissvape.shop^
+||thebigpuff.com^
+||umutcinarlari.com^
+||vangutech.com^
+||vapepro.eu^
+||vozolbars.com^
+||vozoldukkani.com^
+||trsmokturkey.com^
+!-	Shady Video Players/Hosts (Blocked via Other Sources)
+||hdvid.tv^
+||vidmoly.to^
+!-	Shady SEO and Affiliate Websites
+||top10vpn.com^
+||vpndetectives.com^
+||vpngids.nl^
+||vpnmentor.com^
+||wizcase.com^
+!-	Shady Software and Service Websites
+||astrill.com^
+||atlasvpn.com^
+||avast.com^
+||avg.com^
+||avira.com^
+||betternet.co^
+||bitcomet.com^
+||bitlord.com^
+||bittorrent.com^
+||blackvpn.org^
+||brightvpn.com^
+||ccleaner.com^
+||ccleanercloud.com^
+||cyberghostvpn.com^
+||dotvpn.com^
+||expressvpn.com^
+||frostwire.com^
+||gendigital.com^
+||goosevpn.com^
+||gshade.org^
+||hidemyass.com^
+||hola.org^
+||hotspotshield.com^
+||iobit.com^
+||ipvanish.com^
+||ivacy.com^
+||justvpn.net^
+||kape.com^
+||kaspersky-labs.com^
+||kaspersky.com^
+||lastpass.com^
+||limewire.com^
+||mcafee.com^
+||mediaget.com^
+||nordpass.com^
+||nordsecurity.com^
+||nordvpn.com^
+||norton.com^
+||nortonlifelock.com^
+||okvpn.net^
+||opera.com^
+||ovpn.com^
+||pango.co^
+||pcprotect.com^
+||privacymate.com^
+||privateinternetaccess.com^
+||proxpn.com^
+||purevpn.com^
+||safetydetectives.com^
+||seed4.me^
+||skyvpn.net^
+||strongvpn.com^
+||surfshark.com^
+||switchvpn.net^
+||tlauncher.org^
+||totalav.com^
+||touchvpn.net^
+||tunnelbear.com^
+||turbovpn.co^
+||turbovpn.com^
+||ufovpn.io^
+||ultravpn.com^
+||utorrent.com^
+||vpn360.com^
+||vpnhub.com^
+||vpnpro.com^
+||vpnproxymaster.com^
+||vpnranks.com^
+||vpnsecure.me^
+||vpnsuper.com^
+||webselenese.com^
+||wlvpn.com^
+||xvpn.io^
+||zenmate.com^
+!- Shady Software Download Websites (Badware and Anti-Privacy)
+||aptoide.com^
+||bluesmods.com^
+||cnet.com^
+||download.com^
+||download.it^
+||downloadly.ir^
+||downloadly.net^
+||downloadlyir.com^
+||downloadlynet.ir^
+||filecr.com^
+||filehorse.com^
+||indir.org^
+||softonic.com.tr^
+||softonic.com^
+||uptodown.com^
+||zdnet.com^
+||zdnet.de^
+||softmany.com^
+!-	Expired/Parked Domains of Old Websites
+||bitsexy.org^
+||extratorrents.it^
+||hambiltonian.com^
+||planetdp.org^
+||rarbg.to
+||samforum.org^
+||torrent-indir.net^
+||torrentgalaxy.to^
+||torrenthane.net^
+||turknova.net^
+||turknova.org^
+||uq.ci^
+||officertool.org^
+||bookracy.org^
+||nunflix.org^
+||popcornmovies.to^
+||tempmail.run
+||freek.to
+#- Dangerious Piracy Websites or Clones
+!-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
+!-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
+!-	fitgirl-repacks [~fitgirl-repacks.site]
+!-	thepiratebay [~thepiratebay.org]
+||allpcworld.com^
+||app-valley.vip^
+||appdoze.com^
+||appnee.com^
+||appvalley-apk.com^
+||bluemediafiles.com^
+||ccm.net^
+||crackingcity.com^
+||crackingpatching.com^
+||crackingpatching.org^
+||crackshash.org^
+||dekisoft.com^
+||ezcrack.info^
+||freesoft.space^
+||ftuapps.dev^
+||ftuapps.io^
+||ftuapps.me^
+||game-repack.site^
+||gamefabrique.com^
+||gamefabrique.ru^
+||gamepciso.com^
+||haxnode.net^
+||i-loadzone.com^
+||igg-games.cc^
+||igg-games.com^
+||intercambiosvirtuales.org^
+||karanpc.com^
+||mainrepo.org^
+||mrepo.org^
+||nyaa.eu^
+||oceanofapks.com^
+||oceanofgame.cc^
+||oceanofgames.com^
+||oceantogames.com^
+||pcprogs.net^
+||pcprogs.ru^
+||portable4pc.com^
+||revanced.dev^
+||revanced.net^
+||revanced.to^
+||revancedapk.net^
+||revancedapk.org^
+||revancedapp.download^
+||revancedapp.io^
+||revancedapps.com^
+||revancedextended.com^
+||revancedextended.io^
+||rsload.net^
+||sadeemapk.com^
+||sadeempc.com^
+||steamunlocked.net^
+||sumorb.com^
+||taiwebs.com^
+||tutubox.io^
+||vanced.io^
+||vanced.to^
+||vstorrent.org^
+||wifi4games.com^
+||win7loader.com^
+||windows-7.net^
+||windows-activators.com^
+||windows64.net^
+||windowsbit.net^
+||yasdl.com^
+||rvx.to^
+||rvxapp.com^

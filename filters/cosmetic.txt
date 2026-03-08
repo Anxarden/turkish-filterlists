@@ -1,0 +1,419 @@
+# Title: 🇹🇷 [Türkçe] Kozmetik Filtre Listesi - [Reklamlar ve Rahatsız Edici Ögeler]
+# Description: Türkçe içerikli ve/veya Türk kullanıcıların ziyaret ettiği internet sitelerindeki reklamlar ve rahatsız edici öğeleri engeller. 
+
+#----------------------------------------------------------------------------------------------------#
+#- ADs, Advert Related Content and Malware Security
+#----------------------------------------------------------------------------------------------------#
+!-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute>path")
+!#if cap_html_filtering
+birgun.net##^div.adsmasthead
+birgun.net##^div.sticky-ads
+birgun.net##^div[id^='divads-'i]
+dunya.com,ekonomim.com,gazeteoksijen.com##^div.ad-tower-container
+dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##^div.adpro
+ekonomim.com##^div.ad-pageskin-container
+gazetekeyfi.com##^div.ad-side
+gazetekeyfi.com##^ins.adm-ads-area
+gazetekeyfi.com##^ins.adsbygoogle
+gazetekeyfi.com##^ins.adsbygoogle-lazyload
+gazeteoku.com##^div.ad-showcase
+gazeteoku.com,internethaber.com##^div.ad-left
+gazeteoku.com,internethaber.com##^div.ad-right
+tele1.com.tr##^div.widget-advert
+tele1.com.tr##^div[data-advert]
+emailme.at##^div.ad
+!#else
+emailme.at##div.ad
+birgun.net##div.adsmasthead
+birgun.net##div.sticky-ads
+birgun.net##div[id^='divads-'i]
+dunya.com,ekonomim.com,gazeteoksijen.com##div.ad-tower-container
+dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##div.adpro
+ekonomim.com##div.ad-pageskin-container
+gazetekeyfi.com##div.ad-side
+gazetekeyfi.com##ins.adm-ads-area
+gazetekeyfi.com##ins.adsbygoogle
+gazetekeyfi.com##ins.adsbygoogle-lazyload
+gazeteoku.com##div.ad-showcase
+gazeteoku.com,internethaber.com##div.ad-left
+gazeteoku.com,internethaber.com##div.ad-right
+tele1.com.tr##div.widget-advert
+tele1.com.tr##div[data-advert]
+!#endif
+ahaber.com.tr##div.detail-google-news
+ahaber.com.tr##div.membrana-content
+ahaber.com.tr##div[class~="adcontrol"i]
+ahaber.com.tr##div[class~="adsecond"i]
+ahaber.com.tr##div[class~="ligatusadvert"i]
+ahaber.com.tr##figure.advert
+ahaber.com.tr,atv.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr##div[data-mbzone]
+ahaber.com.tr,atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="billboardframe"i]
+ahaber.com.tr,atv.com.tr,sabah.com.tr,yeniasir.com.tr##div.advert
+ahaber.com.tr,fotomac.com.tr##div.advers-box
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div.sub-board-frame
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="admodelsgravity"i]
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class~="bandreklam"i]
+ahaber.com.tr,fotomac.com.tr,takvim.com.tr,yeniasir.com.tr##div[data-wbzone]
+ahaber.com.tr,sabah.com.tr##span.detail-google-news
+ahaber.com.tr,sabah.com.tr,takvim.com.tr##div.ad-control-full
+ahaber.com.tr,sabah.com.tr,takvim.com.tr##div.malker
+ahaber.com.tr,takvim.com.tr##div.ad-control-left
+ahaber.com.tr,takvim.com.tr##div.announcement-widget
+animetr.co##div.ads
+atv.com.tr##div.tt-fiber-hiziyla
+atv.com.tr##div[class="adpop"i]
+atv.com.tr##div[class="maskpop"i]
+atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"i]
+blackview.hk##div.blog-ad-banner
+chess.com##a.diamond-top
+chess.com##div#main-banner
+documentaryarea.com,hlktrpl.cfd##div.jw-preview
+documentaryarea.com##img.watermark
+internethaber.com##div.desktop-ad
+faketempmail.com##a.banner-custom
+fotomac.com.tr##a[aria-label~="reklam"i]
+fotomac.com.tr##a[href^="http://pubads."]
+fotomac.com.tr##div.google-news-widget
+fotomac.com.tr,sabah.com.tr##div.currency-view
+haberler.com##div[class$="-reklam"i]
+haberler.com##div[class*="-reklam-"i]
+haberler.com##div[class^="ad-left-"]
+haberler.com##div[class^="ad-right-"]
+haberler.com##div[class^="reklam-"i]
+hlktrpl.cfd##div.jw-logo
+hlktrpl.cfd##div.jw-title
+hlktrpl.cfd##div[class="playertextreklam"i]
+hlktrpl.cfd,dosyaload.com##div.ad-placement
+hlktrpl.cfd##div[id~="adstop"i]
+hlktrpl.cfd##span[id="textreklamgoster"i]
+hurriyet.com.tr##section.adv
+milliyet.com.tr##div.article-ads-container
+myanimelist.net##div.bookstore-information
+myanimelist.net##div.manga-store-information
+mynet.com##a.sponsored-image
+natgeotv.com##a#home-promo-banner
+ntv.com.tr##div.dygtag-masthead
+ntv.com.tr##div.taboola-container
+ntv.com.tr##div[class*="-ads-item-"]
+reddit.com##advertise-button
+sabah.com.tr##div[ad]
+sozcu.com.tr##div[id="membranadesktop"i]
+sozcu.com.tr##div[id="membranamobile"i]
+takvim.com.tr##div.bg-advert-mobile
+yemek.com##div.masthead-container
+yeniakit.com.tr##div.masthead-top
+yeniasir.com.tr##div.detail-subscribe
+yenisafak.com##a.ramadan-sponsor
+sozcu.com.tr##div.ad
+sozcu.com.tr##div.reklam
+sozcu.com.tr##section.reklam
+turktorrent.us##div#advertisements
+dosyaload.com##div.alert
+smailpro.com##aside[class^="ads-"]
+filterblade.xyz##div[id~='footeradcontainer'i]
+filterblade.xyz##div[id~='leftsidecontainer'i]
+cracksurl.com##div.widget_media_image
+
+!-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
+anizm.net##a.center-block[target=_blank]
+ownedcore.com##div.body_wrap>div.shoutout
+ownedcore.com##div.body_wrap>div.so-wrapper
+rockmods.net##ins:matches-attr(/^data-sizes-/)
+rockmods.net##div.container:has(>ins)
+ahaber.com.tr##div.announcement-widget:upward(div.col)
+ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
+fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
+ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
+katfile.com##div#container:has(div.recommended)
+sozce.com##div#icerik>div:matches-attr(class=/^reklam\d{1,4}x\d{1,4}$/i)
+useragents.me##li.nav-item:has(a[target])
+useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
+teamos.xyz##div.p-body-inner>center
+teamos.xyz##div.p-body-sidebar>a
+myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
+haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
+haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
+/\bdizipal\d{4}\.com$/##a.embed-text-banner[href=href^="https://t2m.io/"]
+
+!-/	Fake Download Buttons
+filecrypt.cc##span>button[onmousedown]
+rockmods.net##div.container>center>a:only-child
+fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
+
+#----------------------------------------------------------------------------------------------------#
+#- Annoyances, CSS Fixes, Notification Popups, Promotions and Social Networks
+#----------------------------------------------------------------------------------------------------#
+!-/ CSS Fixes and Customisations																	 ~
+ezgif.com###main{margin-left:unset !important;}
+filmmakinesi.tv##body{padding-top:unset !important;}
+repack.me##main>div.container{margin-top:unset !important;}
+
+!-/	Cookie Banners and Privacy Disclaimers	 														 ~
+deepl.com##div[data-testid="dl-cookiebanner"i]
+techdergi.net##div#cookie-box
+sabah.com.tr##div.kvkk-info-box
+takvim.com.tr##div[class~="verialtbar"i]
+marketfiyati.org.tr##app-disclaimer
+ekonomim.com,internethaber.com##div.privacy-banner
+pttavm.com##div[class^='cookiebox_'i]
+
+!-/	Announcements, Notifications, Recommendations and Popups										 ~
+dogrulukpayi.com##div.seventh-year-section
+sabah.com.tr##div[class="notbar"i]
+teyit.org##a.inpost-related
+ekonomim.com##div.newsletter-widget
+birgun.net##div#getpermission
+birgun.net##div#adblocker
+birgun.net##div[id~="appbanner"i]
+
+!-/ Social Networks and Content Share Widgets														 ~
+!#if cap_html_filtering
+teyit.org##^div.share-bar
+ekonomim.com##^div.social-shares
+sozcu.com.tr##^div.social-pages
+sozcu.com.tr,tele1.com.tr##^div.share-area
+birgun.net##^div.social-share
+!#else
+teyit.org##div.share-bar
+ekonomim.com##div.social-shares
+sozcu.com.tr##div.social-pages
+sozcu.com.tr,tele1.com.tr##div.share-area
+birgun.net##div.social-share
+!#endif
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
+ahaber.com.tr,sabah.com.tr##div.share-div
+ahaber.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="mediashare"i]
+ahaber.com.tr##div[class~="sharebtn"i]
+ahaber.com.tr##div[class~="shareframecontainer"i]
+atv.com.tr##div.footer-social
+anizm.net##div[id="telegraminvitebox"i]
+atv.com.tr##div.detail-gallery-social
+fotomac.com.tr##ol[class~="mediashare"i]
+fotomac.com.tr##div[class~="appsocialmedia"i]
+fotomac.com.tr##li.social
+fotomac.com.tr##li.share
+fotomac.com.tr##div.top-area-buttons-social
+sabah.com.tr##div.share
+sabah.com.tr,yeniasir.com.tr##li[class~="mediashare"i]
+takvim.com.tr##div.detail-info-social
+yeniasir.com.tr##div.detail-social
+anizm.net##div[id^="discordinvitebox"i]
+dogrulukpayi.com##div.follow-banner
+dogrulukpayi.com##div.follow-social-section
+tureng.com##div[class$="-socialmedia"]
+documentaryarea.com##div.share:has(div[class$="-shar-buttons"])
+documentaryarea.com##div.general_social_icons
+documentaryarea.com##div.footer:has(>div.share)
+ovagames.com##div.sidebar-box:has-text(/^facebook\b/i)
+colordesigner.io##main>section[class$=-share]
+ahaber.com.tr,takvim.com.tr##div.application-widget
+atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div.social
+ekonomim.com##div.social-share-wrapper
+gazeteoku.com##div.footer-content
+
+!-/ Premium Subscriptions, Discounts and Promotions													 ~
+!#if cap_html_filtering
+deepl.com##^div[data-testid="translator"]>div:not([data-layout-id])
+!#else
+deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
+!#endif
+balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
+chatgpt.com##button[data-trailing-button]:upward(div.trailing)
+chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
+chess.com##div#trial-modal
+colordesigner.io##div.aa-container:has(div.alternative-ad)
+colordesigner.io##main>section[class$=-update-to-pro]
+usersdrive.com##div.download~div.content:has(div.pro)
+deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
+deepl.com##div.items-start:has(a[href="/pro"])
+hacksnation.com##div#adblock-overlay
+inbox.lt##div.modal-backdrop
+inbox.lt##div[id^=mailplus-promo_]
+justwatch.com##div.account-modal-content div.pro-web-button
+mediafire.com##button[aria-label^="upgrade"i]:upward(div)
+mediafire.com##div[aria-label="advertisement"i]
+mediafire.com##div[class="storageupsell-buttons"i]>:not(button)
+mediafire.com##div[dir]:has-text(/^upgrade$/i)
+mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
+mediafire.com##iframe[src$="/sidebar_promo.php"]
+mediafire.com##iframe[src$="/upgrade_button.php"]
+mega.nz##div.upgrade-to-pro-dialog
+pixlr.com##a.button[href^="/pricing/#"]:upward(div)
+pixlr.com##div#head-premium
+pixlr.com##div[id$=-discount-banner]
+pixlr.com##section.upsell
+teyit.org##a#side-banner
+teyit.org##a.purmerak
+teyit.org##div.purmerak-box
+teyit.org##img.side-banner-img
+torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
+yandex.com##a[aria-label="upgrade plan"i]:upward(div)
+pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
+imgchest.com##a[href="/support"]:upward(main>div)
+
+!-/ Empty Spaces
+mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
+trt1.com.tr##div.hidden
+
+!-/ Annoying Footers																				 ~
+deepl.com##nav[aria-label="footer"i]
+ekonomim.com##footer
+vsetop.org##div#footer
+
+#----------------------------------------------------------------------------------------------------#
+#- Website by Website ADs and Annoyances Section for Easy Maintainance
+#----------------------------------------------------------------------------------------------------#
+#- Hide Websites from Search Engines
+!- fandom wikis that are inactive, outdated or deprecated and have better alternatives
+duckduckgo.com##article:has([href*="//hollowknight.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//oxygennotincluded.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//pathofexile.fandom.com/"]):upward(li)
+duckduckgo.com##article:has([href*="//minecraft.fandom.com/"]):upward(li)
+www.google.*##span>a[href*="//hollowknight.fandom.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*="//oxygennotincluded.fandom.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*="//pathofexile.fandom.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*="//minecraft.fandom.com/"]:upward(div#rso>div)
+www.qwant.com##div[domain*="//hollowknight.fandom.com/"]:upward(div)
+www.qwant.com##div[domain*="//oxygennotincluded.fandom.com/"]:upward(div)
+www.qwant.com##div[domain*="//pathofexile.fandom.com/"]:upward(div)
+www.qwant.com##div[domain*="//minecraft.fandom.com/"]:upward(div)
+www.startpage.com##div.result:has(>a[href*="//hollowknight.fandom.com/"])
+www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
+www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
+www.startpage.com##div.result:has(>a[href*="//minecraft.fandom.com/"])
+!-/	spamdexing baitclick news/content
+duckduckgo.com##article:has([href*="//www.haberler.com/"]):upward(li)
+www.google.*##span>a[href*="//www.haberler.com/"]:upward(div#rso>div)
+www.qwant.com##div[domain*="//www.haberler.com/"]:upward(div)
+www.startpage.com##div.result:has(>a[href*="//www.haberler.com/"])
+
+#- Website Fixes
+!- disable adblock detection and hide loading status for player
+gledaitv.fan##+js(abort-on-property-read, fuckSuckers)
+gledaitv.fan##div#loading-spinner
+!- preload/loading effect annoyance
+thehouseofportable.com##div[id="preload"]
+!- remove empty space and fix top-padding @ takvim/yasam
+takvim.com.tr##section.billboard-top
+takvim.com.tr##section.billboard-top+main{padding-top:100px;}
+!- paywall bypass
+cliffsnotes.com##div[class*="-backdrop-blur-"]
+cliffsnotes.com##div.page-component>style:first-child:remove()
+!- paywall bypass
+degoo.com##app-dialog:has(app-premium-dialog)
+
+#- Wipe ADs and Visual Debloat [Websited Based for Easier Maintanance]
+!- ad/information post, css fixes
+lrepacks.net##[id="sidebar"]>[id^="categories-"]
+lrepacks.net##[id="sidebar"]>div:has(>[id^="google"])
+lrepacks.net##article:has(div.entry-media>a[href*="/informaciya/"]>img)
+lrepacks.net##div.columns:has(>ul)
+lrepacks.net##div.relative>h2.section-title
+!- ad-images and information/announcements related posts 
+repack.me##.panel-heading>.short-title:has([href^="https://repack.me/info/"]):upward(div.panel)
+repack.me##.my>.my>:is(div.short-title,br)
+!- clear vip promotions, testemonials, sharing etc... all over the website
+simkl.com##^div.simklbecomeprowrap
+simkl.com##^div.simklviptestemonials
+simkl.com##^div.simktvindex>div[class^=simktvindex]:first-child
+simkl.com##^div[class="simkltvfootersharing"i]
+simkl.com##^simkl-footer>:not(div.simkltvfooterend)
+simkl.com##div.simktvindex{padding-bottom:0px !important;}
+simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
+simkl.com##div[id~="simklheadermenuvip"i]
+!- clear vip and vip related stuff and debloat the view all over the website
+trakt.tv##^div#cc-main
+trakt.tv##^div.advanced-filters-upsell
+trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
+trakt.tv##^section#mir-wrapper
+trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
+trakt.tv##div.page-navigator:has([class="load-more"],[class="load-less"])
+trakt.tv##div.links-wrapper>div.spacer:empty
+trakt.tv##div.user-wrapper>a:has-text(/vip/i)
+trakt.tv##section.user-wrapper div.buttons
+trakt.tv##span#filter-show-advanced-filters
+!- clear ads and compact the view of the website by hiding vip and fake buttons.
+tuttop.com##^noindex>div[align="center"]:has(>a>img[src$="/mediaget.png"])
+tuttop.com##div.main-news-more>a
+tuttop.com##div.tags-block
+tuttop.com##noindex>div.telegram
+tuttop.com##noindex>p:has(>a[href^="/donat.html"])
+tuttop.com,vsetop.org##^div[data-dlebid][data-dlebclicks]
+vsetop.org##div#content>ul.naviga
+vsetop.org##div.body>p:has(>a[href^="/donat.html"])
+!- disable modal popup and fix scrolling
+dogrulukpayi.com##reach-portal{display:none !important;}
+dogrulukpayi.com##body{overflow:auto !important;}
+
+#----------------------------------------------------------------------------------------------------#
+#- Scriptlets
+#----------------------------------------------------------------------------------------------------#
+!- [aliases: aeld, addEventListener-defuser, prevent-addEventListener]
+!- +js(aeld, eventType, [searchString])
+faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
+asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
+ag2m2.cfd,ag2m4.cfd/##+js(addEventListener-defuser, click, shouldOpenPopup)
+!- [aliases: prevent-fetch, no-fetch-if]
+!- +js(no-fetch-if, URL/URL-Regex, [checkWiki])
+zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
+!-[aliases: aopr, abort-on-property-read]
+!- +js(abort-on-property-read, object.property)
+birgun.net##+js(abort-on-property-read, detectAdBlock)
+!- [aliases: set, set-constant]
+!- +js(set, object.property, value, [checkWiki])
+/\bdizipal\d{3}\.com$/##+js(set-constant, activeItem, 1)
+puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
+redecanais.gs##+js(set-constant, blockPage, noopFunc)
+!-/ Inline Script Preventing
+/\bdizipal\d{3}\.com$/##^script:has-text("'notif'")
+dosyaload.com##^script:has-text("'%cBEpeak'")
+
+#----------------------------------------------------------------------------------------------------#
+#- Generic Cosmetic and Network Path AD Filters 
+#----------------------------------------------------------------------------------------------------#
+!- rockmods.net, proinvitelinks.com
+##div[id$="-ad-placeholder"i]
+!- dizipal\d{4}.com, netflixcenter.com, voditza.com
+##a[rel~='sponsored'i]
+##div.ad-container
+##a[class^="ads_"i]
+##div[class$="-ad"i]
+##img[class$="-ad"i]
+##div[class$="-ad-container"i]
+##div[class*="-ads-"i]
+##div[class~="ads-container"i]
+##.container-ads-adjustment:upward(div[class^=header])
+!- diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
+##body>div.body-clickable
+!- internethaber.com, dunya.com, gazetehaber.com
+##div.adpro[data-page]
+
+#----------------------------------------------------------------------------------------------------#
+#- Network AD Filters /w Paths
+#----------------------------------------------------------------------------------------------------#
+#- Common AD Paths ~ [Images]
+/reklamlar/*$image
+/rklm/resim/*$image
+#- Specific AD Links ~ [Images]
+||chesscomfiles.com/uploads/ad_image/$image
+||playwire.com/*/powered-by-playwire-badges/$third-party,image
+||watch.turkeyplayer.com/poster/$image
+!- gambling image ads @ dizipal
+||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|nolovasaleer.com
+||hlktrpl.cfd/player/assets/uploads/$image
+||dizipal*.com/wp-content/uploads/*.gif$first-party,image
+!- first party gambling image ads @ diziyou
+||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
+!- self-hosted gambling image ads @ other movie/series websites
+||royalfilmizle.com/wp-content/uploads/*gif^$image
+||dizikral.club/cdn/*.gif^$image,xhr
+||dizikral.live/cdn/*.gif^$image,xhr
+||dizikral.plus/cdn/*.gif^$image,xhr
+||diziparis.plus/cdn/*.gif^$image,xhr
+||dizikralgiris.com/cdn/*.gif^$image,xhr
+!- first party patreon club images
+||md.teyit.org/*/side-banner-$first-party,image
+||teyit.org/*-purmerak-$first-party,image
+||teyit.org/*/purmerak-$first-party,image
+
+#----------------------------------------------------------------------------------------------------#
