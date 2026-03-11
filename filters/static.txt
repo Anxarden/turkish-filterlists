@@ -379,6 +379,7 @@
 ||wisepops.net^
 ||jscloud.net^
 ||daznservices.com^
+||cookiepro.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
