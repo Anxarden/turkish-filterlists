@@ -380,6 +380,8 @@
 ||jscloud.net^
 ||daznservices.com^
 ||cookiepro.com^
+||raygun.io^
+||vector.co^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -723,7 +725,6 @@
 ||gtm.deepl.com^
 ||s.deepl.com^
 ||downloads.digitaltrends.com^
-
 ||ph.ente.io^
 ||analytics.files.fm^
 ||events.framer.com^
