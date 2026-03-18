@@ -364,7 +364,6 @@
 ||ydsvirify.com^
 ||yektanet.com^
 ||zephr.com^$third-party
-||zipthelake.com^
 ||zohopublic.com^
 ||ziffstatic.com^
 ||clickiocmp.com^
@@ -382,6 +381,12 @@
 ||cookiepro.com^
 ||raygun.io^
 ||vector.co^
+||clickguard.com^
+||usefathom.com^
+||cometinclosesecretion.com^
+||ainsyndication.com^
+||tuckerclassesjackal.com^
+||simpleanalyticscdn.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -442,6 +447,7 @@
 ||sanalytics.cartoonito.com.tr^
 ||sanalytics.cartoonnetwork.com.tr^
 ||countly.cepteteb.com.tr^
+||analysis.chatglm.cn^
 ||adsp.ciner.com.tr^
 ||mo.ciner.com.tr^$~image
 ||nc.ciner.com.tr^
@@ -536,6 +542,7 @@
 ||entitlements.jwplayer.com^
 ||nxggwx.ideasoft.com.tr^
 ||ocdhbt.ihvan.com.tr^
+||geoloc.imfexim.com^
 ||sentry.ing.com.tr^
 ||pixels.ingbank.com.tr^
 ||ainu.intel.com.tr^
@@ -794,6 +801,7 @@
 ||iamcdn.net/player/sw.bundle.js^$script
 ||iamcdn.net/player-v2/sw.bundle.js^$script
 ||iamcdn.net/player-v2/core.bundle.js^$script
+||imfexim.jestbilisim.com.tr/tracker/$script
 ||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script

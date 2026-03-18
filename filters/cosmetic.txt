@@ -113,6 +113,7 @@ smailpro.com##aside[class^="ads-"]
 filterblade.xyz##div[id~='footeradcontainer'i]
 filterblade.xyz##div[id~='leftsidecontainer'i]
 cracksurl.com##div.widget_media_image
+/\bdizipal\d{4}\.com$/##a.embed-text-banner
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -133,7 +134,6 @@ teamos.xyz##div.p-body-sidebar>a
 myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
 haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
 haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
-/\bdizipal\d{4}\.com$/##a.embed-text-banner[href=href^="https://t2m.io/"]
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
@@ -147,6 +147,7 @@ fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seper
 ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
+filmmodu.ws,filmmodu.nl##nav.navbar{margin-top:unset !important;}
 
 !-/	Cookie Banners and Privacy Disclaimers	 														 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
@@ -364,6 +365,7 @@ birgun.net##+js(abort-on-property-read, detectAdBlock)
 /\bdizipal\d{3}\.com$/##+js(set-constant, activeItem, 1)
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 redecanais.gs##+js(set-constant, blockPage, noopFunc)
+hifily.lat##+js(set-constant, checkAdBlocker, falseFunc)
 !-/ Inline Script Preventing
 /\bdizipal\d{3}\.com$/##^script:has-text("'notif'")
 dosyaload.com##^script:has-text("'%cBEpeak'")
@@ -387,6 +389,8 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##body>div.body-clickable
 !- internethaber.com, dunya.com, gazetehaber.com
 ##div.adpro[data-page]
+!- generic anchor filters
+##a[href^="https://t2m.io/"]
 
 #----------------------------------------------------------------------------------------------------#
 #- Network AD Filters /w Paths
