@@ -387,6 +387,13 @@
 ||ainsyndication.com^
 ||tuckerclassesjackal.com^
 ||simpleanalyticscdn.com^
+||media-analytic.com^
+||tgtag.io^
+||smartlook.com^
+||nitroscripts.com^
+||getnitropack.com^$document
+||kameleoon.io^
+||intercom.io^$document
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -622,10 +629,6 @@
 ||trk.sana.com.tr^
 ||pqnzgu.sarfmarket.com.tr^
 ||smetrics.schindler.com.tr^
-||advast.sibnet.ru^
-||c.sibnet.ru^
-||cvt1.sibnet.ru^
-||vst.sibnet.ru^
 ||ehedwd.sikayetvar.com^
 ||srovwj.simfer.com.tr^
 ||metrics.similac.com.tr^

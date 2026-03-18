@@ -195,8 +195,9 @@
 ||bookracy.org^
 ||nunflix.org^
 ||popcornmovies.to^
-||tempmail.run
-||freek.to
+||tempmail.run^
+||freek.to^
+||zamunda.net^
 #- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 !-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
