@@ -123,7 +123,7 @@
 ||cleantalk.org^
 ||clearbitjs.com^
 ||cloudfilt.com^
-||cloudflareinsights.com^$from=~with-subdomains
+||cloudflareinsights.com^
 ||concert.io^
 ||conde.digital^
 ||condenastdigital.com^
@@ -459,7 +459,6 @@
 ||mo.ciner.com.tr^$~image
 ||nc.ciner.com.tr^
 ||geoip.ciner.com.tr^
-||static.cloudflareinsights.com^
 ||d13k7prax1yi04.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1ybdlg8aoufn.cloudfront.net^
@@ -822,6 +821,7 @@
 ||i.tmgrup.com.tr/tmd/$script
 ||i.tmgrup.com.tr/tmdwebpush/$script
 ||zi-scripts.com/zi-tag.js^$script
+||anizm.net/js/dnsjnajadnsjndjgfas.js^$script
 #- Generic Paths Filters
 /advert/js/advert-public.js^$script,to=habervakti.com,first-party
 /common/js/adframe.js^$script,from=haber7.com
