@@ -132,7 +132,7 @@
 ||continual.ly^
 ||cookie-script.com^
 ||cookiebot.com^
-||cookielaw.org^$from=~with-subdomains
+||cookielaw.org^
 ||crazyegg.com^$important
 ||creedimages.cfd^
 ||crisp.chat^$third-party
@@ -280,7 +280,7 @@
 ||piwik.pro^
 ||pixad.com.tr^
 ||plausible.io^
-||playwire.com^$third-party,from=~with-pathlinks
+||playwire.com^
 ||polyfill.io^
 ||portal101.cn^
 ||posthog.com^
@@ -475,7 +475,6 @@
 ||dcbbwymp1bhlf.cloudfront.net^
 ||dgaf2ncy4dtan.cloudfront.net^
 ||hxiabp.colins.com.tr^
-||cdn.cookielaw.org^$important
 ||static.criteo.net^
 ||reklamstore.cubecdn.net^
 ||vedznh.cumhuriyet.com.tr^
