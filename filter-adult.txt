@@ -2,7 +2,7 @@
 ! Title: 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve yetişkin içerikleri engellemeyi sağlar.
+! Description: Türkçe içerikli sitelerde temel koruma ve yetişkin içerikleri engelleme sağlar.
 ! Last modified: 2026.03.23
 ! Expires: 24 hours
 
