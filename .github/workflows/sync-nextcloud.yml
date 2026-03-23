@@ -33,46 +33,57 @@ jobs:
         run: |
           BASE="filterlist.txt"
           TODAY=$(date +'%Y.%m.%d')
-      
+
           # ---------------- Gambling ----------------
+          # Goal: Keep Static/Cosmetic/Gambling ON, Force Adult OFF
           cp "$BASE" "filter-gambling.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve şans oyunlarından kaçınmayı sağlar.|" \
+            -e "s|^! Description:.*|! Description: Türkçe içerikli sitelerde temel koruma ve şans oyunlarını engelleme sağlar.|" \
             -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#!#include filters/gambling.txt|!#include filters/gambling.txt|" \
-            -e "s|^!#include filters/adult.txt|#!#include filters/adult.txt|" \
+            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
+            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
+            -e "s|^#*!#include filters/gambling.txt|!#include filters/gambling.txt|" \
+            -e "s|^#*!#include filters/adult.txt|#!#include filters/adult.txt|" \
             "filter-gambling.txt"
-      
+
           # ---------------- Adult ----------------
+          # Goal: Keep Static/Cosmetic/Adult ON, Force Gambling OFF
           cp "$BASE" "filter-adult.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve yetişkin içerikleri engellemeyi sağlar.|" \
+            -e "s|^! Description:.*|! Description: Türkçe içerikli sitelerde temel koruma ve yetişkin içerikleri engelleme sağlar.|" \
             -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#!#include filters/adult.txt|!#include filters/adult.txt|" \
-            -e "s|^!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
+            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
+            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
+            -e "s|^#*!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
+            -e "s|^#*!#include filters/adult.txt|!#include filters/adult.txt|" \
             "filter-adult.txt"
-      
+
           # ---------------- Lite ----------------
+          # Goal: Keep Static ON, Force Cosmetic/Gambling/Adult OFF
           cp "$BASE" "filter-lite.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan basit düzeyde sakınmayı sağlar.|" \
+            -e "s|^! Description:.*|! Description: Türkçe içerikli sitelerde sadece en temel reklam engelleme kurallarını sağlar.|" \
             -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^!#include filters/cosmetic.txt|#!#include filters/cosmetic.txt|" \
-            -e "s|^!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
-            -e "s|^!#include filters/adult.txt|#!#include filters/adult.txt|" \
+            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
+            -e "s|^#*!#include filters/cosmetic.txt|#!#include filters/cosmetic.txt|" \
+            -e "s|^#*!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
+            -e "s|^#*!#include filters/adult.txt|#!#include filters/adult.txt|" \
             "filter-lite.txt"
-      
+
           # ---------------- Extended ----------------
+          # Goal: Force EVERYTHING ON
           cp "$BASE" "filter-extended.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki tüm olumsuz unsurlardan geniş bir düzeyde tam korunma sağlar.|" \
+            -e "s|^! Description:.*|! Description: Türkçe içerikli sitelerde tüm koruma katmanlarını etkinleştirir.|" \
             -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#!#include filters/gambling.txt|!#include filters/gambling.txt|" \
-            -e "s|^#!#include filters/adult.txt|!#include filters/adult.txt|" \
+            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
+            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
+            -e "s|^#*!#include filters/gambling.txt|!#include filters/gambling.txt|" \
+            -e "s|^#*!#include filters/adult.txt|!#include filters/adult.txt|" \
             "filter-extended.txt"
 
       - name: Commit and Push Changes
