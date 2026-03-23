@@ -2,7 +2,7 @@ name: Auto-Fetch and Update Filterlists
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Runs every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -34,8 +34,8 @@ jobs:
           BASE="filterlist.txt"
           TODAY=$(date +'%Y.%m.%d')
 
-          # ---------------- Gambling (Bahis) ----------------
-          # Durum: Static/Cosmetic/Gambling AKTİF, Adult PASİF
+          # ---------------- Gambling (Bahis/Kumar) ----------------
+          # Durum: (+) Static/Cosmetic/Gambling, (-) Adult
           cp "$BASE" "filter-gambling.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi|" \
@@ -47,8 +47,8 @@ jobs:
             -e "s|^#*!#include filters/adult.txt|#!#include filters/adult.txt|" \
             "filter-gambling.txt"
 
-          # ---------------- Adult (Yetişkin) ----------------
-          # Durum: Static/Cosmetic/Adult AKTİF, Gambling PASİF
+          # ---------------- Adult (Yetişkin İçerik) ----------------
+          # Durum: (+) Static/Cosmetic/Adult, (-) Gambling
           cp "$BASE" "filter-adult.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi|" \
@@ -60,8 +60,8 @@ jobs:
             -e "s|^#*!#include filters/adult.txt|!#include filters/adult.txt|" \
             "filter-adult.txt"
 
-          # ---------------- Lite (Sade) ----------------
-          # Durum: Static AKTİF, Cosmetic/Gambling/Adult PASİF
+          # ---------------- Lite (Sadeleştirilmiş) ----------------
+          # Durum: (+) Static, (-) Cosmetic/Gambling/Adult
           cp "$BASE" "filter-lite.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi|" \
@@ -74,7 +74,7 @@ jobs:
             "filter-lite.txt"
 
           # ---------------- Extended (Genişletilmiş) ----------------
-          # Durum: HEPSİ AKTİF
+          # Durum: (+) All Filters
           cp "$BASE" "filter-extended.txt"
           sed -i \
             -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi|" \
