@@ -395,6 +395,7 @@
 ||kameleoon.io^
 ||intercom.io^$document
 ||sap-traffic.com^
+||umami.is^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
