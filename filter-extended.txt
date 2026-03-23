@@ -2,7 +2,7 @@
 ! Title: 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
-! Description: Türkçe içerikli sitelerde tüm koruma katmanlarını etkinleştirir.
+! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki tüm olumsuz unsurlardan geniş bir düzeyde tam korunma sağlar.
 ! Last modified: 2026.03.23
 ! Expires: 24 hours
 
