@@ -396,6 +396,7 @@
 ||intercom.io^$document
 ||sap-traffic.com^
 ||umami.is^
+||ststandard.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -453,6 +454,7 @@
 ||ufsmcn.blackspade.com.tr^
 ||matomo.prc.boun.edu.tr^
 ||tracking.brady.com.tr^
+||traffic.cam4pays.com^
 ||sanalytics.cartoonito.com.tr^
 ||sanalytics.cartoonnetwork.com.tr^
 ||countly.cepteteb.com.tr^
