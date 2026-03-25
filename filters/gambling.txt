@@ -202,6 +202,11 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||ortakbayii.com^
+||aloyahemen.com^
+||bibubetortaklik.com^
+||affiliatesrestbet.com^
+||affiliatesbetpas.com^
 ||gamecheck.com^
 ||tainspfem.com^
 ||netbayim.com^
@@ -895,6 +900,7 @@
 ||zullagit.xyz^
 ||luxhizligiris.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||affpro1.com^
 ||147zlot.com^
 ||163zlot.com^
 ||1wcxic.com^
@@ -979,6 +985,7 @@
 ||hub88.io^
 ||fstgo.to^
 ||gpwa.org^
+||b8b.site^
 ||sdayy.xyz^
 ||cgcb.info^
 ||ncybs.com^
