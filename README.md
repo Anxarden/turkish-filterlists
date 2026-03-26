@@ -6,18 +6,18 @@ Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile
 
 | <ins>Filtre Adı</ins> | <ins>Açıklama</ins> | 
 |----------------------------------------------------|--------------------------|
-| 📋 [**Temel Filtreme Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-main) |<div align="center">✔️</div>|
+| 🧱 [**Temel Filtreme Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-main) |<div align="center">✔️</div>|
 | 🎰 [**Sanal Bahis ve Kumar Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-gambling.txt&title=turkish-filterlist-gambling) | Yasadışı sanal bahis ve kumar sitelerini engeller. <br> Şanş oyunlarına dair tüm içerik ve yönlendirmeleri gizler. |
 | 🔞 [**Yetişkin İçerik Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-adult.txt&title=turkish-filterlist-adult) |<div align="center">✔️</div>|
 
 <br>
 
-## 🧮 Önerilen Diğer Listeler
+## 📋 Önerilen Diğer Listeler
 Daha kapsamlı bir koruma için **EasyList** ve **EasyPrivacy** filtrelerinin de etkinleştirilmesi önerilir. **EasyList**, dünya genelindeki reklam ağlarını ve yaygın reklam formatlarını engellerken; **EasyPrivacy**, kullanıcı takibi yapan izleyici sistemlerini ve gizlilii tehdit eden scriptleri engeller. **Bu filtre listesi; [**EasyList**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easylist.txt&title=EasyList) ve [**EasyPrivacy**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy) ile birlikte kullanıldığında hem global reklamlar hem de takip sistemleri daha etkili şekilde engellenmiş olur.**
 
 <br>
 
-## 🔩 Önerilen Eklentiler
+## 🧩 Önerilen Eklentiler
 Aşağıdaki tarayıcı eklentileri birini kullanarak içerik filtrelemenizi yapabilirsiniz.
 - 🛡 [uBlock Origin](https://github.com/gorhill/uBlock)
 - 🛡 [AdGuard Browser Extension](https://adguard.com/tr/adguard-browser-extension/overview.html)
