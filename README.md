@@ -1,6 +1,6 @@
 # 🇹🇷 Türkçe Reklam ve İzleyici Engelleyici Filtre Listesi
 
-Bu filtre listesi, **uBlock Origin** (ve entegre çalıştığı diğer reklam engelleyici eklentiler, örneğin; **AdGuard**) için hazırlanmış özel bir listedir. Temel amacı, Türkçe web sitelerinde görülen reklamları, yasadışı veya zararlı olabilecek kumar sitelerini ve gizliliğinizi tehdit eden izleyici (tracker) sistemlerini engellemektir. Aynı zamanda pop-up, otomatik oynatılan videolar ve diğer rahatsız edici ögeleri de kaldırır.
+Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile kullanılmak için hazırlanmıştır. Temel amacı, Türkçe sitelerde karşılaşılan reklamları, gizliliğinizi tehdit eden izleyicileri, dolandırıcığa yönelik içerikleri, zararlı yazılım içeren uygulamaları ve diğer rahatsız edici ögeleri engellemektir.
 
 Daha kapsamlı bir koruma için **EasyList** ve **EasyPrivacy** filtrelerinin de etkinleştirilmesi önerilir. **EasyList**, dünya genelindeki reklam ağlarını ve yaygın reklam formatlarını engellerken; **EasyPrivacy**, kullanıcı takibi yapan izleyici sistemlerini ve gizlilii tehdit eden scriptleri engeller. **Bu filtre listesi; [**EasyList**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easylist.txt&title=EasyList) ve [**EasyPrivacy**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy) ile birlikte kullanıldığında hem global reklamlar hem de takip sistemleri daha etkili şekilde engellenmiş olur.**
 
