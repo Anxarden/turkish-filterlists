@@ -30,6 +30,7 @@ jobs:
           TODAY=$(date +'%Y.%m.%d')
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist.txt
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist-gambling.txt
+          sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist-adult.txt
           
       - name: Commit and Push Changes
         env:
