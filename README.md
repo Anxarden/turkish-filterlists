@@ -2,19 +2,13 @@
 
 Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile kullanılmak için hazırlanmıştır. Temel amacı, Türkçe sitelerde karşılaşılan reklamları, gizliliğinizi tehdit eden izleyicileri, dolandırıcığa yönelik içerikleri, zararlı yazılım içeren uygulamaları ve diğer rahatsız edici ögeleri engellemektir.
 
-<ins>*Aşağıdaki tablodan abone olmak istediğiniz filtrenin adına tıklayınız!*</ins>
-
-
+| <ins>*Abone olmak istediğiniz filtrenin adına tıklayınız!*</ins> |
+|:--------|
 | 🧱 [**Temel Filtreme Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-main) |
-|:--------|
 |• Zararlı, gereksiz ve güvenilir olmayan tüm alan adlarını doğrudan engeller.<br>• Reklam, takip sistemleri ve potansiyel tehdit oluşturan kaynaklara erişime izin verilmez. |
-
 | 🎰 [**Sanal Bahis ve Kumar Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-gambling.txt&title=turkish-filterlist-gambling) |
-|:--------|
 |• Yasadışı bahis ve kumar sitelerine erişim kesin olarak engellenir.<br>• Bu içeriklere ait hiçbir yönlendirme, reklam veya altyapı servisine tolerans gösterilmez. |
-
 | 🔞 [**Yetişkin İçerik Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-adult.txt&title=turkish-filterlist-adult) |
-|:--------|
 |• Pornografik ve yetişkin içerik barındıran tüm siteler engellenir.<br>• Bu tür içeriklere ulaşmayı sağlayan doğrudan ve dolaylı bağlantılar tamamen kapatılır. |
 
 ## 📋 Önerilen Diğer Listeler
