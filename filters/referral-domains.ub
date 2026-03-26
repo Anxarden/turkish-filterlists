@@ -1,2 +1,28 @@
 # Title: Referral Domains Filter
 # Description: Blocks redirecting links to malicious, advertising and privacy-invading sites.
+
+!-/ Redirecting Links
+||cutt.ly^
+||directedurls.com^
+||goo.su^
+||heylink.me^
+||kisa.link^
+||kisa.pro^
+||kisalt.gg^
+||kisalt.top^
+||kisalt.vip^
+||linkredirect-my.com^
+||loomclick.com^
+||manageurl.link^
+||myaffiliates.com^
+||onelink.to^
+||r2m.io^
+||shortdigest.click^
+||shortlink.life^
+||shortlinks.biz^
+||shortzak.online^
+||t2m.io^
+||trendyol.global^
+||trredirect.pro^
+||urlsshort.link^
+||zaplyurl.com^
