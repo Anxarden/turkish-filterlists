@@ -24,68 +24,12 @@ jobs:
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
           curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
 
-      - name: Update Last Modified Date in filterlist.txt
+      - name: Update Last Modified Date in Filterlist
         run: |
           TODAY=$(date +'%Y.%m.%d')
           sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist.txt
-
-      - name: Generate Specialized Filterlists
-        run: |
-          BASE="filterlist.txt"
-          TODAY=$(date +'%Y.%m.%d')
-
-          # ---------------- Gambling (Bahis/Kumar) ----------------
-          # Durum: (+) Static/Cosmetic/Gambling, (-) Adult
-          cp "$BASE" "filter-gambling.txt"
-          sed -i \
-            -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🎰 Bahis ve Kumar Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve şans oyunlarından kaçınmayı sağlar.|" \
-            -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
-            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
-            -e "s|^#*!#include filters/gambling.txt|!#include filters/gambling.txt|" \
-            -e "s|^#*!#include filters/adult.txt|#!#include filters/adult.txt|" \
-            "filter-gambling.txt"
-
-          # ---------------- Adult (Yetişkin İçerik) ----------------
-          # Durum: (+) Static/Cosmetic/Adult, (-) Gambling
-          cp "$BASE" "filter-adult.txt"
-          sed -i \
-            -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🔞 Yetişkin Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve yetişkin içerikleri engellemeyi sağlar.|" \
-            -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
-            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
-            -e "s|^#*!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
-            -e "s|^#*!#include filters/adult.txt|!#include filters/adult.txt|" \
-            "filter-adult.txt"
-
-          # ---------------- Lite (Sadeleştirilmiş) ----------------
-          # Durum: (+) Static, (-) Cosmetic/Gambling/Adult
-          cp "$BASE" "filter-lite.txt"
-          sed -i \
-            -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🧮 Sadeleştirilmiş Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan basit düzeyde sakınmayı sağlar.|" \
-            -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
-            -e "s|^#*!#include filters/cosmetic.txt|#!#include filters/cosmetic.txt|" \
-            -e "s|^#*!#include filters/gambling.txt|#!#include filters/gambling.txt|" \
-            -e "s|^#*!#include filters/adult.txt|#!#include filters/adult.txt|" \
-            "filter-lite.txt"
-
-          # ---------------- Extended (Genişletilmiş) ----------------
-          # Durum: (+) All Filters
-          cp "$BASE" "filter-extended.txt"
-          sed -i \
-            -e "s|^! Title:.*|! Title: 🇹🇷 [Türkçe] - 🛡️ Genişletilmiş Filtre Listesi|" \
-            -e "s|^! Description:.*|! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki tüm olumsuz unsurlardan geniş bir düzeyde tam korunma sağlar.|" \
-            -e "s|^! Last modified:.*|! Last modified: $TODAY|" \
-            -e "s|^#*!#include filters/static.txt|!#include filters/static.txt|" \
-            -e "s|^#*!#include filters/cosmetic.txt|!#include filters/cosmetic.txt|" \
-            -e "s|^#*!#include filters/gambling.txt|!#include filters/gambling.txt|" \
-            -e "s|^#*!#include filters/adult.txt|!#include filters/adult.txt|" \
-            "filter-extended.txt"
-
+          sed -i "s/^! Last modified:.*/! Last modified: $TODAY/" filterlist-gambling.txt
+          
       - name: Commit and Push Changes
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
