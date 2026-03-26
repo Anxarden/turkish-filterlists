@@ -374,6 +374,7 @@
 ||umami.is^
 ||ststandard.com^
 ||heapanalytics.com^
+||site-config.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -713,7 +714,6 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Subdomain Blacklist @ World-Wide Websites ~ [General]
-
 ||downloads.digitaltrends.com^
 ||ph.ente.io^
 ||analytics.files.fm^
