@@ -24,8 +24,9 @@ Aşağıdaki tarayıcı eklentileri birini kullanarak içerik filtrelemenizi yap
 
 <br>
 
-## 🛠 Katkıda Bulunma
+## ✉️ İletişim ve Katkıda Bulunma
 Bu filtre listeleri manuel güncellenmekte ve geliştirilmektedir. **Daha gelişmiş filtremele yapılabilmesini sağlamak ve filtre listesini genişletmek için maruz kaldığınız ögeleri ve diğer sorunları bildirebilirsiniz.**
+Her türlü geri bildirim ve önerileriniz için iletişime geçebilirsiniz.
 
 <br>
 
@@ -34,8 +35,8 @@ Bu proje, **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisansla
 
 <br>
 
-## 📧 İletişim
-Geri bildirim ve önerileriniz için lütfen GitHub üzerinden bizimle iletişime geçin. Soru, rapor veya katkılarınızı [Issues](https://github.com/Anxarden/turkish-filterlists/issues) bölümünde paylaşabilirsiniz.
+## 📧 
+Soru, rapor veya katkılarınızı [Issues](https://github.com/Anxarden/turkish-filterlists/issues) bölümünde paylaşabilirsiniz.
 
 <br>
 
