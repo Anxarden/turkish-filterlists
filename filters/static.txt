@@ -32,30 +32,6 @@
 !-/	Dangerious Redirecting Links
 /\bclbanners\d*\.com\b/$all,to=/clbanners/
 /\brefpa\d+\.[a-z]{2,}\b/$all,to=/refpa/
-||cutt.ly^
-||directedurls.com^
-||goo.su^
-||heylink.me^
-||kisa.link^
-||kisa.pro^
-||kisalt.gg^
-||kisalt.top^
-||kisalt.vip^
-||linkredirect-my.com^
-||loomclick.com^
-||manageurl.link^
-||myaffiliates.com^
-||onelink.to^
-||r2m.io^
-||shortdigest.click^
-||shortlink.life^
-||shortlinks.biz^
-||shortzak.online^
-||t2m.io^
-||trendyol.global^
-||trredirect.pro^
-||urlsshort.link^
-||zaplyurl.com^
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
@@ -458,6 +434,7 @@
 ||traffic.cam4pays.com^
 ||sanalytics.cartoonito.com.tr^
 ||sanalytics.cartoonnetwork.com.tr^
+||a.cdnpure.com^
 ||countly.cepteteb.com.tr^
 ||analysis.chatglm.cn^
 ||adsp.ciner.com.tr^
@@ -483,7 +460,10 @@
 ||static.criteo.net^
 ||reklamstore.cubecdn.net^
 ||vedznh.cumhuriyet.com.tr^
+||campaigns.cyberinsider.com^
 ||wbswtr.decathlon.com.tr^
+||gtm.deepl.com^
+||s.deepl.com^
 ||ctllup.deery.com.tr^
 ||woowjy.desa.com.tr^
 ||bvz5.destinia.com.tr^
@@ -733,10 +713,7 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Subdomain Blacklist @ World-Wide Websites ~ [General]
-||a.cdnpure.com^
-||campaigns.cyberinsider.com^
-||gtm.deepl.com^
-||s.deepl.com^
+
 ||downloads.digitaltrends.com^
 ||ph.ente.io^
 ||analytics.files.fm^
@@ -785,7 +762,7 @@
 ||widget.uservoice.com^
 ||stats.videasy.net^
 ||downloads.zdnet.de^
-#- Specific Scripts/Queries/Fetchs/Blocks
+#- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
 ||x.ag2m2.cfd/js/$script
@@ -835,4 +812,4 @@
 /js/pageskin.js^$script,first-party,from=/\bdizipal\d{4}\.com$/
 /js/pageskin.js^$script,first-party,header=x-powered-by:plesklin
 
-! -------------------------------------------------------------------------------- !
+!------------------------------------------------------------------------------------------------------------------------------------------------------!
