@@ -35,11 +35,6 @@ Bu proje, **Creative Commons Attribution 4.0 (CC BY 4.0)** lisansı ile lisansla
 
 <br>
 
-## 📧 
-Soru, rapor veya katkılarınızı [Issues](https://github.com/Anxarden/turkish-filterlists/issues) bölümünde paylaşabilirsiniz.
-
-<br>
-
 ---
 
 *Bu proje, kullanıcıların daha güvenli, temiz ve keyifli bir internet deneyimi yaşamaları amacıyla geliştirilmiştir. Düzenli güncellemeler ve topluluk katkıları ile filtre listemizi sürekli iyileştirmeye devam ediyoruz.*
