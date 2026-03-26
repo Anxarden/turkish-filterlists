@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: 🇹🇷 [Türkçe] - 🎰 Sanal Bahis ve Kumar Filtresi
+! Title: 🇹🇷 [TR] - 🎰 Sanal Bahis ve Kumar Filtresi
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı ve şans oyunlarından kaçınmayı sağlar.
