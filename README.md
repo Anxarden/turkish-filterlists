@@ -4,24 +4,18 @@ Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile
 
 <ins>*Aşağıdaki tablodan abone olmak istediğiniz filtrenin adına tıklayınız!*</ins>
 
-<table>
-  <tr>
-    <th style="text-align:center;">Filtre</th>
-    <th style="text-align:center;">Açıklama</th>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap;">🧱 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-main"><b>Temel Filtreme Listesi</b></a></td>
-    <td style="white-space: nowrap;">Zararlı, gereksiz ve güvenilir olmayan tüm alan adlarını doğrudan engeller. Reklam, takip sistemleri ve potansiyel tehdit oluşturan kaynaklara erişime izin verilmez.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap;">🎰 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-gambling.txt&title=turkish-filterlist-gambling"><b>Sanal Bahis ve Kumar Filtresi</b></a></td>
-    <td style="white-space: nowrap;">Yasadışı bahis ve kumar sitelerine erişim kesin olarak engellenir. Bu içeriklere ait hiçbir yönlendirme, reklam veya altyapı servisine tolerans gösterilmez.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap;">🔞 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-adult.txt&title=turkish-filterlist-adult"><b>Yetişkin İçerik Filtresi</b></a></td>
-    <td style="white-space: nowrap;">Pornografik ve yetişkin içerik barındıran tüm siteler engellenir. Bu tür içeriklere ulaşmayı sağlayan bağlantılar, servisler ve dolaylı erişim yolları tamamen kapatılır.</td>
-  </tr>
-</table>
+
+| 🧱 [**Temel Filtreme Listesi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist.txt&title=turkish-filterlist-main) |
+|:--------|
+|• Zararlı, gereksiz ve güvenilir olmayan tüm alan adlarını doğrudan engeller.<br>• Reklam, takip sistemleri ve potansiyel tehdit oluşturan kaynaklara erişime izin verilmez. |
+
+| 🎰 [**Sanal Bahis ve Kumar Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-gambling.txt&title=turkish-filterlist-gambling) |
+|:--------|
+|• Yasadışı bahis ve kumar sitelerine erişim kesin olarak engellenir.<br>• Bu içeriklere ait hiçbir yönlendirme, reklam veya altyapı servisine tolerans gösterilmez. |
+
+| 🔞 [**Yetişkin İçerik Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-adult.txt&title=turkish-filterlist-adult) |
+|:--------|
+|• Pornografik ve yetişkin içerik barındıran tüm siteler engellenir.<br>• Bu tür içeriklere ulaşmayı sağlayan doğrudan ve dolaylı bağlantılar tamamen kapatılır. |
 
 ## 📋 Önerilen Diğer Listeler
 Daha kapsamlı bir koruma için **EasyList** ve **EasyPrivacy** filtrelerinin de etkinleştirilmesi önerilir. **EasyList**, dünya genelindeki reklam ağlarını ve yaygın reklam formatlarını engellerken; **EasyPrivacy**, kullanıcı takibi yapan izleyici sistemlerini ve gizlilii tehdit eden scriptleri engeller. **Bu filtre listesi; [**EasyList**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easylist.txt&title=EasyList) ve [**EasyPrivacy**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy) ile birlikte kullanıldığında hem global reklamlar hem de takip sistemleri daha etkili şekilde engellenmiş olur.**
