@@ -740,7 +740,6 @@
 ||cmp.osano.com^
 ||cdn.pdst.fm^
 ||cdn.pendo.io^
-||ct.pinterest.com^
 ||dx.pyramidshowery.com^
 ||weblog.rclone.org^
 ||pl.receptupperch.com^
