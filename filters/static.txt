@@ -379,6 +379,8 @@
 ||dutils.com^
 ||app-measurement.com^
 ||crashlytics.com^
+||shalltry.com^
+||branch.io^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
