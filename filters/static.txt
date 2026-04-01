@@ -375,6 +375,10 @@
 ||ststandard.com^
 ||heapanalytics.com^
 ||site-config.com^
+||mob.com^
+||dutils.com^
+||app-measurement.com^
+||crashlytics.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -493,6 +497,7 @@
 ||securetags.esri.com.tr^
 ||securetags.esriturkey.com.tr^
 ||tracking.faulhaber.com^
+||xz.fbcdn.net^
 ||adfp.fcloud.com.tr^
 ||countly.fibabanka.com.tr^
 ||hiuplq.flashscore.com.tr^
