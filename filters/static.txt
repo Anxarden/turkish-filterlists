@@ -381,6 +381,10 @@
 ||crashlytics.com^
 ||shalltry.com^
 ||branch.io^
+||appsflyersdk.com^
+||twibida.com^
+||dc-telemetry.net^
+||ai.net^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
