@@ -13,6 +13,8 @@
 ||cdn-apple.com^$from=~apple.com|~icloud.com
 !-/ [reddit]
 ||redditstatic.com^$script,from=~reddit.com
+!-/ [vk]
+||vk.com^$third-party,from=~vk.ru|~vk.me|~vkvideo.ru
 !-/ [yandex]
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
