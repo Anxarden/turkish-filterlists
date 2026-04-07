@@ -1,5 +1,5 @@
 # Title: Referral Domains Filter
-# Description: Blocks redirecting links to malicious, advertising and privacy-invading sites.
+# Description: Blocks redirecting links; Malicious, advertising and privacy-invading sites.
 
 !-/ Redirecting Links
 ||cutt.ly^
