@@ -24,6 +24,7 @@ jobs:
           curl -fSL -o filters/gambling.txt "${{ secrets.LINK_GAMBLING }}"
           curl -fSL -o filters/adult.txt "${{ secrets.LINK_ADULT }}"
           curl -fSL -o filters/referral-domains.ub "${{ secrets.LINK_REFERRAL_DOMAINS }}"
+          curl -fSL -o filters/referral-gambling.ub "${{ secrets.LINK_REFERRAL_GAMBLING }}"
 
       - name: Update Last Modified Date in Filterlist
         run: |
