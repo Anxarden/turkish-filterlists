@@ -390,6 +390,8 @@
 ||jivosite.com^
 ||jscrambler.com^
 ||strpst.com^
+||ageverif.com^
+||rwqgiurep.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
@@ -727,6 +729,7 @@
 ||tnt.yemeksepeti.com^
 ||ads.yenimedya.com.tr^
 ||reklam.yonlendir.com^
+||stats.zincdrive.com^
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Subdomain Blacklist @ World-Wide Websites ~ [General]
