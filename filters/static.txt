@@ -394,6 +394,7 @@
 ||rwqgiurep.com^
 ||xrtdw.net^
 ||xrtdw.net^$popup
+||toudum.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
