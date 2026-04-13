@@ -392,6 +392,8 @@
 ||strpst.com^
 ||ageverif.com^
 ||rwqgiurep.com^
+||xrtdw.net^
+||xrtdw.net^$popup
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^#third-party
