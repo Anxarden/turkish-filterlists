@@ -392,8 +392,7 @@
 ||strpst.com^
 ||ageverif.com^
 ||rwqgiurep.com^
-||xrtdw.net^
-||xrtdw.net^$popup
+||xrtdw.net^$all
 ||toudum.com^
 ||trustarc.com^
 ||oracleinfinity.io^
