@@ -15,7 +15,8 @@
 /\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 /\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Regexes for Specific Gambling Sites
-/\b\d*slotin\b/$all,to=/slotin(?:\.[a-z])+$/
+/\b\d*slotin\d*\b/$all,to=/slotin/
+/\b\d*betine\d*\b/$all,to=/betine/
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all
 ||afun.$all
@@ -56,35 +57,36 @@
 ||betmatik*.com^
 ||betpublic*.com^
 ||betzula*.com
+||biabet*.com^$to=~alpha-digits
 ||celtabet*.com^
 ||darkbet*.com^
 ||dinamobet*.com^
 ||dumanbet*.com^
 ||esbet*.com^
 ||fixbet*.com^
-||topaz*.az^
 ||gamdom*.com^
 ||hititbet*.com^
+||kingroyal*.com^$domain=/\bkingroyal\d*\.com$/
 ||lotobet*.com^
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
+||masterbetting*.com^
 ||onwin*.com^
 ||oslobet*.com^
 ||otobet*.com^
+||pinco*.win^$domain=/\bpinco\d*\.win$/
 ||restbet*.com^
 ||retrobet*.com^
-||pinco*.win^$domain=/\bpinco\d*\.win$/
 ||sahabet*.com^
-||kingroyal*.com^$domain=/\bkingroyal\d*\.com$/
 ||sekabet*.com^
 ||showbet*.com^
 ||supertotobet*.com^
 ||tarafbet*.com^
+||topaz*.az^
 ||trbet*.com^
 ||yakabet*.com^
-||zirvebet*.com^
 ||zbahis*.com^$to=~alpha-digits
-||biabet*.com^$to=~alpha-digits
+||zirvebet*.com^
 #- Turkish Official Gambling Websites
 ||ekuri.com^
 ||tjk.org^
@@ -118,7 +120,6 @@
 ||feedinco.com^
 ||thestableplaceslc.com^
 ||ikimisliyeniadres.com^
-||slotin.info^
 ||conkeycruisers.org^
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
@@ -202,6 +203,7 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||anjseal.org^
 ||ortakbayii.com^
 ||aloyahemen.com^
 ||bibubetortaklik.com^
@@ -209,7 +211,6 @@
 ||affiliatesbetpas.com^
 ||gamecheck.com^
 ||tainspfem.com^
-||netbayim.com^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^
@@ -906,7 +907,6 @@
 ||1woahn.com^
 ||1wxlfq.com^
 ||1xlite-68471.bar^
-||306betine.com^
 ||7slots679.com^
 ||7slots766.com^
 ||816xslot.com^
@@ -1166,4 +1166,6 @@
 ||s3.amazonaws.com/bookmkrs/*
 ||digitaloceanspaces.com/ebetlab/*
 ||res.akamai-cloud.com/kingroyal/*
+#- Specific Scripts
+||service.zeyqr26pwk.com/livechat.ashx^
 ! --------------------------------------------------------------------------- !
