@@ -12,8 +12,6 @@
 *$all,~popup,to=/bahis/
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
-/\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Regexes for Specific Gambling Sites
 *$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*betine\b/
@@ -56,22 +54,31 @@
 ||betist*.com^
 ||betkom*.com^
 ||betmatik*.com^
+||epikbahis*.com^
+||betpipo*.com^
 ||betpublic*.com^
 ||betzula*.com
 ||biabet*.com^$from=~alpha-digits
 ||celtabet*.com^
 ||darkbet*.com^
+||ligobet*.com^
 ||dinamobet*.com^
 ||dumanbet*.com^
 ||esbet*.com^
 ||fixbet*.com^
+||galabet*.com^
 ||gamdom*.com^
+||ganobet*.com^
+||hiltonbet*.com^
 ||hititbet*.com^
-||kingroyal*.com^$domain=/\bkingroyal\d*\.com$/
+||kingroyal*.com^$to=/\bkingroyal\d*\.com$/
+||locabet*.com^
 ||lotobet*.com^
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
 ||masterbetting*.com^
+||millibahis*.com^
+||nilobet*.com^
 ||onwin*.com^
 ||oslobet*.com^
 ||otobet*.com^
@@ -129,7 +136,6 @@
 ||betmarino-girisyap.com^
 ||betokazan.com^
 ||betpas.com^
-||galabet.com^
 ||hitbet.com^
 ||betreward.com^
 ||bitcoinist.com^
@@ -280,7 +286,6 @@
 ||basaribet.gen.tr^
 ||bayspin.com.tr^
 ||benjabet.gen.tr^
-||ber.ink^
 ||berlinaff.com^
 ||bestbetguide.com^
 ||bet.com^
@@ -480,7 +485,6 @@
 ||garaffiliate.com^
 ||gates-of-olympus-sites.pro^
 ||gatewin.pro^
-||gbaffpartners.com^
 ||gdetraffic.pro^
 ||gelsincicek.com^
 ||genesysaffiliates.com^
@@ -564,7 +568,6 @@
 ||levabet.live^
 ||libreahorro.com.co^
 ||licensetovape.com^
-||ligobet.com^
 ||limanbetpartners.com^
 ||limraffiliate.com^
 ||linkredirect-bf.com^
@@ -713,7 +716,6 @@
 ||ruyabet.run^
 ||safirbet.com^
 ||sahaweb.com^
-||sanalticaretbayii.com^
 ||sanalticaretim.com^
 ||santosortak.vip^
 ||sareentax.com^
@@ -851,6 +853,7 @@
 ||westbrew.com^
 ||whitehatgaming.com^
 ||wildcatevents.com^
+||owcontent.com^
 ||winwinbet.xyz^
 ||wisegaming.com^
 ||wrestling-edge.com^
@@ -880,7 +883,6 @@
 ||zoombaplay.com^
 ||zotabet.com^
 ||zova.live^
-||zulaci.com^
 ||zulagiris.click^
 ||zulasite.xyz^
 ||zullagit.xyz^
@@ -1040,7 +1042,6 @@
 ||kbgepymb.com^
 ||lxzsdfgw.xyz^
 ||nakjdjsd.com^
-||namplgfs.com^
 ||slotvvip.xyz^
 ||v2dj8wsg.com^
 ||v5xwn7sg.com^
@@ -1132,15 +1133,15 @@
 ||redirect-*.pages.dev^
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
+||agc-casino.s3.*.amazonaws.com^
 ||agc-casino.s3.amazonaws.com^
-||agc-casino.s3.eu-central-1.amazonaws.com^
-||api-starzbet-tr--prd--pl-sb.api89rng.com^
 ||api-ligobet-tr--prd--pl-sb.api89rng.com^
+||api-starzbet-tr--prd--pl-sb.api89rng.com^
 ||bettilt-sportsbook-prod.gtdevteam.work^
-||canli-bahis.s3.eu-central-1.amazonaws.com^
+||canli-bahis.s3.*.amazonaws.com^
 ||cdn-ilcfbjl.nitrocdn.com^
-||d56vh6ph4jjmq.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
+||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
 ||golvar-org.cdn.ampproject.org^
 ||prtgaming.s3.eu-central-1.amazonaws.com^
@@ -1153,4 +1154,7 @@
 ||res.akamai-cloud.com/kingroyal/*
 #- Specific Scripts
 ||service.zeyqr26pwk.com/livechat.ashx^
+#- Hard Regexes
+!-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
+!-/\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 ! --------------------------------------------------------------------------- !
