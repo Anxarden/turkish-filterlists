@@ -17,6 +17,7 @@
 #- Regexes for Specific Gambling Sites
 /\b\d*slotin\d*\b/$all,to=/slotin/
 /\b\d*betine\d*\b/$all,to=/betine/
+/\b\d*xslot\d*\b/$all,to=/xslot/
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all
 ||afun.$all
@@ -1000,7 +1001,6 @@
 ||xyzrdr.xyz^
 ||nwacdn.com^
 ||rrrmrd.com^
-||mddgrs.com^
 ||r7gjy0.com^
 ||fstrdddr.cc^
 ||naoxzsw.com^
