@@ -2,8 +2,27 @@
 # Description: Blocks redirecting links; Gambling sites.
 
 !-/ Redirecting Affiliate Domains
+||affiliateikimisli.com^
+||affiliates.my^
+||affiliatesbetpas.com^
+||affiliateskareas.com^
+||affiliatesmarkaj.com^
+||affiliatesrestbet.com^
 ||hiltonbetortak.com^
 ||netbayim.com^
+||zegnapartners.com^
+||ajaxbetaffiliate.com^
+||pekinbetaffiliate.com^
+||ventureaffiliates.com^
+||portoaffiliate.com^
+||hayalaffiliate.com^
+||hepyekaffiliates.com^
+||benimaffiliates.com^
+
+!-/ Shorthand Links
+||b8b.site^
+||c8c.site^
+||z8z.site^
 
 !-/ Gibberish Redirecting Links
 ||akpuj41wwt8m05.info^

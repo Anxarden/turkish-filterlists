@@ -207,8 +207,6 @@
 ||ortakbayii.com^
 ||aloyahemen.com^
 ||bibubetortaklik.com^
-||affiliatesrestbet.com^
-||affiliatesbetpas.com^
 ||gamecheck.com^
 ||tainspfem.com^
 ||1win-turkey.org^
@@ -235,17 +233,12 @@
 ||affbullpartners.com^
 ||affdeo.com^
 ||affgar.com^
-||affiliateikimisli.com^
-||affiliates.my^
-||affiliateskareas.com^
-||affiliatesmarkaj.com^
 ||affpa.top^
 ||affsalvador.com^
 ||affsbet.com^
 ||affshowbet.com^
 ||agsatransportes.com.mx^
 ||agstatic.com^
-||ajaxbetaffiliate.com^
 ||aktiflinkler.com^
 ||alezkaturizm.com^
 ||aliniyo.com^
@@ -285,7 +278,6 @@
 ||basaribet.biz^
 ||basaribet.gen.tr^
 ||bayspin.com.tr^
-||benimaffiliates.com^
 ||benjabet.gen.tr^
 ||ber.ink^
 ||berlinaff.com^
@@ -515,9 +507,7 @@
 ||guvenilirbet.com^
 ||haberpop.com^
 ||havadisbet.com^
-||hayalaffiliate.com^
 ||hepyek.com^
-||hepyekaffiliates.com^
 ||hitbetadres.club^
 ||hitbetaff.com^
 ||hitbetpartner.com^
@@ -676,7 +666,6 @@
 ||partnerskareasbet.com^
 ||pathmingle.com^
 ||paybetget.cash^
-||pekinbetaffiliate.com^
 ||pinco-blaze.com^
 ||pinco-girisi.cc^
 ||pinco-online.com.tr^
@@ -687,7 +676,6 @@
 ||playblockbets.com^
 ||playlinki.com^
 ||portoaff.com^
-||portoaffiliate.com^
 ||postailetisim.com^
 ||pragmaticplay.com^
 ||pragmaticplay.net^
@@ -845,7 +833,6 @@
 ||vatanplatform.com^
 ||vavadadertv.com^
 ||vbetgiris.net^
-||ventureaffiliates.com^
 ||venusaff.com^
 ||veraaff.com^
 ||vevoguncel.org^
@@ -885,7 +872,6 @@
 ||zalnir.click^
 ||zederna.fr^
 ||zegnabet.com^
-||zegnapartners.com^
 ||zerozero.com.tr^
 ||zlot.com^
 ||zolobet.com^
@@ -983,7 +969,6 @@
 ||hub88.io^
 ||fstgo.to^
 ||gpwa.org^
-||b8b.site^
 ||sdayy.xyz^
 ||cgcb.info^
 ||ncybs.com^
