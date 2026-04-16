@@ -9,43 +9,43 @@
 ||poker^
 ||slots^
 #- Regexes for Gambling Related Words
-*$all,to=/bahis/
-*$all,to=/casino/
-*$all,to=/kumar/
+*$all,~popup,to=/bahis/
+*$all,~popup,to=/casino/
+*$all,~popup,to=/kumar/
 /\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 /\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
 #- Regexes for Specific Gambling Sites
-/\b\d*slotin\d*\b/$all,to=/slotin/
-/\b\d*betine\d*\b/$all,to=/betine/
-/\b\d*xslot\d*\b/$all,to=/xslot/
+*$all,~popup,to=/\b\d*slotin\b/
+*$all,~popup,to=/\b\d*betine\b/
+*$all,~popup,to=/\b\d*xslot\b/
 #- Specific Gambling Domains or Subdomains - All TDLs
-||1win.$all
-||afun.$all
-||pinco.$all
+||1win.$all,~popup
+||afun.$all,~popup
+||pinco.$all,~popup
 #- Wildcard Gambling Domains or Subdomains - All TDLs
-||artemisbet*.$all,to=~alpha-digits
-||atlasbet*.$all,to=~alpha-digits
-||betkanyon*.$all,to=~alpha-digits
-||betturkey*.$all,to=~alpha-digits
-||betyap*.$all,to=~alpha-digits
-||dedebet*.$all
-||getirbet*.$all
-||grandpasha*.$all
-||holiganbet*.$all
-||jojobet*.$all
-||kralbet*.$all
-||matadorbet*.$all
-||meritbet*.$all
-||meritking*.$all
-||mostbet*.$all
-||radissonbet*.$all,to=~alpha-digits
-||ramadabet*.$all
-||rokubet*.$all,to=~alpha-digits
-||starzbet*.$all
-||tipobet*.$all
-||venusbet*.$all
-||verabet*.$all
-||winxbet*.$all
+||artemisbet*.$all,~popup,from=~alpha-digits
+||atlasbet*.$all,~popup,from=~alpha-digits
+||betkanyon*.$all,~popup,from=~alpha-digits
+||betturkey*.$all,~popup,from=~alpha-digits
+||betyap*.$all,~popup,from=~alpha-digits
+||dedebet*.$all,~popup
+||getirbet*.$all,~popup
+||grandpasha*.$all,~popup
+||holiganbet*.$all,~popup
+||jojobet*.$all,~popup
+||kralbet*.$all,~popup
+||matadorbet*.$all,~popup
+||meritbet*.$all,~popup
+||meritking*.$all,~popup
+||mostbet*.$all,~popup
+||radissonbet*.$all,~popup,from=~alpha-digits
+||ramadabet*.$all,~popup
+||rokubet*.$all,~popup,from=~alpha-digits
+||starzbet*.$all,~popup
+||tipobet*.$all,~popup
+||venusbet*.$all,~popup
+||verabet*.$all,~popup
+||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
 ||acrobet*.com^
 ||aresbet*.com^
@@ -58,7 +58,7 @@
 ||betmatik*.com^
 ||betpublic*.com^
 ||betzula*.com
-||biabet*.com^$to=~alpha-digits
+||biabet*.com^$from=~alpha-digits
 ||celtabet*.com^
 ||darkbet*.com^
 ||dinamobet*.com^
@@ -86,7 +86,7 @@
 ||topaz*.az^
 ||trbet*.com^
 ||yakabet*.com^
-||zbahis*.com^$to=~alpha-digits
+||zbahis*.com^$from=~alpha-digits
 ||zirvebet*.com^
 #- Turkish Official Gambling Websites
 ||ekuri.com^
