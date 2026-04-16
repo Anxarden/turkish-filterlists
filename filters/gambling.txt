@@ -13,10 +13,11 @@
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
 #- Regexes for Specific Gambling Sites
-*$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*betine\b/
+*$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*xslot\b/
-*$all,~popup,to=/\b\d*betebet\b/
+*$all,~popup,to=/\b\d*zlot\b/
+*btcoservice.com^$to=/\b\d*btcoservice\b/,reason=gambling-cdn
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -46,28 +47,31 @@
 ||verabet*.$all,~popup
 ||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
-||betbox*.com^
-||betsnice*.com^
+*betebet.com^
+*betticket.com^
+*betorspin.com^
 ||acrobet*.com^
 ||aresbet*.com^
 ||bankobet*.com^
+||betbom*.com^
+||betbox*.com^
 ||betewin*.com^
 ||betgaranti*.com^
 ||betilt*.com^
 ||betist*.com^
-||luxbet*.com^
 ||betkom*.com^
 ||betmatik*.com^
-||epikbahis*.com^
 ||betpipo*.com^
+||betplay*.com^
 ||betpublic*.com^
+||betsnice*.com^
 ||betzula*.com
 ||biabet*.com^$from=~alpha-digits
 ||celtabet*.com^
 ||darkbet*.com^
-||ligobet*.com^
 ||dinamobet*.com^
 ||dumanbet*.com^
+||epikbahis*.com^
 ||esbet*.com^
 ||fixbet*.com^
 ||galabet*.com^
@@ -76,11 +80,14 @@
 ||hiltonbet*.com^
 ||hititbet*.com^
 ||kingroyal*.com^$to=/\bkingroyal\d*\.com$/
+||ligobet*.com^
 ||locabet*.com^$from=~alpha-digits
 ||lotobet*.com^
+||luxbet*.com^
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
 ||masterbetting*.com^
+||meybet*.com^
 ||millibahis*.com^
 ||nilobet*.com^
 ||onwin*.com^
@@ -93,49 +100,37 @@
 ||sekabet*.com^
 ||showbet*.com^
 ||supertotobet*.com^
+||suratbet*.com^
 ||tarafbet*.com^
 ||topaz*.az^
+||alobet*.com^
 ||trbet*.com^
 ||yakabet*.com^
 ||zbahis*.com^$from=~alpha-digits
 ||zirvebet*.com^
-||betplay*.com^
-||meybet*.com^
-
+||cryptobet*.com^
+||betbalina*.com^
 #- Turkish Official Gambling Websites
-||ekuri.com^
-||tjk.org^
-||iddaa.com^
-||atyarisi.com^
-||nesine.com^
-||bilyoner.com^
-||millipiyangoonline.com^
-||hipodrom.com^
-||bitalih.com^
 !-||mackolik.com^
-||misli.com^
+||atyarisi.com^
+||bilyoner.com^
 ||birebin.com^
-||tuttur.com^
+||bitalih.com^
+||ekuri.com^
+||hipodrom.com^
+||iddaa.com^
+||millipiyangoonline.com^
+||misli.com^
+||nesine.com^
 ||oley.com^
+||tjk.org^
+||tuttur.com^
 #- Gambling Link Hubs ~ Portal Websites
 ||1xbet-sitesi.club^
-||bonusmaniac.com^
-||grandbettingz.com^
 ||abegiris.com.tr^
-||jojo-orj-adresimiz.com^
 ||adnint.com^
 ||advprocure.com^
-||forumkripto.com^
-||pinco-kayit-tr.ink^
-||portobet.com^
-||jojo-resmi-girisiniz.com^
 ||affiliateroulette.com^
-||girbetturkey.com^
-||geturkiyeblog.com^
-||feedinco.com^
-||thestableplaceslc.com^
-||ikimisliyeniadres.com^
-||conkeycruisers.org^
 ||aviator-kazino.com^
 ||aviator-oyna.fit^
 ||bbtatlantaopen.com^
@@ -143,33 +138,45 @@
 ||betmarino-girisyap.com^
 ||betokazan.com^
 ||betpas.com^
-||hitbet.com^
 ||betreward.com^
 ||bitcoinist.com^
 ||bonus-secim-hemen.link^
+||bonusmaniac.com^
 ||buyukavanos.com^
 ||bwin.com^
+||conkeycruisers.org^
 ||continuummusic.org^
 ||demoslotoyna.com^
 ||elmwoodsports.com^
+||feedinco.com^
+||forumkripto.com^
 ||gazetevan.com^
+||geturkiyeblog.com^
+||girbetturkey.com^
 ||giris-resmi-site.com^
 ||girisbetyap.com^
 ||goleika.com^
+||grandbettingz.com^
 ||guvenligirislerin.com^
 ||headsetimmersive.com^
+||hitbet.com^
 ||hotelsantaisabel.com^
+||ikimisliyeniadres.com^
 ||intlconsortiumdevelopmentalscience.org^
 ||jetxbet.games^
 ||jewishdiasporatech.org^
+||jojo-orj-adresimiz.com^
+||jojo-resmi-girisiniz.com^
 ||ltacademi.com^
 ||m-adres.com^
 ||musovasi.com^
 ||passobase.com^
 ||pickingmeup.com^
+||pinco-kayit-tr.ink^
 ||pinco-kayit.space^
 ||pinco-resmi.vip^
 ||planet5d.com^
+||portobet.com^
 ||rengimiz.com.tr^
 ||salonmotomadrid.com^
 ||seofilesema.com^
@@ -179,6 +186,7 @@
 ||sportshal.com^
 ||superbetingiris.pro^
 ||sweet-bonanza-giris-2025.ink^
+||thestableplaceslc.com^
 ||transfermarkt.com^
 ||turania.net^
 ||turkbilig.com^
@@ -217,11 +225,15 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||kriptoapi.com^
+||alobetlisans.com^
+||graphxmen.net^
+||cdnbahis.com^
+||betbomlisans.com^
 ||cdnjunction.com^
 ||pelitbet.com^
 ||anjseal.org^
 ||ortakbayii.com^
-||aloyahemen.com^
 ||bibubetortaklik.com^
 ||gamecheck.com^
 ||tainspfem.com^
@@ -466,7 +478,6 @@
 ||everymatrix.com^
 ||excelaffiliates.com^
 ||exelgame.com^
-||exongir.com^
 ||exontrack.com^
 ||eyeleo.com^
 ||fairegir.com^
@@ -666,7 +677,6 @@
 ||padisah.ai^
 ||padisahbetortaklik.com^
 ||pakkisalink.com^
-||palazzopartner.com^
 ||parabets.top^
 ||paralucky.sbs^
 ||partnerbayi.com^
@@ -801,7 +811,6 @@
 ||thebrowhut.net^
 ||thedamcafe.net^
 ||theislandonlaketravis.com^
-||ticaretbayi.com^
 ||tiennamstore.com^
 ||timebet.com^
 ||tipbet.info^
@@ -880,7 +889,6 @@
 ||zederna.fr^
 ||zegnabet.com^
 ||zerozero.com.tr^
-||zlot.com^
 ||zolobet.com^
 ||zolobet.pro^
 ||zoombaplay.com^
@@ -888,12 +896,10 @@
 ||zova.live^
 ||zulagiris.click^
 ||zulasite.xyz^
-||zullagit.xyz^
-||luxhizligiris.com^
+||suratpanel.com^
+||suratbt.com^
+||api3kut.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
-||147zlot.com^
-||14btcoservice.com^
-||163zlot.com^
 ||1wcxic.com^
 ||1wnhqm.life^
 ||1woahn.com^
@@ -952,7 +958,6 @@
 ||satispanel1.com^
 ||slotapp7.com^
 ||stake1069.com^
-||suratgiris99.com^
 ||tabloproject2.com^
 ||top100bonus.com^
 ||yeniadreskuty.com^
@@ -962,6 +967,7 @@
 ||a.info^
 ||csnr.me^
 ||bcua.io^
+||fsrc.ag^
 ||fstt.xyz^
 ||hub88.io^
 ||fstgo.to^
@@ -1059,6 +1065,8 @@
 ||p7dg2ptmb.com^
 ||trofykopt.xyz^
 ||u9vijx7mb.com^
+||6mhxj6tw1e.com^
+||wk3i4dqleo.com^
 ||pmtibyohur.com^
 ||igbvkn3i4a.com^
 ||hyt6brxaep.com^
@@ -1124,11 +1132,7 @@
 ||tinyurl.com/*casino$doc
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
-!- tumblr.com
-*-klab.tumblr.com^
-||klab-*.tumblr.com^
-!- pages.dev|blogspot.com
-||redirect-*.pages.dev^
+
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.s3.*.amazonaws.com^
 ||agc-casino.s3.*.amazonaws.com^
@@ -1156,7 +1160,7 @@
 #- General Path Blocking
 /egtdigital/*.png^$third-party,image
 #- Specific Scripts
-||service.zeyqr26pwk.com/livechat.ashx^
+||service.*.com/livechat.ashx^third-party,script
 #- Hard Regexes
 !-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 !-/\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
