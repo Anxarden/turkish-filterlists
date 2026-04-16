@@ -16,6 +16,7 @@
 *$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*betine\b/
 *$all,~popup,to=/\b\d*xslot\b/
+*$all,~popup,to=/\b\d*betebet\b/
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -45,6 +46,8 @@
 ||verabet*.$all,~popup
 ||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
+||betbox*.com^
+||betsnice*.com^
 ||acrobet*.com^
 ||aresbet*.com^
 ||bankobet*.com^
@@ -52,6 +55,7 @@
 ||betgaranti*.com^
 ||betilt*.com^
 ||betist*.com^
+||luxbet*.com^
 ||betkom*.com^
 ||betmatik*.com^
 ||epikbahis*.com^
@@ -72,7 +76,7 @@
 ||hiltonbet*.com^
 ||hititbet*.com^
 ||kingroyal*.com^$to=/\bkingroyal\d*\.com$/
-||locabet*.com^
+||locabet*.com^$from=~alpha-digits
 ||lotobet*.com^
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
@@ -95,6 +99,9 @@
 ||yakabet*.com^
 ||zbahis*.com^$from=~alpha-digits
 ||zirvebet*.com^
+||betplay*.com^
+||meybet*.com^
+
 #- Turkish Official Gambling Websites
 ||ekuri.com^
 ||tjk.org^
@@ -210,6 +217,8 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||cdnjunction.com^
+||pelitbet.com^
 ||anjseal.org^
 ||ortakbayii.com^
 ||aloyahemen.com^
@@ -295,7 +304,6 @@
 ||betandyou.com^
 ||betano.com^
 ||betartemis.com^
-||betboxaffi.com^
 ||betcartgiris.com^
 ||betcio-giris.org^
 ||betconstructapps.com^
@@ -377,7 +385,6 @@
 ||bplayadres.com^
 ||bprkaff.com^
 ||brgaffiliates.com^
-||bsinplus.com^
 ||budayapoker.us^
 ||bundlecdn.com^
 ||burosvancdn.xyz^
@@ -610,7 +617,6 @@
 ||meshuradres.best^
 ||mexicalilive.com^
 ||meybet.com^
-||meydom.site^
 ||micampuscompact.org^
 ||millisitegiris.com^
 ||milyoncas.click^
@@ -694,7 +700,6 @@
 ||radiaff.com^
 ||ramada.gen.tr^
 ||ramadabonus.com^
-||ramapartner.com^
 ||realmadridtwo.com^
 ||redirectabebet.com^
 ||rekabetgirisi.com^
@@ -739,7 +744,6 @@
 ||silentbet.com^
 ||silvagiris.com^
 ||silvergames.com^
-||sinaff.com^
 ||sisalsans.com^
 ||sitedenemebonusu.com^
 ||siteye-com-cdn-ampproject.org^
@@ -862,7 +866,6 @@
 ||yalubluana.com^
 ||yamas.global^
 ||yayin.la^
-||ybgir.com^
 ||yeniadres2025yeni.com^
 ||yenibetadresleri.com^
 ||yenibeygir.com^
@@ -888,8 +891,8 @@
 ||zullagit.xyz^
 ||luxhizligiris.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
-||affpro1.com^
 ||147zlot.com^
+||14btcoservice.com^
 ||163zlot.com^
 ||1wcxic.com^
 ||1wnhqm.life^
@@ -900,13 +903,13 @@
 ||7slots766.com^
 ||816xslot.com^
 ||aff888toertsa.com^
-||affiliatepipo4.com^
-||affiliatepipo5.com^
+||affpro1.com^
 ||arcee003.com^
 ||aviatoroynaa.com^
 ||azrdcdn200.com^
 ||bahsegel1264.com^
 ||bandnetbe80322.com^
+||betci123.com^
 ||bis2020.com
 ||bossseoteoman.com^
 ||btmgiris4.com^
@@ -919,8 +922,8 @@
 ||edgeflowjb10247.net^
 ||enyeniguncelgiriskuty.com^
 ||fraga426.com^
-||fstdvcdn910.com^
 ||fstdvcdn900.com^
+||fstdvcdn910.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
@@ -930,7 +933,6 @@
 ||hosting8931.com^
 ||jojobel1076.com^
 ||linkpointbc110183.com^
-||lionaff6.com^
 ||madridreal000.com^
 ||megabahs-giris.com^
 ||meritbossseonur.com^
@@ -939,9 +941,6 @@
 ||meritkngerism.com^
 ||meritkngsite.com^
 ||mrtgirisozkn2025.com^
-||mrtkng20xclusive.vip^
-||mrtkng21xclusive.vip
-||mrtkng22xclusive.vip^
 ||netcachesb140258.net^
 ||pes24.com^
 ||popnodegb70184.com^
@@ -950,12 +949,6 @@
 ||reffpa.com^
 ||relayhubho40146.com^
 ||relayhubho40281.net^
-||romaff1.com^
-||romaff2.com^
-||romaff3.com^
-||romaff4.com^
-||romaff5.com^
-||romaff6.com^
 ||satispanel1.com^
 ||slotapp7.com^
 ||stake1069.com^
@@ -968,6 +961,7 @@
 ||l24.im^
 ||a.info^
 ||csnr.me^
+||bcua.io^
 ||fstt.xyz^
 ||hub88.io^
 ||fstgo.to^
@@ -1004,7 +998,6 @@
 ||nwacdn.com^
 ||rrrmrd.com^
 ||r7gjy0.com^
-||fstrdddr.cc^
 ||naoxzsw.com^
 ||3vpcq6t.com^
 ||9lkf4hn.com^
@@ -1027,6 +1020,8 @@
 ||satisbw.com^
 ||tamgits.xyz^
 ||x8hzzz0.com^
+||nnn3tgza.com^
+||dggloble.com^
 ||akcgknmb.com^
 ||atlaffi.shop^
 ||btmgris1.com^
@@ -1064,6 +1059,9 @@
 ||p7dg2ptmb.com^
 ||trofykopt.xyz^
 ||u9vijx7mb.com^
+||pmtibyohur.com^
+||igbvkn3i4a.com^
+||hyt6brxaep.com^
 ||2zta6ev6iq.com^
 ||324q9a8z34.com^
 ||3kanumaigc.com^
@@ -1132,26 +1130,31 @@
 !- pages.dev|blogspot.com
 ||redirect-*.pages.dev^
 #- Datacenter Links
-||50yo4fzxk02ujr25gm9y.s3.eu-west-1.amazonaws.com^
+||50yo4fzxk02ujr25gm9y.s3.*.amazonaws.com^
 ||agc-casino.s3.*.amazonaws.com^
 ||agc-casino.s3.amazonaws.com^
 ||api-ligobet-tr--prd--pl-sb.api89rng.com^
 ||api-starzbet-tr--prd--pl-sb.api89rng.com^
 ||bettilt-sportsbook-prod.gtdevteam.work^
+||bookmkrs.s3.amazonaws.com^
 ||canli-bahis.s3.*.amazonaws.com^
 ||cdn-ilcfbjl.nitrocdn.com^
+||d3psi4rj7mv4u4.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
 ||golvar-org.cdn.ampproject.org^
-||prtgaming.s3.eu-central-1.amazonaws.com^
+||luxsitecdn.s3.*.amazonaws.com^
+||prtgaming.s3.*.amazonaws.com^
 ||winxbets-net.cdn.ampproject.org^
-||yabanci-bahis-siteleri.s3.eu-south-1.amazonaws.com^
-||yeni-adres.s3.eu-central-1.amazonaws.com^
-||bookmkrs.s3.amazonaws.com^
-||s3.amazonaws.com/bookmkrs/*
+||yabanci-bahis-siteleri.s3.*.amazonaws.com^
+||yeni-adres.s3.*.amazonaws.com^
+#- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/*
 ||res.akamai-cloud.com/kingroyal/*
+||s3.amazonaws.com/bookmkrs/*
+#- General Path Blocking
+/egtdigital/*.png^$third-party,image
 #- Specific Scripts
 ||service.zeyqr26pwk.com/livechat.ashx^
 #- Hard Regexes
