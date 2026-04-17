@@ -93,7 +93,7 @@
 ||onwin*.com^
 ||oslobet*.com^
 ||otobet*.com^
-||pinco*.win^$domain=/\bpinco\d*\.win$/
+||pinco*.win^$to=/\bpinco\d*\.win$/
 ||restbet*.com^
 ||retrobet*.com^
 ||sahabet*.com^
