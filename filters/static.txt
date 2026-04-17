@@ -401,6 +401,8 @@
 ||zohopublic.com^
 ||quickchat.ai^$third-party
 ||trustpilot.com^$third-party
+||nsaudience.pl^
+||inistrack.net^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
