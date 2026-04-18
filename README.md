@@ -11,6 +11,8 @@ Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile
 | 🔞 [**Yetişkin İçerik Filtresi**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/anxarden/turkish-filterlists/filters/filterlist-adult.txt&title=turkish-filterlist-adult) |
 |• Pornografik ve yetişkin içerik barındıran siteleri tümüyle engellemeyi amaçlar.<br>• Bu tür içeriklere ulaşmayı sağlayan doğrudan ve dolaylı bağlantılar tamamen kapatılır. |
 
+<br>
+
 ## 📋 Önerilen Diğer Listeler
 Daha kapsamlı bir koruma için **EasyList** ve **EasyPrivacy** filtrelerinin de etkinleştirilmesi önerilir. **EasyList**, dünya genelindeki reklam ağlarını engellerken; **EasyPrivacy**, kullanıcı takibi yapan izleyici sistemlerini engeller. **Filtre listemizin; [**EasyList**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easylist.txt&title=EasyList) ve [**EasyPrivacy**](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy) ile birlikte kullanılması daha etkili koruma ve engelleme sağlayacaktır.**
 
