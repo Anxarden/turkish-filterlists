@@ -110,12 +110,16 @@
 ||zirvebet*.com^
 ||cryptobet*.com^
 ||betbalina*.com^
+||one-vv*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
+||4nala.com^
+||altiliganyan.com^
 ||atyarisi.com^
 ||bilyoner.com^
 ||birebin.com^
 ||bitalih.com^
+||e-sans.com.tr^
 ||ekuri.com^
 ||hipodrom.com^
 ||iddaa.com^
@@ -123,6 +127,9 @@
 ||misli.com^
 ||nesine.com^
 ||oley.com^
+||piyangosepeti.com.tr^
+||sisalsans.com^
+||sonduzluk.com^
 ||tjk.org^
 ||tuttur.com^
 #- Gambling Link Hubs ~ Portal Websites
@@ -193,6 +200,7 @@
 ||valchidol.bg^
 ||velobless.dk^
 ||zegnabetgiris.org^
+||matematikveistatistikkongresi.org^
 #- SEO Injected Websites ~ Highly Suspicious
 ||atlantissu.com.tr^
 ||aukuma.com^
@@ -224,8 +232,33 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 ||zoekarssen.com^
+||gilibertosno.com^
+||slomparty.com^
+||tabulebayview.com^
+||townofrobers.com^
+||rdwheel.com^
+||kidznowurgentcar.com^
+||thepeltori.com^
+||royalparkwines.com^
+||coxpavilion.com^
+||five-girls.com^
+||jeanniesbreakfast.com^
+||gulfbeachrvresort.com^
+||horizonspinend.com^
+||torontopersian.com^
+||iptali.org^
+||southerncafecrest.com^
+||wellcomedbt.org^
+||macchampion.com^
+||limitsizenerji.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||smartiwheel.com^
 ||kriptoapi.com^
+||gsensebot.com^
+||geetest.com^
+||geevisit.com^
+||bundlecda.com^
+||flowmetric.life^
 ||alobetlisans.com^
 ||graphxmen.net^
 ||cdnbahis.com^
@@ -246,7 +279,6 @@
 ||1xbetgirisi1win.online^
 ||2025adresgiryeni.com^
 ||3dwisdom.in^
-||4nala.com^
 ||777eniyioyuncular.com^
 ||abc-link.top^
 ||abebetpromo.com^
@@ -272,7 +304,6 @@
 ||aliniyo.com^
 ||allamericansportscafe.com^
 ||aloyagit.com^
-||altiliganyan.com^
 ||alwaysdomain.xyz^
 ||americanpress.com^
 ||amgortak.com^
@@ -754,7 +785,6 @@
 ||silentbet.com^
 ||silvagiris.com^
 ||silvergames.com^
-||sisalsans.com^
 ||sitedenemebonusu.com^
 ||siteye-com-cdn-ampproject.org^
 ||siyahbetaff.xyz^
@@ -769,7 +799,6 @@
 ||smartbettingclub.com^
 ||socialtournaments.com^
 ||sonagir.com^
-||sonduzluk.com^
 ||songiris.net^
 ||sorunsuzgiris.org^
 ||sot.pl^
@@ -900,8 +929,10 @@
 ||suratbt.com^
 ||api3kut.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||aviator-oynaa.vip^
 ||1wcxic.com^
 ||1wnhqm.life^
+||1weedf.life^
 ||1woahn.com^
 ||1wxlfq.com^
 ||1xlite-68471.bar^
@@ -1132,7 +1163,6 @@
 ||tinyurl.com/*casino$doc
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
-
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.s3.*.amazonaws.com^
 ||agc-casino.s3.*.amazonaws.com^

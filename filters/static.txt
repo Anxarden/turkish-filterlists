@@ -791,10 +791,10 @@
 ||abysscdn.com/sw.js^$script
 ||x.ag2m2.cfd/js/$script
 ||x.ag2m4.cfd/js/$script
-||anizm.net/js/custom.js^$script
-||anizm.net/js/axium-*.js^$script
-||anizm.net/js/ala1.js^$script
 ||anizm.net/*/s.js^$script
+||anizm.net/js/ala1.js^$script
+||anizm.net/js/axium-*.js^$script
+||anizm.net/js/custom.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||eksenload.site/detect.js^$script
