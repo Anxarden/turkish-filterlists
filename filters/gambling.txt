@@ -18,6 +18,8 @@
 *$all,~popup,to=/\b\d*xslot\b/
 *$all,~popup,to=/\b\d*zlot\b/
 *btcoservice.com^$to=/\b\d*btcoservice\b/,reason=gambling-cdn
+*$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
+*$third-party,header=x-api-auth:ebtlb_base_var
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -48,11 +50,14 @@
 ||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
 *betebet.com^
-*betticket.com^
 *betorspin.com^
+*betticket.com^
 ||acrobet*.com^
+||alobet*.com^
+||amgbahis*.com^
 ||aresbet*.com^
 ||bankobet*.com^
+||betbalina*.com^
 ||betbom*.com^
 ||betbox*.com^
 ||betewin*.com^
@@ -67,10 +72,14 @@
 ||betsnice*.com^
 ||betzula*.com
 ||biabet*.com^$from=~alpha-digits
+||bonisa*.com^
+||candycasino*.com^
 ||celtabet*.com^
+||cryptobet*.com^
 ||darkbet*.com^
 ||dinamobet*.com^
 ||dumanbet*.com^
+||elexbet*.com^
 ||epikbahis*.com^
 ||esbet*.com^
 ||fixbet*.com^
@@ -79,6 +88,7 @@
 ||ganobet*.com^
 ||hiltonbet*.com^
 ||hititbet*.com^
+||huqqabet*.com^
 ||kingroyal*.com^$to=/\bkingroyal\d*\.com$/
 ||ligobet*.com^
 ||locabet*.com^$from=~alpha-digits
@@ -87,38 +97,35 @@
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
 ||masterbetting*.com^
+||mersobahis*.com^
 ||meybet*.com^
+||milosbet*.com^
 ||millibahis*.com^
+||mislici*.com^
 ||nilobet*.com^
+||one-vv*.com^
 ||onwin*.com^
 ||oslobet*.com^
 ||otobet*.com^
+||paripulse-*.pro^
 ||pinco*.win^$to=/\bpinco\d*\.win$/
 ||restbet*.com^
 ||retrobet*.com^
 ||sahabet*.com^
 ||sekabet*.com^
 ||showbet*.com^
+||starora*.com^
 ||supertotobet*.com^
 ||suratbet*.com^
 ||tarafbet*.com^
+||teosbet*.com^
 ||topaz*.az^
-||alobet*.com^
 ||trbet*.com^
+||virusbettr*.com^
 ||yakabet*.com^
 ||zbahis*.com^$from=~alpha-digits
 ||zirvebet*.com^
-||cryptobet*.com^
-||betbalina*.com^
-||one-vv*.com^
-||elexbet*.com^
-||paripulse-*.pro^
-||amgbahis*.com^
-||mersobahis*.com^
-||huqqabet*.com^
-||mislici*.com^
-||bonisa*.com^
-||starora*.com^
+||balinabet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -261,6 +268,7 @@
 ||limitsizenerji.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||smartiwheel.com^
+||remotekontrol.site^
 ||kriptoapi.com^
 ||gsensebot.com^
 ||geetest.com^
@@ -1142,6 +1150,7 @@
 ||gpartners1.click^
 ||cldfrbcdn302.com^
 ||akamsbcdn1400.com^
+||kgtedkudgbcjd.com^
 ||plantlilium003.com^
 ||kfrojagdgfrflg.com^
 ||jptrbhspartners.com^
@@ -1161,6 +1170,7 @@
 ||scc9tbm8mupfwfcuwrahpb2q4ytgd6lr.xyz^
 ||srenarj05s3nxp26xtx54me10isach2m.xyz^
 ||jukdkdjruf33434hhdshh334opodjd4ssd.com^
+||jukd049944jdjdh333ikslisspoelerss44shh334opodjd4ssd.com^
 #- Social Media Pages & Link Shorteners
 ||instagram.com/*bahis$doc
 ||instagram.com/*casino$doc

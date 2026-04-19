@@ -237,6 +237,8 @@
 ||lindiesoncoses.com^
 ||livechatinc.com^$third-party,from=~with-subdomains
 ||livechatinc.com^$document,from=~3rd-party
+||hoory.com^$third-party
+||zadarma.com^$third-party
 ||lngtd.com^
 ||loox.io^
 ||lups1.site^
