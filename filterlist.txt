@@ -276,3 +276,4 @@
 #- Paywall Websites
 ||maskmail.io^$document,reason=paywall-after-signin
 ||cloaked.com^$document,reason=no-free-tier
+||sms-activate.guru^$document,reason=service-closed
