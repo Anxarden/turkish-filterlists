@@ -16,7 +16,7 @@
 !-/ [reddit]
 ||redditstatic.com^$script,from=~reddit.com
 !-/ [vk]
-||vk.com^$third-party,from=~vk.ru|~vk.me|~vkvideo.ru
+||vk.com^$third-party,from=~vk.ru|~vk.me|~vkvideo.ru|~mail.ru
 !-/ [yandex]
 ||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
@@ -33,12 +33,10 @@
 ||atechspace.live^
 !-/	Domain Parking Monetization Platform
 ||parklogic.com^
-!-/	Dangerious Redirecting Links
-/\bclbanners\d*\.com\b/$all,to=/clbanners/
-/\brefpa\d+\.[a-z]{2,}\b/$all,to=/refpa/
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||crisp.chat^$third-party
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
 ||addthis.com^

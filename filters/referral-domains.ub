@@ -1,7 +1,11 @@
 # Title: Referral Domains Filter
 # Description: Blocks redirecting links; Malicious, advertising and privacy-invading sites.
 
-!-/ Redirecting Links
+!-/	Redirecting Links - Regex
+||clbanners*.$all,to=/clbanners\d+\b/
+||refpa*.$all,to=/refpa\d+\b/
+
+!-/ Redirecting Links - Domains
 ||cutt.ly^
 ||directedurls.com^
 ||goo.su^
@@ -26,3 +30,4 @@
 ||trredirect.pro^
 ||urlsshort.link^
 ||zaplyurl.com^
+||linkly.link^

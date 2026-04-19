@@ -111,6 +111,14 @@
 ||cryptobet*.com^
 ||betbalina*.com^
 ||one-vv*.com^
+||elexbet*.com^
+||paripulse-*.pro^
+||amgbahis*.com^
+||mersobahis*.com^
+||huqqabet*.com^
+||mislici*.com^
+||bonisa*.com^
+||starora*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -306,12 +314,12 @@
 ||aloyagit.com^
 ||alwaysdomain.xyz^
 ||americanpress.com^
-||amgortak.com^
 ||amonbetpartner.media^
 ||amusnet.com^
 ||amusnet.io^
 ||anjcdn.org^
 ||anjouangaming.com^
+||anjouangaming.org^
 ||apidigi.com^
 ||argoesport.com^
 ||artemis-vip.com^
@@ -504,7 +512,6 @@
 ||enhizligirisler.com^
 ||eniyidenemebonusu.info^
 ||etabetgiris.com^
-||eticaretbayimiz.com^
 ||evdeyapalim.com.tr^
 ||everymatrix.com^
 ||excelaffiliates.com^
@@ -754,7 +761,6 @@
 ||romabet.gen.tr^
 ||routerpp.life^
 ||royal-giris.com^
-||royalortaklik.com^
 ||rsymanpower.com^
 ||rulobet.life^
 ||rupilinks.com^
@@ -929,6 +935,9 @@
 ||suratbt.com^
 ||api3kut.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||wlstrge33.pro^
+||wlstrge35.pro^
+||pro1bet1.com^
 ||aviator-oynaa.vip^
 ||1wcxic.com^
 ||1wnhqm.life^
@@ -1183,14 +1192,16 @@
 ||winxbets-net.cdn.ampproject.org^
 ||yabanci-bahis-siteleri.s3.*.amazonaws.com^
 ||yeni-adres.s3.*.amazonaws.com^
+||vendor-provider.*.digitaloceanspaces.com^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/*
 ||res.akamai-cloud.com/kingroyal/*
 ||s3.amazonaws.com/bookmkrs/*
 #- General Path Blocking
 /egtdigital/*.png^$third-party,image
-#- Specific Scripts
-||service.*.com/livechat.ashx^third-party,script
+/livechat.ashx?siteid=$third-party,script
+#- Specific Asset Blocking
+||service.*/livechat.ashx^third-party,script
 #- Hard Regexes
 !-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 !-/\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
