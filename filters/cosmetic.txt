@@ -392,6 +392,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##div.adpro[data-page]
 !- generic anchor filters
 ##a[href^="https://t2m.io/"]
+##a[href^="https://cutt.ly/"]
 
 #----------------------------------------------------------------------------------------------------#
 #- Network AD Filters /w Paths
@@ -404,7 +405,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
 ||watch.turkeyplayer.com/poster/$image
 !- gambling image ads @ dizipal
-||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|nolovasaleer.com
+||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|nolovasaleer.com|cfd
 ||hlktrpl.cfd/player/assets/uploads/$image
 ||dizipal*.com/wp-content/uploads/*.gif$first-party,image
 !- first party gambling image ads @ diziyou

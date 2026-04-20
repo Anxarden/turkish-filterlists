@@ -146,6 +146,11 @@
 ||lordpalacecasino*.com^
 ||enbet*.com^
 ||dilbet*.com^
+||mitobet*.com^
+||melbet*.com^
+||bbey*.com^
+||sloganbahis*.com^
+||hepsibet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -526,7 +531,6 @@
 ||dioraff.site^
 ||dockofthebayva.com^
 ||drunksport.com^
-||dub.is^
 ||dunyakupasi.org^
 ||eastpioneers.com^
 ||eatelcentro.com^
@@ -967,6 +971,7 @@
 ||suratbt.com^
 ||api3kut.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||btcoservice5.com^
 ||wlstrge33.pro^
 ||wlstrge35.pro^
 ||pro1bet1.com^
@@ -1024,7 +1029,6 @@
 ||popnodegb70184.com^
 ||primeaffiliates1.com^
 ||redirectss7affhub.com^
-||reffpa.com^
 ||relayhubho40146.com^
 ||relayhubho40281.net^
 ||satispanel1.com^
