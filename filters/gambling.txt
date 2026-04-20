@@ -19,7 +19,6 @@
 *$all,~popup,to=/\b\d*zlot\b/
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
 *btcoservice.com^$to=/\b\d*btcoservice\b/,reason=gambling-cdn
-
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -52,6 +51,14 @@
 *betebet.com^
 *betorspin.com^
 *betticket.com^
+*timebet.com^
+*favorisen.com^
+*kulisbet.com^
+*kolaybet.com^
+||dodobet*.com^
+||betparibu*.com^
+||betbey*.com^
+||benjabet*.com^
 ||acrobet*.com^
 ||alobet*.com^
 ||amgbahis*.com^
@@ -129,6 +136,16 @@
 ||zirvebet*.com^
 ||sheratonking*.com^
 ||betamiral*.com^
+||interbahis*.com^
+||odeonbet*.com^
+||vaycasino*.com^
+||betlike*.com^
+||saltbahis*.com^
+||lunabet*.com^
+||asyabahis*.com^
+||lordpalacecasino*.com^
+||enbet*.com^
+||dilbet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -270,6 +287,9 @@
 ||macchampion.com^
 ||limitsizenerji.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||enbetlisans.com^
+||anjseal.com^
+||licenseseal.online^
 ||cdn-files-zmedya.online^
 ||dlagglobalboard.com^
 ||thetgcvalidate.ca^
@@ -651,7 +671,6 @@
 ||lowbrausacramento.com^
 ||loyalgiris.com^
 ||luckymatic.com^
-||lunabet.com^
 ||luxegit.com^
 ||maltpartners.com^
 ||marathonbet.com^
@@ -713,7 +732,6 @@
 ||ocbpartners.com^
 ||odds.am^
 ||oddsmatrix.com^
-||odeonbet.com^
 ||omaneltellink.link^
 ||onegameslink.com^
 ||onlinegiris.live^
@@ -1026,6 +1044,7 @@
 ||fstt.xyz^
 ||gpwa.org^
 ||hub88.io^
+||fvcdn.xyz^
 ||cgcb.info^
 ||edtbt.ink^
 ||ncybs.com^
@@ -1034,6 +1053,7 @@
 ||prmbw.com^
 ||sdayy.xyz^
 ||ttagc.xyz^
+||swqlaf.xyz^
 ||bcapps.org^
 ||bhszab.com^
 ||biordr.xyz^
