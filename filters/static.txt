@@ -36,6 +36,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||snivelinginsect.com^
 ||crisp.chat^$third-party
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
@@ -54,7 +55,6 @@
 ||adsby.io^
 ||adsninja.ca^
 ||adthrive.com^
-||adtng.com^
 ||ageverif.com^
 ||ahatm8od.top^
 ||ahrefs.com^
