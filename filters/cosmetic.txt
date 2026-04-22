@@ -396,29 +396,3 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 !- generic anchor filters
 ##a[href^="https://t2m.io/"]
 ##a[href^="https://cutt.ly/"]
-
-#----------------------------------------------------------------------------------------------------#
-#- Network AD Filters /w Paths
-#----------------------------------------------------------------------------------------------------#
-#- Common AD Paths ~ [Images]
-/reklamlar/*$image
-/rklm/resim/*$image
-#- Specific AD Links ~ [Images]
-||chesscomfiles.com/uploads/ad_image/$image
-||playwire.com/*/powered-by-playwire-badges/$third-party,image
-||watch.turkeyplayer.com/poster/$image
-!- gambling image ads @ dizipal
-||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|nolovasaleer.com|cfd
-||hlktrpl.cfd/player/assets/uploads/$image
-||dizipal*.com/wp-content/uploads/*.gif$first-party,image
-!- first party gambling image ads @ diziyou
-||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
-!- self-hosted gambling image ads @ other movie/series websites
-||royalfilmizle.com/wp-content/uploads/*gif^$image
-||dizikral.club/cdn/*.gif^$image,xhr
-||dizikral.live/cdn/*.gif^$image,xhr
-||dizikral.plus/cdn/*.gif^$image,xhr
-||diziparis.plus/cdn/*.gif^$image,xhr
-||dizikralgiris.com/cdn/*.gif^$image,xhr
-
-#----------------------------------------------------------------------------------------------------#
