@@ -55,6 +55,7 @@
 *favorisen.com^
 *kulisbet.com^
 *kolaybet.com^
+*supertotobet.com^
 ||dodobet*.com^
 ||betparibu*.com^
 ||betbey*.com^
@@ -151,6 +152,11 @@
 ||bbey*.com^
 ||sloganbahis*.com^
 ||hepsibet*.com^
+||harbiwin*.com^
+||turboslot*.com^
+||lordbahis*.com^
+||probet*.com^
+||elitroyal*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -971,6 +977,8 @@
 ||suratbt.com^
 ||api3kut.com^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||xaxnetwork2.com^
+||denemebonusulv.site^
 ||btcoservice5.com^
 ||wlstrge33.pro^
 ||wlstrge35.pro^
