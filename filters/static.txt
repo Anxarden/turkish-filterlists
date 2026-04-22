@@ -789,8 +789,9 @@
 #- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
-||x.ag2m2.cfd/js/$script
-||x.ag2m4.cfd/js/$script
+||ag2m2.cfd/js/$script
+||ag2m4.cfd/js/$script
+||wtsdde.cfd/js/$script
 ||anizm.net/*/s.js^$script
 ||anizm.net/js/ala1.js^$script
 ||anizm.net/js/axium-*.js^$script

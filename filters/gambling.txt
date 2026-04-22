@@ -157,6 +157,7 @@
 ||lordbahis*.com^
 ||probet*.com^
 ||elitroyal*.com^
+||hepbet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -298,6 +299,7 @@
 ||macchampion.com^
 ||limitsizenerji.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||cdn-files.online^
 ||enbetlisans.com^
 ||anjseal.com^
 ||licenseseal.online^

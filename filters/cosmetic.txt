@@ -113,7 +113,8 @@ smailpro.com##aside[class^="ads-"]
 filterblade.xyz##div[id~='footeradcontainer'i]
 filterblade.xyz##div[id~='leftsidecontainer'i]
 cracksurl.com##div.widget_media_image
-/\bdizipal\d{4}\.com$/##a.embed-text-banner
+vk.com,vk.ru##section[class^='advertisingbanner-'i]
+
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -135,6 +136,7 @@ myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
 haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
 haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
 ensonhaber.com##div[id^=bik-ilan-]:upward(div.row)
+freephone.io##div:has(>ins.adsbygoogle)
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
@@ -167,6 +169,7 @@ ekonomim.com##div.newsletter-widget
 birgun.net##div#getpermission
 birgun.net##div#adblocker
 birgun.net##div[id~="appbanner"i]
+freephone.io##div[x-show="alert"]
 
 !-/ Social Networks and Content Share Widgets														 ~
 !#if cap_html_filtering
@@ -245,13 +248,13 @@ pixlr.com##div#head-premium
 pixlr.com##div[id$=-discount-banner]
 pixlr.com##section.upsell
 teyit.org##a#side-banner
-teyit.org##a.purmerak
-teyit.org##div.purmerak-box
 teyit.org##img.side-banner-img
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
 imgchest.com##a[href="/support"]:upward(main>div)
+freephone.io##div.fp-items-stretch:has(a[href$="/private-numbers"])
+freephone.io##a.fp-block[href$="/private-numbers"]
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
@@ -417,9 +420,5 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ||dizikral.plus/cdn/*.gif^$image,xhr
 ||diziparis.plus/cdn/*.gif^$image,xhr
 ||dizikralgiris.com/cdn/*.gif^$image,xhr
-!- first party patreon club images
-||md.teyit.org/*/side-banner-$first-party,image
-||teyit.org/*-purmerak-$first-party,image
-||teyit.org/*/purmerak-$first-party,image
 
 #----------------------------------------------------------------------------------------------------#
