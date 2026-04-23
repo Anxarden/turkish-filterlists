@@ -137,6 +137,8 @@ haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
 haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
 ensonhaber.com##div[id^=bik-ilan-]:upward(div.row)
 freephone.io##div:has(>ins.adsbygoogle)
+edumailfree.com##div:matches-attr(class=/\badz-/)
+edumail.su##div:matches-attr(class=/\bads-/)
 
 !-/	Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
@@ -396,3 +398,8 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 !- generic anchor filters
 ##a[href^="https://t2m.io/"]
 ##a[href^="https://cutt.ly/"]
+
+#----------------------------------------------------------------------------------------------------#
+#- Whitelisted Filters
+#----------------------------------------------------------------------------------------------------#
+receive-smss.com#@#div[class*='-ads-'i]

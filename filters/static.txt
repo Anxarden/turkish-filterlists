@@ -36,8 +36,6 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
-||snivelinginsect.com^
-||crisp.chat^$third-party
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
 ||addthis.com^
@@ -54,7 +52,10 @@
 ||adroll.com^
 ||adsby.io^
 ||adsninja.ca^
+||adtarget.com.tr^
+||adtarget.org^
 ||adthrive.com^
+||advert.com.tr^
 ||ageverif.com^
 ||ahatm8od.top^
 ||ahrefs.com^
@@ -125,6 +126,7 @@
 ||crazyegg.com^$important
 ||creedimages.cfd^
 ||crisp.chat^$third-party
+||crisp.chat^$third-party
 ||criteo.net^
 ||criteo.net^$from=~with-subdomains
 ||crme7srv.com^
@@ -182,6 +184,8 @@
 ||gemius.pl^
 ||geniuslinkcdn.com^
 ||geoapify.com^$third-party
+||geolocation-db.com^
+||getbutton.io^
 ||getclicky.com^
 ||getnitropack.com^$document
 ||getnitropack.com^$third-party
@@ -199,6 +203,7 @@
 ||heapanalytics.com^
 ||heimalesssinpad.com^
 ||histats.com^$important
+||hoory.com^$third-party
 ||hostixz.com^$third-party
 ||hotjar.com^
 ||hs-banner.com^
@@ -208,6 +213,7 @@
 ||hubvisor.io^
 ||hyros.com^
 ||igodigital.com^
+||inistrack.net^
 ||inmobi.com^
 ||instana.io^
 ||instant.page^$third-party
@@ -235,10 +241,8 @@
 ||lampshadescreen.com^
 ||licensebuttons.net^
 ||lindiesoncoses.com^
-||livechatinc.com^$third-party,from=~with-subdomains
 ||livechatinc.com^$document,from=~3rd-party
-||hoory.com^$third-party
-||zadarma.com^$third-party
+||livechatinc.com^$third-party,from=~with-subdomains
 ||lngtd.com^
 ||loox.io^
 ||lups1.site^
@@ -264,6 +268,7 @@
 ||nitropay.com^
 ||nitroscripts.com^
 ||nr-data.net^
+||nsaudience.pl^
 ||numarapaneli.com^
 ||nwacixzrav.com^
 ||omappapi.com^
@@ -302,6 +307,7 @@
 ||pushengage.com^$important
 ||pxf.io^
 ||quantserve.com^
+||quickchat.ai^$third-party
 ||quietshalecompany.com^
 ||ravenjs.com^
 ||raygun.io^
@@ -332,6 +338,7 @@
 ||sitewit.com^
 ||sleevesbarbing.com^
 ||smartlook.com^
+||snivelinginsect.com^
 ||socialshopwave.com^
 ||solarcdn.me
 ||sonsurumapk.xyz^
@@ -362,6 +369,7 @@
 ||trafficjunky.com^
 ||transcend-cdn.com^
 ||trustarc.com^
+||trustpilot.com^$third-party
 ||tuckerclassesjackal.com^
 ||turk.pro^$third-party,from=~with-subdomains
 ||twibida.com^
@@ -397,13 +405,14 @@
 ||yadro.ru^
 ||ydsvirify.com^
 ||yektanet.com^
+||zadarma.com^$third-party
 ||zephr.com^$third-party
 ||ziffstatic.com^
 ||zohopublic.com^
-||quickchat.ai^$third-party
-||trustpilot.com^$third-party
-||nsaudience.pl^
-||inistrack.net^
+||botwafguard.net^
+||cxense.com^
+||p-n.io^
+||queryly.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -618,6 +627,7 @@
 ||b-cdn.milliyet.com.tr^
 ||reklam.milliyet.com.tr^
 ||reklam.misli.com^
+||stats.monohost.com^
 ||pixel.morphify.net^
 ||wss.morphify.net^
 ||qgymtv.motomax.com.tr^
