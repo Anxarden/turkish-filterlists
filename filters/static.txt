@@ -413,6 +413,8 @@
 ||cxense.com^
 ||p-n.io^
 ||queryly.com^
+||adsturn.com^
+||tlcgher.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
