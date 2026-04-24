@@ -115,7 +115,6 @@ filterblade.xyz##div[id~='leftsidecontainer'i]
 cracksurl.com##div.widget_media_image
 vk.com,vk.ru##section[class^='advertisingbanner-'i]
 
-
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
 ownedcore.com##div.body_wrap>div.shoutout
@@ -257,6 +256,8 @@ pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
 imgchest.com##a[href="/support"]:upward(main>div)
 freephone.io##div.fp-items-stretch:has(a[href$="/private-numbers"])
 freephone.io##a.fp-block[href$="/private-numbers"]
+tureng.com##div.neo-page
+tureng.com##li:has(svg.lucide-sparkles)
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
@@ -266,6 +267,7 @@ trt1.com.tr##div.hidden
 deepl.com##nav[aria-label="footer"i]
 ekonomim.com##footer
 vsetop.org##div#footer
+tureng.com##footer
 
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance

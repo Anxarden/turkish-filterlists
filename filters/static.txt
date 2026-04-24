@@ -3,22 +3,31 @@
 
 #-/ Privacy Enchantments
 !-/ [duckduckgo]
-||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com|~with-subdomains
+||duckduckgo.com^$third-party,~image,from=~spreadprivacy.com
+||improving.duckduckgo.com^
 !-/ [linkedin]
-||linkedin.com^$third-party,from=~with-subdomains
-||licdn.com^$from=~linkedin.com|~lnkd.in|~with-subdomains
-||lnkd.in^$from=~linkedin.com|~licdn.com
+||linkedin.com^$third-party
+||licdn.com^$third-party,from=~linkedin.com|~lnkd.in
+||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
 ||ads.linkedin.com^
 ||platform.linkedin.com^
+||media-akam.licdn.com^
+||snap.licdn.com^
 !-/ [apple]
-||apple.com^$third-party,from=~icloud.com|~with-subdomains
-||cdn-apple.com^$from=~apple.com|~icloud.com
+||apple.com^$third-party,from=~icloud.com
+||cdn-apple.com^$third-party,from=~apple.com|~icloud.com
+||securemetrics.apple.com^
 !-/ [reddit]
-||redditstatic.com^$script,from=~reddit.com
+||reddit.com^$third-party
+||redditstatic.com^$third-party,~image,from=~reddit.com
 !-/ [vk]
 ||vk.com^$third-party,from=~vk.ru|~vk.me|~vkvideo.ru|~mail.ru
+||ads.vk.com^
+||ms.vk.com^
 !-/ [yandex]
-||yandex.ru^$third-party,from=~dzen.ru|~with-subdomains
+||yandex.ru^$third-party,from=~dzen.ru
+||bs.yandex.ru^
+||mc.yandex.ru^
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
@@ -416,6 +425,7 @@
 ||adsturn.com^
 ||tlcgher.com^
 ||publicgood.com^
+||keskin-pop.vip^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -443,7 +453,6 @@
 ||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
-||securemetrics.apple.com^
 ||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
 ||swwcyk.aspor.com.tr^
@@ -518,7 +527,6 @@
 ||ad.donanimhaber.com^
 ||adserve.donanimhaber.com^
 ||matomo.drupart.com.tr^
-||improving.duckduckgo.com^
 ||clck.dzen.ru^
 ||ms.dzen.ru^
 ||eue.d-teknoloji.com.tr^
@@ -612,8 +620,6 @@
 ||eum.kuveytturk.com.tr^
 ||uunczm.lescon.com.tr^
 ||lkvkgk.levis.com.tr^
-||snap.licdn.com^
-||media-akam.licdn.com^
 ||vcegpu.libas.com.tr^
 ||cdn.livechatinc.com^
 ||ingress.linktr.ee^
@@ -753,8 +759,6 @@
 ||gmxcdm.vestel.com.tr^
 ||stats.videasy.net^
 ||stats.videoseyred.in^
-||ads.vk.com^
-||ms.vk.com^
 ||stats.vk-portal.net^
 ||ssc.voaturkce.com^
 ||tags.voaturkce.com^
@@ -787,8 +791,6 @@
 ||metrica.yandex.com.tr^
 ||metrika.yandex.com.tr^
 ||csp.yandex.net^
-||bs.yandex.ru^
-||mc.yandex.ru^
 ||analytics.yeet.su^
 ||ad.yemeksepeti.com^
 ||img.yemeksepeti.com^
