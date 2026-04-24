@@ -67,10 +67,14 @@ atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"
 blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
-documentaryarea.com,hlktrpl.cfd##div.jw-preview
+cracksurl.com##div.widget_media_image
+diziizle.now##div.ust-reklam
 documentaryarea.com##img.watermark
-internethaber.com##div.desktop-ad
+documentaryarea.com,hlktrpl.cfd##div.jw-preview
+dosyaload.com##div.alert
 faketempmail.com##a.banner-custom
+filterblade.xyz##div[id~='footeradcontainer'i]
+filterblade.xyz##div[id~='leftsidecontainer'i]
 fotomac.com.tr##a[aria-label~="reklam"i]
 fotomac.com.tr##a[href^="http://pubads."]
 fotomac.com.tr##div.google-news-widget
@@ -83,10 +87,11 @@ haberler.com##div[class^="reklam-"i]
 hlktrpl.cfd##div.jw-logo
 hlktrpl.cfd##div.jw-title
 hlktrpl.cfd##div[class="playertextreklam"i]
-hlktrpl.cfd,dosyaload.com##div.ad-placement
 hlktrpl.cfd##div[id~="adstop"i]
 hlktrpl.cfd##span[id="textreklamgoster"i]
+hlktrpl.cfd,dosyaload.com##div.ad-placement
 hurriyet.com.tr##section.adv
+internethaber.com##div.desktop-ad
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##div.bookstore-information
 myanimelist.net##div.manga-store-information
@@ -97,23 +102,19 @@ ntv.com.tr##div.taboola-container
 ntv.com.tr##div[class*="-ads-item-"]
 reddit.com##advertise-button
 sabah.com.tr##div[ad]
+smailpro.com##aside[class^="ads-"]
+sozcu.com.tr##div.ad
+sozcu.com.tr##div.reklam
 sozcu.com.tr##div[id="membranadesktop"i]
 sozcu.com.tr##div[id="membranamobile"i]
+sozcu.com.tr##section.reklam
 takvim.com.tr##div.bg-advert-mobile
+turktorrent.us##div#advertisements
+vk.com,vk.ru##section[class^='advertisingbanner-'i]
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
-sozcu.com.tr##div.ad
-sozcu.com.tr##div.reklam
-sozcu.com.tr##section.reklam
-turktorrent.us##div#advertisements
-dosyaload.com##div.alert
-smailpro.com##aside[class^="ads-"]
-filterblade.xyz##div[id~='footeradcontainer'i]
-filterblade.xyz##div[id~='leftsidecontainer'i]
-cracksurl.com##div.widget_media_image
-vk.com,vk.ru##section[class^='advertisingbanner-'i]
 
 !-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
 anizm.net##a.center-block[target=_blank]
@@ -405,3 +406,4 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 #- Whitelisted Filters
 #----------------------------------------------------------------------------------------------------#
 receive-smss.com#@#div[class*='-ads-'i]
+cizgimax.online#@#div[class$='-ad'i]

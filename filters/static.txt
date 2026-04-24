@@ -173,7 +173,7 @@
 ||elfsight.com^$third-party
 ||empower.net^
 ||enuygun.tech^$from=~with-subdomains
-||etahub.com^
+||etahub.com^$~xhr
 ||ethnicspue.com^
 ||evgnet.com^
 ||ezojs.com^
@@ -808,10 +808,8 @@
 ||ag2m2.cfd/js/$script
 ||ag2m4.cfd/js/$script
 ||anizm.net/*/s.js^$script
-||anizm.net/js/ala1.js^$script
 ||anizm.net/js/axium-*.js^$script
 ||anizm.net/js/custom.js^$script
-||anizm.net/js/dnsjnajadnsjndjgfas.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|nolovasaleer.com|cfd
 ||cdn.jsdelivr.net/npm/@snowplow/$script
