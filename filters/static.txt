@@ -426,6 +426,7 @@
 ||tlcgher.com^
 ||publicgood.com^
 ||keskin-pop.vip^
+||webbedtrash.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -838,7 +839,6 @@
 ||i.tmgrup.com.tr/tmd-consent/$script
 ||i.tmgrup.com.tr/tmd/$script
 ||i.tmgrup.com.tr/tmdwebpush/$script
-||iamcdn.net/player-v2/core.bundle.js^$script
 ||iamcdn.net/player-v2/sw.bundle.js^$script
 ||iamcdn.net/player/jwpsrv.js^$script
 ||iamcdn.net/player/sw.bundle.js^$script
