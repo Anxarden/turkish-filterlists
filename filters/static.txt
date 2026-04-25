@@ -26,8 +26,8 @@
 ||stacks.vk-portal.net^
 !-/ [yandex]
 ||yandex.ru^$third-party,from=~dzen.ru
-||clck.yandex.*
-||mc.yandex.*
+*$all,~popup,to=mc.yandex.*
+*$all,~popup,to=clck.yandex.*
 ||appmetrica.yandex.com^
 ||metrika.yandex.ru^
 ||csp.yandex.net^
@@ -891,6 +891,7 @@
 ||statics.sssrr.org/player/jwpsrv.js^$script
 ||watch.turkeyplayer.com/poster/$image
 ||wtsdde.cfd/js/$script
+||www.beymenclub.com/metrics/$script
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
 ||zi-scripts.com/zi-tag.js^$script
 #- Generic Paths Filters
