@@ -45,6 +45,9 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||yango.com^
+||poltio.com^
+||stripecdn.com^$third-party,domain=~stripe.com
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
 ||addthis.com^
@@ -136,7 +139,6 @@
 ||creedimages.cfd^
 ||crisp.chat^$third-party
 ||crisp.chat^$third-party
-||criteo.net^
 ||criteo.net^$from=~with-subdomains
 ||crme7srv.com^
 ||cronitor.io^$third-party,from=~with-subdomains
@@ -236,7 +238,7 @@
 ||jetlink.io^
 ||jivosite.com^
 ||jscloud.net^
-||jscrambler.com^
+||jscrambler.com^$from=~with-subdomains
 ||jwpltx.com^
 ||k-words.io^
 ||kameleoon.io^
@@ -427,6 +429,21 @@
 ||publicgood.com^
 ||keskin-pop.vip^
 ||webbedtrash.com^
+||pahtpw.tech^
+||onthe.io^
+||adnami.io^
+||addtoany.com^
+||omnisnippet1.com^
+||weglot.com^$from=~with-subdomains
+||riskified.com^
+||verbolia.com^
+||makroo.com^
+||segmentify.com^
+||go2sdk.com^$from=~with-subdomains
+||yapaytech.com^$from=~with-subdomains
+||criteo.com^
+||jetyorum.com^third-party
+||hscollectedforms.net^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -562,6 +579,7 @@
 ||new-sentry.gitlab.net^
 ||temp-akiva.glomil.com^
 ||wa.gmx.com^
+||js.go2sdk.com^
 ||s.gofile.io^
 ||fundingchoicesmessages.google.com^
 ||adservice.google.com.tr^
@@ -597,6 +615,7 @@
 ||halo.idocdn.com^
 ||ocdhbt.ihvan.com.tr^
 ||geoloc.imfexim.com^
+||event-tracker.inditex.com^
 ||sentry.ing.com.tr^
 ||pixels.ingbank.com.tr^
 ||ainu.intel.com.tr^
@@ -608,6 +627,7 @@
 ||gtmdev.jabra.com.tr^
 ||tracking.janssen.com.tr^
 ||kgguwk.jeep.com.tr^
+||wpi.jscrambler.com^
 ||ofvosb.jumbo.com.tr^
 ||g.jwpsrv.com^
 ||tr1.kaspersky.com.tr^
@@ -666,6 +686,7 @@
 ||analitik.pendik.bel.tr^
 ||cdn.pendo.io^
 ||owvqbd.perfumepoint.com.tr^
+||cdn.personaclick.com^
 ||rqhtgf.pierrecardin.com.tr^
 ||analytics.pipelife.com.tr^
 ||stats.pixeldrain.com^
@@ -704,6 +725,7 @@
 ||xenaly.sozcu.com.tr^
 ||ping.staticmoly.me^
 ||r.stripe.com^
+||q.stripe.com^
 ||ads.superonline.com^
 ||omni.superonline.net^
 ||somni.superonline.net^
@@ -722,7 +744,6 @@
 ||thtk.temu.com^
 ||sofire.terabox.com^
 ||cdn.threadloom.com^
-||analytics.tiktok.com^
 ||mon.tiktokv.com^
 ||mcs-va.tiktokv.com^
 ||ad01.tmgrup.com.tr^
@@ -768,6 +789,7 @@
 ||trk.vodafone.com.tr^
 ||igfjkh.vw.com.tr^
 ||smetric.vw.com.tr^
+||api.weglot.com^
 ||countly.wellbees.com.tr^
 ||matomo.whvn.cc^
 ||intake-analytics.wikimedia.org^
@@ -792,6 +814,7 @@
 ||metrica.yandex.com.tr^
 ||metrika.yandex.com.tr^
 ||csp.yandex.net^
+||cdn.yapaytech.com^
 ||analytics.yeet.su^
 ||ad.yemeksepeti.com^
 ||img.yemeksepeti.com^
