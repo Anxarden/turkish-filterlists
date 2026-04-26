@@ -274,9 +274,10 @@
 ||rvx.to^
 ||rvxapp.com^
 #- Paywall Websites
-||maskmail.io^$document,reason=paywall-after-signin
+||maskmail.io^$document,reason=paywall-after-register
 ||cloaked.com^$document,reason=no-free-tier
 ||sms-activate.guru^$document,reason=service-closed
 ||monochrome.tf^$document,reason=website-closed
 ||receive-sms.com^$document,reason=no-free-tier
 ||zenbe.com^$document,reason=service-closed
+||tempboxpro.com^$document,reason=service-not-working

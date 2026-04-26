@@ -49,6 +49,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||statlytic.net^
 ||ortto.com^
 ||geti2p.net^
 ||i2p.net^
@@ -581,6 +582,7 @@
 ||api-stg.ensonhaber.com^
 ||tracking.ensonhaber.com^
 ||sentry-prod.enuygun.tech^
+||datarouter.ol.epicgames.com^
 ||securetags.esri.com.tr^
 ||securetags.esriturkey.com.tr^
 ||tracking.faulhaber.com^
