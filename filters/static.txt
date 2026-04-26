@@ -49,6 +49,11 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
+||ortto.com^
+||geti2p.net^
+||i2p.net^
+||autopilothq.com^
+||requestmetrics.com^
 ||visilabs.net^
 ||my.com^
 ||ntv.io^
@@ -511,7 +516,6 @@
 ||uamult.biboya.com.tr^
 ||analitik.bik.gov.tr^
 ||data.bilibili.com^
-||bat.bing.com^
 ||c.bing.com^
 ||widget.bitay.com.tr^
 ||analytics.bkmobil.com.tr^
@@ -568,6 +572,7 @@
 ||eue.d-teknoloji.com.tr^
 ||pipe-collect.ebu.io^
 ||cwgwgo.ecanta.com.tr^
+||analytics.eclipso.de^
 ||bundles.efilli.com^
 ||metrics.egencia.com.tr^
 ||reklam.emlakkulisi.com^

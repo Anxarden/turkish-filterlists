@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı sağlar.
-! Last modified: 2026.04.25
+! Last modified: 2026.04.26
 ! Expires: 24 hours
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
@@ -277,3 +277,6 @@
 ||maskmail.io^$document,reason=paywall-after-signin
 ||cloaked.com^$document,reason=no-free-tier
 ||sms-activate.guru^$document,reason=service-closed
+||monochrome.tf^$document,reason=website-closed
+||receive-sms.com^$document,reason=no-free-tier
+||zenbe.com^$document,reason=service-closed
