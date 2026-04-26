@@ -50,9 +50,12 @@
 ||sanguinelygloballybuzzer.com^
 #-/ 3rd-Party Domain Blacklist @ Websites ~ [Advert and Privacy]
 ||statlytic.net^
+||coinzillatag.com^
+||webpushs.com^
 ||ortto.com^
 ||geti2p.net^
 ||i2p.net^
+||firstimpression.io^
 ||autopilothq.com^
 ||requestmetrics.com^
 ||visilabs.net^
@@ -134,7 +137,7 @@
 ||cdn-cookieyes.com^
 ||cdnstr.com^
 ||cedexis.com^
-||chartbeat.com^
+||chartbeat.com^$important
 ||chatango.com^$third-party
 ||chatbro.com^
 ||cleantalk.org^
@@ -253,8 +256,8 @@
 ||instana.io^
 ||instant.page^$document,from=~3rd-party
 ||instant.page^$third-party
-||palmate.ai^$third-party
 ||palmate.ai^$document,from=~3rd-party
+||palmate.ai^$third-party
 ||insurads.com^
 ||intercom.io^$document,from=~3rd-party
 ||intercom.io^$third-party
@@ -436,7 +439,6 @@
 ||usercentrics.eu^
 ||userreport.com^
 ||uservoice.com^$third-party,from=~with-subdomains
-||userway.org^$third-party
 ||usheebainaut.com^
 ||vdo.ai^
 ||vector.co^
@@ -467,6 +469,14 @@
 ||ziffstatic.com^
 ||zohopublic.com^
 ||whitei.net^
+||theadx.com^
+||cdn-script.com^
+||cookieseal.com^
+||cerezgo.com^
+||airbrake.io^
+||userway.org^
+||oorly.com^
+||iubenda.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -515,7 +525,6 @@
 ||sgtm.beko.com.tr^
 ||text.benefitsatwork.com.tr^
 ||uamult.biboya.com.tr^
-||analitik.bik.gov.tr^
 ||data.bilibili.com^
 ||c.bing.com^
 ||widget.bitay.com.tr^
