@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı sağlar.
-! Last modified: 2026.04.26
+! Last modified: 2026.04.27
 ! Expires: 24 hours
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
@@ -187,10 +187,8 @@
 ||extratorrents.it^
 ||hambiltonian.com^
 ||planetdp.org^
-||rarbg.to
 ||samforum.org^
 ||torrent-indir.net^
-||torrentgalaxy.to^
 ||torrenthane.net^
 ||turknova.net^
 ||turknova.org^
@@ -273,7 +271,7 @@
 ||yasdl.com^
 ||rvx.to^
 ||rvxapp.com^
-#- Paywall Websites
+#- Deprecated Websites
 ||maskmail.io^$document,reason=paywall-after-register
 ||cloaked.com^$document,reason=no-free-tier
 ||sms-activate.guru^$document,reason=service-closed
@@ -281,3 +279,5 @@
 ||receive-sms.com^$document,reason=no-free-tier
 ||zenbe.com^$document,reason=service-closed
 ||tempboxpro.com^$document,reason=service-not-working
+||torrentgalaxy.to^$document,reason=website-closed
+||rarbg.to^$document,reason=website-closed
