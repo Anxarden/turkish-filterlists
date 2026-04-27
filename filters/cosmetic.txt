@@ -296,6 +296,8 @@ duckduckgo.com##article:has([href*="//www.haberler.com/"]):upward(li)
 www.google.*##span>a[href*="//www.haberler.com/"]:upward(div#rso>div)
 www.qwant.com##div[domain*="//www.haberler.com/"]:upward(div)
 www.startpage.com##div.result:has(>a[href*="//www.haberler.com/"])
+!-/ clickbaiting results
+www.google.*##span>a[href*=".download.it/"]:upward(div#rso>div)
 
 #- Website Fixes
 !- disable adblock detection and hide loading status for player
@@ -393,7 +395,6 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##div[class$="-ad-container"i]
 ##div[class*="-ads-"i]
 ##div[class~="ads-container"i]
-##.container-ads-adjustment:upward(div[class^=header])
 !- diziwatch.biz, diziwatch\d+.com, hdfilmcehennemi\d+.com
 ##body>div.body-clickable
 !- internethaber.com, dunya.com, gazetehaber.com
@@ -401,6 +402,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 !- generic anchor filters
 ##a[href^="https://t2m.io/"]
 ##a[href^="https://cutt.ly/"]
+##a[href^="https://shrgo.net/"]
 
 #----------------------------------------------------------------------------------------------------#
 #- Whitelisted Filters

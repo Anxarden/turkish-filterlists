@@ -163,21 +163,18 @@
 ||xvpn.io^
 ||zenmate.com^
 !- Shady Software Download Websites (Badware and Anti-Privacy)
+*$all,~popup,to=softonic.*
+||softonic-*.com^
+
 ||aptoide.com^
 ||bluesmods.com^
 ||cnet.com^
 ||download.com^
-||download.it^
-||downloadly.ir^
-||downloadly.net^
-||downloadlyir.com^
-||downloadlynet.ir^
+||download.it^$domain=~shady-sofware
+||uptodown.com^$domain=~shady-sofware
 ||filecr.com^
 ||filehorse.com^
 ||indir.org^
-||softonic.com.tr^
-||softonic.com^
-||uptodown.com^
 ||zdnet.com^
 ||zdnet.de^
 ||softmany.com^
@@ -281,3 +278,5 @@
 ||tempboxpro.com^$document,reason=service-not-working
 ||torrentgalaxy.to^$document,reason=website-closed
 ||rarbg.to^$document,reason=website-closed
+||mp3indirdur.pro^$document,reason=service-not-working
+||downloadly.net^$document,reason=shady-website
