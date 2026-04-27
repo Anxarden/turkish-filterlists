@@ -165,18 +165,15 @@
 !- Shady Software Download Websites (Badware and Anti-Privacy)
 *$all,~popup,to=softonic.*
 ||softonic-*.com^
-
-||aptoide.com^
-||bluesmods.com^
 ||cnet.com^
 ||download.com^
-||download.it^$domain=~shady-sofware
-||uptodown.com^$domain=~shady-sofware
+||download.it^
+||uptodown.com^
+||aptoide.com^
+||bluesmods.com^$reason=badware-risk
 ||filecr.com^
 ||filehorse.com^
 ||indir.org^
-||zdnet.com^
-||zdnet.de^
 ||softmany.com^
 !-	Expired/Parked Domains of Old Websites
 ||filecad.com^
@@ -268,6 +265,8 @@
 ||yasdl.com^
 ||rvx.to^
 ||rvxapp.com^
+||singlelogin.cc^$reason=fake-clone-zlibrary
+||z-library.co^$reason=fake-clone-zlibrary
 #- Deprecated Websites
 ||maskmail.io^$document,reason=paywall-after-register
 ||cloaked.com^$document,reason=no-free-tier

@@ -292,12 +292,15 @@ www.startpage.com##div.result:has(>a[href*="//oxygennotincluded.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//pathofexile.fandom.com/"])
 www.startpage.com##div.result:has(>a[href*="//minecraft.fandom.com/"])
 !-/	spamdexing baitclick news/content
-duckduckgo.com##article:has([href*="//www.haberler.com/"]):upward(li)
-www.google.*##span>a[href*="//www.haberler.com/"]:upward(div#rso>div)
-www.qwant.com##div[domain*="//www.haberler.com/"]:upward(div)
-www.startpage.com##div.result:has(>a[href*="//www.haberler.com/"])
+duckduckgo.com##article:has([href*=".haberler.com/"]):upward(li)
+search.brave.com##a[href*=".haberler.com/"]:upward(div#results>div.snippet)
+www.google.*##span>a[href*=".haberler.com/"]:upward(div#rso>div)
+www.qwant.com##div[domain*=".haberler.com/"]:upward(div)
+www.startpage.com##div.result:has(>a[href*=".haberler.com/"])
 !-/ clickbaiting results
 www.google.*##span>a[href*=".download.it/"]:upward(div#rso>div)
+www.google.*##span>a[href*=".uptodown.com/"]:upward(div#rso>div)
+www.google.*##span>a[href*=".softonic.com/"]:upward(div#rso>div)
 
 #- Website Fixes
 !- disable adblock detection and hide loading status for player
