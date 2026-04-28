@@ -93,6 +93,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||united-infos.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
@@ -199,7 +200,8 @@
 ||creedimages.cfd^
 ||crisp.chat^$third-party
 ||criteo.com^
-||criteo.net^$from=~with-subdomains
+||criteo.net^$document,from=~3rd-party
+||criteo.net^$third-party,from=~with-subdomains
 ||crme7srv.com^
 ||cronitor.io^$third-party,from=~with-subdomains
 ||customer.io^
