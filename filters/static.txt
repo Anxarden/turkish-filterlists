@@ -726,6 +726,7 @@
 ||webstats.garantibbva.com.tr^
 ||nqtinp.germirli.com.tr^
 ||new-sentry.gitlab.net^
+||trx.gitlab.net^
 ||temp-akiva.glomil.com^
 ||wa.gmx.com^
 ||js.go2sdk.com^
