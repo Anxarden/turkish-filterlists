@@ -93,6 +93,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||chilipiper.com^
 ||united-infos.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
@@ -383,7 +384,8 @@
 ||optimove.net^
 ||oracleinfinity.io^
 ||ortto.com^
-||osano.com^$third-party
+||osano.com^$third-party,from=~with-subdomains
+||osano.com^$document,from=~3rd-party
 ||outbrain.com^
 ||p-n.io^
 ||pa-cd.com^
@@ -568,6 +570,8 @@
 ||zephr.com^$third-party
 ||ziffstatic.com^
 ||zohopublic.com^
+||hubspotfeedback.com^
+||zi-scripts.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -1099,7 +1103,6 @@
 ||wtsdde.cfd/js/$script
 ||www.beymenclub.com/metrics/$script
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
-||zi-scripts.com/zi-tag.js^$script
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
