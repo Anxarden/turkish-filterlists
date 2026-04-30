@@ -573,6 +573,8 @@
 ||hubspotfeedback.com^
 ||zi-scripts.com^
 ||adlightning.com^
+||servedby-buysellads.com^
+||us-cdnbo.org^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
