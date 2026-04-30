@@ -572,6 +572,7 @@
 ||zohopublic.com^
 ||hubspotfeedback.com^
 ||zi-scripts.com^
+||adlightning.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -598,6 +599,7 @@
 ||advertising.amazon.com^
 ||fls-eu.amazon.com.tr^
 ||fls-na.amazon.com^
+||unagi-eu.amazon.com^
 ||unagi.amazon.com.tr^
 ||unagi.amazon.com^
 ||analyticsengine.s3.amazonaws.com^
