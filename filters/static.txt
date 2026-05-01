@@ -576,6 +576,7 @@
 ||servedby-buysellads.com^
 ||us-cdnbo.org^
 ||partnerstack.com^
+||2mdn.net^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
