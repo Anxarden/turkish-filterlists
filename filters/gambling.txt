@@ -176,6 +176,8 @@
 ||yakabet*.com^
 ||zbahis*.com^$from=~alpha-digits
 ||zirvebet*.com^
+||denizcasino*.com^
+||epybet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -339,7 +341,6 @@
 ||affbetyoner.com^
 ||affbullpartners.com^
 ||affdeo.com^
-||affgar.com^
 ||affpa.top^
 ||affsbet.com^
 ||affshowbet.com^
@@ -517,8 +518,6 @@
 ||cxaff.com^
 ||cybermondo.com^
 ||damabet.com^
-||daytrack.cc^
-||dedeaff.com^
 ||dedeoyna.com^
 ||dellabetadresi.com^
 ||demoslotsoyna.com^
@@ -568,7 +567,6 @@
 ||everymatrix.com^
 ||excelaffiliates.com^
 ||exelgame.com^
-||exontrack.com^
 ||eyeleo.com^
 ||fairegir.com^
 ||fastgames-bog.com^
@@ -762,7 +760,6 @@
 ||opapaffiliates.gr^
 ||orananaliziyap.com^
 ||orisbetgiris.com.tr^
-||ortakbayii.com^
 ||ortakkazanim.com^
 ||ortaklikkazanci.com^
 ||owcontent.com^
@@ -774,7 +771,6 @@
 ||pakkisalink.com^
 ||parabets.top^
 ||paralucky.sbs^
-||partnerbayiniz.com^
 ||partnerprofitboost.com^
 ||partnerprofitsource.com^
 ||partnerskareasbet.com^
@@ -803,7 +799,6 @@
 ||qaxcraveniq.com^
 ||rada.gov.jm^
 ||radabetgirisi.com^
-||radiaff.com^
 ||ramada.gen.tr^
 ||ramadabonus.com^
 ||realmadridtwo.com^
@@ -838,7 +833,6 @@
 ||sevenslots.tr^
 ||sherwoodicearena.com^
 ||shoparborhills.com^
-||shortdigest.site^
 ||shortening.link^
 ||shorterflix.com^
 ||shorters.online^
@@ -889,7 +883,6 @@
 ||strongbetter.shop^
 ||sugarrushoyna.com^
 ||supernaturalprodutos.com.br^
-||superortaklik.com^
 ||superpetbazaar.net^
 ||support-tech.io^
 ||suratbt.com^
