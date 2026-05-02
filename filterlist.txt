@@ -279,3 +279,7 @@
 ||rarbg.to^$document,reason=website-closed
 ||mp3indirdur.pro^$document,reason=service-not-working
 ||downloadly.net^$document,reason=shady-website
+||dizipal.plus^$document,reason=parked-domain
+||dizipal.info^$document,reason=empty-promise
+||dizipal.life^$document,reason=website-closed
+||dizipalizle.eu^$document,reason=parked-domain

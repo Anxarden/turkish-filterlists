@@ -124,7 +124,7 @@ ownedcore.com##div.body_wrap>div.so-wrapper
 rockmods.net##ins:matches-attr(/^data-sizes-/)
 rockmods.net##div.container:has(>ins)
 ahaber.com.tr##div.announcement-widget:upward(div.col)
-ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
+!ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
 fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
 ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
 katfile.com##div#container:has(div.recommended)

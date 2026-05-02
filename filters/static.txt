@@ -93,6 +93,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||revotas.com^
 ||assetsconfigcdn.org^
 ||chilipiper.com^
 ||united-infos.net^
@@ -682,18 +683,19 @@
 ||vedznh.cumhuriyet.com.tr^
 ||campaigns.cyberinsider.com^
 ||eue.d-teknoloji.com.tr^
+||tracker.dcdlcloud.com^
 ||wbswtr.decathlon.com.tr^
 ||gtm.deepl.com^
 ||s.deepl.com^
 ||ctllup.deery.com.tr^
 ||sentinel.defacto.com.tr^
 ||woowjy.desa.com.tr^
-||ad.dline.com.tr^
 ||bvz5.destinia.com.tr^
 ||sw88.disney.com.tr^
 ||sw88.disneymagicmoments.gen.tr^
 ||sw88.disneyturkiye.com.tr^
 ||ldckmk.divarese.com.tr^
+||ad.dline.com.tr^
 ||metrics.dominos.com.tr^
 ||ad.donanimhaber.com^
 ||adserve.donanimhaber.com^
@@ -964,8 +966,12 @@
 ||ads-sg.tiktok.com^
 ||ads.tiktok.com^
 ||business-api.tiktok.com^
+||mcs-ie2.tiktokw.eu^
+||mcs16-normal-no1a.tiktokw.eu^
 ||mon.tiktokv.com^
 ||mcs-va.tiktokv.com^
+||mon-i18n.tiktokv.com^
+||mon16-normal-no1a.tiktokv.eu^
 ||ad01.tmgrup.com.tr^
 ||banner.tmgrup.com.tr^
 ||ipcheck.tmgrup.com.tr^
@@ -984,6 +990,7 @@
 ||atwcby.trikomisirli.com.tr^
 ||iplocation-api.wp.trt.com.tr^
 ||istatistik.trthaber.com^
+||webanalytics.tubitak.gov.tr^
 ||srv.tunefindforfans.com^
 ||analytics.turk.pro^
 ||ruvdkw.turk.net^
@@ -1112,6 +1119,9 @@
 ||wtsdde.cfd/js/$script
 ||www.beymenclub.com/metrics/$script
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
+||yabancidizim.com/serv1/*.gif^$image
+||yabancidizim.com/serv1/devdetect.js^$script
+||yabancidizim.com/ads/ads.xml^$xhr
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
