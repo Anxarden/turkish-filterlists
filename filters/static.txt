@@ -93,6 +93,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||assetsconfigcdn.org^
 ||chilipiper.com^
 ||united-infos.net^
 ||2o7.net^
@@ -750,6 +751,8 @@
 ||fundingchoicesmessages.google.com^
 ||id.google.com^
 ||ogads-pa.clients6.google.com^
+||appsgrowthpromo-pa.clients6.google.com^
+||peoplestackwebexperiments-pa.clients6.google.com^
 ||firebase.googleapis.com^
 ||firebaseinstallations.googleapis.com^
 ||docs.gravatar.com^
@@ -1119,4 +1122,5 @@
 /rklm/resim/*$image
 /themes/bepeak/assets/js/*$script
 /themes/bepeak/js/notif.js^$first-party,script,to=/\bdizipal\d{3}\.com$/
+||plausible.*/js/script.js^$script
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
