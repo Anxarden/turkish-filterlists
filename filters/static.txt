@@ -44,9 +44,11 @@
 ||stacks.vk-portal.net^
 !-/ [yandex]
 ||yandex.ru^$third-party,from=~dzen.ru
+@@||downloader.disk.yandex.ru/disk/$third-party,media
+@@||downloader.disk.yandex.ru/preview/$third-party,image
 *$all,~popup,to=ads.yandex.*
 *$all,~popup,to=analytics.yandex.*
-*$all,~popup,to=appmetrica.yandex.*|appmetrika.yandex.*|
+*$all,~popup,to=appmetrica.yandex.*|appmetrika.yandex.*
 *$all,~popup,to=mc.yandex.*
 *$all,~popup,to=metrika.yandex.*|metrica.yandex.*
 *$all,~popup,to=stat.yandex.*
@@ -157,7 +159,6 @@
 ||birthaslaver.com^
 ||bocheskelly.com^
 ||bodis.com^
-||bootcdn.net^
 ||botwafguard.net^
 ||brainsland.com^
 ||branch.io^
@@ -594,6 +595,7 @@
 ||sa.adidas.com.tr^
 ||swwcyk.ahaber.com.tr^
 ||api-dataroid.akbank.com^
+||eflbundles.akbank.com^
 ||api-dataroid.akbank.com.tr^
 ||cdn-dataroid.akbank.com.tr^
 ||rikhmw.aktifbank.com.tr^
