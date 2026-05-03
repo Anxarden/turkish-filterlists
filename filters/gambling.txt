@@ -18,7 +18,8 @@
 *$all,~popup,to=/\b\d*xslot\b/
 *$all,~popup,to=/\b\d*zlot\b/
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
-*btcoservice.com^$to=/\b\d*btcoservice\b/,reason=gambling-cdn
+*btcoservice.com^$to=/\d+btcoservice/,reason=gambling-cdn
+||btcoservice*.com^$to=/btcoservice\d*/,reason=gambling-cdn
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -178,6 +179,22 @@
 ||zirvebet*.com^
 ||denizcasino*.com^
 ||epybet*.com^
+||polobet*.com^
+||betorbet*.com^
+||onlybet*.com^
+||bovbet*.com^
+||wipbet*.com^
+||napolibet*.com^
+||stonebahis*.com^
+||slotspor*.com^
+||bullbahis*.com^
+||bahisvebahis*.com^
+||medobet*.com^
+||bugibet*.com^
+||grandchamadabet*.com^
+||betparagon*.com^
+||festwin*.com^
+||kargabet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -319,6 +336,15 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||hocosoftware.com^
+||upgator.io^
+||trexname.com^
+||kafacasino.com^
+||ceptetribun.com^
+||cdnbimage.com^
+||ytekdesign.live^
+||cloudfnont.com^
+||ppgames.net^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^
@@ -838,7 +864,6 @@
 ||shorters.online^
 ||shortfive.online^
 ||shortla.com^
-||shortlink.ist^
 ||shortpals.online^
 ||sidiief.org^
 ||silentbet.com^
@@ -1010,7 +1035,6 @@
 ||bis2020.com
 ||bonussemti3.com^$domain=~link-hub
 ||bossseoteoman.com^
-||btcoservice5.com^
 ||btmgiris4.com^
 ||buyukortak1.com^
 ||cachelineib60293.net^
@@ -1079,6 +1103,7 @@
 ||prmbw.com^
 ||sdayy.xyz^
 ||ttagc.xyz^
+||hbwjja.cc^
 ||swqlaf.xyz^
 ||bcapps.org^
 ||bhszab.com^
@@ -1213,6 +1238,7 @@
 ||kutbdjfhftgdsksl.com^
 ||bn27redirectfast.com^
 ||xf38lo22j1y0ihymst.com^
+||fghjklcvccbcnskfjnz.cloud^
 ||ac873817b738b056b2878225375542cb.com^
 ||2p2hnybhdgxjtgf6uqhso3tel6z5kdsa.xyz^
 ||760fket4m13v3v2i3zwtx13bgrr6n30s.xyz^
@@ -1242,6 +1268,7 @@
 ||bookmkrs.s3.amazonaws.com^
 ||canli-bahis.s3.*.amazonaws.com^
 ||cdn-ilcfbjl.nitrocdn.com^
+||d1b82hscw3e9o2.cloudfront.net^
 ||d3psi4rj7mv4u4.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||d56vh6ph4jjmq.cloudfront.net^
@@ -1254,6 +1281,7 @@
 ||yeni-adres.s3.*.amazonaws.com^
 ||vendor-provider.*.digitaloceanspaces.com^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
+||garlic-dev.*.digitaloceanspaces.com^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/*
 ||res.akamai-cloud.com/kingroyal/*

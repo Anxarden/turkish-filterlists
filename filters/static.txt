@@ -95,10 +95,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
-||revotas.com^
-||assetsconfigcdn.org^
-||chilipiper.com^
-||united-infos.net^
+||2mdn.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
@@ -110,6 +107,7 @@
 ||adhouse.pro^
 ||adition.com^
 ||adj.st^
+||adlightning.com^
 ||admatic.com.tr^
 ||admost.com^
 ||adnami.io^
@@ -146,6 +144,7 @@
 ||armillaboxcars.com^
 ||artfiles.online^
 ||ashoupsu.com^
+||assetsconfigcdn.org^
 ||atrodhki.com^
 ||autopilothq.com^
 ||bablosoft.com^$third-party,from=~with-subdomains
@@ -178,6 +177,7 @@
 ||chartbeat.com^$important
 ||chatango.com^$third-party
 ||chatbro.com^
+||chilipiper.com^
 ||cleantalk.org^
 ||clearbitjs.com^
 ||clickguard.com^
@@ -296,6 +296,7 @@
 ||hscollectedforms.net^
 ||hsforms.com^
 ||hubspot.com^
+||hubspotfeedback.com^
 ||hubvisor.io^
 ||hyros.com^
 ||i2p.net^
@@ -387,8 +388,8 @@
 ||optimove.net^
 ||oracleinfinity.io^
 ||ortto.com^
-||osano.com^$third-party,from=~with-subdomains
 ||osano.com^$document,from=~3rd-party
+||osano.com^$third-party,from=~with-subdomains
 ||outbrain.com^
 ||p-n.io^
 ||pa-cd.com^
@@ -399,12 +400,13 @@
 ||palmate.ai^$document,from=~3rd-party
 ||palmate.ai^$third-party
 ||parsely.com^$important
+||partnerstack.com^
 ||pdst.fm^
 ||pendo.io^$from=~with-subdomains
 ||perfops.net^$third-party
 ||permutive.com^
-||personaclick.com^$third-party,from=~with-subdomains
 ||personaclick.com^$document,from=~3rd-party
+||personaclick.com^$third-party,from=~with-subdomains
 ||pghub.io^
 ||pigeoon.com^
 ||pingdom.net^
@@ -423,7 +425,8 @@
 ||protect-ad.com^
 ||publicgood.com^
 ||punmetrats.com^
-||pushengage.com^$important
+||pushengage.com^$document,from=~3rd-party
+||pushengage.com^$third-party
 ||pushpad.xyz^
 ||pxf.io^
 ||qortex.ai^
@@ -444,6 +447,7 @@
 ||reklamstore.com^
 ||relateddigital.com^
 ||requestmetrics.com^
+||revotas.com^
 ||rickywhence.com^
 ||riskified.com^
 ||rollbar.com^
@@ -459,6 +463,7 @@
 ||sentinelpro.com^
 ||sentry-cdn.com^
 ||sentry.io^
+||servedby-buysellads.com^
 ||setrowid.com^
 ||setupcmp.com^
 ||shalltry.com^
@@ -529,7 +534,9 @@
 ||umami.is^
 ||unasonoric.com^$from=~with-subdomains
 ||unifyintent.com^
+||united-infos.net^
 ||unuodkswo.com^
+||us-cdnbo.org^
 ||usefathom.com^
 ||useinsider.com^
 ||usemessages.com^
@@ -572,15 +579,9 @@
 ||yieldmo.com^
 ||zadarma.com^$third-party
 ||zephr.com^$third-party
+||zi-scripts.com^
 ||ziffstatic.com^
 ||zohopublic.com^
-||hubspotfeedback.com^
-||zi-scripts.com^
-||adlightning.com^
-||servedby-buysellads.com^
-||us-cdnbo.org^
-||partnerstack.com^
-||2mdn.net^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
