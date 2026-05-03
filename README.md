@@ -16,9 +16,9 @@ Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile
 ## 📋 Önerilen Diğer Listeler
 Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkinleştirilmesi önerilir. **Filtre listemizin bu listelerle birlikte kullanılması daha etkili koruma ve engelleme sağlayacaktır.**
 * **Temel Güvenlik Listeleri (ikisinin de seçilmesi önerilir)**
-  * [**Dandelion Sprout's Anti-Malware List**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List) – Kötü amaçlı yazılım dağıtan, phishing veya scam içeren siteleri engeller.
+  * [**Dandelion Sprout's Anti-Malware List**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List) <br> Kötü amaçlı yazılım dağıtan, phishing veya scam içeren siteleri engeller.
 
-  * [**Actually Legitimate URL Shortener Tool**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool) – URL'lerden gereksiz parametreleri temizler, kopyalamayı ve paylaşmayı kolaylaştırır.
+  * [**Actually Legitimate URL Shortener Tool**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool) <br> URL'lerden gereksiz parametreleri temizler, kopyalamayı ve paylaşmayı kolaylaştırır.
 
 * **Reklam Engelleme (yalnızca 1 seçenek):**
   * **Seçenek A:** [**AdGuard Base + EasyList (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt&title=AdGuard%20Base%20%2B%20EasyList%20(Optimized)) veya
