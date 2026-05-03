@@ -403,7 +403,8 @@
 ||pendo.io^$from=~with-subdomains
 ||perfops.net^$third-party
 ||permutive.com^
-||personaclick.com^$third-party
+||personaclick.com^$third-party,from=~with-subdomains
+||personaclick.com^$document,from=~3rd-party
 ||pghub.io^
 ||pigeoon.com^
 ||pingdom.net^
