@@ -18,20 +18,19 @@ Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkin
 
 > 🔒 **Önemli:** uBlock Origin eklentisinde **"Gömülü Filtreler" (Built-in Filters)** bölümü altındaki tüm filtrelerin **kesinlikle etkinleştirilmiş olması gerekmektedir.** Bu filtreler, eklentinin temel koruma katmanını oluşturur. Aşağıdaki ek listeler, bu temel korumayı tamamlamak içindir. Aşağıda gruplar halinde seçeneklere ayrılmış filtrelerden **yalnızca bir tanesini** etkinleştirmeniz yeterlidir. Çakışma ve performans sorunları yaşamamak için aynı kategoriden birden fazla liste kullanmayın.
 
-* **Temel Güvenlik Listeleri (ikisinin de seçilmesi önerilir)**
+* <ins>**Temel Güvenlik Listeleri :**</ins> *`ikisinin de seçilmesi önerilir`*
   * [**Dandelion Sprout's Anti-Malware List**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List) <br> Kötü amaçlı yazılım dağıtan, phishing veya scam içeren siteleri engeller.
-
   * [**Actually Legitimate URL Shortener Tool**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool) <br> URL'lerden gereksiz parametreleri temizler, kopyalamayı ve paylaşmayı kolaylaştırır.
 
-* **Reklam Engelleme (yalnızca 1 seçenek):**
+* <ins>**Reklam Engelleme :**</ins> *`yalnızca bir seçenek`*
   * **Seçenek A:** [**AdGuard Base + EasyList (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt&title=AdGuard%20Base%20%2B%20EasyList%20(Optimized)) veya
   * **Seçenek B:** [**EasyList (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt&title=EasyList%20(Optimized))
 
-* **Gizlilik ve Takip Engelleme (yalnızca 1 seçenek):**
+* <ins>**Gizlilik ve Takip Engelleme :**<ins>*`yalnızca 1 seçenek`*
   * **Seçenek A:** [**AdGuard Tracking Protection (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt&title=AdGuard%20Tracking%20Protection%20(Optimized)) veya
   * **Seçenek B:** [**EasyPrivacy (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt&title=EasyPrivacy%20(Optimized))
 
-* **Can Sıkıcı Öğeler (yalnızca 1 seçenek):**
+* <ins>**Can Sıkıcı Öğeler :**<ins>*`yalnızca 1 seçenek`*
   * **Seçenek A:** [**AdGuard Annoyances (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt&title=AdGuard%20Annoyances%20(Optimized)) **+** [**AdGuard Social Media (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt&title=AdGuard%20Social%20Media%20(Optimized)) *(birlikte)* veya
   * **Seçenek B:** [**Fanboy's Annoyances (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt&title=Fanboy's%20Annoyances%20(Optimized)) *(tek başına)*
 
