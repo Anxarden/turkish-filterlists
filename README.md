@@ -15,6 +15,9 @@ Bu filtre listesi, **uBlock Origin**, **AdGuard** gibi reklam engelleyiciler ile
 
 ## 📋 Önerilen Diğer Listeler
 Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkinleştirilmesi önerilir. **Filtre listemizin bu listelerle birlikte kullanılması daha etkili koruma ve engelleme sağlayacaktır.**
+
+> 🔒 **Önemli:** uBlock Origin eklentisinde **"Gömülü Filtreler" (Built-in Filters)** bölümü altındaki tüm filtrelerin **kesinlikle etkinleştirilmiş olması gerekmektedir.** Bu filtreler, eklentinin temel koruma katmanını oluşturur. Aşağıdaki ek listeler, bu temel korumayı tamamlamak içindir. Aşağıda gruplar halinde seçeneklere ayrılmış filtrelerden **yalnızca bir tanesini** etkinleştirmeniz yeterlidir. Çakışma ve performans sorunları yaşamamak için aynı kategoriden birden fazla liste kullanmayın.
+
 * **Temel Güvenlik Listeleri (ikisinin de seçilmesi önerilir)**
   * [**Dandelion Sprout's Anti-Malware List**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List) <br> Kötü amaçlı yazılım dağıtan, phishing veya scam içeren siteleri engeller.
 
@@ -33,8 +36,6 @@ Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkin
   * **Seçenek B:** [**Fanboy's Annoyances (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt&title=Fanboy's%20Annoyances%20(Optimized)) *(tek başına)*
 
 > ℹ️ **Not:** Yukarıdaki listeler **optimize edilmiş (optimized)** sürümlerdir. Bu sürümler, gereksiz kuralları ayıklanmış, birleştirilmiş ve performans iyileştirmesi yapılmış hallerdir. Standart listelere kıyasla daha az kaynak tüketir ve daha hızlı çalışır.
-
-> ⚠️ **Önemli:** "veya" ile ayrılmış seçeneklerde **yalnızca bir tanesini** etkinleştirmeniz yeterlidir. Çakışma ve performans sorunları yaşamamak için aynı kategoriden birden fazla liste kullanmayın.
 
 <br>
 
