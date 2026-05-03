@@ -123,7 +123,7 @@
 ||hititbet*.com^
 ||huqqabet*.com^
 ||interbahis*.com^
-||kingroyal*.com^$to=/\bkingroyal\d*\.com$/
+||kingroyal*.com^$to=/kingroyal\d*\.com$/
 ||ligobet*.com^
 ||locabet*.com^$from=~alpha-digits
 ||lordbahis*.com^
@@ -149,7 +149,7 @@
 ||oslobet*.com^
 ||otobet*.com^
 ||paripulse-*.pro^
-||pinco*.win^$to=/\bpinco\d*\.win$/
+||pinco*.win^$to=/pinco\d*\.win$/
 ||probet*.com^
 ||restbet*.com^
 ||retrobet*.com^
@@ -159,9 +159,8 @@
 ||sheratonking*.com^
 ||showbet*.com^
 ||sloganbahis*.com^
-||sloganbahis*.com^
 ||solobet*.com^
-||stake*.com^$to=/\bskate\d*\.com$/
+||stake*.com^$to=/skate\d*\.com$/
 ||starora*.com^
 ||supertotobet*.com^
 ||suratbet*.com^
@@ -190,11 +189,29 @@
 ||bullbahis*.com^
 ||bahisvebahis*.com^
 ||medobet*.com^
+||betifa*.com^
 ||bugibet*.com^
 ||grandchamadabet*.com^
 ||betparagon*.com^
 ||festwin*.com^
 ||kargabet*.com^
+||lakebahis*.com^
+||efsino*.com^
+||vegasslot*.com^
+||ebitbet*.com^
+||fitcas*.com^
+||katla*.com^
+||kalebet*.com^
+||extrabet*.com^
+||kavbet*.com^
+||jojova*.com^
+||windbet*.com^
+||betbon*.com^
+||betroz*.com^
+||casiwin*.com^
+||betbigo*.com^
+||betnis*.com^
+||tambet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -1282,6 +1299,7 @@
 ||vendor-provider.*.digitaloceanspaces.com^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
 ||garlic-dev.*.digitaloceanspaces.com^
+||katla.b-cdn.net^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/*
 ||res.akamai-cloud.com/kingroyal/*

@@ -1099,7 +1099,7 @@
 ||haberler.com/firebase-messaging-sw.js^$script
 ||haberler.com/mstatic/assets/js/bildirimpopup.js^$script
 ||haberlercom.github.io/main/prebid$script
-||haberturk.com/adscbg/cbglout.js$script
+||haberturk.com/adscbg/$script
 ||hlktrpl.cfd/player/assets/uploads/$image
 ||i.tmgrup.com.tr/tmd-consent/$script
 ||i.tmgrup.com.tr/tmd/$script
@@ -1126,6 +1126,7 @@
 ||yabancidizim.com/serv1/*.gif^$image
 ||yabancidizim.com/serv1/devdetect.js^$script
 ||yabancidizim.com/ads/ads.xml^$xhr
+||kultfilmler.net/popad4.js^$script
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
