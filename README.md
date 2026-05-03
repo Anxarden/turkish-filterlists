@@ -26,11 +26,11 @@ Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkin
   * **Seçenek A:** [**AdGuard Base + EasyList (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt&title=AdGuard%20Base%20%2B%20EasyList%20(Optimized)) veya
   * **Seçenek B:** [**EasyList (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt&title=EasyList%20(Optimized))
 
-* <ins>**Gizlilik ve Takip Engelleme :**<ins>*`yalnızca 1 seçenek`*
+* <ins>**Gizlilik ve Takip Engelleme :**</ins>*`yalnızca 1 seçenek`*
   * **Seçenek A:** [**AdGuard Tracking Protection (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt&title=AdGuard%20Tracking%20Protection%20(Optimized)) veya
   * **Seçenek B:** [**EasyPrivacy (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt&title=EasyPrivacy%20(Optimized))
 
-* <ins>**Can Sıkıcı Öğeler :**<ins>*`yalnızca 1 seçenek`*
+* <ins>**Can Sıkıcı Öğeler :**</ins>*`yalnızca 1 seçenek`*
   * **Seçenek A:** [**AdGuard Annoyances (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt&title=AdGuard%20Annoyances%20(Optimized)) **+** [**AdGuard Social Media (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt&title=AdGuard%20Social%20Media%20(Optimized)) *(birlikte)* veya
   * **Seçenek B:** [**Fanboy's Annoyances (Optimized)**](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt&title=Fanboy's%20Annoyances%20(Optimized)) *(tek başına)*
 
