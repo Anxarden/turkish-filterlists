@@ -368,13 +368,14 @@ dogrulukpayi.com##body{overflow:auto !important;}
 !- +js(aeld, eventType, [searchString])
 faqwiki.us##+js(addEventListener-defuser, load, humix-universal-js)
 asyaanimeleri.top,animetr.co##+js(addEventListener-defuser, click, openPopunder)
-ag2m2.cfd,ag2m4.cfd/##+js(addEventListener-defuser, click, shouldOpenPopup)
+ag2m2.cfd,ag2m4.cfd##+js(addEventListener-defuser, click, shouldOpenPopup)
 !- [aliases: prevent-fetch, no-fetch-if]
 !- +js(no-fetch-if, URL/URL-Regex, [checkWiki])
 zaytung.com##+js(prevent-fetch, ztrbanner/banner_data.csv)
 !-[aliases: aopr, abort-on-property-read]
 !- +js(abort-on-property-read, object.property)
 birgun.net##+js(abort-on-property-read, detectAdBlock)
+anizm.net##+js(abort-on-property-read, adPlayer)
 !- [aliases: set, set-constant]
 !- +js(set, object.property, value, [checkWiki])
 /\bdizipal\d{3}\.com$/##+js(set-constant, activeItem, 1)
@@ -384,6 +385,8 @@ hifily.lat##+js(set-constant, checkAdBlocker, falseFunc)
 !-/ Inline Script Preventing
 /\bdizipal\d{3}\.com$/##^script:has-text("'notif'")
 dosyaload.com##^script:has-text("'%cBEpeak'")
+!-/ Other Scriptlets
+anizm.net##+js(prevent-refresh)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 
