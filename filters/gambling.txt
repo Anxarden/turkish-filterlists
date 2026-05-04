@@ -212,6 +212,7 @@
 ||betbigo*.com^
 ||betnis*.com^
 ||tambet*.com^
+||5stakes*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
