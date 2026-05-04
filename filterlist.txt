@@ -277,6 +277,7 @@
 ||tempboxpro.com^$document,reason=service-not-working
 ||torrentgalaxy.to^$document,reason=website-closed
 ||rarbg.to^$document,reason=website-closed
+||rarbgweb.org^$document,reason=website-closed
 ||mp3indirdur.pro^$document,reason=service-not-working
 ||downloadly.net^$document,reason=shady-website
 ||dizipal.plus^$document,reason=parked-domain

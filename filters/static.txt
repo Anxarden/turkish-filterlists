@@ -590,6 +590,7 @@
 ||controlpush.com^
 ||ligninkeftiu.com^
 ||engifuosi.com^
+||fpjs.io^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -611,6 +612,7 @@
 ||rikhmw.aktifbank.com.tr^
 ||ads.aksam.com.tr^
 ||analytics.aldoshoes.com.tr^
+||rum.aliyuncs.com^
 ||metric.allianz.com.tr^
 ||advertising-api-eu.amazon.com^
 ||advertising.amazon.com.tr^
@@ -733,6 +735,7 @@
 ||securetags.esri.com.tr^
 ||securetags.esriturkey.com.tr^
 ||an.facebook.com^
+||ef.fanatical.com^
 ||tracking.faulhaber.com^
 ||xz.fbcdn.net^
 ||adfp.fcloud.com.tr^
@@ -834,8 +837,9 @@
 ||lkvkgk.levis.com.tr^
 ||vcegpu.libas.com.tr^
 ||sgtm.lingusta.com.tr^
-||cdn.livechatinc.com^
 ||ingress.linktr.ee^
+||stats.live-video.net^
+||cdn.livechatinc.com^
 ||track.livasoft.com.tr^
 ||ad.mail.ru^
 ||media-stat.mail.ru^
@@ -1139,6 +1143,7 @@
 ||bysejikuar.com/fingerprint-sw.js|$script
 ||398fitus.com/fingerprint-sw.js|$script
 ||medyascope.tv/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js^$script
+||tokvoy.com/js/dnsads.js^$script
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
