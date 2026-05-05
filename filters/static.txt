@@ -95,8 +95,6 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
-||exoclick.com^$important,domain=~anti-allowlist
-||googletagmanager.com^$important,domain=~anti-allowlist
 ||2mdn.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
@@ -173,6 +171,7 @@
 ||carbonads.com^
 ||cdn-cookieyes.com^
 ||cdn-script.com^
+||cdndex.io^
 ||cdnstr.com^
 ||cedexis.com^
 ||cerezgo.com^
@@ -195,6 +194,7 @@
 ||consensu.org^$important
 ||consentframework.com^
 ||continual.ly^
+||controlpush.com^
 ||cookie-script.com^
 ||cookiebot.com^
 ||cookielaw.org^
@@ -211,6 +211,8 @@
 ||crme7srv.com^
 ||cronitor.io^$third-party,domain=~with-subdomains
 ||customer.io^
+||customerly.io^$document,domain=~3rd-party
+||customerly.io^$third-party
 ||cxense.com^
 ||databuddy.cc^
 ||datadoghq-browser-agent.com^
@@ -243,11 +245,13 @@
 ||ejaculationnation.com^
 ||elfsight.com^$third-party
 ||empower.net^
+||engifuosi.com^
 ||enuygun.tech^$domain=~with-subdomains
 ||erothots.co^
 ||etahub.com^
 ||ethnicspue.com^
 ||evgnet.com^
+||exoclick.com^$important,domain=~anti-allowlist
 ||ezojs.com^
 ||fastly-insights.com^
 ||featureassets.org^
@@ -258,6 +262,7 @@
 ||firstpromoter.com^
 ||fodsoack.com^
 ||forinvestcdn.com^
+||fpjs.io^
 ||freshmarketer.com^
 ||fullstory.com^
 ||futurecdn.net^$domain=~with-subdomains
@@ -282,6 +287,7 @@
 ||google-analytics.com^
 ||googleadservices.com^
 ||googlesyndication.com^
+||googletagmanager.com^$important,domain=~anti-allowlist
 ||gravatar.com^$third-party,domain=~with-subdomains
 ||grow.me^$third-party,domain=~with-subdomains
 ||growave.io^
@@ -335,6 +341,7 @@
 ||kreosus.com^$third-party
 ||lampshadescreen.com^
 ||licensebuttons.net^
+||ligninkeftiu.com^
 ||lijit.com^
 ||lindiesoncoses.com^
 ||livechatinc.com^$document,domain=~3rd-party
@@ -352,6 +359,7 @@
 ||membrana.media^
 ||missena.io^
 ||mob.com^
+||moengage.com^
 ||monetixads.com^
 ||morphify.net^$third-party
 ||mouseflow.com^
@@ -431,6 +439,7 @@
 ||pushengage.com^$third-party
 ||pushpad.xyz^
 ||pxf.io^
+||pxlserv.bid^
 ||qortex.ai^
 ||qualtrics.com^
 ||quantcast.com^
@@ -584,13 +593,7 @@
 ||zi-scripts.com^
 ||ziffstatic.com^
 ||zohopublic.com^
-||cdndex.io^
-||pxlserv.bid^
-||moengage.com^
-||controlpush.com^
-||ligninkeftiu.com^
-||engifuosi.com^
-||fpjs.io^
+||serv90.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
