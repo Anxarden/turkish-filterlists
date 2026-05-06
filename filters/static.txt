@@ -537,6 +537,7 @@
 ||transcend-cdn.com^
 ||trustarc.com^
 ||trustpilot.com^$third-party
+||trustpilot.com^$document,domain=~3rd-party
 ||tuckerclassesjackal.com^
 ||turk.pro^$third-party,domain=~with-subdomains
 ||twibida.com^
@@ -1090,7 +1091,7 @@
 ||abysscdn.com/sw.js^$script
 ||ag2m2.cfd/js/$script
 ||ag2m4.cfd/js/$script
-||anizm.net/*/s.js^$script
+||anizm.net/sngtmub/s.js|$script
 ||anizm.net/js/avi.js^$script
 ||anizm.net/js/axium-*.js^$script
 ||anizm.net/js/custom.js^$script
