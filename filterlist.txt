@@ -78,9 +78,6 @@
 ||vozolbars.com^
 ||vozoldukkani.com^
 ||trsmokturkey.com^
-!-	Shady Video Players/Hosts (Blocked via Other Sources)
-||hdvid.tv^
-||vidmoly.to^
 !-	Shady SEO and Affiliate Websites
 ||top10vpn.com^
 ||vpndetectives.com^

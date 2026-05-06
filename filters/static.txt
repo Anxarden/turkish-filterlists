@@ -596,6 +596,7 @@
 ||zohopublic.com^
 ||serv90.com^
 ||termsfeed.com^
+||adexchangerapid.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
