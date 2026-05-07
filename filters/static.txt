@@ -95,6 +95,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||freecash.com^
 ||2mdn.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
