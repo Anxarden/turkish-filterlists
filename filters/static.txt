@@ -9,8 +9,8 @@
 ||linkedin.com^$third-party
 ||licdn.com^$third-party,from=~linkedin.com|~lnkd.in
 ||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
-||platform.linkedin.com^
 ||ad.linkedin.com^
+||platform.linkedin.com^
 ||media-akam.licdn.com^
 ||snap.licdn.com^
 !-/ [apple]
@@ -27,14 +27,14 @@
 ||redditstatic.com^$third-party,~image,from=~reddit.com
 !-/ [twitter/x]
 ||ads-*.twitter.com^
+||ads-*.x.com^
+||ads.x.com^
 ||advertising.twitter.com^
+||analytics.x.com^
 ||cards.twitter.com^
 ||crashlytics.twitter.com^
 ||scribe.twitter.com^
 ||syndication.twitter.com^
-||ads.x.com^
-||ads-*.x.com^
-||analytics.x.com^
 ||syndication.x.com^
 !-/ [vk]
 ||vk.com^$third-party,from=~vk.ru|~vk.me|~vkvideo.ru|~mail.ru
@@ -80,22 +80,21 @@
 !-/	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^
 !-/ Scammer Risk
-||sherwoodhotels.com.tr^
-||saglamoyun.net^
-||roltek.com.tr^
-||pisano.com^
 ||pisano.com.tr^
+||pisano.com^
+||roltek.com.tr^
+||saglamoyun.net^
+||sherwoodhotels.com.tr^
 !-/ Possible Cryptocoin Scam
-||tronadspay.com^
 ||atechp.space^
 ||atechspace.live^
+||tronadspay.com^
 !-/	Domain Parking Monetization Platform
-||parklogic.com^
 ||parkingcrew.net^
+||parklogic.com^
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
-||freecash.com^
 ||2mdn.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
@@ -103,6 +102,7 @@
 ||adcolony.com^
 ||addthis.com^
 ||addtoany.com^
+||adexchangerapid.com^
 ||adgrid.io^
 ||adhood.com^
 ||adhouse.pro^
@@ -207,12 +207,12 @@
 ||creedimages.cfd^
 ||crisp.chat^$third-party
 ||criteo.com^
-||criteo.net^$document,domain=~3rd-party
+||criteo.net^$document,domain=~3rd-party-blocked
 ||criteo.net^$third-party,domain=~with-subdomains
 ||crme7srv.com^
 ||cronitor.io^$third-party,domain=~with-subdomains
 ||customer.io^
-||customerly.io^$document,domain=~3rd-party
+||customerly.io^$document,domain=~3rd-party-blocked
 ||customerly.io^$third-party
 ||cxense.com^
 ||databuddy.cc^
@@ -264,6 +264,9 @@
 ||fodsoack.com^
 ||forinvestcdn.com^
 ||fpjs.io^
+||framer.com^$document,domain=~3rd-party-blocked
+||framer.com^$third-party
+||freecash.com^
 ||freshmarketer.com^
 ||fullstory.com^
 ||futurecdn.net^$domain=~with-subdomains
@@ -313,10 +316,10 @@
 ||inistrack.net^
 ||inmobi.com^
 ||instana.io^
-||instant.page^$document,domain=~3rd-party
+||instant.page^$document,domain=~3rd-party-blocked
 ||instant.page^$third-party
 ||insurads.com^
-||intercom.io^$document,domain=~3rd-party
+||intercom.io^$document,domain=~3rd-party-blocked
 ||intercom.io^$third-party
 ||ipapi.co^
 ||ipify.org^
@@ -345,7 +348,7 @@
 ||ligninkeftiu.com^
 ||lijit.com^
 ||lindiesoncoses.com^
-||livechatinc.com^$document,domain=~3rd-party
+||livechatinc.com^$document,domain=~3rd-party-blocked
 ||livechatinc.com^$third-party,domain=~with-subdomains
 ||lngtd.com^
 ||loox.io^
@@ -399,7 +402,7 @@
 ||optimove.net^
 ||oracleinfinity.io^
 ||ortto.com^
-||osano.com^$document,domain=~3rd-party
+||osano.com^$document,domain=~3rd-party-blocked
 ||osano.com^$third-party,domain=~with-subdomains
 ||outbrain.com^
 ||p-n.io^
@@ -408,7 +411,7 @@
 ||pagesense.io^
 ||pahtpw.tech^
 ||palaeicgriper.com^
-||palmate.ai^$document,domain=~3rd-party
+||palmate.ai^$document,domain=~3rd-party-blocked
 ||palmate.ai^$third-party
 ||parsely.com^$important
 ||partnerstack.com^
@@ -416,7 +419,7 @@
 ||pendo.io^$domain=~with-subdomains
 ||perfops.net^$third-party
 ||permutive.com^
-||personaclick.com^$document,domain=~3rd-party
+||personaclick.com^$document,domain=~3rd-party-blocked
 ||personaclick.com^$third-party,domain=~with-subdomains
 ||pghub.io^
 ||pigeoon.com^
@@ -436,7 +439,7 @@
 ||protect-ad.com^
 ||publicgood.com^
 ||punmetrats.com^
-||pushengage.com^$document,domain=~3rd-party
+||pushengage.com^$document,domain=~3rd-party-blocked
 ||pushengage.com^$third-party
 ||pushpad.xyz^
 ||pxf.io^
@@ -475,6 +478,7 @@
 ||sentinelpro.com^
 ||sentry-cdn.com^
 ||sentry.io^
+||serv90.com^
 ||servedby-buysellads.com^
 ||setrowid.com^
 ||setupcmp.com^
@@ -516,6 +520,7 @@
 ||team.blue^
 ||tedizmir.k12.tr^
 ||teknolojihaber.net^
+||termsfeed.com^
 ||tgtag.io^
 ||theadx.com^
 ||thehiddenbay.com^
@@ -537,8 +542,8 @@
 ||trafficjunky.com^
 ||transcend-cdn.com^
 ||trustarc.com^
+||trustpilot.com^$document,domain=~3rd-party-blocked
 ||trustpilot.com^$third-party
-||trustpilot.com^$document,domain=~3rd-party
 ||tuckerclassesjackal.com^
 ||turk.pro^$third-party,domain=~with-subdomains
 ||twibida.com^
@@ -595,9 +600,6 @@
 ||zi-scripts.com^
 ||ziffstatic.com^
 ||zohopublic.com^
-||serv90.com^
-||termsfeed.com^
-||adexchangerapid.com^
 #- Subdomains Blacklist @ Websites ~ [Third-Party Blocking]
 ||talk.hyvor.com^$third-party
 ||contributor.google.com^$third-party
@@ -750,7 +752,6 @@
 ||analytics.files.fm^
 ||hiuplq.flashscore.com.tr^
 ||gtm.flo.com.tr^
-||events.framer.com^
 ||bordeaux.futurecdn.net^
 ||freyr.futurecdn.net^
 ||sw88.fxturkiye.com.tr^
@@ -877,6 +878,7 @@
 ||wss.morphify.net^
 ||qgymtv.motomax.com.tr^
 ||elq.mouser.com.tr^
+||telemetry.mozilla.org^
 ||arc.msn.com^
 ||c.msn.com^
 ||jlnyti.mugo.com.tr^
@@ -917,6 +919,7 @@
 ||widgets.pinterest.com^
 ||analytics.pipelife.com.tr^
 ||stats.pixeldrain.com^
+||analytics.poppo.tv^
 ||nct.ui-portal.de^
 ||wa.ui-portal.de^
 ||b-cdn.posta.com.tr^

@@ -282,4 +282,4 @@
 ||dizipal.life^$document,reason=website-closed
 ||dizipalizle.eu^$document,reason=parked-domain
 #- URL Skip
-||tr.adj.st/?adj_t$urlskip=?adj_fallback
+||tr.adj.st^$urlskip=?adj_fallback
