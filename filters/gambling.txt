@@ -213,6 +213,10 @@
 ||betnis*.com^
 ||tambet*.com^
 ||5stakes*.com^
+||sezonbahis*.com^
+||galacasino*.com^
+||madridbet*.com^
+||betpas1248.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -713,9 +717,7 @@
 ||kpastrologer.com^
 ||kralbetgiris.vip^
 ||kriptoapi.com^
-||kroyal.co^
 ||kroyal.org^
-||kroyal.win^
 ||kurasport.com^
 ||launchdigi.net^
 ||lejardinpa.com^
@@ -1053,7 +1055,6 @@
 ||bis2020.com
 ||bonussemti3.com^$domain=~link-hub
 ||bossseoteoman.com^
-||btmgiris4.com^
 ||buyukortak1.com^
 ||cachelineib60293.net^
 ||casilot866.com^

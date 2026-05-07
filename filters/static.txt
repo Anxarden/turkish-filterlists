@@ -682,7 +682,6 @@
 ||mo.ciner.com.tr^$~image
 ||nc.ciner.com.tr^
 ||d13k7prax1yi04.cloudfront.net^
-||d1l6p2sc9645hc.cloudfront.net^
 ||d1ybdlg8aoufn.cloudfront.net^
 ||d2d6cf2do9znht.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
