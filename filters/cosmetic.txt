@@ -263,6 +263,7 @@ tureng.com##div.neo-page
 tureng.com##li:has(svg.lucide-sparkles)
 medyascope.tv##footer>section.podcast
 medyascope.tv##div.tag-list+div.elementor-widget-template
+simkl.com##div.blockplace
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)

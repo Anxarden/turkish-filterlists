@@ -147,7 +147,7 @@
 ||turbovpn.com^
 ||ufovpn.io^
 ||ultravpn.com^
-||utorrent.com^
+||utorrent.com^$reason=adware-risk/use-other-clients
 ||vpn360.com^
 ||vpnhub.com^
 ||vpnpro.com^
@@ -262,8 +262,12 @@
 ||yasdl.com^
 ||rvx.to^
 ||rvxapp.com^
-||singlelogin.cc^$reason=fake-clone-zlibrary
-||z-library.co^$reason=fake-clone-zlibrary
+||singlelogin.cc^$reason=fake-clone/zlibrary
+||z-library.co^$reason=fake-clone/zlibrary
+||z-library.bz^$reason=fake-clone/zlibrary
+||z-library.im^$reason=fake-clone/zlibrary
+||annas-archive.su^$reason=fake-clone/annas-archive
+||annas-archive.io^$reason=fake-clone/annas-archive
 #- Deprecated Websites
 ||maskmail.io^$document,reason=paywall-after-register
 ||cloaked.com^$document,reason=no-free-tier

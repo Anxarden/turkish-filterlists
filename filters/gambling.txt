@@ -18,6 +18,7 @@
 *$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*xslot\b/
 *$all,~popup,to=/\b\d*zlot\b/
+*$all,~popup,to=/\bmorospin\d*\b/
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
 *btcoservice.com^$to=/\d+btcoservice/,reason=gambling-cdn
 ||btcoservice*.com^$to=/btcoservice\d*/,reason=gambling-cdn
@@ -220,6 +221,13 @@
 ||betpas*.com^
 ||risebet*.com^
 ||casilot*.com^
+||jeetcity*.com^
+||rovbet*.com^
+||yedibahis*.com^
+||volacasino*.com^
+||mistycasino*.com^
+||beygirbet*.com^
+||animabet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -257,6 +265,7 @@
 ||betreward.com^
 ||bitcoinist.com^
 ||bonus-secim-hemen.link^
+||bonusbeygir.xyz^
 ||bonusmaniac.com^
 ||buyukavanos.com^
 ||bwin.com^
@@ -285,6 +294,7 @@
 ||jojo-resmi-girisiniz.com^
 ||ltacademi.com^
 ||m-adres.com^
+||matematikveistatistikkongresi.org^
 ||musovasi.com^
 ||passobase.com^
 ||pickingmeup.com^
@@ -309,7 +319,6 @@
 ||valchidol.bg^
 ||velobless.dk^
 ||zegnabetgiris.org^
-||matematikveistatistikkongresi.org^
 #- SEO Injected Websites ~ Highly Suspicious
 ||atlantissu.com.tr^
 ||aukuma.com^
@@ -361,6 +370,9 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||netcontent.cc^
+||morospinstatic.com^
+||betonliga.com^
 ||hocosoftware.com^
 ||upgator.io^
 ||trexname.com^
@@ -904,7 +916,6 @@
 ||slotsiteleripro.com^
 ||slottarget.com^
 ||smartbettingclub.com^
-||smartiwheel.com^
 ||socialtournaments.com^
 ||sonagir.com^
 ||songiris.net^
@@ -1037,6 +1048,7 @@
 ||zulagiris.click^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||f1w-310384.com^
 ||1-king-513.club^
 ||1wcxic.com^
 ||1weedf.life^
@@ -1305,9 +1317,10 @@
 ||garlic-dev.*.digitaloceanspaces.com^
 ||katla.b-cdn.net^
 #- Specific Path Blocking
-||digitaloceanspaces.com/ebetlab/*
-||res.akamai-cloud.com/kingroyal/*
-||s3.amazonaws.com/bookmkrs/*
+||digitaloceanspaces.com/ebetlab/
+||res.akamai-cloud.com/kingroyal/
+||amazonaws.com/bookmkrs/
+||amazonaws.com/volacasino/
 #- General Path Blocking
 /egtdigital/*.png^$third-party,image
 /livechat.ashx?siteid=$third-party,script
