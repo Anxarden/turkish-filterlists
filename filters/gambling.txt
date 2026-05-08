@@ -9,6 +9,7 @@
 ||poker^
 ||slots^
 #- Regexes for Gambling Related Words
+*$all,~popup,to=/\b(?:\d+[a-z]*bet|[a-z]*bet\d+)\b/
 *$all,~popup,to=/bahis/
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
@@ -216,7 +217,8 @@
 ||sezonbahis*.com^
 ||galacasino*.com^
 ||madridbet*.com^
-||betpas1248.com^
+||betpas*.com^
+||risebet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
