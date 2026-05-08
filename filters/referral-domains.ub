@@ -1,38 +1,13 @@
 # Title: Referral Domains Filter
 # Description: Blocks redirecting links; Malicious, advertising and privacy-invading sites.
 
-!-/	Redirecting Links - Regex
-||clbanners*.$all,to=/clbanners\d+\b/
-||refpa*.$all,to=/refpa\d+\b/
+!-/	Redirecting Links - Regex & Wildcard
+||romaff*.com^$to=/romaff\d+\b/,reason=gambling-affiliate
 
 !-/ Redirecting Links - Domains
-||cutt.ly^
-||directedurls.com^
-||goo.su^
-||gshort.top^
-||heylink.me^
-||kisa.link^
-||kisa.pro^
-||kisalt.gg^
-||kisalt.top^
-||kisalt.vip^
-||linkly.link^
-||linkredirect-my.com^
-||loomclick.com^
-||manageurl.link^
-||myaffiliates.com^
-||novavixo.com^
-||onelink.to^
-||r2m.io^
-||shortdigest.click^
-||shortlink.life^
-||shortlinks.biz^
-||shortzak.online^
-||shrgo.net^
-||t2ly.io^
-||t2m.co^
-||t2m.io^
-||trendyol.global^
-||trredirect.pro^
-||urlsshort.link^
-||zaplyurl.com^
+||sivo.to^$reason=gambling-affiliate
+||cutt.ly^$reason=gambling-affiliate
+||shrgo.net^$reason=gambling-affiliate
+||gshort.top^$reason=gambling-affiliate
+||bsinplus.com^$reason=gambling-affiliate
+||adj.st^$reason=tracking-shortlinks
