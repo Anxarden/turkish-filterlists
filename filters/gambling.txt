@@ -219,6 +219,7 @@
 ||madridbet*.com^
 ||betpas*.com^
 ||risebet*.com^
+||casilot*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -1059,7 +1060,6 @@
 ||bossseoteoman.com^
 ||buyukortak1.com^
 ||cachelineib60293.net^
-||casilot866.com^
 ||datapathdv90226.net^
 ||denemebonusulv.site^
 ||dogru-gris2025.com^

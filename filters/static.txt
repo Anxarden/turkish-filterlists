@@ -530,6 +530,7 @@
 ||tiqcdn.com^
 ||tlcgher.com^
 ||tns-counter.ru^
+||tolstoycomments.com^$document,domain=~3rd-party-blocked
 ||tolstoycomments.com^$third-party
 ||tolt.io^$third-party,domain=~with-subdomains
 ||toplist.cz^
@@ -635,7 +636,6 @@
 ||analytics.s3.amazonaws.com^
 ||track.analixreklam.com^
 ||events.animecix.co^
-||ping.anizm.net^
 ||ask.antalis.com.tr^
 ||t.antalis.com.tr^
 ||analytics.apps.com.tr^
