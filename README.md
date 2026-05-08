@@ -40,8 +40,8 @@ Daha kapsamlı bir koruma için aşağıdaki filtrelerden uygun olanların etkin
 
 ## 🧩 Önerilen Eklentiler
 Aşağıdaki tarayıcı eklentileri birini kullanarak içerik filtrelemenizi yapabilirsiniz.
-- 🛡 [uBlock Origin](https://github.com/gorhill/uBlock)
-- 🛡 [AdGuard Browser Extension](https://adguard.com/tr/adguard-browser-extension/overview.html)
+- 🛡 [**uBlock Origin**](https://github.com/gorhill/uBlock)
+- 🛡 [**AdGuard Browser Extension**](https://adguard.com/tr/adguard-browser-extension/overview.html)
 
 <br>
 
