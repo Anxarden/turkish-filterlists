@@ -228,6 +228,8 @@
 ||mistycasino*.com^
 ||beygirbet*.com^
 ||animabet*.com^
+||altaybet*.com^
+||kazandra*.com^$to=/kazandra\d*\.com$/
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -269,6 +271,7 @@
 ||bonusmaniac.com^
 ||buyukavanos.com^
 ||bwin.com^
+||byc-girisleri.xyz^
 ||conkeycruisers.org^
 ||continuummusic.org^
 ||demoslotoyna.com^
