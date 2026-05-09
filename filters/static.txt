@@ -1151,6 +1151,7 @@
 ||yabancidizim.com/serv1/devdetect.js^$script
 ||bysejikuar.com/fingerprint-sw.js|$script
 ||398fitus.com/fingerprint-sw.js|$script
+||bysefujedu.com/fingerprint-sw.js|$script
 ||medyascope.tv/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js^$script
 ||tokvoy.com/js/dnsads.js^$script
 #- Generic Paths Filters
