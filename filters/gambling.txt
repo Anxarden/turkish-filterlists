@@ -399,6 +399,8 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||cdn-mb.com^
+||mostbetnow.com^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^

@@ -2,12 +2,12 @@
 # Description: Blocks redirecting links; Malicious, advertising and privacy-invading sites.
 
 !-/	Redirecting Links - Regex & Wildcard
-||romaff*.com^$to=/romaff\d+\b/,reason=gambling-affiliate
+||romaff*.com^$to=/romaff\d+\b/
 
 !-/ Redirecting Links - Domains
-||sivo.to^$reason=gambling-affiliate
-||cutt.ly^$reason=gambling-affiliate
-||shrgo.net^$reason=gambling-affiliate
-||gshort.top^$reason=gambling-affiliate
-||bsinplus.com^$reason=gambling-affiliate
-||adj.st^$reason=tracking-shortlinks
+||sivo.to^
+||cutt.ly^
+||shrgo.net^
+||gshort.top^
+||bsinplus.com^
+||adj.st^
