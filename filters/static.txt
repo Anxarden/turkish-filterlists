@@ -1101,11 +1101,9 @@
 ||anizm.net/js/custom.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||www.beymenclub.com/metrics/$script
-||cdn.jsdelivr.net/npm/@snowplow/$script
 ||cdn.jsdelivr.net/npm/devtools-detector^$script
 ||cdn.jsdelivr.net/npm/disable-devtool^$script
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
-||cdnjs.cloudflare.com/polyfill/$script,third-party
 ||chesscomfiles.com/uploads/ad_image/$image
 ||dizikral.club/cdn/*.gif^$image,xhr
 ||dizikral.live/cdn/*.gif^$image,xhr

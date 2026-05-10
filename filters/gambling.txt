@@ -10,6 +10,7 @@
 ||slots^
 #- Regexes for Gambling Related Words
 *$all,~popup,to=/\b(?:\d+[a-z]*bet|[a-z]*bet\d+)\b/
+*$all,~popup,to=/\b(?:bet[a-z]{2,}\d+|\d+bet[a-z]{2,})\b/
 *$all,~popup,to=/bahis/
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
@@ -73,7 +74,7 @@
 ||bahisbudur*.com^
 ||balinabet*.com^
 ||bankobet*.com^
-||bbey*.com^
+||bbey*.com^$to=/bbey\d*\.com$/
 ||benjabet*.com^
 ||betamiral*.com^
 ||betbalina*.com^
@@ -234,6 +235,7 @@
 ||casicosta*.com^$to=/casicosta\d*\.com$/
 ||havanabet*.com^
 ||robobet*.com^
+||betmani*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
