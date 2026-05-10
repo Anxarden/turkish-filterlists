@@ -77,6 +77,7 @@
 @@||ipcheck.tmgrup.com.tr/ipcheck/$xhr,from=atv.com.tr
 @@||i.tmgrup.com.tr/tmd/mobile-detect/$script,from=ahaber.com.tr
 @@||login.c2.synology.com/backend/$removeparam=sscid
+@@||eclipso.eu/login|$generichide,reason=needs-cookie-consent
 #-/ Domain Blacklist @ Websites \w Reasons ~ [Safety and Security]
 !-/	SEO Spamdexing Baitclick News/Content
 ||turkinform.com.tr^
