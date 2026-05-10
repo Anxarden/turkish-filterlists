@@ -15,8 +15,6 @@
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
 #- Regexes for Specific Gambling Sites
-*$all,~popup,to=/\b\d*betine\b/
-*$all,~popup,to=/\b\d*slotin\b/
 *$all,~popup,to=/\b\d*xslot\b/
 *$all,~popup,to=/\b\d*zlot\b/
 *$all,~popup,to=/\bmorospin\d*\b/
@@ -55,6 +53,7 @@
 *bayspin.com^
 *baywin.com^
 *betebet.com^
+*betine.com^
 *betmatik.com^
 *betorspin.com^
 *betticket.com^
@@ -64,6 +63,7 @@
 *kulisbet.com^
 *mariobet.com^
 *piabet.com^
+*slotin.com^
 *supertotobet.com^
 *timebet.com^
 ||acrobet*.com^
@@ -95,7 +95,7 @@
 ||betpublic*.com^
 ||betsnice*.com^
 ||betzula*.com
-||biabet*.com^$from=~alpha-digits
+||biabet*.com^
 ||bonisa*.com^
 ||bycasino*.com^
 ||candycasino*.com^
@@ -128,7 +128,7 @@
 ||interbahis*.com^
 ||kingroyal*.com^$to=/kingroyal\d*\.com$/
 ||ligobet*.com^
-||locabet*.com^$from=~alpha-digits
+||locabet*.com^
 ||lordbahis*.com^
 ||lordpalacecasino*.com^
 ||lotobet*.com^
@@ -177,7 +177,7 @@
 ||virabet*.com^
 ||virusbettr*.com^
 ||yakabet*.com^
-||zbahis*.com^$from=~alpha-digits
+||zbahis*.com^
 ||zirvebet*.com^
 ||denizcasino*.com^
 ||epybet*.com^
