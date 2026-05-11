@@ -906,6 +906,7 @@
 ||analytics.olay.com.tr^
 ||analytics.onedio.com^
 ||open.oneplus.net^
+||events.openani.me^
 ||adx.opera.com^
 ||api.optincdn.com^
 ||cmp.osano.com^

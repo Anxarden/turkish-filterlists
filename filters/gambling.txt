@@ -236,6 +236,9 @@
 ||havanabet*.com^
 ||robobet*.com^
 ||betmani*.com^
+||lizabet*.com^
+||betsat*.com^
+||wepari-*.pro^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -258,6 +261,8 @@
 ||tjk.org^
 ||tuttur.com^
 #- Gambling Link Hubs ~ Portal Websites
+||marsbahishediye.com^
+||freekod.net^
 ||1xbet-sitesi.club^
 ||abegiris.com.tr^
 ||adnint.com^
@@ -401,6 +406,8 @@
 ||yogainmissoula.com^
 ||zoekarssen.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||top-bet.com^
+||apiservice.network^
 ||cdn-mb.com^
 ||mostbetnow.com^
 ||1win-turkey.org^
