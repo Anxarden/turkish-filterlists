@@ -222,7 +222,6 @@
 ||urlcentre.com^
 ||urllink.live^
 ||urlsshort.link^
-||uyla6k4wqvpg3q3ullfy.xyz^
 ||vayaffiliates.org^
 ||ventureaffiliates.com^
 ||viraguncel.com^
@@ -244,8 +243,12 @@
 ||mrtkng*xclusive.vip^
 ||redirect-*.pages.dev^
 ||refpa*.com^$to=/refpa\d+\b/
+!-/\b(?=[a-z0-9]*[0-9])(?=[a-z0-9]*[a-z])[a-z0-9]{20}\.xyz$/
+||40udvaci569z93us2p9m.xyz^
+||uyla6k4wqvpg3q3ullfy.xyz^
 
 !-/ Regex Candidates
+||kisalt3.gg^
 ||27aff.com^
 ||affbetroz1.com^
 ||affinora8.com^
@@ -286,8 +289,6 @@
 ||piatrack2.com^
 ||pusulapartners12.com^
 ||refpa42156.com^
-||roketaf1.com^
-||romaff4.com^
 ||satispanel2.com^
 ||setra3-gir.net^
 ||setraortaklik2.com^

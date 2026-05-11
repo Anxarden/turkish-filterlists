@@ -74,6 +74,7 @@
 #-/ General Whitelist ~ [Non-Harming Sources and Unbreak Websites]
 @@||use.typekit.net^$script,font
 @@||secure.gravatar.com^$image,stylesheet
+@@||gravatar.com/avatar/$image
 @@||ipcheck.tmgrup.com.tr/ipcheck/$xhr,from=atv.com.tr
 @@||i.tmgrup.com.tr/tmd/mobile-detect/$script,from=ahaber.com.tr
 @@||login.c2.synology.com/backend/$removeparam=sscid
@@ -97,8 +98,11 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||smartadserver.com^
+||ipwhois.io^
 ||2mdn.net^
 ||2o7.net^
+||throne.ink^
 ||aboveaveragefinallycast.com^
 ||abtasty.com^
 ||adcolony.com^
@@ -699,6 +703,7 @@
 ||dbfukofby5ycr.cloudfront.net^
 ||dcbbwymp1bhlf.cloudfront.net^
 ||dgaf2ncy4dtan.cloudfront.net^
+||d2te5kruq0pvbl.cloudfront.net^
 ||hxiabp.colins.com.tr^
 ||sgtm.converse.com.tr^
 ||static.criteo.net^
@@ -731,6 +736,7 @@
 ||pipe-collect.ebu.io^
 ||cwgwgo.ecanta.com.tr^
 ||analytics.eclipso.de^
+||collector-analytics.efigence.com^
 ||bundles.efilli.com^
 ||metrics.egencia.com.tr^
 ||reklam.emlakkulisi.com^
@@ -862,6 +868,7 @@
 ||leytsb.marcomen.com.tr^
 ||device.maxmind.com^
 ||dialogue.mazda.com.tr^
+||reqstat.api.mega.co.nz^
 ||ads.microsoft.com^
 ||advertising.microsoft.com^
 ||events.data.microsoft.com^
