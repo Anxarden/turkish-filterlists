@@ -148,7 +148,7 @@
 ||nilobet*.com^
 ||odeonbet*.com^
 ||one-vv*.com^
-||onwin*.com^
+||onwin*.com^$to=/onwin\d*\.com$/
 ||oslobet*.com^
 ||otobet*.com^
 ||paripulse-*.pro^
@@ -1088,6 +1088,7 @@
 ||zulagiris.click^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||1-king-untr-065.online^
 ||f1w-310384.com^
 ||1-king-513.club^
 ||1wcxic.com^
@@ -1178,6 +1179,7 @@
 ||sdayy.xyz^
 ||ttagc.xyz^
 ||hbwjja.cc^
+||rmewe.com^
 ||swqlaf.xyz^
 ||bcapps.org^
 ||bhszab.com^
@@ -1203,6 +1205,7 @@
 ||trk4ot.com^
 ||x011bt.com^
 ||xyzrdr.xyz^
+||fyirdr.xyz^
 ||3vpcq6t.com^
 ||9lkf4hn.com^
 ||api7rng.com^

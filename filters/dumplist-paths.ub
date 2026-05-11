@@ -1,4 +1,5 @@
 /ads/system/context.js|$script,to=yandex.ru
-/instream/video/client.js|#script,to=s0.2mdn.net
-/metrika/tag.js^#script,to=mc.yandex.ru
-/js/script.file-downloads.hash.outbound-links.js|#script,to=events.openani.me
+/beacon.min.js/*$script,to=static.cloudflareinsights.com
+/instream/video/client.js|$script,to=s0.2mdn.net
+/js/script.file-downloads.hash.outbound-links.js|$script,to=events.openani.me
+/metrika/tag.js^$script,to=mc.yandex.ru
