@@ -239,6 +239,7 @@
 ||lizabet*.com^
 ||betsat*.com^
 ||wepari-*.pro^
+||heybet*.com^
 #- Turkish Official Gambling Websites
 !-||mackolik.com^
 ||4nala.com^
@@ -262,6 +263,8 @@
 ||tuttur.com^
 #- Gambling Link Hubs ~ Portal Websites
 ||marsbahishediye.com^
+||baywin.app^
+||beygirbetapp.com^
 ||freekod.net^
 ||1xbet-sitesi.club^
 ||abegiris.com.tr^
@@ -1158,7 +1161,6 @@
 ||yeniadreskuty.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||rb.gy^
-||l24.im^
 ||a.info^
 ||csnr.me^
 ||bcua.io^

@@ -2,4 +2,5 @@
 /beacon.min.js/*$script,to=static.cloudflareinsights.com
 /instream/video/client.js|$script,to=s0.2mdn.net
 /js/script.file-downloads.hash.outbound-links.js|$script,to=events.openani.me
+/js/script.outbound-links.pageview-props.tagged-events.js|$script,to=analytics.regex101.com
 /metrika/tag.js^$script,to=mc.yandex.ru
