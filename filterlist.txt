@@ -285,5 +285,3 @@
 ||dizipal.info^$document,reason=unfulfilled-promise
 ||dizipal.life^$document,reason=website-closed
 ||dizipalizle.eu^$document,reason=parked-domain
-#- URL Skip
-||tr.adj.st^$urlskip=?adj_fallback

@@ -1,0 +1,9 @@
+[uBlock Origin]
+! Title: 🍂 Anxarden's Trusted Filters
+! Homepage: https://github.com/anxarden/turkish-filterlists/
+! Author: Anxarden
+! Description: Special uBlock Filters that require trust.
+! Expires: 24 hours
+
+#- URL Skip
+||tr.adj.st^$urlskip=?adj_fallback
