@@ -98,6 +98,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||hepelu.my^
 ||smartadserver.com^
 ||ipwhois.io^
 ||2mdn.net^
