@@ -4,42 +4,7 @@
 #----------------------------------------------------------------------------------------------------#
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
-!-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute>path")
-!#if cap_html_filtering
-birgun.net##^div.adsmasthead
-birgun.net##^div.sticky-ads
-birgun.net##^div[id^='divads-'i]
-dunya.com,ekonomim.com,gazeteoksijen.com##^div.ad-tower-container
-dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##^div.adpro
-ekonomim.com##^div.ad-pageskin-container
-gazetekeyfi.com##^div.ad-side
-gazetekeyfi.com##^ins.adm-ads-area
-gazetekeyfi.com##^ins.adsbygoogle
-gazetekeyfi.com##^ins.adsbygoogle-lazyload
-gazeteoku.com##^div.ad-showcase
-gazeteoku.com,internethaber.com##^div.ad-left
-gazeteoku.com,internethaber.com##^div.ad-right
-tele1.com.tr##^div.widget-advert
-tele1.com.tr##^div[data-advert]
-emailme.at##^div.ad
-!#else
-emailme.at##div.ad
-birgun.net##div.adsmasthead
-birgun.net##div.sticky-ads
-birgun.net##div[id^='divads-'i]
-dunya.com,ekonomim.com,gazeteoksijen.com##div.ad-tower-container
-dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##div.adpro
-ekonomim.com##div.ad-pageskin-container
-gazetekeyfi.com##div.ad-side
-gazetekeyfi.com##ins.adm-ads-area
-gazetekeyfi.com##ins.adsbygoogle
-gazetekeyfi.com##ins.adsbygoogle-lazyload
-gazeteoku.com##div.ad-showcase
-gazeteoku.com,internethaber.com##div.ad-left
-gazeteoku.com,internethaber.com##div.ad-right
-tele1.com.tr##div.widget-advert
-tele1.com.tr##div[data-advert]
-!#endif
+!-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute")
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]
@@ -64,6 +29,9 @@ atv.com.tr##div.tt-fiber-hiziyla
 atv.com.tr##div[class="adpop"i]
 atv.com.tr##div[class="maskpop"i]
 atv.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="wmbox_overlay"i]
+birgun.net##div.adsmasthead
+birgun.net##div.sticky-ads
+birgun.net##div[id^='divads-'i]
 blackview.hk##div.blog-ad-banner
 chess.com##a.diamond-top
 chess.com##div#main-banner
@@ -72,6 +40,10 @@ diziizle.now##div.ust-reklam
 documentaryarea.com##img.watermark
 documentaryarea.com,hlktrpl.cfd##div.jw-preview
 dosyaload.com##div.alert
+dunya.com,ekonomim.com,gazeteoksijen.com##div.ad-tower-container
+dunya.com,ekonomim.com,gazeteoksijen.com,gazeteoku.com,internethaber.com##div.adpro
+ekonomim.com##div.ad-pageskin-container
+emailme.at##div.ad
 faketempmail.com##a.banner-custom
 filterblade.xyz##div[id~='footeradcontainer'i]
 filterblade.xyz##div[id~='leftsidecontainer'i]
@@ -79,6 +51,13 @@ fotomac.com.tr##a[aria-label~="reklam"i]
 fotomac.com.tr##a[href^="http://pubads."]
 fotomac.com.tr##div.google-news-widget
 fotomac.com.tr,sabah.com.tr##div.currency-view
+gazetekeyfi.com##div.ad-side
+gazetekeyfi.com##ins.adm-ads-area
+gazetekeyfi.com##ins.adsbygoogle
+gazetekeyfi.com##ins.adsbygoogle-lazyload
+gazeteoku.com##div.ad-showcase
+gazeteoku.com,internethaber.com##div.ad-left
+gazeteoku.com,internethaber.com##div.ad-right
 haberler.com##div[class$="-reklam"i]
 haberler.com##div[class*="-reklam-"i]
 haberler.com##div[class^="ad-left-"]
@@ -92,6 +71,7 @@ hlktrpl.cfd##span[id="textreklamgoster"i]
 hlktrpl.cfd,dosyaload.com##div.ad-placement
 hurriyet.com.tr##section.adv
 internethaber.com##div.desktop-ad
+lrepacks.net##div.partner-block
 milliyet.com.tr##div.article-ads-container
 myanimelist.net##div.bookstore-information
 myanimelist.net##div.manga-store-information
@@ -109,39 +89,41 @@ sozcu.com.tr##div[id="membranadesktop"i]
 sozcu.com.tr##div[id="membranamobile"i]
 sozcu.com.tr##section.reklam
 takvim.com.tr##div.bg-advert-mobile
+tele1.com.tr##div.widget-advert
+tele1.com.tr##div[data-advert]
 turktorrent.us##div#advertisements
 vk.com,vk.ru##section[class^='advertisingbanner-'i]
 yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
-lrepacks.net##div.partner-block
 
-!-/ Advers Cosmetic Filterlist | Advanced and Fixes - ("example.tld##element+attribute>paths:pseudo")
+!-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
+!ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
+ahaber.com.tr##div.announcement-widget:upward(div.col)
 anizm.net##a.center-block[target=_blank]
+edumail.su##div:matches-attr(class=/\bads-/)
+edumailfree.com##div:matches-attr(class=/\badz-/)
+ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
+ensonhaber.com##div[id^=bik-ilan-]:upward(div.row)
+fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
+freephone.io##div:has(>ins.adsbygoogle)
+haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
+haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
+katfile.com##div#container:has(div.recommended)
+myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
 ownedcore.com##div.body_wrap>div.shoutout
 ownedcore.com##div.body_wrap>div.so-wrapper
-rockmods.net##ins:matches-attr(/^data-sizes-/)
 rockmods.net##div.container:has(>ins)
-ahaber.com.tr##div.announcement-widget:upward(div.col)
-!ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
-fatihaltayli.com.tr##a>img:upward(div[id^=tdi_])
-ekonomim.com##div.swiper-pagination>a[href^="https://ad."]
-katfile.com##div#container:has(div.recommended)
+rockmods.net##ins:matches-attr(/^data-sizes-/)
 sozce.com##div#icerik>div:matches-attr(class=/^reklam\d{1,4}x\d{1,4}$/i)
-useragents.me##li.nav-item:has(a[target])
-useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
 teamos.xyz##div.p-body-inner>center
 teamos.xyz##div.p-body-sidebar>a
-myanimelist.net##div.news-unit:has(>div[class$=-pdatla])
-haberturk.com##ht-section:matches-attr(data-section=/^masthead\d*$/)
-haberturk.com##ht-section:matches-attr(data-section=/^advertisement\d*$/)
-ensonhaber.com##div[id^=bik-ilan-]:upward(div.row)
-freephone.io##div:has(>ins.adsbygoogle)
-edumailfree.com##div:matches-attr(class=/\badz-/)
-edumail.su##div:matches-attr(class=/\bads-/)
+useragents.me##li.nav-item:has(a[target])
+useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
+startpage.com##section#main>*:not([class])
 
-!-/	Fake Download Buttons
+!-/	Security Cosmetic Filters | Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
 rockmods.net##div.container>center>a:only-child
 fredl.*,frdl.*##div.download-page>div>form[id~="downloadform"i],center>div.seperate
@@ -154,6 +136,7 @@ ezgif.com###main{margin-left:unset !important;}
 filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
 filmmodu.ws,filmmodu.nl##nav.navbar{margin-top:unset !important;}
+delugerpg.com##div#del_header{height:unset !important;}
 
 !-/	Cookie Banners and Privacy Disclaimers	 														 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
@@ -384,8 +367,6 @@ anizm.net##+js(abort-on-property-read, adPlayer)
 !- +js(set, object.property, value, [checkWiki])
 /\bdizipal\d{3}\.com$/##+js(set-constant, activeItem, 1)
 puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
-redecanais.gs##+js(set-constant, blockPage, noopFunc)
-hifily.lat##+js(set-constant, checkAdBlocker, falseFunc)
 !-/ Inline Script Preventing
 /\bdizipal\d{3}\.com$/##^script:has-text("'notif'")
 dosyaload.com##^script:has-text("'%cBEpeak'")

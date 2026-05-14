@@ -4,3 +4,4 @@
 /js/script.file-downloads.hash.outbound-links.js|$script,to=events.openani.me
 /js/script.outbound-links.pageview-props.tagged-events.js|$script,to=analytics.regex101.com
 /metrika/tag.js^$script,to=mc.yandex.ru
+/detect.js^$script,to=_

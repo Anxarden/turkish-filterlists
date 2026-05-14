@@ -56,14 +56,12 @@
 ||esigara.shop^
 ||esigaraal.com.tr^
 ||esigarakulubu.com^
-||esigarashops.com^
 ||esigaratamam.com^
 ||esmokertr.net^
 ||inspire-vapestore.com^
 ||iqos.gen.tr^
 ||iqoskapinda.com^
 ||pufftrend.net^
-||puffyparrot.com^
 ||rainvape.com^
 ||smokelektroniksigara.com^
 ||smokeshop.world^
@@ -77,7 +75,6 @@
 ||vapepro.eu^
 ||vozolbars.com^
 ||vozoldukkani.com^
-||trsmokturkey.com^
 !-	Shady SEO and Affiliate Websites
 ||top10vpn.com^
 ||vpndetectives.com^
@@ -94,7 +91,6 @@
 ||bitcomet.com^
 ||bitlord.com^
 ||bittorrent.com^
-||blackvpn.org^
 ||brightvpn.com^
 ||ccleaner.com^
 ||ccleanercloud.com^
@@ -176,20 +172,12 @@
 ||filecad.com^
 ||bitsexy.org^
 ||extratorrents.it^
-||hambiltonian.com^
 ||planetdp.org^
 ||samforum.org^
 ||torrent-indir.net^
-||torrenthane.net^
-||turknova.net^
-||turknova.org^
-||uq.ci^
 ||officertool.org^
 ||bookracy.org^
-||nunflix.org^
-||popcornmovies.to^
 ||tempmail.run^
-||freek.to^
 ||zamunda.net^
 #- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
@@ -208,11 +196,9 @@
 ||crackingpatching.org^
 ||crackshash.org^
 ||dekisoft.com^
-||ezcrack.info^
 ||freesoft.space^
 ||ftuapps.dev^
 ||ftuapps.io^
-||ftuapps.me^
 ||game-repack.site^
 ||gamefabrique.com^
 ||gamefabrique.ru^
@@ -227,7 +213,6 @@
 ||mrepo.org^
 ||nyaa.eu^
 ||oceanofapks.com^
-||oceanofgame.cc^
 ||oceanofgames.com^
 ||oceantogames.com^
 ||pcprogs.net^
@@ -236,7 +221,6 @@
 ||revanced.dev^
 ||revanced.net^
 ||revanced.to^
-||revancedapk.net^
 ||revancedapk.org^
 ||revancedapp.download^
 ||revancedapp.io^
@@ -254,7 +238,6 @@
 ||vanced.to^
 ||vstorrent.org^
 ||wifi4games.com^
-||win7loader.com^
 ||windows-7.net^
 ||windows-activators.com^
 ||windows64.net^
@@ -283,5 +266,4 @@
 ||downloadly.net^$document,reason=shady-website
 ||dizipal.plus^$document,reason=parked-domain
 ||dizipal.info^$document,reason=unfulfilled-promise
-||dizipal.life^$document,reason=website-closed
 ||dizipalizle.eu^$document,reason=parked-domain

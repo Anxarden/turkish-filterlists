@@ -89,7 +89,6 @@
 ||saglamoyun.net^
 ||sherwoodhotels.com.tr^
 !-/ Possible Cryptocoin Scam
-||atechp.space^
 ||atechspace.live^
 ||tronadspay.com^
 !-/	Domain Parking Monetization Platform
@@ -155,7 +154,6 @@
 ||appzi.io^
 ||armillaboxcars.com^
 ||artfiles.online^
-||ashoupsu.com^
 ||assetsconfigcdn.org^
 ||atrodhki.com^
 ||autopilothq.com^
@@ -202,7 +200,6 @@
 ||concert.io^
 ||conde.digital^
 ||condenastdigital.com^
-||conicsbowle.com^
 ||consensu.org^$important
 ||consentframework.com^
 ||continual.ly^
@@ -270,7 +267,6 @@
 ||firmafaresi.com^
 ||firstimpression.io^
 ||firstpromoter.com^
-||fodsoack.com^
 ||forinvestcdn.com^
 ||fpjs.io^
 ||framer.com^$document,domain=~3rd-party-blocked
@@ -364,7 +360,6 @@
 ||luckyorange.com^
 ||luckyorange.net^
 ||lups1.site^
-||mafiadarnix.com^
 ||makroo.com^
 ||maxmind.com^
 ||media-analytic.com^
@@ -403,7 +398,6 @@
 ||onesignal.com^
 ||onetrust.com^
 ||online-metrix.net^
-||onpwyyssbl.com^
 ||onthe.io^
 ||oorly.com^
 ||optimizely.com^$important
@@ -459,12 +453,10 @@
 ||quantserve.com^
 ||queryly.com^
 ||quickchat.ai^$third-party
-||quietshalecompany.com^
 ||radikal.ru^
 ||raglanyakking.com^
 ||ravenjs.com^
 ||raygun.io^
-||receptupperch.com^$domain=~with-subdomains
 ||refinery89.com^
 ||reklamaster.com^
 ||reklamatik.com^
@@ -475,8 +467,6 @@
 ||rickywhence.com^
 ||riskified.com^
 ||rollbar.com^
-||rwqgiurep.com^
-||sap-traffic.com^
 ||sascdn.com^
 ||scorecardresearch.com^
 ||searchiq.co^
@@ -520,11 +510,8 @@
 ||subaxe.xyz^
 ||subscribers.com^
 ||subservis.com^
-||supert.ag^
 ||suphelper.xyz^
-||synaps.ly^
 ||taboola.com^
-||tammarsayyid.com^$domain=~with-subdomains
 ||tawk.to^
 ||team.blue^
 ||tedizmir.k12.tr^
@@ -563,7 +550,6 @@
 ||unasonoric.com^$domain=~with-subdomains
 ||unifyintent.com^
 ||united-infos.net^
-||unuodkswo.com^
 ||us-cdnbo.org^
 ||usefathom.com^
 ||useinsider.com^
@@ -572,7 +558,6 @@
 ||userreport.com^
 ||uservoice.com^$third-party,domain=~with-subdomains
 ||userway.org^
-||usheebainaut.com^
 ||vdo.ai^
 ||vector.co^
 ||verbolia.com^
@@ -601,7 +586,6 @@
 ||yadro.ru^
 ||yango.com^
 ||yapaytech.com^$domain=~with-subdomains
-||ydsvirify.com^
 ||yektanet.com^
 ||yieldlove.com^
 ||yieldmo.com^
@@ -832,7 +816,6 @@
 ||sgtm.ipekyol.com.tr^
 ||analytics.ipekyolco.com.tr^
 ||gtmdev.jabra.com.tr^
-||tracking.janssen.com.tr^
 ||kgguwk.jeep.com.tr^
 ||wpi.jscrambler.com^
 ||ofvosb.jumbo.com.tr^
@@ -940,7 +923,6 @@
 ||telemetry.protonvpn.com^
 ||smetrics.pwc.com.tr^
 ||target.pwc.com.tr^
-||dx.pyramidshowery.com^
 ||a.quora.com^
 ||dd.qwant.com^
 ||mn.qwant.com^
@@ -948,7 +930,6 @@
 ||sstag1.rani.com.tr^
 ||analytics.rasyotek.com.tr^
 ||weblog.rclone.org^
-||pl.receptupperch.com^
 ||piwik.roketsan.com.tr^
 ||analytics.sabah.com.tr^
 ||tdms.saglik.gov.tr^
@@ -986,7 +967,6 @@
 ||psebyr.susle.com.tr^
 ||signal.suwen.com.tr^
 ||swwcyk.takvim.com.tr^
-||wr.tammarsayyid.com^
 ||tagm.tchibo.com.tr^
 ||tracking.tchibo.com.tr^
 ||cookiewarden-content.teb.com.tr^
@@ -1118,13 +1098,9 @@
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||chesscomfiles.com/uploads/ad_image/$image
 ||dizikral.club/cdn/*.gif^$image,xhr
-||dizikral.live/cdn/*.gif^$image,xhr
-||dizikral.plus/cdn/*.gif^$image,xhr
 ||dizikralgiris.com/cdn/*.gif^$image,xhr
 ||dizipal*.com/wp-content/uploads/*.gif$first-party,image
-||diziparis.plus/cdn/*.gif^$image,xhr
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
-||eksenload.site/detect.js^$script
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
 ||filmhane.online/activity/$xhr
 ||getpczone.com/sw.js^$script
@@ -1144,7 +1120,7 @@
 ||ssl.p.jwpcdn.com/player/v/*/vast.js^$script
 ||kultfilmler.net/popad4.js^$script
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
-||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js,from=redecanais.ps
+||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
 ||royalfilmizle.com/wp-content/uploads/*gif^$image
 ||setplay.cfd/player/assets/devtools-detector/$script
