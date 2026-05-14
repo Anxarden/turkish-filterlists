@@ -7,3 +7,4 @@
 
 #- URL Skip
 ||tr.adj.st^$urlskip=?adj_fallback
+||shrinkearn.com^$urlskip=?url -base64
