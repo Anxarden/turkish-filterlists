@@ -57,7 +57,7 @@
 *betorspin.com^
 *bets10.com^
 *betticket.com^
-*favorisen.com^
+*favorisen.com^$to=/^\d*favorisen\.com$/
 *kingbetting.com^
 *kolaybet.com^
 *kulisbet.com^
@@ -244,7 +244,13 @@
 ||yedibahis*.com^
 ||zbahis*.com^
 ||zirvebet*.com^
+||jackbom*.com^$to=/jackbom\d*\.com$/
+||vippark*.com^$to=/vippark\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
+||vipparksitesigiris.com^
+||vipparkcasinositesi.com^
+||vipparkgo.com^
+||vipparktv.com^
 ||1xbet-sitesi.club^
 ||abegiris.com.tr^
 ||acinge.com^
