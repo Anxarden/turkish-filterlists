@@ -98,7 +98,13 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||ip-api.com^
+||marker.io^
+||shoplift.ai^
+||shopifysvc.com^
+||shop.app^$third-party
 ||hepelu.my^
+||rebuyengine.com^
 ||smartadserver.com^
 ||ipwhois.io^
 ||2mdn.net^
@@ -109,7 +115,6 @@
 ||adcolony.com^
 ||addthis.com^
 ||addtoany.com^
-||adexchangerapid.com^
 ||adgrid.io^
 ||adhood.com^
 ||adhouse.pro^
@@ -213,8 +218,7 @@
 ||creedimages.cfd^
 ||crisp.chat^$third-party
 ||criteo.com^
-||criteo.net^$document,domain=~3rd-party-blocked
-||criteo.net^$third-party,domain=~with-subdomains
+||criteo.net^
 ||crme7srv.com^
 ||cronitor.io^$third-party,domain=~with-subdomains
 ||customer.io^

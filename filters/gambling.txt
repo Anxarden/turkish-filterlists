@@ -114,7 +114,7 @@
 ||betzula*.com
 ||beygirbet*.com^
 ||biabet*.com^
-||bonisa*.com^
+||bonisa*.com^$to=/bonisa\d*\.com$/
 ||bovbet*.com^
 ||bugibet*.com^
 ||bullbahis*.com^
@@ -246,6 +246,7 @@
 ||zirvebet*.com^
 ||jackbom*.com^$to=/jackbom\d*\.com$/
 ||vippark*.com^$to=/vippark\d*\.com$/
+||bahix*.com^$to=/bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
 ||vipparksitesigiris.com^
 ||vipparkcasinositesi.com^
@@ -346,6 +347,7 @@
 ||weplay.com.tr^
 ||zegnabetgiris.org^
 #- SEO Injected Websites ~ Highly Suspicious
+||easternafricajesuits.org^
 ||90milescubancafe.com^
 ||aefactoryservice.com^
 ||alfiesrestaurant.com^
@@ -1099,6 +1101,7 @@
 ||zulagiris.click^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||vipparkk.com^
 ||1-king-untr-065.online^
 ||f1w-310384.com^
 ||1-king-513.club^
