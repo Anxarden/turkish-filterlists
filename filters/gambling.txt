@@ -1239,365 +1239,44 @@
 ||tjk.org^
 ||tuttur.com^
 #- Gambling Network IPs
-!- Silverhill Group Holding Ltd. - NL [Gambling Domains]
+!- Silverhill Group Holding Ltd. - NL
 *$all,~popup,ipaddress=185.175.166.*
 *$all,~popup,ipaddress=185.175.167.*
-!- Softconstruct Limited - UK [Gambling Domains]
+!- Softconstruct Limited - UK
 *$all,~popup,ipaddress=185.162.228.*
 *$all,~popup,ipaddress=185.162.229.*
 *$all,~popup,ipaddress=185.162.230.*
 *$all,~popup,ipaddress=185.162.231.*
-!- MFI Investments Limited - Cyprus [Gambling Domains]
+!- MFI Investments Limited - CY
 *$all,~popup,ipaddress=194.67.193.*
-!- Interwetten Gaming Limited - Malta [Gambling Domains]
+!- Interwetten Gaming Limited - MT
 *$all,~popup,ipaddress=194.127.139.*
 *$all,~popup,ipaddress=195.10.192.*
-!- Digimedia Limited - Isle of Man [Gambling Domains]
+!- Digimedia Limited - IM
 *$all,~popup,ipaddress=193.169.206.*
 !- Entain Network Group - Global
 *$all,~popup,ipaddress=93.191.192.*
 *$all,~popup,ipaddress=93.191.193.*
 *$all,~popup,ipaddress=195.72.134.*
 *$all,~popup,ipaddress=195.72.135.*
-!- BWIN Entertainment - USA
-*$all,~popup,ipaddress=64.94.166.*
-*$all,~popup,ipaddress=74.217.234.*
-*$all,~popup,ipaddress=74.217.235.*
 !- Gamesys Limited - UK
-*$all,~popup,ipaddress=93.93.80.*
-*$all,~popup,ipaddress=93.93.81.*
 *$all,~popup,ipaddress=93.93.82.*
-*$all,~popup,ipaddress=93.93.83.*
 *$all,~popup,ipaddress=93.93.84.*
-*$all,~popup,ipaddress=93.93.85.*
 *$all,~popup,ipaddress=93.93.86.*
 *$all,~popup,ipaddress=93.93.87.*
-!- Continent 8 LLC (Gambling Hosting Provider) - USA
-*$all,~popup,ipaddress=67.211.96.*
-*$all,~popup,ipaddress=67.211.97.*
-*$all,~popup,ipaddress=67.211.98.*
-*$all,~popup,ipaddress=67.211.99.*
-*$all,~popup,ipaddress=67.211.100.*
-*$all,~popup,ipaddress=67.211.101.*
-*$all,~popup,ipaddress=67.211.102.*
-*$all,~popup,ipaddress=67.211.103.*
-*$all,~popup,ipaddress=67.211.104.*
-*$all,~popup,ipaddress=67.211.105.*
-*$all,~popup,ipaddress=67.211.106.*
-*$all,~popup,ipaddress=67.211.107.*
-*$all,~popup,ipaddress=67.211.108.*
-*$all,~popup,ipaddress=67.211.109.*
-*$all,~popup,ipaddress=67.211.110.*
-*$all,~popup,ipaddress=67.211.111.*
-*$all,~popup,ipaddress=140.228.96.*
-*$all,~popup,ipaddress=140.228.97.*
-*$all,~popup,ipaddress=140.228.98.*
-*$all,~popup,ipaddress=140.228.99.*
-*$all,~popup,ipaddress=140.228.100.*
-*$all,~popup,ipaddress=140.228.101.*
-*$all,~popup,ipaddress=140.228.102.*
-*$all,~popup,ipaddress=140.228.103.*
-*$all,~popup,ipaddress=140.228.104.*
-*$all,~popup,ipaddress=140.228.105.*
-*$all,~popup,ipaddress=140.228.106.*
-*$all,~popup,ipaddress=140.228.107.*
-*$all,~popup,ipaddress=140.228.108.*
-*$all,~popup,ipaddress=140.228.109.*
-*$all,~popup,ipaddress=140.228.110.*
-*$all,~popup,ipaddress=140.228.111.*
-*$all,~popup,ipaddress=192.16.80.*
-*$all,~popup,ipaddress=192.16.81.*
-*$all,~popup,ipaddress=192.16.82.*
-*$all,~popup,ipaddress=192.16.83.*
-*$all,~popup,ipaddress=192.16.84.*
-*$all,~popup,ipaddress=192.16.85.*
-*$all,~popup,ipaddress=192.16.86.*
-*$all,~popup,ipaddress=192.16.87.*
-*$all,~popup,ipaddress=192.16.88.*
-*$all,~popup,ipaddress=192.16.89.*
-*$all,~popup,ipaddress=192.16.90.*
-*$all,~popup,ipaddress=192.16.91.*
-*$all,~popup,ipaddress=192.16.92.*
-*$all,~popup,ipaddress=192.16.93.*
-*$all,~popup,ipaddress=192.16.94.*
-*$all,~popup,ipaddress=192.16.95.*
-*$all,~popup,ipaddress=199.45.176.*
-*$all,~popup,ipaddress=199.45.177.*
-*$all,~popup,ipaddress=199.45.178.*
-*$all,~popup,ipaddress=199.45.179.*
-*$all,~popup,ipaddress=199.45.180.*
-*$all,~popup,ipaddress=199.45.181.*
-*$all,~popup,ipaddress=199.45.182.*
-*$all,~popup,ipaddress=199.45.183.*
-*$all,~popup,ipaddress=199.45.184.*
-*$all,~popup,ipaddress=199.45.185.*
-*$all,~popup,ipaddress=199.45.186.*
-*$all,~popup,ipaddress=199.45.187.*
-*$all,~popup,ipaddress=199.45.188.*
-*$all,~popup,ipaddress=199.45.189.*
-*$all,~popup,ipaddress=199.45.190.*
-*$all,~popup,ipaddress=199.45.191.*
-*$all,~popup,ipaddress=66.212.224.*
-*$all,~popup,ipaddress=66.212.225.*
-*$all,~popup,ipaddress=66.212.226.*
-*$all,~popup,ipaddress=66.212.227.*
-*$all,~popup,ipaddress=66.212.228.*
-*$all,~popup,ipaddress=66.212.229.*
-*$all,~popup,ipaddress=66.212.230.*
-*$all,~popup,ipaddress=66.212.231.*
-*$all,~popup,ipaddress=66.212.232.*
-*$all,~popup,ipaddress=66.212.233.*
-*$all,~popup,ipaddress=66.212.234.*
-*$all,~popup,ipaddress=66.212.235.*
-*$all,~popup,ipaddress=66.212.236.*
-*$all,~popup,ipaddress=66.212.237.*
-*$all,~popup,ipaddress=66.212.238.*
-*$all,~popup,ipaddress=66.212.239.*
-*$all,~popup,ipaddress=66.212.240.*
-*$all,~popup,ipaddress=66.212.241.*
-*$all,~popup,ipaddress=66.212.242.*
-*$all,~popup,ipaddress=66.212.243.*
-*$all,~popup,ipaddress=66.212.244.*
-*$all,~popup,ipaddress=66.212.245.*
-*$all,~popup,ipaddress=66.212.246.*
-*$all,~popup,ipaddress=66.212.247.*
-*$all,~popup,ipaddress=66.212.248.*
-*$all,~popup,ipaddress=66.212.249.*
-*$all,~popup,ipaddress=66.212.250.*
-*$all,~popup,ipaddress=66.212.251.*
-*$all,~popup,ipaddress=66.212.252.*
-*$all,~popup,ipaddress=66.212.253.*
-*$all,~popup,ipaddress=66.212.254.*
-*$all,~popup,ipaddress=66.212.255.*
-!- Hillside Limited (Bet365) - United Kingdom
-*$all,~popup,ipaddress=5.226.176.*
-*$all,~popup,ipaddress=5.226.177.*
+!- Hillside Limited (Bet365) - UK
 *$all,~popup,ipaddress=5.226.178.*
 *$all,~popup,ipaddress=5.226.179.*
-*$all,~popup,ipaddress=5.226.180.*
 *$all,~popup,ipaddress=5.226.181.*
-*$all,~popup,ipaddress=5.226.182.*
-*$all,~popup,ipaddress=5.226.183.*
-*$all,~popup,ipaddress=81.94.208.*
-*$all,~popup,ipaddress=81.94.209.*
-*$all,~popup,ipaddress=81.94.210.*
-*$all,~popup,ipaddress=81.94.211.*
 *$all,~popup,ipaddress=81.94.212.*
-*$all,~popup,ipaddress=81.94.213.*
 *$all,~popup,ipaddress=81.94.214.*
-*$all,~popup,ipaddress=81.94.215.*
 *$all,~popup,ipaddress=81.94.216.*
-*$all,~popup,ipaddress=81.94.217.*
-*$all,~popup,ipaddress=81.94.218.*
-*$all,~popup,ipaddress=81.94.219.*
-*$all,~popup,ipaddress=81.94.220.*
-*$all,~popup,ipaddress=81.94.221.*
-*$all,~popup,ipaddress=81.94.222.*
-*$all,~popup,ipaddress=81.94.223.*
-*$all,~popup,ipaddress=178.237.160.*
-*$all,~popup,ipaddress=178.237.161.*
-*$all,~popup,ipaddress=178.237.162.*
-*$all,~popup,ipaddress=178.237.163.*
-*$all,~popup,ipaddress=178.237.164.*
-*$all,~popup,ipaddress=178.237.165.*
-*$all,~popup,ipaddress=178.237.166.*
-*$all,~popup,ipaddress=178.237.167.*
-*$all,~popup,ipaddress=178.237.168.*
-*$all,~popup,ipaddress=178.237.169.*
-*$all,~popup,ipaddress=178.237.170.*
-*$all,~popup,ipaddress=178.237.171.*
-*$all,~popup,ipaddress=178.237.172.*
-*$all,~popup,ipaddress=178.237.173.*
-*$all,~popup,ipaddress=178.237.174.*
-*$all,~popup,ipaddress=178.237.175.*
-*$all,~popup,ipaddress=78.143.240.*
-*$all,~popup,ipaddress=78.143.241.*
-*$all,~popup,ipaddress=78.143.242.*
-*$all,~popup,ipaddress=78.143.243.*
-*$all,~popup,ipaddress=78.143.244.*
-*$all,~popup,ipaddress=78.143.245.*
-*$all,~popup,ipaddress=78.143.246.*
-*$all,~popup,ipaddress=78.143.247.*
-!- 888 US Inc. (888 Holdings) - USA
-*$all,~popup,ipaddress=198.37.48.*
-*$all,~popup,ipaddress=198.37.49.*
-*$all,~popup,ipaddress=198.37.50.*
-*$all,~popup,ipaddress=198.37.51.*
-*$all,~popup,ipaddress=198.37.52.*
-*$all,~popup,ipaddress=198.37.53.*
-*$all,~popup,ipaddress=198.37.54.*
-*$all,~popup,ipaddress=198.37.55.*
-*$all,~popup,ipaddress=198.37.56.*
-*$all,~popup,ipaddress=198.37.57.*
-*$all,~popup,ipaddress=198.37.58.*
-*$all,~popup,ipaddress=198.37.59.*
-*$all,~popup,ipaddress=198.37.60.*
-*$all,~popup,ipaddress=198.37.61.*
-*$all,~popup,ipaddress=198.37.62.*
-*$all,~popup,ipaddress=198.37.63.*
-!- Random Logic Limited (888 Holdings) - Israel
-*$all,~popup,ipaddress=192.118.66.*
-!- Virtual Internet Services Ltd. (888 Holdings) - Global
-*$all,~popup,ipaddress=185.114.228.*
-*$all,~popup,ipaddress=217.147.112.*
-*$all,~popup,ipaddress=217.147.113.*
-*$all,~popup,ipaddress=217.147.114.*
-*$all,~popup,ipaddress=217.147.115.*
-*$all,~popup,ipaddress=217.147.116.*
-*$all,~popup,ipaddress=217.147.117.*
-*$all,~popup,ipaddress=217.147.118.*
-*$all,~popup,ipaddress=217.147.119.*
-*$all,~popup,ipaddress=217.147.120.*
-*$all,~popup,ipaddress=217.147.121.*
-*$all,~popup,ipaddress=217.147.122.*
-*$all,~popup,ipaddress=217.147.123.*
-*$all,~popup,ipaddress=217.147.124.*
-*$all,~popup,ipaddress=217.147.125.*
-*$all,~popup,ipaddress=217.147.126.*
 *$all,~popup,ipaddress=217.147.127.*
-!- Telecity Group Ltd. (888 Holdings) - UK
-*$all,~popup,ipaddress=213.52.252.*
-!- Unibet Services Ltd. (Kindred Group) - Malta
+!- Unibet Services Ltd. (Kindred Group) - MT
 *$all,~popup,ipaddress=85.184.96.*
-*$all,~popup,ipaddress=85.184.97.*
-*$all,~popup,ipaddress=85.184.98.*
-*$all,~popup,ipaddress=85.184.99.*
-*$all,~popup,ipaddress=85.184.100.*
-*$all,~popup,ipaddress=85.184.101.*
-*$all,~popup,ipaddress=85.184.102.*
-*$all,~popup,ipaddress=85.184.103.*
-*$all,~popup,ipaddress=85.184.104.*
-*$all,~popup,ipaddress=85.184.105.*
-*$all,~popup,ipaddress=85.184.106.*
-*$all,~popup,ipaddress=85.184.107.*
-*$all,~popup,ipaddress=85.184.108.*
-*$all,~popup,ipaddress=85.184.109.*
-*$all,~popup,ipaddress=85.184.110.*
-*$all,~popup,ipaddress=85.184.111.*
-*$all,~popup,ipaddress=85.184.112.*
-*$all,~popup,ipaddress=85.184.113.*
-*$all,~popup,ipaddress=85.184.114.*
-*$all,~popup,ipaddress=85.184.115.*
-*$all,~popup,ipaddress=85.184.116.*
-*$all,~popup,ipaddress=85.184.117.*
-*$all,~popup,ipaddress=85.184.118.*
-*$all,~popup,ipaddress=85.184.119.*
-*$all,~popup,ipaddress=85.184.120.*
-*$all,~popup,ipaddress=85.184.121.*
-*$all,~popup,ipaddress=85.184.122.*
-*$all,~popup,ipaddress=85.184.123.*
-*$all,~popup,ipaddress=85.184.124.*
-*$all,~popup,ipaddress=85.184.125.*
-*$all,~popup,ipaddress=85.184.126.*
-*$all,~popup,ipaddress=85.184.127.*
-!- SJU Ltd. (Kindred Group) - Malta
-*$all,~popup,ipaddress=185.9.100.*
-*$all,~popup,ipaddress=185.9.101.*
-*$all,~popup,ipaddress=185.9.102.*
-*$all,~popup,ipaddress=185.9.103.*
-!- Kindred IP Limited (Kindred Group) - Malta
-*$all,~popup,ipaddress=91.199.56.*
-*$all,~popup,ipaddress=185.179.68.*
-*$all,~popup,ipaddress=185.179.69.*
-*$all,~popup,ipaddress=185.179.70.*
-*$all,~popup,ipaddress=185.179.71.*
-*$all,~popup,ipaddress=193.16.96.*
-!- Kindred People AB (Kindred Group) - Sweden
-*$all,~popup,ipaddress=192.121.200.*
-*$all,~popup,ipaddress=192.121.201.*
-*$all,~popup,ipaddress=192.121.202.*
-*$all,~popup,ipaddress=192.121.203.*
-!- Host Royale (Kindred Group) - Sweden
-*$all,~popup,ipaddress=109.104.158.*
-!- Betsson Services Ltd. (Betsson) - Malta
-*$all,~popup,ipaddress=185.242.68.*
-*$all,~popup,ipaddress=185.242.69.*
-*$all,~popup,ipaddress=185.242.70.*
-*$all,~popup,ipaddress=185.242.71.*
-!- Gaming Technology Solutions Ltd. (Playtech) - Global
-*$all,~popup,ipaddress=176.113.92.*
-*$all,~popup,ipaddress=176.113.93.*
-*$all,~popup,ipaddress=176.113.94.*
-*$all,~popup,ipaddress=176.113.95.*
-*$all,~popup,ipaddress=212.72.206.*
-*$all,~popup,ipaddress=82.146.15.*
-!- William Hill Organization Ltd. - UK
-*$all,~popup,ipaddress=95.131.184.*
-*$all,~popup,ipaddress=95.131.185.*
-*$all,~popup,ipaddress=95.131.186.*
-*$all,~popup,ipaddress=95.131.187.*
-*$all,~popup,ipaddress=95.131.188.*
-*$all,~popup,ipaddress=95.131.189.*
-*$all,~popup,ipaddress=95.131.190.*
-*$all,~popup,ipaddress=95.131.191.*
-*$all,~popup,ipaddress=141.138.128.*
-*$all,~popup,ipaddress=141.138.129.*
-*$all,~popup,ipaddress=141.138.130.*
-*$all,~popup,ipaddress=141.138.131.*
-*$all,~popup,ipaddress=141.138.132.*
-*$all,~popup,ipaddress=141.138.133.*
-*$all,~popup,ipaddress=141.138.134.*
-*$all,~popup,ipaddress=141.138.135.*
-*$all,~popup,ipaddress=185.119.152.*
-*$all,~popup,ipaddress=185.119.153.*
-*$all,~popup,ipaddress=185.119.154.*
-*$all,~popup,ipaddress=185.119.155.*
 !- Sky Betting and Gaming - UK
-*$all,~popup,ipaddress=193.16.108.*
-*$all,~popup,ipaddress=193.104.140.*
 *$all,~popup,ipaddress=194.6.248.*
 *$all,~popup,ipaddress=194.145.126.*
-!- EU Gamehost Ltd. (iGaming Provider) - UK
-*$all,~popup,ipaddress=95.214.180.*
-*$all,~popup,ipaddress=185.186.65.*
-*$all,~popup,ipaddress=109.176.252.*
-*$all,~popup,ipaddress=82.153.70.*
-*$all,~popup,ipaddress=141.98.157.*
-*$all,~popup,ipaddress=83.147.29.*
-!- TSG Interactive Services Ltd. (PokerStars) - Isle of Man
+!- TSG Interactive Services Ltd. - IM
 *$all,~popup,ipaddress=91.211.96.*
-*$all,~popup,ipaddress=91.211.97.*
 *$all,~popup,ipaddress=91.211.98.*
-*$all,~popup,ipaddress=91.211.99.*
-!- Pocket Kings Ltd. - Ireland
-*$all,~popup,ipaddress=89.167.220.*
-!- Evolution Gaming Ltd. - UK
-*$all,~popup,ipaddress=91.213.212.*
-*$all,~popup,ipaddress=91.213.213.*
-*$all,~popup,ipaddress=185.103.30.*
-*$all,~popup,ipaddress=185.103.31.*
-*$all,~popup,ipaddress=45.80.54.*
-*$all,~popup,ipaddress=45.80.55.*
-!- The Sporting Exchange Ltd. (Betfair) - UK
-*$all,~popup,ipaddress=84.20.192.*
-*$all,~popup,ipaddress=84.20.193.*
-*$all,~popup,ipaddress=84.20.194.*
-*$all,~popup,ipaddress=84.20.195.*
-*$all,~popup,ipaddress=84.20.196.*
-*$all,~popup,ipaddress=84.20.197.*
-*$all,~popup,ipaddress=84.20.198.*
-*$all,~popup,ipaddress=84.20.199.*
-*$all,~popup,ipaddress=84.20.200.*
-*$all,~popup,ipaddress=84.20.201.*
-*$all,~popup,ipaddress=84.20.202.*
-*$all,~popup,ipaddress=84.20.203.*
-*$all,~popup,ipaddress=84.20.204.*
-*$all,~popup,ipaddress=84.20.205.*
-*$all,~popup,ipaddress=84.20.206.*
-*$all,~popup,ipaddress=84.20.207.*
-*$all,~popup,ipaddress=84.20.208.*
-*$all,~popup,ipaddress=84.20.209.*
-*$all,~popup,ipaddress=84.20.210.*
-*$all,~popup,ipaddress=84.20.211.*
-*$all,~popup,ipaddress=84.20.212.*
-*$all,~popup,ipaddress=84.20.213.*
-*$all,~popup,ipaddress=84.20.214.*
-*$all,~popup,ipaddress=84.20.215.*
-*$all,~popup,ipaddress=84.20.216.*
-*$all,~popup,ipaddress=84.20.217.*
-*$all,~popup,ipaddress=84.20.218.*
-*$all,~popup,ipaddress=84.20.219.*
-*$all,~popup,ipaddress=84.20.220.*
-*$all,~popup,ipaddress=84.20.221.*
-*$all,~popup,ipaddress=84.20.222.*
-*$all,~popup,ipaddress=84.20.223.*
