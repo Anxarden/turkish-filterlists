@@ -34,6 +34,7 @@
 #- OTHER FILTERS
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
 !#include filters/referral-domains.ub
+!#include filters/dumplist-paths.ub
 
 !
 !-	Elektronik Sigara (Yasadışı ve Dolandırıcılık İhtimali)
