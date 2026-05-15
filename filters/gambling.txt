@@ -1239,79 +1239,24 @@
 ||tjk.org^
 ||tuttur.com^
 #- Gambling Network IPs
-!- Softconstruct Limited - UK
+!- Silverhill Group Holding Ltd. - NL [Gambling Domains]
+*$all,~popup,ipaddress=185.175.166.*
+*$all,~popup,ipaddress=185.175.167.*
+!- Softconstruct Limited - UK [Gambling Domains]
 *$all,~popup,ipaddress=185.162.228.*
 *$all,~popup,ipaddress=185.162.229.*
 *$all,~popup,ipaddress=185.162.230.*
 *$all,~popup,ipaddress=185.162.231.*
-!- MFI Investments Limited - Cyprus
+!- MFI Investments Limited - Cyprus [Gambling Domains]
 *$all,~popup,ipaddress=194.67.193.*
-!- World Sports Betting Services Limited - South Africa
-*$all,~popup,ipaddress=102.223.251.*
-!- Gaming Innovation Group - Malta
-*$all,~popup,ipaddress=185.141.248.*
-*$all,~popup,ipaddress=185.141.249.*
-*$all,~popup,ipaddress=185.141.250.*
-*$all,~popup,ipaddress=185.141.251.*
-!- TXODDS Sport Betting Limited - UK
-*$all,~popup,ipaddress=185.159.16.*
-*$all,~popup,ipaddress=185.159.17.*
-*$all,~popup,ipaddress=185.159.18.*
-*$all,~popup,ipaddress=185.159.19.*
-!- Interwetten Gaming Limited - Malta
+!- Interwetten Gaming Limited - Malta [Gambling Domains]
 *$all,~popup,ipaddress=194.127.139.*
 *$all,~popup,ipaddress=195.10.192.*
-!- Hollywood Sportsbook Holdings Limited - South Africa
-*$all,~popup,ipaddress=45.222.104.*
-*$all,~popup,ipaddress=45.222.105.*
-*$all,~popup,ipaddress=45.222.106.*
-*$all,~popup,ipaddress=45.222.107.*
-*$all,~popup,ipaddress=45.222.108.*
-*$all,~popup,ipaddress=45.222.109.*
-*$all,~popup,ipaddress=45.222.110.*
-*$all,~popup,ipaddress=45.222.111.*
-!- Osiris Trading - South Africa
-*$all,~popup,ipaddress=41.222.104.*
-*$all,~popup,ipaddress=41.222.105.*
-*$all,~popup,ipaddress=41.222.106.*
-*$all,~popup,ipaddress=41.222.107.*
-*$all,~popup,ipaddress=41.222.108.*
-*$all,~popup,ipaddress=41.222.109.*
-*$all,~popup,ipaddress=41.222.110.*
-*$all,~popup,ipaddress=41.222.111.*
-!- Digimedia Limited - Isle of Man
+!- Digimedia Limited - Isle of Man [Gambling Domains]
 *$all,~popup,ipaddress=193.169.206.*
 !- Entain Network Group - Global
-*$all,~popup,ipaddress=2.58.8.*
-*$all,~popup,ipaddress=2.58.9.*
-*$all,~popup,ipaddress=2.58.10.*
-*$all,~popup,ipaddress=2.58.11.*
-*$all,~popup,ipaddress=31.222.48.*
-*$all,~popup,ipaddress=31.222.49.*
-*$all,~popup,ipaddress=31.222.50.*
-*$all,~popup,ipaddress=31.222.51.*
-*$all,~popup,ipaddress=31.222.52.*
-*$all,~popup,ipaddress=31.222.53.*
-*$all,~popup,ipaddress=31.222.54.*
-*$all,~popup,ipaddress=31.222.55.*
-*$all,~popup,ipaddress=31.222.56.*
-*$all,~popup,ipaddress=31.222.57.*
-*$all,~popup,ipaddress=31.222.58.*
-*$all,~popup,ipaddress=31.222.59.*
-*$all,~popup,ipaddress=31.222.60.*
-*$all,~popup,ipaddress=31.222.61.*
-*$all,~popup,ipaddress=31.222.62.*
-*$all,~popup,ipaddress=31.222.63.*
 *$all,~popup,ipaddress=93.191.192.*
 *$all,~popup,ipaddress=93.191.193.*
-*$all,~popup,ipaddress=93.191.194.*
-*$all,~popup,ipaddress=93.191.195.*
-*$all,~popup,ipaddress=93.191.196.*
-*$all,~popup,ipaddress=93.191.197.*
-*$all,~popup,ipaddress=93.191.198.*
-*$all,~popup,ipaddress=93.191.199.*
-*$all,~popup,ipaddress=195.72.132.*
-*$all,~popup,ipaddress=195.72.133.*
 *$all,~popup,ipaddress=195.72.134.*
 *$all,~popup,ipaddress=195.72.135.*
 !- BWIN Entertainment - USA
@@ -1327,7 +1272,7 @@
 *$all,~popup,ipaddress=93.93.85.*
 *$all,~popup,ipaddress=93.93.86.*
 *$all,~popup,ipaddress=93.93.87.*
-!- Continent 8 LLC (Gambling IT Provider) - USA
+!- Continent 8 LLC (Gambling Hosting Provider) - USA
 *$all,~popup,ipaddress=67.211.96.*
 *$all,~popup,ipaddress=67.211.97.*
 *$all,~popup,ipaddress=67.211.98.*
