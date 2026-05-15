@@ -370,8 +370,6 @@ puredrinkwater.online##+js(set-constant, detectAdBlock, noopFunc)
 !-/ Inline Script Preventing
 /\bdizipal\d{3}\.com$/##^script:has-text("'notif'")
 dosyaload.com##^script:has-text("'%cBEpeak'")
-!-/ Other Scriptlets
-anizm.net##+js(prevent-refresh)
 
 #----------------------------------------------------------------------------------------------------#
 #- Generic Cosmetic and Network Path AD Filters 

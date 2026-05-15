@@ -1,7 +1,8 @@
 /ads/system/context.js|$script,to=yandex.ru
 /beacon.min.js/*$script,to=static.cloudflareinsights.com
+/detect.js|$script,to=_
 /instream/video/client.js|$script,to=s0.2mdn.net
 /js/script.file-downloads.hash.outbound-links.js|$script,to=events.openani.me
 /js/script.outbound-links.pageview-props.tagged-events.js|$script,to=analytics.regex101.com
+/js/script.outbound-links.tagged-events.js|$script,to=insights.wsky.de
 /metrika/tag.js^$script,to=mc.yandex.ru
-/detect.js^$script,to=_

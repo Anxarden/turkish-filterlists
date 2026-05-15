@@ -8,6 +8,14 @@
 ||lotto^
 ||poker^
 ||slots^
+#- Gambling Network IPs
+!- Softconstruct Limited - England
+*$all,~popup,ipaddress=185.162.228.*
+*$all,~popup,ipaddress=185.162.229.*
+*$all,~popup,ipaddress=185.162.230.*
+*$all,~popup,ipaddress=185.162.231.*
+!- MFI Investments Limited - Cyprus
+*$all,~popup,ipaddress=194.67.193.*
 #- Regexes for Gambling Related Words
 *$all,~popup,to=/\b(?:\d+[a-z]*bet|[a-z]*bet\d+)\b/
 *$all,~popup,to=/\b(?:bet[a-z]{2,}\d+|\d+bet[a-z]{2,})\b/
@@ -248,6 +256,7 @@
 ||vippark*.com^$to=/vippark\d*\.com$/
 ||bahix*.com^$to=/bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
+||bankoforum.com^
 ||vipparksitesigiris.com^
 ||vipparkcasinositesi.com^
 ||vipparkgo.com^
@@ -1055,7 +1064,6 @@
 ||edtbt.ink^
 ||ncybs.com^
 ||prmbw.com^
-||ttagc.xyz^
 ||hbwjja.cc^
 ||rmewe.com^
 ||swqlaf.xyz^
