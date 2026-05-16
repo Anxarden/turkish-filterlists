@@ -1,4 +1,5 @@
 /ads/system/context.js|$script,to=yandex.ru
+/assets/track.js|$script,to=assets.customer.io
 /beacon.min.js/*$script,to=static.cloudflareinsights.com
 /detect.js|$script,to=dump.example.com
 /instream/video/client.js|$script,to=s0.2mdn.net

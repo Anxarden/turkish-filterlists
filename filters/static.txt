@@ -1104,7 +1104,7 @@
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
 ||filmhane.online/activity/$xhr
 ||getpczone.com/sw.js^$script
-||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|metsparadise.com|cfd
+||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|cfd|ecrgallery.com
 ||haber7.net/makroo/hb-ads/$script
 ||haberler.com/firebase-messaging-sw.js^$script
 ||haberler.com/mstatic/assets/js/bildirimpopup.js^$script

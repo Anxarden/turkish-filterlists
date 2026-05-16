@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı sağlar.
-! Last modified: 2026.05.15
+! Last modified: 2026.05.16
 ! Expires: 24 hours
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
@@ -253,18 +253,31 @@
 ||annas-archive.su^$reason=fake-clone/annas-archive
 ||annas-archive.io^$reason=fake-clone/annas-archive
 #- Deprecated Websites
-||maskmail.io^$document,reason=paywall-after-register
 ||cloaked.com^$document,reason=no-free-tier
-||sms-activate.guru^$document,reason=service-closed
+||dizipal.info^$document,reason=unfulfilled-promise
+||dizipal.plus^$document,reason=parked-domain
+||dizipalizle.eu^$document,reason=parked-domain
+||downloadly.net^$document,reason=shady-website
+||maskmail.io^$document,reason=paywall-after-register
 ||monochrome.tf^$document,reason=website-closed
-||receive-sms.com^$document,reason=no-free-tier
-||zenbe.com^$document,reason=service-closed
-||tempboxpro.com^$document,reason=service-not-working
-||torrentgalaxy.to^$document,reason=website-closed
+||mp3indirdur.pro^$document,reason=service-not-working
 ||rarbg.to^$document,reason=website-closed
 ||rarbgweb.org^$document,reason=website-closed
-||mp3indirdur.pro^$document,reason=service-not-working
-||downloadly.net^$document,reason=shady-website
-||dizipal.plus^$document,reason=parked-domain
-||dizipal.info^$document,reason=unfulfilled-promise
-||dizipalizle.eu^$document,reason=parked-domain
+||receive-sms.com^$document,reason=no-free-tier
+||sms-activate.guru^$document,reason=service-closed
+||tempboxpro.com^$document,reason=service-not-working
+||torrentgalaxy.to^$document,reason=website-closed
+||zenbe.com^$document,reason=service-closed
+#- Security Filters
+dyunos.com^$reason=tracking-keysrokes/ldplayer
+easyfun.gg^$reason=tracking-keysrokes/ldplayer
+funpass.gg^$reason=tracking-keysrokes/ldplayer
+funpassgg.com^$reason=tracking-keysrokes/ldplayer
+funpg.net^$reason=tracking-keysrokes/ldplayer
+ldcloud.net^$reason=tracking-keysrokes/ldplayer
+ldmnq.com^$reason=tracking-keysrokes/ldplayer
+ldplayer.net^$reason=tracking-keysrokes/ldplayer
+ldrescdn.com^$reason=tracking-keysrokes/ldplayer
+ldshop.gg^$reason=tracking-keysrokes/ldplayer
+ldyuncs.com^$reason=tracking-keysrokes/ldplayer
+oslink.io^$reason=tracking-keysrokes/ldplayer

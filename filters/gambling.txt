@@ -148,7 +148,7 @@
 ||gamdom*.com^
 ||ganobet*.com^
 ||grandchamadabet*.com^
-||harbiwin*.com^
+||harbiwin*.com^$to=/harbiwin\d*\.com$/
 ||havanabet*.com^
 ||hepbet*.com^
 ||hepsibet*.com^
@@ -243,6 +243,7 @@
 ||vippark*.com^$to=/vippark\d*\.com$/
 ||bahix*.com^$to=/bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
+||2025model.com^
 ||bankoforum.com^
 ||vipparksitesigiris.com^
 ||vipparkcasinositesi.com^
