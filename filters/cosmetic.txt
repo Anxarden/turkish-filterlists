@@ -117,11 +117,11 @@ ownedcore.com##div.body_wrap>div.so-wrapper
 rockmods.net##div.container:has(>ins)
 rockmods.net##ins:matches-attr(/^data-sizes-/)
 sozce.com##div#icerik>div:matches-attr(class=/^reklam\d{1,4}x\d{1,4}$/i)
+startpage.com##section#main>:is(:not([class]),[data-testid])
 teamos.xyz##div.p-body-inner>center
 teamos.xyz##div.p-body-sidebar>a
 useragents.me##li.nav-item:has(a[target])
 useragents.me##tr:has(a[href^="https://smartproxy.pxf.io/"])
-startpage.com##section#main>*:not([class])
 
 !-/	Security Cosmetic Filters | Fake Download Buttons
 filecrypt.cc##span>button[onmousedown]
