@@ -5,6 +5,7 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 !-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute")
+/^dizipal\d{4}\.com$/,thurlbailey.com##a.embed-text-banner
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]
@@ -16,7 +17,7 @@ ahaber.com.tr,atv.com.tr,fotomac.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~
 ahaber.com.tr,atv.com.tr,sabah.com.tr,yeniasir.com.tr##div.advert
 ahaber.com.tr,fotomac.com.tr##div.advers-box
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div.sub-board-frame
-ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class="admodelsgravity"i]
+ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class='admodelsgravity'i]
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr,takvim.com.tr,yeniasir.com.tr##div[class~="bandreklam"i]
 ahaber.com.tr,fotomac.com.tr,takvim.com.tr,yeniasir.com.tr##div[data-wbzone]
 ahaber.com.tr,sabah.com.tr##span.detail-google-news
@@ -157,21 +158,14 @@ birgun.net##div#getpermission
 birgun.net##div#adblocker
 birgun.net##div[id~="appbanner"i]
 freephone.io##div[x-show="alert"]
+ahaber.com.tr##section.download-apps-section
 
 !-/ Social Networks and Content Share Widgets														 ~
-!#if cap_html_filtering
-teyit.org##^div.share-bar
-ekonomim.com##^div.social-shares
-sozcu.com.tr##^div.social-pages
-sozcu.com.tr,tele1.com.tr##^div.share-area
-birgun.net##^div.social-share
-!#else
 teyit.org##div.share-bar
 ekonomim.com##div.social-shares
 sozcu.com.tr##div.social-pages
 sozcu.com.tr,tele1.com.tr##div.share-area
 birgun.net##div.social-share
-!#endif
 ahaber.com.tr,fotomac.com.tr,sabah.com.tr##div[class~="pagetools"i]
 ahaber.com.tr,sabah.com.tr##div.share-div
 ahaber.com.tr,sabah.com.tr,yeniasir.com.tr##div[class~="mediashare"i]
@@ -204,11 +198,7 @@ ekonomim.com##div.social-share-wrapper
 gazeteoku.com##div.footer-content
 
 !-/ Premium Subscriptions, Discounts and Promotions													 ~
-!#if cap_html_filtering
-deepl.com##^div[data-testid="translator"]>div:not([data-layout-id])
-!#else
 deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
-!#endif
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
