@@ -226,7 +226,6 @@
 ||datadoghq-browser-agent.com^
 ||dataroid.com^
 ||daznservices.com^
-||dc-telemetry.net^
 ||debugbear.com^
 ||demand.supply^
 ||demirorenmedya.com^
@@ -432,7 +431,6 @@
 ||plausible.io^
 ||playwire.com^
 ||poltio.com^
-||polyfill.io^
 ||pop-convert.com^
 ||portal101.cn^
 ||posthog.com^
@@ -503,7 +501,6 @@
 ||statcounter.com^$important
 ||statlytic.net^
 ||statsigapi.net^
-||stomt.com^
 ||stripecdn.com^$third-party,from=~stripe.com
 ||strpst.com^
 ||ststandard.com^
@@ -799,7 +796,6 @@
 ||geoloc.hurriyet.com.tr^
 ||entitlements.jwplayer.com^
 ||nxggwx.ideasoft.com.tr^
-||halo.idocdn.com^
 ||ocdhbt.ihvan.com.tr^
 ||geoloc.imfexim.com^
 ||event-tracker.inditex.com^
@@ -1104,7 +1100,7 @@
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
 ||filmhane.online/activity/$xhr
 ||getpczone.com/sw.js^$script
-||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|cfd|ecrgallery.com
+||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|cfd|thurlbailey.com
 ||haber7.net/makroo/hb-ads/$script
 ||haberler.com/firebase-messaging-sw.js^$script
 ||haberler.com/mstatic/assets/js/bildirimpopup.js^$script
@@ -1122,7 +1118,6 @@
 ||myanimelist.net/ma/s$xhr,redirect-rule=noop.txt
 ||naupsithizeekee.com/tag.min.js$script,redirect-rule=noop.js
 ||playwire.com/*/powered-by-playwire-badges/$third-party,image
-||royalfilmizle.com/wp-content/uploads/*gif^$image
 ||setplay.cfd/player/assets/devtools-detector/$script
 ||sozcu.com.tr/firebase-messaging-$script
 ||sozcu.com.tr/lib/js/sozcu_taboola.js^$script

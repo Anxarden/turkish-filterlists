@@ -8,7 +8,6 @@
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
 #- Regexes for Specific Gambling Sites
-*$all,~popup,to=/\b\d*zlot\b/
 *$all,~popup,to=/\bmorospin\d*\b/
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
 *btcoservice.com^$to=/\d+btcoservice/,reason=gambling-cdn
@@ -42,6 +41,7 @@
 ||verabet*.$all,~popup
 ||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
+*zlot.com^$to=/^\d*zlot\.com$/
 *bayspin.com^
 *baywin.com^
 *betebet.com^
@@ -331,6 +331,7 @@
 ||velobless.dk^
 ||weplay.com.tr^
 ||zegnabetgiris.org^
+||bonusdelil.com^
 #- SEO Injected Websites ~ Highly Suspicious
 ||easternafricajesuits.org^
 ||90milescubancafe.com^
@@ -397,6 +398,9 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||tentangle.com^
+||slotbaba.co^
+||babaslot.com^
 ||denemesablon.xyz^
 ||top-bet.com^
 ||ultroncdn.top^
@@ -983,14 +987,15 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
-||vipparkk.com^
-||1-king-untr-065.online^
-||f1w-310384.com^
+||wadabet505.com^
 ||1-king-513.club^
+||1-king-untr-065.online^
 ||1wcxic.com^
 ||1woahn.com^
 ||1wxlfq.com^
+||1xbetm.info^$domain=~link-hub
 ||816xslot.com^
+||aanavandi.com^$domain=~link-hub
 ||aff888toertsa.com^
 ||affpro1.com^
 ||arcee003.com^
@@ -998,12 +1003,12 @@
 ||aviatoroynaa.com^
 ||bandnetbe80322.com^
 ||bis2020.com
-||1xbetm.info^$domain=~link-hub
 ||bonusal2.forum^$domain=~link-hub
 ||bonussemti3.com^$domain=~link-hub
 ||buyukortak1.com^
 ||denemebonusulv.site^
 ||edgeflowjb10247.net^
+||f1w-310384.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
@@ -1022,11 +1027,12 @@
 ||relayhubho40281.net^
 ||satispanel1.com^
 ||slotapp7.com^
+||slotbaba80.com^
 ||stake1069.com^
 ||tabloproject2.com^
 ||top100bonus.com^
+||vipparkk.com^
 ||wlstrge33.pro^
-||aanavandi.com^$domain=~link-hub
 ||wlstrge35.pro^
 ||xaxnetwork2.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
