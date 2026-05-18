@@ -1130,11 +1130,10 @@
 ||yabancidizim.com/ads/ads.xml^$xhr
 ||yabancidizim.com/serv1/*.gif^$image
 ||yabancidizim.com/serv1/devdetect.js^$script
-||bysejikuar.com/fingerprint-sw.js|$script
-||398fitus.com/fingerprint-sw.js|$script
-||bysefujedu.com/fingerprint-sw.js|$script
 ||medyascope.tv/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js^$script
 ||tokvoy.com/js/dnsads.js^$script
+||cortinaeaccoladed.xyz/js/$script,reason=video-player-scripts
+||cdn.jsdelivr.net/gh/msalvatorius/gladio/$third-party,media,reason=video-ads
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
