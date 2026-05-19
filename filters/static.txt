@@ -98,6 +98,7 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||ip-api.com^
+||adinplay.com^
 ||marker.io^
 ||shoplift.ai^
 ||shopifysvc.com^
