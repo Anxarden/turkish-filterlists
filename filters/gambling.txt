@@ -42,6 +42,7 @@
 ||winxbet*.$all,~popup
 #- Gambling Domains /w Wildcard - TLDs Specific
 *zlot.com^$to=/^\d*zlot\.com$/
+*casibom.com^$to=/^\d+casibom\.com$/
 *bayspin.com^
 *baywin.com^
 *betebet.com^
@@ -60,6 +61,7 @@
 *supertotobet.com^
 *timebet.com^
 *xslot.com^
+||vizyonbet*.com^
 ||poliwin*.com^$to=/poliwin\d*\.com$/
 ||wingamb*.com^$to=/wingamb\d*\.com$/
 ||5stakes*.com^
@@ -116,7 +118,7 @@
 ||bycasino*.com^
 ||candycasino*.com^
 ||capitolbet*.com^
-||casibom*.com^
+||casibom*.com^$to=/casibom\d*\.com$/
 ||casicosta*.com^$to=/casicosta\d*\.com$/
 ||casilot*.com^
 ||casivera*.com^
@@ -149,6 +151,9 @@
 ||ganobet*.com^
 ||grandchamadabet*.com^
 ||harbiwin*.com^$to=/harbiwin\d*\.com$/
+||casher*.com^$to=/casher\d*\.com$/
+||hitpot*.com^$to=/hitpot\d*\.com$/
+||casipol*.com^$to=/casipol\d*\.com$/
 ||havanabet*.com^
 ||hepbet*.com^
 ||hepsibet*.com^
@@ -243,6 +248,7 @@
 ||vippark*.com^$to=/vippark\d*\.com$/
 ||bahix*.com^$to=/bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
+||kazananman.pro^
 ||2025model.com^
 ||bankoforum.com^
 ||vipparksitesigiris.com^
@@ -1002,6 +1008,7 @@
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
 ||bonussemti3.com^$domain=~link-hub
+||slotarena13.com^$domain=~link-hub
 ||buyukortak1.com^
 ||denemebonusulv.site^
 ||edgeflowjb10247.net^
@@ -1015,13 +1022,10 @@
 ||linkpointbc110183.com^
 ||madridreal000.com^
 ||meritkngsite.com^
-||netcachesb140258.net^
 ||pes24.com^
 ||primeaffiliates1.com^
 ||pro1bet1.com^
 ||redirectss7affhub.com^
-||relayhubho40146.com^
-||relayhubho40281.net^
 ||satispanel1.com^
 ||slotapp7.com^
 ||slotbaba80.com^
@@ -1100,7 +1104,6 @@
 ||365lpodds.com^
 ||ame1a56mb.com^
 ||casnrylle.com^
-||citron000.com^
 ||h78h78125.com^
 ||movetru16.com^
 ||naiofdsni.com^
