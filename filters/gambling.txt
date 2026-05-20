@@ -60,7 +60,7 @@
 *slotin.com^
 *supertotobet.com^
 *timebet.com^
-*xslot.com^
+*xslot.com^$to=/^\d*xslot\.com$/
 ||vizyonbet*.com^
 ||poliwin*.com^$to=/poliwin\d*\.com$/
 ||wingamb*.com^$to=/wingamb\d*\.com$/
@@ -991,6 +991,7 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||maxislot78.com^
 ||wadabet505.com^
 ||1-king-untr-065.online^
 ||1wcxic.com^
@@ -1009,9 +1010,9 @@
 ||bonusal2.forum^$domain=~link-hub
 ||bonussemti3.com^$domain=~link-hub
 ||slotarena13.com^$domain=~link-hub
+||jetsiteler13.com^$domain=~link-hub
 ||buyukortak1.com^
 ||denemebonusulv.site^
-||edgeflowjb10247.net^
 ||f1w-310384.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
@@ -1049,7 +1050,6 @@
 ||mdlr.site^
 ||fvcdn.xyz^
 ||cgcb.info^
-||edtbt.ink^
 ||ncybs.com^
 ||prmbw.com^
 ||hbwjja.cc^
@@ -1084,7 +1084,6 @@
 ||prsuv.click^
 ||qruvw.click^
 ||ririoek.com^
-||rstuv.click^
 ||satisbw.com^
 ||tamgits.xyz^
 ||btmgris1.com^
