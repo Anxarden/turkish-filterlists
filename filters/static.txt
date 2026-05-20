@@ -239,7 +239,6 @@
 ||dnymedya.com^$third-party
 ||dog-a.xyz^
 ||doganburda.com^
-||doggrellowder.com^
 ||doppiocdn.com^
 ||dotmetrics.net^
 ||doubleclick.net^

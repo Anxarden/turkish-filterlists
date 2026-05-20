@@ -381,7 +381,6 @@
 ||popcornfilmovi.com^
 ||rapghostwriters.com^
 ||rdwheel.com^
-||royalparkwines.com^
 ||saintbernardkeg.com^
 ||slomoparty.com^
 ||soneroslatingrill.com^
@@ -957,7 +956,6 @@
 ||walletconnect.org^
 ||wanderer-wing.com^
 ||wearebettors.com^
-||webbeluga.com^
 ||wepanknowledgecenter.org^
 ||westbrew.com^
 ||whitehatgaming.com^
@@ -988,7 +986,6 @@
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
 ||wadabet505.com^
-||1-king-513.club^
 ||1-king-untr-065.online^
 ||1wcxic.com^
 ||1woahn.com^
@@ -1138,7 +1135,6 @@
 ||wk3i4dqleo.com^
 ||wvwjxmcfth.com^
 ||cdamrh-ddok.com^
-||awsbtcdn100.com^
 ||melredhwiku.top^
 ||trkgflowtrk.com^
 ||gpartners1.click^
