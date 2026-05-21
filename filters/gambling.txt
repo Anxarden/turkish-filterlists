@@ -1030,7 +1030,7 @@
 ||satispanel1.com^
 ||slotapp7.com^
 ||slotbaba80.com^
-||stake1069.com^
+||slotbaba81.com^
 ||tabloproject2.com^
 ||top100bonus.com^
 ||vipparkk.com^
@@ -1239,7 +1239,7 @@
 *$all,~popup,ipaddress=185.162.229.*
 *$all,~popup,ipaddress=185.162.230.*
 *$all,~popup,ipaddress=185.162.231.*
-!- MFI Investments Limited - CY
+!- MFI Investments Limited (1Win)- CY
 *$all,~popup,ipaddress=194.67.193.*
 !- Interwetten Gaming Limited - MT
 *$all,~popup,ipaddress=194.127.139.*
@@ -1272,3 +1272,5 @@
 !- TSG Interactive Services Ltd. - IM
 *$all,~popup,ipaddress=91.211.96.*
 *$all,~popup,ipaddress=91.211.98.*
+!- Software Solutions Ltd. - SC / ♠
+*$all,~popup,ipaddress=154.193.184.*

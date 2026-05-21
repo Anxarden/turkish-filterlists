@@ -410,5 +410,6 @@
 !||1wzpdo.life^$reason=blocked-by-ipaddress
 !||refpa00186.com^$reason=blocked-by-regex
 !||refpa01777.com^$reason=blocked-by-regex
+!||refpa42123.com^$reason=blocked-by-regex
 !||refpa42156.com^$reason=blocked-by-regex
 !||refpa59139.com^$reason=blocked-by-regex
