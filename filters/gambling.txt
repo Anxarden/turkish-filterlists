@@ -8,7 +8,6 @@
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
 #- Regexes for Specific Gambling Sites
-*$all,~popup,to=/\bmorospin\d*\b/
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
 *btcoservice.com^$to=/\d+btcoservice/,reason=gambling-cdn
 ||btcoservice*.com^$to=/btcoservice\d*/,reason=gambling-cdn
@@ -215,7 +214,7 @@
 ||saltbahis*.com^
 ||sekabet*.com^
 ||sezonbahis*.com^
-||sheratonking*.com^
+||sheratonking*.com^/sheratonking\d*\.com$/
 ||showbet*.com^
 ||sloganbahis*.com^
 ||slotspor*.com^
