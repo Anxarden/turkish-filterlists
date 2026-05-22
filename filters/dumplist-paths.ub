@@ -2,7 +2,7 @@
 /assets/track.js|$script,to=assets.customer.io
 /beacon.min.js/*$script,to=static.cloudflareinsights.com
 /detect.js|$script,to=dump.example.com
-/activity/$xhr,to=dump.example.com
+/activity/*$xhr,to=dump.example.com
 /fingerprint-sw.js|$script,to=bysejikuar.com|398fitus.com|bysefujedu.com
 /instream/video/client.js|$script,to=s0.2mdn.net
 /js/script.file-downloads.hash.outbound-links.js|$script,to=events.openani.me

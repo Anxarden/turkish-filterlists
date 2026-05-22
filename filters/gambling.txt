@@ -248,6 +248,7 @@
 ||bahix*.com^$to=/bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
 ||kazananman.pro^
+||artemisbetgiris.net^
 ||2025model.com^
 ||bankoforum.com^
 ||vipparksitesigiris.com^
@@ -402,6 +403,7 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||artemisbet.net
 ||tentangle.com^
 ||slotbaba.co^
 ||babaslot.com^
@@ -655,7 +657,6 @@
 ||girisimbirligi.com^
 ||girpop.com^
 ||glastcoper.com^
-||golvar.org^
 ||gotoduman.xyz^
 ||gotur.xyz^
 ||gourmandine-restaurant.com^
@@ -829,7 +830,6 @@
 ||rekabetgirisi.com^
 ||reown.com^
 ||reslotguncelgiris.com^
-||rexbet.name^
 ||ri-bba.org^
 ||ribba.org^
 ||richycashortaklik.com^
@@ -1072,7 +1072,6 @@
 ||x011bt.com^
 ||xyzrdr.xyz^
 ||fyirdr.xyz^
-||api7rng.com^
 ||automyl.ink^
 ||btgo.online^
 ||fsttredr.co^

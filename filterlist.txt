@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı sağlar.
-! Last modified: 2026.05.21
+! Last modified: 2026.05.22
 ! Expires: 24 hours
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
@@ -84,7 +84,6 @@
 ||wizcase.com^
 !-	Shady Software and Service Websites
 ||astrill.com^
-||atlasvpn.com^
 ||avast.com^
 ||avg.com^
 ||avira.com^
@@ -254,7 +253,6 @@
 #- Deprecated Websites
 ||cloaked.com^$document,reason=no-free-tier
 ||dizipal.info^$document,reason=unfulfilled-promise
-||dizipal.plus^$document,reason=parked-domain
 ||dizipalizle.eu^$document,reason=parked-domain
 ||downloadly.net^$document,reason=shady-website
 ||maskmail.io^$document,reason=paywall-after-register

@@ -145,7 +145,6 @@
 ||amung.us^
 ||analixreklam.com^$third-party,domain=~with-subdomains
 ||animecix.co^$domain=~with-subdomains
-||antigutkha.com^
 ||apk-2.online^
 ||app-measurement.com^
 ||appboycdn.com^
@@ -166,7 +165,6 @@
 ||bildir.mobi^
 ||bildirt.com^
 ||bilgin.pro^
-||birthaslaver.com^
 ||bocheskelly.com^
 ||bodis.com^
 ||botwafguard.net^
@@ -351,7 +349,6 @@
 ||licensebuttons.net^
 ||ligninkeftiu.com^
 ||lijit.com^
-||lindiesoncoses.com^
 ||livechatinc.com^$document,domain=~3rd-party-blocked
 ||livechatinc.com^$third-party,domain=~with-subdomains
 ||lngtd.com^
@@ -1098,7 +1095,6 @@
 ||dizipal*.com/wp-content/uploads/*.gif$first-party,image
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
-||filmhane.online/activity/$xhr
 ||getpczone.com/sw.js^$script
 ||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|cfd|thurlbailey.com
 ||haber7.net/makroo/hb-ads/$script
