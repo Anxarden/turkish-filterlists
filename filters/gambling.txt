@@ -1272,3 +1272,5 @@
 *$all,~popup,ipaddress=91.211.98.*
 !- Software Solutions Ltd. - SC / ♠
 *$all,~popup,ipaddress=154.193.184.*
+!- UPX Game - AE
+*$all,~popup,ipaddress=186.2.165.72
