@@ -5,7 +5,7 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 !-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute")
-/^dizipal\d{4}\.com$/,thurlbailey.com##a.embed-text-banner
+/^dizipal\d{4}\.com$/,hkkidz.com##a.embed-text-banner
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]

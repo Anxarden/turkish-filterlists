@@ -601,7 +601,6 @@
 ||denemeslotbonus.com^
 ||denmet.com.tr^
 ||digitain.com^
-||dioraff.site^
 ||dockofthebayva.com^
 ||drunksport.com^
 ||dunyakupasi.org^
@@ -993,10 +992,7 @@
 #- Randomised Domain/Network Names ~ Regex Candidates
 ||maxislot78.com^
 ||wadabet505.com^
-||1-king-untr-065.online^
-||1wcxic.com^
-||1woahn.com^
-||1wxlfq.com^
+||1-king-untr-065.online^||1wcxic.com^
 ||1xbetm.info^$domain=~link-hub
 ||816xslot.com^
 ||aanavandi.com^$domain=~link-hub
@@ -1005,7 +1001,6 @@
 ||arcee003.com^
 ||aviator-oynaa.vip^
 ||aviatoroynaa.com^
-||bandnetbe80322.com^
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
 ||slotarena13.com^$domain=~link-hub
@@ -1162,30 +1157,29 @@
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
 #- Datacenter Links
-||50yo4fzxk02ujr25gm9y.s3.*.amazonaws.com^
-||agc-casino.s3.*.amazonaws.com^
-||agc-casino.s3.amazonaws.com^
+||50yo4fzxk02ujr25gm9y.*.amazonaws.com^
+||agc-casino.*.amazonaws.com^
 ||api-ligobet-tr--prd--pl-sb.api89rng.com^
 ||api-starzbet-tr--prd--pl-sb.api89rng.com^
 ||bettilt-sportsbook-prod.gtdevteam.work^
 ||bookmkrs.s3.amazonaws.com^
-||canli-bahis.s3.*.amazonaws.com^
+||canli-bahis.*.amazonaws.com^
 ||cdn-ilcfbjl.nitrocdn.com^
 ||d1b82hscw3e9o2.cloudfront.net^
 ||d3psi4rj7mv4u4.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
+||garlic-dev.*.digitaloceanspaces.com^
 ||golvar-org.cdn.ampproject.org^
-||luxsitecdn.s3.*.amazonaws.com^
-||prtgaming.s3.*.amazonaws.com^
-||winxbets-net.cdn.ampproject.org^
-||yabanci-bahis-siteleri.s3.*.amazonaws.com^
-||yeni-adres.s3.*.amazonaws.com^
+||katla.b-cdn.net^
+||luxsitecdn.*.amazonaws.com^
+||prtgaming.*.amazonaws.com^
 ||vendor-provider.*.digitaloceanspaces.com^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
-||garlic-dev.*.digitaloceanspaces.com^
-||katla.b-cdn.net^
+||winxbets-net.cdn.ampproject.org^
+||yabanci-bahis-siteleri.*.amazonaws.com^
+||yeni-adres.*.amazonaws.com^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/
 ||res.akamai-cloud.com/kingroyal/
