@@ -9,8 +9,9 @@
 *$all,~popup,to=/kumar/
 #- Regexes for Specific Gambling Sites
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
-*btcoservice.com^$to=/\d+btcoservice/,reason=gambling-cdn
-||btcoservice*.com^$to=/btcoservice\d*/,reason=gambling-cdn
+*btcoservice.com^$to=/^\d+btcoservice\.com$/,reason=gambling-cdn
+||btcoservice*.com^$to=/^btcoservice\d*\.com$/,reason=gambling-cdn
+||bonussemti*.com^$to=/^bonussemti\d*\.com$/,reason=link-hub
 #- Specific Gambling Domains or Subdomains - All TDLs
 ||1win.$all,~popup
 ||afun.$all,~popup
@@ -61,8 +62,8 @@
 *timebet.com^
 *xslot.com^$to=/^\d*xslot\.com$/
 ||vizyonbet*.com^
-||poliwin*.com^$to=/poliwin\d*\.com$/
-||wingamb*.com^$to=/wingamb\d*\.com$/
+||poliwin*.com^$to=/^poliwin\d*\.com$/
+||wingamb*.com^$to=/^wingamb\d*\.com$/
 ||5stakes*.com^
 ||7slots*.com^
 ||acrobet*.com^
@@ -77,7 +78,7 @@
 ||bahsegel*.com^
 ||balinabet*.com^
 ||bankobet*.com^
-||bbey*.com^$to=/bbey\d*\.com$/
+||bbey*.com^$to=/^bbey\d*\.com$/
 ||benjabet*.com^
 ||betamiral*.com^
 ||betbalina*.com^
@@ -110,15 +111,15 @@
 ||betzula*.com
 ||beygirbet*.com^
 ||biabet*.com^
-||bonisa*.com^$to=/bonisa\d*\.com$/
+||bonisa*.com^$to=/^bonisa\d*\.com$/
 ||bovbet*.com^
 ||bugibet*.com^
 ||bullbahis*.com^
 ||bycasino*.com^
 ||candycasino*.com^
 ||capitolbet*.com^
-||casibom*.com^$to=/casibom\d*\.com$/
-||casicosta*.com^$to=/casicosta\d*\.com$/
+||casibom*.com^$to=/^casibom\d*\.com$/
+||casicosta*.com^$to=/^casicosta\d*\.com$/
 ||casilot*.com^
 ||casivera*.com^
 ||casiwin*.com^
@@ -149,13 +150,13 @@
 ||gamdom*.com^
 ||ganobet*.com^
 ||grandchamadabet*.com^
-||harbiwin*.com^$to=/harbiwin\d*\.com$/
-||casher*.com^$to=/casher\d*\.com$/
-||hitpot*.com^$to=/hitpot\d*\.com$/
-||casipol*.com^$to=/casipol\d*\.com$/
+||harbiwin*.com^$to=/^harbiwin\d*\.com$/
+||casher*.com^$to=/^casher\d*\.com$/
+||hitpot*.com^$to=/^hitpot\d*\.com$/
+||casipol*.com^$to=/^casipol\d*\.com$/
 ||havanabet*.com^
 ||hepbet*.com^
-||hepsibet*.com^
+||hepsibet*.com^^^
 ||heybet*.com^
 ||hiltonbet*.com^
 ||hititbet*.com^
@@ -167,8 +168,8 @@
 ||kargabet*.com^
 ||katla*.com^
 ||kavbet*.com^
-||kazandra*.com^$to=/kazandra\d*\.com$/
-||kingroyal*.com^$to=/kingroyal\d*\.com$/
+||kazandra*.com^$to=/^^kazandra\d*\.com$/
+||kingroyal*.com^$to=/^^kingroyal\d*\.com$/
 ||lakebahis*.com^
 ||ligobet*.com^
 ||lizabet*.com^
@@ -198,11 +199,11 @@
 ||one-vv*.com^
 ||one-vv*.life^
 ||onlybet*.com^
-||onwin*.com^$to=/onwin\d*\.com$/
+||onwin*.com^$to=/^onwin\d*\.com$/
 ||oslobet*.com^
 ||otobet*.com^
 ||paripulse-*.pro^
-||pinco*.win^$to=/pinco\d*\.win$/
+||pinco*.win^$to=/^pinco\d*\.win$/
 ||polobet*.com^
 ||probet*.com^
 ||restbet*.com^
@@ -214,12 +215,12 @@
 ||saltbahis*.com^
 ||sekabet*.com^
 ||sezonbahis*.com^
-||sheratonking*.com^/sheratonking\d*\.com$/
+||sheratonking*.com^$to=/^sheratonking\d*\.com$/
 ||showbet*.com^
 ||sloganbahis*.com^
 ||slotspor*.com^
 ||solobet*.com^
-||stake*.com^$to=/stake\d*\.com$/
+||stake*.com^$to=/^stake\d*\.com$/
 ||starora*.com^
 ||stonebahis*.com^
 ||supertotobet*.com^
@@ -232,7 +233,7 @@
 ||trbet*.com^
 ||turboslot*.com^
 ||vaycasino*.com^
-||vegasslot*.com^$to=/vegasslot\d*\.com$/
+||vegasslot*.com^$to=/^vegasslot\d*\.com$/
 ||virabet*.com^
 ||virusbettr*.com^
 ||volacasino*.com^
@@ -243,9 +244,9 @@
 ||yedibahis*.com^
 ||zbahis*.com^
 ||zirvebet*.com^
-||jackbom*.com^$to=/jackbom\d*\.com$/
-||vippark*.com^$to=/vippark\d*\.com$/
-||bahix*.com^$to=/bahix\d*\.com$/
+||jackbom*.com^$to=/^jackbom\d*\.com$/
+||vippark*.com^$to=/^vippark\d*\.com$/
+||bahix*.com^$to=/^bahix\d*\.com$/
 #- Gambling Link Hubs ~ Portal Websites
 ||kazananman.pro^
 ||artemisbetgiris.net^
@@ -1007,12 +1008,10 @@
 ||bandnetbe80322.com^
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
-||bonussemti3.com^$domain=~link-hub
 ||slotarena13.com^$domain=~link-hub
 ||jetsiteler13.com^$domain=~link-hub
 ||buyukortak1.com^
 ||denemebonusulv.site^
-||f1w-310384.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
@@ -1274,3 +1273,5 @@
 *$all,~popup,ipaddress=154.193.184.*
 !- UPX Game - AE
 *$all,~popup,ipaddress=186.2.165.72
+!- [random] bonussemti - ♠
+*$all,~popup,ipaddress=66.29.149.119
