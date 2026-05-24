@@ -69,7 +69,6 @@
 ||acrobet*.com^
 ||alobet*.com^
 ||altaybet*.com^
-||amgbahis*.com^
 ||animabet*.com^
 ||aresbet*.com^
 ||asyabahis*.com^
@@ -79,7 +78,6 @@
 ||balinabet*.com^
 ||bankobet*.com^
 ||bbey*.com^$to=/^bbey\d*\.com$/
-||benjabet*.com^
 ||betamiral*.com^
 ||betbalina*.com^
 ||betbey*.com^
@@ -110,7 +108,6 @@
 ||betsnice*.com^
 ||betzula*.com
 ||beygirbet*.com^
-||biabet*.com^
 ||bonisa*.com^$to=/^bonisa\d*\.com$/
 ||bovbet*.com^
 ||bugibet*.com^
@@ -131,8 +128,6 @@
 ||deobet*.com^
 ||dilbet*.com^
 ||dinamobet*.com^
-||dodobet*.com^
-||dumanbet*.com^
 ||ebitbet*.com^
 ||efsino*.com^
 ||elexbet*.com^
@@ -168,8 +163,8 @@
 ||kargabet*.com^
 ||katla*.com^
 ||kavbet*.com^
-||kazandra*.com^$to=/^^kazandra\d*\.com$/
-||kingroyal*.com^$to=/^^kingroyal\d*\.com$/
+||kazandra*.com^$to=/^kazandra\d*\.com$/
+||kingroyal*.com^$to=/^kingroyal\d*\.com$/
 ||lakebahis*.com^
 ||ligobet*.com^
 ||lizabet*.com^
@@ -181,7 +176,6 @@
 ||luxbet*.com^
 ||m-betkanyon*.com^
 ||m-winxbet*.com^
-||madridbet*.com^
 ||makrobet*.com^
 ||masterbetting*.com^
 ||medobet*.com^
@@ -247,6 +241,14 @@
 ||jackbom*.com^$to=/^jackbom\d*\.com$/
 ||vippark*.com^$to=/^vippark\d*\.com$/
 ||bahix*.com^$to=/^bahix\d*\.com$/
+#- Gambling Websites ~ Regex Captured Names
+||amgbahis.com^$domain=~bahis
+||benjabet.com^$domain=~bet-plus-digits
+||biabet.com^$domain=~bet-plus-digits
+||deltabahis.com^$domain=~bahis
+||dodobet.com^$domain=~bet-plus-digits
+||dumanbet.com^$domain=~bet-plus-digits
+||madridbet.com^$domain=~bet-plus-digits
 #- Gambling Link Hubs ~ Portal Websites
 ||kazananman.pro^
 ||artemisbetgiris.net^
@@ -404,6 +406,7 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||bettingvet.com^
 ||artemisbet.net
 ||tentangle.com^
 ||slotbaba.co^
@@ -990,11 +993,12 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
-||maxislot78.com^
-||wadabet505.com^
-||1-king-untr-065.online^||1wcxic.com^
+||kuponcum295.com^$domain=~gambling-site
+||1-king-untr-065.online^
+||120bahizz.com^
 ||1xbetm.info^$domain=~link-hub
 ||816xslot.com^
+||a8r.games^
 ||aanavandi.com^$domain=~link-hub
 ||aff888toertsa.com^
 ||affpro1.com^
@@ -1003,18 +1007,19 @@
 ||aviatoroynaa.com^
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
-||slotarena13.com^$domain=~link-hub
-||jetsiteler13.com^$domain=~link-hub
 ||buyukortak1.com^
 ||denemebonusulv.site^
+||gaaf2.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
 ||geolink99.com^
 ||giriscbon.com^
 ||hikkoshi0515.com^
 ||hosting8931.com^
+||jetsiteler13.com^$domain=~link-hub
 ||linkpointbc110183.com^
 ||madridreal000.com^
+||maxislot78.com^
 ||meritkngsite.com^
 ||pes24.com^
 ||primeaffiliates1.com^
@@ -1022,11 +1027,15 @@
 ||redirectss7affhub.com^
 ||satispanel1.com^
 ||slotapp7.com^
+||slotarena13.com^$domain=~link-hub
 ||slotbaba80.com^
 ||slotbaba81.com^
+||slotday2151.com^
+||smartpanel10.online^
 ||tabloproject2.com^
 ||top100bonus.com^
 ||vipparkk.com^
+||wadabet505.com^
 ||wlstrge33.pro^
 ||wlstrge35.pro^
 ||xaxnetwork2.com^
@@ -1092,6 +1101,7 @@
 ||nakjdjsd.com^
 ||nnn3tgza.com^
 ||slotvvip.xyz^
+||4n5wbzm8.com^
 ||365lpodds.com^
 ||ame1a56mb.com^
 ||casnrylle.com^
@@ -1158,6 +1168,7 @@
 ||x.com/*casino$doc
 #- Datacenter Links
 ||50yo4fzxk02ujr25gm9y.*.amazonaws.com^
+||v02-s3.*.amazonaws.com^
 ||agc-casino.*.amazonaws.com^
 ||api-ligobet-tr--prd--pl-sb.api89rng.com^
 ||api-starzbet-tr--prd--pl-sb.api89rng.com^
