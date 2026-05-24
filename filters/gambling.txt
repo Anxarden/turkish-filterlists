@@ -163,6 +163,7 @@
 ||kargabet*.com^
 ||katla*.com^
 ||kavbet*.com^
+||slotday*.com^$to=/^slotday\d*\.com$/
 ||kazandra*.com^$to=/^kazandra\d*\.com$/
 ||kingroyal*.com^$to=/^kingroyal\d*\.com$/
 ||lakebahis*.com^
@@ -223,32 +224,32 @@
 ||tarafbet*.com^
 ||teosbet*.com^
 ||teslabahis*.com^
-||topaz*.az^
 ||trbet*.com^
 ||turboslot*.com^
 ||vaycasino*.com^
 ||vegasslot*.com^$to=/^vegasslot\d*\.com$/
 ||virabet*.com^
 ||virusbettr*.com^
-||volacasino*.com^
 ||wepari-*.pro^
 ||windbet*.com^
 ||wipbet*.com^
-||yakabet*.com^
-||yedibahis*.com^
-||zbahis*.com^
-||zirvebet*.com^
+||slotbaba*.com^$to=/^slotbaba\d*\.com$/
 ||jackbom*.com^$to=/^jackbom\d*\.com$/
 ||vippark*.com^$to=/^vippark\d*\.com$/
 ||bahix*.com^$to=/^bahix\d*\.com$/
 #- Gambling Websites ~ Regex Captured Names
+||volacasino.com^$domain=~casino
+||yakabet.com^$domain=~bet-with/without-digits
+||yedibahis.com^$domain=~bahis
+||zbahis.com^$domain=~bahis
+||zirvebet.com^$domain=~bet-with/without-digits
 ||amgbahis.com^$domain=~bahis
-||benjabet.com^$domain=~bet-plus-digits
-||biabet.com^$domain=~bet-plus-digits
+||benjabet.com^$domain=~bet-with/without-digits
+||biabet.com^$domain=~bet-with/without-digits
 ||deltabahis.com^$domain=~bahis
-||dodobet.com^$domain=~bet-plus-digits
-||dumanbet.com^$domain=~bet-plus-digits
-||madridbet.com^$domain=~bet-plus-digits
+||dodobet.com^$domain=~bet-with/without-digits
+||dumanbet.com^$domain=~bet-with/without-digits
+||madridbet.com^$domain=~bet-with/without-digits
 #- Gambling Link Hubs ~ Portal Websites
 ||kazananman.pro^
 ||artemisbetgiris.net^
@@ -406,6 +407,8 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||topaz.az^
+||topaznard.az^
 ||bettingvet.com^
 ||artemisbet.net
 ||tentangle.com^
@@ -993,6 +996,7 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||yediapi65.com^$domain=~gambling-cdn
 ||kuponcum295.com^$domain=~gambling-site
 ||1-king-untr-065.online^
 ||120bahizz.com^
@@ -1028,9 +1032,6 @@
 ||satispanel1.com^
 ||slotapp7.com^
 ||slotarena13.com^$domain=~link-hub
-||slotbaba80.com^
-||slotbaba81.com^
-||slotday2151.com^
 ||smartpanel10.online^
 ||tabloproject2.com^
 ||top100bonus.com^
