@@ -312,12 +312,15 @@
 ||zegnapartners.com^
 ||zulaci.com^
 ||zullagit.xyz^
+||sbgir.co^
+||babaslot.com^
+||comelink.co^
+||kingroyalaffiliate.com^
 
 !-/ Wilcard Numbered Domains
 ||affiliatepipo*.com^
 ||clbanners*.com^$to=/clbanners\d*\.com$/
 ||lionaff*.com^
-||mrtkng*xclusive.vip^
 ||redirect-*.pages.dev^
 ||refpa*.com^$to=/refpa\d*\.com$/
 !-/\b(?=[a-z0-9]*[0-9])(?=[a-z0-9]*[a-z])[a-z0-9]{20}\.xyz$/
@@ -325,6 +328,7 @@
 ||uyla6k4wqvpg3q3ullfy.xyz^
 
 !-/ Regex Candidates
+||affmrgamb4.com^
 ||dodoref1.com^
 ||1001giris.com^
 ||27aff.com^
@@ -378,7 +382,6 @@
 ||lemon002.com^
 ||livemx81256.com^
 ||manueleven007.com^
-||masterortak10.vip^
 ||mct101.com^
 ||netcachesb140258.net^
 ||ovhcloudservers2025.com^
@@ -409,6 +412,7 @@
 ||url724.link^
 ||vegasslot1.click^
 ||welcome1epybet.com^
+||mrtkng22xclusive.vip^
 
 !-/ Regexed Domains (Disabled)
 !||1walxy.life^$reason=blocked-by-ipaddress
