@@ -7,6 +7,7 @@
 *$all,~popup,to=/bahis/
 *$all,~popup,to=/casino/
 *$all,~popup,to=/kumar/
+-bet.$all,~popup,~inline-font
 #- Regexes for Specific Gambling Sites
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
 *btcoservice.com^$to=/^\d+btcoservice\.com$/,reason=gambling-cdn
@@ -18,7 +19,7 @@
 ||pinco.$all,~popup
 #- Wildcard Gambling Domains or Subdomains - All TDLs
 ||rokubet*.$domain=~alpha-digit-wildcard
-||winxbet*.$all,~popup
+||1xbet*.$domain=~alpha-digit-wildcard
 #- Gambling Domains /w Wildcard - TLDs Specific
 *zlot.com^$to=/\d*zlot\.com$/
 *casibom.com^$to=/\d+casibom\.com$/
@@ -220,6 +221,7 @@
 ||nemesisbet*.com^$to=/nemesisbet\d+\.com$/
 ||ramadabet*.com^$to=/ramadabet\d+\.com$/
 #- Gambling Websites ~ Regex Captured Names
+||winxbet.com^$domain=~alpha-bet-digit
 ||tipobet.com^$domain=~alpha-bet-digit
 ||panterbahis.com^$domain=~bahis-regexed
 ||medusabahis.com^$domain=~bahis-regexed
@@ -1419,10 +1421,89 @@
 ||tuttur.com^
 #- Gambling Network IPs
 !- Silverhill Group Holding Ltd. - NL
-*$all,~popup,ipaddress=185.175.166.*
-*$all,~popup,ipaddress=185.175.167.*
-*$all,~popup,ipaddress=185.165.152.*
-*$all,~popup,ipaddress=185.165.153.*
+*$ipaddress=46.32.180.*,all,~popup,~inline-font
+*$ipaddress=46.32.181.*,all,~popup,~inline-font
+*$ipaddress=46.32.182.*,all,~popup,~inline-font
+*$ipaddress=46.32.183.*,all,~popup,~inline-font
+*$ipaddress=83.147.196.*,all,~popup,~inline-font
+*$ipaddress=83.147.197.*,all,~popup,~inline-font
+*$ipaddress=83.147.198.*,all,~popup,~inline-font
+*$ipaddress=83.147.199.*,all,~popup,~inline-font
+*$ipaddress=83.147.204.*,all,~popup,~inline-font
+*$ipaddress=83.147.205.*,all,~popup,~inline-font
+*$ipaddress=83.147.206.*,all,~popup,~inline-font
+*$ipaddress=83.147.207.*,all,~popup,~inline-font
+*$ipaddress=83.147.208.*,all,~popup,~inline-font
+*$ipaddress=83.147.209.*,all,~popup,~inline-font
+*$ipaddress=83.147.210.*,all,~popup,~inline-font
+*$ipaddress=83.147.211.*,all,~popup,~inline-font
+*$ipaddress=83.147.218.*,all,~popup,~inline-font
+*$ipaddress=83.147.219.*,all,~popup,~inline-font
+*$ipaddress=83.147.220.*,all,~popup,~inline-font
+*$ipaddress=83.147.221.*,all,~popup,~inline-font
+*$ipaddress=83.147.224.*,all,~popup,~inline-font
+*$ipaddress=83.147.225.*,all,~popup,~inline-font
+*$ipaddress=83.147.226.*,all,~popup,~inline-font
+*$ipaddress=83.147.227.*,all,~popup,~inline-font
+*$ipaddress=83.147.236.*,all,~popup,~inline-font
+*$ipaddress=83.147.237.*,all,~popup,~inline-font
+*$ipaddress=83.147.238.*,all,~popup,~inline-font
+*$ipaddress=83.147.239.*,all,~popup,~inline-font
+*$ipaddress=91.186.204.*,all,~popup,~inline-font
+*$ipaddress=91.186.205.*,all,~popup,~inline-font
+*$ipaddress=91.186.206.*,all,~popup,~inline-font
+*$ipaddress=91.186.207.*,all,~popup,~inline-font
+*$ipaddress=94.241.144.*,all,~popup,~inline-font
+*$ipaddress=94.241.145.*,all,~popup,~inline-font
+*$ipaddress=94.241.146.*,all,~popup,~inline-font
+*$ipaddress=94.241.147.*,all,~popup,~inline-font
+*$ipaddress=94.241.148.*,all,~popup,~inline-font
+*$ipaddress=94.241.149.*,all,~popup,~inline-font
+*$ipaddress=94.241.150.*,all,~popup,~inline-font
+*$ipaddress=94.241.151.*,all,~popup,~inline-font
+*$ipaddress=94.241.188.*,all,~popup,~inline-font
+*$ipaddress=94.241.189.*,all,~popup,~inline-font
+*$ipaddress=94.241.190.*,all,~popup,~inline-font
+*$ipaddress=94.241.191.*,all,~popup,~inline-font
+*$ipaddress=178.253.0.*,all,~popup,~inline-font
+*$ipaddress=178.253.1.*,all,~popup,~inline-font
+*$ipaddress=178.253.2.*,all,~popup,~inline-font
+*$ipaddress=178.253.3.*,all,~popup,~inline-font
+*$ipaddress=178.253.4.*,all,~popup,~inline-font
+*$ipaddress=178.253.5.*,all,~popup,~inline-font
+*$ipaddress=178.253.6.*,all,~popup,~inline-font
+*$ipaddress=178.253.7.*,all,~popup,~inline-font
+*$ipaddress=178.253.14.*,all,~popup,~inline-font
+*$ipaddress=178.253.15.*,all,~popup,~inline-font
+*$ipaddress=178.253.18.*,all,~popup,~inline-font
+*$ipaddress=178.253.19.*,all,~popup,~inline-font
+*$ipaddress=178.253.20.*,all,~popup,~inline-font
+*$ipaddress=178.253.21.*,all,~popup,~inline-font
+*$ipaddress=178.253.24.*,all,~popup,~inline-font
+*$ipaddress=178.253.25.*,all,~popup,~inline-font
+*$ipaddress=178.253.28.*,all,~popup,~inline-font
+*$ipaddress=178.253.29.*,all,~popup,~inline-font
+*$ipaddress=178.253.30.*,all,~popup,~inline-font
+*$ipaddress=178.253.34.*,all,~popup,~inline-font
+*$ipaddress=178.253.35.*,all,~popup,~inline-font
+*$ipaddress=178.253.36.*,all,~popup,~inline-font
+*$ipaddress=178.253.37.*,all,~popup,~inline-font
+*$ipaddress=178.253.46.*,all,~popup,~inline-font
+*$ipaddress=178.253.47.*,all,~popup,~inline-font
+*$ipaddress=178.253.54.*,all,~popup,~inline-font
+*$ipaddress=185.162.88.*,all,~popup,~inline-font
+*$ipaddress=185.162.90.*,all,~popup,~inline-font
+*$ipaddress=185.162.91.*,all,~popup,~inline-font
+*$ipaddress=185.165.152.*,all,~popup,~inline-font
+*$ipaddress=185.165.153.*,all,~popup,~inline-font
+*$ipaddress=185.172.36.*,all,~popup,~inline-font
+*$ipaddress=185.172.37.*,all,~popup,~inline-font
+*$ipaddress=185.174.42.*,all,~popup,~inline-font
+*$ipaddress=185.174.43.*,all,~popup,~inline-font
+*$ipaddress=185.175.164.*,all,~popup,~inline-font
+*$ipaddress=185.175.165.*,all,~popup,~inline-font
+*$ipaddress=185.175.166.*,all,~popup,~inline-font
+*$ipaddress=185.175.167.*,all,~popup,~inline-font
 !- Softconstruct Limited - UK / ♠
 *$all,~popup,ipaddress=185.162.228.*
 *$all,~popup,ipaddress=185.162.229.*
@@ -1436,10 +1517,10 @@
 !- Digimedia Limited - IM
 *$all,~popup,ipaddress=193.169.206.*
 !- Entain Network Group - Global
-*$all,~popup,ipaddress=93.191.192.*
-*$all,~popup,ipaddress=93.191.193.*
 *$all,~popup,ipaddress=195.72.134.*
 *$all,~popup,ipaddress=195.72.135.*
+*$all,~popup,ipaddress=93.191.192.*
+*$all,~popup,ipaddress=93.191.193.*
 !- Gamesys Limited - UK
 *$all,~popup,ipaddress=93.93.82.*
 *$all,~popup,ipaddress=93.93.84.*
