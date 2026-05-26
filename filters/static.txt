@@ -1047,6 +1047,7 @@
 ||csp.withgoogle.com^
 ||frog.wix.com^
 ||pixel.wp.com^
+||insights.wsky.dev^
 ||blackbox.xhamster.com^
 ||buzzer.xhamster.com^
 ||mistat.xiaomi.com^

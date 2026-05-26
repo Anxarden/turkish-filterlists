@@ -17,13 +17,6 @@
 ||afun.$all,~popup
 ||pinco.$all,~popup
 #- Wildcard Gambling Domains or Subdomains - All TDLs
-||getirbet*.$all,~popup
-||grandpasha*.$all,~popup
-||kralbet*.$all,~popup
-||meritbet*.$all,~popup
-||mostbet*.$all,~popup
-||radissonbet*.$all,~popup,from=~alpha-digits
-||ramadabet*.$all,~popup
 ||rokubet*.$all,~popup,from=~alpha-digits
 ||tipobet*.$all,~popup
 ||winxbet*.$all,~popup
@@ -32,13 +25,12 @@
 *casibom.com^$to=/\d+casibom\.com$/
 *bayspin.com^$to=/\d*bayspin\.com$/
 *baywin.com^$to=/\d*baywin\.com$/
-*betmatik.com^
+*betmatik.com^$to=/\d+betmatik\.com$/
 *bets10.com^$to=/\d*bets10\.com$/
 *betticket.com^
 *favorisen.com^$to=/\d*favorisen\.com$/
 *kingbetting.com^
 *kolaybet.com^
-*kulisbet.com^
 *mariobet.com^
 *slotin.com^$to=/\d*slotin\.com$/
 *supertotobet.com^
@@ -59,7 +51,6 @@
 ||altaybet*.com^
 ||animabet*.com^
 ||aresbet*.com^
-||asyabahis*.com^
 ||bahisbudur*.com^
 ||bahisvebahis*.com^
 ||bahsegel*.com^
@@ -79,7 +70,7 @@
 ||betkom*.com^
 ||betlike*.com^
 ||betmani*.com^
-||betmatik*.com^
+||betmatik*.com^$to=/betmatik\d+\.com$/
 ||betnis*.com^
 ||betorbet*.com^
 ||betparagon*.com^
@@ -128,7 +119,6 @@
 ||kalebet*.com^
 ||kargabet*.com^
 ||katla*.com^
-||lakebahis*.com^
 ||lizabet*.com^
 ||locabet*.com^
 ||lordbahis*.com^
@@ -162,7 +152,6 @@
 ||robobet*.com^
 ||rovbet*.com^
 ||saltbahis*.com^
-||sekabet*.com^
 ||sezonbahis*.com^
 ||showbet*.com^
 ||sloganbahis*.com^
@@ -229,7 +218,27 @@
 ||avibet*.com^$to=/avibet\d+\.com$/
 ||turkishvegas*.com^$to=/turkishvegas\d*\.com$/
 ||mevzubahis*.com^$to=/mevzubahis\d+\.com$/
+||nemesisbet*.com^$to=/nemesisbet\d+\.com$/
+||ramadabet*.com^$to=/ramadabet\d+\.com$/
 #- Gambling Websites ~ Regex Captured Names
+||panterbahis.com^
+||medusabahis.com^
+||radissonbet.com^$domain=~alpha-bet-digit
+||mostbet.com^$domain=~alpha-bet-digit
+||meritbet.com^$domain=~alpha-bet-digit
+||kralbet.com^$domain=~alpha-bet-digit
+||kulisbet.com^$domain=~digit-alpha-bet
+||parolambet.com^$domain=~alpha-bet-digit
+||cedabet.com^$domain=~alpha-bet-digit
+||lakebahis.com^$domain=~bahis-regexed
+||grandpashabet.com^$domain=~alpha-bet-digit
+||betvalo.com^$domain=~bet-alpha-digit
+||sekabet.com^$domain=~alpha-bet-digit
+||asyabahis.com^$domain=~bahis-regexed
+||pinbahis.com^$domain=~bahis-regexed
+||skorbet.com^$domain=~alpha-bet-digit
+||maltcasino.com^$domain=~casino-regexed
+||olabahis.com^$domain=~bahis-regexed
 ||betyap.com^$domain=~bet-alpha-digit
 ||acarbet.com^$domain=~alpha-bet-digit
 ||amgbahis.com^$domain=~bahis-regexed
@@ -354,12 +363,19 @@
 ||zbahis.com^$domain=~bahis-regexed
 ||zirvebet.com^$domain=~alpha-bet-digit
 #- Gambling Link Hubs ~ Portal Websites
+||1xbetm.info^
+||aanavandi.com^
+||kralbetgunceltr.com^
+||betcool.app^
+||betplayguncel.org^
+||dede-oyunu.net^
+||kralbet-oyna.vip^
+||vertubetbilgi.com^
 ||2025model.com^
 ||abegiris.com.tr^
 ||acinge.com^
 ||adnint.com^
 ||advprocure.com^
-||affiliateroulette.com^
 ||artemisbetgiris.net^
 ||asc.com.tr^
 ||aviator-kazino.com^
@@ -508,6 +524,7 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||rokubet.io^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^
@@ -558,9 +575,11 @@
 ||atbpartner.com^
 ||auth.gr^
 ||aviateplatform.com^
+||aviator-oynaa.vip^
 ||aviator-oyunu.net^
 ||aviatordemo.com.tr^
 ||aviatorgir.com^
+||aviatoroynaa.com^
 ||aviatoroyunuoyna.com.tr^
 ||avibet.net^
 ||avrupakisalink.com^
@@ -571,6 +590,7 @@
 ||ballybet.com^
 ||balonmanoalcobendas.org^
 ||bambaslot.com^
+||bcapps.org^
 ||berlinaff.com^
 ||bestbetguide.com^
 ||bet.com^
@@ -727,6 +747,7 @@
 ||denemesablon.xyz^
 ||denemeslotbonus.com^
 ||denmet.com.tr^
+||devmostbet.com^
 ||digitain.com^
 ||dockofthebayva.com^
 ||drunksport.com^
@@ -826,6 +847,7 @@
 ||insiyatif.top^
 ||ismailblogger.com^
 ||istinyeganyan.com^
+||jaguaro.mx^
 ||javascents.com^
 ||jeffbet.com^
 ||jvspin.com^
@@ -889,6 +911,7 @@
 ||melbournefest.com^
 ||merhabet.com^
 ||meritking.co^
+||meritkngsite.com^
 ||meritliman.link^
 ||meritslotkayit.com^
 ||mermibet.com^
@@ -907,7 +930,9 @@
 ||morningdough.com^
 ||morospinstatic.com^
 ||mosbetuz.com^
+||mostauth.com^
 ||mostauthor.com^
+||mostbet-ssr.com^
 ||mostbetnow.com^
 ||mostlyfoodandcrafts.com^
 ||mphomewares.com^
@@ -1015,10 +1040,7 @@
 ||shoparborhills.com^
 ||shortening.link^
 ||shorterflix.com^
-||shorters.online^
-||shortfive.online^
 ||shortla.com^
-||shortpals.online^
 ||sidiief.org^
 ||siempor.com^
 ||silentbet.com^
@@ -1058,6 +1080,7 @@
 ||stake.com^
 ||stake.games^
 ||statsinfo.co^
+||steelife-tr.com^
 ||stoneguncel.link^
 ||strongbetter.shop^
 ||sugarrushoyna.com^
@@ -1134,6 +1157,7 @@
 ||vip.bio^
 ||vipbahisal.com^
 ||vipkanyon.com^
+||vipparkk.com^
 ||virginbet.com^
 ||vufequipamentos.com.br^
 ||walletconnect.com^
@@ -1158,7 +1182,6 @@
 ||yenigibiler.top^
 ||yenigirisadresi.org^
 ||yenigirissorunsuz.com^
-||yoncamarket.com^
 ||ytekdesign.live^
 ||zaferbet.com^
 ||zederna.fr^
@@ -1171,20 +1194,18 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||grandmobiluygulama47.com^$domain=~link-hub
+||8000bonus.net^$domain=~link-hub
 ||rakewin247.com^$domain=~gambling-site
 ||yediapi65.com^$domain=~gambling-cdn
 ||kuponcum295.com^$domain=~gambling-site
 ||1king-518.com^
 ||1-king-untr-065.online^$domain=~gambling-site
 ||120bahizz.com^$domain=~gambling-site
-||1xbetm.info^$domain=~link-hub
 ||a8r.games^
-||aanavandi.com^$domain=~link-hub
 ||aff888toertsa.com^
 ||affpro1.com^
 ||arcee003.com^
-||aviator-oynaa.vip^
-||aviatoroynaa.com^
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
 ||buyukortak1.com^
@@ -1192,7 +1213,6 @@
 ||gaaf2.com^
 ||ganyantime2.com^
 ||gatesofolympys.com^
-||geolink99.com^
 ||giriscbon.com^
 ||hikkoshi0515.com^
 ||hosting8931.com^
@@ -1200,7 +1220,6 @@
 ||linkpointbc110183.com^
 ||madridreal000.com^
 ||maxislot78.com^
-||meritkngsite.com^
 ||pes24.com^
 ||primeaffiliates1.com^
 ||pro1bet1.com^
@@ -1211,14 +1230,12 @@
 ||smartpanel10.online^
 ||tabloproject2.com^
 ||top100bonus.com^
-||vipparkk.com^
 ||wadabet505.com^
 ||wlstrge33.pro^
 ||wlstrge35.pro^
 ||xaxnetwork2.com^
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||rb.gy^
-||csnr.me^
 ||bcua.io^
 ||fsrc.ag^
 ||fstgo.to^
@@ -1234,7 +1251,6 @@
 ||hbwjja.cc^
 ||rmewe.com^
 ||swqlaf.xyz^
-||bcapps.org^
 ||biordr.xyz^
 ||bm1l5.site^
 ||bm1t5.site^
@@ -1344,35 +1360,27 @@
 ||x.com/*bahis$doc
 ||x.com/*casino$doc
 #- Datacenter Links
-||50yo4fzxk02ujr25gm9y.*.amazonaws.com^
-||v02-s3.*.amazonaws.com^
-||agc-casino.*.amazonaws.com^
 ||api-ligobet-tr--prd--pl-sb.api89rng.com^
 ||api-starzbet-tr--prd--pl-sb.api89rng.com^
 ||bettilt-sportsbook-prod.gtdevteam.work^
-||bookmkrs.s3.amazonaws.com^
-||canli-bahis.*.amazonaws.com^
 ||cdn-ilcfbjl.nitrocdn.com^
 ||d1b82hscw3e9o2.cloudfront.net^
 ||d3psi4rj7mv4u4.cloudfront.net^
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
-||garlic-dev.*.digitaloceanspaces.com^
 ||golvar-org.cdn.ampproject.org^
 ||katla.b-cdn.net^
-||luxsitecdn.*.amazonaws.com^
-||prtgaming.*.amazonaws.com^
-||vendor-provider.*.digitaloceanspaces.com^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
 ||winxbets-net.cdn.ampproject.org^
-||yabanci-bahis-siteleri.*.amazonaws.com^
-||yeni-adres.*.amazonaws.com^
+||vendor-provider.fra1.cdn.digitaloceanspaces.com^
+||vendor-provider.fra1.digitaloceanspaces.com^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/
-||res.akamai-cloud.com/kingroyal/
+||akamai-cloud.com/kingroyal/
 ||amazonaws.com/bookmkrs/
 ||amazonaws.com/volacasino/
+||amazonaws.com/betcio/
 #- General Path Blocking
 /egtdigital/*.png^$third-party,image
 /livechat.ashx?siteid=$third-party,script
@@ -1413,6 +1421,8 @@
 !- Silverhill Group Holding Ltd. - NL
 *$all,~popup,ipaddress=185.175.166.*
 *$all,~popup,ipaddress=185.175.167.*
+*$all,~popup,ipaddress=185.165.152.*
+*$all,~popup,ipaddress=185.165.153.*
 !- Softconstruct Limited - UK / ♠
 *$all,~popup,ipaddress=185.162.228.*
 *$all,~popup,ipaddress=185.162.229.*
@@ -1479,3 +1489,7 @@
 !- [random] asyabahis/sekabet/maltcasino/... - ♠
 *$all,~popup,ipaddress=35.71.130.242
 *$all,~popup,ipaddress=166.117.107.221
+!- [random] xslot/betmatik/tarafbet/... - ♠
+*$all,~popup,ipaddress=149.126.8.101
+!- CYTechnology LLC (grandpashabet/dedebet/ramadabet/...) - RU / ♠
+*$all,~popup,ipaddress=185.148.106.*
