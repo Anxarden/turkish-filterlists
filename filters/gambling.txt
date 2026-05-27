@@ -18,8 +18,8 @@
 ||afun.$all,~popup
 ||pinco.$all,~popup
 #- Wildcard Gambling Domains or Subdomains - All TDLs
-||rokubet*.$domain=~alpha-digit-wildcard
-||1xbet*.$domain=~alpha-digit-wildcard
+||rokubet*.$all,~popup,~inline-font
+||1xbet*.$all,~popup,~inline-font
 #- Gambling Domains /w Wildcard - TLDs Specific
 *zlot.com^$to=/\d*zlot\.com$/
 *casibom.com^$to=/\d+casibom\.com$/
@@ -365,7 +365,6 @@
 ||zbahis.com^$domain=~bahis-regexed
 ||zirvebet.com^$domain=~alpha-bet-digit
 #- Gambling Link Hubs ~ Portal Websites
-||1xbetm.info^
 ||aanavandi.com^
 ||kralbetgunceltr.com^
 ||betcool.app^
@@ -526,13 +525,14 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||1xbet.com^
+||rokubet.com^
 ||rokubet.io^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^
 ||1win.web.tr^
 ||1wins.in^
-||1xbetgirisi1win.online^
 ||3dwisdom.in^
 ||777eniyioyuncular.com^
 ||abc-link.top^
