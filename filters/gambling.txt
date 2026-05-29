@@ -365,6 +365,7 @@
 ||zbahis.com^$domain=~bahis-regexed
 ||zirvebet.com^$domain=~alpha-bet-digit
 #- Gambling Link Hubs ~ Portal Websites
+||marsayazgeldi.com^
 ||aanavandi.com^
 ||kralbetgunceltr.com^
 ||betcool.app^
