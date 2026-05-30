@@ -221,6 +221,7 @@
 ||nemesisbet*.com^$to=/nemesisbet\d+\.com$/
 ||ramadabet*.com^$to=/ramadabet\d+\.com$/
 #- Gambling Websites ~ Regex Captured Names
+||dahibet.com^$domain=~alpha-bet-digit
 ||winxbet.com^$domain=~alpha-bet-digit
 ||tipobet.com^$domain=~alpha-bet-digit
 ||panterbahis.com^$domain=~bahis-regexed
