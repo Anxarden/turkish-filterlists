@@ -118,7 +118,6 @@
 ||jojova*.com^
 ||kalebet*.com^
 ||kargabet*.com^
-||katla*.com^
 ||lizabet*.com^
 ||locabet*.com^
 ||lordbahis*.com^
@@ -220,7 +219,9 @@
 ||mevzubahis*.com^$to=/mevzubahis\d+\.com$/
 ||nemesisbet*.com^$to=/nemesisbet\d+\.com$/
 ||ramadabet*.com^$to=/ramadabet\d+\.com$/
+||katla*.com^$to=/katla\d+\.com$/
 #- Gambling Websites ~ Regex Captured Names
+||betlist.com^$domain=~alpha-bet-digit
 ||dahibet.com^$domain=~alpha-bet-digit
 ||winxbet.com^$domain=~alpha-bet-digit
 ||tipobet.com^$domain=~alpha-bet-digit
@@ -527,6 +528,19 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||betbox.zone^
+||betdahab.com^
+||borawin.vip^
+||casinoplata.zone^
+||casinospino.com^
+||casitap.com^
+||casitoros.com^
+||goldpot.vip^
+||granpampa.com^
+||mistycasino.com^
+||palmluck.com^
+||reysur.com^
+||21.com^
 ||1xbet.com^
 ||rokubet.com^
 ||rokubet.io^
@@ -1198,6 +1212,8 @@
 ||zova.live^
 ||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
+||21-id.com^
+||21-t.com^
 ||grandmobiluygulama47.com^$domain=~link-hub
 ||8000bonus.net^$domain=~link-hub
 ||rakewin247.com^$domain=~gambling-site

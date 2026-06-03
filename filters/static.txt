@@ -97,6 +97,8 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||deltarockme.com^
+||wtfismyip.com^
 ||ip-api.com^
 ||adinplay.com^
 ||marker.io^
