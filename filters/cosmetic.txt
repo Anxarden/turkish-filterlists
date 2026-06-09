@@ -98,6 +98,7 @@ yemek.com##div.masthead-container
 yeniakit.com.tr##div.masthead-top
 yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
+receive-sms-online.info##div#promo-bar
 
 !-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
 !ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
@@ -237,6 +238,7 @@ tureng.com##li:has(svg.lucide-sparkles)
 medyascope.tv##footer>section.podcast
 medyascope.tv##div.tag-list+div.elementor-widget-template
 simkl.com##div.blockplace
+smsonline.cloud##aside[data-nosnippet]
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)

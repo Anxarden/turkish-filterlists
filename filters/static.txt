@@ -97,6 +97,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||prodregistryv2.org^
 ||deltarockme.com^
 ||wtfismyip.com^
 ||ip-api.com^
@@ -1099,7 +1100,7 @@
 ||www.diziyou.*/wp-content/*.gif^$first-party,image,to=diziyou.*
 ||ensonhaber.com/assets/js/eshtag.modern.js^$script
 ||getpczone.com/sw.js^$script
-||blogger.googleusercontent.com/img/$third-party,image,from=/^dizipal\d+\.com$/|kschool1.com|cortinaeaccoladed.xyz
+||blogger.googleusercontent.com/img/$image,from=/^dizipal\d+\.com$/|kschool1.com|cortinaeaccoladed.xyz
 ||haber7.net/makroo/hb-ads/$script
 ||haberler.com/firebase-messaging-sw.js^$script
 ||haberler.com/mstatic/assets/js/bildirimpopup.js^$script
@@ -1133,6 +1134,7 @@
 ||tokvoy.com/js/dnsads.js^$script
 ||cortinaeaccoladed.xyz/js/$script,reason=video-player-scripts
 ||cdn.jsdelivr.net/gh/msalvatorius/gladio/$third-party,media,reason=video-ads
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.1.12.js|$script,from=kimi.com,redirect-rule=noop.js
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
