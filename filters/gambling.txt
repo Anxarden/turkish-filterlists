@@ -3,10 +3,11 @@
 
 #- Regexes for Gambling Related Words
 *$all,~popup,to=/\b(?:\d+[a-z]*bet|[a-z]*bet\d+)\b/
-*$all,~popup,to=/\b(?:bet[a-z]{2,}\d+|\d+bet[a-z]{2,})\b/
+*$all,~popup,to=/\b(?:bet[a-z]*\d+|\d+bet[a-z]*)\b/
+*$all,~popup,to=/\b(?:\d+[a-z]*slot|[a-z]*slot\d+)\b/
+*$all,~popup,to=/\b(?:slot[a-z]*\d+|\d+slot[a-z]*)\b/
 *$all,~popup,to=/bahis/
 *$all,~popup,to=/casino/
-*$all,~popup,to=/kumar/
 -bet.$all,~popup,~inline-font
 #- Regexes for Specific Gambling Sites
 *$third-party,to=/\b\w{32,}\.(?:com|xyz)$/
@@ -32,14 +33,13 @@
 *golegol.com^$to=/\d*golegol\.com$/
 *xslot.com^$to=/\d*xslot\.com$/
 *redwin.com^$to=/\d*redwin\.com$/
-*kingbetting.com^
+*kingbetting.com^$to=/\d*kingbetting\.com$/
 *betticket.com^
 *kolaybet.com^
 *mariobet.com^
 *supertotobet.com^
-*timebet.com^
+*timebet.com^$to=/\d*timebet\.com$/
 ||vizyonbet*.com^
-||5stakes*.com^
 ||7slots*.com^
 ||acrobet*.com^
 ||alobet*.com^
@@ -158,7 +158,7 @@
 ||trbet*.com^
 ||vaycasino*.com^
 ||virabet*.com^
-||virusbettr*.com^
+||virusbettr*.com^$to=/virusbettr\d*\.com$/
 ||wepari-*.pro^
 ||windbet*.com^
 ||wipbet*.com^
@@ -223,7 +223,8 @@
 ||casinra*.com^$to=/casinra\d*\.com$/
 ||ultraslot*.com^$to=/ultraslot\d*\.com$/
 ||slotrun*.com^$to=/slotrun\d+\.com$/
-||gambi*.com^^$to=/gambi\d*\.com$/
+||gambi*.com^$to=/gambi\d*\.com$/
+||5stakes*.com^$to=/5stakes\d*\.com$/
 #- Gambling Websites ~ Regex Captured Names
 ||betlist.com^$domain=~alpha-bet-digit
 ||dahibet.com^$domain=~alpha-bet-digit
@@ -375,7 +376,6 @@
 ||aanavandi.com^
 ||kralbetgunceltr.com^
 ||betcool.app^
-||betplayguncel.org^
 ||dede-oyunu.net^
 ||kralbet-oyna.vip^
 ||vertubetbilgi.com^
@@ -422,7 +422,6 @@
 ||forumkripto.com^
 ||freekod.net^
 ||gazetevan.com^
-||geturkiyeblog.com^
 ||girbetturkey.com^
 ||giris-resmi-site.com^
 ||goleika.com^
@@ -532,6 +531,7 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||freekod.xyz^
 ||betbox.zone^
 ||adenco.xyz^
 ||betdahab.com^
@@ -573,7 +573,6 @@
 ||agsatransportes.com.mx^
 ||agstatic.com^
 ||aktiflinkler.com^
-||alezkaturizm.com^
 ||aliniyo.com^
 ||allamericansportscafe.com^
 ||alobetlisans.com^
@@ -591,7 +590,6 @@
 ||api3kut.com^
 ||apidigi.com^
 ||apiservice.network^
-||argoesport.com^
 ||artemis-vip.com^
 ||artemisbet.net
 ||aspurlredirect.com^
@@ -663,7 +661,6 @@
 ||betpionergirisi.com^
 ||betplace.us^
 ||betrehberi.com^
-||betrupici.com^
 ||betrupin.com^
 ||betsalvador.com.tr^
 ||betsatadres.com^
@@ -676,11 +673,9 @@
 ||betsson.com^
 ||betticketbet.com^
 ||bettilt.com^
-||bettilti.com^
 ||bettingue.com^
 ||bettingvet.com^
 ||betunlim.com^
-||betvaktim.com^
 ||betx2.com^
 ||betx2.net^
 ||betzard.com^
@@ -695,8 +690,6 @@
 ||bingobets.com^
 ||blistaffiliates.com^
 ||bluefoxaffiliates.com^
-||bonusarayanlar.com^
-||bonuscuabla.com^
 ||bonusdenemesi.com^
 ||bonusdreams.com^
 ||bonusmeritking.com^
@@ -760,14 +753,12 @@
 ||dellabetadresi.com^
 ||demoslotsoyna.com^
 ||demospin.net^
-||deneme-bonus-yeni.com^
 ||denemebonusa.com^
 ||denemebonuscu.com^
 ||denemebonusguncel.com^
 ||denemebonusu.ai^
 ||denemebonusu.com^
 ||denemebonusuveren.net^
-||denemeler.cc^
 ||denemesablon.xyz^
 ||denemeslotbonus.com^
 ||denmet.com.tr^
@@ -815,7 +806,6 @@
 ||gametwist.com^
 ||gamingcontrolcuracao.org^
 ||gamyun.net^
-||ganyanabla.com^
 ||ganyancanavari.com.tr^
 ||garaffiliate.com^
 ||gates-of-olympus-sites.pro^
@@ -883,7 +873,6 @@
 ||kareasbetsikayet.com^
 ||kazancortagim.com^
 ||kemerbet.com^
-||kingbetting.com^
 ||kiralikslotoyunlari.com^
 ||kktcbet.com^
 ||kolaybetgirisadresi.com^
@@ -909,7 +898,6 @@
 ||limbopad.xyz^
 ||limbovip.world^
 ||limraffiliate.com^
-||linktolink.site^
 ||linodeobjects.com^
 ||livespins.cloud^
 ||lowbrausacramento.com^
@@ -982,7 +970,6 @@
 ||nostrabet.com^
 ||odds.am^
 ||oddsmatrix.com^
-||omaneltellink.link^
 ||onegameslink.com^
 ||oneparabeta.xyz^
 ||opapaffiliates.gr^
@@ -1119,7 +1106,6 @@
 ||tambet.com
 ||tambeteyiz.com^
 ||tamirmasasi.net^
-||taraftaryum.live^
 ||tbetgirisleri.com^
 ||techxwebs.com^
 ||telegramiddaa.com^
@@ -1130,7 +1116,6 @@
 ||theislandonlaketravis.com^
 ||thetgcvalidate.ca^
 ||tiennamstore.com^
-||timebet.com^
 ||tipbet.info^
 ||tipico.com^
 ||tipico.de^
@@ -1152,7 +1137,6 @@
 ||trexname.com^
 ||tropicaltikioyna.com^
 ||trpartners.io^
-||tsunamifortune.com^
 ||tucsoncactuscompany.com^
 ||tuniparis.com^
 ||turkeybet.org^
@@ -1216,7 +1200,6 @@
 ||zoombaplay.com^
 ||zotabet.com^
 ||zova.live^
-||zulasite.xyz^
 #- Randomised Domain/Network Names ~ Regex Candidates
 ||21-id.com^
 ||21-t.com^
@@ -1230,7 +1213,6 @@
 ||120bahizz.com^$domain=~gambling-site
 ||a8r.games^
 ||aff888toertsa.com^
-||affpro1.com^
 ||arcee003.com^
 ||bis2020.com
 ||bonusal2.forum^$domain=~link-hub
@@ -1256,7 +1238,6 @@
 ||smartpanel10.online^
 ||tabloproject2.com^
 ||top100bonus.com^
-||wadabet505.com^
 ||wlstrge33.pro^
 ||wlstrge35.pro^
 ||xaxnetwork2.com^
@@ -1280,13 +1261,11 @@
 ||biordr.xyz^
 ||bm1l5.site^
 ||bm1t5.site^
-||d724rd.xyz^
 ||dbtcdn.com^
 ||genfkd.org^
 ||gyurdr.xyz^
 ||lnabew.com^
 ||nwacdn.com^
-||o724rd.xyz^
 ||pcbala.com^
 ||snbgir.xyz^
 ||sswwkk.com^
@@ -1297,15 +1276,12 @@
 ||automyl.ink^
 ||btgo.online^
 ||fsttredr.co^
-||gx2ycmn.com^
-||naoxzsw.com^
 ||od6funh.top^
 ||pernet3.com^
 ||prsuv.click^
 ||qruvw.click^
 ||ririoek.com^
 ||satisbw.com^
-||tamgits.xyz^
 ||btmgris1.com^
 ||dg35uyiu.com^
 ||dggloble.com^
@@ -1319,7 +1295,6 @@
 ||lxzsdfgw.xyz^
 ||nakjdjsd.com^
 ||nnn3tgza.com^
-||slotvvip.xyz^
 ||4n5wbzm8.com^
 ||365lpodds.com^
 ||ame1a56mb.com^
@@ -1340,7 +1315,6 @@
 ||cpkanaaifp.com^
 ||cx3gl4chlh.com^
 ||e4026ext8b.com^
-||eirwlppi31.com^
 ||g58q43jgsd.com^
 ||hrqhregkxq.net^
 ||hyt6brxaep.com^

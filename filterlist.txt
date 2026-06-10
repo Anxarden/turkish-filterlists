@@ -176,7 +176,6 @@
 ||torrent-indir.net^
 ||officertool.org^
 ||bookracy.org^
-||tempmail.run^
 ||zamunda.net^
 #- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
@@ -223,7 +222,6 @@
 ||revancedapk.org^
 ||revancedapp.download^
 ||revancedapp.io^
-||revancedapps.com^
 ||revancedextended.com^
 ||revancedextended.io^
 ||rsload.net^

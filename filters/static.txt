@@ -139,7 +139,6 @@
 ||adthrive.com^
 ||advert.com.tr^
 ||ageverif.com^
-||ahatm8od.top^
 ||ahrefs.com^
 ||ai.net^
 ||ainsyndication.com^
@@ -437,7 +436,6 @@
 ||privacy-center.org^
 ||privacy-mgmt.com^
 ||profitwell.com^
-||protect-ad.com^
 ||publicgood.com^
 ||punmetrats.com^
 ||pushengage.com^$document,domain=~3rd-party-blocked
@@ -1085,6 +1083,7 @@
 ||astfhcceyvyag.site^$xhr,from=anizm.net
 ||bmnwmfvjmltrl.space^$xhr,from=anizm.net
 ||gczpyfnuquhix.online^$xhr,from=anizm.net
+||ygxmyhimubyyl.website^$xhr,from=anizm.net
 #- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
