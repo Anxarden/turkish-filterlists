@@ -222,6 +222,7 @@
 ||katla*.com^$to=/katla\d+\.com$/
 ||casinra*.com^$to=/casinra\d*\.com$/
 ||ultraslot*.com^$to=/ultraslot\d*\.com$/
+||slotrun*.com^$to=/slotrun\d+\.com$/
 #- Gambling Websites ~ Regex Captured Names
 ||betlist.com^$domain=~alpha-bet-digit
 ||dahibet.com^$domain=~alpha-bet-digit
@@ -531,7 +532,9 @@
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
 ||betbox.zone^
+||adenco.xyz^
 ||betdahab.com^
+||medocep.com^
 ||borawin.vip^
 ||casinoplata.zone^
 ||casinospino.com^
@@ -1391,6 +1394,7 @@
 ||d3pvfi6m7bxu71.cloudfront.net^
 ||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
+||d3dlgkxh58c6ax.cloudfront.net^
 ||golvar-org.cdn.ampproject.org^
 ||katla.b-cdn.net^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
@@ -1568,6 +1572,8 @@
 *$all,~popup,ipaddress=154.193.184.*
 !- Splunknet Inc. - PH / ♠
 *$all,~popup,ipaddress=103.253.186.*
+!- CYTechnology LLC (grandpashabet/dedebet/ramadabet/...) - RU / ♠
+*$all,~popup,ipaddress=185.148.106.*
 !- [random] bonussemti - ♠
 *$all,~popup,ipaddress=66.29.149.119
 !- [random] meritking/... - ♠
@@ -1592,5 +1598,6 @@
 *$all,~popup,ipaddress=166.117.107.221
 !- [random] xslot/betmatik/tarafbet/... - ♠
 *$all,~popup,ipaddress=149.126.8.101
-!- CYTechnology LLC (grandpashabet/dedebet/ramadabet/...) - RU / ♠
-*$all,~popup,ipaddress=185.148.106.*
+!- [random] dedeslot/ajaxbet/portobet/... - ♠
+*$all,~popup,ipaddress=104.18.2.48
+*$all,~popup,ipaddress=104.18.3.48
