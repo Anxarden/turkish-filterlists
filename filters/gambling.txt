@@ -223,6 +223,7 @@
 ||casinra*.com^$to=/casinra\d*\.com$/
 ||ultraslot*.com^$to=/ultraslot\d*\.com$/
 ||slotrun*.com^$to=/slotrun\d+\.com$/
+||gambi*.com^^$to=/gambi\d*\.com$/
 #- Gambling Websites ~ Regex Captured Names
 ||betlist.com^$domain=~alpha-bet-digit
 ||dahibet.com^$domain=~alpha-bet-digit

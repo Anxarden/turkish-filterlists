@@ -1079,6 +1079,12 @@
 ||stats.zincdrive.com^
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
+#- Specific Third-Party Filters
+||yblfxfpvrwuae.site^$xhr,from=anizm.net
+||wnazizdyzhlew.website^$xhr,from=anizm.net
+||astfhcceyvyag.site^$xhr,from=anizm.net
+||bmnwmfvjmltrl.space^$xhr,from=anizm.net
+||gczpyfnuquhix.online^$xhr,from=anizm.net
 #- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
