@@ -1084,6 +1084,7 @@
 ||bmnwmfvjmltrl.space^$xhr,from=anizm.net
 ||gczpyfnuquhix.online^$xhr,from=anizm.net
 ||ygxmyhimubyyl.website^$xhr,from=anizm.net
+||sckolyzbykufh.website^$xhr,from=anizm.net
 #- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
