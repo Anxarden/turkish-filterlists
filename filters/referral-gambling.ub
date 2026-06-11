@@ -2,7 +2,17 @@
 # Description: Blocks redirecting links; Gambling sites.
 
 !-/ Redirecting Affiliate Domains
+||betjuve.vip^
+||bgitlink.com^
+||betsnice.link^
+||cswaff.com^
+||esas.blog^
 ||kng.pw^
+||batumlink.xyz^
+||fashiongir.tr^
+||batumtoplu.xyz^
+||festwinaffiliate.com^
+||aresshort.com^
 ||1king.club^
 ||3xl.ink^
 ||adnetwork.bet^
@@ -90,14 +100,18 @@
 ||denge.link^
 ||denge.vip^
 ||digitalsatis.com^
+||git-guncel.com^
 ||dilbetlink.com^
 ||directedurls.com^
 ||dstly.xyz^
 ||dub.is^
 ||dub.link^
+||gano.link^
 ||dub.run^
+||dub.co^
 ||dub.sh^
 ||edtbt.ink^
+||gognbt.com^
 ||efbid.xyz^
 ||egdeetyae.info^
 ||egepartners.com^
@@ -392,6 +406,7 @@
 ||boxaff.com^
 ||hiltonaffii.com^
 ||netrefer.com^
+||gamben.link^
 
 !-/ Wilcard Numbered Domains
 ||affiliatepipo*.com^
@@ -403,7 +418,12 @@
 ||40udvaci569z93us2p9m.xyz^
 ||uyla6k4wqvpg3q3ullfy.xyz^
 
+!-/ Subdomain Shorteners
+||fitcas.s.gy^
+
 !-/ Regex Candidates
+||artelinks2.com^
+||fvgir3.com^
 ||gomedia1000.com^
 ||trk21.com^
 ||dr34m1.com^
