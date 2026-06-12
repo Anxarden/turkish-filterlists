@@ -384,6 +384,7 @@ dosyaload.com##^script:has-text("'%cBEpeak'")
 ##a[href^="https://t2m.io/"]
 ##a[href^="https://cutt.ly/"]
 ##a[href^="https://shrgo.net/"]
+##a[href^="https://shoort.im/"]
 
 #----------------------------------------------------------------------------------------------------#
 #- Whitelisted Filters

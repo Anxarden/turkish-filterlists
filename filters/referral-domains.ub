@@ -5,15 +5,16 @@
 ||romaff*.com^$to=/romaff\d+\b/
 
 !-/ Redirecting Links
-||sivo.to^
-||cutt.ly^
-||shrgo.net^
-||gshort.top^
-||bsinplus.com^
 ||adj.st^
-||rogagir.com^
 ||arenagir.com^
+||bsinplus.com^
+||cutt.ly^
+||gshort.top^
+||rogagir.com^
+||shoort.im^
+||shrgo.net^
 ||shrinkearn.com^
+||sivo.to^
 
 !-/ Regex Candidates
 ||roketaf1.com^
