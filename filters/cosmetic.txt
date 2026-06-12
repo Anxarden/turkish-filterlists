@@ -99,6 +99,7 @@ yeniakit.com.tr##div.masthead-top
 yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
 receive-sms-online.info##div#promo-bar
+predb.net##div.lambo-wrapper
 
 !-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
 !ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)

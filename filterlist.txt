@@ -37,7 +37,7 @@
 !#include filters/dumplist-paths.ub
 
 !
-!-	Elektronik Sigara (Yasadışı ve Dolandırıcılık İhtimali)
+!-	Elektronik Sigara (Yasadışı Satış ve Potansiyel Dolandırıcılık)
 ||vozol*.$document,to=~vozol.com
 ||buharkeyf*.org^
 ||dumandegilbuhar*.com^
@@ -48,34 +48,54 @@
 ||podmodturkey*.com^
 ||podsigara*.com^
 ||pufkolik*.com^
+||sigaratech*.com^
 ||sonbuhar*.com^
 ||blogvaper.com^
 ||buharama.org^
 ||canatura.com^
 ||drelektroniksigara.com^
+||elektroniksigara.pro^
+||elektroniksigaraavm.net^
+||esforum.us^
 ||esfvape.us^
 ||esigara.shop^
 ||esigaraal.com.tr^
 ||esigarakulubu.com^
 ||esigaratamam.com^
 ||esmokertr.net^
+||gentlemanvape.com^
 ||inspire-vapestore.com^
 ||iqos.gen.tr^
 ||iqoskapinda.com^
+||mrvivapes.com^
+||oopslikit.net^
+||podevi.tr^
 ||pufftrend.net^
 ||rainvape.com^
+||sadebuhar.net^
+||sadebuhar.org^
+||saltbuhar.com^
 ||smokelektroniksigara.com^
 ||smokeshop.world^
 ||smoketechs.com^
 ||smoketr.com^
+||smokltd.com^
 ||smokpuf.com^
+||smokstore.store^
 ||swissvape.shop^
 ||thebigpuff.com^
+||ucuzelektroniksigara*.com^
 ||umutcinarlari.com^
 ||vangutech.com^
+||vapebul.com^
+||vapeci.org^
+||vapepazari.com^
 ||vapepro.eu^
+||voopoopod.com^
 ||vozolbars.com^
 ||vozoldukkani.com^
+||podevi1.com^
+||puff30.com.tr^
 !-	Shady SEO and Affiliate Websites
 ||top10vpn.com^
 ||vpndetectives.com^
@@ -155,7 +175,7 @@
 ||xvpn.io^
 ||zenmate.com^
 !- Shady Software Download Websites (Badware and Anti-Privacy)
-*$all,~popup,to=softonic.*
+*$all,~popup,~inline-font,to=softonic.*
 ||softonic-*.com^
 ||cnet.com^
 ||download.com^
@@ -177,6 +197,7 @@
 ||officertool.org^
 ||bookracy.org^
 ||zamunda.net^
+||gog-games.to^
 #- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 !-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
