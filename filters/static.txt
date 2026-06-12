@@ -616,7 +616,6 @@
 ||advertising.amazon.com.tr^
 ||advertising.amazon.com^
 ||fls-eu.amazon.com.tr^
-||fls-na.amazon.com^
 ||unagi-eu.amazon.com^
 ||unagi.amazon.com.tr^
 ||unagi.amazon.com^
