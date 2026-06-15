@@ -1077,13 +1077,11 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Specific Third-Party Filters
-||yblfxfpvrwuae.site^$xhr,from=anizm.net
-||wnazizdyzhlew.website^$xhr,from=anizm.net
-||astfhcceyvyag.site^$xhr,from=anizm.net
-||bmnwmfvjmltrl.space^$xhr,from=anizm.net
-||gczpyfnuquhix.online^$xhr,from=anizm.net
-||ygxmyhimubyyl.website^$xhr,from=anizm.net
-||sckolyzbykufh.website^$xhr,from=anizm.net
+*$xhr,from=anizm.net|puffytr.com,to=/^[a-z]{13}\.(?:[a-z]{3,}e$/
+!||astfhcceyvyag.site^$xhr,from=anizm.net|puffytr.com
+!||bmnwmfvjmltrl.space^$xhr,from=anizm.net|puffytr.com
+!||gczpyfnuquhix.online^$xhr,from=anizm.net|puffytr.com
+!||sckolyzbykufh.website^$xhr,from=anizm.net|puffytr.com
 #- Specific Paths Filters
 ||abysscdn.com/sw.import.js^$script
 ||abysscdn.com/sw.js^$script
