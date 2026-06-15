@@ -1077,7 +1077,7 @@
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zkustats.ziraatkatilim.com.tr^
 #- Specific Third-Party Filters
-*$xhr,from=anizm.net|puffytr.com,to=/^[a-z]{13}\.(?:[a-z]{3,}e$/
+*$xhr,from=anizm.net|puffytr.com,to=/^[a-z]{13}\.[a-z]{3,}e$/
 !||astfhcceyvyag.site^$xhr,from=anizm.net|puffytr.com
 !||bmnwmfvjmltrl.space^$xhr,from=anizm.net|puffytr.com
 !||gczpyfnuquhix.online^$xhr,from=anizm.net|puffytr.com
