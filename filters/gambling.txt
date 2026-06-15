@@ -242,7 +242,7 @@
 ||batumslot.com^$domain=~alpha-slot-digit
 ||grandbetting.com^$domain=~betting-regexed
 ||slotin.com^$domain=~digit-slot-alpha
-||xslot.com^$$domain=~digit-alpha-slot
+||xslot.com^$domain=~digit-alpha-slot
 ||vegasslot.com^$domain=~alpha-slot-digit
 ||hotslot.com^$domain=~alpha-slot-digit
 ||savoybetting.com^$domain=~betting-regexed

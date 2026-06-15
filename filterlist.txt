@@ -269,6 +269,13 @@
 ||z-library.im^$reason=fake-clone/zlibrary
 ||annas-archive.su^$reason=fake-clone/annas-archive
 ||annas-archive.io^$reason=fake-clone/annas-archive
+||yify.sc^$reason=fake-clone/yts-movies~yts.am
+||yts-official.biz^$reason=fake-clone/yts-movies~yts.am
+||yts-official.to^$reason=fake-clone/yts-movies~yts.am
+||yts.cool^$reason=fake-clone/yts-movies~yts.am
+||yts.lu^$reason=fake-clone/yts-movies~yts.am
+||ytsfree.com^$reason=fake-clone/yts-movies~yts.am
+||ytsyify.info^$reason=fake-clone/yts-movies~yts.am
 #- Deprecated Websites
 ||cloaked.com^$document,reason=no-free-tier
 ||dizipal.info^$document,reason=unfulfilled-promise
