@@ -102,7 +102,6 @@ receive-sms-online.info##div#promo-bar
 predb.net##div.lambo-wrapper
 
 !-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
-!ag2m2.cfd,ag2m4.cfd##div#playerjs>pjsdiv>*:min-text-length(16)
 ahaber.com.tr##div.announcement-widget:upward(div.col)
 anizm.net##a.center-block[target=_blank]
 edumail.su##div:matches-attr(class=/\bads-/)
