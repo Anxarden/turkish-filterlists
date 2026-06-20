@@ -8,13 +8,13 @@
 !-/ [linkedin]
 ||linkedin.com^$third-party
 ||licdn.com^$third-party,from=~linkedin.com|~lnkd.in
-||lnkd.in^$third-party,from=~linkedin.com|~licdn.com
+||lnkd.in^$third-party,from=~linkedin.com
 ||ad.linkedin.com^
 ||platform.linkedin.com^
 ||media-akam.licdn.com^
 ||snap.licdn.com^
 !-/ [apple]
-||apple.com^$third-party,from=~icloud.com
+||apple.com^$third-party,~xhr,from=~icloud.com
 ||cdn-apple.com^$third-party,from=~apple.com|~icloud.com
 *-analytics-events.apple.com^
 ||advertising.apple.com^
