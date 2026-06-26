@@ -98,6 +98,7 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||agego.com^
+||px-cloud.net^
 ||prodregistryv2.org^
 ||deltarockme.com^
 ||wtfismyip.com^
