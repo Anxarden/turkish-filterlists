@@ -98,7 +98,9 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||agego.com^
+||studiostack.com^
 ||px-cloud.net^
+||hubspotonwebflow.com^
 ||prodregistryv2.org^
 ||deltarockme.com^
 ||wtfismyip.com^
@@ -275,7 +277,6 @@
 ||freecash.com^
 ||freshmarketer.com^
 ||fullstory.com^
-||futurecdn.net^$domain=~with-subdomains
 ||ganalytics.live^
 ||gatekeeperconsent.com^
 ||gelirartisi.com^
