@@ -140,6 +140,7 @@ filmmakinesi.tv##body{padding-top:unset !important;}
 repack.me##main>div.container{margin-top:unset !important;}
 filmmodu.ws,filmmodu.nl##nav.navbar{margin-top:unset !important;}
 delugerpg.com##div#del_header{height:unset !important;}
+trakt.tv##div.trakt-profile-details{--details-column-count:unset !important;}
 
 !-/	Cookie Banners and Privacy Disclaimers	 														 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
@@ -241,6 +242,8 @@ medyascope.tv##footer>section.podcast
 medyascope.tv##div.tag-list+div.elementor-widget-template
 simkl.com##div.blockplace
 smsonline.cloud##aside[data-nosnippet]
+trakt.tv##trakt-get-vip-link
+trakt.tv##trakt-render-for:has(div.trakt-vip-upsell)
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
@@ -318,17 +321,6 @@ simkl.com##^simkl-footer>:not(div.simkltvfooterend)
 simkl.com##div.simktvindex{padding-bottom:0px !important;}
 simkl.com##div:matches-attr(class=/^simktvindex\d{4}$/)
 simkl.com##div[id~="simklheadermenuvip"i]
-!- clear vip and vip related stuff and debloat the view all over the website
-trakt.tv##^div#cc-main
-trakt.tv##^div.advanced-filters-upsell
-trakt.tv##^div[id$="-wrapper"]:has(>div:only-child>[href^="/vip/"])
-trakt.tv##^section#mir-wrapper
-trakt.tv##^section[id$="-wrapper"][class="hero-wrapper"]
-trakt.tv##div.page-navigator:has([class="load-more"],[class="load-less"])
-trakt.tv##div.links-wrapper>div.spacer:empty
-trakt.tv##div.user-wrapper>a:has-text(/vip/i)
-trakt.tv##section.user-wrapper div.buttons
-trakt.tv##span#filter-show-advanced-filters
 !- clear ads and compact the view of the website by hiding vip and fake buttons.
 tuttop.com##^noindex>div[align="center"]:has(>a>img[src$="/mediaget.png"])
 tuttop.com##div.main-news-more>a

@@ -98,6 +98,8 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||agego.com^
+||perfops.net^
+||ethicalads.io^
 ||studiostack.com^
 ||slickstream.com^
 ||px-cloud.net^
