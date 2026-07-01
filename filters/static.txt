@@ -99,6 +99,7 @@
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||agego.com^
 ||studiostack.com^
+||slickstream.com^
 ||px-cloud.net^
 ||hubspotonwebflow.com^
 ||prodregistryv2.org^

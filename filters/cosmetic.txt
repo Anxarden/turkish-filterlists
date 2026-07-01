@@ -100,6 +100,7 @@ yeniasir.com.tr##div.detail-subscribe
 yenisafak.com##a.ramadan-sponsor
 receive-sms-online.info##div#promo-bar
 predb.net##div.lambo-wrapper
+dizibal.com##div.banner-zone
 
 !-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
 ahaber.com.tr##div.announcement-widget:upward(div.col)
@@ -149,6 +150,7 @@ marketfiyati.org.tr##app-disclaimer
 ekonomim.com,internethaber.com##div.privacy-banner
 pttavm.com##div[class^='cookiebox_'i]
 medyascope.tv##div.elementor-popup-modal
+uploadrar.com##div#gdpr-cookie-notice
 
 !-/	Announcements, Notifications, Recommendations and Popups										 ~
 dogrulukpayi.com##div.seventh-year-section
