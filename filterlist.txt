@@ -197,7 +197,6 @@
 ||officertool.org^
 ||bookracy.org^
 ||zamunda.net^
-||gog-games.to^
 #- Dangerious Piracy Websites or Clones
 !-	windows & office activators [~massgrave.dev|~activated.win], [~mydigitallife.net]
 !-	z-library [~go-to-library.sk|~z-library.sk|~z-lib.fm|~z-lib.gs|~1lib.sk]
@@ -293,6 +292,7 @@
 ||tempboxpro.com^$document,reason=service-not-working
 ||torrentgalaxy.to^$document,reason=website-closed
 ||zenbe.com^$document,reason=service-closed
+||gog-games.to^$document,reason=website-closed
 #- Security Filters
 dyunos.com^$reason=tracking-keysrokes/ldplayer
 easyfun.gg^$reason=tracking-keysrokes/ldplayer
