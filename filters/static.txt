@@ -97,6 +97,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||nudieintice.com^
 ||agego.com^
 ||jhdnntmkom.com^
 ||perfops.net^
