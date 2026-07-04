@@ -1150,6 +1150,7 @@
 ||cortinaeaccoladed.xyz/js/$script,reason=video-player-scripts
 ||cdn.jsdelivr.net/gh/msalvatorius/gladio/$third-party,media,reason=video-ads
 ||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.1.12.js|$script,from=kimi.com,redirect-rule=noop.js
+||img.akamaicdn.work/ads/$third-party,image
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
