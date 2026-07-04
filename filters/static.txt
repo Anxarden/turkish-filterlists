@@ -98,6 +98,9 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||nudieintice.com^
+||datagrail.io^
+||sprig.com^
+||sagedatum.com^
 ||agego.com^
 ||jhdnntmkom.com^
 ||perfops.net^
@@ -838,10 +841,10 @@
 ||lkvkgk.levis.com.tr^
 ||vcegpu.libas.com.tr^
 ||sgtm.lingusta.com.tr^
-||ingress.linktr.ee^
 ||stats.live-video.net^
 ||cdn.livechatinc.com^
 ||track.livasoft.com.tr^
+||analytics.lua.tools^
 ||ad.mail.ru^
 ||media-stat.mail.ru^
 ||alt-ad.mail.ru^
@@ -920,6 +923,7 @@
 ||wa.ui-portal.de^
 ||b-cdn.posta.com.tr^
 ||pg.prima.com.tr^
+||api.producthunt.com^
 ||sgtm.pronet.com.tr^
 ||telemetry.protonvpn.com^
 ||smetrics.pwc.com.tr^
