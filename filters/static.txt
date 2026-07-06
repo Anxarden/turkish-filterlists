@@ -97,6 +97,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||alo-tech.com^
 ||cnzz.com^
 ||salesforceliveagent.com^
 ||2mdn.net^
