@@ -99,6 +99,8 @@
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||alo-tech.com^
 ||mindbehind.com^
+||tapfiliate.com^
+||clickcease.com^
 ||cnzz.com^
 ||salesforceliveagent.com^
 ||2mdn.net^
