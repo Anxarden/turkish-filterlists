@@ -97,12 +97,6 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
-||alo-tech.com^
-||mindbehind.com^
-||tapfiliate.com^
-||clickcease.com^
-||cnzz.com^
-||salesforceliveagent.com^
 ||2mdn.net^
 ||2o7.net^
 ||aboveaveragefinallycast.com^
@@ -137,6 +131,7 @@
 ||ai.net^
 ||ainsyndication.com^
 ||airbrake.io^
+||alo-tech.com^
 ||amplitude.com^
 ||amung.us^
 ||analixreklam.com^$third-party,domain=~with-subdomains
@@ -186,10 +181,12 @@
 ||chilipiper.com^
 ||cleantalk.org^
 ||clearbitjs.com^
+||clickcease.com^
 ||clickguard.com^
 ||clickiocmp.com^
 ||cloudfilt.com^
 ||cloudflareinsights.com^
+||cnzz.com^
 ||coinzillatag.com^
 ||cometinclosesecretion.com^
 ||concert.io^
@@ -367,6 +364,7 @@
 ||media-analytic.com^
 ||media.net^
 ||membrana.media^
+||mindbehind.com^
 ||missena.io^
 ||mixpanel.com^
 ||mob.com^
@@ -476,6 +474,7 @@
 ||rollbar.com^
 ||rybbit.com^
 ||sagedatum.com^
+||salesforceliveagent.com^
 ||sascdn.com^
 ||scorecardresearch.com^
 ||searchiq.co^
@@ -514,6 +513,7 @@
 ||solarcdn.me
 ||sonsurumapk.xyz^
 ||sprig.com^
+||stat.re^
 ||statbest.in^
 ||statcounter.com^$important
 ||statlytic.net^
@@ -527,6 +527,7 @@
 ||subservis.com^
 ||suphelper.xyz^
 ||taboola.com^
+||tapfiliate.com^
 ||tawk.to^
 ||team.blue^
 ||tedizmir.k12.tr^
