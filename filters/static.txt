@@ -828,6 +828,7 @@
 ||analytics.apps.com.tr^
 ||fb-analytics.apps.com.tr^
 ||sgtm.arcelik.com.tr^
+||athena.archive.org^
 ||swwcyk.aspor.com.tr^
 ||rowsrm.atasunoptik.com.tr^
 ||tag.atasunoptik.com.tr^
