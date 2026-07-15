@@ -97,6 +97,7 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||primis.tech^
 ||1worldonline.co^
 ||2mdn.net^
 ||2o7.net^
