@@ -1293,9 +1293,6 @@
 ||anizm.net/js/custom.js^$script
 ||anizmplayer.com/gmetrics/$script
 ||www.beymenclub.com/metrics/$script
-||cdn.jsdelivr.net/npm/devtools-detector^$script
-||cdn.jsdelivr.net/npm/disable-devtool^$script
-||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||chesscomfiles.com/uploads/ad_image/$image
 ||dizikral.club/cdn/*.gif^$image,xhr
 ||dizikralgiris.com/cdn/*.gif^$image,xhr
@@ -1337,8 +1334,12 @@
 ||tokvoy.com/js/dnsads.js^$script
 ||cortinaeaccoladed.xyz/js/$script,reason=video-player-scripts
 ||cdn.jsdelivr.net/gh/msalvatorius/gladio/$third-party,media,reason=video-ads
+||cdn.jsdelivr.net/npm/devtools-detector^$script
+||cdn.jsdelivr.net/npm/disable-devtool^$script
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
 ||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.1.12.js|$script,from=kimi.com,redirect-rule=noop.js
 ||img.akamaicdn.work/ads/$third-party,image
+||radio.garden/api/geo|$first-party,xhr
 #- Generic Paths Filters
 /advert/js/advert-public.js^$first-party,script,to=habervakti.com
 /common/js/adframe.js^$script,from=haber7.com
