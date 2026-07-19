@@ -248,6 +248,8 @@
 ||customer.io^
 ||customerly.io^$document,domain=~3rd-party-blocked
 ||customerly.io^$third-party
+||wargamings.net^$document,domain=~3rd-party-blocked
+||wargamings.net^$third-party
 ||cxense.com^
 ||cxpublic.com^
 ||databuddy.cc^
