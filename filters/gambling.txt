@@ -1060,7 +1060,6 @@
 ||ri-bba.org^
 ||ribba.org^
 ||richycashortaklik.com^
-||risegiris.click^
 ||roketaf.com^
 ||rokubet.com^
 ||rokubet.io^
@@ -1265,7 +1264,6 @@
 ||satispanel1.com^
 ||slotapp7.com^
 ||slotarena13.com^$domain=~link-hub
-||smartpanel10.online^
 ||tabloproject2.com^
 ||top100bonus.com^
 ||wlstrge33.pro^
