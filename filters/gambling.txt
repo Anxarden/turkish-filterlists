@@ -558,6 +558,7 @@
 ||yesilatlas.com^
 ||yogainmissoula.com^
 #- Gambling Networks, Affiliates and Redirect Links ~ General Filters
+||etkinlikdev.com^
 ||1win-turkey.org^
 ||1win.direct^
 ||1win.run^
@@ -1270,6 +1271,9 @@
 ||wlstrge33.pro^
 ||wlstrge35.pro^
 ||xaxnetwork2.com^
+||evetabi52.com^$domain=~gambling-site
+||meritqueen233.com^$domain=~gambling-site
+||bankagibi120.com^$domain=~gambling-site
 #- Other Redirect Sites & Gibberish 3th-Party Domains
 ||rb.gy^
 ||bcua.io^
@@ -1400,12 +1404,13 @@
 ||d56vh6ph4jjmq.cloudfront.net^
 ||dmtb43htzkr6a.cloudfront.net^
 ||golvar-org.cdn.ampproject.org^
-||katla.b-cdn.net^
 ||siteye-com-cdn-ampproject.org^
+||winxbets-net.cdn.ampproject.org^
+||katla.b-cdn.net^
+||anj-seal.b-cdn.net^
 ||vendor-provider.fra1.cdn.digitaloceanspaces.com^
 ||vendor-provider.fra1.digitaloceanspaces.com^
 ||wfzczjkgcdmvnpnhobwb.supabase.co^
-||winxbets-net.cdn.ampproject.org^
 #- Specific Path Blocking
 ||digitaloceanspaces.com/ebetlab/
 ||akamai-cloud.com/kingroyal/
@@ -1415,8 +1420,10 @@
 #- General Path Blocking
 /egtdigital/*.png^$third-party,image
 /livechat.ashx?siteid=$third-party,script
+/visitor.ashx?siteId=$third-party,xhr
+/campaign.ashx?siteId=$third-party,xhr
 #- Specific Asset Blocking
-||service.*/livechat.ashx^third-party,script
+||temp.*/placeholder.ext^third-party,media
 #- Hard Regexes
 !-/\b(?:\d+[a-z]*bet\d*|\d*[a-z]*bet\d+)\b/$all,to=/[a-z]?bet/
 !-/\b\d*bet(?!(?:t?a|ter|ween)\d*[a-z]*)[a-z]*\d*\b/$all,to=/bet[a-z]?/
