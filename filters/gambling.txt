@@ -400,6 +400,8 @@
 ||zbahis.com^$domain=~bahis-regexed
 ||zirvebet.com^$domain=~alpha-bet-digit
 #- Gambling Link Hubs ~ Portal Websites
+||betsnice.live^
+||betsnice.org^
 ||2025model.com^
 ||aanavandi.com^
 ||abegiris.com.tr^
@@ -805,7 +807,6 @@
 ||everymatrix.com^
 ||excelaffiliates.com^
 ||exelgame.com^
-||ext.ad^
 ||eyeleo.com^
 ||fairegir.com^
 ||fastgames-bog.com^
