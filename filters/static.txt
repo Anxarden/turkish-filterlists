@@ -1244,7 +1244,6 @@
 ||api.weglot.com^
 ||countly.wellbees.com.tr^
 ||matomo.whvn.cc^
-||intake-analytics.wikimedia.org^
 ||distillery.wistia.com^
 ||pipedream.wistia.com^
 ||csp.withgoogle.com^
