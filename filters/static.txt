@@ -97,6 +97,8 @@
 !-/	Fake Download Button Anchors
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
+||joesojwvykmdi.com^
+||rdipmrbwgvk.com^
 ||supert.ag^
 ||primis.tech^
 ||1worldonline.co^
