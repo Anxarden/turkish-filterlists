@@ -244,6 +244,7 @@ simkl.com##div.blockplace
 smsonline.cloud##aside[data-nosnippet]
 trakt.tv##trakt-get-vip-link
 trakt.tv##trakt-render-for:has(div.trakt-vip-upsell)
+letterboxd.com##div.banner:has(>a[href^="/pro/"])
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
