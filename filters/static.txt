@@ -99,6 +99,9 @@
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||joesojwvykmdi.com^
 ||bytebrew.io^
+||commentsmodule.com^
+||vkcdnservice.com^
+||xiti.com^
 ||rdipmrbwgvk.com^
 ||supert.ag^
 ||primis.tech^
@@ -1012,6 +1015,7 @@
 ||analytics.ipekyol.com.tr^
 ||sgtm.ipekyol.com.tr^
 ||analytics.ipekyolco.com.tr^
+||stats.itsfoss.com^
 ||gtmdev.jabra.com.tr^
 ||kgguwk.jeep.com.tr^
 ||wpi.jscrambler.com^
