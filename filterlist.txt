@@ -309,4 +309,4 @@
 ||ldshop.gg^$reason=tracking-keysrokes/ldplayer
 ||ldyuncs.com^$reason=tracking-keysrokes/ldplayer
 ||oslink.io^$reason=tracking-keysrokes/ldplayer
-||nightcord.st^$reason=logging-tokens/nightcord/discord-mod
+||nightcord.st^$reason=logging-tokens/discord-mod/nightcord
