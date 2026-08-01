@@ -101,6 +101,7 @@ yenisafak.com##a.ramadan-sponsor
 receive-sms-online.info##div#promo-bar
 predb.net##div.lambo-wrapper
 dizibal.com##div.banner-zone
+vivaturkiye.eu##div.headadver
 
 !-/ Advers Cosmetic Filterlist | Advanced - ("example.tld##element+attribute>paths:pseudo")
 ahaber.com.tr##div.announcement-widget:upward(div.col)
@@ -141,6 +142,7 @@ repack.me##main>div.container{margin-top:unset !important;}
 filmmodu.ws,filmmodu.nl##nav.navbar{margin-top:unset !important;}
 delugerpg.com##div#del_header{height:unset !important;}
 trakt.tv##div.trakt-profile-details{--details-column-count:unset !important;}
+vivaturkiye.eu##body{overflow:auto !important;}
 
 !-/	Cookie Banners and Privacy Disclaimers	 														 ~
 deepl.com##div[data-testid="dl-cookiebanner"i]
@@ -255,6 +257,10 @@ deepl.com##nav[aria-label="footer"i]
 ekonomim.com##footer
 vsetop.org##div#footer
 tureng.com##footer
+
+#- Random Annoyances Collection
+!- hide email autocomplete dropdown when logging in.
+arcelik.com.tr##div.email-autocomplete
 
 #----------------------------------------------------------------------------------------------------#
 #- Website by Website ADs and Annoyances Section for Easy Maintainance
