@@ -202,20 +202,23 @@ ekonomim.com##div.social-share-wrapper
 gazeteoku.com##div.footer-content
 
 !-/ Premium Subscriptions, Discounts and Promotions													 ~
-deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
 balkaninsight.com##img[src$="/banner-premium-plus-package.png"]:upward(section)
 chatgpt.com##button[data-trailing-button]:upward(div.trailing)
 chatgpt.com##svg.lucide-sparkle:upward(div[role=menuitem])
 chess.com##div#trial-modal
 colordesigner.io##div.aa-container:has(div.alternative-ad)
 colordesigner.io##main>section[class$=-update-to-pro]
-usersdrive.com##div.download~div.content:has(div.pro)
 deepl.com##a[data-testid="start-free-trial-button"]:upward(span)
 deepl.com##div.items-start:has(a[href="/pro"])
+deepl.com##div[data-testid="translator"]>div:not([data-layout-id])
+freephone.io##a.fp-block[href$="/private-numbers"]
+freephone.io##div.fp-items-stretch:has(a[href$="/private-numbers"])
 hacksnation.com##div#adblock-overlay
+imgchest.com##a[href="/support"]:upward(main>div)
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
 justwatch.com##div.account-modal-content div.pro-web-button
+letterboxd.com##div.banner:has(>a[href^="/pro/"])
 mediafire.com##button[aria-label^="upgrade"i]:upward(div)
 mediafire.com##div[aria-label="advertisement"i]
 mediafire.com##div[class="storageupsell-buttons"i]>:not(button)
@@ -223,28 +226,25 @@ mediafire.com##div[dir]:has-text(/^upgrade$/i)
 mediafire.com##iframe[src$="/premium_trial.php"]:upward(body>div)
 mediafire.com##iframe[src$="/sidebar_promo.php"]
 mediafire.com##iframe[src$="/upgrade_button.php"]
+medyascope.tv##div.tag-list+div.elementor-widget-template
+medyascope.tv##footer>section.podcast
 mega.nz##div.upgrade-to-pro-dialog
+pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
 pixlr.com##a.button[href^="/pricing/#"]:upward(div)
 pixlr.com##div#head-premium
 pixlr.com##div[id$=-discount-banner]
 pixlr.com##section.upsell
+simkl.com##div.blockplace
+smsonline.cloud##aside[data-nosnippet]
 teyit.org##a#side-banner
 teyit.org##img.side-banner-img
 torbox.app##button:has(>p):has-text(/^try.torbox.pro!/i)
-yandex.com##a[aria-label="upgrade plan"i]:upward(div)
-pixeldrain.com##a[href="/user/prepaid/deposit"]:upward(div.file_preview>div)
-imgchest.com##a[href="/support"]:upward(main>div)
-freephone.io##div.fp-items-stretch:has(a[href$="/private-numbers"])
-freephone.io##a.fp-block[href$="/private-numbers"]
-tureng.com##div.neo-page
-tureng.com##li:has(svg.lucide-sparkles)
-medyascope.tv##footer>section.podcast
-medyascope.tv##div.tag-list+div.elementor-widget-template
-simkl.com##div.blockplace
-smsonline.cloud##aside[data-nosnippet]
 trakt.tv##trakt-get-vip-link
 trakt.tv##trakt-render-for:has(div.trakt-vip-upsell)
-letterboxd.com##div.banner:has(>a[href^="/pro/"])
+tureng.com##div.neo-page
+tureng.com##li:has(svg.lucide-sparkles)
+usersdrive.com##div.download~div.content:has(div.pro)
+yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 
 !-/ Empty Spaces
 mail.yandex.*##div[class$=-banner-portal]+div:has(div[id]:empty)
