@@ -220,6 +220,8 @@ imgchest.com##a[href="/support"]:upward(main>div)
 inbox.lt##div.modal-backdrop
 inbox.lt##div[id^=mailplus-promo_]
 justwatch.com##div.account-modal-content div.pro-web-button
+katfile.biz##a[href$="=payments"]:upward(div[class$="-emo-banner"])
+katfile.biz##a[href$="=payments"]:upward(div[style*="z-index:"])
 letterboxd.com##div.banner:has(>a[href^="/pro/"])
 mediafire.com##button[aria-label^="upgrade"i]:upward(div)
 mediafire.com##div[aria-label="advertisement"i]

@@ -99,6 +99,7 @@
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||joesojwvykmdi.com^
 ||bytebrew.io^
+||pikeberth.com^
 ||commentsmodule.com^
 ||vkcdnservice.com^
 ||xiti.com^
