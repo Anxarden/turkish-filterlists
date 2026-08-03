@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/anxarden/turkish-filterlists/
 ! Author: Anxarden
 ! Description: Türkçe içerikli ve/veya arayüzlü internet sitelerindeki olumsuz unsurlardan temel düzeyde sakınmayı sağlar.
-! Last modified: 2026.08.02
+! Last modified: 2026.08.03
 ! Expires: 24 hours
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------!
@@ -108,16 +108,12 @@
 ||avg.com^
 ||avira.com^
 ||betternet.co^
-||bitcomet.com^
-||bitlord.com^
-||bittorrent.com^
 ||brightvpn.com^
 ||ccleaner.com^
 ||ccleanercloud.com^
 ||cyberghostvpn.com^
 ||dotvpn.com^
 ||expressvpn.com^
-||frostwire.com^
 ||gendigital.com^
 ||goosevpn.com^
 ||gshade.org^
@@ -162,7 +158,6 @@
 ||turbovpn.com^
 ||ufovpn.io^
 ||ultravpn.com^
-||utorrent.com^$reason=adware-risk/use-other-clients
 ||vpn360.com^
 ||vpnhub.com^
 ||vpnpro.com^
@@ -263,18 +258,19 @@
 ||rvx.to^
 ||rvxapp.com^
 ||singlelogin.cc^$reason=fake-clone/zlibrary
-||z-library.co^$reason=fake-clone/zlibrary
 ||z-library.bz^$reason=fake-clone/zlibrary
+||z-library.co^$reason=fake-clone/zlibrary
 ||z-library.im^$reason=fake-clone/zlibrary
-||annas-archive.su^$reason=fake-clone/annas-archive
 ||annas-archive.io^$reason=fake-clone/annas-archive
-||yify.sc^$reason=fake-clone/yts-movies~yts.am
-||yts-official.biz^$reason=fake-clone/yts-movies~yts.am
-||yts-official.to^$reason=fake-clone/yts-movies~yts.am
-||yts.cool^$reason=fake-clone/yts-movies~yts.am
-||yts.lu^$reason=fake-clone/yts-movies~yts.am
-||ytsfree.com^$reason=fake-clone/yts-movies~yts.am
-||ytsyify.info^$reason=fake-clone/yts-movies~yts.am
+||annas-archive.su^$reason=fake-clone/annas-archive
+||yify.sc^$reason=fake-clone/yts-movies
+||yts-official.biz^$reason=fake-clone/yts-movies
+||yts-official.to^$reason=fake-clone/yts-movies
+||yts.cool^$reason=fake-clone/yts-movies
+||yts.lu^$reason=fake-clone/yts-movies
+||ytsfree.com^$reason=fake-clone/yts-movies
+||ytsyify.info^$reason=fake-clone/yts-movies
+||limewire.fyi^$reason=fake-clone/limewire
 #- Deprecated Websites
 ||cloaked.com^$document,reason=no-free-tier
 ||dizipal.info^$document,reason=unfulfilled-promise
@@ -309,4 +305,9 @@
 ||ldshop.gg^$reason=tracking-keysrokes/ldplayer
 ||ldyuncs.com^$reason=tracking-keysrokes/ldplayer
 ||oslink.io^$reason=tracking-keysrokes/ldplayer
-||nightcord.st^$reason=logging-tokens/discord-mod/nightcord
+||nightcord.st^$reason=logging-tokens/discord-mod
+||frostwire.com^$reason=adware-risk/torrent-client
+||utorrent.com$reason=adware-risk/torrent-client
+||bitcomet.com^$reason=adware-risk/torrent-client
+||bitlord.com^$reason=adware-risk/torrent-client
+||bittorrent.com^$reason=adware-risk/torrent-client
