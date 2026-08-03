@@ -248,6 +248,9 @@ trakt.tv##trakt-render-for:has(div.trakt-vip-upsell)
 tureng.com##div.neo-page
 tureng.com##li:has(svg.lucide-sparkles)
 usersdrive.com##div.download~div.content:has(div.pro)
+webtor.io##a[data-umami-event="donate-download"]
+webtor.io##div.promo-compact
+webtor.io##section>div:has(>div#promo-banner)
 yandex.com##a[aria-label="upgrade plan"i]:upward(div)
 
 !-/ Empty Spaces

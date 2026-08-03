@@ -128,7 +128,6 @@
 ||kaspersky-labs.com^
 ||kaspersky.com^
 ||lastpass.com^
-||limewire.com^
 ||mcafee.com^
 ||mediaget.com^
 ||nordpass.com^
@@ -270,6 +269,7 @@
 ||yts.lu^$reason=fake-clone/yts-movies
 ||ytsfree.com^$reason=fake-clone/yts-movies
 ||ytsyify.info^$reason=fake-clone/yts-movies
+||limewire.com^$reason=fake-clone/limewire
 ||limewire.fyi^$reason=fake-clone/limewire
 #- Deprecated Websites
 ||cloaked.com^$document,reason=no-free-tier
