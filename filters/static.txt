@@ -98,6 +98,7 @@
 ||sanguinelygloballybuzzer.com^
 #-/ Domain Blacklist @ Websites ~ [Advert, Privacy and Dumplist]
 ||joesojwvykmdi.com^
+||vdvefaheagcdd.space^
 ||bytebrew.io^
 ||pikeberth.com^
 ||commentsmodule.com^
@@ -823,6 +824,8 @@
 ||analytics.aldoshoes.com.tr^
 ||rum.aliyuncs.com^
 ||metric.allianz.com.tr^
+||xxid.atl-paas.net^
+||xp.atlassian.com^
 ||advertising-api-eu.amazon.com^
 ||advertising.amazon.com.tr^
 ||advertising.amazon.com^
@@ -928,6 +931,7 @@
 ||metrics.egencia.com.tr^
 ||reklam.emlakkulisi.com^
 ||collect.emlakkonut.com.tr^
+||ping.emojitracker.com^
 ||analitik.enerji.gov.tr^
 ||ph.ente.io^
 ||api-stg.ensonhaber.com^

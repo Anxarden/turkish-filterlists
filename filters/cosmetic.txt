@@ -5,7 +5,7 @@
 #- ADs, Advert Related Content and Malware Security
 #----------------------------------------------------------------------------------------------------#
 !-/ Adverts Cosmetic Filterlist | Basics - ("example.tld##element+attribute")
-/^dizipal\d{4}\.com$/,kschool1.com##a.embed-text-banner
+/^dizipal\d{4}\.com$/,rondbit.com##a.embed-text-banner
 ahaber.com.tr##div.detail-google-news
 ahaber.com.tr##div.membrana-content
 ahaber.com.tr##div[class~="adcontrol"i]
@@ -156,15 +156,15 @@ medyascope.tv##div.elementor-popup-modal
 uploadrar.com##div#gdpr-cookie-notice
 
 !-/	Announcements, Notifications, Recommendations and Popups										 ~
+ahaber.com.tr##section.download-apps-section
+birgun.net##div#adblocker
+birgun.net##div#getpermission
+birgun.net##div[id~="appbanner"i]
 dogrulukpayi.com##div.seventh-year-section
+ekonomim.com##div.newsletter-widget
+freephone.io##div[x-show="alert"]
 sabah.com.tr##div[class="notbar"i]
 teyit.org##a.inpost-related
-ekonomim.com##div.newsletter-widget
-birgun.net##div#getpermission
-birgun.net##div#adblocker
-birgun.net##div[id~="appbanner"i]
-freephone.io##div[x-show="alert"]
-ahaber.com.tr##section.download-apps-section
 
 !-/ Social Networks and Content Share Widgets														 ~
 teyit.org##div.share-bar
@@ -264,6 +264,8 @@ vsetop.org##div#footer
 tureng.com##footer
 
 #- Random Annoyances Collection
+!- mobile application banner
+akakce.com##astro-island[component-url*="/appbanner."i]
 !- hide email autocomplete dropdown when logging in.
 arcelik.com.tr##div.email-autocomplete
 
